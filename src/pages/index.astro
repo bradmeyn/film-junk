@@ -1,9 +1,9 @@
 ---
-import Layout from '../layouts/Layout.astro';
-import ListenLinks from '../components/ListenLinks.astro';
-import EpisodeRow from '../components/EpisodeRow.astro';
-import Stars from '../components/Stars.astro';
-import Icon from '../components/Icon.astro';
+import Layout from '../layouts/layout.astro';
+import ListenLinks from '../components/listen-links.astro';
+import EpisodeRow from '../components/episode-row.astro';
+import Stars from '../components/stars.astro';
+import Icon from '../components/icon.astro';
 import { episodeArt, episodes, episodeHref, episodeLabel, formatDate, films, hostHref, HOSTS, LINKS, meta, posterUrl } from '../lib/data';
 
 const latest = episodes.find((e) => e.kind === 'regular')!;

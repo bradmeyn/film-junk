@@ -1,6 +1,6 @@
 ---
-import Layout from '../../layouts/Layout.astro';
-import EpisodeBrowser, { type Item } from '../../components/EpisodeBrowser.svelte';
+import Layout from '../../layouts/layout.astro';
+import EpisodeBrowser, { type Item } from '../../components/episode-browser.svelte';
 import { averageRating, episodes, meta, years } from '../../lib/data';
 
 const items: Item[] = episodes.map((e) => ({

@@ -1,0 +1,383 @@
+---
+import Layout from '../../layouts/layout.astro';
+import Stars from '../../components/stars.astro';
+import { HOSTS, episodeHref, episodeLabel, episodes, filmBySlug, formatDate, hostHref, posterUrl } from '../../lib/data';
+
+// Every review where at least one host gave 4.5 stars or more. The filters below
+// narrow it down in the browser; the full list is small enough to render up front.
+const toFive = (score: number, outOf: number) => (score / outOf) * 5;
+
+const items = episodes
+	.flatMap((e) =>
+		(e.reviews ?? []).map((review) => {
+			const scores = review.ratings.map((r) => toFive(r.score, r.outOf));
+			return { e, review, scores, film: review.film ? filmBySlug.get(review.film) : undefined };
+		}),
+	)
+	.filter(({ scores }) => scores.some((s) => s >= 4.5))
+	.map((item) => {
+		// "6 out of 5" counts as 5 in the average, as everywhere else on the site.
+		const capped = item.scores.map((s) => Math.min(5, s));
+		const average = capped.reduce((a, b) => a + b, 0) / capped.length;
+		return { ...item, average, unanimous: item.scores.length >= 2 && item.scores.every((s) => s >= 4.5) };
+	})
+	.sort((a, b) => b.average - a.average || b.e.date.localeCompare(a.e.date));
+
+const years = [...new Set(items.map((i) => i.e.date.slice(0, 4)))].sort().reverse();
+
+const TIERS = [
+	['6', '6 out of 5'],
+	['5', '5 stars'],
+	['4.5', '4.5 and up'],
+	['unanimous', 'Unanimous'],
+] as const;
+
+const counts = {
+	six: items.filter((i) => i.scores.some((s) => s > 5)).length,
+	five: items.filter((i) => i.scores.some((s) => s >= 5)).length,
+};
+---
+
+<Layout title="Top rated films" description="Every film the Film Junk hosts gave 5 stars, or 6 out of 5, filterable by host and year.">
+	<div class="wrap">
+		<p class="crumb"><a href="/films/">Films</a></p>
+		<h1>Top rated</h1>
+		<p class="muted intro">
+			{counts.five} reviews got 5 stars from at least one host, and {counts.six} went off the scale with 6 out of 5. Pick a host to see
+			their favourites.
+		</p>
+
+		<form class="filters" id="filters">
+			<fieldset>
+				<legend>Rating</legend>
+				<div class="segmented">
+					{
+						TIERS.map(([value, label]) => (
+							<label>
+								<input type="radio" name="tier" value={value} checked={value === '5'} />
+								{label}
+							</label>
+						))
+					}
+				</div>
+			</fieldset>
+			<label>
+				<span>Rated by</span>
+				<select name="host">
+					<option value="">Any host</option>
+					{HOSTS.map((h) => <option value={h.key}>{h.key}</option>)}
+				</select>
+			</label>
+			<label>
+				<span>Year</span>
+				<select name="year">
+					<option value="">Any year</option>
+					{years.map((y) => <option value={y}>{y}</option>)}
+				</select>
+			</label>
+			<label>
+				<span>Sort</span>
+				<select name="sort">
+					<option value="top">Highest rated</option>
+					<option value="newest">Newest first</option>
+					<option value="oldest">Oldest first</option>
+				</select>
+			</label>
+		</form>
+
+		<p class="count muted" aria-live="polite"><span id="count"></span></p>
+		<p class="empty" id="empty" hidden>Nothing matches. Try another host or year, or a lower rating.</p>
+
+		<ol class="grid" id="grid">
+			{
+				items.map(({ e, review, film, average, unanimous }) => {
+					const poster = posterUrl(film?.poster, 'w154');
+					const title = film?.title ?? review.title;
+					const year = film?.year ?? review.year;
+					const scores = Object.fromEntries(review.ratings.map((r) => [r.host, toFive(r.score, r.outOf)]));
+					return (
+						<li
+							data-year={e.date.slice(0, 4)}
+							data-date={e.date}
+							data-average={average.toFixed(3)}
+							data-unanimous={unanimous ? '' : undefined}
+							data-scores={JSON.stringify(scores)}
+						>
+							<div class="poster">
+								{poster ? <img src={poster} alt="" width="154" height="231" loading="lazy" /> : <span aria-hidden="true">{title.slice(0, 1)}</span>}
+							</div>
+							<div class="body">
+								<h2>
+									{film ? <a href={`/films/${film.slug}/`}>{title}</a> : title}
+									{year && <span class="muted"> ({year})</span>}
+								</h2>
+								<a class="ep muted" href={episodeHref(e)}>
+									{episodeLabel(e)}, {formatDate(e.date, e.dateApprox)}
+								</a>
+								<ul class="ratings">
+									{review.ratings.map((r) => {
+										const href = hostHref(r.host);
+										return (
+											<li data-host={r.host}>
+												{href ? <a href={href}>{r.host}</a> : <span>{r.host}</span>}
+												<Stars score={r.score} outOf={r.outOf} label={r.host} />
+											</li>
+										);
+									})}
+								</ul>
+							</div>
+						</li>
+					);
+				})
+			}
+		</ol>
+	</div>
+</Layout>
+
+<script>
+	const form = document.getElementById('filters') as HTMLFormElement;
+	const grid = document.getElementById('grid') as HTMLOListElement;
+	const count = document.getElementById('count')!;
+	const empty = document.getElementById('empty')!;
+	const cards = [...grid.children] as HTMLLIElement[];
+	const data = new Map(cards.map((li) => [li, JSON.parse(li.dataset.scores!) as Record<string, number>]));
+	const DEFAULTS: Record<string, string> = { tier: '5', host: '', year: '', sort: 'top' };
+
+	// Restore filters from the URL so a filtered view can be shared.
+	const params = new URLSearchParams(location.search);
+	for (const [name, fallback] of Object.entries(DEFAULTS)) {
+		const value = params.get(name) ?? fallback;
+		const field = form.elements.namedItem(name);
+		if (field instanceof RadioNodeList || field instanceof HTMLSelectElement) field.value = value;
+	}
+
+	function passes(score: number, tier: string) {
+		if (tier === '6') return score > 5;
+		return score >= +tier;
+	}
+
+	function update() {
+		const values = Object.fromEntries(new FormData(form)) as Record<string, string>;
+		const { tier, host, year, sort } = values;
+		let shown = 0;
+		for (const li of cards) {
+			const scores = data.get(li)!;
+			const list = host ? (host in scores ? [scores[host]] : []) : Object.values(scores);
+			const ok =
+				(!year || li.dataset.year === year) &&
+				(tier === 'unanimous' ? 'unanimous' in li.dataset && list.length > 0 : list.some((s) => passes(s, tier)));
+			li.hidden = !ok;
+			// Highlight the chosen host's rating on each card.
+			for (const row of li.querySelectorAll<HTMLElement>('[data-host]')) row.classList.toggle('picked', row.dataset.host === host);
+			if (ok) shown++;
+		}
+
+		const sorted = [...cards].sort((a, b) => {
+			if (sort === 'newest') return b.dataset.date!.localeCompare(a.dataset.date!);
+			if (sort === 'oldest') return a.dataset.date!.localeCompare(b.dataset.date!);
+			const byHost = host ? (data.get(b)![host] ?? 0) - (data.get(a)![host] ?? 0) : 0;
+			return byHost || +b.dataset.average! - +a.dataset.average! || b.dataset.date!.localeCompare(a.dataset.date!);
+		});
+		grid.append(...sorted);
+
+		count.textContent = `${shown.toLocaleString()} review${shown === 1 ? '' : 's'}`;
+		empty.hidden = shown > 0;
+
+		const url = new URLSearchParams();
+		for (const [name, value] of Object.entries(values)) if (value !== DEFAULTS[name]) url.set(name, value);
+		history.replaceState(null, '', url.size ? `?${url}` : location.pathname);
+	}
+
+	form.addEventListener('change', update);
+	form.addEventListener('submit', (event) => event.preventDefault());
+	update();
+</script>
+
+<style>
+	.crumb {
+		margin: 0 0 0.25rem;
+		font-size: var(--step--1);
+	}
+
+	.intro {
+		max-width: 60ch;
+	}
+
+	.filters {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.75rem 1rem;
+		align-items: end;
+		margin-top: 1.5rem;
+		padding: 1rem;
+		background: var(--surface);
+		border: 1px solid var(--line);
+		border-radius: 0.6rem;
+	}
+
+	.filters > label {
+		display: grid;
+		gap: 0.25rem;
+	}
+
+	.filters label > span,
+	legend {
+		font-size: var(--step--1);
+		font-weight: 600;
+		color: var(--muted);
+	}
+
+	select {
+		font: inherit;
+		padding: 0.5rem 0.6rem;
+		border: 1px solid var(--line);
+		border-radius: 0.4rem;
+		background: var(--bg);
+		color: var(--ink);
+		min-height: 2.5rem;
+	}
+
+	fieldset {
+		border: 0;
+		padding: 0;
+		margin: 0;
+		min-width: 0;
+	}
+
+	legend {
+		padding: 0;
+		margin-bottom: 0.25rem;
+	}
+
+	.segmented {
+		display: flex;
+		flex-wrap: wrap;
+		border: 1px solid var(--line);
+		border-radius: 0.4rem;
+		overflow: hidden;
+	}
+
+	.segmented label {
+		padding: 0.5rem 0.75rem;
+		cursor: pointer;
+		font-size: var(--step--1);
+		font-weight: 600;
+		background: var(--bg);
+	}
+
+	.segmented label + label {
+		border-left: 1px solid var(--line);
+	}
+
+	.segmented label:has(input:checked) {
+		background: var(--ink);
+		color: var(--bg);
+	}
+
+	.segmented label:has(input:focus-visible) {
+		outline: 3px solid var(--focus);
+		outline-offset: -3px;
+	}
+
+	.segmented input {
+		position: absolute;
+		opacity: 0;
+		pointer-events: none;
+	}
+
+	.count {
+		margin: 1.25rem 0 0.75rem;
+	}
+
+	.grid {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+		display: grid;
+		grid-template-columns: repeat(auto-fill, minmax(min(100%, 20rem), 1fr));
+		gap: 0.75rem;
+	}
+
+	.grid > li {
+		display: grid;
+		grid-template-columns: 5.5rem 1fr;
+		gap: 0.9rem;
+		padding: 0.75rem;
+		background: var(--surface);
+		border: 1px solid var(--line);
+		border-radius: 0.6rem;
+	}
+
+	.grid > li[hidden] {
+		display: none;
+	}
+
+	.poster {
+		aspect-ratio: 2 / 3;
+		border-radius: 0.3rem;
+		overflow: hidden;
+		background: var(--line);
+		display: grid;
+		place-items: center;
+		font-size: 2rem;
+		font-weight: 800;
+		color: var(--muted);
+	}
+
+	.poster img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		display: block;
+	}
+
+	.body {
+		min-width: 0;
+	}
+
+	h2 {
+		font-size: var(--step-0);
+		margin: 0;
+		line-height: 1.3;
+	}
+
+	h2 a {
+		text-decoration: none;
+	}
+
+	h2 a:hover {
+		text-decoration: underline;
+	}
+
+	.ep {
+		display: block;
+		margin-top: 0.15rem;
+		font-size: var(--step--1);
+	}
+
+	.ratings {
+		list-style: none;
+		padding: 0;
+		margin: 0.5rem 0 0;
+		display: grid;
+		gap: 0.1rem;
+		font-size: var(--step--1);
+	}
+
+	.ratings li {
+		display: flex;
+		justify-content: space-between;
+		gap: 0.5rem;
+		padding: 0.1rem 0.35rem;
+		border-radius: 0.25rem;
+	}
+
+	.ratings li.picked {
+		background: color-mix(in srgb, var(--accent) 14%, transparent);
+		font-weight: 700;
+	}
+
+	.ratings a {
+		color: inherit;
+	}
+</style>

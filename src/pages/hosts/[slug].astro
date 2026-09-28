@@ -1,8 +1,8 @@
 ---
-import Layout from '../../layouts/Layout.astro';
-import Icon from '../../components/Icon.astro';
-import RatingChart from '../../components/RatingChart.astro';
-import Stars from '../../components/Stars.astro';
+import Layout from '../../layouts/layout.astro';
+import Icon from '../../components/icon.astro';
+import RatingChart from '../../components/rating-chart.astro';
+import Stars from '../../components/stars.astro';
 import { episodes, episodeHref, filmBySlug, filmHref, formatDate, HOSTS, posterUrl, type Episode } from '../../lib/data';
 
 export function getStaticPaths() {
@@ -170,7 +170,7 @@ const fmt = (n: number) => n.toFixed(1);
 
 		<section>
 			<h2>Perfect scores</h2>
-			<p class="muted note">Every film {first} gave full marks, newest first.</p>
+			<p class="muted note">Every film {first} gave full marks, newest first. <a href={`/films/top-rated/?host=${host.key}`}>Filter by year</a></p>
 			<ul class="chips">
 				{
 					perfect.map((s) => {

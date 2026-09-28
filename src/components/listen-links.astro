@@ -1,5 +1,5 @@
 ---
-import Icon from './Icon.astro';
+import Icon from './icon.astro';
 import { LINKS, type Episode } from '../lib/data';
 
 interface Props {
@@ -15,23 +15,16 @@ const gumroadOnly = l.gumroad && !hasFree;
 
 <div class="links">
 	{
-		l.libsyn && (
-			<a class="button primary" href={l.libsyn}>
-				<Icon name="play" /> Listen
-			</a>
-		)
-	}
-	{
 		// Without Spotify API keys there's no per-episode link, so free-feed episodes link the show.
-		(l.spotify || (l.libsyn || l.apple)) && (
+		hasFree && (
 			<a class="button spotify" href={l.spotify ?? LINKS.spotify}>
 				<Icon name="spotify" /> Spotify
 			</a>
 		)
 	}
 	{
-		l.apple && (
-			<a class="button" href={l.apple}>
+		hasFree && (
+			<a class="button" href={l.apple ?? LINKS.apple}>
 				<Icon name="apple" /> Apple Podcasts
 			</a>
 		)

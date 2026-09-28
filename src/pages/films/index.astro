@@ -1,6 +1,6 @@
 ---
-import Layout from '../../layouts/Layout.astro';
-import FilmSearch from '../../components/FilmSearch.svelte';
+import Layout from '../../layouts/layout.astro';
+import FilmSearch from '../../components/film-search.svelte';
 import { films } from '../../lib/data';
 
 const reviewCount = (f: (typeof films)[number]) => f.appearances.filter((a) => a.role !== 'watched').length;
@@ -18,7 +18,7 @@ const mostMentioned = films
 	<div class="wrap">
 		<h1>Films</h1>
 		<p class="muted intro">
-			Every film and show that was reviewed or came up in "what we watched", {films.length.toLocaleString()} in total.
+			Every film and show that was reviewed or came up in "what we watched", {films.length.toLocaleString()} in total. Or browse the <a href="/films/top-rated/">top rated</a>, every 5 and 6 star review.
 		</p>
 		<div class="search">
 			<FilmSearch client:load limit={40} />
