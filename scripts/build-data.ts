@@ -1,17 +1,48 @@
 // Parses the raw sources in data/raw into src/data/*.json for the site.
-// Usage: node scripts/build-data.mjs
+// Usage: node scripts/build-data.ts
 import { readFileSync, readdirSync, writeFileSync, mkdirSync, existsSync } from 'node:fs';
-import { normalizeGuide, decode } from './lib/normalize.mjs';
+import { normalizeGuide, decode } from './lib/normalize.ts';
+import type {
+	Episode,
+	Film,
+	Mention,
+	Meta,
+	Pack,
+	Rating,
+	Review,
+	ScheduleMonth,
+	TmdbCache,
+	TmdbMatch,
+	YearEndLists,
+} from '../src/lib/types.ts';
+
+// An episode while it's being assembled from the guides, wiki and feed.
+type Draft = {
+	number: number | null;
+	part?: number | null;
+	date: string | null;
+	dateApprox?: boolean;
+	kind: 'regular' | 'bonus';
+	link?: string;
+	bonusTitle?: string;
+	reviews: Review[];
+	watched: Mention[];
+	segments: { label: string; items: string[] }[];
+	music: { intro?: string; outro?: string };
+	guideNotes: string[];
+	description?: string;
+	source: 'guide' | 'wiki' | 'rss';
+};
 
 const RAW = 'data/raw';
 const OUT = 'src/data';
-const read = (p) => readFileSync(`${RAW}/${p}`, 'utf8');
+const read = (p: string) => readFileSync(`${RAW}/${p}`, 'utf8');
 
 // ---------------------------------------------------------------- helpers
 
 const MONTHS = ['jan', 'feb', 'mar', 'apr', 'may', 'jun', 'jul', 'aug', 'sep', 'oct', 'nov', 'dec'];
 
-function parseDate(s) {
+function parseDate(s: string | null | undefined): string | null {
 	if (!s) return null;
 	let m = s.match(/([A-Za-z]{3})[a-z]*\.?\s+(\d{1,2})(?:st|nd|rd|th)?,?\s+(\d{4})/);
 	if (m) return iso(m[3], MONTHS.indexOf(m[1].toLowerCase()), m[2]);
@@ -20,15 +51,15 @@ function parseDate(s) {
 	return null;
 }
 
-function iso(y, monthIndex, d) {
+function iso(y: string, monthIndex: number, d: string): string | null {
 	if (monthIndex < 0) return null;
 	return `${y}-${String(monthIndex + 1).padStart(2, '0')}-${String(d).padStart(2, '0')}`;
 }
 
-export function slugify(s) {
+export function slugify(s: string): string {
 	return s
 		.normalize('NFKD')
-		.replace(/[̀-ͯ]/g, '')
+		.replace(/[\u0300-\u036f]/g, '')
 		.toLowerCase()
 		.replace(/&/g, ' and ')
 		.replace(/['’]/g, '')
@@ -37,12 +68,15 @@ export function slugify(s) {
 }
 
 // "Leviathan (2015)" -> { title: "Leviathan", year: 2015 }
-function splitYear(title) {
+function splitYear(title: string): { title: string; year: number | null } {
 	const m = title.match(/^(.*?)\s*\((\d{4})\)\s*$/);
 	return m ? { title: m[1].trim(), year: +m[2] } : { title: title.trim(), year: null };
 }
 
-function cleanTitle(s) {
+// A mention ("what we watched") before it's linked to a film page.
+const mention = (title: string): Mention => ({ ...splitYear(title), film: null });
+
+function cleanTitle(s: string): string {
 	return s
 		.replace(/\s+/g, ' ')
 		.replace(/\s+([:,])/g, '$1')
@@ -50,7 +84,7 @@ function cleanTitle(s) {
 		.trim();
 }
 
-function stripHtml(s) {
+function stripHtml(s: string): string {
 	return decode(
 		s
 			.replace(/<br\s*\/?>|<\/p>/g, '\n')
@@ -78,12 +112,12 @@ const CHROME = new Set([
 	'|',
 	'',
 ]);
-const SECTION_ALIASES = { Features: 'Feature', 'Hot Topics': 'Hot Topic', 'In The News': 'Headlines' };
+const SECTION_ALIASES: Record<string, string> = { Features: 'Feature', 'Hot Topics': 'Hot Topic', 'In The News': 'Headlines' };
 const REVIEW_SECTIONS = /^(movie )?reviews?$|^film junk re-review$|^(tiff|hot docs) reviews$/i;
 const WATCHED_SECTIONS = /^(other stuff we watched|what we watched( this week)?|other stuff)$/i;
 
-function parseRatings(s) {
-	const ratings = [];
+function parseRatings(s: string): Rating[] {
+	const ratings: Rating[] = [];
 	for (const m of s.matchAll(/([A-Z][A-Za-z.'&]*(?: [A-Z][A-Za-z.']*)?)\s*:\s*([★½☆]+)/g)) {
 		let icons = [...m[2]];
 		// Some 2011 guides paste the same 4-star block twice (★★★☆★★★☆).
@@ -97,30 +131,23 @@ function parseRatings(s) {
 	return ratings;
 }
 
-function parseReview(line) {
+function parseReview(line: string): Review {
 	const [rawTitle, rest = ''] = line.split(/\s*--\s*/, 2);
 	const { title, year } = splitYear(cleanTitle(rawTitle.replace(/[★½☆]+/g, '')));
-	return { title, year, ratings: parseRatings(rest) };
+	return { title, year, ratings: parseRatings(rest), film: null };
 }
 
-function parseGuide(year) {
+function parseGuide(year: number): Draft[] {
 	const lines = normalizeGuide(read(`guides/${year}.html`));
-	const episodes = [];
-	let ep = null;
-	let section = null;
+	const episodes: Draft[] = [];
+	let ep: Draft | null = null;
+	let section: string | null = null;
 
-	const startEpisode = (props) => {
-		ep = {
-			...props,
-			reviews: [],
-			watched: [],
-			segments: [],
-			music: {},
-			guideNotes: [],
-			source: 'guide',
-		};
+	const startEpisode = (props: Pick<Draft, 'number' | 'date' | 'kind'> & Partial<Draft>): Draft => {
+		const draft: Draft = { reviews: [], watched: [], segments: [], music: {}, guideNotes: [], source: 'guide', ...props };
 		section = null;
-		episodes.push(ep);
+		episodes.push(draft);
+		return draft;
 	};
 
 	for (const line of lines) {
@@ -129,7 +156,7 @@ function parseGuide(year) {
 			const text = line.replace(/^##/, '').replace(/@@.*?@@/g, '').trim();
 			let m;
 			if ((m = text.match(/^Episode\s+#?(\d+)(?:\s*#(\d+))?\s*[-:–]\s*(.*)$/))) {
-				startEpisode({ number: +m[1], part: m[2] ? +m[2] : null, date: parseDate(m[3]), kind: 'regular', link });
+				ep = startEpisode({ number: +m[1], part: m[2] ? +m[2] : null, date: parseDate(m[3]), kind: 'regular', link });
 				continue;
 			}
 			if ((m = text.match(/^(Bonus (?:Podcasts?|Episode)|Film Junk Top 100 Special)\s*[:\-–]?\s*(.*)$/i))) {
@@ -137,7 +164,7 @@ function parseGuide(year) {
 				const parsed = parseDate(m[2]);
 				const date = parsed && parsed >= '2005' ? parsed : null;
 				const title = m[2].replace(/(?:^|\s*[-–]\s*)[A-Z][a-z]{2,}\.? \d{1,2}(st|nd|rd|th)?, \d{4}\s*$/, '').trim();
-				startEpisode({ number: null, date, kind: 'bonus', bonusTitle: title || m[1], link });
+				ep = startEpisode({ number: null, date, kind: 'bonus', bonusTitle: title || m[1], link });
 				continue;
 			}
 			if (CHROME.has(text) || /^\d{4} Episodes$/.test(text) || /longest-running|^Preview Mode/.test(text)) {
@@ -166,10 +193,10 @@ function parseGuide(year) {
 			if (r.title) ep.reviews.push(r);
 		} else if (WATCHED_SECTIONS.test(section)) {
 			const t = cleanTitle(line);
-			if (t) ep.watched.push(splitYear(t));
+			if (t) ep.watched.push(mention(t));
 		} else if (/^music$/i.test(section)) {
 			const m = line.match(/^(Intro|Outro)\s*:\s*(.*)$/i);
-			if (m) ep.music[m[1].toLowerCase()] = m[2].trim();
+			if (m) ep.music[m[1].toLowerCase() as 'intro' | 'outro'] = m[2].trim();
 		} else {
 			let seg = ep.segments.at(-1);
 			if (!seg || seg.label !== section) ep.segments.push((seg = { label: section, items: [] }));
@@ -190,11 +217,11 @@ function parseGuide(year) {
 
 // ---------------------------------------------------------------- fandom wiki
 
-function wikiText(page) {
+function wikiText(page: string): string {
 	return JSON.parse(read(`wiki/${page}.json`)).parse.wikitext['*'];
 }
 
-function cleanWiki(s) {
+function cleanWiki(s: string): string {
 	return decode(
 		s
 			.replace(/<br\s*\/?>/gi, ' ')
@@ -207,12 +234,12 @@ function cleanWiki(s) {
 		.trim();
 }
 
-function parseWikiTables(text) {
-	const rows = [];
+function parseWikiTables(text: string): string[][] {
+	const rows: string[][] = [];
 	for (const table of text.split('{|').slice(1)) {
 		const body = table.split('|}')[0];
 		for (const chunk of body.split(/\n\|-[^\n]*/).slice(1)) {
-			const cells = [];
+			const cells: string[] = [];
 			for (const line of chunk.split('\n')) {
 				if (line.startsWith('|') && !line.startsWith('|}')) cells.push(line.slice(1));
 				else if (line.startsWith('!')) continue;
@@ -224,7 +251,7 @@ function parseWikiTables(text) {
 	return rows;
 }
 
-function parseWikiOverview(text) {
+function parseWikiOverview(text: string): string[] {
 	const m = text.match(/Overview[^\n]*\n([\s\S]*?)(?:\n==|\n\{\|)/);
 	if (!m) return [];
 	return m[1]
@@ -234,8 +261,9 @@ function parseWikiOverview(text) {
 		.filter(Boolean);
 }
 
-const wikiEpisodes = new Map();
-const yearNotes = {};
+type WikiEpisode = { number: number; date: string | null; featured: string; notes: string };
+const wikiEpisodes = new Map<number, WikiEpisode>();
+const yearNotes: Record<string, string[]> = {};
 for (const page of ['2005', '2006 (SJ)', 'Episodes', ...Array.from({ length: 14 }, (_, i) => String(2007 + i))]) {
 	const text = wikiText(page);
 	const overview = parseWikiOverview(text);
@@ -251,9 +279,11 @@ for (const page of ['2005', '2006 (SJ)', 'Episodes', ...Array.from({ length: 14 
 
 // ---------------------------------------------------------------- RSS (episodes newer than the guides)
 
-function parseFeed(xml) {
+type FeedItem = { title: string; date: string; description: string; link: string; number: number | null };
+
+function parseFeed(xml: string): FeedItem[] {
 	return [...xml.matchAll(/<item>([\s\S]*?)<\/item>/g)].map(([, item]) => {
-		const tag = (name) => {
+		const tag = (name: string) => {
 			const m = item.match(new RegExp(`<${name}[^>]*>([\\s\\S]*?)</${name}>`));
 			return m ? m[1].replace(/^<!\[CDATA\[|\]\]>$/g, '').trim() : '';
 		};
@@ -273,7 +303,14 @@ function parseFeed(xml) {
 
 // ---------------------------------------------------------------- premiums
 
-function parsePremiums() {
+// Bandcamp album data embedded in each album page (just the fields we use).
+type BandcampAlbum = {
+	art_id?: number;
+	album_release_date?: string;
+	current: { title: string; about?: string; release_date?: string };
+};
+
+function parsePremiums(): Episode[] {
 	const wiki = parseWikiTables(wikiText('Premiums')).map(([num, date, title, notes = '']) => {
 		const reviews = notes.match(/Reviews:\s*(.*?)(?:\.\s*$|$)/)?.[1] ?? '';
 		return {
@@ -284,21 +321,22 @@ function parsePremiums() {
 			covers: reviews
 				.split(/,\s*|\s+\+\s+/)
 				.map((s) => cleanTitle(s.replace(/\.$/, '')))
-				.filter(Boolean),
+				.filter(Boolean)
+				.map((title) => ({ title, film: null })),
 		};
 	});
 
-	const key = (s) => slugify(s.replace(/\b(the|trilogy|saga|franchise|films?|legacy|series)\b/gi, ''));
+	const key = (s: string) => slugify(s.replace(/\b(the|trilogy|saga|franchise|films?|legacy|series)\b/gi, ''));
 	const byKey = new Map(wiki.map((w) => [key(w.title), w]));
-	const used = new Set();
-	const premiums = [];
+	const used = new Set<(typeof wiki)[number]>();
+	const premiums: Episode[] = [];
 
 	for (const file of readdirSync(`${RAW}/bandcamp`)) {
 		if (file === 'index.html') continue;
 		const html = read(`bandcamp/${file}`);
 		const data = html.match(/data-tralbum="([^"]*)"/);
 		if (!data) continue;
-		const album = JSON.parse(decode(data[1]));
+		const album: BandcampAlbum = JSON.parse(decode(data[1]));
 		const slug = file.replace(/\.html$/, '');
 		const title = album.current.title;
 		const w = byKey.get(key(title));
@@ -308,7 +346,7 @@ function parsePremiums() {
 			id: `premium-${slug}`,
 			kind: 'premium',
 			number: w?.number ?? null,
-			date: new Date(album.album_release_date ?? album.current.release_date).toISOString().slice(0, 10),
+			date: new Date(album.album_release_date ?? album.current.release_date ?? '').toISOString().slice(0, 10),
 			title,
 			description: (album.current.about ?? '').trim(),
 			covers: w?.covers ?? [],
@@ -340,10 +378,13 @@ function parsePremiums() {
 
 // Yearly archive packs ("Episodes #594-640 (2017)", "Space Junk Radio: Episodes #1-55")
 // plus the pack of Movie Review Show / Movie Organization Manifesto bonus episodes.
-function parseGumroad() {
-	const products = JSON.parse(read('gumroad.json'));
-	const bundles = [];
-	let bonus = null;
+type GumroadProduct = { name: string; url: string; price: number; currency: string };
+type Bundle = { name: string; from: number; to: number; url: string };
+
+function parseGumroad(): { bundles: Bundle[]; bonus: string | null } {
+	const products: GumroadProduct[] = JSON.parse(read('gumroad.json'));
+	const bundles: Bundle[] = [];
+	let bonus: string | null = null;
 	for (const p of products) {
 		const m = p.name.match(/Episodes #?(\d+)-(\d+)/);
 		if (m) bundles.push({ name: p.name, from: +m[1], to: +m[2], url: p.url });
@@ -354,16 +395,16 @@ function parseGumroad() {
 
 // ---------------------------------------------------------------- assemble
 
-const guideEpisodes = [];
+const guideEpisodes: Draft[] = [];
 for (let y = 2006; y <= new Date().getFullYear(); y++) {
 	try {
 		guideEpisodes.push(...parseGuide(y));
 	} catch (e) {
-		if (e.code !== 'ENOENT') throw e;
+		if ((e as NodeJS.ErrnoException).code !== 'ENOENT') throw e;
 	}
 }
 
-const byNumber = new Map();
+const byNumber = new Map<number, Draft>();
 for (const e of guideEpisodes) if (e.number && !e.part) byNumber.set(e.number, e);
 
 // Space Junk / early episodes that only exist on the wiki.
@@ -371,14 +412,14 @@ for (const w of wikiEpisodes.values()) {
 	if (byNumber.has(w.number) || !w.date) continue;
 	const reviews = w.featured
 		.split(/\s+\/\s+|\s+\+\s+/)
-		.map((t) => ({ ...splitYear(cleanTitle(t)), ratings: [] }))
+		.map((t): Review => ({ ...splitYear(cleanTitle(t)), ratings: [], film: null }))
 		.filter((r) => r.title && !/^episode \d+!?$|^no feature(d)? review/i.test(r.title));
-	const e = { number: w.number, date: w.date, kind: 'regular', reviews, watched: [], segments: [], music: {}, guideNotes: [], source: 'wiki' };
+	const e: Draft = { number: w.number, date: w.date, kind: 'regular', reviews, watched: [], segments: [], music: {}, guideNotes: [], source: 'wiki' };
 	guideEpisodes.push(e);
 	byNumber.set(w.number, e);
 }
 
-const latestGuideDate = guideEpisodes.reduce((max, e) => (e.date > max ? e.date : max), '');
+const latestGuideDate = guideEpisodes.reduce((max, e) => (e.date && e.date > max ? e.date : max), '');
 const maxGuideNumber = Math.max(...byNumber.keys());
 const SPIN_OFF = /^(game junk|ball junk|tv junk|treknobabble)/i;
 
@@ -391,16 +432,16 @@ for (const item of parseFeed(read('feedburner.xml'))) {
 		known.link = item.link;
 		continue;
 	}
-	if (item.date <= latestGuideDate && !(item.number > maxGuideNumber)) continue;
+	if (item.date <= latestGuideDate && !(item.number && item.number > maxGuideNumber)) continue;
 	const numbered = item.title.match(/^Episode (\d+):\s*(.*)$/);
 	const title = numbered ? numbered[2] : item.title;
 	const isBonus = /calendar reveal|preview|what we watched|livestream/i.test(title);
-	const e = {
+	const e: Draft = {
 		number: isBonus ? null : item.number ?? (numbered ? +numbered[1] : null),
 		date: item.date,
 		kind: isBonus ? 'bonus' : 'regular',
 		bonusTitle: isBonus ? title : undefined,
-		reviews: isBonus ? [] : title.split(/\s+\+\s+/).map((t) => ({ ...splitYear(t), ratings: [] })),
+		reviews: isBonus ? [] : title.split(/\s+\+\s+/).map((t): Review => ({ ...splitYear(t), ratings: [], film: null })),
 		watched: [],
 		segments: [],
 		music: {},
@@ -415,11 +456,13 @@ for (const item of parseFeed(read('feedburner.xml'))) {
 
 const { bundles: gumroad, bonus: gumroadBonus } = parseGumroad();
 
-function spaceJunk(e) {
-	return e.number && e.number <= 55 && e.date < '2006-03-01';
+function spaceJunk(e: Draft) {
+	return !!e.number && e.number <= 55 && !!e.date && e.date < '2006-03-01';
 }
 
-const episodes = guideEpisodes.map((e) => {
+const episodes = guideEpisodes.map((e): Episode => {
+	// Every draft has a date by now: undated guide entries borrow their neighbour's.
+	const date = e.date!;
 	const wiki = e.number ? wikiEpisodes.get(e.number) : null;
 	const bonusTitle = e.bonusTitle && !/^bonus (episode|podcasts?)$/i.test(e.bonusTitle) ? e.bonusTitle : null;
 	const title =
@@ -434,10 +477,11 @@ const episodes = guideEpisodes.map((e) => {
 				(e.kind === 'bonus' ? 'Bonus Episode' : 'No featured review'));
 	const id = e.number
 		? `${e.number}${e.part ? `-${e.part}` : ''}`
-		: `${e.date}-${slugify(title).slice(0, 50)}`;
-	const bundle =
-		(e.number && gumroad.find((b) => e.number >= b.from && e.number <= b.to)) ||
-		(e.kind === 'bonus' && gumroadBonus && /movie review show|manifesto/i.test(e.bonusTitle ?? '') && { name: 'bonus', url: gumroadBonus });
+		: `${date}-${slugify(title).slice(0, 50)}`;
+	const number = e.number;
+	const bundle: { name: string; url: string } | null =
+		(number ? gumroad.find((b) => number >= b.from && number <= b.to) : undefined) ??
+		(e.kind === 'bonus' && gumroadBonus && /movie review show|manifesto/i.test(e.bonusTitle ?? '') ? { name: 'bonus', url: gumroadBonus } : null);
 	// "2017", "Space Junk" or "bonus", for the button label.
 	const pack = bundle ? (bundle.name.match(/\((\d{4})\)/)?.[1] ?? (/space junk/i.test(bundle.name) ? 'Space Junk' : 'bonus')) : null;
 	const notes = [wiki?.notes, ...e.guideNotes].filter(Boolean).join(' ').trim();
@@ -447,7 +491,7 @@ const episodes = guideEpisodes.map((e) => {
 		show: spaceJunk(e) ? 'Space Junk' : 'Film Junk',
 		number: e.number,
 		part: e.part ?? null,
-		date: e.date,
+		date,
 		dateApprox: e.dateApprox ?? false,
 		title,
 		reviews: e.reviews,
@@ -469,15 +513,15 @@ const all = [...episodes, ...premiums].sort((a, b) => b.date.localeCompare(a.dat
 
 // The guides sometimes paste a neighbour's link; when two episodes share one we
 // can't tell which is right, so drop it from both.
-const linkCounts = new Map();
+const linkCounts = new Map<string, number>();
 for (const e of all) if (e.links.libsyn) linkCounts.set(norm(e.links.libsyn), (linkCounts.get(norm(e.links.libsyn)) ?? 0) + 1);
-for (const e of all) if (e.links.libsyn && linkCounts.get(norm(e.links.libsyn)) > 1) delete e.links.libsyn;
-function norm(url) {
+for (const e of all) if (e.links.libsyn && (linkCounts.get(norm(e.links.libsyn)) ?? 0) > 1) delete e.links.libsyn;
+function norm(url: string) {
 	return url.replace(/\/$/, '');
 }
 
 // Guard against duplicate ids (e.g. two bonus episodes on one day).
-const seen = new Map();
+const seen = new Map<string, number>();
 for (const e of all) {
 	const n = seen.get(e.id) ?? 0;
 	seen.set(e.id, n + 1);
@@ -486,9 +530,9 @@ for (const e of all) {
 
 // ---------------------------------------------------------------- per-episode platform links
 
-const readJson = (path) => (existsSync(path) ? JSON.parse(readFileSync(path, 'utf8')) : null);
-const dayDiff = (a, b) => Math.abs(Date.parse(a) - Date.parse(b)) / 86_400_000;
-const titleKey = (s) =>
+const readJson = <T>(path: string): T | null => (existsSync(path) ? (JSON.parse(readFileSync(path, 'utf8')) as T) : null);
+const dayDiff = (a: string, b: string) => Math.abs(Date.parse(a) - Date.parse(b)) / 86_400_000;
+const titleKey = (s: string) =>
 	slugify(
 		s
 			.replace(/^(film junk (podcast )?)?(episode|ep\.?)\s*#?\d+\s*[:\-–]?\s*/i, '')
@@ -496,16 +540,18 @@ const titleKey = (s) =>
 			.replace(/\(\d{4}\)/g, '')
 	);
 
-const regularByNumber = new Map(all.filter((e) => e.kind === 'regular' && e.number && !e.part).map((e) => [e.number, e]));
+const regularByNumber = new Map(all.filter((e) => e.kind === 'regular' && e.number && !e.part).map((e) => [e.number!, e]));
 const keyed = all.map((e) => ({ e, key: titleKey(e.title) }));
 
 // Finds the episode a platform item (Spotify episode, Patreon post) refers to.
-function matchEpisode({ title, date }) {
+type PlatformItem = { title: string; date: string; url: string };
+
+function matchEpisode({ title, date }: { title: string; date: string }): Episode | null {
 	const number = title.match(/(?:episode|ep\.?)\s*#?(\d{2,4})\b/i)?.[1];
-	if (number && regularByNumber.has(+number)) return regularByNumber.get(+number);
+	if (number && regularByNumber.has(+number)) return regularByNumber.get(+number)!;
 	const key = titleKey(title);
 	if (key.length < 3) return null;
-	const near = (max) => keyed.filter(({ e }) => dayDiff(e.date, date) <= max);
+	const near = (max: number) => keyed.filter(({ e }) => dayDiff(e.date, date) <= max);
 	return (
 		near(10).find((c) => c.key === key)?.e ??
 		// Premiums often go up on Patreon well before Bandcamp.
@@ -514,7 +560,7 @@ function matchEpisode({ title, date }) {
 	);
 }
 
-function attach(items, platform) {
+function attach(items: PlatformItem[] | null, platform: 'spotify' | 'patreon') {
 	let matched = 0;
 	for (const item of items ?? []) {
 		const e = matchEpisode(item);
@@ -527,8 +573,10 @@ function attach(items, platform) {
 }
 
 // Apple uses the feed's guid, which is the libsyn link we already have.
-const apple = readJson(`${RAW}/apple.json`)?.results.filter((r) => r.kind === 'podcast-episode') ?? [];
-const byLibsyn = new Map(all.filter((e) => e.links.libsyn).map((e) => [e.links.libsyn, e]));
+type AppleEpisode = { kind: string; trackName: string; trackId: number; trackViewUrl: string; releaseDate: string; episodeGuid: string };
+const apple =
+	readJson<{ results: AppleEpisode[] }>(`${RAW}/apple.json`)?.results.filter((r) => r.kind === 'podcast-episode') ?? [];
+const byLibsyn = new Map(all.filter((e) => e.links.libsyn).map((e) => [e.links.libsyn!, e]));
 for (const a of apple) {
 	const numbered = /(?:episode|ep\.?)\s*#?\d{2,4}/i.test(a.trackName);
 	const byTitle = () => matchEpisode({ title: a.trackName, date: a.releaseDate.slice(0, 10) });
@@ -537,17 +585,26 @@ for (const a of apple) {
 }
 console.log(`apple: matched ${all.filter((e) => e.links.apple).length} of ${apple.length}`);
 
-attach(readJson(`${RAW}/spotify.json`), 'spotify');
+attach(readJson<PlatformItem[]>(`${RAW}/spotify.json`), 'spotify');
 // ---------------------------------------------------------------- patreon
 
 // From a patron's private feed (sanitised by fetch-sources) or, failing that, the manual export.
-const patreonPosts = readJson(`${RAW}/patreon-feed.json`) ?? readJson('data/patreon-posts.json') ?? [];
+// Sanitised posts from a patron's feed, committed by fetch-sources (see fetchPatreonFeed).
+type PatreonPost = PlatformItem & { duration?: number | null; description?: string };
+const patreonPosts = readJson<PatreonPost[]>('data/patreon.json') ?? [];
 // Series whose post title names the film being discussed ("Retro Review: Poultrygeist").
-const SERIES_ALIASES = { 'Film Junk Tier Ranking': 'Tier Ranking', 'Film Junk Bonus Podcast': 'Bonus Podcast', 'Bonus Clip': 'Bonus Clip' };
+const SERIES_ALIASES: Record<string, string> = { 'Film Junk Tier Ranking': 'Tier Ranking', 'Film Junk Bonus Podcast': 'Bonus Podcast', 'Bonus Clip': 'Bonus Clip' };
 const FILM_SERIES = /^(retro review|criterionitis|bonus podcast|re-pre)$/i;
 const NOT_A_FILM = /q&a|junkies|livestream|pre-show|discussion|edition|mail|reveal|top 100|celebration|event/i;
 
-function classifyPatreon(title) {
+type PatreonKind =
+	| { type: 'skip' }
+	| { type: 'calendar' }
+	| { type: 'regular'; number: number; rest: string }
+	| { type: 'premium'; rest: string }
+	| { type: 'patreon'; series: string; rest: string };
+
+function classifyPatreon(title: string): PatreonKind {
 	if (/^(treknobabble|game junk)/i.test(title)) return { type: 'skip' };
 	let m;
 	if ((m = title.match(/^Film Junk Podcast Episode #(\d+):\s*(.*)$/i))) return { type: 'regular', number: +m[1], rest: m[2] };
@@ -559,19 +616,75 @@ function classifyPatreon(title) {
 	return { type: 'patreon', series: SERIES_ALIASES[series] ?? series, rest: m ? m[2].trim().replace(/\s+edition$/i, '') : '' };
 }
 
+// Films named in a post's description: timestamped chapter lines ("07:20 - Bebe's Kids"),
+// "Title (1985)", and titles the show has reviewed quoted word for word.
+const NOT_A_CHAPTER =
+	/^(intro|outro|opening|closing|wrap|junk mail|q ?& ?a|questions?|listener|mailbag|news|updates?|announcements?|housekeeping|banter|break|trivia|patreon|tier|top \d+|segment|the rest|misc|other stuff)\b/i;
+const reviewedTitles = [
+	// Two or more words, so everyday words that are also titles ("Halloween") don't match.
+	...new Set(all.flatMap((e) => (e.reviews ?? []).map((r) => r.title)).filter((t) => t.length >= 8 && /\s/.test(t) && /[A-Z0-9]/.test(t[0]))),
+];
+const escapeRegex = (s: string) => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+
+function filmsInDescription(text: string | undefined): Mention[] {
+	if (!text) return [];
+	const found = new Map<string, Mention>();
+	const add = (title: string) => {
+		const m = mention(cleanTitle(title.replace(/[.!?:,;]+$/, '')));
+		if (m.title.length >= 2 && !found.has(m.title.toLowerCase())) found.set(m.title.toLowerCase(), m);
+	};
+	for (const line of text.split('\n')) {
+		const chapter = line.match(/^\s*\(?\d{1,2}:\d{2}(?::\d{2})?\)?\s*[-–—:]?\s*(.+)$/)?.[1]?.trim();
+		if (chapter && chapter.length <= 70 && !chapter.includes('?') && !NOT_A_CHAPTER.test(chapter)) add(chapter);
+	}
+	const capitalised = String.raw`[A-Z0-9][\w'’&!.-]*`;
+	const joiner = String.raw`(?:of|the|and|a|an|in|on|to|at|for|with|from|vs\.?|&|-)`;
+	const withYear = new RegExp(String.raw`(${capitalised}(?::?\s+(?:${capitalised}|${joiner})){0,8})\s\(((?:19|20)\d\d)\)`, 'g');
+	for (const m of text.matchAll(withYear)) add(`${m[1]} (${m[2]})`);
+	const strong = [...found.keys()];
+	for (const title of reviewedTitles) {
+		// Skip titles that are only part of a longer one already found ("The Hunt" in "…: The Hunt for …").
+		if (strong.some((t) => t !== title.toLowerCase() && t.includes(title.toLowerCase()))) continue;
+		if (text.includes(title) && new RegExp(String.raw`(^|[^\w])${escapeRegex(title)}($|[^\w])`).test(text)) add(title);
+	}
+	return [...found.values()];
+}
+
 let patreonLinked = 0;
 let patreonAdded = 0;
-const patreonKey = (s) => titleKey(s.replace(/\s*\((patreon exclusive[^)]*|audio)\)/gi, ''));
+const patreonKey = (s: string) => titleKey(s.replace(/\s*\((patreon exclusive[^)]*|audio)\)/gi, ''));
 for (const post of patreonPosts) {
 	const c = classifyPatreon(post.title);
 	if (c.type === 'skip') continue;
-	const link = (e) => {
+	const mentioned = filmsInDescription(post.description);
+	const link = (e: Episode) => {
 		e.links.patreon ??= post.url;
+		if (!e.description && post.description) e.description = post.description;
+		if (mentioned.length) {
+			const have = new Set((e.mentioned ?? []).map((m) => m.title.toLowerCase()));
+			e.mentioned = [...(e.mentioned ?? []), ...mentioned.filter((m) => !have.has(m.title.toLowerCase()))];
+		}
 		patreonLinked++;
 	};
-	const add = (e) => {
-		all.push({ notes: '', description: '', segments: [], watched: [], reviews: [], music: {}, show: 'Film Junk', part: null, dateApprox: false, pack: null, ...e, links: { patreon: post.url } });
+	const add = (e: Pick<Episode, 'id' | 'kind' | 'number' | 'date' | 'title'> & Partial<Episode>): Episode => {
+		const episode: Episode = {
+			notes: '',
+			description: post.description ?? '',
+			mentioned,
+			segments: [],
+			watched: [],
+			reviews: [],
+			music: {},
+			show: 'Film Junk',
+			part: null,
+			dateApprox: false,
+			pack: null,
+			...e,
+			links: { patreon: post.url },
+		};
+		all.push(episode);
 		patreonAdded++;
+		return episode;
 	};
 
 	if (c.type === 'regular') {
@@ -579,9 +692,9 @@ for (const post of patreonPosts) {
 		if (known) link(known);
 		else {
 			// On Patreon before the free feed or the guide.
-			const reviews = c.rest.split(/\s+\+\s+/).map((t) => ({ ...splitYear(t), ratings: [] }));
-			add({ id: String(c.number), kind: 'regular', number: c.number, date: post.date, title: reviews.map((r) => r.title).join(' + '), reviews });
-			regularByNumber.set(c.number, all.at(-1));
+			const reviews = c.rest.split(/\s+\+\s+/).map((t): Review => ({ ...splitYear(t), ratings: [], film: null }));
+			const added = add({ id: String(c.number), kind: 'regular', number: c.number, date: post.date, title: reviews.map((r) => r.title).join(' + '), reviews });
+			regularByNumber.set(c.number, added);
 		}
 		continue;
 	}
@@ -619,7 +732,7 @@ for (const post of patreonPosts) {
 		c.rest
 			.replace(/,?\s*and\s+(much,?\s+)*more[.!]*$/i, '')
 			.split(/,\s*/)
-			.map((t) => splitYear(cleanTitle(t)))
+			.map((t) => mention(cleanTitle(t)))
 			.filter((w) => w.title);
 	add({
 		id: `${post.date}-${slugify(post.title).slice(0, 60)}`,
@@ -628,7 +741,7 @@ for (const post of patreonPosts) {
 		series: c.series,
 		date: post.date,
 		title: c.rest ? `${c.series}: ${c.rest}` : c.series,
-		reviews: isFilm ? [{ ...splitYear(c.rest), ratings: [] }] : [],
+		reviews: isFilm ? [{ ...splitYear(c.rest), ratings: [], film: null }] : [],
 		watched: watched || [],
 		duration: post.duration,
 	});
@@ -640,17 +753,23 @@ if (patreonPosts.length) {
 
 // ---------------------------------------------------------------- film index
 
-// TMDB matches for reviewed films, cached by scripts/fetch-tmdb.mjs.
-const tmdb = readJson('data/tmdb.json') ?? {};
-const tmdbOverrides = readJson('data/tmdb-overrides.json') ?? {};
-const tmdbFor = (r, e) => (r.title.toLowerCase() in tmdbOverrides ? tmdbOverrides[r.title.toLowerCase()] : tmdb[tmdbKey(r.title, r.year, episodeYear(e))]);
-// Must match key in fetch-tmdb.mjs.
-const tmdbKey = (title, year, episodeYear) => `${title.toLowerCase()}|${year ?? ''}|${year ? '' : episodeYear}`;
-const episodeYear = (e) => +e.date.slice(0, 4);
+// TMDB matches for reviewed films, cached by scripts/fetch-tmdb.ts.
+const tmdb = readJson<TmdbCache>('data/tmdb.json') ?? {};
+const tmdbOverrides = readJson<TmdbCache>('data/tmdb-overrides.json') ?? {};
+const tmdbFor = (r: { title: string; year: number | null }, e: { date: string }): TmdbMatch | null | undefined =>
+	r.title.toLowerCase() in tmdbOverrides ? tmdbOverrides[r.title.toLowerCase()] : tmdb[tmdbKey(r.title, r.year, episodeYear(e))];
+// Must match key in fetch-tmdb.ts.
+const tmdbKey = (title: string, year: number | null, episodeYear: number) =>
+	`${title.toLowerCase()}|${year ?? ''}|${year ? '' : episodeYear}`;
+const episodeYear = (e: { date: string }) => +e.date.slice(0, 4);
+
+// A film while the index is built; `years` collects the years mentions give it.
+type WorkingFilm = Film & { years?: Set<number | null> };
+type Identity = { base: string; title: string; year: number | null; years: Set<number>; tmdb: TmdbMatch | null };
 
 // 1. Every reviewed film gets an identity: its TMDB id when matched, else its title slug.
-const identities = new Map(); // identity -> { base, title, year, years, tmdb }
-const reviewIdentity = new Map(); // review object -> identity
+const identities = new Map<string, Identity>();
+const reviewIdentity = new Map<Review, string>();
 for (const e of all) {
 	for (const r of e.reviews ?? []) {
 		const base = slugify(r.title);
@@ -659,15 +778,15 @@ for (const e of all) {
 		const identity = tm ? `tmdb:${tm.type}:${tm.id}` : `slug:${base}`;
 		if (!identities.has(identity))
 			identities.set(identity, { base, title: tm?.title ?? r.title, year: tm?.year ?? null, years: new Set(), tmdb: tm ?? null });
-		if (r.year) identities.get(identity).years.add(r.year);
+		if (r.year) identities.get(identity)!.years.add(r.year);
 		reviewIdentity.set(r, identity);
 	}
 }
 
 // 2. Give each identity a slug; remakes sharing a title get the year appended.
 const byBase = Map.groupBy(identities, ([, v]) => v.base);
-const films = new Map(); // slug -> film
-const identitySlug = new Map();
+const films = new Map<string, WorkingFilm>(); // slug -> film
+const identitySlug = new Map<string, string>();
 for (const [base, group] of byBase) {
 	for (const [identity, v] of group) {
 		let slug = base;
@@ -681,6 +800,7 @@ for (const [base, group] of byBase) {
 			poster: v.tmdb?.poster ?? null,
 			votes: v.tmdb?.votes ?? 0,
 			tmdb: v.tmdb ? { type: v.tmdb.type, id: v.tmdb.id } : null,
+			imdb: v.tmdb?.imdb ?? null,
 			appearances: [],
 		});
 	}
@@ -688,17 +808,31 @@ for (const [base, group] of byBase) {
 
 // 3. Mentions (what they watched, premium covers) only have a title, so pick the
 // film with that title that's the most plausible for when it came up.
-function resolveMention(title, year, e) {
+function resolveMention(title: string, year: number | null, e: Episode): string | null {
 	const base = slugify(title);
 	if (base.length < 2) return null;
 	const group = byBase.get(base);
-	const mentionOnly = (slug) => {
-		if (!films.has(slug)) films.set(slug, { slug, title, year, poster: null, tmdb: null, appearances: [], years: new Set() });
-		films.get(slug).years?.add(year);
+	const mentionOnly = (slug: string) => {
+		if (!films.has(slug)) {
+			// Exact-title TMDB match for a film only mentioned in passing (see fetch-tmdb lookupMention).
+			const tm = tmdb[`m|${title.toLowerCase()}|${year ?? ''}`] ?? null;
+			films.set(slug, {
+				slug,
+				title,
+				year: year ?? tm?.year ?? null,
+				poster: tm?.poster ?? null,
+				votes: tm?.votes ?? 0,
+				tmdb: tm ? { type: tm.type, id: tm.id } : null,
+				imdb: tm?.imdb ?? null,
+				appearances: [],
+				years: new Set(),
+			});
+		}
+		films.get(slug)!.years?.add(year);
 		return slug;
 	};
 	if (!group) return mentionOnly(base);
-	const candidates = group.map(([identity, v]) => ({ slug: identitySlug.get(identity), year: v.year ?? 0 }));
+	const candidates = group.map(([identity, v]) => ({ slug: identitySlug.get(identity)!, year: v.year ?? 0 }));
 	if (year) {
 		const exact = candidates.find((c) => c.year === year);
 		if (exact) return exact.slug;
@@ -710,26 +844,36 @@ function resolveMention(title, year, e) {
 	return (before[0] ?? candidates.sort((a, b) => a.year - b.year)[0]).slug;
 }
 
-function appear(slug, e, role) {
+function appear(slug: string | null, e: Episode, role: 'review' | 'watched' | 'premium') {
 	const f = slug && films.get(slug);
 	if (f && !f.appearances.some((a) => a.id === e.id && a.role === role)) f.appearances.push({ id: e.id, role });
 }
 
 for (const e of all) {
 	for (const r of e.reviews ?? []) {
-		r.film = identitySlug.get(reviewIdentity.get(r)) ?? null;
+		const identity = reviewIdentity.get(r);
+		r.film = (identity && identitySlug.get(identity)) ?? null;
 		appear(r.film, e, 'review');
 	}
 	for (const w of e.watched ?? []) {
 		w.film = resolveMention(w.title, w.year, e);
 		appear(w.film, e, 'watched');
 	}
+	// Films named in the description, minus ones this episode already reviews or lists.
+	if (e.mentioned) {
+		const listed = new Set([...(e.reviews ?? []), ...(e.watched ?? [])].map((x) => slugify(x.title)));
+		e.mentioned = e.mentioned.filter((m) => !listed.has(slugify(m.title)));
+		for (const m of e.mentioned) {
+			m.film = resolveMention(m.title, m.year, e);
+			appear(m.film, e, 'watched');
+		}
+	}
 	if (e.covers)
 		e.covers = e.covers.map((c) => {
-			const { title, year } = splitYear(c);
+			const { title, year } = splitYear(c.title);
 			const film = resolveMention(title, year, e);
 			appear(film, e, 'premium');
-			return { title: c, film };
+			return { title: c.title, film };
 		});
 }
 
@@ -737,8 +881,8 @@ for (const e of all) {
 for (const f of films.values()) {
 	if (f.years) {
 		f.years.delete(null);
-		f.years.delete(undefined);
-		f.year = f.years.size === 1 ? [...f.years][0] : null;
+		// Mentions that agree on a year win; otherwise keep the TMDB year, if matched.
+		f.year = f.years.size === 1 ? [...f.years][0] : f.years.size === 0 && f.tmdb ? f.year : null;
 		delete f.years;
 	}
 }
@@ -748,7 +892,7 @@ for (const [slug, f] of films) if (!f.appearances.length) films.delete(slug);
 
 // Year-end shows (top 10 lists, the Junkies) usually air the following January.
 const YEAR_END = /\b(top 10|top ten|best( and worst)?|worst) (movies|films) of (\d{4})\b|\b((?:19|20)\d\d) junkies\b|\bannual junkies\b|junkers' choice/i;
-const yearEnd = {};
+const yearEnd: Meta['yearEnd'] = {};
 for (const e of all) {
 	if (e.kind === 'premium' || e.kind === 'patreon') continue;
 	const segmentLines = (e.segments ?? []).filter((s) => s.label !== 'Headlines').flatMap((s) => s.items);
@@ -763,19 +907,20 @@ for (const e of all) {
 // ---------------------------------------------------------------- gumroad packs
 
 // Each pack's cover shows the posters of the biggest (most-rated on TMDB) films reviewed in it.
-const products = JSON.parse(read('gumroad.json'));
-const packs = products
-	.map((p) => {
+const products: GumroadProduct[] = JSON.parse(read('gumroad.json'));
+const packs: Pack[] = products
+	.map((p): Pack | null => {
 		const range = p.name.match(/Episodes #?(\d+)-(\d+)/);
 		const isBonus = !range && /movie review show|manifesto/i.test(p.name);
 		if (!range && !isBonus) return null;
 		const inPack = all.filter((e) =>
-			range ? e.kind === 'regular' && e.number >= +range[1] && e.number <= +range[2] : e.pack === 'bonus'
+			range ? e.kind === 'regular' && !!e.number && e.number >= +range[1] && e.number <= +range[2] : e.pack === 'bonus'
 		);
-		const reviewed = [...new Set(inPack.flatMap((e) => (e.reviews ?? []).map((r) => r.film)).filter(Boolean))]
-			.map((slug) => films.get(slug))
-			.filter((f) => f?.poster)
-			.sort((a, b) => b.votes - a.votes);
+		const slugs = new Set(inPack.flatMap((e) => (e.reviews ?? []).map((r) => r.film)));
+		const reviewed = [...slugs]
+			.map((slug) => (slug ? films.get(slug) : undefined))
+			.filter((f): f is WorkingFilm & { poster: string } => !!f?.poster)
+			.sort((a, b) => (b.votes ?? 0) - (a.votes ?? 0));
 		return {
 			label: p.name.match(/\((\d{4})\)/)?.[1] ?? (/space junk/i.test(p.name) ? 'Space Junk' : 'Bonus shows'),
 			name: p.name.replace(/^Film Junk Podcast:\s*/, ''),
@@ -788,21 +933,22 @@ const packs = products
 			covers: reviewed.slice(0, 4).map((f) => ({ title: f.title, poster: f.poster })),
 		};
 	})
-	.filter(Boolean)
+	.filter((p): p is Pack => p !== null)
 	.sort((a, b) => (b.from ?? -1) - (a.from ?? -1));
 
 // ---------------------------------------------------------------- monthly schedule
 
 // Transcribed from the calendars on Instagram. Each item is matched to its episode once it's out
 // (retro episodes land on Patreon a week early).
-const scheduleData = readJson('data/schedule.json') ?? {};
-const schedule = Object.entries(scheduleData)
+type ScheduleFile = Record<string, { source?: string; note?: string; items: { date: string; title: string; year: number | null }[] }>;
+const scheduleData = readJson<ScheduleFile>('data/schedule.json') ?? {};
+const schedule: ScheduleMonth[] = Object.entries(scheduleData)
 	.filter(([month]) => /^\d{4}-\d{2}$/.test(month))
 	.map(([month, m]) => ({
 		month,
 		source: m.source ?? null,
 		note: m.note ?? null,
-		items: m.items.map((item) => {
+		items: m.items.map((item): ScheduleMonth['items'][number] => {
 			const key = titleKey(item.title);
 			const episode = all.find(
 				(e) =>
@@ -810,7 +956,7 @@ const schedule = Object.entries(scheduleData)
 					dayDiff(e.date, item.date) <= 14 &&
 					(e.reviews ?? []).some((r) => titleKey(r.title) === key)
 			);
-			const review = episode?.reviews.find((r) => titleKey(r.title) === key);
+			const review = episode?.reviews?.find((r) => titleKey(r.title) === key);
 			const film = review?.film ? films.get(review.film) : null;
 			const tm = tmdbFor({ title: item.title, year: item.year }, { date: item.date });
 			const free = episode && (episode.links.libsyn || episode.links.apple || episode.links.spotify);
@@ -826,14 +972,15 @@ const schedule = Object.entries(scheduleData)
 	.sort((a, b) => b.month.localeCompare(a.month));
 
 // Hand-entered lists and awards, keyed by year (see data/year-end.json).
-const yearEndLists = readJson('data/year-end.json') ?? {};
+const yearEndLists = readJson<Record<string, YearEndLists>>('data/year-end.json') ?? {};
 
 mkdirSync(OUT, { recursive: true });
 writeFileSync(`${OUT}/episodes.json`, JSON.stringify(all, null, '\t'));
-writeFileSync(`${OUT}/films.json`, JSON.stringify([...films.values()], null, '\t'));
-writeFileSync(`${OUT}/meta.json`, JSON.stringify({ builtAt: new Date().toISOString(), yearNotes, gumroad, yearEnd, yearEndLists, packs, schedule }, null, '\t'));
+writeFileSync(`${OUT}/films.json`, JSON.stringify([...films.values()] satisfies Film[], null, '\t'));
+const meta: Meta = { builtAt: new Date().toISOString(), yearNotes, gumroad, yearEnd, yearEndLists, packs, schedule };
+writeFileSync(`${OUT}/meta.json`, JSON.stringify(meta, null, '\t'));
 
-const count = (k) => all.filter((e) => e.kind === k).length;
+const count = (k: Episode['kind']) => all.filter((e) => e.kind === k).length;
 console.log(
 	`episodes: ${count('regular')} regular, ${count('bonus')} bonus, ${count('premium')} premium; films: ${films.size} (${[...films.values()].filter((f) => f.appearances.some((a) => a.role !== 'watched')).length} reviewed, ${[...films.values()].filter((f) => f.tmdb).length} on TMDB)`
 );

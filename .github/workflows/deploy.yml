@@ -4,19 +4,26 @@ on:
   push:
     branches: [main]
   schedule:
-    - cron: '0 14 * * *' # daily, keeps "this month in history" and new episodes current
+    - cron: '0 14 * * *' # daily: new episodes, Patreon posts, TMDB posters, "this month in history"
   workflow_dispatch:
+
+# One run at a time; a newer run replaces a queued one.
+concurrency:
+  group: deploy
+  cancel-in-progress: false
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+    env:
+      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
-          node-version: 22
+          node-version: 24
           cache: npm
       - run: npm ci
 
@@ -27,24 +34,32 @@ jobs:
           key: raw-${{ github.run_id }}
           restore-keys: raw-
 
-      - run: npm run data
+      - name: Refresh data
+        run: npm run data
         env:
-          SPOTIFY_CLIENT_ID: ${{ secrets.SPOTIFY_CLIENT_ID }}
-          SPOTIFY_CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
           TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
           PATREON_RSS_URL: ${{ secrets.PATREON_RSS_URL }}
+          SPOTIFY_CLIENT_ID: ${{ secrets.SPOTIFY_CLIENT_ID }}
+          SPOTIFY_CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
+
+      # Check and build before committing, so a source changing its layout fails the run
+      # instead of committing broken data or deploying a broken site.
+      - run: npm run typecheck
+      - run: npm run build
 
       - name: Commit refreshed data
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
-          git add src/data data/tmdb.json
+          git add src/data data/tmdb.json data/patreon.json
           git diff --cached --quiet || git commit -m "chore: refresh episode data"
           git push
 
-      - run: npm run build
-
-      - uses: cloudflare/wrangler-action@v3
+      # Cloudflare's GitHub integration deploys each push (including the data commit above).
+      # This step only runs if you deploy from the Action instead, by adding the Cloudflare secrets.
+      - name: Deploy to Cloudflare Pages
+        if: env.CLOUDFLARE_API_TOKEN != ''
+        uses: cloudflare/wrangler-action@v3
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}

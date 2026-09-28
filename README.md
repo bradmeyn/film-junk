@@ -21,11 +21,14 @@ Sources, in order of priority:
 - **Spotify** (Web API, optional): per-episode links. Create an app at developer.spotify.com and put
   `SPOTIFY_CLIENT_ID` / `SPOTIFY_CLIENT_SECRET` in `.env` (see `.env.example`) and in the repo secrets
 - **Patreon**: set `PATREON_RSS_URL` (a patron's private feed URL) in `.env` and repo secrets. It's a personal
-  credential: only each post's title, date, public post link and duration are kept (never descriptions or audio
-  links). Weekly episodes and premiums get a Patreon link; everything else becomes a "Patreon exclusive" entry
-  that links to the locked post. Without the feed, `scripts/patreon-export.js` is a manual fallback
+  credential, so posts are reduced to title, date, public post link, duration and description text with every
+  link removed, then merged into the committed `data/patreon.json` (builds never need the feed itself). Weekly
+  episodes and premiums get a Patreon link; everything else becomes a "Patreon exclusive" entry linking to the
+  locked post. Films named in descriptions (timestamped chapters, "Title (1985)", reviewed titles) are indexed.
+  `scripts/patreon-export.js` is a manual fallback
 
-- **TMDB** (optional): posters and the right year for each reviewed film. Put `TMDB_API_KEY` (either the API key or
+- **TMDB** (optional): posters, the right year, and IMDb/Letterboxd links for each film. Mentioned-only films
+  use exact title matches only (the most-rated when several share a title). Put `TMDB_API_KEY` (either the API key or
   the read access token) in `.env` and repo secrets. Matches are cached in `data/tmdb.json`, so only new films are
   looked up; `node scripts/fetch-tmdb.mjs --retry` re-tries ones that found nothing. Fix bad matches in
   `data/tmdb-overrides.json`

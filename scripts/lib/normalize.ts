@@ -1,6 +1,6 @@
 // Converts a libsyn episode-guide page into line-based text.
 // Section headings become "##Label", star icons become ★ ½ ☆.
-export function normalizeGuide(html) {
+export function normalizeGuide(html: string): string[] {
 	let t = html.replace(/\n/g, ' ');
 	t = t.replace(/<script.*?<\/script>|<style.*?<\/style>/gs, '');
 	t = t.replace(/<em class=\s*"\s*fa fa-star-half-o"[^>]*>.*?<\/em>/g, '½');
@@ -14,11 +14,11 @@ export function normalizeGuide(html) {
 	t = t.replace(/''/g, "'");
 	return t
 		.split('\n')
-		.map((l) => l.trim())
+		.map((l: string) => l.trim())
 		.filter(Boolean);
 }
 
-export function decode(s) {
+export function decode(s: string): string {
 	return s
 		.replace(/&nbsp;/g, ' ')
 		.replace(/&quot;/g, '"')
@@ -29,7 +29,7 @@ export function decode(s) {
 		.replace(/&hellip;/g, '…')
 		.replace(/&lt;/g, '<')
 		.replace(/&gt;/g, '>')
-		.replace(/&#(\d+);/g, (_, n) => String.fromCodePoint(+n))
-		.replace(/&#x([0-9a-f]+);/gi, (_, n) => String.fromCodePoint(parseInt(n, 16)))
+		.replace(/&#(\d+);/g, (_: string, n: string) => String.fromCodePoint(+n))
+		.replace(/&#x([0-9a-f]+);/gi, (_: string, n: string) => String.fromCodePoint(parseInt(n, 16)))
 		.replace(/&amp;/g, '&');
 }

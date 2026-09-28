@@ -1,5 +1,5 @@
 {
-	"builtAt": "2026-09-28T10:43:21.062Z",
+	"builtAt": "2026-09-28T11:29:55.580Z",
 	"yearNotes": {
 		"2005": [
 			"Total episodes: 47",
@@ -1063,10 +1063,10 @@
 					"date": "2026-09-28",
 					"title": "Sherman's March",
 					"year": 1985,
-					"episode": null,
-					"film": null,
+					"episode": "1064",
+					"film": "shermans-march",
 					"poster": "/55YscDYNXdffYwDGMrpveqnsa9d.jpg",
-					"status": "upcoming"
+					"status": "patreon"
 				}
 			]
 		}

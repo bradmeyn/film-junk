@@ -2,7 +2,8 @@
 import Layout from '../../layouts/Layout.astro';
 import EpisodeRow from '../../components/EpisodeRow.astro';
 import Stars from '../../components/Stars.astro';
-import { episodeById, episodeHref, episodeLabel, films, formatDate, hostHref, posterUrl, tmdbUrl, type Episode, type Film } from '../../lib/data';
+import Icon from '../../components/Icon.astro';
+import { episodeById, episodeHref, episodeLabel, filmLinks, films, formatDate, hostHref, posterUrl, type Episode, type Film } from '../../lib/data';
 
 export function getStaticPaths() {
 	return films.map((film) => ({ params: { slug: film.slug }, props: { film } }));
@@ -29,7 +30,7 @@ const featured = new Set([...reviewed.map((r) => r.episode.id), ...premiums.map(
 const watched = byRole('watched').filter((e) => !featured.has(e.id));
 
 const poster = posterUrl(film.poster, 'w342');
-const tmdb = tmdbUrl(film);
+const links = filmLinks(film);
 const heading = film.year ? `${film.title} (${film.year})` : film.title;
 const summary = [
 	reviewed.length && `reviewed ${reviewed.length === 1 ? 'once' : `${reviewed.length} times`}`,
@@ -47,7 +48,17 @@ const summary = [
 			<div>
 				<h1>{heading}</h1>
 				<p class="summary">On Film Junk: {summary}.</p>
-				{tmdb && <p class="muted tmdb"><a href={tmdb}>More about it on TMDB</a></p>}
+				{
+					links.length > 0 && (
+						<p class="external">
+							{links.map((l) => (
+								<a class="button" href={l.url}>
+									<Icon name={l.icon} /> {l.label}
+								</a>
+							))}
+						</p>
+					)
+				}
 			</div>
 		</header>
 
@@ -104,7 +115,7 @@ const summary = [
 			watched.length > 0 && (
 				<section>
 					<h2>Also came up in</h2>
-					<p class="muted note">Episodes where someone mentioned watching it.</p>
+					<p class="muted note">Episodes where it came up: something a host watched, or a film the episode talks about.</p>
 					<ul class="list">
 						{watched.map((e: Episode) => (
 							<EpisodeRow episode={e} />
@@ -137,9 +148,11 @@ const summary = [
 		background: var(--line);
 	}
 
-	.tmdb {
-		margin: 0.5rem 0 0;
-		font-size: var(--step--1);
+	.external {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.5rem;
+		margin: 1rem 0 0;
 	}
 
 	h1 {

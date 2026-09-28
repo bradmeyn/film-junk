@@ -1,5 +1,12 @@
 {
-  "extends": "astro/tsconfigs/strict",
-  "include": [".astro/types.d.ts", "**/*"],
-  "exclude": ["dist"]
+	"extends": "astro/tsconfigs/strict",
+	"include": [".astro/types.d.ts", "**/*"],
+	"exclude": ["dist"],
+	"compilerOptions": {
+		// scripts/ run directly with Node's built-in type stripping (Node 22.18+),
+		// which needs .ts import paths and type-only syntax.
+		"allowImportingTsExtensions": true,
+		"erasableSyntaxOnly": true,
+		"noEmit": true
+	}
 }

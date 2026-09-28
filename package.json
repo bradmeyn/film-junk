@@ -3,17 +3,18 @@
   "type": "module",
   "version": "0.0.1",
   "engines": {
-    "node": ">=22.12.0"
+    "node": ">=22.18.0"
   },
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "data:fetch": "node --env-file-if-exists=.env scripts/fetch-sources.mjs",
-    "data:build": "node scripts/build-data.mjs",
+    "data:fetch": "node --env-file-if-exists=.env scripts/fetch-sources.ts",
+    "data:build": "node scripts/build-data.ts",
     "data": "npm run data:fetch && npm run data:build && npm run data:tmdb && npm run data:build",
-    "data:tmdb": "node --env-file-if-exists=.env scripts/fetch-tmdb.mjs"
+    "data:tmdb": "node --env-file-if-exists=.env scripts/fetch-tmdb.ts",
+    "typecheck": "astro check && tsc --noEmit"
   },
   "dependencies": {
     "@astrojs/svelte": "^9.0.1",
@@ -23,5 +24,9 @@
   },
   "allowScripts": {
     "esbuild": true
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.10",
+    "@types/node": "^26.6.3"
   }
 }

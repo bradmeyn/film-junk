@@ -2,84 +2,12 @@ import episodesJson from '../data/episodes.json';
 import filmsJson from '../data/films.json';
 import metaJson from '../data/meta.json';
 
-export type Rating = { host: string; score: number; outOf: number };
-export type Review = { title: string; year: number | null; ratings: Rating[]; film: string | null };
-export type Kind = 'regular' | 'bonus' | 'premium' | 'patreon';
-
-export type Episode = {
-	id: string;
-	kind: Kind;
-	show?: string;
-	series?: string; // Patreon exclusives: 'Junk Mail', 'Retro Review', ...
-	duration?: number | null; // seconds
-	number: number | null;
-	part?: number | null;
-	date: string;
-	dateApprox?: boolean;
-	title: string;
-	reviews?: Review[];
-	watched?: { title: string; year: number | null; film: string | null }[];
-	segments?: { label: string; items: string[] }[];
-	music?: { intro?: string; outro?: string };
-	notes: string;
-	description: string;
-	pack?: string | null;
-	covers?: { title: string; film: string | null }[];
-	art?: string | null;
-	links: { libsyn?: string; gumroad?: string; bandcamp?: string; apple?: string; spotify?: string; patreon?: string };
-};
-
-export type Appearance = { id: string; role: 'review' | 'watched' | 'premium' };
-export type Film = {
-	slug: string;
-	title: string;
-	year: number | null;
-	poster: string | null;
-	tmdb: { type: 'movie' | 'tv'; id: number } | null;
-	appearances: Appearance[];
-};
+import type { Episode, Film, Meta, Review } from './types';
+export type * from './types';
 
 export const episodes = episodesJson as unknown as Episode[];
 export const films = filmsJson as unknown as Film[];
-export type YearEndLists = {
-	// Each host's ranked list, e.g. { Sean: ['Marty Supreme', ...] }
-	top10?: Record<string, string[]>;
-	junkies?: { award: string; winner: string }[];
-	source?: string;
-};
-export const meta = metaJson as {
-	builtAt: string;
-	yearNotes: Record<string, string[]>;
-	yearEnd: Record<string, { id: string; segments: string[] }[]>;
-	yearEndLists: Record<string, YearEndLists>;
-	packs: Pack[];
-	schedule: {
-		month: string;
-		source: string | null;
-		note: string | null;
-		items: {
-			date: string;
-			title: string;
-			year: number | null;
-			episode: string | null;
-			film: string | null;
-			poster: string | null;
-			status: 'out' | 'patreon' | 'upcoming';
-		}[];
-	}[];
-};
-
-export type Pack = {
-	label: string;
-	name: string;
-	url: string;
-	price: number;
-	currency: string;
-	from: number | null;
-	to: number | null;
-	episodes: number;
-	covers: { title: string; poster: string }[];
-};
+export const meta = metaJson as unknown as Meta;
 
 export const episodeById = new Map(episodes.map((e) => [e.id, e]));
 export const filmBySlug = new Map(films.map((f) => [f.slug, f]));
@@ -156,8 +84,13 @@ export function episodeArt(e: Episode) {
 	return poster ? { src: posterUrl(poster, 'w500')!, square: false } : null;
 }
 
-export function tmdbUrl(f: Film) {
-	return f.tmdb ? `https://www.themoviedb.org/${f.tmdb.type}/${f.tmdb.id}` : null;
+// Where to read more about a film. Letterboxd resolves TMDB ids itself (films only, not TV).
+export function filmLinks(f: Film) {
+	const links: { label: string; icon: 'letterboxd' | 'imdb'; url: string }[] = [];
+	if (f.tmdb?.type === 'movie') links.push({ label: 'Letterboxd', icon: 'letterboxd', url: `https://letterboxd.com/tmdb/${f.tmdb.id}/` });
+	else if (!f.tmdb) links.push({ label: 'Search Letterboxd', icon: 'letterboxd', url: `https://letterboxd.com/search/films/${encodeURIComponent(f.title)}/` });
+	if (f.imdb) links.push({ label: 'IMDb', icon: 'imdb', url: `https://www.imdb.com/title/${f.imdb}/` });
+	return links;
 }
 
 export function episodeHref(e: Episode) {
