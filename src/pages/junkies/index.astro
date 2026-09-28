@@ -1,0 +1,220 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { episodeById, episodeHref, episodeLabel, filmHref, formatDate, meta, slugify, type Episode } from '../../lib/data';
+
+type Show = { episode: Episode; segments: string[] };
+const kind = (s: Show) => {
+	const text = [s.episode.title, ...s.segments].join(' ');
+	if (/so far/i.test(text)) return 'midyear';
+	if (/revisited/i.test(text)) return 'revisited';
+	return 'main';
+};
+
+const years = Object.entries(meta.yearEnd)
+	.map(([year, shows]) => {
+		const all = shows
+			.map((s) => ({ episode: episodeById.get(s.id)!, segments: s.segments }))
+			.filter((s) => s.episode)
+			.sort((a, b) => a.episode.date.localeCompare(b.episode.date));
+		return {
+			year,
+			main: all.filter((s) => kind(s) === 'main'),
+			revisited: all.filter((s) => kind(s) === 'revisited'),
+			lists: meta.yearEndLists[year],
+		};
+	})
+	.filter((y) => y.main.length || y.lists)
+	.sort((a, b) => b.year.localeCompare(a.year));
+
+const hasJunkies = (s: Show) => /junkies/i.test([s.episode.title, ...s.segments].join(' '));
+const firstJunkies = years.filter((y) => y.main.some(hasJunkies)).at(-1)?.year;
+const hrefFor = (title: string) => filmHref(slugify(title));
+---
+
+<Layout title="The Junkies" description="Film Junk's top 10 lists and the Junkies awards, year by year.">
+	<div class="wrap">
+		<h1>The Junkies</h1>
+		<p class="intro">
+			Every year ends with the hosts' top 10 lists and, since {firstJunkies}, the Junkies: Film Junk's own end-of-year
+			awards.
+		</p>
+
+		<ol class="years">
+			{
+				years.map(({ year, main, revisited, lists }) => (
+					<li>
+						<h2>
+							<a href={`/years/${year}/`}>{year}</a>
+						</h2>
+						<div class="shows">
+							<ul class="eps">
+								{main.map(({ episode: e, segments }) => (
+									<li>
+										<a href={episodeHref(e)}>
+											<strong>{[...new Set([e.title, ...segments])].join(' + ')}</strong>
+											<span class="muted">
+												{episodeLabel(e)}, {formatDate(e.date, e.dateApprox)}
+											</span>
+										</a>
+									</li>
+								))}
+								{revisited.map(({ episode: e }) => (
+									<li class="revisited">
+										<a href={episodeHref(e)}>
+											Revisited in {episodeLabel(e)}
+											<span class="muted">{formatDate(e.date)}</span>
+										</a>
+									</li>
+								))}
+							</ul>
+
+							{lists?.top10 && (
+								<div class="top10">
+									{Object.entries(lists.top10).map(([host, titles]) => (
+										<div>
+											<h3>{host}</h3>
+											<ol>
+												{titles.map((t) => {
+													const href = hrefFor(t);
+													return <li>{href ? <a href={href}>{t}</a> : t}</li>;
+												})}
+											</ol>
+										</div>
+									))}
+								</div>
+							)}
+
+							{lists?.junkies && (
+								<dl class="junkies">
+									{lists.junkies.map(({ award, winner }) => {
+										const href = hrefFor(winner);
+										return (
+											<div>
+												<dt>{award}</dt>
+												<dd>{href ? <a href={href}>{winner}</a> : winner}</dd>
+											</div>
+										);
+									})}
+								</dl>
+							)}
+						</div>
+					</li>
+				))
+			}
+		</ol>
+	</div>
+</Layout>
+
+<style>
+	h1 {
+		font-size: var(--step-4);
+		margin-top: 1.5rem;
+	}
+
+	.intro {
+		font-size: var(--step-1);
+		max-width: 50ch;
+		margin: 1rem 0 2.5rem;
+	}
+
+	.years {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+	}
+
+	.years > li {
+		display: grid;
+		grid-template-columns: 7rem 1fr;
+		gap: 1.5rem;
+		padding-block: 1.25rem;
+		border-top: 1px solid var(--line);
+	}
+
+	@media (max-width: 36rem) {
+		.years > li {
+			grid-template-columns: 1fr;
+			gap: 0.5rem;
+		}
+	}
+
+	h2 {
+		font-size: var(--step-3);
+		font-weight: 900;
+	}
+
+	h2 a {
+		text-decoration: none;
+	}
+
+	h2 a:hover {
+		color: var(--accent);
+	}
+
+	.shows {
+		display: grid;
+		gap: 1.25rem;
+		max-width: 52rem;
+	}
+
+	.eps {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+		display: grid;
+		gap: 0.6rem;
+	}
+
+	.eps a {
+		display: grid;
+		text-decoration: none;
+	}
+
+	.eps a:hover strong {
+		text-decoration: underline;
+	}
+
+	.eps .muted {
+		font-size: var(--step--1);
+	}
+
+	.revisited a {
+		display: flex;
+		gap: 0.75rem;
+		align-items: baseline;
+		font-size: var(--step--1);
+	}
+
+	.top10 {
+		display: grid;
+		gap: 1.25rem;
+		grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+	}
+
+	.top10 h3 {
+		font-size: var(--step-1);
+		margin-bottom: 0.35rem;
+	}
+
+	.top10 ol {
+		margin: 0;
+		padding-left: 1.6rem;
+	}
+
+	.junkies {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+		gap: 0.5rem 2rem;
+		margin: 0;
+	}
+
+	.junkies dt {
+		font-size: var(--step--1);
+		color: var(--muted);
+	}
+
+	.junkies dd {
+		margin: 0;
+		font-weight: 700;
+	}
+</style>

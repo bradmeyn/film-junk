@@ -1,0 +1,195 @@
+import episodesJson from '../data/episodes.json';
+import filmsJson from '../data/films.json';
+import metaJson from '../data/meta.json';
+
+export type Rating = { host: string; score: number; outOf: number };
+export type Review = { title: string; year: number | null; ratings: Rating[]; film: string | null };
+export type Kind = 'regular' | 'bonus' | 'premium' | 'patreon';
+
+export type Episode = {
+	id: string;
+	kind: Kind;
+	show?: string;
+	series?: string; // Patreon exclusives: 'Junk Mail', 'Retro Review', ...
+	duration?: number | null; // seconds
+	number: number | null;
+	part?: number | null;
+	date: string;
+	dateApprox?: boolean;
+	title: string;
+	reviews?: Review[];
+	watched?: { title: string; year: number | null; film: string | null }[];
+	segments?: { label: string; items: string[] }[];
+	music?: { intro?: string; outro?: string };
+	notes: string;
+	description: string;
+	pack?: string | null;
+	covers?: { title: string; film: string | null }[];
+	art?: string | null;
+	links: { libsyn?: string; gumroad?: string; bandcamp?: string; apple?: string; spotify?: string; patreon?: string };
+};
+
+export type Appearance = { id: string; role: 'review' | 'watched' | 'premium' };
+export type Film = {
+	slug: string;
+	title: string;
+	year: number | null;
+	poster: string | null;
+	tmdb: { type: 'movie' | 'tv'; id: number } | null;
+	appearances: Appearance[];
+};
+
+export const episodes = episodesJson as unknown as Episode[];
+export const films = filmsJson as unknown as Film[];
+export type YearEndLists = {
+	// Each host's ranked list, e.g. { Sean: ['Marty Supreme', ...] }
+	top10?: Record<string, string[]>;
+	junkies?: { award: string; winner: string }[];
+	source?: string;
+};
+export const meta = metaJson as {
+	builtAt: string;
+	yearNotes: Record<string, string[]>;
+	yearEnd: Record<string, { id: string; segments: string[] }[]>;
+	yearEndLists: Record<string, YearEndLists>;
+	packs: Pack[];
+	schedule: {
+		month: string;
+		source: string | null;
+		note: string | null;
+		items: {
+			date: string;
+			title: string;
+			year: number | null;
+			episode: string | null;
+			film: string | null;
+			poster: string | null;
+			status: 'out' | 'patreon' | 'upcoming';
+		}[];
+	}[];
+};
+
+export type Pack = {
+	label: string;
+	name: string;
+	url: string;
+	price: number;
+	currency: string;
+	from: number | null;
+	to: number | null;
+	episodes: number;
+	covers: { title: string; poster: string }[];
+};
+
+export const episodeById = new Map(episodes.map((e) => [e.id, e]));
+export const filmBySlug = new Map(films.map((f) => [f.slug, f]));
+
+export const LINKS = {
+	patreon: 'https://www.patreon.com/filmjunk',
+	spotify: 'https://open.spotify.com/show/7gC4H6NxbAnQLB7ahS5u2P',
+	bandcamp: 'https://filmjunk.bandcamp.com/',
+	gumroad: 'https://filmjunk.gumroad.com/',
+	apple: 'https://podcasts.apple.com/podcast/film-junk-podcast/id74257105',
+	rss: 'https://feeds.feedburner.com/filmjunk',
+	site: 'https://www.filmjunk.com',
+};
+
+// From Film Junk's Linktree (linktr.ee/filmjunk) and the hosts' own pages.
+export const HOSTS = [
+	{
+		key: 'Sean',
+		slug: 'sean-dwyer',
+		name: 'Sean Dwyer',
+		links: [
+			{ label: 'Letterboxd', icon: 'letterboxd', url: 'https://letterboxd.com/filmjunk/' },
+			{ label: 'Space Junk on Substack', icon: 'substack', url: 'https://www.spacejunk.org/' },
+		],
+	},
+	{
+		key: 'Jay',
+		slug: 'jay-cheel',
+		name: 'Jay Cheel',
+		links: [
+			{ label: 'Letterboxd', icon: 'letterboxd', url: 'https://letterboxd.com/jay_c/' },
+			{ label: 'ART BRUT on Patreon', icon: 'patreon', url: 'https://www.patreon.com/artbrutfilms' },
+		],
+	},
+	{
+		key: 'Frank',
+		slug: 'frank-knezic',
+		name: 'Frank Knezic',
+		links: [{ label: 'Letterboxd', icon: 'letterboxd', url: 'https://letterboxd.com/dirrrtyfrank/' }],
+	},
+] as const;
+
+// Ratings use first names ("Sean"); only the three regular hosts have pages.
+export function hostHref(key: string) {
+	const host = HOSTS.find((h) => h.key === key);
+	return host ? `/hosts/${host.slug}/` : null;
+}
+
+// Must match slugify in scripts/build-data.mjs.
+export function slugify(s: string) {
+	return s
+		.normalize('NFKD')
+		.replace(/[̀-ͯ]/g, '')
+		.toLowerCase()
+		.replace(/&/g, ' and ')
+		.replace(/['’]/g, '')
+		.replace(/[^a-z0-9]+/g, '-')
+		.replace(/^-+|-+$/g, '');
+}
+
+export function filmHref(slug: string | null | undefined) {
+	return slug && filmBySlug.has(slug) ? `/films/${slug}/` : null;
+}
+
+// TMDB poster sizes: w92, w154, w185, w342, w500, w780.
+export function posterUrl(path: string | null | undefined, size: 'w154' | 'w342' | 'w500' = 'w342') {
+	return path ? `https://image.tmdb.org/t/p/${size}${path}` : null;
+}
+
+// Artwork for an episode: the premium's Bandcamp cover, else the first reviewed film's poster.
+export function episodeArt(e: Episode) {
+	if (e.art) return { src: e.art, square: true };
+	const poster = e.reviews?.map((r) => r.film && filmBySlug.get(r.film)?.poster).find(Boolean);
+	return poster ? { src: posterUrl(poster, 'w500')!, square: false } : null;
+}
+
+export function tmdbUrl(f: Film) {
+	return f.tmdb ? `https://www.themoviedb.org/${f.tmdb.type}/${f.tmdb.id}` : null;
+}
+
+export function episodeHref(e: Episode) {
+	return `/episodes/${e.id}/`;
+}
+
+export function episodeLabel(e: Episode) {
+	if (e.kind === 'premium') return e.number ? `Premium #${e.number}` : 'Premium';
+	if (e.kind === 'bonus') return 'Bonus';
+	if (e.kind === 'patreon') return 'Patreon exclusive';
+	if (!e.number) return e.show ?? 'Episode';
+	return `${e.show === 'Space Junk' ? 'Space Junk' : 'Episode'} ${e.number}${e.part ? ` (part ${e.part})` : ''}`;
+}
+
+const dateFormat = new Intl.DateTimeFormat('en-US', { month: 'short', day: 'numeric', year: 'numeric', timeZone: 'UTC' });
+export function formatDate(iso: string, approx = false) {
+	return (approx ? 'c. ' : '') + dateFormat.format(new Date(iso + 'T00:00:00Z'));
+}
+
+// Average of all host ratings for an episode's reviews, normalised to 5 stars.
+export function averageRating(reviews: Review[] = []) {
+	// "6 out of 5" counts as 5 so it doesn't skew averages.
+	const scores = reviews.flatMap((r) => r.ratings.map((x) => Math.min(5, (x.score / x.outOf) * 5)));
+	if (!scores.length) return null;
+	return Math.round((scores.reduce((a, b) => a + b, 0) / scores.length) * 2) / 2;
+}
+
+export function formatDuration(seconds: number | null | undefined) {
+	if (!seconds) return null;
+	const h = Math.floor(seconds / 3600);
+	const m = Math.round((seconds % 3600) / 60);
+	return h ? `${h} hr ${m} min` : `${m} min`;
+}
+
+export const years = [...new Set(episodes.map((e) => e.date.slice(0, 4)))].sort().reverse();

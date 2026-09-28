@@ -1,0 +1,278 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import EpisodeRow from '../../components/EpisodeRow.astro';
+import { episodeById, episodeHref, episodeLabel, episodes, filmHref, formatDate, meta, slugify, years, type Episode } from '../../lib/data';
+
+export function getStaticPaths() {
+	return years.map((year, i) => ({
+		params: { year },
+		props: {
+			list: episodes.filter((e) => e.date.startsWith(year)),
+			newer: years[i - 1],
+			older: years[i + 1],
+		},
+	}));
+}
+
+interface Props {
+	list: Episode[];
+	newer?: string;
+	older?: string;
+}
+const { year } = Astro.params;
+const { list, newer, older } = Astro.props;
+const highlights = meta.yearNotes[year!] ?? [];
+// Year-end shows: top 10 lists and the Junkies, plus any "revisited" and mid-year best-of episodes.
+const review = (meta.yearEnd[year!] ?? [])
+	.map((r) => ({ ...r, episode: episodeById.get(r.id)! }))
+	.filter((r) => r.episode)
+	.sort((a, b) => a.episode.date.localeCompare(b.episode.date));
+const lists = meta.yearEndLists[year!];
+const hrefFor = (title: string) => filmHref(slugify(title));
+---
+
+<Layout title={`${year} episodes`} description={`Every Film Junk Podcast episode from ${year}.`}>
+	<div class="wrap">
+		<nav class="years" aria-label="Other years">
+			<a href="/episodes/">All episodes</a>
+			<span class="step">
+				{older && <a href={`/years/${older}/`} rel="prev">{older}</a>}
+				{newer && <a href={`/years/${newer}/`} rel="next">{newer}</a>}
+			</span>
+		</nav>
+		<h1>{year}</h1>
+		<p class="muted">{list.length} episodes. <a href={`/episodes/?year=${year}`}>Filter this year</a></p>
+
+		{
+			(review.length > 0 || lists) && (
+				<section class="review" aria-labelledby="review-h">
+					<h2 id="review-h">Year in review</h2>
+					<ul class="review-eps">
+						{review.map(({ episode: e, segments }) => (
+							<li>
+								<a href={episodeHref(e)}>
+									<span class="sticker" data-kind={e.kind}>
+										{e.kind === 'regular' && e.number ? e.number : 'Bonus'}
+									</span>
+									<span>
+										<strong>{[e.title, ...segments].join(' + ')}</strong>
+										<span class="muted d">
+											{episodeLabel(e)}, {formatDate(e.date, e.dateApprox)}
+										</span>
+									</span>
+								</a>
+							</li>
+						))}
+					</ul>
+
+					{lists?.top10 && (
+						<>
+							<h3>Top 10 of {year}</h3>
+							<div class="top10">
+								{Object.entries(lists.top10).map(([host, titles]) => (
+									<div>
+										<h4>{host}</h4>
+										<ol>
+											{titles.map((t) => {
+												const href = hrefFor(t);
+												return <li>{href ? <a href={href}>{t}</a> : t}</li>;
+											})}
+										</ol>
+									</div>
+								))}
+							</div>
+						</>
+					)}
+
+					{lists?.junkies && (
+						<>
+							<h3>The {year} Junkies</h3>
+							<dl class="junkies">
+								{lists.junkies.map(({ award, winner }) => {
+									const href = hrefFor(winner);
+									return (
+										<div>
+											<dt>{award}</dt>
+											<dd>{href ? <a href={href}>{winner}</a> : winner}</dd>
+										</div>
+									);
+								})}
+							</dl>
+						</>
+					)}
+					{lists?.source && <p class="muted source">Lists from <a href={lists.source}>{new URL(lists.source).hostname}</a>.</p>}
+				</section>
+			)
+		}
+
+		<div class:list={["cols", { single: !highlights.length }]}>
+			<ul class="list">
+				{list.map((e) => <EpisodeRow episode={e} />)}
+			</ul>
+			{
+				highlights.length > 0 && (
+					<aside>
+						<h2>That year</h2>
+						<ul>
+							{highlights.map((h) => (
+								<li>{h}</li>
+							))}
+						</ul>
+						<p class="muted source">
+							From the <a href="https://filmjunk.fandom.com/wiki/FilmJunk_Wikia">fan wiki</a>.
+						</p>
+					</aside>
+				)
+			}
+		</div>
+	</div>
+</Layout>
+
+<style>
+	.years {
+		display: flex;
+		justify-content: space-between;
+		padding-top: 1rem;
+		font-weight: 600;
+	}
+
+	.step {
+		display: flex;
+		gap: 1.25rem;
+	}
+
+	.review {
+		margin: 2rem 0 3rem;
+		padding: 1.5rem;
+		background: var(--surface);
+		border: 1px solid var(--line);
+		border-radius: 0.75rem;
+	}
+
+	.review h2 {
+		font-size: var(--step-3);
+		margin-bottom: 1rem;
+	}
+
+	.review h3 {
+		font-size: var(--step-2);
+		margin: 1.75rem 0 0.75rem;
+	}
+
+	.review-eps {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+		display: grid;
+		gap: 0.75rem;
+	}
+
+	.review-eps a {
+		display: flex;
+		gap: 1rem;
+		align-items: center;
+		text-decoration: none;
+	}
+
+	.review-eps a:hover strong {
+		text-decoration: underline;
+	}
+
+	.review-eps .d {
+		display: block;
+		font-size: var(--step--1);
+	}
+
+	.top10 {
+		display: grid;
+		gap: 1.5rem;
+		grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr));
+	}
+
+	.top10 h4 {
+		margin: 0 0 0.4rem;
+		font-size: var(--step-1);
+	}
+
+	.top10 ol {
+		margin: 0;
+		padding-left: 1.6rem;
+		display: grid;
+		gap: 0.2rem;
+	}
+
+	.junkies {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+		gap: 0.6rem 2rem;
+		margin: 0;
+	}
+
+	.junkies dt {
+		font-size: var(--step--1);
+		color: var(--muted);
+	}
+
+	.junkies dd {
+		margin: 0;
+		font-weight: 700;
+	}
+
+	h1 {
+		font-size: calc(var(--step-4) * 1.4);
+		line-height: 0.85;
+		margin-top: 0.5rem;
+	}
+
+	.cols {
+		display: grid;
+		gap: 3rem;
+		grid-template-columns: minmax(0, 1fr) 20rem;
+		align-items: start;
+	}
+
+	.cols.single {
+		grid-template-columns: minmax(0, 50rem);
+	}
+
+	@media (max-width: 52rem) {
+		.cols {
+			grid-template-columns: 1fr;
+		}
+		aside {
+			order: -1;
+		}
+	}
+
+	.list {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+	}
+
+	aside {
+		position: sticky;
+		top: 1rem;
+		padding: 1.25rem;
+		background: var(--surface);
+		border: 1px solid var(--line);
+		border-radius: 0.6rem;
+	}
+
+	aside h2 {
+		font-size: var(--step-2);
+		margin-bottom: 0.5rem;
+	}
+
+	aside ul {
+		padding-left: 1.1rem;
+		margin: 0;
+		display: grid;
+		gap: 0.4rem;
+	}
+
+	.source {
+		font-size: var(--step--1);
+		margin: 1rem 0 0;
+	}
+</style>

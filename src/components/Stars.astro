@@ -1,0 +1,36 @@
+---
+interface Props {
+	score: number;
+	outOf?: number;
+	label?: string;
+}
+const { score, outOf = 5, label } = Astro.props;
+const full = Math.floor(Math.min(score, outOf));
+const half = score % 1 >= 0.5 && score < outOf;
+const empty = Math.max(0, outOf - full - (half ? 1 : 0));
+// The show occasionally gives 6 out of 5.
+const bonus = Math.max(0, Math.floor(score - outOf));
+---
+
+<span class="stars" role="img" aria-label={`${label ? label + ': ' : ''}${score} out of ${outOf}`}>
+	<span class="on">{'★'.repeat(full + bonus)}</span>{half && <span class="half">★</span>}<span class="off">{'★'.repeat(empty)}</span>
+</span>
+
+<style>
+	.stars {
+		letter-spacing: 0.05em;
+		white-space: nowrap;
+	}
+	.on {
+		color: var(--star);
+	}
+	.off {
+		color: var(--line);
+	}
+	.half {
+		background: linear-gradient(90deg, var(--star) 50%, var(--line) 50%);
+		background-clip: text;
+		-webkit-background-clip: text;
+		color: transparent;
+	}
+</style>

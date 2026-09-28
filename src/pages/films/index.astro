@@ -1,0 +1,96 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import FilmSearch from '../../components/FilmSearch.svelte';
+import { films } from '../../lib/data';
+
+const reviewCount = (f: (typeof films)[number]) => f.appearances.filter((a) => a.role !== 'watched').length;
+const mostReviewed = films
+	.filter((f) => reviewCount(f) > 1)
+	.sort((a, b) => reviewCount(b) - reviewCount(a))
+	.slice(0, 30);
+const mostMentioned = films
+	.map((f) => ({ f, n: f.appearances.filter((a) => a.role === 'watched').length }))
+	.sort((a, b) => b.n - a.n)
+	.slice(0, 30);
+---
+
+<Layout title="Films" description="Search every film and show discussed on the Film Junk Podcast.">
+	<div class="wrap">
+		<h1>Films</h1>
+		<p class="muted intro">
+			Every film and show that was reviewed or came up in "what we watched", {films.length.toLocaleString()} in total.
+		</p>
+		<div class="search">
+			<FilmSearch client:load limit={40} />
+		</div>
+
+		<div class="lists">
+			<section>
+				<h2>Reviewed more than once</h2>
+				<ol>
+					{
+						mostReviewed.map((f) => (
+							<li>
+								<a href={`/films/${f.slug}/`}>{f.title}</a> <span class="muted">{reviewCount(f)} times</span>
+							</li>
+						))
+					}
+				</ol>
+			</section>
+			<section>
+				<h2>Watched the most</h2>
+				<ol>
+					{
+						mostMentioned.map(({ f, n }) => (
+							<li>
+								<a href={`/films/${f.slug}/`}>{f.title}</a> <span class="muted">{n} episodes</span>
+							</li>
+						))
+					}
+				</ol>
+			</section>
+		</div>
+	</div>
+</Layout>
+
+<style>
+	h1 {
+		font-size: var(--step-4);
+		margin-top: 1.5rem;
+	}
+
+	.intro {
+		max-width: 55ch;
+	}
+
+	.search {
+		max-width: 44rem;
+		margin-bottom: 3rem;
+	}
+
+	.lists {
+		display: grid;
+		gap: 2.5rem;
+		grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+	}
+
+	h2 {
+		font-size: var(--step-2);
+		margin-bottom: 0.75rem;
+	}
+
+	ol {
+		margin: 0;
+		padding-left: 1.75rem;
+		display: grid;
+		gap: 0.3rem;
+	}
+
+	li a {
+		font-weight: 600;
+	}
+
+	li span {
+		font-size: var(--step--1);
+	}
+</style>

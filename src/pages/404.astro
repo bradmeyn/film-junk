@@ -1,0 +1,32 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="Page not found">
+	<div class="wrap">
+		<h1>That reel's missing</h1>
+		<p>There's no page at this address. Use the search at the top to find a film, or try one of these:</p>
+		<p class="actions">
+			<a class="button primary" href="/episodes/">Every episode</a>
+			<a class="button" href="/random/">Surprise me</a>
+			<a class="button" href="/">Home</a>
+		</p>
+	</div>
+</Layout>
+
+<style>
+	h1 {
+		font-size: var(--step-4);
+		margin: 2rem 0 1rem;
+	}
+
+	p {
+		max-width: 55ch;
+	}
+
+	.actions {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.5rem;
+	}
+</style>

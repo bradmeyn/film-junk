@@ -1,0 +1,24 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { episodes } from '../../lib/data';
+
+// Weekly shows and premiums with a proper review, so a random pick is always a real episode.
+const ids = episodes.filter((e) => e.kind !== 'bonus' && (e.reviews?.length || e.kind === 'premium')).map((e) => e.id);
+---
+
+<Layout title="Surprise me" description="Jump to a random Film Junk episode.">
+	<div class="wrap">
+		<h1>Picking an episode…</h1>
+		<p><a href="/episodes/">Browse every episode</a> if nothing happens.</p>
+	</div>
+	<script is:inline define:vars={{ ids }}>
+		location.replace(`/episodes/${ids[Math.floor(Math.random() * ids.length)]}/`);
+	</script>
+</Layout>
+
+<style>
+	h1 {
+		font-size: var(--step-3);
+		margin: 2rem 0 1rem;
+	}
+</style>

@@ -1,0 +1,363 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import ListenLinks from '../../components/ListenLinks.astro';
+import Stars from '../../components/Stars.astro';
+import { episodeArt, episodes, episodeHref, episodeLabel, filmBySlug, filmHref, formatDate, formatDuration, hostHref, posterUrl, type Episode } from '../../lib/data';
+
+export function getStaticPaths() {
+	return episodes.map((e, i) => ({
+		params: { id: e.id },
+		props: {
+			episode: e,
+			// episodes is newest-first; find neighbours of the same kind.
+			newer: episodes.slice(0, i).findLast((x) => x.kind === e.kind),
+			older: episodes.slice(i + 1).find((x) => x.kind === e.kind),
+		},
+	}));
+}
+
+interface Props {
+	episode: Episode;
+	newer?: Episode;
+	older?: Episode;
+}
+const { episode: e, newer, older } = Astro.props;
+const label = episodeLabel(e);
+const year = e.date.slice(0, 4);
+const art = episodeArt(e);
+// Only show per-review posters when there's more than one film; one is already the header art.
+const reviewPosters = (e.reviews?.length ?? 0) > 1;
+---
+
+<Layout title={`${label}: ${e.title}`} description={`${label} of the Film Junk Podcast (${formatDate(e.date)}): ${e.title}.`} image={art?.src}>
+	<article class="wrap">
+		<header class:list={['head', { 'has-art': art }]}>
+			{art && <img class:list={[{ poster: !art.square }]} src={art.src} alt="" width={art.square ? 700 : 500} height={art.square ? 700 : 750} />}
+			<div>
+				<span class="sticker" data-kind={e.kind}>{label}</span>
+				<h1>{e.title}</h1>
+				<p class="muted meta">
+					<time datetime={e.date}>{formatDate(e.date, e.dateApprox)}</time>
+					{formatDuration(e.duration) && <span>{formatDuration(e.duration)}</span>}
+					{e.series && <span>{e.series}</span>}
+					<a href={`/years/${year}/`}>More from {year}</a>
+				</p>
+				<ListenLinks episode={e} />
+			</div>
+		</header>
+
+		<div class="body">
+			{
+				!!e.reviews?.length && (
+					<section>
+						<h2>{e.reviews.length > 1 ? 'Reviews' : 'Review'}</h2>
+						<ul class="reviews">
+							{e.reviews.map((r) => {
+								const href = filmHref(r.film);
+								const poster = reviewPosters && posterUrl(r.film && filmBySlug.get(r.film)?.poster, 'w154');
+								return (
+									<li class:list={[{ 'with-poster': poster }]}>
+										{poster && <img class="thumb" src={poster} alt="" width="154" height="231" loading="lazy" />}
+										<div>
+										<h3>
+											{href ? <a href={href}>{r.title}</a> : r.title}
+											{r.year && <span class="muted"> ({r.year})</span>}
+										</h3>
+										{r.ratings.length > 0 && (
+											<dl class="ratings">
+												{r.ratings.map((x) => (
+													<div>
+														<dt>{hostHref(x.host) ? <a href={hostHref(x.host)}>{x.host}</a> : x.host}</dt>
+														<dd>
+															<Stars score={x.score} outOf={x.outOf} label={x.host} />
+														</dd>
+													</div>
+												))}
+											</dl>
+										)}
+										</div>
+									</li>
+								);
+							})}
+						</ul>
+					</section>
+				)
+			}
+
+			{
+				!!e.covers?.length && (
+					<section>
+						<h2>Films covered</h2>
+						<ul class="chips">
+							{e.covers.map((c) => {
+								const href = filmHref(c.film);
+								return <li>{href ? <a href={href}>{c.title}</a> : <span>{c.title}</span>}</li>;
+							})}
+						</ul>
+					</section>
+				)
+			}
+
+			{
+				e.description && (
+					<section>
+						<h2>About this episode</h2>
+						<div class="prose">
+							{e.description.split(/\n\n+/).map((p) => (
+								<p>{p}</p>
+							))}
+						</div>
+					</section>
+				)
+			}
+
+			{
+				e.notes && (
+					<section>
+						<h2>Notable moments</h2>
+						<p class="prose">{e.notes}</p>
+					</section>
+				)
+			}
+
+			{
+				!!e.watched?.length && (
+					<section>
+						<h2>Other stuff they watched</h2>
+						<ul class="chips">
+							{e.watched.map((w) => {
+								const href = filmHref(w.film);
+								const text = w.year ? `${w.title} (${w.year})` : w.title;
+								return <li>{href ? <a href={href}>{text}</a> : <span>{text}</span>}</li>;
+							})}
+						</ul>
+					</section>
+				)
+			}
+
+			{
+				e.segments?.map((s) => (
+					<section>
+						<h2>{s.label}</h2>
+						<ul class="plain">
+							{s.items.map((i) => (
+								<li>{i}</li>
+							))}
+						</ul>
+					</section>
+				))
+			}
+
+			{
+				(e.music?.intro || e.music?.outro) && (
+					<section>
+						<h2>Music</h2>
+						<dl class="music">
+							{e.music.intro && (
+								<div>
+									<dt>Intro</dt>
+									<dd>{e.music.intro}</dd>
+								</div>
+							)}
+							{e.music.outro && (
+								<div>
+									<dt>Outro</dt>
+									<dd>{e.music.outro}</dd>
+								</div>
+							)}
+						</dl>
+					</section>
+				)
+			}
+		</div>
+
+		<nav class="pager" aria-label="More episodes">
+			{
+				older && (
+					<a href={episodeHref(older)} rel="prev">
+						<span class="muted">Older</span> {episodeLabel(older)}: {older.title}
+					</a>
+				)
+			}
+			{
+				newer && (
+					<a href={episodeHref(newer)} rel="next" class="next">
+						<span class="muted">Newer</span> {episodeLabel(newer)}: {newer.title}
+					</a>
+				)
+			}
+		</nav>
+	</article>
+</Layout>
+
+<style>
+	.head {
+		display: grid;
+		gap: 1.5rem;
+		padding-block: 1.5rem 2rem;
+		border-bottom: 1px solid var(--line);
+	}
+
+	.head.has-art {
+		grid-template-columns: minmax(8rem, 16rem) 1fr;
+		align-items: end;
+	}
+
+	@media (max-width: 40rem) {
+		.head.has-art {
+			grid-template-columns: 1fr;
+		}
+		.head img {
+			max-width: 12rem;
+		}
+	}
+
+	.head img {
+		width: 100%;
+		height: auto;
+		border-radius: 0.5rem;
+	}
+
+	.head img.poster {
+		aspect-ratio: 2 / 3;
+		object-fit: cover;
+		max-width: 14rem;
+	}
+
+	.with-poster {
+		display: grid;
+		grid-template-columns: 4.5rem 1fr;
+		gap: 1rem;
+		align-items: start;
+	}
+
+	.thumb {
+		width: 100%;
+		height: auto;
+		aspect-ratio: 2 / 3;
+		object-fit: cover;
+		border-radius: 0.3rem;
+		background: var(--line);
+	}
+
+	.head > div {
+		display: grid;
+		gap: 0.75rem;
+		justify-items: start;
+	}
+
+	h1 {
+		font-size: var(--step-4);
+		line-height: 0.92;
+		max-width: 18ch;
+		overflow-wrap: anywhere;
+	}
+
+	.head p {
+		margin: 0;
+	}
+
+	.meta {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.25rem 1.25rem;
+	}
+
+	.body {
+		display: grid;
+		gap: 2.25rem;
+		padding-block: 2rem;
+		max-width: 50rem;
+	}
+
+	h2 {
+		font-size: var(--step-2);
+		margin-bottom: 0.75rem;
+	}
+
+	.reviews {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+		display: grid;
+		gap: 1.25rem;
+	}
+
+	.reviews h3 {
+		font-family: var(--font-body);
+		font-size: var(--step-1);
+		font-weight: 700;
+		line-height: 1.3;
+		margin-bottom: 0.4rem;
+	}
+
+	.ratings {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.5rem 1.5rem;
+		margin: 0;
+	}
+
+	.ratings div,
+	.music div {
+		display: flex;
+		gap: 0.5rem;
+		align-items: baseline;
+	}
+
+	dt {
+		font-weight: 600;
+	}
+
+	dd {
+		margin: 0;
+	}
+
+	.music {
+		display: grid;
+		gap: 0.25rem;
+		margin: 0;
+	}
+
+	.prose {
+		max-width: 65ch;
+		margin: 0;
+	}
+
+	.prose p {
+		margin: 0 0 0.75rem;
+	}
+
+	.plain {
+		margin: 0;
+		padding-left: 1.1rem;
+	}
+
+	.pager {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: 1rem;
+		padding-top: 1.5rem;
+		border-top: 1px solid var(--line);
+	}
+
+	.pager a {
+		display: grid;
+		text-decoration: none;
+		font-weight: 600;
+	}
+
+	.pager a:hover {
+		text-decoration: underline;
+	}
+
+	.pager .next {
+		grid-column: 2;
+		text-align: right;
+	}
+
+	.pager span {
+		font-weight: 400;
+		font-size: var(--step--1);
+	}
+</style>

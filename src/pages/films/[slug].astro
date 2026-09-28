@@ -1,0 +1,228 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import EpisodeRow from '../../components/EpisodeRow.astro';
+import Stars from '../../components/Stars.astro';
+import { episodeById, episodeHref, episodeLabel, films, formatDate, hostHref, posterUrl, tmdbUrl, type Episode, type Film } from '../../lib/data';
+
+export function getStaticPaths() {
+	return films.map((film) => ({ params: { slug: film.slug }, props: { film } }));
+}
+
+interface Props {
+	film: Film;
+}
+const { film } = Astro.props;
+
+const byRole = (role: string) =>
+	film.appearances
+		.filter((a) => a.role === role)
+		.map((a) => episodeById.get(a.id)!)
+		.filter(Boolean)
+		.sort((a, b) => b.date.localeCompare(a.date));
+
+const reviewed = byRole('review').map((e) => ({
+	episode: e,
+	review: e.reviews?.find((r) => r.film === film.slug),
+}));
+const premiums = byRole('premium');
+const featured = new Set([...reviewed.map((r) => r.episode.id), ...premiums.map((e) => e.id)]);
+const watched = byRole('watched').filter((e) => !featured.has(e.id));
+
+const poster = posterUrl(film.poster, 'w342');
+const tmdb = tmdbUrl(film);
+const heading = film.year ? `${film.title} (${film.year})` : film.title;
+const summary = [
+	reviewed.length && `reviewed ${reviewed.length === 1 ? 'once' : `${reviewed.length} times`}`,
+	premiums.length && `covered in ${premiums.length} premium${premiums.length === 1 ? '' : 's'}`,
+	watched.length && `came up in ${watched.length} other episode${watched.length === 1 ? '' : 's'}`,
+]
+	.filter(Boolean)
+	.join(', ');
+---
+
+<Layout title={heading} description={`${heading} on the Film Junk Podcast: ${summary}.`} image={posterUrl(film.poster, 'w500')}>
+	<div class="wrap">
+		<header class:list={[{ 'has-poster': poster }]}>
+			{poster && <img src={poster} alt={`Poster for ${heading}`} width="342" height="513" />}
+			<div>
+				<h1>{heading}</h1>
+				<p class="summary">On Film Junk: {summary}.</p>
+				{tmdb && <p class="muted tmdb"><a href={tmdb}>More about it on TMDB</a></p>}
+			</div>
+		</header>
+
+		{
+			reviewed.length > 0 && (
+				<section>
+					<h2>Reviewed</h2>
+					<ul class="reviews">
+						{reviewed.map(({ episode: e, review }) => (
+							<li>
+								<a class="ep" href={episodeHref(e)}>
+									<span class="sticker" data-kind={e.kind}>
+										{e.kind === 'regular' && e.number ? e.number : { premium: 'Premium', patreon: 'Patreon', bonus: 'Bonus', regular: 'Episode' }[e.kind]}
+									</span>
+									<span>
+										<strong>{episodeLabel(e)}</strong>
+										<span class="muted"> {formatDate(e.date, e.dateApprox)}</span>
+										{e.title !== review?.title && <span class="also">{e.title}</span>}
+									</span>
+								</a>
+								{review && review.ratings.length > 0 && (
+									<dl class="ratings">
+										{review.ratings.map((x) => (
+											<div>
+												<dt>{hostHref(x.host) ? <a href={hostHref(x.host)}>{x.host}</a> : x.host}</dt>
+												<dd>
+													<Stars score={x.score} outOf={x.outOf} label={x.host} />
+												</dd>
+											</div>
+										))}
+									</dl>
+								)}
+							</li>
+						))}
+					</ul>
+				</section>
+			)
+		}
+
+		{
+			premiums.length > 0 && (
+				<section>
+					<h2>Premium episodes</h2>
+					<ul class="list">
+						{premiums.map((e: Episode) => (
+							<EpisodeRow episode={e} />
+						))}
+					</ul>
+				</section>
+			)
+		}
+
+		{
+			watched.length > 0 && (
+				<section>
+					<h2>Also came up in</h2>
+					<p class="muted note">Episodes where someone mentioned watching it.</p>
+					<ul class="list">
+						{watched.map((e: Episode) => (
+							<EpisodeRow episode={e} />
+						))}
+					</ul>
+				</section>
+			)
+		}
+	</div>
+</Layout>
+
+<style>
+	header {
+		padding-block: 1.5rem 1rem;
+	}
+
+	header.has-poster {
+		display: grid;
+		grid-template-columns: minmax(7rem, 12rem) 1fr;
+		gap: 1.5rem;
+		align-items: end;
+	}
+
+	header img {
+		width: 100%;
+		height: auto;
+		aspect-ratio: 2 / 3;
+		object-fit: cover;
+		border-radius: 0.5rem;
+		background: var(--line);
+	}
+
+	.tmdb {
+		margin: 0.5rem 0 0;
+		font-size: var(--step--1);
+	}
+
+	h1 {
+		font-size: var(--step-4);
+		line-height: 0.92;
+		max-width: 20ch;
+		overflow-wrap: anywhere;
+	}
+
+	.summary {
+		font-size: var(--step-1);
+		margin: 1rem 0 0;
+	}
+
+	section {
+		margin-top: 2.5rem;
+		max-width: 50rem;
+	}
+
+	h2 {
+		font-size: var(--step-2);
+		margin-bottom: 0.75rem;
+	}
+
+	.note {
+		margin: -0.25rem 0 0.5rem;
+	}
+
+	.list,
+	.reviews {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+	}
+
+	.reviews li {
+		padding: 1rem;
+		background: var(--surface);
+		border: 1px solid var(--line);
+		border-radius: 0.6rem;
+		display: grid;
+		gap: 0.75rem;
+	}
+
+	.reviews li + li {
+		margin-top: 0.75rem;
+	}
+
+	.ep {
+		display: flex;
+		gap: 1rem;
+		align-items: center;
+		text-decoration: none;
+	}
+
+	.ep:hover strong {
+		text-decoration: underline;
+	}
+
+	.also {
+		display: block;
+		font-size: var(--step--1);
+		color: var(--muted);
+	}
+
+	.ratings {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.5rem 1.5rem;
+		margin: 0;
+	}
+
+	.ratings div {
+		display: flex;
+		gap: 0.5rem;
+		align-items: baseline;
+	}
+
+	dt {
+		font-weight: 600;
+	}
+
+	dd {
+		margin: 0;
+	}
+</style>

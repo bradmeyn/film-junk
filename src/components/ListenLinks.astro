@@ -1,0 +1,95 @@
+---
+import Icon from './Icon.astro';
+import { LINKS, type Episode } from '../lib/data';
+
+interface Props {
+	episode: Episode;
+}
+const { episode: e } = Astro.props;
+const pack = e.pack === 'bonus' ? 'the bonus pack' : `the ${e.pack ?? e.date.slice(0, 4)} pack`;
+const l = e.links;
+const hasFree = l.libsyn || l.spotify || l.apple;
+// Older episodes are only sold in yearly packs, so Gumroad is the main way to listen.
+const gumroadOnly = l.gumroad && !hasFree;
+---
+
+<div class="links">
+	{
+		l.libsyn && (
+			<a class="button primary" href={l.libsyn}>
+				<Icon name="play" /> Listen
+			</a>
+		)
+	}
+	{
+		// Without Spotify API keys there's no per-episode link, so free-feed episodes link the show.
+		(l.spotify || (l.libsyn || l.apple)) && (
+			<a class="button spotify" href={l.spotify ?? LINKS.spotify}>
+				<Icon name="spotify" /> Spotify
+			</a>
+		)
+	}
+	{
+		l.apple && (
+			<a class="button" href={l.apple}>
+				<Icon name="apple" /> Apple Podcasts
+			</a>
+		)
+	}
+	{
+		l.patreon && (
+			<a class="button patreon" href={l.patreon}>
+				<Icon name="patreon" /> {e.kind === 'patreon' ? 'Listen on Patreon' : 'Patreon'}
+			</a>
+		)
+	}
+	{e.kind === 'patreon' && <span class="muted note">For Film Junk patrons.</span>}
+	{
+		e.kind === 'premium' && !l.patreon && (
+			<a class="button patreon" href={LINKS.patreon}>
+				<Icon name="patreon" /> Get every premium on Patreon
+			</a>
+		)
+	}
+	{
+		l.bandcamp && (
+			<a class="button" href={l.bandcamp}>
+				<Icon name="bandcamp" /> Buy on Bandcamp
+			</a>
+		)
+	}
+	{
+		l.gumroad && (
+			<a class:list={['button', { primary: gumroadOnly }]} href={l.gumroad}>
+				<Icon name="gumroad" /> Buy {pack} on Gumroad
+			</a>
+		)
+	}
+	{gumroadOnly && <span class="muted note">Only available in {pack}.</span>}
+	{
+		e.kind !== 'premium' && !hasFree && !l.gumroad && !l.patreon && (
+			<>
+				<span class="muted note">No direct link for this episode.</span>
+				<a class="button spotify" href={LINKS.spotify}>
+					<Icon name="spotify" /> Film Junk on Spotify
+				</a>
+				<a class="button" href={LINKS.apple}>
+					<Icon name="apple" /> Apple Podcasts
+				</a>
+			</>
+		)
+	}
+</div>
+
+<style>
+	.note {
+		align-self: center;
+		font-size: var(--step--1);
+	}
+
+	.links {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.5rem;
+	}
+</style>

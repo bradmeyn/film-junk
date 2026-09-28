@@ -1,0 +1,224 @@
+:root {
+	--bg: #eef0f4;
+	--surface: #ffffff;
+	--ink: #151a2e;
+	--muted: #596078;
+	--line: #d3d8e3;
+	--accent: #8a2fc4; /* logo purple, deepened for text contrast on light */
+	--accent-ink: #ffffff;
+	--brand: #d07cfa; /* logo background purple */
+	--brand-ink: #1a0f24;
+	--slime: #b4ca36; /* logo lettering green */
+	--slime-ink: #1a0f24;
+	--star: #e0a800;
+	--premium: #4f6b00; /* slime green, deepened for text */
+	--focus: #2f6bff;
+	--chart: #8a2fc4; /* validated: dataviz validate_palette.js vs #fff */
+
+	--font-display: 'Big Shoulders Display', 'Arial Narrow', sans-serif;
+	--font-body: 'Public Sans', system-ui, sans-serif;
+
+	--step--1: 0.875rem;
+	--step-0: 1rem;
+	--step-1: 1.25rem;
+	--step-2: 1.75rem;
+	--step-3: 2.5rem;
+	--step-4: clamp(3rem, 9vw, 7.5rem);
+
+	--gutter: clamp(1rem, 4vw, 2.5rem);
+	--max: 72rem;
+	color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--bg: #11142a;
+		--surface: #1a1e38;
+		--ink: #eef0f6;
+		--muted: #9aa1ba;
+		--line: #2d3355;
+		--accent: #d07cfa;
+		--accent-ink: #1a0f24;
+		--brand: #d07cfa;
+		--brand-ink: #1a0f24;
+		--slime: #b4ca36;
+		--slime-ink: #1a0f24;
+		--star: #ffc933;
+		--premium: #b4ca36;
+		--focus: #7ea4ff;
+		--chart: #b060e8; /* validated vs #1a1e38 */
+		color-scheme: dark;
+	}
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+html {
+	-webkit-text-size-adjust: 100%;
+}
+
+body {
+	margin: 0;
+	background: var(--bg);
+	color: var(--ink);
+	font-family: var(--font-body);
+	font-size: var(--step-0);
+	line-height: 1.55;
+}
+
+h1,
+h2,
+h3 {
+	font-family: var(--font-display);
+	font-weight: 800;
+	line-height: 1;
+	letter-spacing: 0.01em;
+	margin: 0;
+}
+
+h2 {
+	font-size: var(--step-3);
+}
+
+h3 {
+	font-size: var(--step-2);
+}
+
+a {
+	color: inherit;
+	text-decoration-color: color-mix(in srgb, currentColor 35%, transparent);
+	text-underline-offset: 0.2em;
+}
+
+a:hover {
+	text-decoration-color: var(--accent);
+}
+
+:focus-visible {
+	outline: 3px solid var(--focus);
+	outline-offset: 2px;
+	border-radius: 2px;
+}
+
+.wrap {
+	max-width: var(--max);
+	margin-inline: auto;
+	padding-inline: var(--gutter);
+}
+
+.muted {
+	color: var(--muted);
+}
+
+.visually-hidden {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+	clip: rect(0 0 0 0);
+	white-space: nowrap;
+}
+
+/* Rental-sticker episode number */
+.sticker {
+	display: inline-block;
+	font-family: var(--font-display);
+	font-weight: 800;
+	font-size: var(--step-1);
+	line-height: 1;
+	padding: 0.3em 0.45em 0.25em;
+	border-radius: 0.3em;
+	background: var(--brand);
+	color: var(--brand-ink);
+	white-space: nowrap;
+}
+
+.sticker[data-kind='premium'] {
+	background: var(--slime);
+	color: var(--slime-ink);
+}
+
+.sticker[data-kind='patreon'] {
+	background: transparent;
+	color: var(--accent);
+	box-shadow: inset 0 0 0 2px var(--accent);
+}
+
+.sticker[data-kind='bonus'] {
+	background: var(--ink);
+	color: var(--bg);
+}
+
+.chips {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.4rem;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.chips > li > * {
+	display: inline-block;
+	padding: 0.2rem 0.6rem;
+	border: 1px solid var(--line);
+	border-radius: 999px;
+	background: var(--surface);
+	font-size: var(--step--1);
+	text-decoration: none;
+}
+
+.chips a:hover {
+	border-color: var(--accent);
+}
+
+.button {
+	display: inline-flex;
+	align-items: center;
+	gap: 0.4rem;
+	padding: 0.5rem 0.9rem;
+	border-radius: 0.4rem;
+	border: 1px solid var(--line);
+	background: var(--surface);
+	font-weight: 600;
+	font-size: var(--step--1);
+	text-decoration: none;
+}
+
+.button:hover {
+	border-color: var(--ink);
+}
+
+.button.spotify {
+	background: #1ed760;
+	border-color: #1ed760;
+	color: #0b2a15;
+}
+
+.button.patreon {
+	background: var(--accent);
+	border-color: var(--accent);
+	color: var(--accent-ink);
+}
+
+.button.spotify:hover,
+.button.patreon:hover {
+	border-color: var(--ink);
+}
+
+.button.primary {
+	background: var(--ink);
+	color: var(--bg);
+	border-color: var(--ink);
+}
+
+@media (prefers-reduced-motion: reduce) {
+	* {
+		animation: none !important;
+		transition: none !important;
+	}
+}

@@ -1,0 +1,102 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import EpisodeBrowser, { type Item } from '../../components/EpisodeBrowser.svelte';
+import { averageRating, episodes, meta, years } from '../../lib/data';
+
+const items: Item[] = episodes.map((e) => ({
+	id: e.id,
+	n: e.number,
+	k: e.kind,
+	d: e.date,
+	t: e.title,
+	h: [...new Set((e.reviews ?? []).flatMap((r) => r.ratings.map((x) => x.host)))],
+	a: averageRating(e.reviews),
+}));
+
+// Regular hosts first, then guests by how often they rated something.
+const hostCounts = new Map<string, number>();
+for (const i of items) for (const h of i.h) hostCounts.set(h, (hostCounts.get(h) ?? 0) + 1);
+const hosts = [...hostCounts].filter(([, n]) => n >= 5).sort((a, b) => b[1] - a[1]).map(([h]) => h);
+---
+
+<Layout title="Episodes" description="Every Film Junk episode, filterable by year, type and host.">
+	<div class="wrap">
+		<div class="head">
+			<h1>Every episode</h1>
+			<a class="button" href="/random/">Surprise me</a>
+		</div>
+		<nav class="by-year" aria-label="Episodes by year">
+			<h2>By year</h2>
+			<ul>
+				{
+					years.map((y) => (
+						<li>
+							<a href={`/years/${y}/`}>
+								{y}
+								{meta.yearEnd[y] && <span class="star" title="Top 10 and Junkies">★</span>}
+							</a>
+						</li>
+					))
+				}
+			</ul>
+		</nav>
+		<EpisodeBrowser client:load {items} {years} {hosts} />
+	</div>
+</Layout>
+
+<style>
+	.head {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: space-between;
+		gap: 1rem;
+		margin: 1.5rem 0 1.25rem;
+	}
+
+	h1 {
+		font-size: var(--step-4);
+	}
+
+	.by-year {
+		margin-bottom: 1.5rem;
+	}
+
+	.by-year h2 {
+		font-size: var(--step-1);
+		margin-bottom: 0.5rem;
+	}
+
+	.by-year ul {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.4rem;
+	}
+
+	.by-year a {
+		display: inline-flex;
+		gap: 0.25rem;
+		align-items: baseline;
+		padding: 0.3rem 0.7rem;
+		border: 1px solid var(--line);
+		border-radius: 0.4rem;
+		background: var(--surface);
+		font-family: var(--font-display);
+		font-weight: 800;
+		font-size: var(--step-1);
+		line-height: 1;
+		text-decoration: none;
+	}
+
+	.by-year a:hover {
+		border-color: var(--accent);
+	}
+
+	.star {
+		color: var(--star);
+		font-size: 0.75em;
+	}
+</style>

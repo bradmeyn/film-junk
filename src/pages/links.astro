@@ -1,0 +1,170 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Icon from '../components/Icon.astro';
+import { HOSTS, LINKS } from '../lib/data';
+
+// Everything here is from Film Junk's own Linktree (linktr.ee/filmjunk) and the hosts' pages.
+const groups = [
+	{
+		title: 'Listen',
+		links: [
+			{ label: 'Spotify', icon: 'spotify', url: LINKS.spotify, main: true },
+			{ label: 'Apple Podcasts', icon: 'apple', url: LINKS.apple },
+			{ label: 'YouTube', icon: 'youtube', url: 'https://www.youtube.com/c/filmjunkpodcast' },
+			{ label: 'RSS feed', icon: 'rss', url: LINKS.rss },
+		],
+	},
+	{
+		title: 'Support the show',
+		links: [
+			{ label: 'Bonus content and community on Patreon', icon: 'patreon', url: LINKS.patreon, main: true },
+			{ label: 'Premium podcasts on Bandcamp', icon: 'bandcamp', url: LINKS.bandcamp },
+			{ label: 'Back episodes on Gumroad', icon: 'gumroad', url: LINKS.gumroad },
+		],
+	},
+	{
+		title: 'Community',
+		links: [
+			{ label: 'r/filmjunk on Reddit', icon: 'reddit', url: 'https://reddit.com/r/filmjunk' },
+			{ label: 'Discord', icon: 'discord', url: 'https://discord.gg/HBKVk6z' },
+		],
+	},
+	{
+		title: 'Follow',
+		links: [
+			{ label: 'Instagram', icon: 'instagram', url: 'https://instagram.com/filmjunkpodcast' },
+			{ label: 'Bluesky', icon: 'bluesky', url: 'https://bsky.app/profile/filmjunk.bsky.social' },
+			{ label: 'TikTok', icon: 'tiktok', url: 'https://tiktok.com/@filmjunkpodcast' },
+			{ label: 'Threads', icon: 'threads', url: 'https://www.threads.com/@filmjunkpodcast' },
+			{ label: 'X', icon: 'x', url: 'https://x.com/filmjunk' },
+			{ label: 'Facebook', icon: 'facebook', url: 'https://facebook.com/filmjunk' },
+			{ label: 'Twitch', icon: 'twitch', url: 'https://www.twitch.tv/filmjunkpodcast' },
+			{ label: 'filmjunk@gmail.com', icon: 'mail', url: 'mailto:filmjunk@gmail.com' },
+		],
+	},
+	{
+		title: 'More from the Junk universe',
+		links: [
+			{ label: 'Game Junk Podcast', icon: 'link', url: 'https://linktr.ee/gamejunk' },
+			{ label: 'Official episode guides and glossary', icon: 'link', url: 'https://filmjunk.libsyn.com' },
+			{ label: 'Film Junk fan wiki', icon: 'link', url: 'https://filmjunk.fandom.com/wiki/FilmJunk_Wikia' },
+		],
+	},
+] as const;
+---
+
+<Layout title="Links" description="Everywhere to find the Film Junk Podcast: listen, support, community and the hosts.">
+	<div class="wrap">
+		<h1>Links</h1>
+		<p class="intro muted">Everywhere to find Film Junk and the guys who make it.</p>
+
+		<div class="groups">
+			{
+				groups.map((g) => (
+					<section>
+						<h2>{g.title}</h2>
+						<ul>
+							{g.links.map((l) => (
+								<li>
+									<a class:list={['row', { main: 'main' in l && l.main }]} href={l.url}>
+										<Icon name={l.icon} size="1.25em" />
+										<span>{l.label}</span>
+									</a>
+								</li>
+							))}
+						</ul>
+					</section>
+				))
+			}
+
+			<section class="hosts">
+				<h2>The hosts</h2>
+				<ul>
+					{
+						HOSTS.map((h) => (
+							<li class="host">
+								<a class="host-name" href={`/hosts/${h.slug}/`}>
+									{h.name}
+								</a>
+								<ul>
+									{h.links.map((l) => (
+										<li>
+											<a class="row" href={l.url}>
+												<Icon name={l.icon} size="1.25em" />
+												<span>{l.label}</span>
+											</a>
+										</li>
+									))}
+								</ul>
+							</li>
+						))
+					}
+				</ul>
+			</section>
+		</div>
+	</div>
+</Layout>
+
+<style>
+	h1 {
+		font-size: var(--step-4);
+		margin-top: 1.5rem;
+	}
+
+	.intro {
+		font-size: var(--step-1);
+		margin: 0.75rem 0 2.5rem;
+	}
+
+	.groups {
+		display: grid;
+		gap: 2.5rem 3rem;
+		grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr));
+		align-items: start;
+	}
+
+	h2 {
+		font-size: var(--step-2);
+		margin-bottom: 0.75rem;
+	}
+
+	ul {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+		display: grid;
+		gap: 0.4rem;
+	}
+
+	.row {
+		display: flex;
+		align-items: center;
+		gap: 0.75rem;
+		padding: 0.7rem 0.9rem;
+		border: 1px solid var(--line);
+		border-radius: 0.5rem;
+		background: var(--surface);
+		font-weight: 600;
+		text-decoration: none;
+	}
+
+	.row:hover {
+		border-color: var(--ink);
+	}
+
+	.row.main {
+		background: var(--ink);
+		color: var(--bg);
+		border-color: var(--ink);
+	}
+
+	.hosts > ul {
+		gap: 1.25rem;
+	}
+
+	.host-name {
+		display: inline-block;
+		font-weight: 700;
+		margin-bottom: 0.4rem;
+	}
+</style>

@@ -1,0 +1,13 @@
+{
+	"_readme": "Monthly podcast schedule, transcribed from the calendar Film Junk posts on Instagram. Keyed by YYYY-MM.",
+	"2026-09": {
+		"source": "https://www.instagram.com/p/Dcw-H5bgqR9/",
+		"note": "All retro episodes available one week early on Patreon.",
+		"items": [
+			{ "date": "2026-09-07", "title": "Singin' in the Rain", "year": 1952 },
+			{ "date": "2026-09-14", "title": "Threads", "year": 1984 },
+			{ "date": "2026-09-21", "title": "Reign of Fire", "year": 2002 },
+			{ "date": "2026-09-28", "title": "Sherman's March", "year": 1985 }
+		]
+	}
+}

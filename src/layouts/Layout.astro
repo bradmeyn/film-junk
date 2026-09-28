@@ -1,0 +1,248 @@
+---
+import '../styles/global.css';
+import Icon from '../components/Icon.astro';
+import FilmSearch from '../components/FilmSearch.svelte';
+import { LINKS } from '../lib/data';
+
+interface Props {
+	title?: string;
+	description?: string;
+	image?: string | null; // share preview image
+}
+
+const DEFAULT_IMAGE = 'https://assets.libsyn.com/images/filmjunk/FJ_PodcastArt_3000.jpg';
+const {
+	title,
+	description = 'Every Film Junk Podcast episode, premium and bonus show, searchable by the films they reviewed or talked about.',
+	image,
+} = Astro.props;
+const fullTitle = title ? `${title} | Film Junk Podcast` : 'Film Junk Podcast';
+const path = Astro.url.pathname;
+const nav = [
+	['/episodes/', 'Episodes'],
+	['/junkies/', 'Junkies'],
+	['/premiums/', 'Premiums'],
+	['/links/', 'Links'],
+];
+// Year pages live under Episodes.
+const current = (href: string) => path.startsWith(href) || (href === '/episodes/' && path.startsWith('/years/'));
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="icon" type="image/png" href="/favicon.png" />
+		<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+		<title>{fullTitle}</title>
+		<meta name="description" content={description} />
+		<meta property="og:site_name" content="Film Junk Podcast" />
+		<meta property="og:title" content={title ?? 'Film Junk Podcast'} />
+		<meta property="og:description" content={description} />
+		<meta property="og:image" content={image ?? DEFAULT_IMAGE} />
+		<meta name="twitter:card" content={image ? 'summary_large_image' : 'summary'} />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;800;900&family=Public+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
+	<body>
+		<header class="site-header wrap">
+			<a class="brand" href="/">
+				<img src="/logo-128.jpg" alt="" width="40" height="40" />
+				<span>Film Junk <span class="guide">Podcast</span></span>
+			</a>
+			<div class="header-search">
+				<FilmSearch client:load compact id="site-search" />
+			</div>
+			<nav aria-label="Main">
+				{
+					nav.map(([href, label]) => (
+						<a href={href} aria-current={current(href) ? 'page' : undefined}>
+							{label}
+						</a>
+					))
+				}
+			</nav>
+			<div class="header-links">
+				<a class="pill" href={LINKS.spotify} aria-label="Spotify" title="Spotify"><Icon name="spotify" /><span>Spotify</span></a>
+				<a class="pill" href={LINKS.apple} aria-label="Apple Podcasts" title="Apple Podcasts"><Icon name="apple" /><span>Apple</span></a>
+				<a class="pill patreon" href={LINKS.patreon} aria-label="Patreon" title="Patreon"><Icon name="patreon" /><span>Patreon</span></a>
+			</div>
+		</header>
+
+		<main>
+			<slot />
+		</main>
+
+		<footer class="site-footer">
+			<div class="wrap footer-grid">
+				<div>
+					<p><strong>Support the show.</strong> Film Junk is listener-funded.</p>
+					<p class="footer-links">
+						<a href="/films/">Every film discussed</a>
+						<a href="/episodes/">Every episode</a>
+						<a href="/random/">Surprise me</a>
+					</p>
+					<p class="footer-links">
+						<a href={LINKS.patreon}>Patreon</a>
+						<a href={LINKS.spotify}>Spotify</a>
+						<a href={LINKS.bandcamp}>Premiums on Bandcamp</a>
+						<a href={LINKS.gumroad}>Archives on Gumroad</a>
+						<a href={LINKS.apple}>Apple Podcasts</a>
+						<a href={LINKS.rss}>RSS</a>
+					</p>
+				</div>
+				<div class="muted">
+					<p>
+						An unofficial fan guide, not affiliated with Film Junk. Episode details come from the show's{' '}
+						<a href="https://filmjunk.libsyn.com/">official episode guides</a>, and notes from the{' '}
+						<a href="https://filmjunk.fandom.com/wiki/FilmJunk_Wikia">Film Junk fan wiki</a>{' '}
+						(<a href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA</a>). Film posters and details from{' '}
+						<a href="https://www.themoviedb.org/">TMDB</a>. This product uses the TMDB API but is not endorsed or certified by TMDB.
+					</p>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>
+
+<style>
+	.site-header {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		gap: 0.75rem 1.5rem;
+		padding-block: 1.25rem;
+	}
+
+	.brand {
+		font-family: var(--font-display);
+		font-weight: 900;
+		font-size: var(--step-2);
+		text-decoration: none;
+		line-height: 1;
+	}
+
+	.brand {
+		display: inline-flex;
+		align-items: center;
+		gap: 0.6rem;
+	}
+
+	.brand img {
+		border-radius: 0.4rem;
+	}
+
+	.brand .guide {
+		color: var(--accent);
+	}
+
+	nav {
+		display: flex;
+		gap: 1.25rem;
+		font-weight: 600;
+	}
+
+	.header-search {
+		flex: 1 1 16rem;
+		max-width: 26rem;
+	}
+
+	.site-header nav {
+		margin-left: auto;
+	}
+
+	/* Logo-only in the header; the home page has the labelled versions. */
+	.pill span {
+		display: none;
+	}
+
+	/* Narrow: brand and listen buttons, then search, then nav. */
+	@media (max-width: 52rem) {
+		.site-header {
+			padding-block: 1rem 0.5rem;
+		}
+		.header-links {
+			margin-left: auto;
+		}
+		.header-search {
+			order: 3;
+			flex-basis: 100%;
+			max-width: none;
+		}
+		.site-header nav {
+			order: 4;
+			margin-left: 0;
+		}
+	}
+
+	.header-links {
+		display: flex;
+		gap: 0.5rem;
+	}
+
+	.pill {
+		display: inline-flex;
+		align-items: center;
+		gap: 0.35rem;
+		padding: 0.45rem;
+		border-radius: 999px;
+		border: 1px solid var(--line);
+		font-weight: 700;
+		font-size: var(--step--1);
+		text-decoration: none;
+	}
+
+	.pill:hover {
+		border-color: var(--ink);
+	}
+
+	.pill.patreon {
+		background: var(--accent);
+		border-color: var(--accent);
+		color: var(--accent-ink);
+	}
+
+	nav a {
+		text-decoration: none;
+		padding-block: 0.25rem;
+		border-bottom: 2px solid transparent;
+	}
+
+	nav a:hover,
+	nav a[aria-current='page'] {
+		border-bottom-color: var(--accent);
+	}
+
+	main {
+		min-height: 60vh;
+		padding-bottom: 4rem;
+	}
+
+	.site-footer {
+		border-top: 1px solid var(--line);
+		padding-block: 2rem 3rem;
+		font-size: var(--step--1);
+	}
+
+	.footer-grid {
+		display: grid;
+		gap: 1.5rem;
+		grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+	}
+
+	.footer-grid p {
+		margin: 0 0 0.5rem;
+		max-width: 60ch;
+	}
+
+	.footer-links {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.25rem 1rem;
+	}
+</style>

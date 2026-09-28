@@ -1,0 +1,309 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Icon from '../../components/Icon.astro';
+import RatingChart from '../../components/RatingChart.astro';
+import Stars from '../../components/Stars.astro';
+import { episodes, episodeHref, filmBySlug, filmHref, formatDate, HOSTS, posterUrl, type Episode } from '../../lib/data';
+
+export function getStaticPaths() {
+	return HOSTS.map((host) => ({ params: { slug: host.slug }, props: { host } }));
+}
+
+const { host } = Astro.props as { host: (typeof HOSTS)[number] };
+
+type Scored = {
+	episode: Episode;
+	title: string;
+	film: string | null;
+	score: number; // out of 5; > 5 for "6 out of 5"
+	raw: { score: number; outOf: number };
+	othersAvg: number | null;
+};
+
+const rated: Scored[] = [];
+for (const e of episodes) {
+	for (const r of e.reviews ?? []) {
+		const mine = r.ratings.find((x) => x.host === host.key);
+		if (!mine) continue;
+		const others = r.ratings.filter((x) => x !== mine).map((x) => Math.min(5, (x.score / x.outOf) * 5));
+		rated.push({
+			episode: e,
+			title: r.title,
+			film: r.film,
+			score: (mine.score / mine.outOf) * 5,
+			raw: mine,
+			othersAvg: others.length >= 2 ? others.reduce((a, b) => a + b, 0) / others.length : null,
+		});
+	}
+}
+
+const capped = (s: Scored) => Math.min(5, s.score);
+const average = rated.reduce((t, s) => t + capped(s), 0) / rated.length;
+const since = rated.map((s) => s.episode.date).sort()[0]?.slice(0, 4);
+const bonus = rated.filter((s) => s.score > 5).sort((a, b) => b.episode.date.localeCompare(a.episode.date));
+const perfect = rated.filter((s) => s.score === 5).sort((a, b) => b.episode.date.localeCompare(a.episode.date));
+const lowest = [...rated].sort((a, b) => a.score - b.score || b.episode.date.localeCompare(a.episode.date)).slice(0, 10);
+const withOthers = rated.filter((s) => s.othersAvg !== null).map((s) => ({ ...s, diff: capped(s) - s.othersAvg! }));
+const lovedMore = [...withOthers].sort((a, b) => b.diff - a.diff).slice(0, 8);
+const likedLess = [...withOthers].sort((a, b) => a.diff - b.diff).slice(0, 8);
+const first = host.name.split(' ')[0];
+const fmt = (n: number) => n.toFixed(1);
+---
+
+<Layout title={host.name} description={`${host.name}'s ratings on the Film Junk Podcast: ${rated.length} films since ${since}.`}>
+	<div class="wrap">
+		<header>
+			<h1>{host.name}</h1>
+			<p class="links">
+				{
+					host.links.map((l) => (
+						<a class="button" href={l.url}>
+							<Icon name={l.icon} /> {l.label}
+						</a>
+					))
+				}
+			</p>
+		</header>
+
+		<dl class="tiles">
+			<div>
+				<dt>Films rated</dt>
+				<dd>{rated.length.toLocaleString()}</dd>
+				<p>since {since}</p>
+			</div>
+			<div>
+				<dt>Average rating</dt>
+				<dd>{fmt(average)}</dd>
+				<p>out of 5</p>
+			</div>
+			<div>
+				<dt>Perfect scores</dt>
+				<dd>{perfect.length}</dd>
+				<p>5 out of 5</p>
+			</div>
+			<div>
+				<dt>Off the scale</dt>
+				<dd>{bonus.length}</dd>
+				<p>6 out of 5 or more</p>
+			</div>
+		</dl>
+
+		<section>
+			<h2>How {first} rates</h2>
+			<RatingChart scores={rated.map((s) => s.score)} host={first} />
+		</section>
+
+		{
+			bonus.length > 0 && (
+				<section>
+					<h2>Off the scale</h2>
+					<p class="muted note">Films {first} gave more than 5 stars.</p>
+					<ul class="posters">
+						{bonus.map((s) => (
+							<li>
+								<a href={filmHref(s.film) ?? episodeHref(s.episode)}>
+									{posterUrl(s.film && filmBySlug.get(s.film)?.poster, 'w154') ? (
+										<img src={posterUrl(filmBySlug.get(s.film!)?.poster, 'w154')} alt="" width="154" height="231" loading="lazy" />
+									) : (
+										<span class="no-poster" aria-hidden="true" />
+									)}
+									<span class="t">{s.title}</span>
+									<span class="muted d">{s.raw.score} out of 5, {s.episode.date.slice(0, 4)}</span>
+								</a>
+							</li>
+						))}
+					</ul>
+				</section>
+			)
+		}
+
+		<div class="cols">
+			<section>
+				<h2>Loved it more</h2>
+				<p class="muted note">Where {first} rated a film furthest above the other hosts.</p>
+				<ol class="list">
+					{
+						lovedMore.map((s) => (
+							<li>
+								<a href={filmHref(s.film) ?? episodeHref(s.episode)}>{s.title}</a>
+								<span class="muted">
+									{first} <Stars score={Math.min(s.score, 5)} label={first} /> vs others {fmt(s.othersAvg!)}
+								</span>
+							</li>
+						))
+					}
+				</ol>
+			</section>
+			<section>
+				<h2>Liked it less</h2>
+				<p class="muted note">Where {first} rated a film furthest below the other hosts.</p>
+				<ol class="list">
+					{
+						likedLess.map((s) => (
+							<li>
+								<a href={filmHref(s.film) ?? episodeHref(s.episode)}>{s.title}</a>
+								<span class="muted">
+									{first} <Stars score={s.score} label={first} /> vs others {fmt(s.othersAvg!)}
+								</span>
+							</li>
+						))
+					}
+				</ol>
+			</section>
+			<section>
+				<h2>Harshest</h2>
+				<p class="muted note">{first}'s lowest scores.</p>
+				<ol class="list">
+					{
+						lowest.map((s) => (
+							<li>
+								<a href={filmHref(s.film) ?? episodeHref(s.episode)}>{s.title}</a>
+								<span class="muted">
+									<Stars score={s.raw.score} outOf={s.raw.outOf} label={first} /> {formatDate(s.episode.date)}
+								</span>
+							</li>
+						))
+					}
+				</ol>
+			</section>
+		</div>
+
+		<section>
+			<h2>Perfect scores</h2>
+			<p class="muted note">Every film {first} gave full marks, newest first.</p>
+			<ul class="chips">
+				{
+					perfect.map((s) => {
+						const href = filmHref(s.film);
+						return <li>{href ? <a href={href}>{s.title}</a> : <span>{s.title}</span>}</li>;
+					})
+				}
+			</ul>
+		</section>
+	</div>
+</Layout>
+
+<style>
+	header {
+		padding-block: 1.5rem 0.5rem;
+	}
+
+	h1 {
+		font-size: var(--step-4);
+	}
+
+	.links {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.5rem;
+		margin: 1rem 0 0;
+	}
+
+	.tiles {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+		gap: 1rem;
+		margin: 2rem 0;
+	}
+
+	.tiles div {
+		padding: 1rem 1.25rem;
+		background: var(--surface);
+		border: 1px solid var(--line);
+		border-radius: 0.6rem;
+	}
+
+	.tiles dt {
+		font-size: var(--step--1);
+		color: var(--muted);
+	}
+
+	.tiles dd {
+		margin: 0.2rem 0 0;
+		font-family: var(--font-display);
+		font-weight: 900;
+		font-size: var(--step-3);
+		line-height: 1;
+	}
+
+	.tiles p {
+		margin: 0.2rem 0 0;
+		font-size: var(--step--1);
+		color: var(--muted);
+	}
+
+	section {
+		margin-top: 2.5rem;
+	}
+
+	section > h2 {
+		font-size: var(--step-2);
+		margin-bottom: 0.4rem;
+	}
+
+	.note {
+		margin: 0 0 1rem;
+		font-size: var(--step--1);
+	}
+
+	.cols {
+		display: grid;
+		gap: 0 2.5rem;
+		grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr));
+	}
+
+	.list {
+		margin: 0;
+		padding-left: 1.5rem;
+		display: grid;
+		gap: 0.5rem;
+	}
+
+	.list a {
+		font-weight: 600;
+	}
+
+	.list span {
+		display: block;
+		font-size: var(--step--1);
+	}
+
+	.posters {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+		display: grid;
+		gap: 1rem;
+		grid-template-columns: repeat(auto-fill, minmax(7.5rem, 1fr));
+	}
+
+	.posters a {
+		display: grid;
+		gap: 0.3rem;
+		text-decoration: none;
+	}
+
+	.posters a:hover .t {
+		text-decoration: underline;
+	}
+
+	.posters img,
+	.no-poster {
+		width: 100%;
+		height: auto;
+		aspect-ratio: 2 / 3;
+		object-fit: cover;
+		border-radius: 0.35rem;
+		background: var(--line);
+		display: block;
+	}
+
+	.t {
+		font-weight: 700;
+		line-height: 1.25;
+	}
+
+	.d {
+		font-size: var(--step--1);
+	}
+</style>

@@ -1,0 +1,27 @@
+{
+  "name": "film-junk",
+  "type": "module",
+  "version": "0.0.1",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "data:fetch": "node --env-file-if-exists=.env scripts/fetch-sources.mjs",
+    "data:build": "node scripts/build-data.mjs",
+    "data": "npm run data:fetch && npm run data:build && npm run data:tmdb && npm run data:build",
+    "data:tmdb": "node --env-file-if-exists=.env scripts/fetch-tmdb.mjs"
+  },
+  "dependencies": {
+    "@astrojs/svelte": "^9.0.1",
+    "astro": "^7.3.5",
+    "svelte": "^5.57.1",
+    "typescript": "^6.0.3"
+  },
+  "allowScripts": {
+    "esbuild": true
+  }
+}
