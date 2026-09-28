@@ -123,6 +123,8 @@
 			{id}
 			bind:this={input}
 			type="search"
+			role="combobox"
+			aria-autocomplete="list"
 			autocomplete="off"
 			spellcheck="false"
 			placeholder="Search films and shows"

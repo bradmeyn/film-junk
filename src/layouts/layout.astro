@@ -8,6 +8,9 @@ interface Props {
 	title?: string;
 	description?: string;
 	image?: string | null; // share preview image
+	type?: 'website' | 'article' | 'video.movie' | 'profile';
+	schema?: Record<string, unknown> | Record<string, unknown>[]; // schema.org JSON-LD
+	noindex?: boolean;
 }
 
 const DEFAULT_IMAGE = 'https://assets.libsyn.com/images/filmjunk/FJ_PodcastArt_3000.jpg';
@@ -15,9 +18,17 @@ const {
 	title,
 	description = 'Every Film Junk Podcast episode, premium and bonus show, searchable by the films they reviewed or talked about.',
 	image,
+	type = 'website',
+	schema,
+	noindex = false,
 } = Astro.props;
 const fullTitle = title ? `${title} | Film Junk Podcast` : 'Film Junk Podcast';
 const path = Astro.url.pathname;
+// Absolute URLs need the site address (SITE_URL); without it they're left out rather than guessed.
+const canonical = Astro.site ? new URL(path, Astro.site).href : null;
+const shareImage = image ?? DEFAULT_IMAGE;
+// JSON-LD sits in a <script>, so escape "<" to keep a title like "</script>" from ending it.
+const jsonLd = schema && JSON.stringify(schema).replace(/</g, '\\u003c');
 const nav = [
 	['/episodes/', 'Episodes'],
 	['/junkies/', 'Junkies'],
@@ -37,11 +48,23 @@ const current = (href: string) => path.startsWith(href) || (href === '/episodes/
 		<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
 		<title>{fullTitle}</title>
 		<meta name="description" content={description} />
+		{noindex && <meta name="robots" content="noindex" />}
+		{canonical && <link rel="canonical" href={canonical} />}
+		{Astro.site && <link rel="sitemap" href="/sitemap-index.xml" />}
+		<link rel="alternate" type="application/rss+xml" title="Film Junk Podcast" href={LINKS.rss} />
+		<meta name="theme-color" content="#eef0f4" media="(prefers-color-scheme: light)" />
+		<meta name="theme-color" content="#11142a" media="(prefers-color-scheme: dark)" />
 		<meta property="og:site_name" content="Film Junk Podcast" />
+		<meta property="og:type" content={type} />
 		<meta property="og:title" content={title ?? 'Film Junk Podcast'} />
 		<meta property="og:description" content={description} />
-		<meta property="og:image" content={image ?? DEFAULT_IMAGE} />
+		<meta property="og:image" content={shareImage} />
+		{canonical && <meta property="og:url" content={canonical} />}
 		<meta name="twitter:card" content={image ? 'summary_large_image' : 'summary'} />
+		<meta name="twitter:title" content={fullTitle} />
+		<meta name="twitter:description" content={description} />
+		<meta name="twitter:image" content={shareImage} />
+		{jsonLd && <script type="application/ld+json" set:html={jsonLd} />}
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link

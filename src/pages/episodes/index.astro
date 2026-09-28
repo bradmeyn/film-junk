@@ -19,7 +19,7 @@ for (const i of items) for (const h of i.h) hostCounts.set(h, (hostCounts.get(h)
 const hosts = [...hostCounts].filter(([, n]) => n >= 5).sort((a, b) => b[1] - a[1]).map(([h]) => h);
 ---
 
-<Layout title="Episodes" description="Every Film Junk episode, filterable by year, type and host.">
+<Layout title="Episodes" description="Every Film Junk Podcast episode since 2005, with the movies reviewed and each host's rating. Filter by year, type and host.">
 	<div class="wrap">
 		<div class="head">
 			<h1>Every episode</h1>

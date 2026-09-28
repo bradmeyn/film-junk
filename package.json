@@ -17,6 +17,7 @@
     "typecheck": "astro check && tsc --noEmit"
   },
   "dependencies": {
+    "@astrojs/sitemap": "^3.7.4",
     "@astrojs/svelte": "^9.0.1",
     "astro": "^7.3.5",
     "svelte": "^5.57.1",

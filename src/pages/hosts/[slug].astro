@@ -3,6 +3,7 @@ import Layout from '../../layouts/layout.astro';
 import Icon from '../../components/icon.astro';
 import RatingChart from '../../components/rating-chart.astro';
 import Stars from '../../components/stars.astro';
+import { hostSchema } from '../../lib/schema';
 import { episodes, episodeHref, filmBySlug, filmHref, formatDate, HOSTS, posterUrl, type Episode } from '../../lib/data';
 
 export function getStaticPaths() {
@@ -50,7 +51,12 @@ const first = host.name.split(' ')[0];
 const fmt = (n: number) => n.toFixed(1);
 ---
 
-<Layout title={host.name} description={`${host.name}'s ratings on the Film Junk Podcast: ${rated.length} films since ${since}.`}>
+<Layout
+	title={`${host.name}'s movie ratings`}
+	description={`${host.name}'s film ratings on the Film Junk Podcast: ${rated.length} movies since ${since}, with perfect scores, 6 out of 5s and harshest reviews.`}
+	type="profile"
+	schema={hostSchema(host, Astro.site)}
+>
 	<div class="wrap">
 		<header>
 			<h1>{host.name}</h1>
@@ -68,23 +74,19 @@ const fmt = (n: number) => n.toFixed(1);
 		<dl class="tiles">
 			<div>
 				<dt>Films rated</dt>
-				<dd>{rated.length.toLocaleString()}</dd>
-				<p>since {since}</p>
+				<dd>{rated.length.toLocaleString()}<span class="unit">since {since}</span></dd>
 			</div>
 			<div>
 				<dt>Average rating</dt>
-				<dd>{fmt(average)}</dd>
-				<p>out of 5</p>
+				<dd>{fmt(average)}<span class="unit">out of 5</span></dd>
 			</div>
 			<div>
 				<dt>Perfect scores</dt>
-				<dd>{perfect.length}</dd>
-				<p>5 out of 5</p>
+				<dd>{perfect.length}<span class="unit">5 out of 5</span></dd>
 			</div>
 			<div>
 				<dt>Off the scale</dt>
-				<dd>{bonus.length}</dd>
-				<p>6 out of 5 or more</p>
+				<dd>{bonus.length}<span class="unit">6 out of 5 or more</span></dd>
 			</div>
 		</dl>
 
@@ -226,8 +228,12 @@ const fmt = (n: number) => n.toFixed(1);
 		line-height: 1;
 	}
 
-	.tiles p {
-		margin: 0.2rem 0 0;
+	.tiles .unit {
+		display: block;
+		margin-top: 0.2rem;
+		font-family: var(--font-body);
+		font-weight: 400;
+		line-height: 1.4;
 		font-size: var(--step--1);
 		color: var(--muted);
 	}

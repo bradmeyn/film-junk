@@ -3,6 +3,7 @@ import Layout from '../../layouts/layout.astro';
 import EpisodeRow from '../../components/episode-row.astro';
 import Stars from '../../components/stars.astro';
 import Icon from '../../components/icon.astro';
+import { filmSchema } from '../../lib/schema';
 import { episodeById, episodeHref, episodeLabel, filmLinks, films, formatDate, hostHref, posterUrl, type Episode, type Film } from '../../lib/data';
 
 export function getStaticPaths() {
@@ -39,9 +40,22 @@ const summary = [
 ]
 	.filter(Boolean)
 	.join(', ');
+// Search snippet: the latest verdict first, since that's what people are looking for.
+const latestRatings = reviewed[0]?.review?.ratings.map((r) => `${r.host} ${r.score}/${r.outOf}`).join(', ');
+const kindWord = film.tmdb?.type === 'tv' ? 'TV review' : 'movie review';
+const pageTitle = reviewed.length ? `${heading} review` : heading;
+const pageDescription = reviewed.length
+	? `Film Junk Podcast ${kindWord} of ${heading}${latestRatings ? `: ${latestRatings}` : ''}. On the show: ${summary}.`
+	: `${heading} on the Film Junk Podcast: ${summary}.`;
 ---
 
-<Layout title={heading} description={`${heading} on the Film Junk Podcast: ${summary}.`} image={posterUrl(film.poster, 'w500')}>
+<Layout
+	title={pageTitle}
+	description={pageDescription}
+	image={posterUrl(film.poster, 'w500')}
+	type="video.movie"
+	schema={filmSchema(film, reviewed, Astro.site)}
+>
 	<div class="wrap">
 		<header class:list={[{ 'has-poster': poster }]}>
 			{poster && <img src={poster} alt={`Poster for ${heading}`} width="342" height="513" />}

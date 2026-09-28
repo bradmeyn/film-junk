@@ -6,7 +6,7 @@ import { episodes } from '../../lib/data';
 const ids = episodes.filter((e) => e.kind !== 'bonus' && (e.reviews?.length || e.kind === 'premium')).map((e) => e.id);
 ---
 
-<Layout title="Surprise me" description="Jump to a random Film Junk episode.">
+<Layout title="Surprise me" description="Jump to a random Film Junk episode." noindex>
 	<div class="wrap">
 		<h1>Picking an episode…</h1>
 		<p><a href="/episodes/">Browse every episode</a> if nothing happens.</p>

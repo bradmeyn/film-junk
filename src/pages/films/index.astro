@@ -14,7 +14,7 @@ const mostMentioned = films
 	.slice(0, 30);
 ---
 
-<Layout title="Films" description="Search every film and show discussed on the Film Junk Podcast.">
+<Layout title="Films and TV" description={`Search ${films.length.toLocaleString()} movies and TV shows reviewed or discussed on the Film Junk Podcast, and find the episode.`}>
 	<div class="wrap">
 		<h1>Films</h1>
 		<p class="muted intro">

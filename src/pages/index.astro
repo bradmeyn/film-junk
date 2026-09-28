@@ -1,5 +1,6 @@
 ---
 import Layout from '../layouts/layout.astro';
+import { homeSchema } from '../lib/schema';
 import ListenLinks from '../components/listen-links.astro';
 import EpisodeRow from '../components/episode-row.astro';
 import Stars from '../components/stars.astro';
@@ -36,7 +37,11 @@ const patreonCount = patreonLatest.length;
 const blurb = latest.description.length > 420 ? latest.description.slice(0, 420).replace(/\s\S*$/, '') + '…' : latest.description;
 ---
 
-<Layout>
+<Layout
+	title="The Longest Running Film Podcast"
+	description={`Movie reviews, TV talk and film news since 2005. Search ${films.length.toLocaleString()} films across every Film Junk Podcast episode, premium and Patreon exclusive.`}
+	schema={homeSchema(Astro.site)}
+>
 	<section class="hero wrap">
 		<img class="hero-logo" src="/logo-512.jpg" alt="Film Junk logo" width="512" height="512" />
 		<div class="about">

@@ -2,6 +2,7 @@
 import Layout from '../../layouts/layout.astro';
 import ListenLinks from '../../components/listen-links.astro';
 import Stars from '../../components/stars.astro';
+import { episodeSchema } from '../../lib/schema';
 import { episodeArt, episodes, episodeHref, episodeLabel, filmBySlug, filmHref, formatDate, formatDuration, hostHref, posterUrl, type Episode } from '../../lib/data';
 
 export function getStaticPaths() {
@@ -27,9 +28,24 @@ const year = e.date.slice(0, 4);
 const art = episodeArt(e);
 // Only show per-review posters when there's more than one film; one is already the header art.
 const reviewPosters = (e.reviews?.length ?? 0) > 1;
+const reviewedTitles = (e.reviews ?? []).map((r) => (r.year ? `${r.title} (${r.year})` : r.title));
+const pageDescription = [
+	`${label} of the Film Junk Podcast, ${formatDate(e.date)}.`,
+	reviewedTitles.length ? `Reviews: ${reviewedTitles.join(', ')}.` : e.title + '.',
+	// First sentence or so of the show notes, cut on a word boundary to fit a search snippet.
+	e.description && e.description.slice(0, 140).replace(/\s\S*$/, '') + '…',
+]
+	.filter(Boolean)
+	.join(' ');
 ---
 
-<Layout title={`${label}: ${e.title}`} description={`${label} of the Film Junk Podcast (${formatDate(e.date)}): ${e.title}.`} image={art?.src}>
+<Layout
+	title={`${label}: ${e.title}`}
+	description={pageDescription}
+	image={art?.src}
+	type="article"
+	schema={episodeSchema(e, Astro.site, art?.src)}
+>
 	<article class="wrap">
 		<header class:list={['head', { 'has-art': art }]}>
 			{art && <img class:list={[{ poster: !art.square }]} src={art.src} alt="" width={art.square ? 700 : 500} height={art.square ? 700 : 750} />}
