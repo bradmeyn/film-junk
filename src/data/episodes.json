@@ -1,5 +1,35 @@
 [
 	{
+		"id": "1064",
+		"kind": "regular",
+		"show": "Film Junk",
+		"number": 1064,
+		"part": null,
+		"date": "2026-09-28",
+		"dateApprox": false,
+		"title": "Sherman's March",
+		"reviews": [
+			{
+				"title": "Sherman's March",
+				"year": 1985,
+				"ratings": [],
+				"film": "shermans-march"
+			}
+		],
+		"watched": [],
+		"segments": [],
+		"music": {},
+		"notes": "",
+		"description": "\"Could you turn it off? This is important. This is not art, this is life!\" This week on Film Junk we are revisiting another film that was way ahead of its time. There was nothing like Ross McElwee's documentary Sherman's March back when it came out in 1985 but now we live in a world where everyone is capturing their life on video. Was this movie an influence on the work of people like Nathan Fielder and John Wilson? What do General Sherman, nuclear war, Burt Reynolds and the search for love all have in common? Is Charleen one of the great documentary characters of all time? Do leg squats actually get rid of cellulite? Find yourself a nice Southern girl and check out this week's episode below.",
+		"pack": null,
+		"links": {
+			"libsyn": "https://directory.libsyn.com/episode/index/id/42907817",
+			"apple": "https://podcasts.apple.com/us/podcast/shermans-march-1985/id74257105?i=1000792057587",
+			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-1064-168986577"
+		},
+		"mentioned": []
+	},
+	{
 		"id": "2026-09-24-film-junk-calendar-reveal-oct-2026",
 		"kind": "bonus",
 		"show": "Film Junk",
@@ -19,34 +49,6 @@
 			"libsyn": "https://directory.libsyn.com/episode/index/id/43016823",
 			"apple": "https://podcasts.apple.com/us/podcast/film-junk-calendar-reveal-oct-2026/id74257105?i=1000791396844",
 			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-reveal-170312465"
-		}
-	},
-	{
-		"notes": "",
-		"description": "\"Could you turn it off? This is important. This is not art, this is life!\" This week on Film Junk we are revisiting another film that was way ahead of its time. There was nothing like Ross McElwee's documentary Sherman's March back when it came out in 1985 but now we live in a world where everyone is capturing their life on video. Was this movie an influence on the work of people like Nathan Fielder and John Wilson? What do General Sherman, nuclear war, Burt Reynolds and the search for love all have in common? Is Charleen one of the great documentary characters of all time? Do leg squats actually get rid of cellulite? Find yourself a nice Southern girl and check out this week's episode below.",
-		"mentioned": [],
-		"segments": [],
-		"watched": [],
-		"reviews": [
-			{
-				"title": "Sherman's March",
-				"year": 1985,
-				"ratings": [],
-				"film": "shermans-march"
-			}
-		],
-		"music": {},
-		"show": "Film Junk",
-		"part": null,
-		"dateApprox": false,
-		"pack": null,
-		"id": "1064",
-		"kind": "regular",
-		"number": 1064,
-		"date": "2026-09-21",
-		"title": "Sherman's March",
-		"links": {
-			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-1064-168986577"
 		}
 	},
 	{
@@ -112,7 +114,14 @@
 			"libsyn": "https://directory.libsyn.com/episode/index/id/42907832",
 			"apple": "https://podcasts.apple.com/us/podcast/the-history-of-concrete-2026-remake-2025/id74257105?i=1000789828327",
 			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-1063-169581108"
-		}
+		},
+		"mentioned": [
+			{
+				"title": "Sherman's March",
+				"year": null,
+				"film": "shermans-march"
+			}
+		]
 	},
 	{
 		"id": "1061",
