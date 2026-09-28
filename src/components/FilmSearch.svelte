@@ -125,7 +125,7 @@
 			type="search"
 			autocomplete="off"
 			spellcheck="false"
-			placeholder={compact ? 'What did you just watch?' : 'Search films and shows'}
+			placeholder="Search films and shows"
 			aria-controls={`${id}-results`}
 			aria-expanded={showResults}
 			bind:value={query}
