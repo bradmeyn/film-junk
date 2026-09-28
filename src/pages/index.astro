@@ -169,9 +169,22 @@ const blurb = latest.description.length > 420 ? latest.description.slice(0, 420)
 		</section>
 	</div>
 
+	<section class="wrap patreon-latest" aria-labelledby="patreon-h">
+		<div class="section-head">
+			<h2 id="patreon-h">New on Patreon</h2>
+			<a href="/episodes/?type=patreon">All {patreonCount} Patreon exclusives</a>
+		</div>
+		<p class="muted packs-intro">
+			Junk Mail, Retro Reviews, Criterionitis and more, for patrons. <a href={LINKS.patreon}>Join on Patreon</a>
+		</p>
+		<ul class="rows">
+			{patreonLatest.slice(0, 6).map((e) => <EpisodeRow episode={e} />)}
+		</ul>
+	</section>
+
 	<section class="wrap premiums" aria-labelledby="premium-h">
 		<div class="section-head">
-			<h2 id="premium-h">New premiums</h2>
+			<h2 id="premium-h">Premiums</h2>
 			<a href="/premiums/">All {premiumCount} premiums</a>
 		</div>
 		<ul>
@@ -187,19 +200,6 @@ const blurb = latest.description.length > 420 ? latest.description.slice(0, 420)
 			}
 		</ul>
 	</section>
-	<section class="wrap patreon-latest" aria-labelledby="patreon-h">
-		<div class="section-head">
-			<h2 id="patreon-h">New on Patreon</h2>
-			<a href="/episodes/?type=patreon">All {patreonCount} Patreon exclusives</a>
-		</div>
-		<p class="muted packs-intro">
-			Junk Mail, Retro Reviews, Criterionitis and more, for patrons. <a href={LINKS.patreon}>Join on Patreon</a>
-		</p>
-		<ul class="rows">
-			{patreonLatest.slice(0, 6).map((e) => <EpisodeRow episode={e} />)}
-		</ul>
-	</section>
-
 	<section class="wrap packs" aria-labelledby="packs-h">
 		<div class="section-head">
 			<h2 id="packs-h">Buy old episodes</h2>
