@@ -1,26 +1,5 @@
 [
 	{
-		"slug": "shermans-march",
-		"title": "Sherman's March",
-		"year": 1986,
-		"poster": "/55YscDYNXdffYwDGMrpveqnsa9d.jpg",
-		"votes": 46,
-		"tmdb": {
-			"type": "movie",
-			"id": 41480
-		},
-		"appearances": [
-			{
-				"id": "1064",
-				"role": "review"
-			},
-			{
-				"id": "175",
-				"role": "watched"
-			}
-		]
-	},
-	{
 		"slug": "reign-of-fire",
 		"title": "Reign of Fire",
 		"year": 2002,
@@ -226,10 +205,6 @@
 		"appearances": [
 			{
 				"id": "2026-08-08-pleasantville",
-				"role": "review"
-			},
-			{
-				"id": "1055",
 				"role": "review"
 			},
 			{
@@ -603,10 +578,6 @@
 		"appearances": [
 			{
 				"id": "2026-05-01-lost-in-translation",
-				"role": "review"
-			},
-			{
-				"id": "1038",
 				"role": "review"
 			},
 			{
@@ -1005,23 +976,6 @@
 		]
 	},
 	{
-		"slug": "poultrygeist-night-of-the-chicken-dead",
-		"title": "Poultrygeist: Night of the Chicken Dead",
-		"year": 2006,
-		"poster": "/vSeehH4s274kdZXEMKnPE2tlqco.jpg",
-		"votes": 183,
-		"tmdb": {
-			"type": "movie",
-			"id": 17287
-		},
-		"appearances": [
-			{
-				"id": "2025-12-02-retro-review-poultrygeist-night-of-the-chicken-dead",
-				"role": "review"
-			}
-		]
-	},
-	{
 		"slug": "the-running-man",
 		"title": "The Running Man",
 		"year": 2025,
@@ -1122,23 +1076,6 @@
 		"appearances": [
 			{
 				"id": "1015",
-				"role": "review"
-			}
-		]
-	},
-	{
-		"slug": "something-wicked-this-way-comes",
-		"title": "Something Wicked This Way Comes",
-		"year": 1983,
-		"poster": "/94dMO6kAawyFUk0sCDGIjAnchED.jpg",
-		"votes": 219,
-		"tmdb": {
-			"type": "movie",
-			"id": 24808
-		},
-		"appearances": [
-			{
-				"id": "2025-10-31-retro-review-something-wicked-this-way-comes",
 				"role": "review"
 			}
 		]
@@ -1429,27 +1366,6 @@
 			{
 				"id": "999",
 				"role": "review"
-			}
-		]
-	},
-	{
-		"slug": "grandmas-boy",
-		"title": "Grandma's Boy",
-		"year": 2006,
-		"poster": "/fSRdHBtisU0zhks4OjKezI3jnt7.jpg",
-		"votes": 775,
-		"tmdb": {
-			"type": "movie",
-			"id": 9900
-		},
-		"appearances": [
-			{
-				"id": "2025-06-28-retro-review-grandmas-boy",
-				"role": "review"
-			},
-			{
-				"id": "522",
-				"role": "watched"
 			}
 		]
 	},
@@ -1831,23 +1747,6 @@
 		"appearances": [
 			{
 				"id": "988",
-				"role": "review"
-			}
-		]
-	},
-	{
-		"slug": "mississippi-burning",
-		"title": "Mississippi Burning",
-		"year": 1988,
-		"poster": "/hTv8Bkq3W1vwKi1IWCLWQW9PNU4.jpg",
-		"votes": 2028,
-		"tmdb": {
-			"type": "movie",
-			"id": 1632
-		},
-		"appearances": [
-			{
-				"id": "2025-04-11-retro-review-mississippi-burning",
 				"role": "review"
 			}
 		]
@@ -2296,27 +2195,6 @@
 		]
 	},
 	{
-		"slug": "blades",
-		"title": "Blades",
-		"year": 1988,
-		"poster": "/3cdIbcuNMcmgFp97T38TMIXDaNB.jpg",
-		"votes": 36,
-		"tmdb": {
-			"type": "movie",
-			"id": 121390
-		},
-		"appearances": [
-			{
-				"id": "2024-11-16-retro-review-blades-1989",
-				"role": "review"
-			},
-			{
-				"id": "817",
-				"role": "watched"
-			}
-		]
-	},
-	{
 		"slug": "anora",
 		"title": "Anora",
 		"year": 2024,
@@ -2478,35 +2356,6 @@
 			{
 				"id": "960",
 				"role": "review"
-			}
-		]
-	},
-	{
-		"slug": "billy-madison",
-		"title": "Billy Madison",
-		"year": 1995,
-		"poster": "/sOdgtJdFalL9kRKaeJItARLTAEq.jpg",
-		"votes": 1881,
-		"tmdb": {
-			"type": "movie",
-			"id": 11017
-		},
-		"appearances": [
-			{
-				"id": "2024-09-06-retro-review-billy-madison-1995",
-				"role": "review"
-			},
-			{
-				"id": "404",
-				"role": "watched"
-			},
-			{
-				"id": "332",
-				"role": "watched"
-			},
-			{
-				"id": "256",
-				"role": "watched"
 			}
 		]
 	},
@@ -2726,31 +2575,6 @@
 		]
 	},
 	{
-		"slug": "critters",
-		"title": "Critters",
-		"year": 1986,
-		"poster": "/dxBy4WePZY06Bk5KvXb4K3UnjCy.jpg",
-		"votes": 1148,
-		"tmdb": {
-			"type": "movie",
-			"id": 3980
-		},
-		"appearances": [
-			{
-				"id": "2024-06-22-retro-review-critters-1986",
-				"role": "review"
-			},
-			{
-				"id": "439",
-				"role": "watched"
-			},
-			{
-				"id": "279",
-				"role": "watched"
-			}
-		]
-	},
-	{
 		"slug": "i-saw-the-tv-glow",
 		"title": "I Saw the TV Glow",
 		"year": 2024,
@@ -2945,35 +2769,6 @@
 		]
 	},
 	{
-		"slug": "the-cable-guy",
-		"title": "The Cable Guy",
-		"year": 1996,
-		"poster": "/YJt9l3RdrRohI95btQKPXwpdii.jpg",
-		"votes": 2777,
-		"tmdb": {
-			"type": "movie",
-			"id": 9894
-		},
-		"appearances": [
-			{
-				"id": "2024-04-26-retro-review-the-cable-guy-1996",
-				"role": "review"
-			},
-			{
-				"id": "452",
-				"role": "watched"
-			},
-			{
-				"id": "360",
-				"role": "watched"
-			},
-			{
-				"id": "310",
-				"role": "watched"
-			}
-		]
-	},
-	{
 		"slug": "immaculate",
 		"title": "Immaculate",
 		"year": 2024,
@@ -3137,48 +2932,6 @@
 			},
 			{
 				"id": "655",
-				"role": "review"
-			}
-		]
-	},
-	{
-		"slug": "dune-1984",
-		"title": "Dune",
-		"year": 1984,
-		"poster": "/4kJmUCE7mkVJjXa7A0g2rY4IGTm.jpg",
-		"votes": 3556,
-		"tmdb": {
-			"type": "movie",
-			"id": 841
-		},
-		"appearances": [
-			{
-				"id": "2024-03-12-retro-review-dune-1984",
-				"role": "review"
-			},
-			{
-				"id": "820",
-				"role": "watched"
-			},
-			{
-				"id": "814",
-				"role": "watched"
-			}
-		]
-	},
-	{
-		"slug": "dune-2021",
-		"title": "Dune",
-		"year": 2021,
-		"poster": "/v1tRXZ4JtD2Iv6fjkPvT4GiwslV.jpg",
-		"votes": 15606,
-		"tmdb": {
-			"type": "movie",
-			"id": 438631
-		},
-		"appearances": [
-			{
-				"id": "820",
 				"role": "review"
 			}
 		]
@@ -3424,27 +3177,6 @@
 		]
 	},
 	{
-		"slug": "trapped-in-paradise",
-		"title": "Trapped in Paradise",
-		"year": 1994,
-		"poster": "/dK4yUlzV2pG1p8oBZP6CuIUO6yg.jpg",
-		"votes": 291,
-		"tmdb": {
-			"type": "movie",
-			"id": 23719
-		},
-		"appearances": [
-			{
-				"id": "2023-12-16-retro-review-trapped-in-paradise-1994",
-				"role": "review"
-			},
-			{
-				"id": "593",
-				"role": "watched"
-			}
-		]
-	},
-	{
 		"slug": "silent-night",
 		"title": "Silent Night",
 		"year": 2023,
@@ -3475,27 +3207,6 @@
 			{
 				"id": "921",
 				"role": "review"
-			}
-		]
-	},
-	{
-		"slug": "napoleon-dynamite",
-		"title": "Napoleon Dynamite",
-		"year": 2004,
-		"poster": "/6Iv6Uwa2SBLN0dSGM00rdrwN4MJ.jpg",
-		"votes": 2268,
-		"tmdb": {
-			"type": "movie",
-			"id": 8193
-		},
-		"appearances": [
-			{
-				"id": "2023-12-01-retro-review-napoleon-dynamite-2004",
-				"role": "review"
-			},
-			{
-				"id": "223",
-				"role": "watched"
 			}
 		]
 	},
@@ -3568,44 +3279,6 @@
 			{
 				"id": "917",
 				"role": "review"
-			}
-		]
-	},
-	{
-		"slug": "house-1977",
-		"title": "House",
-		"year": 1977,
-		"poster": "/ryZ3DdZPvXVCv9qRCtVRfmNbYAH.jpg",
-		"votes": 834,
-		"tmdb": {
-			"type": "movie",
-			"id": 25623
-		},
-		"appearances": [
-			{
-				"id": "2023-10-31-criterionitis-house-1977",
-				"role": "review"
-			}
-		]
-	},
-	{
-		"slug": "house-1985",
-		"title": "House",
-		"year": 1985,
-		"poster": "/jhfbMS620H29FK0miTk8TCgMK9w.jpg",
-		"votes": 640,
-		"tmdb": {
-			"type": "movie",
-			"id": 11415
-		},
-		"appearances": [
-			{
-				"id": "634",
-				"role": "review"
-			},
-			{
-				"id": "290",
-				"role": "watched"
 			}
 		]
 	},
@@ -3737,31 +3410,6 @@
 			{
 				"id": "912",
 				"role": "review"
-			}
-		]
-	},
-	{
-		"slug": "showgirls",
-		"title": "Showgirls",
-		"year": 1995,
-		"poster": "/o4HT3Ap5c99W4FYpdXUtTvxGgPc.jpg",
-		"votes": 1443,
-		"tmdb": {
-			"type": "movie",
-			"id": 10802
-		},
-		"appearances": [
-			{
-				"id": "2023-09-21-retro-review-showgirls-1995",
-				"role": "review"
-			},
-			{
-				"id": "459",
-				"role": "watched"
-			},
-			{
-				"id": "375",
-				"role": "watched"
 			}
 		]
 	},
@@ -3944,23 +3592,6 @@
 		]
 	},
 	{
-		"slug": "the-last-starfighter",
-		"title": "The Last Starfighter",
-		"year": 1984,
-		"poster": "/A7oAHTjtYnIEQjJs62IONRufooq.jpg",
-		"votes": 805,
-		"tmdb": {
-			"type": "movie",
-			"id": 11884
-		},
-		"appearances": [
-			{
-				"id": "2023-07-25-retro-review-the-last-starfighter-audio",
-				"role": "review"
-			}
-		]
-	},
-	{
 		"slug": "mission-impossible-dead-reckoning-part-one",
 		"title": "Mission: Impossible - Dead Reckoning Part One",
 		"year": 2023,
@@ -4054,23 +3685,6 @@
 			{
 				"id": "897",
 				"role": "watched"
-			}
-		]
-	},
-	{
-		"slug": "akira",
-		"title": "Akira",
-		"year": 1988,
-		"poster": "/neZ0ykEsPqxamsX6o5QNUFILQrz.jpg",
-		"votes": 5029,
-		"tmdb": {
-			"type": "movie",
-			"id": 149
-		},
-		"appearances": [
-			{
-				"id": "2023-06-09-retro-review-akira-1988",
-				"role": "review"
 			}
 		]
 	},
@@ -4249,23 +3863,6 @@
 		]
 	},
 	{
-		"slug": "freddy-got-fingered",
-		"title": "Freddy Got Fingered",
-		"year": 2001,
-		"poster": "/gVmSZgxiT7ynyRLsEgg8Xs8ZVWX.jpg",
-		"votes": 512,
-		"tmdb": {
-			"type": "movie",
-			"id": 13166
-		},
-		"appearances": [
-			{
-				"id": "2023-04-22-retro-review-freddy-got-fingered-2001",
-				"role": "review"
-			}
-		]
-	},
-	{
 		"slug": "air",
 		"title": "Air",
 		"year": 2023,
@@ -4312,23 +3909,6 @@
 		"appearances": [
 			{
 				"id": "890",
-				"role": "review"
-			}
-		]
-	},
-	{
-		"slug": "wheels-on-meals",
-		"title": "Wheels on Meals",
-		"year": 1984,
-		"poster": "/zCii0fXuI7xzroEEG1KBJDlqu0O.jpg",
-		"votes": 456,
-		"tmdb": {
-			"type": "movie",
-			"id": 11205
-		},
-		"appearances": [
-			{
-				"id": "2023-03-31-retro-review-wheels-on-meals-1984",
 				"role": "review"
 			}
 		]
@@ -4478,23 +4058,6 @@
 		]
 	},
 	{
-		"slug": "sidekicks",
-		"title": "Sidekicks",
-		"year": 1992,
-		"poster": "/p4n2gLg7Iqko72GMJwfaHHCdVg4.jpg",
-		"votes": 205,
-		"tmdb": {
-			"type": "movie",
-			"id": 22590
-		},
-		"appearances": [
-			{
-				"id": "2023-02-09-retro-review-sidekicks-1992",
-				"role": "review"
-			}
-		]
-	},
-	{
 		"slug": "knock-at-the-cabin",
 		"title": "Knock at the Cabin",
 		"year": 2023,
@@ -4524,23 +4087,6 @@
 		"appearances": [
 			{
 				"id": "881",
-				"role": "review"
-			}
-		]
-	},
-	{
-		"slug": "possession",
-		"title": "Possession",
-		"year": 1981,
-		"poster": "/A9bnRn05riOKWftvQlLKa2gl51n.jpg",
-		"votes": 1444,
-		"tmdb": {
-			"type": "movie",
-			"id": 21484
-		},
-		"appearances": [
-			{
-				"id": "2023-01-26-retro-review-possession-1981",
 				"role": "review"
 			}
 		]
@@ -4634,48 +4180,6 @@
 		"appearances": [
 			{
 				"id": "877",
-				"role": "review"
-			}
-		]
-	},
-	{
-		"slug": "star-wars-episode-i-the-phantom-menace",
-		"title": "Star Wars: Episode I - The Phantom Menace",
-		"year": 1999,
-		"poster": "/6wkfovpn7Eq8dYNKaG5PY3q2oq6.jpg",
-		"votes": 16247,
-		"tmdb": {
-			"type": "movie",
-			"id": 1893
-		},
-		"appearances": [
-			{
-				"id": "2022-12-24-film-junk-re-pre-star-wars-episode-i-the-phantom-menace",
-				"role": "review"
-			},
-			{
-				"id": "708",
-				"role": "watched"
-			},
-			{
-				"id": "543",
-				"role": "watched"
-			}
-		]
-	},
-	{
-		"slug": "one-magic-christmas",
-		"title": "One Magic Christmas",
-		"year": 1985,
-		"poster": "/kiKa6GhHDPRLgo4VAFRmeMBrvdB.jpg",
-		"votes": 122,
-		"tmdb": {
-			"type": "movie",
-			"id": 13380
-		},
-		"appearances": [
-			{
-				"id": "2022-12-24-retro-review-one-magic-christmas-1985",
 				"role": "review"
 			}
 		]
@@ -4960,27 +4464,6 @@
 		]
 	},
 	{
-		"slug": "some-like-it-hot",
-		"title": "Some Like It Hot",
-		"year": 1959,
-		"poster": "/hVIKyTK13AvOGv7ICmJjK44DTzp.jpg",
-		"votes": 4002,
-		"tmdb": {
-			"type": "movie",
-			"id": 239
-		},
-		"appearances": [
-			{
-				"id": "2022-10-07-criterionitis-some-like-it-hot-1959",
-				"role": "review"
-			},
-			{
-				"id": "404",
-				"role": "watched"
-			}
-		]
-	},
-	{
 		"slug": "blonde",
 		"title": "Blonde",
 		"year": 2022,
@@ -5066,23 +4549,6 @@
 		]
 	},
 	{
-		"slug": "cool-as-ice",
-		"title": "Cool as Ice",
-		"year": 1991,
-		"poster": "/fO0YbAJiMPFMquixdZgbC98I3MP.jpg",
-		"votes": 208,
-		"tmdb": {
-			"type": "movie",
-			"id": 1496
-		},
-		"appearances": [
-			{
-				"id": "2022-09-18-retro-review-cool-as-ice-1991",
-				"role": "review"
-			}
-		]
-	},
-	{
 		"slug": "barbarian",
 		"title": "Barbarian",
 		"year": 2022,
@@ -5133,23 +4599,6 @@
 		"appearances": [
 			{
 				"id": "861",
-				"role": "review"
-			}
-		]
-	},
-	{
-		"slug": "l-a-aids-jabber",
-		"title": "L.A. AIDS Jabber",
-		"year": 1994,
-		"poster": "/pBJGY3yzn54nVHjG3lKE3yAagLk.jpg",
-		"votes": 14,
-		"tmdb": {
-			"type": "movie",
-			"id": 360412
-		},
-		"appearances": [
-			{
-				"id": "2022-08-26-retro-review-l-a-aids-jabber-1994",
 				"role": "review"
 			}
 		]
@@ -5268,31 +4717,6 @@
 		]
 	},
 	{
-		"slug": "the-river-wild",
-		"title": "The River Wild",
-		"year": 1994,
-		"poster": "/wVgQ2T63ThjIsY4R0qoHXjyllql.jpg",
-		"votes": 995,
-		"tmdb": {
-			"type": "movie",
-			"id": 8987
-		},
-		"appearances": [
-			{
-				"id": "2022-07-28-retro-review-the-river-wild-1994",
-				"role": "review"
-			},
-			{
-				"id": "355",
-				"role": "watched"
-			},
-			{
-				"id": "348",
-				"role": "watched"
-			}
-		]
-	},
-	{
 		"slug": "nope",
 		"title": "Nope",
 		"year": 2022,
@@ -5391,27 +4815,6 @@
 			{
 				"id": "852",
 				"role": "review"
-			}
-		]
-	},
-	{
-		"slug": "something-wild",
-		"title": "Something Wild",
-		"year": 1986,
-		"poster": "/344lhBozqFWKxBb4fp6azYQMLEy.jpg",
-		"votes": 425,
-		"tmdb": {
-			"type": "movie",
-			"id": 11300
-		},
-		"appearances": [
-			{
-				"id": "2022-06-17-criterionitis-something-wild-1986",
-				"role": "review"
-			},
-			{
-				"id": "318",
-				"role": "watched"
 			}
 		]
 	},
@@ -5577,27 +4980,6 @@
 			{
 				"id": "844",
 				"role": "review"
-			}
-		]
-	},
-	{
-		"slug": "stalker",
-		"title": "Stalker",
-		"year": 1979,
-		"poster": "/1qhOyf5C4s9ZdvY8d5JDx9DFMeT.jpg",
-		"votes": 2617,
-		"tmdb": {
-			"type": "movie",
-			"id": 1398
-		},
-		"appearances": [
-			{
-				"id": "2022-04-22-criterionitis-stalker-1979",
-				"role": "review"
-			},
-			{
-				"id": "649",
-				"role": "watched"
 			}
 		]
 	},
@@ -5906,27 +5288,6 @@
 		]
 	},
 	{
-		"slug": "close-up",
-		"title": "Close-Up",
-		"year": 1990,
-		"poster": "/m9HG2N9ZKCmNN9qOHJTNyy18wn3.jpg",
-		"votes": 463,
-		"tmdb": {
-			"type": "movie",
-			"id": 30017
-		},
-		"appearances": [
-			{
-				"id": "2022-02-06-criterionitis-close-up-1990",
-				"role": "review"
-			},
-			{
-				"id": "276",
-				"role": "watched"
-			}
-		]
-	},
-	{
 		"slug": "nightmare-alley",
 		"title": "Nightmare Alley",
 		"year": 2021,
@@ -6139,23 +5500,6 @@
 		]
 	},
 	{
-		"slug": "anatomy-of-a-murder",
-		"title": "Anatomy of a Murder",
-		"year": 1959,
-		"poster": "/b2G1QSAwtBv9luhEwErIgSRaU92.jpg",
-		"votes": 1219,
-		"tmdb": {
-			"type": "movie",
-			"id": 93
-		},
-		"appearances": [
-			{
-				"id": "2021-11-20-criterionitis-anatomy-of-a-murder-1959",
-				"role": "review"
-			}
-		]
-	},
-	{
 		"slug": "titane",
 		"title": "Titane",
 		"year": 2021,
@@ -6233,6 +5577,23 @@
 		"appearances": [
 			{
 				"id": "821",
+				"role": "review"
+			}
+		]
+	},
+	{
+		"slug": "dune",
+		"title": "Dune",
+		"year": 2021,
+		"poster": "/v1tRXZ4JtD2Iv6fjkPvT4GiwslV.jpg",
+		"votes": 15606,
+		"tmdb": {
+			"type": "movie",
+			"id": 438631
+		},
+		"appearances": [
+			{
+				"id": "820",
 				"role": "review"
 			}
 		]
@@ -6330,23 +5691,6 @@
 		"appearances": [
 			{
 				"id": "817",
-				"role": "review"
-			}
-		]
-	},
-	{
-		"slug": "au-hasard-balthazar",
-		"title": "Au Hasard Balthazar",
-		"year": 1966,
-		"poster": "/lkLO1HDzzaXpTXtAgnGpVqIQkvF.jpg",
-		"votes": 529,
-		"tmdb": {
-			"type": "movie",
-			"id": 20108
-		},
-		"appearances": [
-			{
-				"id": "2021-09-26-criterionitis-au-hasard-balthazar-1966",
 				"role": "review"
 			}
 		]
@@ -6654,27 +5998,6 @@
 		]
 	},
 	{
-		"slug": "repulsion",
-		"title": "Repulsion",
-		"year": 1965,
-		"poster": "/dtyCKEPLqv9wxyVazL4b843vtUb.jpg",
-		"votes": 1139,
-		"tmdb": {
-			"type": "movie",
-			"id": 11481
-		},
-		"appearances": [
-			{
-				"id": "2021-07-23-criterionitis-repulsion-1965",
-				"role": "review"
-			},
-			{
-				"id": "229",
-				"role": "watched"
-			}
-		]
-	},
-	{
 		"slug": "spiral-from-the-book-of-saw",
 		"title": "Spiral: From the Book of Saw",
 		"year": 2021,
@@ -6823,27 +6146,6 @@
 			{
 				"id": "803",
 				"role": "review"
-			}
-		]
-	},
-	{
-		"slug": "mikey-and-nicky",
-		"title": "Mikey and Nicky",
-		"year": 1976,
-		"poster": "/fnHC1OJ1EbdOX97nmXVYrXFgiQT.jpg",
-		"votes": 211,
-		"tmdb": {
-			"type": "movie",
-			"id": 59143
-		},
-		"appearances": [
-			{
-				"id": "2021-06-17-criterionitis-mikey-and-nicky-1976",
-				"role": "review"
-			},
-			{
-				"id": "665",
-				"role": "watched"
 			}
 		]
 	},
@@ -7039,35 +6341,6 @@
 		]
 	},
 	{
-		"slug": "the-third-man",
-		"title": "The Third Man",
-		"year": 1949,
-		"poster": "/vqnFHTx1phgTAsLfxZoejSbMVHA.jpg",
-		"votes": 2185,
-		"tmdb": {
-			"type": "movie",
-			"id": 1092
-		},
-		"appearances": [
-			{
-				"id": "889",
-				"role": "watched"
-			},
-			{
-				"id": "2021-05-06-criterionitis-the-third-man-1949",
-				"role": "review"
-			},
-			{
-				"id": "493",
-				"role": "watched"
-			},
-			{
-				"id": "201",
-				"role": "watched"
-			}
-		]
-	},
-	{
 		"slug": "stowaway",
 		"title": "Stowaway",
 		"year": 2021,
@@ -7122,23 +6395,6 @@
 		"appearances": [
 			{
 				"id": "795",
-				"role": "review"
-			}
-		]
-	},
-	{
-		"slug": "come-and-see",
-		"title": "Come and See",
-		"year": 1985,
-		"poster": "/qNbMsKVzigERgJUbwf8pKyZogpb.jpg",
-		"votes": 1970,
-		"tmdb": {
-			"type": "movie",
-			"id": 25237
-		},
-		"appearances": [
-			{
-				"id": "2021-04-15-criterionitis-come-and-see-1985",
 				"role": "review"
 			}
 		]
@@ -8887,20 +8143,6 @@
 		"appearances": [
 			{
 				"id": "730",
-				"role": "review"
-			}
-		]
-	},
-	{
-		"slug": "twin-peaks-the-return-part-1",
-		"title": "Twin Peaks The Return Part 1",
-		"year": null,
-		"poster": null,
-		"votes": 0,
-		"tmdb": null,
-		"appearances": [
-			{
-				"id": "2019-11-11-film-junk-bonus-podcast-twin-peaks-the-return-part-1",
 				"role": "review"
 			}
 		]
@@ -11231,6 +10473,27 @@
 			{
 				"id": "635",
 				"role": "review"
+			}
+		]
+	},
+	{
+		"slug": "house",
+		"title": "House",
+		"year": 1985,
+		"poster": "/jhfbMS620H29FK0miTk8TCgMK9w.jpg",
+		"votes": 640,
+		"tmdb": {
+			"type": "movie",
+			"id": 11415
+		},
+		"appearances": [
+			{
+				"id": "634",
+				"role": "review"
+			},
+			{
+				"id": "290",
+				"role": "watched"
 			}
 		]
 	},
@@ -29061,494 +28324,6 @@
 		]
 	},
 	{
-		"slug": "bebes-kids",
-		"title": "Bebe's Kids",
-		"year": null,
-		"poster": null,
-		"tmdb": null,
-		"appearances": [
-			{
-				"id": "2026-09-05-what-we-watched-bebes-kids-teenage-sex-and-death-at-camp-mia",
-				"role": "watched"
-			}
-		]
-	},
-	{
-		"slug": "teenage-sex-and-death-at-camp-miasma",
-		"title": "Teenage Sex and Death at Camp Miasma",
-		"year": null,
-		"poster": null,
-		"tmdb": null,
-		"appearances": [
-			{
-				"id": "2026-09-05-what-we-watched-bebes-kids-teenage-sex-and-death-at-camp-mia",
-				"role": "watched"
-			}
-		]
-	},
-	{
-		"slug": "suddenly-susan",
-		"title": "Suddenly Susan",
-		"year": null,
-		"poster": null,
-		"tmdb": null,
-		"appearances": [
-			{
-				"id": "2026-09-05-what-we-watched-bebes-kids-teenage-sex-and-death-at-camp-mia",
-				"role": "watched"
-			}
-		]
-	},
-	{
-		"slug": "spider-man-brand-new-day",
-		"title": "Spider-Man: Brand New Day",
-		"year": null,
-		"poster": null,
-		"tmdb": null,
-		"appearances": [
-			{
-				"id": "2026-08-19-what-we-watched-spider-man-brand-new-day-the-invite-chairman",
-				"role": "watched"
-			}
-		]
-	},
-	{
-		"slug": "the-invite",
-		"title": "The Invite",
-		"year": null,
-		"poster": null,
-		"tmdb": null,
-		"appearances": [
-			{
-				"id": "2026-08-19-what-we-watched-spider-man-brand-new-day-the-invite-chairman",
-				"role": "watched"
-			},
-			{
-				"id": "2026-08-05-what-we-watched-the-invite-iceman-her-private-hell-tuner-and",
-				"role": "watched"
-			}
-		]
-	},
-	{
-		"slug": "chairman-of-the-board",
-		"title": "Chairman of the Board",
-		"year": null,
-		"poster": null,
-		"tmdb": null,
-		"appearances": [
-			{
-				"id": "2026-08-19-what-we-watched-spider-man-brand-new-day-the-invite-chairman",
-				"role": "watched"
-			}
-		]
-	},
-	{
-		"slug": "iceman",
-		"title": "Iceman",
-		"year": null,
-		"poster": null,
-		"tmdb": null,
-		"appearances": [
-			{
-				"id": "2026-08-05-what-we-watched-the-invite-iceman-her-private-hell-tuner-and",
-				"role": "watched"
-			}
-		]
-	},
-	{
-		"slug": "her-private-hell",
-		"title": "Her Private Hell",
-		"year": null,
-		"poster": null,
-		"tmdb": null,
-		"appearances": [
-			{
-				"id": "2026-08-05-what-we-watched-the-invite-iceman-her-private-hell-tuner-and",
-				"role": "watched"
-			}
-		]
-	},
-	{
-		"slug": "tuner",
-		"title": "Tuner",
-		"year": null,
-		"poster": null,
-		"tmdb": null,
-		"appearances": [
-			{
-				"id": "2026-08-05-what-we-watched-the-invite-iceman-her-private-hell-tuner-and",
-				"role": "watched"
-			}
-		]
-	},
-	{
-		"slug": "obsession",
-		"title": "Obsession",
-		"year": null,
-		"poster": null,
-		"tmdb": null,
-		"appearances": [
-			{
-				"id": "2026-07-11-what-we-watched-obsession-the-drama-toy-story-5-and-more",
-				"role": "watched"
-			}
-		]
-	},
-	{
-		"slug": "the-drama",
-		"title": "The Drama",
-		"year": null,
-		"poster": null,
-		"tmdb": null,
-		"appearances": [
-			{
-				"id": "2026-07-11-what-we-watched-obsession-the-drama-toy-story-5-and-more",
-				"role": "watched"
-			}
-		]
-	},
-	{
-		"slug": "toy-story-5",
-		"title": "Toy Story 5",
-		"year": null,
-		"poster": null,
-		"tmdb": null,
-		"appearances": [
-			{
-				"id": "2026-07-11-what-we-watched-obsession-the-drama-toy-story-5-and-more",
-				"role": "watched"
-			}
-		]
-	},
-	{
-		"slug": "hokum",
-		"title": "Hokum",
-		"year": null,
-		"poster": null,
-		"tmdb": null,
-		"appearances": [
-			{
-				"id": "2026-06-28-what-we-watched-hokum-leviticus-hairspray-masters-of-the-uni",
-				"role": "watched"
-			}
-		]
-	},
-	{
-		"slug": "leviticus",
-		"title": "Leviticus",
-		"year": null,
-		"poster": null,
-		"tmdb": null,
-		"appearances": [
-			{
-				"id": "2026-06-28-what-we-watched-hokum-leviticus-hairspray-masters-of-the-uni",
-				"role": "watched"
-			}
-		]
-	},
-	{
-		"slug": "hairspray",
-		"title": "Hairspray",
-		"year": null,
-		"poster": null,
-		"tmdb": null,
-		"appearances": [
-			{
-				"id": "2026-06-28-what-we-watched-hokum-leviticus-hairspray-masters-of-the-uni",
-				"role": "watched"
-			}
-		]
-	},
-	{
-		"slug": "masters-of-the-universe",
-		"title": "Masters of the Universe",
-		"year": null,
-		"poster": null,
-		"tmdb": null,
-		"appearances": [
-			{
-				"id": "2026-06-28-what-we-watched-hokum-leviticus-hairspray-masters-of-the-uni",
-				"role": "watched"
-			},
-			{
-				"id": "premium-036",
-				"role": "premium"
-			},
-			{
-				"id": "223",
-				"role": "watched"
-			}
-		]
-	},
-	{
-		"slug": "backrooms",
-		"title": "Backrooms",
-		"year": null,
-		"poster": null,
-		"tmdb": null,
-		"appearances": [
-			{
-				"id": "2026-06-05-what-we-watched-backrooms-la-bamba-mario-galaxy-or-whatever-",
-				"role": "watched"
-			}
-		]
-	},
-	{
-		"slug": "la-bamba",
-		"title": "La Bamba",
-		"year": null,
-		"poster": null,
-		"tmdb": null,
-		"appearances": [
-			{
-				"id": "2026-06-05-what-we-watched-backrooms-la-bamba-mario-galaxy-or-whatever-",
-				"role": "watched"
-			}
-		]
-	},
-	{
-		"slug": "mario-galaxy-or-whatever-its-called",
-		"title": "Mario Galaxy or Whatever It's Called",
-		"year": null,
-		"poster": null,
-		"tmdb": null,
-		"appearances": [
-			{
-				"id": "2026-06-05-what-we-watched-backrooms-la-bamba-mario-galaxy-or-whatever-",
-				"role": "watched"
-			}
-		]
-	},
-	{
-		"slug": "flowers-in-the-attic",
-		"title": "Flowers in the Attic",
-		"year": null,
-		"poster": null,
-		"tmdb": null,
-		"appearances": [
-			{
-				"id": "2026-06-05-what-we-watched-backrooms-la-bamba-mario-galaxy-or-whatever-",
-				"role": "watched"
-			}
-		]
-	},
-	{
-		"slug": "scream-7",
-		"title": "Scream 7",
-		"year": null,
-		"poster": null,
-		"tmdb": null,
-		"appearances": [
-			{
-				"id": "2026-05-07-what-we-watched-scream-7-busboys-innerspace-apex",
-				"role": "watched"
-			}
-		]
-	},
-	{
-		"slug": "busboys",
-		"title": "Busboys",
-		"year": null,
-		"poster": null,
-		"tmdb": null,
-		"appearances": [
-			{
-				"id": "2026-05-07-what-we-watched-scream-7-busboys-innerspace-apex",
-				"role": "watched"
-			}
-		]
-	},
-	{
-		"slug": "innerspace",
-		"title": "Innerspace",
-		"year": null,
-		"poster": null,
-		"tmdb": null,
-		"appearances": [
-			{
-				"id": "2026-05-07-what-we-watched-scream-7-busboys-innerspace-apex",
-				"role": "watched"
-			},
-			{
-				"id": "premium-joe-dante",
-				"role": "premium"
-			},
-			{
-				"id": "440",
-				"role": "watched"
-			}
-		]
-	},
-	{
-		"slug": "apex",
-		"title": "Apex",
-		"year": null,
-		"poster": null,
-		"tmdb": null,
-		"appearances": [
-			{
-				"id": "2026-05-07-what-we-watched-scream-7-busboys-innerspace-apex",
-				"role": "watched"
-			}
-		]
-	},
-	{
-		"slug": "thrash",
-		"title": "Thrash",
-		"year": null,
-		"poster": null,
-		"tmdb": null,
-		"appearances": [
-			{
-				"id": "2026-04-23-what-we-watched-thrash-crime-101-throw-momma-from-the-train",
-				"role": "watched"
-			}
-		]
-	},
-	{
-		"slug": "crime-101",
-		"title": "Crime 101",
-		"year": null,
-		"poster": null,
-		"tmdb": null,
-		"appearances": [
-			{
-				"id": "2026-04-23-what-we-watched-thrash-crime-101-throw-momma-from-the-train",
-				"role": "watched"
-			}
-		]
-	},
-	{
-		"slug": "throw-momma-from-the-train",
-		"title": "Throw Momma from the Train",
-		"year": null,
-		"poster": null,
-		"tmdb": null,
-		"appearances": [
-			{
-				"id": "2026-04-23-what-we-watched-thrash-crime-101-throw-momma-from-the-train",
-				"role": "watched"
-			}
-		]
-	},
-	{
-		"slug": "exit-8",
-		"title": "Exit 8",
-		"year": null,
-		"poster": null,
-		"tmdb": null,
-		"appearances": [
-			{
-				"id": "2026-04-08-what-we-watched-exit-8-mercy-mike-and-nick-and-nick-and-alic",
-				"role": "watched"
-			}
-		]
-	},
-	{
-		"slug": "mercy",
-		"title": "Mercy",
-		"year": null,
-		"poster": null,
-		"tmdb": null,
-		"appearances": [
-			{
-				"id": "2026-04-08-what-we-watched-exit-8-mercy-mike-and-nick-and-nick-and-alic",
-				"role": "watched"
-			}
-		]
-	},
-	{
-		"slug": "mike-and-nick-and-nick-and-alice",
-		"title": "Mike & Nick & Nick & Alice",
-		"year": null,
-		"poster": null,
-		"tmdb": null,
-		"appearances": [
-			{
-				"id": "2026-04-08-what-we-watched-exit-8-mercy-mike-and-nick-and-nick-and-alic",
-				"role": "watched"
-			}
-		]
-	},
-	{
-		"slug": "louis-theroux-inside-the-manosphere",
-		"title": "Louis Theroux: Inside the Manosphere",
-		"year": null,
-		"poster": null,
-		"tmdb": null,
-		"appearances": [
-			{
-				"id": "2026-03-30-what-we-watched-louis-theroux-inside-the-manosphere-hoppers-",
-				"role": "watched"
-			}
-		]
-	},
-	{
-		"slug": "hoppers",
-		"title": "Hoppers",
-		"year": null,
-		"poster": null,
-		"tmdb": null,
-		"appearances": [
-			{
-				"id": "2026-03-30-what-we-watched-louis-theroux-inside-the-manosphere-hoppers-",
-				"role": "watched"
-			}
-		]
-	},
-	{
-		"slug": "the-secret-agent",
-		"title": "The Secret Agent",
-		"year": null,
-		"poster": null,
-		"tmdb": null,
-		"appearances": [
-			{
-				"id": "2026-03-30-what-we-watched-louis-theroux-inside-the-manosphere-hoppers-",
-				"role": "watched"
-			}
-		]
-	},
-	{
-		"slug": "primate",
-		"title": "Primate",
-		"year": null,
-		"poster": null,
-		"tmdb": null,
-		"appearances": [
-			{
-				"id": "2026-03-12-what-we-watched-primate-the-bride-wuthering-heights-and-more",
-				"role": "watched"
-			}
-		]
-	},
-	{
-		"slug": "the-bride",
-		"title": "The Bride!",
-		"year": null,
-		"poster": null,
-		"tmdb": null,
-		"appearances": [
-			{
-				"id": "2026-03-12-what-we-watched-primate-the-bride-wuthering-heights-and-more",
-				"role": "watched"
-			}
-		]
-	},
-	{
-		"slug": "wuthering-heights",
-		"title": "Wuthering Heights",
-		"year": null,
-		"poster": null,
-		"tmdb": null,
-		"appearances": [
-			{
-				"id": "2026-03-12-what-we-watched-primate-the-bride-wuthering-heights-and-more",
-				"role": "watched"
-			}
-		]
-	},
-	{
 		"slug": "zodiac-killer-project",
 		"title": "Zodiac Killer Project",
 		"year": null,
@@ -41693,6 +40468,27 @@
 		]
 	},
 	{
+		"slug": "the-third-man",
+		"title": "The Third Man",
+		"year": null,
+		"poster": null,
+		"tmdb": null,
+		"appearances": [
+			{
+				"id": "889",
+				"role": "watched"
+			},
+			{
+				"id": "493",
+				"role": "watched"
+			},
+			{
+				"id": "201",
+				"role": "watched"
+			}
+		]
+	},
+	{
 		"slug": "inland-empire",
 		"title": "Inland Empire",
 		"year": null,
@@ -47613,6 +46409,23 @@
 		]
 	},
 	{
+		"slug": "dune-1984",
+		"title": "Dune",
+		"year": 1984,
+		"poster": null,
+		"tmdb": null,
+		"appearances": [
+			{
+				"id": "820",
+				"role": "watched"
+			},
+			{
+				"id": "814",
+				"role": "watched"
+			}
+		]
+	},
+	{
 		"slug": "my-name",
 		"title": "My Name",
 		"year": null,
@@ -47738,6 +46551,19 @@
 			{
 				"id": "premium-the-halloween-franchise",
 				"role": "premium"
+			}
+		]
+	},
+	{
+		"slug": "blades",
+		"title": "Blades",
+		"year": null,
+		"poster": null,
+		"tmdb": null,
+		"appearances": [
+			{
+				"id": "817",
+				"role": "watched"
 			}
 		]
 	},
@@ -58345,6 +57171,23 @@
 		]
 	},
 	{
+		"slug": "star-wars-episode-i-the-phantom-menace",
+		"title": "Star Wars: Episode I – The Phantom Menace",
+		"year": null,
+		"poster": null,
+		"tmdb": null,
+		"appearances": [
+			{
+				"id": "708",
+				"role": "watched"
+			},
+			{
+				"id": "543",
+				"role": "watched"
+			}
+		]
+	},
+	{
 		"slug": "the-wandering-earth",
 		"title": "The Wandering Earth",
 		"year": null,
@@ -61626,6 +60469,19 @@
 		]
 	},
 	{
+		"slug": "mikey-and-nicky",
+		"title": "Mikey and Nicky",
+		"year": null,
+		"poster": null,
+		"tmdb": null,
+		"appearances": [
+			{
+				"id": "665",
+				"role": "watched"
+			}
+		]
+	},
+	{
 		"slug": "thoroughbreds",
 		"title": "Thoroughbreds",
 		"year": null,
@@ -62651,6 +61507,19 @@
 			},
 			{
 				"id": "647",
+				"role": "watched"
+			}
+		]
+	},
+	{
+		"slug": "stalker",
+		"title": "Stalker",
+		"year": null,
+		"poster": null,
+		"tmdb": null,
+		"appearances": [
+			{
+				"id": "649",
 				"role": "watched"
 			}
 		]
@@ -67088,6 +65957,19 @@
 	{
 		"slug": "the-dog-who-stopped-the-war",
 		"title": "The Dog Who Stopped the War",
+		"year": null,
+		"poster": null,
+		"tmdb": null,
+		"appearances": [
+			{
+				"id": "593",
+				"role": "watched"
+			}
+		]
+	},
+	{
+		"slug": "trapped-in-paradise",
+		"title": "Trapped in Paradise",
 		"year": null,
 		"poster": null,
 		"tmdb": null,
@@ -72628,6 +71510,23 @@
 		]
 	},
 	{
+		"slug": "innerspace",
+		"title": "InnerSpace",
+		"year": null,
+		"poster": null,
+		"tmdb": null,
+		"appearances": [
+			{
+				"id": "premium-joe-dante",
+				"role": "premium"
+			},
+			{
+				"id": "440",
+				"role": "watched"
+			}
+		]
+	},
+	{
 		"slug": "the-burbs",
 		"title": "The Burbs",
 		"year": null,
@@ -73160,6 +72059,19 @@
 	{
 		"slug": "wolfen",
 		"title": "Wolfen",
+		"year": null,
+		"poster": null,
+		"tmdb": null,
+		"appearances": [
+			{
+				"id": "522",
+				"role": "watched"
+			}
+		]
+	},
+	{
+		"slug": "grandmas-boy",
+		"title": "Grandma's Boy",
 		"year": null,
 		"poster": null,
 		"tmdb": null,
@@ -74954,6 +73866,23 @@
 			},
 			{
 				"id": "227",
+				"role": "watched"
+			}
+		]
+	},
+	{
+		"slug": "masters-of-the-universe",
+		"title": "Masters of the Universe",
+		"year": null,
+		"poster": null,
+		"tmdb": null,
+		"appearances": [
+			{
+				"id": "premium-036",
+				"role": "premium"
+			},
+			{
+				"id": "223",
 				"role": "watched"
 			}
 		]
@@ -78813,6 +77742,23 @@
 		]
 	},
 	{
+		"slug": "showgirls",
+		"title": "Showgirls",
+		"year": null,
+		"poster": null,
+		"tmdb": null,
+		"appearances": [
+			{
+				"id": "459",
+				"role": "watched"
+			},
+			{
+				"id": "375",
+				"role": "watched"
+			}
+		]
+	},
+	{
 		"slug": "citizen-ruth",
 		"title": "Citizen Ruth",
 		"year": null,
@@ -79372,6 +78318,27 @@
 		"appearances": [
 			{
 				"id": "452",
+				"role": "watched"
+			}
+		]
+	},
+	{
+		"slug": "the-cable-guy",
+		"title": "The Cable Guy",
+		"year": null,
+		"poster": null,
+		"tmdb": null,
+		"appearances": [
+			{
+				"id": "452",
+				"role": "watched"
+			},
+			{
+				"id": "360",
+				"role": "watched"
+			},
+			{
+				"id": "310",
 				"role": "watched"
 			}
 		]
@@ -80558,6 +79525,23 @@
 		"appearances": [
 			{
 				"id": "439",
+				"role": "watched"
+			}
+		]
+	},
+	{
+		"slug": "critters",
+		"title": "Critters",
+		"year": null,
+		"poster": null,
+		"tmdb": null,
+		"appearances": [
+			{
+				"id": "439",
+				"role": "watched"
+			},
+			{
+				"id": "279",
 				"role": "watched"
 			}
 		]
@@ -84697,8 +83681,42 @@
 		]
 	},
 	{
+		"slug": "billy-madison",
+		"title": "Billy Madison",
+		"year": null,
+		"poster": null,
+		"tmdb": null,
+		"appearances": [
+			{
+				"id": "404",
+				"role": "watched"
+			},
+			{
+				"id": "332",
+				"role": "watched"
+			},
+			{
+				"id": "256",
+				"role": "watched"
+			}
+		]
+	},
+	{
 		"slug": "the-lost-weekend",
 		"title": "The Lost Weekend",
+		"year": null,
+		"poster": null,
+		"tmdb": null,
+		"appearances": [
+			{
+				"id": "404",
+				"role": "watched"
+			}
+		]
+	},
+	{
+		"slug": "some-like-it-hot",
+		"title": "Some Like it Hot",
 		"year": null,
 		"poster": null,
 		"tmdb": null,
@@ -89754,6 +88772,23 @@
 		]
 	},
 	{
+		"slug": "the-river-wild",
+		"title": "The River Wild",
+		"year": null,
+		"poster": null,
+		"tmdb": null,
+		"appearances": [
+			{
+				"id": "355",
+				"role": "watched"
+			},
+			{
+				"id": "348",
+				"role": "watched"
+			}
+		]
+	},
+	{
 		"slug": "dark-days",
 		"title": "Dark Days",
 		"year": null,
@@ -93815,6 +92850,19 @@
 			},
 			{
 				"id": "273",
+				"role": "watched"
+			}
+		]
+	},
+	{
+		"slug": "something-wild",
+		"title": "Something Wild",
+		"year": null,
+		"poster": null,
+		"tmdb": null,
+		"appearances": [
+			{
+				"id": "318",
 				"role": "watched"
 			}
 		]
@@ -98381,6 +97429,19 @@
 		]
 	},
 	{
+		"slug": "close-up",
+		"title": "Close-Up",
+		"year": null,
+		"poster": null,
+		"tmdb": null,
+		"appearances": [
+			{
+				"id": "276",
+				"role": "watched"
+			}
+		]
+	},
+	{
 		"slug": "death-race-2000",
 		"title": "Death Race 2000",
 		"year": null,
@@ -101623,6 +100684,19 @@
 		]
 	},
 	{
+		"slug": "repulsion",
+		"title": "Repulsion",
+		"year": null,
+		"poster": null,
+		"tmdb": null,
+		"appearances": [
+			{
+				"id": "229",
+				"role": "watched"
+			}
+		]
+	},
+	{
 		"slug": "trouble-the-water",
 		"title": "Trouble The Water",
 		"year": null,
@@ -102074,6 +101148,19 @@
 	{
 		"slug": "behind-enemy-lines",
 		"title": "Behind Enemy Lines",
+		"year": null,
+		"poster": null,
+		"tmdb": null,
+		"appearances": [
+			{
+				"id": "223",
+				"role": "watched"
+			}
+		]
+	},
+	{
+		"slug": "napoleon-dynamite",
+		"title": "Napoleon Dynamite",
 		"year": null,
 		"poster": null,
 		"tmdb": null,
@@ -104960,6 +104047,19 @@
 	{
 		"slug": "batman-gotham-knight",
 		"title": "Batman: Gotham Knight",
+		"year": null,
+		"poster": null,
+		"tmdb": null,
+		"appearances": [
+			{
+				"id": "175",
+				"role": "watched"
+			}
+		]
+	},
+	{
+		"slug": "shermans-march",
+		"title": "Sherman's March",
 		"year": null,
 		"poster": null,
 		"tmdb": null,
