@@ -81,6 +81,8 @@ function cleanTitle(s: string): string {
 		.replace(/\s+/g, ' ')
 		.replace(/\s+([:,])/g, '$1')
 		.replace(/^[-–•*\s]+|[-–\s]+$/g, '')
+		// "A Quiet Place (SPOILERS)", "12 Monkeys (with Spoilers)"
+		.replace(/\s*\((with )?spoilers?\)$/i, '')
 		.trim();
 }
 
@@ -356,6 +358,24 @@ function parsePremiums(): Episode[] {
 		});
 	}
 
+	// Titles often differ between the two ("Alfred Hitcock" vs "Alfred Hitchcock", "Sylvester Stallone" vs
+	// "Sylvester Stallone Premium"), but the release dates line up, so pair leftovers released within 2 days.
+	const days = (a: string, b: string) => Math.abs(Date.parse(a) - Date.parse(b)) / 86_400_000;
+	for (const w of wiki) {
+		if (used.has(w) || !w.date) continue;
+		// Or the same day a year off with a word in common: the wiki has #90 The Godfather in 2021, Bandcamp in 2022.
+		const words = (t: string) => new Set(key(t).split('-').filter((x) => x.length > 3));
+		const shared = (t: string) => [...words(t)].some((x) => words(w.title).has(x));
+		const offByYear = (d: string) => Math.abs(days(d, w.date!) - 365) <= 2;
+		const twin = premiums
+			.filter((p) => p.number === null && (days(p.date, w.date!) <= 2 || (offByYear(p.date) && shared(p.title))))
+			.sort((a, b) => days(a.date, w.date!) - days(b.date, w.date!))[0];
+		if (twin) {
+			used.add(w);
+			Object.assign(twin, { number: w.number, covers: w.covers, notes: w.notes });
+		}
+	}
+
 	for (const w of wiki) {
 		if (used.has(w) || !w.date) continue;
 		premiums.push({
@@ -460,10 +480,18 @@ function spaceJunk(e: Draft) {
 	return !!e.number && e.number <= 55 && !!e.date && e.date < '2006-03-01';
 }
 
+const wikiByDate = new Map([...wikiEpisodes.values()].filter((w) => w.date).map((w) => [w.date!, w]));
+
 const episodes = guideEpisodes.map((e): Episode => {
 	// Every draft has a date by now: undated guide entries borrow their neighbour's.
 	const date = e.date!;
-	const wiki = e.number ? wikiEpisodes.get(e.number) : null;
+	// The wiki's numbering drifts from the guides in places (its #089 is the guides' #88), so if
+	// its date for this number is off, use the wiki entry from the same date instead.
+	const byNum = e.number ? wikiEpisodes.get(e.number) : undefined;
+	const wiki =
+		byNum && byNum.date && e.date && Math.abs(Date.parse(byNum.date) - Date.parse(e.date)) > 3 * 86_400_000
+			? (wikiByDate.get(e.date) ?? null)
+			: (byNum ?? null);
 	const bonusTitle = e.bonusTitle && !/^bonus (episode|podcasts?)$/i.test(e.bonusTitle) ? e.bonusTitle : null;
 	const title =
 		bonusTitle ??
@@ -555,7 +583,7 @@ function matchEpisode({ title, date }: { title: string; date: string }): Episode
 	const number = title.match(/(?:episode|ep\.?)\s*#?(\d{2,4})\b/i)?.[1];
 	if (number && regularByNumber.has(+number)) return regularByNumber.get(+number)!;
 	// Re-released premiums keep their number: "Film Junk Premium Podcast #18: …".
-	const premium = title.match(/premium(?: podcast)?\s*#(\d{1,3})\b/i)?.[1];
+	const premium = title.match(/premium(?: podcast)?\s*#?(\d{1,3})\s*:/i)?.[1];
 	if (premium && premiumByNumber.has(+premium)) return premiumByNumber.get(+premium)!;
 	const key = titleKey(title);
 	if (key.length < 3) return null;
@@ -612,7 +640,8 @@ function classifyPatreon(title: string): PatreonKind {
 // Films named in a post's description: timestamped chapter lines ("07:20 - Bebe's Kids"),
 // "Title (1985)", and titles the show has reviewed quoted word for word.
 const NOT_A_CHAPTER =
-	/^(intro|outro|opening|closing|wrap|junk mail|q ?& ?a|questions?|listener|mailbag|news|updates?|announcements?|housekeeping|banter|break|trivia|patreon|tier|top \d+|segment|the rest|misc|other stuff)\b/i;
+	/^(this week (on|and) dvd|headlines|going digital|intro|outro|opening|closing|wrap|junk mail|q ?& ?a|questions?|listener|mailbag|news|updates?|announcements?|housekeeping|banter|break|trivia|patreon|tier|top \d+|segment|the rest|misc|other stuff)\b/i;
+const SEGMENT_PREFIX = /^(review|retro review|spoiler (discussion|review|talk)|trailer trash|feature review)\s*[:\-–]\s*/i;
 const reviewedTitles = [
 	// Two or more words, so everyday words that are also titles ("Halloween") don't match.
 	...new Set(all.flatMap((e) => (e.reviews ?? []).map((r) => r.title)).filter((t) => t.length >= 8 && /\s/.test(t) && /[A-Z0-9]/.test(t[0]))),
@@ -627,8 +656,17 @@ function filmsInDescription(text: string | undefined): Mention[] {
 		if (m.title.length >= 2 && !found.has(m.title.toLowerCase())) found.set(m.title.toLowerCase(), m);
 	};
 	for (const line of text.split('\n')) {
-		const chapter = line.match(/^\s*\(?\d{1,2}:\d{2}(?::\d{2})?\)?\s*[-–—:]?\s*(.+)$/)?.[1]?.trim();
-		if (chapter && chapter.length <= 70 && !chapter.includes('?') && !NOT_A_CHAPTER.test(chapter)) add(chapter);
+		let chapter = line.match(/^\s*\(?\d{1,2}:\d{2}(?::\d{2})?\)?\s*[-–—:]?\s*(.+)$/)?.[1]?.trim();
+		if (!chapter || chapter.length > 70 || chapter.includes('?') || NOT_A_CHAPTER.test(chapter)) continue;
+		// "What We Watched: Frasier, Lonesome Dove and The Paper" names several.
+		const watched = chapter.match(/^what we watched\s*[:\-–]\s*(.+)$/i)?.[1];
+		if (watched) {
+			for (const t of watched.replace(/,?\s*and\s+(much,?\s+)*more[.!]*$/i, '').split(/,\s*|\s+and\s+/)) add(t);
+			continue;
+		}
+		// Segment prefixes around a title: "Review: Send Help", "Trailer Trash: The Batman".
+		chapter = chapter.replace(SEGMENT_PREFIX, '').trim();
+		if (chapter && !NOT_A_CHAPTER.test(chapter) && !/\b(discussion|announcements?|trailers?|updates?|news)$/i.test(chapter)) add(chapter);
 	}
 	const capitalised = String.raw`[A-Z0-9][\w'’&!.-]*`;
 	const joiner = String.raw`(?:of|the|and|a|an|in|on|to|at|for|with|from|vs\.?|&|-)`;
@@ -700,11 +738,22 @@ for (const post of patreonPosts) {
 
 	if (c.type === 'premium') {
 		const key = patreonKey(c.rest);
-		const known = all.find(
+		const byNumber = matchEpisode({ title: post.title, date: post.date });
+		const known = (byNumber?.kind === 'premium' ? byNumber : undefined) ?? all.find(
 			(e) => e.kind === 'premium' && (e.id.startsWith('premium-') && (titleKey(e.title) === key || (key.length > 4 && (key.includes(titleKey(e.title)) || titleKey(e.title).includes(key)))))
 		);
-		if (known) link(known);
-		else add({ id: `premium-${slugify(c.rest)}`, kind: 'premium', number: null, date: post.date, title: c.rest, covers: [], art: null });
+		// A numbered premium ("#107") is a real release, so if the title differs from Bandcamp's
+		// ("The Planet of the Apes Trilogy" vs "…: The Caesar Trilogy"), take the one released days apart.
+		const nearest =
+			!known && /#\d+/.test(post.title)
+				? all
+						.filter((e) => e.kind === 'premium' && !e.links.patreon && dayDiff(e.date, post.date) <= 14)
+						.sort((a, b) => dayDiff(a.date, post.date) - dayDiff(b.date, post.date))[0]
+				: undefined;
+		// A one-shot is about a single film, which then supplies the cover art (see below).
+		const covers = /one-shot/i.test(post.title) ? [{ title: c.rest, film: null }] : [];
+		if (known ?? nearest) link((known ?? nearest)!);
+		else add({ id: `premium-${slugify(c.rest)}`, kind: 'premium', number: null, date: post.date, title: c.rest, covers, art: null });
 		continue;
 	}
 
@@ -750,6 +799,22 @@ if (patreonPosts.length) {
 
 // After Patreon, which adds the newest episodes (on Patreon before the guide or free feed),
 // so those get their links too.
+// Retro episodes go up on Patreon a week or two early as "Film Junk Podcast Episode #1055",
+// then reach the free feed as just "Pleasantville (1998)". Fold the free copy into the numbered one.
+for (const free of all.filter((e) => e.kind === 'regular' && !e.number && e.links.libsyn)) {
+	const key = titleKey(free.title);
+	const numbered = all.find(
+		(e) => e.kind === 'regular' && e.number && !e.links.libsyn && titleKey(e.title) === key && dayDiff(e.date, free.date) <= 21
+	);
+	if (!numbered) continue;
+	numbered.links = { ...free.links, ...numbered.links };
+	numbered.description ||= free.description;
+	numbered.duration ??= free.duration;
+	// The free release is when most people heard it.
+	numbered.date = free.date;
+	all.splice(all.indexOf(free), 1);
+}
+
 keyed = all.map((e) => ({ e, key: titleKey(e.title) }));
 
 // Apple uses the feed's guid, which is the libsyn link we already have.
@@ -920,6 +985,14 @@ for (const e of all) {
 	(yearEnd[year] ??= []).push({ id: e.id, segments: [...new Set(lines.filter((l) => l !== e.title))] });
 }
 
+// Patreon-only premiums have no Bandcamp cover; use the poster of the film they cover.
+for (const e of all)
+	if (e.kind === 'premium' && !e.art) {
+		const slug = e.covers?.find((c) => c.film)?.film;
+		const poster = slug ? films.get(slug)?.poster : null;
+		if (poster) e.art = `https://image.tmdb.org/t/p/w500${poster}`;
+	}
+
 // ---------------------------------------------------------------- gumroad packs
 
 // Each pack's cover shows the posters of the biggest (most-rated on TMDB) films reviewed in it.
@@ -933,12 +1006,17 @@ const packs: Pack[] = products
 			range ? e.kind === 'regular' && !!e.number && e.number >= +range[1] && e.number <= +range[2] : e.pack === 'bonus'
 		);
 		const slugs = new Set(inPack.flatMap((e) => (e.reviews ?? []).map((r) => r.film)));
+		const label = p.name.match(/\((\d{4})\)/)?.[1] ?? (/space junk/i.test(p.name) ? 'Space Junk' : 'Bonus shows');
+		// That year's releases first (and the tail of the year before), so retro reviews like
+		// The Shawshank Redemption don't end up on the 2021 cover.
+		const year = /^\d{4}$/.test(label) ? +label : null;
+		const current = (f: WorkingFilm) => year !== null && f.year !== null && f.year >= year - 1 && f.year <= year;
 		const reviewed = [...slugs]
 			.map((slug) => (slug ? films.get(slug) : undefined))
 			.filter((f): f is WorkingFilm & { poster: string } => !!f?.poster)
-			.sort((a, b) => (b.votes ?? 0) - (a.votes ?? 0));
+			.sort((a, b) => Number(current(b)) - Number(current(a)) || (b.votes ?? 0) - (a.votes ?? 0));
 		return {
-			label: p.name.match(/\((\d{4})\)/)?.[1] ?? (/space junk/i.test(p.name) ? 'Space Junk' : 'Bonus shows'),
+			label,
 			name: p.name.replace(/^Film Junk Podcast:\s*/, ''),
 			url: p.url,
 			price: p.price,

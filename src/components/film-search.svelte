@@ -1,18 +1,19 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
+	import type { SearchRow as Row } from '../lib/types';
 
-	type Row = [slug: string, title: string, year: number, reviews: number, mentions: number];
-
-	// compact: the header search, with results in a dropdown. Otherwise results render inline.
+	// compact: the header search. A button that opens a centred dialog (also on "/" and ⌘K / Ctrl+K).
+	// Otherwise the search renders inline, as on the Films page.
 	let { compact = false, limit = 8, id = 'film-search' }: { compact?: boolean; limit?: number; id?: string } = $props();
 
 	let query = $state('');
-	let open = $state(false);
+	let active = $state(0);
 	let index = $state<Row[] | null>(null);
 	let keys: string[] = [];
 	let loading: Promise<void> | null = null;
-	let root: HTMLElement;
-	let input: HTMLInputElement;
+	let input = $state<HTMLInputElement>();
+	let dialog = $state<HTMLDialogElement>();
+	let isMac = $state(true);
 
 	const normalize = (s: string) =>
 		s
@@ -34,22 +35,35 @@
 		return loading;
 	}
 
+	function open() {
+		load();
+		dialog?.showModal();
+		input?.select();
+	}
+
+	function close() {
+		dialog?.close();
+	}
+
 	onMount(() => {
+		isMac = /mac|iphone|ipad/i.test(navigator.platform || navigator.userAgent);
 		if (!compact) {
 			const q = new URLSearchParams(location.search).get('q');
 			if (q) {
 				query = q;
-				open = true;
 				load();
 			}
 			return;
 		}
-		// "/" jumps to the header search from anywhere, like most search-first sites.
+		// "/" or ⌘K / Ctrl+K opens the search from anywhere, like most search-first sites.
 		const onKey = (event: KeyboardEvent) => {
+			const shortcut = (event.key === 'k' || event.key === 'K') && (event.metaKey || event.ctrlKey);
 			const target = event.target as HTMLElement;
-			if (event.key !== '/' || target.closest('input, textarea, select, [contenteditable]')) return;
+			const typing = target.closest('input, textarea, select, [contenteditable]');
+			if (!shortcut && (event.key !== '/' || typing)) return;
 			event.preventDefault();
-			input.focus();
+			if (dialog?.open) close();
+			else open();
 		};
 		document.addEventListener('keydown', onKey);
 		return () => document.removeEventListener('keydown', onKey);
@@ -57,7 +71,9 @@
 
 	let results = $derived.by(() => {
 		const q = normalize(query);
-		if (!index || q.length < 2) return [];
+		if (!index) return [];
+		// Before typing, the dialog suggests the most-discussed films (the index is sorted that way).
+		if (q.length < 2) return compact ? index.slice(0, 6) : [];
 		const scored: { row: Row; score: number }[] = [];
 		for (let i = 0; i < index.length; i++) {
 			const k = keys[i];
@@ -72,7 +88,14 @@
 		return scored.sort((a, b) => b.score - a.score).slice(0, limit).map((s) => s.row);
 	});
 
-	let showResults = $derived(open && normalize(query).length >= 2);
+	let typed = $derived(normalize(query).length >= 2);
+	let showResults = $derived(compact || typed);
+
+	// Keep the highlight on the first result whenever the list changes.
+	$effect(() => {
+		results;
+		active = 0;
+	});
 
 	function describe([, , , reviews, mentions]: Row) {
 		const parts = [];
@@ -81,34 +104,32 @@
 		return parts.join(', ');
 	}
 
+	const href = (row: Row) => `/films/${row[0]}/`;
+	const poster = (row: Row) => (row[5] ? `https://image.tmdb.org/t/p/w92/${row[5]}.jpg` : null);
+
 	function submit(event: SubmitEvent) {
 		event.preventDefault();
-		if (results[0]) location.href = `/films/${results[0][0]}/`;
+		const row = results[active];
+		if (row) location.href = href(row);
 	}
 
-	function onFocusOut(event: FocusEvent) {
-		if (compact && !root.contains(event.relatedTarget as Node)) open = false;
-	}
-
-	// Arrow keys move between the input and the result links.
-	function onKeydown(event: KeyboardEvent) {
-		if (event.key === 'Escape') {
-			open = false;
-			input.focus();
-			return;
-		}
+	// Arrow keys move the highlight while focus stays in the input.
+	function onInputKeydown(event: KeyboardEvent) {
 		if (event.key !== 'ArrowDown' && event.key !== 'ArrowUp') return;
-		const links = [...root.querySelectorAll<HTMLAnchorElement>('.results a')];
-		if (!links.length) return;
+		if (!results.length) return;
 		event.preventDefault();
-		const at = links.indexOf(document.activeElement as HTMLAnchorElement);
-		const next = event.key === 'ArrowDown' ? at + 1 : at - 1;
-		if (next < 0) input.focus();
-		else links[Math.min(next, links.length - 1)].focus();
+		const step = event.key === 'ArrowDown' ? 1 : -1;
+		active = (active + step + results.length) % results.length;
+		document.getElementById(`${id}-opt-${active}`)?.scrollIntoView({ block: 'nearest' });
+	}
+
+	// A click on the backdrop (the dialog element itself, outside the panel) closes it.
+	function onDialogClick(event: MouseEvent) {
+		if (event.target === dialog) close();
 	}
 </script>
 
-<div class="search" class:compact bind:this={root} onfocusout={onFocusOut} onkeydown={onKeydown} role="presentation">
+{#snippet searchBox()}
 	<form role="search" onsubmit={submit}>
 		<label for={id} class="visually-hidden">Search films and shows</label>
 		<svg class="icon" viewBox="0 0 24 24" aria-hidden="true"
@@ -129,33 +150,39 @@
 			spellcheck="false"
 			placeholder="Search films and shows"
 			aria-controls={`${id}-results`}
-			aria-expanded={showResults}
+			aria-expanded={showResults && results.length > 0}
+			aria-activedescendant={results.length ? `${id}-opt-${active}` : undefined}
 			bind:value={query}
-			onfocus={() => {
-				open = true;
-				load();
-			}}
-			oninput={() => {
-				open = true;
-				load();
-			}}
+			onfocus={load}
+			oninput={load}
+			onkeydown={onInputKeydown}
 		/>
-		{#if compact}<kbd aria-hidden="true">/</kbd>{/if}
+		{#if compact}<kbd class="esc" aria-hidden="true">esc</kbd>{/if}
 	</form>
+{/snippet}
 
+{#snippet resultList()}
 	{#if showResults}
-		<div class="results" id={`${id}-results`} aria-live="polite">
+		<div class="results" aria-live="polite">
 			{#if !index}
 				<p class="msg">Loading the archive…</p>
-			{:else if results.length === 0}
+			{:else if typed && results.length === 0}
 				<p class="msg">No episode mentions "{query}". Try fewer words, or check the spelling.</p>
 			{:else}
-				<ul>
-					{#each results as row (row[0])}
-						<li>
-							<a href={`/films/${row[0]}/`}>
-								<span class="t">{row[1]}{#if row[2]}{' '}<span class="y">({row[2]})</span>{/if}</span>
-								<span class="d">{describe(row)}</span>
+				{#if !typed}<p class="hint">Most discussed</p>{/if}
+				<ul id={`${id}-results`} role="listbox" aria-label="Films">
+					{#each results as row, i (row[0])}
+						<li id={`${id}-opt-${i}`} role="option" aria-selected={i === active} class:active={i === active}>
+							<a href={href(row)} tabindex="-1" onmouseenter={() => (active = i)}>
+								{#if poster(row)}
+									<img src={poster(row)} alt="" width="92" height="138" loading="lazy" />
+								{:else}
+									<span class="noposter" aria-hidden="true">{row[1].slice(0, 1)}</span>
+								{/if}
+								<span class="text">
+									<span class="t">{row[1]}{#if row[2]}{' '}<span class="y">({row[2]})</span>{/if}</span>
+									<span class="d">{describe(row)}</span>
+								</span>
 							</a>
 						</li>
 					{/each}
@@ -163,20 +190,44 @@
 			{/if}
 		</div>
 	{/if}
-</div>
+{/snippet}
+
+{#if compact}
+	<button type="button" class="trigger" onclick={open} onmouseenter={load} aria-haspopup="dialog">
+		<svg class="icon" viewBox="0 0 24 24" aria-hidden="true"
+			><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2.5" /><path
+				d="m15.5 15.5 5 5"
+				stroke="currentColor"
+				stroke-width="2.5"
+				stroke-linecap="round"
+			/></svg
+		>
+		<span>Search films and shows</span>
+		<kbd aria-hidden="true">{isMac ? '⌘' : 'Ctrl'} K</kbd>
+	</button>
+
+	<dialog bind:this={dialog} class="palette" aria-label="Search films and shows" onclick={onDialogClick}>
+		<div class="panel">
+			{@render searchBox()}
+			{@render resultList()}
+			<p class="keys" aria-hidden="true"><kbd>↑</kbd><kbd>↓</kbd> to move <kbd>↵</kbd> to open <kbd>esc</kbd> to close</p>
+		</div>
+	</dialog>
+{:else}
+	<div class="search inline">
+		{@render searchBox()}
+		{@render resultList()}
+	</div>
+{/if}
 
 <style>
-	.search {
-		position: relative;
-	}
-
 	form {
 		position: relative;
 	}
 
 	.icon {
 		position: absolute;
-		left: 0.8rem;
+		left: 0.9rem;
 		top: 50%;
 		width: 1.1rem;
 		height: 1.1rem;
@@ -189,18 +240,11 @@
 		width: 100%;
 		font: inherit;
 		font-size: var(--step-1);
-		padding: 0.7rem 0.9rem 0.7rem 2.5rem;
+		padding: 0.75rem 3.5rem 0.75rem 2.6rem;
 		border: 2px solid var(--line);
 		border-radius: 0.5rem;
 		background: var(--surface);
 		color: var(--ink);
-	}
-
-	.compact input {
-		font-size: var(--step-0);
-		padding: 0.5rem 2.25rem 0.5rem 2.4rem;
-		border-width: 1px;
-		border-radius: 999px;
 	}
 
 	input:focus-visible {
@@ -208,11 +252,12 @@
 		border-color: var(--accent);
 	}
 
+	/* Hide the browser's own clear button; esc clears and closes. */
+	input::-webkit-search-cancel-button {
+		display: none;
+	}
+
 	kbd {
-		position: absolute;
-		right: 0.7rem;
-		top: 50%;
-		transform: translateY(-50%);
 		font: inherit;
 		font-size: 0.75rem;
 		line-height: 1;
@@ -220,29 +265,147 @@
 		border: 1px solid var(--line);
 		border-radius: 0.25rem;
 		color: var(--muted);
+	}
+
+	.esc {
+		position: absolute;
+		right: 0.8rem;
+		top: 50%;
+		transform: translateY(-50%);
 		pointer-events: none;
 	}
 
-	input:focus ~ kbd {
-		display: none;
-	}
+	/* ---------- header trigger: looks like a search box */
 
-	.results {
-		margin-top: 0.75rem;
-	}
-
-	.compact .results {
-		position: absolute;
-		z-index: 10;
-		top: calc(100% + 0.4rem);
-		left: 0;
-		width: max(100%, min(30rem, calc(100vw - 2rem)));
-		margin: 0;
-		background: var(--surface);
+	.trigger {
+		position: relative;
+		display: flex;
+		align-items: center;
+		width: 100%;
+		font: inherit;
+		text-align: left;
+		padding: 0.5rem 0.6rem 0.5rem 2.5rem;
 		border: 1px solid var(--line);
-		border-radius: 0.6rem;
-		box-shadow: 0 12px 32px color-mix(in srgb, var(--ink) 18%, transparent);
+		border-radius: 999px;
+		background: var(--surface);
+		color: var(--muted);
+		cursor: pointer;
+	}
+
+	.trigger .icon {
+		left: 0.8rem;
+	}
+
+	.trigger span {
+		flex: 1;
 		overflow: hidden;
+		white-space: nowrap;
+		text-overflow: ellipsis;
+	}
+
+	.trigger:hover {
+		border-color: var(--muted);
+	}
+
+	/* ---------- dialog */
+
+	.palette {
+		width: min(38rem, calc(100vw - 2rem));
+		max-height: min(36rem, calc(100dvh - 4rem));
+		margin: 12vh auto auto;
+		padding: 0;
+		border: 1px solid var(--line);
+		border-radius: 0.8rem;
+		background: var(--surface);
+		color: var(--ink);
+		box-shadow: 0 24px 64px rgb(0 0 0 / 0.45);
+		overflow: hidden;
+	}
+
+	.palette[open] {
+		display: flex;
+		animation: pop 0.14s ease-out;
+	}
+
+	.palette::backdrop {
+		background: rgb(8 6 20 / 0.55);
+		backdrop-filter: blur(6px);
+	}
+
+	@keyframes pop {
+		from {
+			opacity: 0;
+			transform: translateY(-6px) scale(0.98);
+		}
+	}
+
+	@media (prefers-reduced-motion: reduce) {
+		.palette[open] {
+			animation: none;
+		}
+	}
+
+	.panel {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		min-height: 0;
+	}
+
+	.palette form {
+		border-bottom: 1px solid var(--line);
+	}
+
+	.palette input {
+		border: 0;
+		border-radius: 0;
+		background: transparent;
+		padding-block: 1rem;
+	}
+
+	.palette .results {
+		overflow-y: auto;
+		padding: 0.4rem;
+	}
+
+	.hint {
+		margin: 0.4rem 0.6rem 0.2rem;
+		font-size: var(--step--1);
+		font-weight: 600;
+		color: var(--muted);
+	}
+
+	.keys {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		gap: 0.3rem;
+		margin: 0;
+		padding: 0.55rem 0.9rem;
+		border-top: 1px solid var(--line);
+		font-size: 0.75rem;
+		color: var(--muted);
+	}
+
+	.keys kbd + kbd {
+		margin-left: -0.1rem;
+	}
+
+	/* On phones the dialog sits at the top, so the keyboard doesn't cover it; no shortcut hints. */
+	@media (max-width: 40rem) {
+		.palette {
+			margin-top: 1rem;
+		}
+		.keys,
+		.trigger kbd {
+			display: none;
+		}
+	}
+
+	/* ---------- results */
+
+	.inline .results {
+		margin-top: 0.75rem;
 	}
 
 	.msg {
@@ -255,34 +418,58 @@
 		list-style: none;
 		padding: 0;
 		margin: 0;
+	}
+
+	.inline ul {
 		border: 1px solid var(--line);
 		border-radius: 0.5rem;
 		background: var(--surface);
 		overflow: hidden;
 	}
 
-	.compact ul {
-		border: 0;
-		border-radius: 0;
-	}
-
-	li + li {
+	.inline li + li {
 		border-top: 1px solid var(--line);
 	}
 
 	a {
 		display: flex;
-		flex-wrap: wrap;
-		justify-content: space-between;
-		gap: 0.25rem 1rem;
-		padding: 0.65rem 0.9rem;
+		align-items: center;
+		gap: 0.8rem;
+		padding: 0.45rem 0.6rem;
+		border-radius: 0.45rem;
 		text-decoration: none;
 	}
 
-	a:hover,
-	a:focus-visible {
-		background: color-mix(in srgb, var(--accent) 10%, var(--surface));
-		outline: none;
+	.inline a {
+		border-radius: 0;
+	}
+
+	li.active a {
+		background: color-mix(in srgb, var(--accent) 16%, var(--surface));
+	}
+
+	img,
+	.noposter {
+		flex: none;
+		width: 2.4rem;
+		aspect-ratio: 2 / 3;
+		height: auto;
+		border-radius: 0.25rem;
+		object-fit: cover;
+		background: var(--line);
+	}
+
+	.noposter {
+		display: grid;
+		place-items: center;
+		font-weight: 800;
+		color: var(--muted);
+	}
+
+	.text {
+		display: grid;
+		gap: 0.1rem;
+		min-width: 0;
 	}
 
 	.t {

@@ -177,8 +177,7 @@
 		color: var(--muted);
 	}
 
-	input[type='search'],
-	select {
+	input[type='search'] {
 		font: inherit;
 		padding: 0.5rem 0.6rem;
 		border: 1px solid var(--line);

@@ -6,15 +6,17 @@ import { episodeSchema } from '../../lib/schema';
 import { episodeArt, episodes, episodeHref, episodeLabel, filmBySlug, filmHref, formatDate, formatDuration, hostHref, posterUrl, type Episode } from '../../lib/data';
 
 export function getStaticPaths() {
-	return episodes.map((e, i) => ({
-		params: { id: e.id },
-		props: {
-			episode: e,
-			// episodes is newest-first; find neighbours of the same kind.
-			newer: episodes.slice(0, i).findLast((x) => x.kind === e.kind),
-			older: episodes.slice(i + 1).find((x) => x.kind === e.kind),
-		},
-	}));
+	// Neighbours of the same kind, newest first. Weekly shows go by number, since
+	// they're sometimes released out of order (#1063 came out before #1062).
+	const byNumber = (a: Episode, b: Episode) => (b.number ?? 0) - (a.number ?? 0) || (b.part ?? 0) - (a.part ?? 0);
+	const lists = new Map<string, Episode[]>();
+	for (const e of episodes) lists.set(e.kind, [...(lists.get(e.kind) ?? []), e]);
+	lists.get('regular')?.sort(byNumber);
+	return episodes.map((e) => {
+		const list = lists.get(e.kind)!;
+		const i = list.indexOf(e);
+		return { params: { id: e.id }, props: { episode: e, newer: list[i - 1], older: list[i + 1] } };
+	});
 }
 
 interface Props {

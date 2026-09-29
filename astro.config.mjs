@@ -17,5 +17,5 @@ export default defineConfig({
     // Utility pages that shouldn't show up in search results.
     sitemap({ filter: (page) => !/\/(random|404)\/?$/.test(page) }),
   ],
-  redirects: { '/years': '/episodes/' }
+  redirects: { '/years': '/episodes/', '/premiums': '/commerce/#premiums' }
 });

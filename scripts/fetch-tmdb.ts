@@ -142,7 +142,11 @@ for (const e of episodes)
 	for (const { title, year } of [
 		...(e.watched ?? []),
 		...(e.mentioned ?? []),
-		...(e.covers ?? []).map((c) => ({ title: c.title, year: null })),
+		// Cover titles can carry a year, "American Movie (1999)"; build-data splits it off the same way.
+		...(e.covers ?? []).map((c) => {
+			const m = c.title.match(/^(.*?)\s*\((\d{4})\)$/);
+			return m ? { title: m[1], year: +m[2] } : { title: c.title, year: null };
+		}),
 	]) {
 		if (title.length >= 2) mentions.set(mentionKey(title, year), { title, year });
 	}

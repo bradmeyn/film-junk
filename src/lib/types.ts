@@ -104,5 +104,5 @@ export type Meta = {
 	schedule: ScheduleMonth[];
 };
 
-// Search index row: [slug, title, year, reviews, mentions]
-export type SearchRow = [slug: string, title: string, year: number, reviews: number, mentions: number];
+// Search index row: [slug, title, year, reviews, mentions, poster] (poster: TMDB file id, or '')
+export type SearchRow = [slug: string, title: string, year: number, reviews: number, mentions: number, poster: string];

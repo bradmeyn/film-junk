@@ -65689,5 +65689,116 @@
 		"poster": "/3pyE6ZqDbuJi7zrNzzQzcKTWdmN.jpg",
 		"votes": 3251,
 		"imdb": "tt0073629"
-	}
+	},
+	"m|american movie (1999)|": null,
+	"m|king kong|1933": {
+		"type": "movie",
+		"id": 244,
+		"title": "King Kong",
+		"year": 1933,
+		"poster": "/lHlnxKL5GbgRibyRFI7n1Ey850i.jpg",
+		"votes": 1671,
+		"imdb": "tt0024216"
+	},
+	"m|king kong|1976": {
+		"type": "movie",
+		"id": 10730,
+		"title": "King Kong",
+		"year": 1976,
+		"poster": "/paYKhEwUaxKA05vmOfU7FlleTln.jpg",
+		"votes": 954,
+		"imdb": "tt0074751"
+	},
+	"m|american movie|1999": {
+		"type": "movie",
+		"id": 14242,
+		"title": "American Movie",
+		"year": 1999,
+		"poster": "/y8dJgWr1HeW0RRxwANDWvgIXdsF.jpg",
+		"votes": 291,
+		"imdb": "tt0181288"
+	},
+	"m|godzilla|1954": {
+		"type": "movie",
+		"id": 1678,
+		"title": "Godzilla",
+		"year": 1954,
+		"poster": "/2W0Yw0qrgVMgdsSCZRKtfvaAh0i.jpg",
+		"votes": 1172,
+		"imdb": "tt0047034"
+	},
+	"m|king kong|2005": {
+		"type": "movie",
+		"id": 254,
+		"title": "King Kong",
+		"year": 2005,
+		"poster": "/6a2HY6UmD7XiDD3NokgaBAXEsD2.jpg",
+		"votes": 8749,
+		"imdb": "tt0360717"
+	},
+	"m|godzilla|1998": {
+		"type": "movie",
+		"id": 929,
+		"title": "Godzilla",
+		"year": 1998,
+		"poster": "/xJVl1I95StraYAwaNbBkVoWE2qA.jpg",
+		"votes": 4372,
+		"imdb": "tt0120685"
+	},
+	"m|batman|1966": {
+		"type": "movie",
+		"id": 2661,
+		"title": "Batman",
+		"year": 1966,
+		"poster": "/iBaHizz1sfMs4N03aHsGe7I2G6S.jpg",
+		"votes": 1100,
+		"imdb": "tt0060153"
+	},
+	"m|ocean's 11|1960": null,
+	"m|spiral|": {
+		"type": "movie",
+		"id": 614199,
+		"title": "Spiral",
+		"year": 2019,
+		"poster": "/mkIek8qY0tc8YxSgUs83bkWFihD.jpg",
+		"votes": 174,
+		"imdb": "tt9247314"
+	},
+	"m|godzilla vs. kong|": {
+		"type": "movie",
+		"id": 399566,
+		"title": "Godzilla vs. Kong",
+		"year": 2021,
+		"poster": "/pgqgaUx1cJb5oZQQ5v0tNARCeBp.jpg",
+		"votes": 10840,
+		"imdb": "tt5034838"
+	},
+	"m|the munsters|": {
+		"type": "movie",
+		"id": 804413,
+		"title": "The Munsters",
+		"year": 2022,
+		"poster": "/kJaEVFhDouD72GKANMkYqzQky9n.jpg",
+		"votes": 276,
+		"imdb": "tt14813212"
+	},
+	"m|extraterrestrial visitors|": {
+		"type": "movie",
+		"id": 28445,
+		"title": "Extraterrestrial Visitors",
+		"year": 1983,
+		"poster": "/qxCxjUMv3TvARye7OxLHDcn6t9.jpg",
+		"votes": 42,
+		"imdb": "tt0086026"
+	},
+	"m|tiger king|": {
+		"type": "tv",
+		"id": 100698,
+		"title": "Tiger King",
+		"year": 2020,
+		"poster": "/dXQCEjVth8P8L47XIsoRt0oL8Gw.jpg",
+		"votes": 612,
+		"imdb": "tt11823076"
+	},
+	"m|the twilight zone: the movie|": null
 }

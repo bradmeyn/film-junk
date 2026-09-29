@@ -1,12 +1,14 @@
 import type { APIRoute } from 'astro';
 import { films } from '../lib/data';
 
-// Compact film index for client-side search: [slug, title, year, reviews, mentions].
+// Compact film index for client-side search: [slug, title, year, reviews, mentions, poster].
+// poster is the TMDB file id without "/" and ".jpg" to keep the file small.
 export const GET: APIRoute = () => {
 	const rows = films
 		.map((f) => {
 			const reviews = f.appearances.filter((a) => a.role !== 'watched').length;
-			return [f.slug, f.title, f.year ?? 0, reviews, f.appearances.length - reviews] as const;
+			const poster = f.poster?.replace(/^\//, '').replace(/\.jpg$/, '') ?? '';
+			return [f.slug, f.title, f.year ?? 0, reviews, f.appearances.length - reviews, poster] as const;
 		})
 		.sort((a, b) => b[3] * 3 + b[4] - (a[3] * 3 + a[4]));
 	return new Response(JSON.stringify(rows), { headers: { 'content-type': 'application/json' } });

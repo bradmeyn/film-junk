@@ -17,6 +17,20 @@ const gumroadOnly = l.gumroad && !hasFree;
 
 <div class="links">
 	{
+		l.patreon && (
+			<a class="button patreon" href={l.patreon}>
+				<Icon name="patreon" /> {e.kind === 'patreon' ? 'Listen on Patreon' : 'Patreon'}
+			</a>
+		)
+	}
+	{
+		e.kind === 'premium' && !l.patreon && (
+			<a class="button patreon" href={LINKS.patreon}>
+				<Icon name="patreon" /> Get every premium on Patreon
+			</a>
+		)
+	}
+	{
 		// Without Spotify API keys there's no per-episode link, so free-feed episodes link the show.
 		(hasFree || (paid && l.spotify)) && (
 			<a class="button spotify" href={l.spotify ?? LINKS.spotify}>
@@ -26,26 +40,12 @@ const gumroadOnly = l.gumroad && !hasFree;
 	}
 	{
 		hasFree && (
-			<a class="button" href={l.apple ?? LINKS.apple}>
-				<Icon name="apple" /> Apple Podcasts
-			</a>
-		)
-	}
-	{
-		l.patreon && (
-			<a class="button patreon" href={l.patreon}>
-				<Icon name="patreon" /> {e.kind === 'patreon' ? 'Listen on Patreon' : 'Patreon'}
+			<a class="button" href={l.apple ?? LINKS.apple} aria-label="Apple Podcasts">
+				<Icon name="apple" /> Apple
 			</a>
 		)
 	}
 	{e.kind === 'patreon' && <span class="muted note">For Film Junk patrons.</span>}
-	{
-		e.kind === 'premium' && !l.patreon && (
-			<a class="button patreon" href={LINKS.patreon}>
-				<Icon name="patreon" /> Get every premium on Patreon
-			</a>
-		)
-	}
 	{
 		l.bandcamp && (
 			<a class="button" href={l.bandcamp}>
@@ -68,8 +68,8 @@ const gumroadOnly = l.gumroad && !hasFree;
 				<a class="button spotify" href={LINKS.spotify}>
 					<Icon name="spotify" /> Film Junk on Spotify
 				</a>
-				<a class="button" href={LINKS.apple}>
-					<Icon name="apple" /> Apple Podcasts
+				<a class="button" href={LINKS.apple} aria-label="Apple Podcasts">
+					<Icon name="apple" /> Apple
 				</a>
 			</>
 		)

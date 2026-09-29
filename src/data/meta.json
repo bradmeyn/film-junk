@@ -1,5 +1,5 @@
 {
-	"builtAt": "2026-09-29T02:07:04.433Z",
+	"builtAt": "2026-09-29T02:41:52.058Z",
 	"yearNotes": {
 		"2005": [
 			"Total episodes: 47",
@@ -246,6 +246,10 @@
 				"segments": [
 					"Top 10 Movies of 2006 Revisited"
 				]
+			},
+			{
+				"id": "98",
+				"segments": []
 			}
 		],
 		"2007": [
@@ -452,20 +456,20 @@
 			"episodes": 50,
 			"covers": [
 				{
-					"title": "Ready Player One",
-					"poster": "/pU1ULUq8D3iRxl1fdX2lZIzdHuI.jpg"
-				},
-				{
-					"title": "Donnie Darko",
-					"poster": "/j2AtZFsflxiluaNtajMTI0Avm8C.jpg"
-				},
-				{
 					"title": "Deadpool & Wolverine",
 					"poster": "/8cdWjvZQUExUUTzyp4t6EDMubfO.jpg"
 				},
 				{
 					"title": "Dune: Part Two",
 					"poster": "/6izwz7rsy95ARzTR3poZ8H6c5pp.jpg"
+				},
+				{
+					"title": "The Substance",
+					"poster": "/lqoMzCcZYEFK729d6qzt349fB4o.jpg"
+				},
+				{
+					"title": "Poor Things",
+					"poster": "/kCGlIMHnOm8JPXq3rXM6c5wMxcT.jpg"
 				}
 			]
 		},
@@ -536,10 +540,6 @@
 			"episodes": 49,
 			"covers": [
 				{
-					"title": "The Shawshank Redemption",
-					"poster": "/9cqNxx0GxF0bflZmeSMuL5tnGzr.jpg"
-				},
-				{
 					"title": "Spider-Man: No Way Home",
 					"poster": "/1g0dhYtq4irTY1GPXvft6k4YLjm.jpg"
 				},
@@ -550,6 +550,10 @@
 				{
 					"title": "Dune",
 					"poster": "/v1tRXZ4JtD2Iv6fjkPvT4GiwslV.jpg"
+				},
+				{
+					"title": "Black Widow",
+					"poster": "/qAZ0pzat24kLdO3o8ejmbLxyOac.jpg"
 				}
 			]
 		},

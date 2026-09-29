@@ -31,8 +31,9 @@ const shareImage = image ?? DEFAULT_IMAGE;
 const jsonLd = schema && JSON.stringify(schema).replace(/</g, '\\u003c');
 const nav = [
 	['/episodes/', 'Episodes'],
+	['/films/top-rated/', 'Top rated'],
 	['/junkies/', 'Junkies'],
-	['/premiums/', 'Premiums'],
+	['/commerce/', 'Commerce'],
 	['/links/', 'Links'],
 ];
 // Year pages live under Episodes.
@@ -91,9 +92,9 @@ const current = (href: string) => path.startsWith(href) || (href === '/episodes/
 				}
 			</nav>
 			<div class="header-links">
+				<a class="pill patreon" href={LINKS.patreon} aria-label="Patreon" title="Patreon"><Icon name="patreon" /><span>Patreon</span></a>
 				<a class="pill" href={LINKS.spotify} aria-label="Spotify" title="Spotify"><Icon name="spotify" /><span>Spotify</span></a>
 				<a class="pill" href={LINKS.apple} aria-label="Apple Podcasts" title="Apple Podcasts"><Icon name="apple" /><span>Apple</span></a>
-				<a class="pill patreon" href={LINKS.patreon} aria-label="Patreon" title="Patreon"><Icon name="patreon" /><span>Patreon</span></a>
 			</div>
 		</header>
 
@@ -113,9 +114,9 @@ const current = (href: string) => path.startsWith(href) || (href === '/episodes/
 					<p class="footer-links">
 						<a href={LINKS.patreon}>Patreon</a>
 						<a href={LINKS.spotify}>Spotify</a>
+						<a href={LINKS.apple}>Apple Podcasts</a>
 						<a href={LINKS.bandcamp}>Premiums on Bandcamp</a>
 						<a href={LINKS.gumroad}>Archives on Gumroad</a>
-						<a href={LINKS.apple}>Apple Podcasts</a>
 						<a href={LINKS.rss}>RSS</a>
 					</p>
 				</div>
@@ -166,12 +167,13 @@ const current = (href: string) => path.startsWith(href) || (href === '/episodes/
 
 	nav {
 		display: flex;
-		gap: 1.25rem;
+		flex-wrap: wrap;
+		gap: 0.25rem 1rem;
 		font-weight: 600;
 	}
 
 	.header-search {
-		flex: 1 1 16rem;
+		flex: 1 1 14rem;
 		max-width: 26rem;
 	}
 
@@ -185,7 +187,7 @@ const current = (href: string) => path.startsWith(href) || (href === '/episodes/
 	}
 
 	/* Narrow: brand and listen buttons, then search, then nav. */
-	@media (max-width: 52rem) {
+	@media (max-width: 70rem) {
 		.site-header {
 			padding-block: 1rem 0.5rem;
 		}
@@ -200,6 +202,31 @@ const current = (href: string) => path.startsWith(href) || (href === '/episodes/
 		.site-header nav {
 			order: 4;
 			margin-left: 0;
+		}
+	}
+
+	/* Phones: keep the brand and listen icons on one row, and the nav on one scrollable row. */
+	@media (max-width: 30rem) {
+		.site-header {
+			column-gap: 0.75rem;
+		}
+		.brand {
+			font-size: var(--step-1);
+		}
+		.brand img {
+			width: 32px;
+			height: 32px;
+		}
+		.site-header nav {
+			flex-wrap: nowrap;
+			gap: 0.75rem;
+			font-size: 0.875rem;
+			overflow-x: auto;
+			scrollbar-width: none;
+			max-width: 100%;
+		}
+		nav a {
+			white-space: nowrap;
 		}
 	}
 
