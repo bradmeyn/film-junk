@@ -55,7 +55,8 @@ await save('libsyn.xml', 'https://filmjunk.libsyn.com/rss', { force: true });
 await save('feedburner.xml', 'https://feeds.feedburner.com/filmjunk', { force: true });
 // Apple only returns episodes still in the feed (up to 200).
 await save('apple.json', 'https://itunes.apple.com/lookup?id=74257105&entity=podcastEpisode&limit=200', { force: true });
-await fetchSpotify();
+// Spotify links are a nice-to-have: if it fails, keep the last fetched data rather than stopping the refresh.
+await fetchSpotify().catch((err: unknown) => console.warn(`spotify: failed, keeping previous data (${err instanceof Error ? err.message : err})`));
 await fetchPatreonFeed();
 await save('gumroad.html', 'https://filmjunk.gumroad.com/', { force: true });
 await fetchGumroadProducts();
@@ -151,7 +152,9 @@ async function fetchPatreonFeed() {
 
 // Needs a free Spotify developer app: set SPOTIFY_CLIENT_ID and SPOTIFY_CLIENT_SECRET (e.g. in .env).
 async function fetchSpotify() {
-	const { SPOTIFY_CLIENT_ID: id, SPOTIFY_CLIENT_SECRET: secret } = process.env;
+	// Trimmed: a pasted secret often carries a trailing newline or space.
+	const id = process.env.SPOTIFY_CLIENT_ID?.trim();
+	const secret = process.env.SPOTIFY_CLIENT_SECRET?.trim();
 	if (!id || !secret) {
 		console.log('spotify: skipped (no SPOTIFY_CLIENT_ID / SPOTIFY_CLIENT_SECRET)');
 		return;
@@ -164,7 +167,8 @@ async function fetchSpotify() {
 		},
 		body: 'grant_type=client_credentials',
 	});
-	if (!tokenRes.ok) throw new Error(`spotify token: ${tokenRes.status}`);
+	// Spotify's error body is just a code like {"error":"invalid_client"}, safe to log.
+	if (!tokenRes.ok) throw new Error(`spotify token: ${tokenRes.status} ${await tokenRes.text()}`);
 	const { access_token } = (await tokenRes.json()) as { access_token: string };
 
 	const episodes: { title: string; date: string; url: string }[] = [];

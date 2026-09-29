@@ -31,7 +31,7 @@ const gumroadOnly = l.gumroad && !hasFree;
 		)
 	}
 	{
-		// Without Spotify API keys there's no per-episode link, so free-feed episodes link the show.
+		// Episodes Spotify doesn't list (or before the refresh finds them) link the show instead.
 		(hasFree || (paid && l.spotify)) && (
 			<a class="button spotify" href={l.spotify ?? LINKS.spotify}>
 				<Icon name="spotify" /> Spotify

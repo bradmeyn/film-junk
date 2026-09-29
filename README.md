@@ -46,7 +46,7 @@ fits the date best, or get their own page when the year says it's a different fi
 ```sh
 npm install
 npm run dev
-npm run build       # ~8k static pages into dist/
+npm run build       # ~9k static pages into dist/
 ```
 
 ## Deploy
