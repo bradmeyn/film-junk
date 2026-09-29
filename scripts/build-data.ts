@@ -421,10 +421,10 @@ for (const w of wikiEpisodes.values()) {
 
 const latestGuideDate = guideEpisodes.reduce((max, e) => (e.date && e.date > max ? e.date : max), '');
 const maxGuideNumber = Math.max(...byNumber.keys());
+// Spin-off shows that occasionally go out on the main feed; kept as bonus episodes.
 const SPIN_OFF = /^(game junk|ball junk|tv junk|treknobabble)/i;
 
 for (const item of parseFeed(read('feedburner.xml'))) {
-	if (SPIN_OFF.test(item.title)) continue;
 	const known = item.number && byNumber.get(item.number);
 	if (known) {
 		known.description ??= item.description;
@@ -435,7 +435,7 @@ for (const item of parseFeed(read('feedburner.xml'))) {
 	if (item.date <= latestGuideDate && !(item.number && item.number > maxGuideNumber)) continue;
 	const numbered = item.title.match(/^Episode (\d+):\s*(.*)$/);
 	const title = numbered ? numbered[2] : item.title;
-	const isBonus = /calendar reveal|preview|what we watched|livestream/i.test(title);
+	const isBonus = SPIN_OFF.test(title) || /calendar reveal|preview|what we watched|livestream/i.test(title);
 	const e: Draft = {
 		number: isBonus ? null : item.number ?? (numbered ? +numbered[1] : null),
 		date: item.date,
@@ -489,6 +489,7 @@ const episodes = guideEpisodes.map((e): Episode => {
 		id,
 		kind: e.kind,
 		show: spaceJunk(e) ? 'Space Junk' : 'Film Junk',
+		...(e.bonusTitle && SPIN_OFF.test(e.bonusTitle) ? { series: e.bonusTitle.match(SPIN_OFF)![0] } : {}),
 		number: e.number,
 		part: e.part ?? null,
 		date,
@@ -538,10 +539,14 @@ const titleKey = (s: string) =>
 			.replace(/^(film junk (podcast )?)?(episode|ep\.?)\s*#?\d+\s*[:\-–]?\s*/i, '')
 			.replace(/^(film junk )?premium( podcast)?\s*(#\d+)?\s*[:\-–]?\s*/i, '')
 			.replace(/\(\d{4}\)/g, '')
+			// Spotify's copies of Patreon posts: "Junk Mail Bonus Episode: June 2024 Edition (Patreon Exclusive …)".
+			.replace(/\((patreon exclusive|audio)[^)]*\)/gi, '')
+			.replace(/\s+bonus episode\b|\s+edition\b/gi, '')
 	);
 
 const regularByNumber = new Map(all.filter((e) => e.kind === 'regular' && e.number && !e.part).map((e) => [e.number!, e]));
-const keyed = all.map((e) => ({ e, key: titleKey(e.title) }));
+const premiumByNumber = new Map(all.filter((e) => e.kind === 'premium' && e.number).map((e) => [e.number!, e]));
+let keyed = all.map((e) => ({ e, key: titleKey(e.title) }));
 
 // Finds the episode a platform item (Spotify episode, Patreon post) refers to.
 type PlatformItem = { title: string; date: string; url: string };
@@ -549,6 +554,9 @@ type PlatformItem = { title: string; date: string; url: string };
 function matchEpisode({ title, date }: { title: string; date: string }): Episode | null {
 	const number = title.match(/(?:episode|ep\.?)\s*#?(\d{2,4})\b/i)?.[1];
 	if (number && regularByNumber.has(+number)) return regularByNumber.get(+number)!;
+	// Re-released premiums keep their number: "Film Junk Premium Podcast #18: …".
+	const premium = title.match(/premium(?: podcast)?\s*#(\d{1,3})\b/i)?.[1];
+	if (premium && premiumByNumber.has(+premium)) return premiumByNumber.get(+premium)!;
 	const key = titleKey(title);
 	if (key.length < 3) return null;
 	const near = (max: number) => keyed.filter(({ e }) => dayDiff(e.date, date) <= max);
@@ -572,20 +580,6 @@ function attach(items: PlatformItem[] | null, platform: 'spotify' | 'patreon') {
 	if (items) console.log(`${platform}: matched ${matched} of ${items.length}`);
 }
 
-// Apple uses the feed's guid, which is the libsyn link we already have.
-type AppleEpisode = { kind: string; trackName: string; trackId: number; trackViewUrl: string; releaseDate: string; episodeGuid: string };
-const apple =
-	readJson<{ results: AppleEpisode[] }>(`${RAW}/apple.json`)?.results.filter((r) => r.kind === 'podcast-episode') ?? [];
-const byLibsyn = new Map(all.filter((e) => e.links.libsyn).map((e) => [e.links.libsyn!, e]));
-for (const a of apple) {
-	const numbered = /(?:episode|ep\.?)\s*#?\d{2,4}/i.test(a.trackName);
-	const byTitle = () => matchEpisode({ title: a.trackName, date: a.releaseDate.slice(0, 10) });
-	const e = (numbered && byTitle()) || byLibsyn.get(a.episodeGuid) || byTitle();
-	if (e) e.links.apple = a.trackViewUrl.split('?')[0] + `?i=${a.trackId}`;
-}
-console.log(`apple: matched ${all.filter((e) => e.links.apple).length} of ${apple.length}`);
-
-attach(readJson<PlatformItem[]>(`${RAW}/spotify.json`), 'spotify');
 // ---------------------------------------------------------------- patreon
 
 // From a patron's private feed (sanitised by fetch-sources) or, failing that, the manual export.
@@ -598,21 +592,20 @@ const FILM_SERIES = /^(retro review|criterionitis|bonus podcast|re-pre)$/i;
 const NOT_A_FILM = /q&a|junkies|livestream|pre-show|discussion|edition|mail|reveal|top 100|celebration|event/i;
 
 type PatreonKind =
-	| { type: 'skip' }
 	| { type: 'calendar' }
 	| { type: 'regular'; number: number; rest: string }
 	| { type: 'premium'; rest: string }
 	| { type: 'patreon'; series: string; rest: string };
 
 function classifyPatreon(title: string): PatreonKind {
-	if (/^(treknobabble|game junk)/i.test(title)) return { type: 'skip' };
 	let m;
 	if ((m = title.match(/^Film Junk Podcast Episode #(\d+):\s*(.*)$/i))) return { type: 'regular', number: +m[1], rest: m[2] };
 	if ((m = title.match(/^Film Junk Premium (?:Podcast|One-Shot)\s*#?\s*\d*\s*:\s*(.*)$/i))) return { type: 'premium', rest: m[1] };
 	if (/calendar reveal/i.test(title)) return { type: 'calendar' };
 	const clean = title.replace(/\s*\((patreon exclusive[^)]*|audio)\)/gi, '').replace(/^Film Junk\s+/i, '');
 	m = clean.match(/^(.*?)\s*(?::|\s-\s)\s*(.*)$/);
-	const series = (m ? m[1].trim() : clean).replace(/\s+(bonus episode|livestream)$/i, '');
+	// "Treknobabble Episode #5" and "Game Junk 168" are the series, not the episode.
+	const series = (m ? m[1].trim() : clean).replace(/\s+(bonus episode|livestream)$/i, '').replace(/\s+(episode\s*)?#?\d+$/i, '');
 	return { type: 'patreon', series: SERIES_ALIASES[series] ?? series, rest: m ? m[2].trim().replace(/\s+edition$/i, '') : '' };
 }
 
@@ -655,7 +648,6 @@ let patreonAdded = 0;
 const patreonKey = (s: string) => titleKey(s.replace(/\s*\((patreon exclusive[^)]*|audio)\)/gi, ''));
 for (const post of patreonPosts) {
 	const c = classifyPatreon(post.title);
-	if (c.type === 'skip') continue;
 	const mentioned = filmsInDescription(post.description);
 	const link = (e: Episode) => {
 		e.links.patreon ??= post.url;
@@ -718,8 +710,11 @@ for (const post of patreonPosts) {
 
 	// Free bonus episodes are on Patreon too (e.g. the calendar reveals); link rather than duplicate.
 	const restKey = patreonKey(c.rest || c.series);
+	// "Treknobabble: Cause & Effect" can go free years after it was on Patreon; the series name keeps that match specific.
+	const fullKey = c.rest ? patreonKey(`${c.series}: ${c.rest}`) : null;
 	const known =
 		all.find((e) => e.kind === 'bonus' && patreonKey(e.title) === restKey && dayDiff(e.date, post.date) <= 90) ??
+		(fullKey && SPIN_OFF.test(c.series) ? all.find((e) => e.kind === 'bonus' && patreonKey(e.title) === fullKey) : undefined) ??
 		matchEpisode({ title: c.rest || c.series, date: post.date }) ??
 		matchEpisode({ title: post.title, date: post.date });
 	if (known) {
@@ -750,6 +745,27 @@ if (patreonPosts.length) {
 	all.sort((a, b) => b.date.localeCompare(a.date) || (b.number ?? 0) - (a.number ?? 0));
 	console.log(`patreon: linked ${patreonLinked}, added ${patreonAdded} of ${patreonPosts.length} posts`);
 }
+
+// ---------------------------------------------------------------- apple and spotify links
+
+// After Patreon, which adds the newest episodes (on Patreon before the guide or free feed),
+// so those get their links too.
+keyed = all.map((e) => ({ e, key: titleKey(e.title) }));
+
+// Apple uses the feed's guid, which is the libsyn link we already have.
+type AppleEpisode = { kind: string; trackName: string; trackId: number; trackViewUrl: string; releaseDate: string; episodeGuid: string };
+const apple =
+	readJson<{ results: AppleEpisode[] }>(`${RAW}/apple.json`)?.results.filter((r) => r.kind === 'podcast-episode') ?? [];
+const byLibsyn = new Map(all.filter((e) => e.links.libsyn).map((e) => [e.links.libsyn!, e]));
+for (const a of apple) {
+	const numbered = /(?:episode|ep\.?)\s*#?\d{2,4}/i.test(a.trackName);
+	const byTitle = () => matchEpisode({ title: a.trackName, date: a.releaseDate.slice(0, 10) });
+	const e = (numbered && byTitle()) || byLibsyn.get(a.episodeGuid) || byTitle();
+	if (e) e.links.apple = a.trackViewUrl.split('?')[0] + `?i=${a.trackId}`;
+}
+console.log(`apple: matched ${all.filter((e) => e.links.apple).length} of ${apple.length}`);
+
+attach(readJson<PlatformItem[]>(`${RAW}/spotify.json`), 'spotify');
 
 // ---------------------------------------------------------------- film index
 
@@ -959,7 +975,8 @@ const schedule: ScheduleMonth[] = Object.entries(scheduleData)
 			const review = episode?.reviews?.find((r) => titleKey(r.title) === key);
 			const film = review?.film ? films.get(review.film) : null;
 			const tm = tmdbFor({ title: item.title, year: item.year }, { date: item.date });
-			const free = episode && (episode.links.libsyn || episode.links.apple || episode.links.spotify);
+			// Not Spotify: it also carries patron-only episodes, so a link there doesn't mean it's free.
+			const free = episode && (episode.links.libsyn || episode.links.apple);
 			return {
 				...item,
 				episode: episode?.id ?? null,

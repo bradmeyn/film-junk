@@ -65680,5 +65680,14 @@
 		"votes": 98,
 		"imdb": "tt5728684"
 	},
-	"m|jay's trip to the doctor|": null
+	"m|jay's trip to the doctor|": null,
+	"the rocky horror picture show|1975|": {
+		"type": "movie",
+		"id": 36685,
+		"title": "The Rocky Horror Picture Show",
+		"year": 1975,
+		"poster": "/3pyE6ZqDbuJi7zrNzzQzcKTWdmN.jpg",
+		"votes": 3251,
+		"imdb": "tt0073629"
+	}
 }

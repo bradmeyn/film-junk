@@ -8,7 +8,9 @@ interface Props {
 const { episode: e } = Astro.props;
 const pack = e.pack === 'bonus' ? 'the bonus pack' : `the ${e.pack ?? e.date.slice(0, 4)} pack`;
 const l = e.links;
-const hasFree = l.libsyn || l.spotify || l.apple;
+// Patreon exclusives and premiums can be on Spotify too, but only for patrons, so they don't count as free.
+const paid = e.kind === 'patreon' || e.kind === 'premium';
+const hasFree = !paid && (l.libsyn || l.spotify || l.apple);
 // Older episodes are only sold in yearly packs, so Gumroad is the main way to listen.
 const gumroadOnly = l.gumroad && !hasFree;
 ---
@@ -16,7 +18,7 @@ const gumroadOnly = l.gumroad && !hasFree;
 <div class="links">
 	{
 		// Without Spotify API keys there's no per-episode link, so free-feed episodes link the show.
-		hasFree && (
+		(hasFree || (paid && l.spotify)) && (
 			<a class="button spotify" href={l.spotify ?? LINKS.spotify}>
 				<Icon name="spotify" /> Spotify
 			</a>
