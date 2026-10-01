@@ -1,6 +1,117 @@
 [
 	{
 		"notes": "",
+		"description": "00:00 - Intro\n01:35 - Resident Evil \n37:00 - Primetime\n1:03:55 - Ren Faire, Spermworld, Some Kind of Heaven\n1:11:06 - Death of Cheerleader\n1:14:44 - Everest: The Other Side\n1:16:05 - Rogue Trooper\n1:18:40 - The Weight\n1:26:30 - Of Unknown Origin\n1:29:03 - Life Hack\n1:31:40 - The Python Hunt\n1:42:15 - Teenage Wasteland\n1:46:05 - The Inventor: Out for Blood in Silicon Valley\n1:51:30 - Tony\n1:53:00 - Jackie Brown, Little Nicky\n1:57:47 - Supergirl\n2:00:05 - Executive Decision\n2:02:30 - Back to School, Easy Money",
+		"mentioned": [
+			{
+				"title": "Ren Faire, Spermworld, Some Kind of Heaven",
+				"year": null,
+				"film": "ren-faire-spermworld-some-kind-of-heaven"
+			},
+			{
+				"title": "Death of Cheerleader",
+				"year": null,
+				"film": "death-of-cheerleader"
+			},
+			{
+				"title": "Everest: The Other Side",
+				"year": null,
+				"film": "everest-the-other-side"
+			},
+			{
+				"title": "Rogue Trooper",
+				"year": null,
+				"film": "rogue-trooper"
+			},
+			{
+				"title": "The Weight",
+				"year": null,
+				"film": "the-weight"
+			},
+			{
+				"title": "Of Unknown Origin",
+				"year": null,
+				"film": "of-unknown-origin"
+			},
+			{
+				"title": "Life Hack",
+				"year": null,
+				"film": "life-hack"
+			},
+			{
+				"title": "Teenage Wasteland",
+				"year": null,
+				"film": "teenage-wasteland"
+			},
+			{
+				"title": "The Inventor: Out for Blood in Silicon Valley",
+				"year": null,
+				"film": "the-inventor-out-for-blood-in-silicon-valley"
+			},
+			{
+				"title": "Tony",
+				"year": null,
+				"film": "tony"
+			},
+			{
+				"title": "Jackie Brown, Little Nicky",
+				"year": null,
+				"film": "jackie-brown-little-nicky"
+			},
+			{
+				"title": "Supergirl",
+				"year": null,
+				"film": "supergirl"
+			},
+			{
+				"title": "Executive Decision",
+				"year": null,
+				"film": "executive-decision"
+			},
+			{
+				"title": "Back to School, Easy Money",
+				"year": null,
+				"film": "back-to-school-easy-money"
+			}
+		],
+		"segments": [],
+		"watched": [
+			{
+				"title": "Resident Evil",
+				"year": null,
+				"film": "resident-evil"
+			},
+			{
+				"title": "Primetime",
+				"year": null,
+				"film": "primetime"
+			},
+			{
+				"title": "The Python Hunt",
+				"year": null,
+				"film": "the-python-hunt"
+			}
+		],
+		"reviews": [],
+		"music": {},
+		"show": "Film Junk",
+		"part": null,
+		"dateApprox": false,
+		"pack": null,
+		"id": "2026-10-01-what-we-watched-resident-evil-primetime-the-python-hunt-and-",
+		"kind": "patreon",
+		"number": null,
+		"series": "What We Watched",
+		"date": "2026-10-01",
+		"title": "What We Watched: Resident Evil, Primetime, The Python Hunt, and more!",
+		"duration": 7792,
+		"links": {
+			"patreon": "https://www.patreon.com/filmjunk/posts/what-we-watched-171125405",
+			"spotify": "https://open.spotify.com/episode/3VWwleljBpeT4ILhuYfTDE"
+		}
+	},
+	{
+		"notes": "",
 		"description": "This one was recorded a week ago, so I don't remember anything about it. I imagine we struggled to deliver on questions that required creative answers, but thrived on questions that invited critical analysis of each other's idiosyncrasies. Someone probably asked three questions in a row. Someone probably asked about physical media. Frank probably shit his pants and blamed it on his Diet A&W Root Beer. I guess you'll have to listen to find out. It's the only way to be sure.",
 		"mentioned": [],
 		"segments": [],

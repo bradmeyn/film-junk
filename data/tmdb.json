@@ -65800,5 +65800,90 @@
 		"votes": 612,
 		"imdb": "tt11823076"
 	},
-	"m|the twilight zone: the movie|": null
+	"m|the twilight zone: the movie|": null,
+	"m|the python hunt|": {
+		"type": "movie",
+		"id": 1421979,
+		"title": "The Python Hunt",
+		"year": 2026,
+		"poster": "/vDk4hXklfneXGazpyW1RXTnyG4h.jpg",
+		"votes": 3,
+		"imdb": "tt35514288"
+	},
+	"m|resident evil|": {
+		"type": "movie",
+		"id": 1576,
+		"title": "Resident Evil",
+		"year": 2002,
+		"poster": "/1UKNef590A0ZaMnxsscIcWuK1Em.jpg",
+		"votes": 7205,
+		"imdb": "tt0120804"
+	},
+	"m|primetime|": {
+		"type": "movie",
+		"id": 1375441,
+		"title": "Primetime",
+		"year": 2026,
+		"poster": "/lmrulvLbmaejTix1YaMxo1oGhH1.jpg",
+		"votes": 72,
+		"imdb": "tt34206385"
+	},
+	"m|everest: the other side|": {
+		"type": "movie",
+		"id": 1603262,
+		"title": "Everest: The Other Side",
+		"year": 2026,
+		"poster": "/2m9ts8LfjG8d4xcUtx66aApngJL.jpg",
+		"votes": 0,
+		"imdb": "tt37542585"
+	},
+	"m|rogue trooper|": {
+		"type": "movie",
+		"id": 536097,
+		"title": "Rogue Trooper",
+		"year": 2026,
+		"poster": "/dckqO4JsRUCDEwUU5syW6v67WEc.jpg",
+		"votes": 1,
+		"imdb": "tt8707622"
+	},
+	"m|of unknown origin|": {
+		"type": "movie",
+		"id": 37227,
+		"title": "Of Unknown Origin",
+		"year": 1983,
+		"poster": "/btZt9kQIhYTsgoitcYFUhkEUmMl.jpg",
+		"votes": 116,
+		"imdb": "tt0086036"
+	},
+	"m|life hack|": {
+		"type": "movie",
+		"id": 1285669,
+		"title": "LifeHack",
+		"year": 2026,
+		"poster": "/ab8uFG6L3gKnog7ntrUdgo28hzK.jpg",
+		"votes": 26,
+		"imdb": "tt32135632"
+	},
+	"m|the weight|": {
+		"type": "movie",
+		"id": 1433583,
+		"title": "The Weight",
+		"year": 2026,
+		"poster": "/8i5iZV50CoEtmDCFM7RSxCkpE8h.jpg",
+		"votes": 34,
+		"imdb": "tt10794054"
+	},
+	"m|death of cheerleader|": null,
+	"m|ren faire, spermworld, some kind of heaven|": null,
+	"m|teenage wasteland|": {
+		"type": "movie",
+		"id": 1400383,
+		"title": "Teenage Wasteland",
+		"year": 2025,
+		"poster": "/vRZ9gMr02HJFn3EOKNcXzP2vD54.jpg",
+		"votes": 6,
+		"imdb": "tt34966955"
+	},
+	"m|back to school, easy money|": null,
+	"m|jackie brown, little nicky|": null
 }

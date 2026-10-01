@@ -31039,6 +31039,320 @@
 		]
 	},
 	{
+		"slug": "resident-evil",
+		"title": "Resident Evil",
+		"year": 2002,
+		"poster": "/1UKNef590A0ZaMnxsscIcWuK1Em.jpg",
+		"votes": 7205,
+		"tmdb": {
+			"type": "movie",
+			"id": 1576
+		},
+		"imdb": "tt0120804",
+		"appearances": [
+			{
+				"id": "2026-10-01-what-we-watched-resident-evil-primetime-the-python-hunt-and-",
+				"role": "watched"
+			}
+		]
+	},
+	{
+		"slug": "primetime",
+		"title": "Primetime",
+		"year": 2026,
+		"poster": "/lmrulvLbmaejTix1YaMxo1oGhH1.jpg",
+		"votes": 72,
+		"tmdb": {
+			"type": "movie",
+			"id": 1375441
+		},
+		"imdb": "tt34206385",
+		"appearances": [
+			{
+				"id": "2026-10-01-what-we-watched-resident-evil-primetime-the-python-hunt-and-",
+				"role": "watched"
+			}
+		]
+	},
+	{
+		"slug": "the-python-hunt",
+		"title": "The Python Hunt",
+		"year": 2026,
+		"poster": "/vDk4hXklfneXGazpyW1RXTnyG4h.jpg",
+		"votes": 3,
+		"tmdb": {
+			"type": "movie",
+			"id": 1421979
+		},
+		"imdb": "tt35514288",
+		"appearances": [
+			{
+				"id": "2026-10-01-what-we-watched-resident-evil-primetime-the-python-hunt-and-",
+				"role": "watched"
+			}
+		]
+	},
+	{
+		"slug": "ren-faire-spermworld-some-kind-of-heaven",
+		"title": "Ren Faire, Spermworld, Some Kind of Heaven",
+		"year": null,
+		"poster": null,
+		"votes": 0,
+		"tmdb": null,
+		"imdb": null,
+		"appearances": [
+			{
+				"id": "2026-10-01-what-we-watched-resident-evil-primetime-the-python-hunt-and-",
+				"role": "watched"
+			}
+		]
+	},
+	{
+		"slug": "death-of-cheerleader",
+		"title": "Death of Cheerleader",
+		"year": null,
+		"poster": null,
+		"votes": 0,
+		"tmdb": null,
+		"imdb": null,
+		"appearances": [
+			{
+				"id": "2026-10-01-what-we-watched-resident-evil-primetime-the-python-hunt-and-",
+				"role": "watched"
+			}
+		]
+	},
+	{
+		"slug": "everest-the-other-side",
+		"title": "Everest: The Other Side",
+		"year": 2026,
+		"poster": "/2m9ts8LfjG8d4xcUtx66aApngJL.jpg",
+		"votes": 0,
+		"tmdb": {
+			"type": "movie",
+			"id": 1603262
+		},
+		"imdb": "tt37542585",
+		"appearances": [
+			{
+				"id": "2026-10-01-what-we-watched-resident-evil-primetime-the-python-hunt-and-",
+				"role": "watched"
+			}
+		]
+	},
+	{
+		"slug": "rogue-trooper",
+		"title": "Rogue Trooper",
+		"year": 2026,
+		"poster": "/dckqO4JsRUCDEwUU5syW6v67WEc.jpg",
+		"votes": 1,
+		"tmdb": {
+			"type": "movie",
+			"id": 536097
+		},
+		"imdb": "tt8707622",
+		"appearances": [
+			{
+				"id": "2026-10-01-what-we-watched-resident-evil-primetime-the-python-hunt-and-",
+				"role": "watched"
+			}
+		]
+	},
+	{
+		"slug": "the-weight",
+		"title": "The Weight",
+		"year": 2026,
+		"poster": "/8i5iZV50CoEtmDCFM7RSxCkpE8h.jpg",
+		"votes": 34,
+		"tmdb": {
+			"type": "movie",
+			"id": 1433583
+		},
+		"imdb": "tt10794054",
+		"appearances": [
+			{
+				"id": "2026-10-01-what-we-watched-resident-evil-primetime-the-python-hunt-and-",
+				"role": "watched"
+			}
+		]
+	},
+	{
+		"slug": "of-unknown-origin",
+		"title": "Of Unknown Origin",
+		"year": 1983,
+		"poster": "/btZt9kQIhYTsgoitcYFUhkEUmMl.jpg",
+		"votes": 116,
+		"tmdb": {
+			"type": "movie",
+			"id": 37227
+		},
+		"imdb": "tt0086036",
+		"appearances": [
+			{
+				"id": "2026-10-01-what-we-watched-resident-evil-primetime-the-python-hunt-and-",
+				"role": "watched"
+			}
+		]
+	},
+	{
+		"slug": "life-hack",
+		"title": "Life Hack",
+		"year": 2026,
+		"poster": "/ab8uFG6L3gKnog7ntrUdgo28hzK.jpg",
+		"votes": 26,
+		"tmdb": {
+			"type": "movie",
+			"id": 1285669
+		},
+		"imdb": "tt32135632",
+		"appearances": [
+			{
+				"id": "2026-10-01-what-we-watched-resident-evil-primetime-the-python-hunt-and-",
+				"role": "watched"
+			}
+		]
+	},
+	{
+		"slug": "teenage-wasteland",
+		"title": "Teenage Wasteland",
+		"year": 2025,
+		"poster": "/vRZ9gMr02HJFn3EOKNcXzP2vD54.jpg",
+		"votes": 6,
+		"tmdb": {
+			"type": "movie",
+			"id": 1400383
+		},
+		"imdb": "tt34966955",
+		"appearances": [
+			{
+				"id": "2026-10-01-what-we-watched-resident-evil-primetime-the-python-hunt-and-",
+				"role": "watched"
+			}
+		]
+	},
+	{
+		"slug": "the-inventor-out-for-blood-in-silicon-valley",
+		"title": "The Inventor: Out for Blood in Silicon Valley",
+		"year": 2019,
+		"poster": "/u21ImPnHHX2SFgkdHIjwlpEwRux.jpg",
+		"votes": 315,
+		"tmdb": {
+			"type": "movie",
+			"id": 566228
+		},
+		"imdb": "tt8488126",
+		"appearances": [
+			{
+				"id": "2026-10-01-what-we-watched-resident-evil-primetime-the-python-hunt-and-",
+				"role": "watched"
+			},
+			{
+				"id": "702",
+				"role": "watched"
+			}
+		]
+	},
+	{
+		"slug": "tony",
+		"title": "Tony",
+		"year": 2026,
+		"poster": "/uwZF5guNR5EnXkjIVTk4UPTVGiS.jpg",
+		"votes": 107,
+		"tmdb": {
+			"type": "movie",
+			"id": 1329016
+		},
+		"imdb": "tt33095251",
+		"appearances": [
+			{
+				"id": "2026-10-01-what-we-watched-resident-evil-primetime-the-python-hunt-and-",
+				"role": "watched"
+			},
+			{
+				"id": "2026-09-05-what-we-watched-bebes-kids-teenage-sex-and-death-at-camp-mia",
+				"role": "watched"
+			}
+		]
+	},
+	{
+		"slug": "jackie-brown-little-nicky",
+		"title": "Jackie Brown, Little Nicky",
+		"year": null,
+		"poster": null,
+		"votes": 0,
+		"tmdb": null,
+		"imdb": null,
+		"appearances": [
+			{
+				"id": "2026-10-01-what-we-watched-resident-evil-primetime-the-python-hunt-and-",
+				"role": "watched"
+			}
+		]
+	},
+	{
+		"slug": "supergirl",
+		"title": "Supergirl",
+		"year": 2026,
+		"poster": "/uhzRnTW4DM13UQBvZP3eVNzQTuz.jpg",
+		"votes": 2444,
+		"tmdb": {
+			"type": "movie",
+			"id": 1081003
+		},
+		"imdb": "tt8814476",
+		"appearances": [
+			{
+				"id": "2026-10-01-what-we-watched-resident-evil-primetime-the-python-hunt-and-",
+				"role": "watched"
+			},
+			{
+				"id": "2026-07-11-what-we-watched-obsession-the-drama-toy-story-5-and-more",
+				"role": "watched"
+			},
+			{
+				"id": "premium-the-superman-franchise",
+				"role": "premium"
+			}
+		]
+	},
+	{
+		"slug": "executive-decision",
+		"title": "Executive Decision",
+		"year": 1996,
+		"poster": "/hLjXkFr9fHlWzRVwu1T31QSVHRq.jpg",
+		"votes": 1072,
+		"tmdb": {
+			"type": "movie",
+			"id": 2320
+		},
+		"imdb": "tt0116253",
+		"appearances": [
+			{
+				"id": "2026-10-01-what-we-watched-resident-evil-primetime-the-python-hunt-and-",
+				"role": "watched"
+			},
+			{
+				"id": "406",
+				"role": "watched"
+			}
+		]
+	},
+	{
+		"slug": "back-to-school-easy-money",
+		"title": "Back to School, Easy Money",
+		"year": null,
+		"poster": null,
+		"votes": 0,
+		"tmdb": null,
+		"imdb": null,
+		"appearances": [
+			{
+				"id": "2026-10-01-what-we-watched-resident-evil-primetime-the-python-hunt-and-",
+				"role": "watched"
+			}
+		]
+	},
+	{
 		"slug": "bebes-kids",
 		"title": "Bebe's Kids",
 		"year": 1992,
@@ -31085,24 +31399,6 @@
 			"id": 1076
 		},
 		"imdb": "tt0115376",
-		"appearances": [
-			{
-				"id": "2026-09-05-what-we-watched-bebes-kids-teenage-sex-and-death-at-camp-mia",
-				"role": "watched"
-			}
-		]
-	},
-	{
-		"slug": "tony",
-		"title": "Tony",
-		"year": 2026,
-		"poster": "/uwZF5guNR5EnXkjIVTk4UPTVGiS.jpg",
-		"votes": 107,
-		"tmdb": {
-			"type": "movie",
-			"id": 1329016
-		},
-		"imdb": "tt33095251",
 		"appearances": [
 			{
 				"id": "2026-09-05-what-we-watched-bebes-kids-teenage-sex-and-death-at-camp-mia",
@@ -31844,28 +32140,6 @@
 			{
 				"id": "2026-03-30-what-we-watched-louis-theroux-inside-the-manosphere-hoppers-",
 				"role": "watched"
-			}
-		]
-	},
-	{
-		"slug": "supergirl",
-		"title": "Supergirl",
-		"year": 2026,
-		"poster": "/uhzRnTW4DM13UQBvZP3eVNzQTuz.jpg",
-		"votes": 2444,
-		"tmdb": {
-			"type": "movie",
-			"id": 1081003
-		},
-		"imdb": "tt8814476",
-		"appearances": [
-			{
-				"id": "2026-07-11-what-we-watched-obsession-the-drama-toy-story-5-and-more",
-				"role": "watched"
-			},
-			{
-				"id": "premium-the-superman-franchise",
-				"role": "premium"
 			}
 		]
 	},
@@ -74599,24 +74873,6 @@
 		]
 	},
 	{
-		"slug": "the-inventor-out-for-blood-in-silicon-valley",
-		"title": "The Inventor: Out for Blood in Silicon Valley",
-		"year": 2019,
-		"poster": "/u21ImPnHHX2SFgkdHIjwlpEwRux.jpg",
-		"votes": 315,
-		"tmdb": {
-			"type": "movie",
-			"id": 566228
-		},
-		"imdb": "tt8488126",
-		"appearances": [
-			{
-				"id": "702",
-				"role": "watched"
-			}
-		]
-	},
-	{
 		"slug": "mediterranean-holiday",
 		"title": "Mediterranean Holiday",
 		"year": 1962,
@@ -108578,24 +108834,6 @@
 			"id": 770
 		},
 		"imdb": "tt0031381",
-		"appearances": [
-			{
-				"id": "406",
-				"role": "watched"
-			}
-		]
-	},
-	{
-		"slug": "executive-decision",
-		"title": "Executive Decision",
-		"year": 1996,
-		"poster": "/hLjXkFr9fHlWzRVwu1T31QSVHRq.jpg",
-		"votes": 1072,
-		"tmdb": {
-			"type": "movie",
-			"id": 2320
-		},
-		"imdb": "tt0116253",
 		"appearances": [
 			{
 				"id": "406",
