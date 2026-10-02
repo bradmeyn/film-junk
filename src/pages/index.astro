@@ -31,7 +31,6 @@ const history = Object.entries(
 	)
 ).sort(([a], [b]) => b.localeCompare(a));
 
-const regularCount = episodes.filter((e) => e.kind === 'regular').length;
 const premiumCount = episodes.filter((e) => e.kind === 'premium').length;
 const patreonLatest = episodes.filter((e) => e.kind === 'patreon');
 const patreonCount = patreonLatest.length;
@@ -47,11 +46,7 @@ const blurb = latest.description.length > 420 ? latest.description.slice(0, 420)
 		<img class="hero-logo" src="/logo-512.jpg" alt="Film Junk logo" width="512" height="512" />
 		<div class="about">
 			<h1>The Longest Running Film Podcast</h1>
-			<p class="lede">
-				{regularCount.toLocaleString()} weekly shows, {premiumCount} premiums and {patreonCount} Patreon exclusives since
-				2005. Search any of the{' '}
-				{films.length.toLocaleString()} films and shows they've reviewed or talked about to find the episode.
-			</p>
+			<p class="lede">Since 2005, over {latest.number!.toLocaleString()} episodes and counting.</p>
 			<div class="hosts">
 				<h2>Hosted by</h2>
 				<ul>
