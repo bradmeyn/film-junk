@@ -3,7 +3,7 @@
   "type": "module",
   "version": "0.0.1",
   "engines": {
-    "node": ">=22.18.0"
+    "node": ">=24"
   },
   "scripts": {
     "dev": "astro dev",
@@ -28,6 +28,6 @@
   },
   "devDependencies": {
     "@astrojs/check": "^0.9.10",
-    "@types/node": "^26.6.3"
+    "@types/node": "^24.19.1"
   }
 }
