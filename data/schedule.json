@@ -9,5 +9,15 @@
 			{ "date": "2026-09-21", "title": "Reign of Fire", "year": 2002 },
 			{ "date": "2026-09-28", "title": "Sherman's March", "year": 1985 }
 		]
+	},
+	"2026-10": {
+		"source": "https://www.instagram.com/p/Dd80SyngWwo/",
+		"note": "All retro episodes available one week early on Patreon.",
+		"items": [
+			{ "date": "2026-10-05", "title": "The Rocky Horror Picture Show", "year": 1975 },
+			{ "date": "2026-10-12", "title": "Viy", "year": 1967 },
+			{ "date": "2026-10-19", "title": "The Descent", "year": 2005 },
+			{ "date": "2026-10-26", "title": "The Blair Witch Project", "year": 1999 }
+		]
 	}
 }
