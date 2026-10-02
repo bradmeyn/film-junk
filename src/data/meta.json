@@ -1,5 +1,5 @@
 {
-	"builtAt": "2026-10-01T19:08:15.339Z",
+	"builtAt": "2026-10-02T02:19:07.062Z",
 	"yearNotes": {
 		"2005": [
 			"Total episodes: 47",
@@ -1031,6 +1031,49 @@
 		}
 	],
 	"schedule": [
+		{
+			"month": "2026-10",
+			"source": "https://www.instagram.com/p/Dd80SyngWwo/",
+			"note": "All retro episodes available one week early on Patreon.",
+			"items": [
+				{
+					"date": "2026-10-05",
+					"title": "The Rocky Horror Picture Show",
+					"year": 1975,
+					"episode": "1065",
+					"film": "the-rocky-horror-picture-show",
+					"poster": "/3pyE6ZqDbuJi7zrNzzQzcKTWdmN.jpg",
+					"status": "patreon"
+				},
+				{
+					"date": "2026-10-12",
+					"title": "Viy",
+					"year": 1967,
+					"episode": null,
+					"film": null,
+					"poster": "/rgkp4X9C1NNobH8bq55zcMTQFCl.jpg",
+					"status": "upcoming"
+				},
+				{
+					"date": "2026-10-19",
+					"title": "The Descent",
+					"year": 2005,
+					"episode": null,
+					"film": null,
+					"poster": "/mxFPI4KYBk5ri9cPteIS8jiDFgj.jpg",
+					"status": "upcoming"
+				},
+				{
+					"date": "2026-10-26",
+					"title": "The Blair Witch Project",
+					"year": 1999,
+					"episode": null,
+					"film": null,
+					"poster": "/9050VGrYjYrEjpOvDZVAngLbg1f.jpg",
+					"status": "upcoming"
+				}
+			]
+		},
 		{
 			"month": "2026-09",
 			"source": "https://www.instagram.com/p/Dcw-H5bgqR9/",

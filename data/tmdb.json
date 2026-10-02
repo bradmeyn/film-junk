@@ -65885,5 +65885,32 @@
 		"imdb": "tt34966955"
 	},
 	"m|back to school, easy money|": null,
-	"m|jackie brown, little nicky|": null
+	"m|jackie brown, little nicky|": null,
+	"the blair witch project|1999|": {
+		"type": "movie",
+		"id": 2667,
+		"title": "The Blair Witch Project",
+		"year": 1999,
+		"poster": "/9050VGrYjYrEjpOvDZVAngLbg1f.jpg",
+		"votes": 5682,
+		"imdb": "tt0185937"
+	},
+	"the descent|2005|": {
+		"type": "movie",
+		"id": 9392,
+		"title": "The Descent",
+		"year": 2005,
+		"poster": "/mxFPI4KYBk5ri9cPteIS8jiDFgj.jpg",
+		"votes": 4605,
+		"imdb": "tt0435625"
+	},
+	"viy|1967|": {
+		"type": "movie",
+		"id": 57230,
+		"title": "Viy",
+		"year": 1967,
+		"poster": "/rgkp4X9C1NNobH8bq55zcMTQFCl.jpg",
+		"votes": 296,
+		"imdb": "tt0062453"
+	}
 }
