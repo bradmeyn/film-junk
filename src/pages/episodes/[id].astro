@@ -50,7 +50,7 @@ const pageDescription = [
 >
 	<article class="wrap">
 		<header class:list={['head', { 'has-art': art }]}>
-			{art && <img class:list={[{ poster: !art.square }]} src={art.src} alt="" width={art.square ? 700 : 500} height={art.square ? 700 : 750} />}
+			{art && <img class:list={[{ poster: !art.square }]} src={art.src} alt="" width={art.square ? 700 : 500} height={art.square ? 700 : 750} fetchpriority="high" />}
 			<div>
 				<span class="sticker" data-kind={e.kind}>{label}</span>
 				<h1 class:list={[{ long: e.title.length > 45 }]}>{e.title}</h1>

@@ -16,8 +16,8 @@
 	--focus: #2f6bff;
 	--chart: #8a2fc4; /* validated: dataviz validate_palette.js vs #fff */
 
-	--font-display: 'Big Shoulders Display', 'Arial Narrow', sans-serif;
-	--font-body: 'Public Sans', system-ui, sans-serif;
+	--font-display: 'Big Shoulders Display Variable', 'Arial Narrow', sans-serif;
+	--font-body: 'Public Sans Variable', system-ui, sans-serif;
 
 	--step--1: 0.875rem;
 	--step-0: 1rem;

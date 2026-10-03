@@ -1,5 +1,10 @@
 ---
+import '@fontsource-variable/big-shoulders-display';
+import '@fontsource-variable/public-sans';
+import '@fontsource-variable/public-sans/wght-italic.css';
 import '../styles/global.css';
+import displayFont from '@fontsource-variable/big-shoulders-display/files/big-shoulders-display-latin-wght-normal.woff2?url';
+import bodyFont from '@fontsource-variable/public-sans/files/public-sans-latin-wght-normal.woff2?url';
 import Icon from '../components/icon.astro';
 import FilmSearch from '../components/film-search.svelte';
 import { LINKS } from '../lib/data';
@@ -66,12 +71,11 @@ const current = (href: string) => path.startsWith(href) || (href === '/episodes/
 		<meta name="twitter:description" content={description} />
 		<meta name="twitter:image" content={shareImage} />
 		{jsonLd && <script type="application/ld+json" set:html={jsonLd} />}
-		<link rel="preconnect" href="https://fonts.googleapis.com" />
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-		<link
-			href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;800;900&family=Public+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap"
-			rel="stylesheet"
-		/>
+		<!-- Posters come from TMDB, so open that connection early. -->
+		<link rel="preconnect" href="https://image.tmdb.org" />
+		<!-- Fonts are self-hosted (Fontsource) so text paints without waiting on another domain. -->
+		<link rel="preload" href={displayFont} as="font" type="font/woff2" crossorigin />
+		<link rel="preload" href={bodyFont} as="font" type="font/woff2" crossorigin />
 	</head>
 	<body>
 		<header class="site-header wrap">
