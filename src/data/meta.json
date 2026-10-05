@@ -1,5 +1,5 @@
 {
-	"builtAt": "2026-10-04T17:54:58.468Z",
+	"builtAt": "2026-10-05T21:22:29.531Z",
 	"yearNotes": {
 		"2005": [
 			"Total episodes: 47",
@@ -1043,16 +1043,16 @@
 					"episode": "1065",
 					"film": "the-rocky-horror-picture-show",
 					"poster": "/3pyE6ZqDbuJi7zrNzzQzcKTWdmN.jpg",
-					"status": "patreon"
+					"status": "out"
 				},
 				{
 					"date": "2026-10-12",
 					"title": "Viy",
 					"year": 1967,
-					"episode": null,
-					"film": null,
+					"episode": "1066",
+					"film": "viy",
 					"poster": "/rgkp4X9C1NNobH8bq55zcMTQFCl.jpg",
-					"status": "upcoming"
+					"status": "patreon"
 				},
 				{
 					"date": "2026-10-19",

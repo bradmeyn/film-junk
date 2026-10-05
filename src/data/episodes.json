@@ -1,6 +1,66 @@
 [
 	{
 		"notes": "",
+		"description": "I summon the vampires! I summon the werewolves! I summon Viy! On this week's episode of Film Junk we are unearthing Viy, a spooky hidden gem from 1967 that is billed as the Soviet Union's first horror film. It's a wild ride that delivers some laughs, some thrills and a lot of impressive visual effects. So why isn't this movie more widely known? How is the Russian take on vampires, witches and demons different from the mythology we know today? Does vodka cure everything? Is there a connection between Viy and the Dogma poop monster? Drop blood tear and download the latest episode of Film Junk now.",
+		"mentioned": [],
+		"segments": [],
+		"watched": [],
+		"reviews": [
+			{
+				"title": "Viy",
+				"year": 1967,
+				"ratings": [],
+				"film": "viy"
+			}
+		],
+		"music": {},
+		"show": "Film Junk",
+		"part": null,
+		"dateApprox": false,
+		"pack": null,
+		"id": "1066",
+		"kind": "regular",
+		"number": 1066,
+		"date": "2026-10-05",
+		"title": "Viy",
+		"links": {
+			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-1066-171269433",
+			"spotify": "https://open.spotify.com/episode/361tQugKya8CGH5WWNLn34"
+		}
+	},
+	{
+		"id": "1065",
+		"kind": "regular",
+		"show": "Film Junk",
+		"number": 1065,
+		"part": null,
+		"date": "2026-10-05",
+		"dateApprox": false,
+		"title": "The Rocky Horror Picture Show",
+		"reviews": [
+			{
+				"title": "The Rocky Horror Picture Show",
+				"year": 1975,
+				"ratings": [],
+				"film": "the-rocky-horror-picture-show"
+			}
+		],
+		"watched": [],
+		"segments": [],
+		"music": {},
+		"notes": "",
+		"description": "This week on the Film Junk Podcast, let's do the time warp again as we revisit one of the biggest cult classics of all time. The Rocky Horror Picture Show remains an influential and utterly unique musical that seems like an ideal choice to kick off the month of October. But what is it about this movie that has allowed it to endure? Is Tim Curry's performance revered yet still somehow underrated? Is seeing it with a live audience the best way to experience this movie? What is the deeper psychological meaning behind Frank killing Eddie? Damnit Janet... don't dream it, be it on this week's episode of Film Junk.",
+		"pack": null,
+		"links": {
+			"libsyn": "https://directory.libsyn.com/episode/index/id/43050678",
+			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-1065-170756857",
+			"apple": "https://podcasts.apple.com/us/podcast/the-rocky-horror-picture-show-1975/id74257105?i=1000793283849",
+			"spotify": "https://open.spotify.com/episode/3gbRNVb5WDlygSp38JHeaa"
+		},
+		"mentioned": []
+	},
+	{
+		"notes": "",
 		"description": "00:00 - Intro\n01:35 - Resident Evil \n37:00 - Primetime\n1:03:55 - Ren Faire, Spermworld, Some Kind of Heaven\n1:11:06 - Death of Cheerleader\n1:14:44 - Everest: The Other Side\n1:16:05 - Rogue Trooper\n1:18:40 - The Weight\n1:26:30 - Of Unknown Origin\n1:29:03 - Life Hack\n1:31:40 - The Python Hunt\n1:42:15 - Teenage Wasteland\n1:46:05 - The Inventor: Out for Blood in Silicon Valley\n1:51:30 - Tony\n1:53:00 - Jackie Brown, Little Nicky\n1:57:47 - Supergirl\n2:00:05 - Executive Decision\n2:02:30 - Back to School, Easy Money",
 		"mentioned": [
 			{
@@ -132,35 +192,6 @@
 		"links": {
 			"patreon": "https://www.patreon.com/filmjunk/posts/junk-mail-2026-2-170908457",
 			"spotify": "https://open.spotify.com/episode/6YjJk8ILXHSjtmZWHaUN3D"
-		}
-	},
-	{
-		"notes": "",
-		"description": "This week on the Film Junk Podcast, let's do the time warp again as we revisit one of the biggest cult classics of all time. The Rocky Horror Picture Show remains an influential and utterly unique musical that seems like an ideal choice to kick off the month of October. But what is it about this movie that has allowed it to endure? Is Tim Curry's performance revered yet still somehow underrated? Is seeing it with a live audience the best way to experience this movie? What is the deeper psychological meaning behind Frank killing Eddie? Damnit Janet... don't dream it, be it on this week's episode of Film Junk.",
-		"mentioned": [],
-		"segments": [],
-		"watched": [],
-		"reviews": [
-			{
-				"title": "The Rocky Horror Picture Show",
-				"year": 1975,
-				"ratings": [],
-				"film": "the-rocky-horror-picture-show"
-			}
-		],
-		"music": {},
-		"show": "Film Junk",
-		"part": null,
-		"dateApprox": false,
-		"pack": null,
-		"id": "1065",
-		"kind": "regular",
-		"number": 1065,
-		"date": "2026-09-28",
-		"title": "The Rocky Horror Picture Show",
-		"links": {
-			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-1065-170756857",
-			"spotify": "https://open.spotify.com/episode/6sdjhR0dWcmAw20wW6Lmqj"
 		}
 	},
 	{
