@@ -56,4 +56,4 @@ builds and deploys every push to `main` (`wrangler.jsonc` serves `dist/`).
 
 - GitHub repo secrets (Settings > Secrets and variables > Actions): `TMDB_API_KEY` and `PATREON_RSS_URL`, plus
   optionally `SPOTIFY_CLIENT_ID` / `SPOTIFY_CLIENT_SECRET`.
-- Cloudflare build variable (Worker > Settings > Build > Variables): `SITE_URL`, the site's public address.
+- The site's public address (`https://filmjunkpodcast.com`) is set as `site` in `astro.config.mjs`.
