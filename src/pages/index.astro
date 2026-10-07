@@ -46,7 +46,7 @@ const blurb = latest.description.length > 420 ? latest.description.slice(0, 420)
 		<img class="hero-logo" src="/logo-512.jpg" alt="Film Junk logo" width="512" height="512" />
 		<div class="about">
 			<h1>The Longest Running Film Podcast</h1>
-			<p class="lede">An unofficial companion to the Film Junk Podcast, {latest.number!.toLocaleString()} episodes and counting.</p>
+			<p class="lede muted">An unofficial companion to the Film Junk Podcast, {latest.number!.toLocaleString()} episodes and counting.</p>
 			<div class="hosts">
 				<h2>Hosted by</h2>
 				<ul>
@@ -68,9 +68,9 @@ const blurb = latest.description.length > 420 ? latest.description.slice(0, 420)
 				</ul>
 			</div>
 			<p class="listen">
-				<a class="button big patreon" href={LINKS.patreon}><Icon name="patreon" /> Support on Patreon</a>
-				<a class="button big spotify" href={LINKS.spotify}><Icon name="spotify" /> Listen on Spotify</a>
-				<a class="button big" href={LINKS.apple} aria-label="Listen on Apple Podcasts"><Icon name="apple" /> Listen on Apple</a>
+				<a class="button big patreon" href={LINKS.patreon} aria-label="Support on Patreon"><Icon name="patreon" /> <span><span class="long">Support on </span>Patreon</span></a>
+				<a class="button big spotify" href={LINKS.spotify} aria-label="Listen on Spotify"><Icon name="spotify" /> <span><span class="long">Listen on </span>Spotify</span></a>
+				<a class="button big" href={LINKS.apple} aria-label="Listen on Apple Podcasts"><Icon name="apple" /> <span><span class="long">Listen on </span>Apple</span></a>
 			</p>
 		</div>
 	</section>
@@ -302,6 +302,7 @@ const blurb = latest.description.length > 420 ? latest.description.slice(0, 420)
 	.what {
 		font-weight: 700;
 		line-height: 1.3;
+		color: var(--ink);
 	}
 
 	.status {
@@ -366,6 +367,7 @@ const blurb = latest.description.length > 420 ? latest.description.slice(0, 420)
 
 	.host-name {
 		font-weight: 700;
+		color: var(--ink);
 	}
 
 	.host-links {
@@ -398,6 +400,24 @@ const blurb = latest.description.length > 420 ? latest.description.slice(0, 420)
 	.big {
 		font-size: var(--step-0);
 		padding: 0.7rem 1.15rem;
+	}
+
+	/* Phones: one row of three, the short label is enough next to each logo. */
+	@media (max-width: 30rem) {
+		.listen {
+			display: grid;
+			grid-template-columns: repeat(3, 1fr);
+			gap: 0.5rem;
+		}
+
+		.big {
+			justify-content: center;
+			padding-inline: 0.5rem;
+		}
+
+		.long {
+			display: none;
+		}
 	}
 
 

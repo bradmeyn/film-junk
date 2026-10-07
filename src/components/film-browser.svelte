@@ -292,9 +292,12 @@
 		margin-bottom: 0.25rem;
 	}
 
+	/* The 1px gap over the line colour draws dividers however the options wrap. */
 	.segmented {
 		display: flex;
 		flex-wrap: wrap;
+		gap: 1px;
+		background: var(--line);
 		border: 1px solid var(--line);
 		border-radius: 0.4rem;
 		overflow: hidden;
@@ -306,10 +309,6 @@
 		font-size: var(--step--1);
 		font-weight: 600;
 		background: var(--bg);
-	}
-
-	.segmented label + label {
-		border-left: 1px solid var(--line);
 	}
 
 	.segmented label.active {
@@ -326,6 +325,30 @@
 		position: absolute;
 		opacity: 0;
 		pointer-events: none;
+	}
+
+	@media (max-width: 40rem) {
+		.filters {
+			display: grid;
+			grid-template-columns: 1fr 1fr;
+			gap: 0.75rem;
+			padding: 0.75rem;
+		}
+
+		.filters .grow,
+		.filters fieldset {
+			grid-column: 1 / -1;
+		}
+
+		.filters select {
+			width: 100%;
+		}
+
+		.segmented label {
+			flex: 1 1 auto;
+			text-align: center;
+			padding-inline: 0.5rem;
+		}
 	}
 
 	.count {
