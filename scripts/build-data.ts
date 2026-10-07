@@ -641,7 +641,11 @@ function classifyPatreon(title: string): PatreonKind {
 // "Title (1985)", and titles the show has reviewed quoted word for word.
 const NOT_A_CHAPTER =
 	/^(this week (on|and) dvd|headlines|going digital|intro|outro|opening|closing|wrap|junk mail|q ?& ?a|questions?|listener|mailbag|news|updates?|announcements?|housekeeping|banter|break|trivia|patreon|tier|top \d+|segment|the rest|misc|other stuff)\b/i;
-const SEGMENT_PREFIX = /^(review|retro review|spoiler (discussion|review|talk)|trailer trash|feature review)\s*[:\-–]\s*/i;
+const SEGMENT_PREFIX =
+	/^(review|retro review|spoiler (discussion|review|talk)|trailer trash|feature review|film junk re-review|other stuff we watched|criterionitis|hot docs)\s*[:\-–]\s*/i;
+// Segments that are never one film: "Feature: Top 100 Movies…", "Hot Topic: Top 3 Donuts", "2023 Junkies".
+const NOT_A_FILM_CHAPTER =
+	/^(feature|hot topic|discussion|interview|cool thing of the week|show and tell|in-house stuff|tagline trivia|streaming events we participated in|book review)\b|\bjunkies\b|junkers'? choice|^(best of \d{4}|guest intro|fan messages|hero shout out)|\boutro$|\bsurvey!?$|\brecap$|\binterlude$/i;
 const reviewedTitles = [
 	// Two or more words, so everyday words that are also titles ("Halloween") don't match.
 	...new Set(all.flatMap((e) => (e.reviews ?? []).map((r) => r.title)).filter((t) => t.length >= 8 && /\s/.test(t) && /[A-Z0-9]/.test(t[0]))),
@@ -656,7 +660,11 @@ function filmsInDescription(text: string | undefined): Mention[] {
 		if (m.title.length >= 2 && !found.has(m.title.toLowerCase())) found.set(m.title.toLowerCase(), m);
 	};
 	for (const line of text.split('\n')) {
-		let chapter = line.match(/^\s*\(?\d{1,2}:\d{2}(?::\d{2})?\)?\s*[-–—:]?\s*(.+)$/)?.[1]?.trim();
+		let chapter = line
+			.match(/^\s*\(?\d{1,2}:\d{2}(?::\d{2})?\)?\s*[-–—:]?\s*(.+)$/)?.[1]
+			// Leftover minutes from a split timestamp: "05 - Review: Nosferatu".
+			?.replace(/^\d{2}\s*-\s*/, '')
+			.trim();
 		if (!chapter || chapter.length > 70 || chapter.includes('?') || NOT_A_CHAPTER.test(chapter)) continue;
 		// "What We Watched: Frasier, Lonesome Dove and The Paper" names several.
 		const watched = chapter.match(/^what we watched\s*[:\-–]\s*(.+)$/i)?.[1];
@@ -665,13 +673,18 @@ function filmsInDescription(text: string | undefined): Mention[] {
 			continue;
 		}
 		// Segment prefixes around a title: "Review: Send Help", "Trailer Trash: The Batman".
+		if (NOT_A_FILM_CHAPTER.test(chapter)) continue;
 		chapter = chapter.replace(SEGMENT_PREFIX, '').trim();
 		if (chapter && !NOT_A_CHAPTER.test(chapter) && !/\b(discussion|announcements?|trailers?|updates?|news)$/i.test(chapter)) add(chapter);
 	}
 	const capitalised = String.raw`[A-Z0-9][\w'’&!.-]*`;
 	const joiner = String.raw`(?:of|the|and|a|an|in|on|to|at|for|with|from|vs\.?|&|-)`;
 	const withYear = new RegExp(String.raw`(${capitalised}(?::?\s+(?:${capitalised}|${joiner})){0,8})\s\(((?:19|20)\d\d)\)`, 'g');
-	for (const m of text.matchAll(withYear)) add(`${m[1]} (${m[2]})`);
+	for (const m of text.matchAll(withYear)) {
+		// The match can start inside a timestamp: "21:05 - Review: Nosferatu (2024)" gives "05 - Review: …".
+		const title = m[1].replace(/^\d{2}\s*-\s*/, '').replace(SEGMENT_PREFIX, '').trim();
+		if (title && !NOT_A_FILM_CHAPTER.test(title)) add(`${title} (${m[2]})`);
+	}
 	const strong = [...found.keys()];
 	for (const title of reviewedTitles) {
 		// Skip titles that are only part of a longer one already found ("The Hunt" in "…: The Hunt for …").
@@ -834,6 +847,26 @@ attach(readJson<PlatformItem[]>(`${RAW}/spotify.json`), 'spotify');
 
 // ---------------------------------------------------------------- film index
 
+// Hand fixes for mentioned titles: typos renamed, bundles ("Rocky 1-5") split into their films,
+// null for things that aren't films at all. Runs before TMDB lookups see the titles.
+const mentionFixes = readJson<Record<string, string | string[] | null>>('data/mention-fixes.json') ?? {};
+// The fixed titles for one, or undefined when it needs no fixing.
+function fixTitle(title: string, year: number | null): string[] | undefined {
+	const withYear = (year ? `${title} (${year})` : title).toLowerCase();
+	const fix = withYear in mentionFixes ? mentionFixes[withYear] : mentionFixes[title.toLowerCase()];
+	return fix === undefined ? undefined : [fix ?? []].flat();
+}
+const fixMentions = (list: Mention[]) => list.flatMap((m) => fixTitle(m.title, m.year)?.map(mention) ?? [m]);
+for (const e of all) {
+	if (e.watched) e.watched = fixMentions(e.watched);
+	if (e.mentioned) e.mentioned = fixMentions(e.mentioned);
+	if (e.covers)
+		e.covers = e.covers.flatMap((c) => {
+			const { title, year } = splitYear(c.title);
+			return fixTitle(title, year)?.map((t) => ({ ...c, title: t })) ?? [c];
+		});
+}
+
 // TMDB matches for reviewed films, cached by scripts/fetch-tmdb.ts.
 const tmdb = readJson<TmdbCache>('data/tmdb.json') ?? {};
 const tmdbOverrides = readJson<TmdbCache>('data/tmdb-overrides.json') ?? {};
@@ -887,6 +920,9 @@ for (const [base, group] of byBase) {
 	}
 }
 
+// Film pages by TMDB id, so differently spelled mentions of one film share a page.
+const tmdbSlug = new Map([...identities].filter(([, v]) => v.tmdb).map(([identity, v]) => [`${v.tmdb!.type}:${v.tmdb!.id}`, identitySlug.get(identity)!]));
+
 // 3. Mentions (what they watched, premium covers) only have a title, so pick the
 // film with that title that's the most plausible for when it came up.
 function resolveMention(title: string, year: number | null, e: Episode): string | null {
@@ -897,6 +933,10 @@ function resolveMention(title: string, year: number | null, e: Episode): string 
 		if (!films.has(slug)) {
 			// Exact-title TMDB match for a film only mentioned in passing (see fetch-tmdb lookupMention).
 			const tm = tmdb[`m|${title.toLowerCase()}|${year ?? ''}`] ?? null;
+			// Another spelling of a film that already has a page ("Slapshot", "Cobra Kai: Season 2").
+			const same = tm && tmdbSlug.get(`${tm.type}:${tm.id}`);
+			if (same) return same;
+			if (tm) tmdbSlug.set(`${tm.type}:${tm.id}`, slug);
 			films.set(slug, {
 				slug,
 				title,

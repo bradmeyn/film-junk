@@ -1,5 +1,110 @@
 {
 	"_readme": "Fix bad TMDB matches. Key: reviewed title, lowercase. Value: null for no match, or { \"type\": \"movie\"|\"tv\", \"id\": 123, \"title\": \"...\", \"year\": 2000, \"poster\": \"/path.jpg\" }.",
 	"guitar hero": null,
-	"rocky vs. drago": null
+	"rocky vs. drago": null,
+	"the fantastic four: first steps": {
+		"type": "movie",
+		"id": 617126,
+		"title": "The Fantastic 4: First Steps",
+		"year": 2025,
+		"poster": "/nf5qaSEvyYSNeFH0YhSs5EsBLX9.jpg"
+	},
+	"ocean's 8": {
+		"type": "movie",
+		"id": 402900,
+		"title": "Ocean's Eight",
+		"year": 2018,
+		"poster": "/MvYpKlpFukTivnlBhizGbkAe3v.jpg"
+	},
+	"nymphomaniac vol. 1": {
+		"type": "movie",
+		"id": 258216,
+		"title": "Nymphomaniac: Vol. I",
+		"year": 2013,
+		"poster": "/piikL8vRh3s1ysHGTIqaZpdjfNU.jpg"
+	},
+	"nymphomaniac vol. 2": {
+		"type": "movie",
+		"id": 249397,
+		"title": "Nymphomaniac: Vol. II",
+		"year": 2013,
+		"poster": "/iLUNqgNKuWn667kXCKztSxYbT3k.jpg"
+	},
+	"tchopitoulous": {
+		"type": "movie",
+		"id": 105121,
+		"title": "Tchoupitoulas",
+		"year": 2012,
+		"poster": "/gnQWHFFLQP5x64Btf5LmjR9dTq5.jpg"
+	},
+	"titanic 3d": {
+		"type": "movie",
+		"id": 597,
+		"title": "Titanic",
+		"year": 1997,
+		"poster": "/9xjZS2rlVxm8SFx8kPC3aIGCOYQ.jpg"
+	},
+	"drive angry 3d": {
+		"type": "movie",
+		"id": 47327,
+		"title": "Drive Angry",
+		"year": 2011,
+		"poster": "/nx2pChi41Xv4dsXsfSG3gnKcWaY.jpg"
+	},
+	"sarah silverman's jesus is magic": {
+		"type": "movie",
+		"id": 16156,
+		"title": "Sarah Silverman: Jesus Is Magic",
+		"year": 2005,
+		"poster": "/uKuAGLz9eUWw3tnuXPRChpK7lYI.jpg"
+	},
+	"troma's make your own damn movie": {
+		"type": "movie",
+		"id": 311585,
+		"title": "Make Your Own Damn Movie!",
+		"year": 2005,
+		"poster": null
+	},
+	"game over: kasparov vs. the machine": {
+		"type": "movie",
+		"id": 57337,
+		"title": "Game Over: Kasparov and the Machine",
+		"year": 2003,
+		"poster": "/92yRagLCvY5XE8GqOslXXmzLuVx.jpg"
+	},
+	"spongebob squarepants: the movie": {
+		"type": "movie",
+		"id": 11836,
+		"title": "The SpongeBob SquarePants Movie",
+		"year": 2004,
+		"poster": "/1rvzKV1d18EbDVaEd4VDzK3cgnY.jpg"
+	},
+	"abbott and costello meet frankenstein": {
+		"type": "movie",
+		"id": 3073,
+		"title": "Bud Abbott and Lou Costello Meet Frankenstein",
+		"year": 1948,
+		"poster": "/tCMtyjL7aFRalXBDkHKz1bMVRHm.jpg"
+	},
+	"best of the best ii": {
+		"type": "movie",
+		"id": 32049,
+		"title": "Best of the Best 2",
+		"year": 1993,
+		"poster": "/vCVKYnyZKmd2nSwfQhPHSeNbwFF.jpg"
+	},
+	"retro review: commando": {
+		"type": "movie",
+		"id": 10999,
+		"title": "Commando",
+		"year": 1985,
+		"poster": "/ollPAAAgZ7euU8VisfqU3cuXhZ6.jpg"
+	},
+	"champagne and bullets": {
+		"type": "movie",
+		"id": 99373,
+		"title": "GetEven",
+		"year": 1993,
+		"poster": "/zPDbXnkUHaM9kQ6XdonVlOQjz4V.jpg"
+	}
 }

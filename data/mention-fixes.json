@@ -1,0 +1,589 @@
+{
+	"_readme": "Fixes for titles mentioned in passing (what we watched, descriptions). Key: the mentioned title, lowercase (with \" (year)\" if it had one). Value: the corrected title (add \" (1985)\" to pin a year), a list of titles to split a bundle into its films, or null for something that isn't a film. Reviews are fixed in tmdb-overrides.json instead.",
+
+	"levithan": "Leviathan (1989)",
+	"royal tenenbaums": "The Royal Tenenbaums",
+	"life aquatic": "The Life Aquatic with Steve Zissou",
+	"darjeeling limited": "The Darjeeling Limited",
+	"inglorious bastards": "The Inglorious Bastards (1978)",
+	"seven": "Se7en",
+	"zombie": "Zombie Flesh Eaters",
+	"precious": "Precious (2009)",
+	"benjamin button": "The Curious Case of Benjamin Button",
+	"zathura": "Zathura: A Space Adventure",
+	"the vvitch": "The Witch (2015)",
+	"aeon flux": "Æon Flux",
+	"jewel of the nile": "The Jewel of the Nile",
+	"son of kong": "The Son of Kong",
+	"lords of salem": "The Lords of Salem",
+	"brides of dracula": "The Brides of Dracula",
+	"blues brothers": "The Blues Brothers",
+	"the brothers grimsby": "Grimsby",
+	"blue is the warmest colour": "Blue Is the Warmest Color",
+	"jafar panahi's taxi": "Taxi (2015)",
+	"haxan: witchcraft through the ages": "Häxan",
+	"demonoid: messenger of death": "Demonoid",
+	"13 hours": "13 Hours: The Secret Soldiers of Benghazi",
+	"the ridiculous six": "The Ridiculous 6",
+	"freddy's dead": "Freddy's Dead: The Final Nightmare",
+	"new nightmare": "Wes Craven's New Nightmare",
+	"curse of michael myers": "Halloween: The Curse of Michael Myers",
+	"h20": "Halloween H20: 20 Years Later",
+	"captain america: first avenger": "Captain America: The First Avenger",
+	"caddyshack 2": "Caddyshack II",
+	"new moon": "The Twilight Saga: New Moon",
+	"clerks 2": "Clerks II",
+	"the sweet smell of success": "Sweet Smell of Success",
+	"jason goes to hell": "Jason Goes to Hell: The Final Friday",
+	"ghostbusters 2": "Ghostbusters II",
+	"the hangover ii": "The Hangover Part II",
+	"dredd 3d": "Dredd",
+	"jurassic park 3d": "Jurassic Park",
+	"evil dead 2": "Evil Dead II",
+	"dead alive": "Braindead",
+	"top gun 3d": "Top Gun",
+	"avatar 3d": "Avatar (2009)",
+	"brave 3d": "Brave (2012)",
+	"christmas vacation": "National Lampoon's Christmas Vacation",
+	"european vacation": "National Lampoon's European Vacation",
+	"the muppets christmas carol": "The Muppet Christmas Carol",
+	"wages of fear": "The Wages of Fear",
+	"anchorman": "Anchorman: The Legend of Ron Burgundy",
+	"anchorman 2: super-sized r-rated version": "Anchorman 2: The Legend Continues",
+	"twitch of the death nerve": "A Bay of Blood",
+	"return of the living dead": "The Return of the Living Dead",
+	"the bride of frankenstein": "Bride of Frankenstein",
+	"operation condor (armour of god ii)": "Operation Condor (1991)",
+	"jackie chan's first strike": "Police Story 4: First Strike",
+	"m. hulot's holiday": "Monsieur Hulot's Holiday",
+	"legend of the guardians": "Legend of the Guardians: The Owls of Ga'Hoole",
+	"being elmo": "Being Elmo: A Puppeteer's Journey",
+	"men in black 2": "Men in Black II",
+	"demons ii": "Demons 2",
+	"matrix reloaded": "The Matrix Reloaded",
+	"matrix revolutions": "The Matrix Revolutions",
+	"jurassic park 3": "Jurassic Park III",
+	"jurassic park 2: the lost world": "The Lost World: Jurassic Park",
+	"back to the future 3": "Back to the Future Part III",
+	"a nightmare on elm street 2: freddy's revenge": "A Nightmare on Elm Street Part 2: Freddy's Revenge",
+	"black sunday aka the mask of satan": "Black Sunday (1960)",
+	"fright night: part ii": "Fright Night Part 2",
+	"mimic: the director's cut": "Mimic",
+	"rules of attraction": "The Rules of Attraction",
+	"chronicles of a summer": "Chronicle of a Summer",
+	"fist of fury aka chinese connection": "Fist of Fury",
+	"jackass 3": "Jackass 3D",
+	"paradise lost 2": "Paradise Lost 2: Revelations",
+	"paradise lost 3": "Paradise Lost 3: Purgatory",
+	"dear zachary": "Dear Zachary: A Letter to a Son About His Father",
+	"x2: x-men united": "X2",
+	"santa clause: the movie": "Santa Claus: The Movie",
+	"the complete metropolis": "Metropolis (1927)",
+	"house aka hausu": "House (1977)",
+	"dominion: the prequel to the exorcist": "Dominion: Prequel to the Exorcist",
+	"and the pursuit of happiness t": "...And the Pursuit of Happiness",
+	"rambo: extended cut": "Rambo (2008)",
+	"the karate kid ii": "The Karate Kid Part II",
+	"super snooper aka super fuzz": "Super Fuzz",
+	"ralph bakshi's the lord of the rings": "The Lord of the Rings (1978)",
+	"michael jackson's this is it": "This Is It",
+	"district b13: ultimatum": "District 13: Ultimatum",
+	"shut up & sing": "Dixie Chicks: Shut Up and Sing",
+	"the new world: extended cut": "The New World",
+	"fistful of dollars": "A Fistful of Dollars",
+	"my bloody valentine 3-d": "My Bloody Valentine (2009)",
+	"a haunting in connecticut": "The Haunting in Connecticut",
+	"the return of the swamp thing": "The Return of Swamp Thing",
+	"friday the 13th: part 3": "Friday the 13th Part III",
+	"hellãƒâ¢ã¢â€šâ¬ã¢â€žâ¢s kitchen": "Hell's Kitchen",
+	"nick and norahãƒâ¢ã¢â€šâ¬ã¢â€žâ¢s infinite playlist": "Nick and Norah's Infinite Playlist",
+	"wallace and gromit in a matter of loaf and death": "A Matter of Loaf and Death",
+	"journey to the center of the earth 3-d": "Journey to the Center of the Earth (2008)",
+	"the adventures of buckaroo banzai": "The Adventures of Buckaroo Banzai Across the 8th Dimension",
+	"buckaroo banzai": "The Adventures of Buckaroo Banzai Across the 8th Dimension",
+	"midnight meat train": "The Midnight Meat Train",
+	"rob zombie's halloween: director's cut": "Halloween (2007)",
+	"die hard 2: die harder": "Die Hard 2",
+	"walk hard": "Walk Hard: The Dewey Cox Story",
+	"1990: bronx warriors": "1990: The Bronx Warriors",
+	"hot docs: second skin": "Second Skin",
+	"hot docs: the english surgeon": "The English Surgeon",
+	"hot docs: man on wire": "Man on Wire",
+	"hot docs: stranded: i've come from a plane that crashed in the mountains": "Stranded: I've Come from a Plane That Crashed on the Mountains",
+	"hot docs: the rise and fall of the grumpy burger": "The Rise and Fall of the Grumpy Burger",
+	"hot docs: shot in bombay": "Shot in Bombay",
+	"hot docs: the betrayal": "The Betrayal - Nerakhoon",
+	"hot docs: carny": "Carny (2009)",
+	"horror of dracula": "Dracula (1958)",
+	"the horror of dracula": "Dracula (1958)",
+	"tree of life": "The Tree of Life",
+	"e.t.": "E.T. the Extra-Terrestrial",
+	"e.t": "E.T. the Extra-Terrestrial",
+	"a.i": "A.I. Artificial Intelligence",
+	"three men and a baby": "3 Men and a Baby",
+	"9 to 5": "Nine to Five",
+	"war games": "WarGames",
+	"golden child": "The Golden Child",
+	"untouchables": "The Untouchables",
+	"the creature from the black lagoon": "Creature from the Black Lagoon",
+	"silence of the lambs": "The Silence of the Lambs",
+	"last stand": "The Last Stand",
+	"first class": "X-Men: First Class",
+	"days of future past": "X-Men: Days of Future Past",
+	"unexpected journey": "The Hobbit: An Unexpected Journey",
+	"desolation of smaug": "The Hobbit: The Desolation of Smaug",
+	"battle of the five armies": "The Hobbit: The Battle of the Five Armies",
+	"the hobbit: an unexpected journey – extended edition": "The Hobbit: An Unexpected Journey",
+	"fellowship of the ring": "The Lord of the Rings: The Fellowship of the Ring",
+	"two towers": "The Lord of the Rings: The Two Towers",
+	"return of the king": "The Lord of the Rings: The Return of the King",
+	"temple of doom": "Indiana Jones and the Temple of Doom",
+	"last crusade": "Indiana Jones and the Last Crusade",
+	"kingdom of the crystal skull": "Indiana Jones and the Kingdom of the Crystal Skull",
+	"a new hope": "Star Wars (1977)",
+	"empire strikes back": "The Empire Strikes Back",
+	"the phantom menace": "Star Wars: Episode I - The Phantom Menace",
+	"attack of the clones": "Star Wars: Episode II - Attack of the Clones",
+	"star wars episode ii": "Star Wars: Episode II - Attack of the Clones",
+	"revenge of the sith": "Star Wars: Episode III - Revenge of the Sith",
+	"star wars episode i: revenge of the sith": "Star Wars: Episode III - Revenge of the Sith",
+	"star wars episode ii: the clone wars": "Star Wars: The Clone Wars (2008)",
+	"generations": "Star Trek: Generations",
+	"first contact": "Star Trek: First Contact",
+	"insurrection": "Star Trek: Insurrection",
+	"valerian": "Valerian and the City of a Thousand Planets",
+	"wrong man": "The Wrong Man",
+	"ocean's 11": "Ocean's Eleven (2001)",
+	"ocean’s 11": "Ocean's Eleven (2001)",
+	"ocean's 8": "Ocean's Eight",
+	"superman 3": "Superman III",
+	"extraction ii": "Extraction 2",
+	"piranha 2: the spawning": "Piranha II: The Spawning",
+	"house by the cemetery": "The House by the Cemetery",
+	"new york ripper": "The New York Ripper",
+	"dune: part one": "Dune (2021)",
+	"the godfather coda": "The Godfather Part III",
+	"apollo 10.5: a space age childhood": "Apollo 10½: A Space Age Childhood",
+	"biggles: adventures in time": "Biggles",
+	"the lamp (aka the outing)": "The Outing (1987)",
+	"fear street part 1: 1994": "Fear Street: 1994",
+	"fear street: part 2 - 1978": "Fear Street: 1978",
+	"fear street part 3: 1666": "Fear Street: 1666",
+	"speed 4k": "Speed (1994)",
+	"they live 4k": "They Live",
+	"dawn of the dead 4k": "Dawn of the Dead (1978)",
+	"zombi: dawn of the dead": "Dawn of the Dead (1978)",
+	"back to the future 4k": "Back to the Future",
+	"jurassic park 4k": "Jurassic Park",
+	"dr. no in 4k": "Dr. No",
+	"bo burnham's inside": "Bo Burnham: Inside",
+	"deadly games aka dial code santa claus": "Dial Code Santa Claus",
+	"scream iv": "Scream 4",
+	"doctor cyclops": "Dr. Cyclops",
+	"blackhat: director's cut": "Blackhat",
+	"midsommar: director's cut": "Midsommar",
+	"the twilight zone: the movie": "Twilight Zone: The Movie",
+	"rambo: first blood part 2": "Rambo: First Blood Part II",
+	"rambo 3": "Rambo III",
+	"q the winged serpent": "Q: The Winged Serpent",
+	"the hateful 8": "The Hateful Eight",
+	"dr. strangelove": "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb",
+	"clockwork orange": "A Clockwork Orange",
+	"bird with the crystal plumage": "The Bird with the Crystal Plumage",
+	"lupin iii: the castle of cagliostro": "The Castle of Cagliostro",
+	"ghostbusters: answer the call": "Ghostbusters (2016)",
+	"oasis: supersonic": "Supersonic (2016)",
+	"batman v superman: dawn of justice – ultimate edition": "Batman v Superman: Dawn of Justice",
+	"arabian nights vol. 1": "Arabian Nights: Volume 1, The Restless One",
+	"x-ray (aka hospital massacre)": "Hospital Massacre",
+	"disney's oceans": "Oceans (2009)",
+	"war witch (rebelle)": "War Witch",
+	"it’s a very merry muppet christmas": "It's a Very Merry Muppet Christmas Movie",
+	"a very harold and kumar 3d christmas": "A Very Harold & Kumar Christmas",
+	"italian american": "Italianamerican",
+	"the kids in the hall: brain candy": "Kids in the Hall: Brain Candy",
+	"the island of lost souls": "Island of Lost Souls (1932)",
+	"crimson wing: the mystery of the flamingos": "The Crimson Wing: Mystery of the Flamingos",
+	"rumble in the bronx (hong kong cut)": "Rumble in the Bronx",
+	"spongebob squarepants: the movie": "The SpongeBob SquarePants Movie",
+	"f1: the movie": "F1",
+	"from the world of john wick: ballerina": "Ballerina (2025)",
+	"the wolf man": "Wolf Man (2025)",
+	"den of thieves 2": "Den of Thieves 2: Pantera",
+	"hearts of darkness": "Hearts of Darkness: A Filmmaker's Apocalypse",
+	"roadhouse": "Road House (2024)",
+	"hands on a hard body": "Hands on a Hardbody: The Documentary",
+	"berserk: golden age arc i - the egg of the king": "Berserk: The Golden Age Arc I - The Egg of the King",
+	"texas chainsaw massacre: the next generation": "The Return of the Texas Chainsaw Massacre",
+
+	"jackie brown, little nicky": [
+		"Jackie Brown",
+		"Little Nicky"
+	],
+	"back to school, easy money": [
+		"Back to School",
+		"Easy Money (1983)"
+	],
+	"ren faire, spermworld, some kind of heaven": [
+		"Ren Faire",
+		"Spermworld",
+		"Some Kind of Heaven"
+	],
+	"super troopers 1, 2, and 3": [
+		"Super Troopers",
+		"Super Troopers 2"
+	],
+	"resident evil and resident evil: apocalypse": [
+		"Resident Evil (2002)",
+		"Resident Evil: Apocalypse"
+	],
+	"rapid fire, showdown in little tokyo": [
+		"Rapid Fire (1992)",
+		"Showdown in Little Tokyo"
+	],
+	"succession / barry": [
+		"Succession",
+		"Barry"
+	],
+	"ted bundy, eo": [
+		"Ted Bundy",
+		"EO"
+	],
+	"rebel moon part 1 and 2": [
+		"Rebel Moon - Part One: A Child of Fire",
+		"Rebel Moon - Part Two: The Scargiver"
+	],
+	"the blob (original and remake)": [
+		"The Blob (1958)",
+		"The Blob (1988)"
+	],
+	"child's play 1-3": [
+		"Child's Play (1988)",
+		"Child's Play 2",
+		"Child's Play 3"
+	],
+	"the godfather 1-3": [
+		"The Godfather",
+		"The Godfather Part II",
+		"The Godfather Part III"
+	],
+	"star wars: episodes 1-3": [
+		"Star Wars: Episode I - The Phantom Menace",
+		"Star Wars: Episode II - Attack of the Clones",
+		"Star Wars: Episode III - Revenge of the Sith"
+	],
+	"star wars episodes 1-6": [
+		"Star Wars: Episode I - The Phantom Menace",
+		"Star Wars: Episode II - Attack of the Clones",
+		"Star Wars: Episode III - Revenge of the Sith",
+		"Star Wars (1977)",
+		"The Empire Strikes Back",
+		"Return of the Jedi"
+	],
+	"the bourne series": [
+		"The Bourne Identity (2002)",
+		"The Bourne Supremacy",
+		"The Bourne Ultimatum",
+		"The Bourne Legacy",
+		"Jason Bourne"
+	],
+	"wayne's world 1 + 2": [
+		"Wayne's World",
+		"Wayne's World 2"
+	],
+	"halloween 1-5": [
+		"Halloween (1978)",
+		"Halloween II (1981)",
+		"Halloween III: Season of the Witch",
+		"Halloween 4: The Return of Michael Myers",
+		"Halloween 5: The Revenge of Michael Myers"
+	],
+	"halloween 1&2": [
+		"Halloween (1978)",
+		"Halloween II (1981)"
+	],
+	"fear street trilogy": [
+		"Fear Street: 1994",
+		"Fear Street: 1978",
+		"Fear Street: 1666"
+	],
+	"ocean's 11-13": [
+		"Ocean's Eleven (2001)",
+		"Ocean's Twelve",
+		"Ocean's Thirteen"
+	],
+	"ocean's trilogy": [
+		"Ocean's Eleven (2001)",
+		"Ocean's Twelve",
+		"Ocean's Thirteen"
+	],
+	"the before trilogy": [
+		"Before Sunrise",
+		"Before Sunset",
+		"Before Midnight"
+	],
+	"the matrix trilogy": [
+		"The Matrix",
+		"The Matrix Reloaded",
+		"The Matrix Revolutions"
+	],
+	"the dark knight trilogy": [
+		"Batman Begins",
+		"The Dark Knight",
+		"The Dark Knight Rises"
+	],
+	"the lord of the rings trilogy": [
+		"The Lord of the Rings: The Fellowship of the Ring",
+		"The Lord of the Rings: The Two Towers",
+		"The Lord of the Rings: The Return of the King"
+	],
+	"back to the future trilogy": [
+		"Back to the Future",
+		"Back to the Future Part II",
+		"Back to the Future Part III"
+	],
+	"back to the future 1-3": [
+		"Back to the Future",
+		"Back to the Future Part II",
+		"Back to the Future Part III"
+	],
+	"scream 1-4": [
+		"Scream (1996)",
+		"Scream 2",
+		"Scream 3",
+		"Scream 4"
+	],
+	"final destination series": [
+		"Final Destination",
+		"Final Destination 2",
+		"Final Destination 3",
+		"The Final Destination",
+		"Final Destination 5"
+	],
+	"men in black 1-3": [
+		"Men in Black",
+		"Men in Black II",
+		"Men in Black 3"
+	],
+	"friday the 13th i-iv": [
+		"Friday the 13th (1980)",
+		"Friday the 13th Part 2",
+		"Friday the 13th Part III",
+		"Friday the 13th: The Final Chapter"
+	],
+	"friday the 13th 1-8": [
+		"Friday the 13th (1980)",
+		"Friday the 13th Part 2",
+		"Friday the 13th Part III",
+		"Friday the 13th: The Final Chapter",
+		"Friday the 13th: A New Beginning",
+		"Jason Lives - Friday the 13th Part VI",
+		"Friday the 13th Part VII: The New Blood",
+		"Friday the 13th Part VIII: Jason Takes Manhattan"
+	],
+	"police story 1-4": [
+		"Police Story (1985)",
+		"Police Story 2",
+		"Police Story 3: Super Cop",
+		"Police Story 4: First Strike"
+	],
+	"predator 1&2": [
+		"Predator",
+		"Predator 2"
+	],
+	"alien v predator 1&2": [
+		"AVP: Alien vs. Predator",
+		"Aliens vs Predator: Requiem"
+	],
+	"bill & ted 1&2": [
+		"Bill & Ted's Excellent Adventure",
+		"Bill & Ted's Bogus Journey"
+	],
+	"fright night 1&2": [
+		"Fright Night (1985)",
+		"Fright Night Part 2"
+	],
+	"waxwork 1 + 2": [
+		"Waxwork",
+		"Waxwork II: Lost in Time"
+	],
+	"the texas chain saw massacre 1&2": [
+		"The Texas Chain Saw Massacre (1974)",
+		"The Texas Chainsaw Massacre Part 2"
+	],
+	"ghostbusters 1&2": [
+		"Ghostbusters (1984)",
+		"Ghostbusters II"
+	],
+	"jaws 1-4": [
+		"Jaws",
+		"Jaws 2",
+		"Jaws 3-D",
+		"Jaws: The Revenge"
+	],
+	"x-men 1-2": [
+		"X-Men (2000)",
+		"X2"
+	],
+	"bad boys 1&2": [
+		"Bad Boys (1995)",
+		"Bad Boys II"
+	],
+	"kill bill 1&2": [
+		"Kill Bill: Vol. 1",
+		"Kill Bill: Vol. 2"
+	],
+	"nightmare on elm street 1-5": [
+		"A Nightmare on Elm Street (1984)",
+		"A Nightmare on Elm Street Part 2: Freddy's Revenge",
+		"A Nightmare on Elm Street 3: Dream Warriors",
+		"A Nightmare on Elm Street 4: The Dream Master",
+		"A Nightmare on Elm Street: The Dream Child"
+	],
+	"gremlins 1&2": [
+		"Gremlins",
+		"Gremlins 2: The New Batch"
+	],
+	"mission impossible 1-4": [
+		"Mission: Impossible",
+		"Mission: Impossible II",
+		"Mission: Impossible III",
+		"Mission: Impossible - Ghost Protocol"
+	],
+	"mad max 1-3": [
+		"Mad Max",
+		"Mad Max 2",
+		"Mad Max Beyond Thunderdome"
+	],
+	"fast & the furious 1-6": [
+		"The Fast and the Furious",
+		"2 Fast 2 Furious",
+		"The Fast and the Furious: Tokyo Drift",
+		"Fast & Furious",
+		"Fast Five",
+		"Fast & Furious 6"
+	],
+	"breaking dawn parts 1&2": [
+		"The Twilight Saga: Breaking Dawn - Part 1",
+		"The Twilight Saga: Breaking Dawn - Part 2"
+	],
+	"toy story 1-3. toy story of terror": [
+		"Toy Story",
+		"Toy Story 2",
+		"Toy Story 3",
+		"Toy Story of Terror!"
+	],
+	"exorcist 1-3": [
+		"The Exorcist",
+		"Exorcist II: The Heretic",
+		"The Exorcist III"
+	],
+	"crocodile dundee trilogy": [
+		"Crocodile Dundee",
+		"Crocodile Dundee II",
+		"Crocodile Dundee in Los Angeles"
+	],
+	"teenage mutant ninja turtles 1-3": [
+		"Teenage Mutant Ninja Turtles (1990)",
+		"Teenage Mutant Ninja Turtles II: The Secret of the Ooze",
+		"Teenage Mutant Ninja Turtles III"
+	],
+	"planet of the apes 1-5": [
+		"Planet of the Apes (1968)",
+		"Beneath the Planet of the Apes",
+		"Escape from the Planet of the Apes",
+		"Conquest of the Planet of the Apes",
+		"Battle for the Planet of the Apes"
+	],
+	"robocop 1-3": [
+		"RoboCop (1987)",
+		"RoboCop 2",
+		"RoboCop 3"
+	],
+	"harry potter 1-6": [
+		"Harry Potter and the Philosopher's Stone",
+		"Harry Potter and the Chamber of Secrets",
+		"Harry Potter and the Prisoner of Azkaban",
+		"Harry Potter and the Goblet of Fire",
+		"Harry Potter and the Order of the Phoenix",
+		"Harry Potter and the Half-Blood Prince"
+	],
+	"deathly hallows parts 1&2": [
+		"Harry Potter and the Deathly Hallows: Part 1",
+		"Harry Potter and the Deathly Hallows: Part 2"
+	],
+	"vengeance trilogy": [
+		"Sympathy for Mr. Vengeance",
+		"Oldboy (2003)",
+		"Lady Vengeance"
+	],
+	"lethal weapon 1-4": [
+		"Lethal Weapon",
+		"Lethal Weapon 2",
+		"Lethal Weapon 3",
+		"Lethal Weapon 4"
+	],
+	"superman 1-4": [
+		"Superman (1978)",
+		"Superman II",
+		"Superman III",
+		"Superman IV: The Quest for Peace"
+	],
+	"star trek 1-6": [
+		"Star Trek: The Motion Picture",
+		"Star Trek II: The Wrath of Khan",
+		"Star Trek III: The Search for Spock",
+		"Star Trek IV: The Voyage Home",
+		"Star Trek V: The Final Frontier",
+		"Star Trek VI: The Undiscovered Country"
+	],
+	"the dark knight returns: part 1 and 2": [
+		"Batman: The Dark Knight Returns, Part 1",
+		"Batman: The Dark Knight Returns, Part 2"
+	],
+	"qatsi trilogy": [
+		"Koyaanisqatsi",
+		"Powaqqatsi",
+		"Naqoyqatsi"
+	],
+	"rocky 1-5": [
+		"Rocky",
+		"Rocky II",
+		"Rocky III",
+		"Rocky IV",
+		"Rocky V"
+	],
+	"rocky: the undisputed collection": [
+		"Rocky",
+		"Rocky II",
+		"Rocky III",
+		"Rocky IV",
+		"Rocky V",
+		"Rocky Balboa"
+	],
+	"spider-man 1-3": [
+		"Spider-Man (2002)",
+		"Spider-Man 2",
+		"Spider-Man 3"
+	],
+	"terminator 1-3": [
+		"The Terminator",
+		"Terminator 2: Judgment Day",
+		"Terminator 3: Rise of the Machines"
+	],
+	"the red riding trilogy": [
+		"Red Riding: The Year of Our Lord 1974",
+		"Red Riding: The Year of Our Lord 1980",
+		"Red Riding: The Year of Our Lord 1983"
+	],
+
+	"fill out our podcast listener survey!": null,
+	"angelina jolie hand gestures": null,
+	"emma stone oscar reaction gif": null,
+	"beatles movie announcement": null,
+	"super bowl reactions": null,
+	"cheap charts bits": null,
+	"cheapcharts bits": null,
+	"ranking the skywalker saga films": null,
+	"\"scamming the scammers\" interlude": null
+}

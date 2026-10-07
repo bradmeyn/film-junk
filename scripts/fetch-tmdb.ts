@@ -112,7 +112,8 @@ const tv = (hit: TvResult): TmdbMatch => ({
 
 async function lookup({ title, year, episodeYear }: Wanted): Promise<TmdbMatch | null> {
 	const searchMovies = (y: number | null) =>
-		api<SearchResponse<MovieResult>>('/search/movie', { query: title, year: y, include_adult: 'false' }).then((d) => d.results);
+		// primary_release_year, not year: `year` also matches re-releases, so "Halloween" in 2018 found the 1978 film.
+		api<SearchResponse<MovieResult>>('/search/movie', { query: title, primary_release_year: y, include_adult: 'false' }).then((d) => d.results);
 	// A year in the title ("Rad (1986)") is exact. Otherwise it's usually a new
 	// release, so try the episode's year and the year before, then any year.
 	const years = year ? [year, null] : [episodeYear, episodeYear - 1, null];
@@ -152,7 +153,7 @@ for (const e of episodes)
 	}
 
 async function lookupMention({ title, year }: { title: string; year: number | null }): Promise<TmdbMatch | null> {
-	const films = await api<SearchResponse<MovieResult>>('/search/movie', { query: title, year, include_adult: 'false' });
+	const films = await api<SearchResponse<MovieResult>>('/search/movie', { query: title, primary_release_year: year, include_adult: 'false' });
 	const film = mostRated(films.results, title);
 	if (film) return movie(film);
 	const show = title.replace(/\s*[:\-–]\s*(season|series)\s*\d+.*$/i, '').replace(/\s+season\s+\d+$/i, '').trim();

@@ -24,49 +24,27 @@
 		"date": "2026-10-05",
 		"title": "Viy",
 		"links": {
-			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-1066-171269433",
-			"spotify": "https://open.spotify.com/episode/361tQugKya8CGH5WWNLn34"
+			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-1066-171269433"
 		}
-	},
-	{
-		"id": "1065",
-		"kind": "regular",
-		"show": "Film Junk",
-		"number": 1065,
-		"part": null,
-		"date": "2026-10-05",
-		"dateApprox": false,
-		"title": "The Rocky Horror Picture Show",
-		"reviews": [
-			{
-				"title": "The Rocky Horror Picture Show",
-				"year": 1975,
-				"ratings": [],
-				"film": "the-rocky-horror-picture-show"
-			}
-		],
-		"watched": [],
-		"segments": [],
-		"music": {},
-		"notes": "",
-		"description": "This week on the Film Junk Podcast, let's do the time warp again as we revisit one of the biggest cult classics of all time. The Rocky Horror Picture Show remains an influential and utterly unique musical that seems like an ideal choice to kick off the month of October. But what is it about this movie that has allowed it to endure? Is Tim Curry's performance revered yet still somehow underrated? Is seeing it with a live audience the best way to experience this movie? What is the deeper psychological meaning behind Frank killing Eddie? Damnit Janet... don't dream it, be it on this week's episode of Film Junk.",
-		"pack": null,
-		"links": {
-			"libsyn": "https://directory.libsyn.com/episode/index/id/43050678",
-			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-1065-170756857",
-			"apple": "https://podcasts.apple.com/us/podcast/the-rocky-horror-picture-show-1975/id74257105?i=1000793283849",
-			"spotify": "https://open.spotify.com/episode/3gbRNVb5WDlygSp38JHeaa"
-		},
-		"mentioned": []
 	},
 	{
 		"notes": "",
 		"description": "00:00 - Intro\n01:35 - Resident Evil \n37:00 - Primetime\n1:03:55 - Ren Faire, Spermworld, Some Kind of Heaven\n1:11:06 - Death of Cheerleader\n1:14:44 - Everest: The Other Side\n1:16:05 - Rogue Trooper\n1:18:40 - The Weight\n1:26:30 - Of Unknown Origin\n1:29:03 - Life Hack\n1:31:40 - The Python Hunt\n1:42:15 - Teenage Wasteland\n1:46:05 - The Inventor: Out for Blood in Silicon Valley\n1:51:30 - Tony\n1:53:00 - Jackie Brown, Little Nicky\n1:57:47 - Supergirl\n2:00:05 - Executive Decision\n2:02:30 - Back to School, Easy Money",
 		"mentioned": [
 			{
-				"title": "Ren Faire, Spermworld, Some Kind of Heaven",
+				"title": "Ren Faire",
 				"year": null,
-				"film": "ren-faire-spermworld-some-kind-of-heaven"
+				"film": "ren-faire"
+			},
+			{
+				"title": "Spermworld",
+				"year": null,
+				"film": "spermworld"
+			},
+			{
+				"title": "Some Kind of Heaven",
+				"year": null,
+				"film": "some-kind-of-heaven"
 			},
 			{
 				"title": "Death of Cheerleader",
@@ -114,9 +92,14 @@
 				"film": "tony"
 			},
 			{
-				"title": "Jackie Brown, Little Nicky",
+				"title": "Jackie Brown",
 				"year": null,
-				"film": "jackie-brown-little-nicky"
+				"film": "jackie-brown"
+			},
+			{
+				"title": "Little Nicky",
+				"year": null,
+				"film": "little-nicky"
 			},
 			{
 				"title": "Supergirl",
@@ -129,9 +112,14 @@
 				"film": "executive-decision"
 			},
 			{
-				"title": "Back to School, Easy Money",
+				"title": "Back to School",
 				"year": null,
-				"film": "back-to-school-easy-money"
+				"film": "back-to-school"
+			},
+			{
+				"title": "Easy Money",
+				"year": 1983,
+				"film": "easy-money"
 			}
 		],
 		"segments": [],
@@ -166,8 +154,7 @@
 		"title": "What We Watched: Resident Evil, Primetime, The Python Hunt, and more!",
 		"duration": 7792,
 		"links": {
-			"patreon": "https://www.patreon.com/filmjunk/posts/what-we-watched-171125405",
-			"spotify": "https://open.spotify.com/episode/3VWwleljBpeT4ILhuYfTDE"
+			"patreon": "https://www.patreon.com/filmjunk/posts/what-we-watched-171125405"
 		}
 	},
 	{
@@ -190,8 +177,36 @@
 		"title": "Junk Mail: September 2026, Part 2",
 		"duration": 2707,
 		"links": {
-			"patreon": "https://www.patreon.com/filmjunk/posts/junk-mail-2026-2-170908457",
-			"spotify": "https://open.spotify.com/episode/6YjJk8ILXHSjtmZWHaUN3D"
+			"patreon": "https://www.patreon.com/filmjunk/posts/junk-mail-2026-2-170908457"
+		}
+	},
+	{
+		"notes": "",
+		"description": "This week on the Film Junk Podcast, let's do the time warp again as we revisit one of the biggest cult classics of all time. The Rocky Horror Picture Show remains an influential and utterly unique musical that seems like an ideal choice to kick off the month of October. But what is it about this movie that has allowed it to endure? Is Tim Curry's performance revered yet still somehow underrated? Is seeing it with a live audience the best way to experience this movie? What is the deeper psychological meaning behind Frank killing Eddie? Damnit Janet... don't dream it, be it on this week's episode of Film Junk.",
+		"mentioned": [],
+		"segments": [],
+		"watched": [],
+		"reviews": [
+			{
+				"title": "The Rocky Horror Picture Show",
+				"year": 1975,
+				"ratings": [],
+				"film": "the-rocky-horror-picture-show"
+			}
+		],
+		"music": {},
+		"show": "Film Junk",
+		"part": null,
+		"dateApprox": false,
+		"pack": null,
+		"id": "1065",
+		"kind": "regular",
+		"number": 1065,
+		"date": "2026-09-28",
+		"title": "The Rocky Horror Picture Show",
+		"links": {
+			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-1065-170756857",
+			"spotify": "https://open.spotify.com/episode/6sdjhR0dWcmAw20wW6Lmqj"
 		}
 	},
 	{
@@ -220,7 +235,6 @@
 		"links": {
 			"libsyn": "https://directory.libsyn.com/episode/index/id/42907817",
 			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-1064-168986577",
-			"apple": "https://podcasts.apple.com/us/podcast/shermans-march-1985/id74257105?i=1000792057587",
 			"spotify": "https://open.spotify.com/episode/17GbKcCs8sovj6UMA9kOvY"
 		},
 		"mentioned": []
@@ -637,9 +651,14 @@
 				"film": "cookie-queens"
 			},
 			{
-				"title": "Super Troopers 1, 2, and 3",
+				"title": "Super Troopers",
 				"year": null,
-				"film": "super-troopers-1-2-and-3"
+				"film": "super-troopers"
+			},
+			{
+				"title": "Super Troopers 2",
+				"year": null,
+				"film": "super-troopers-2"
 			},
 			{
 				"title": "Hunter's Blood",
@@ -647,9 +666,14 @@
 				"film": "hunters-blood"
 			},
 			{
-				"title": "Resident Evil and Resident Evil: Apocalypse",
+				"title": "Resident Evil",
+				"year": 2002,
+				"film": "resident-evil"
+			},
+			{
+				"title": "Resident Evil: Apocalypse",
 				"year": null,
-				"film": "resident-evil-and-resident-evil-apocalypse"
+				"film": "resident-evil-apocalypse"
 			},
 			{
 				"title": "Neighbors",
@@ -1092,9 +1116,9 @@
 				"film": "jackass-best-and-last"
 			},
 			{
-				"title": "Rumble in the Bronx (Hong Kong Cut)",
+				"title": "Rumble in the Bronx",
 				"year": null,
-				"film": "rumble-in-the-bronx-hong-kong-cut"
+				"film": "rumble-in-the-bronx"
 			},
 			{
 				"title": "Hoppers",
@@ -1688,7 +1712,7 @@
 			{
 				"title": "The Mandalorian",
 				"year": null,
-				"film": "the-mandalorian"
+				"film": "the-mandalorian-season-2"
 			}
 		]
 	},
@@ -2368,23 +2392,7 @@
 			"apple": "https://podcasts.apple.com/us/podcast/project-hail-mary-2026/id74257105?i=1000757534761",
 			"spotify": "https://open.spotify.com/episode/1PWbHJcJxtwwUHpkO3HQmR"
 		},
-		"mentioned": [
-			{
-				"title": "Hero Shout Out / Outro",
-				"year": null,
-				"film": "hero-shout-out-outro"
-			},
-			{
-				"title": "00 - Review: Project Hail Mary",
-				"year": 2026,
-				"film": "00-review-project-hail-mary"
-			},
-			{
-				"title": "30 - Spoiler Discussion: Project Hail Mary",
-				"year": 2026,
-				"film": "30-spoiler-discussion-project-hail-mary"
-			}
-		]
+		"mentioned": []
 	},
 	{
 		"id": "1032",
@@ -2854,9 +2862,19 @@
 				"film": "him"
 			},
 			{
-				"title": "The Dark Knight Trilogy",
+				"title": "Batman Begins",
 				"year": null,
-				"film": "the-dark-knight-trilogy"
+				"film": "batman-begins"
+			},
+			{
+				"title": "The Dark Knight",
+				"year": null,
+				"film": "the-dark-knight"
+			},
+			{
+				"title": "The Dark Knight Rises",
+				"year": null,
+				"film": "the-dark-knight-rises"
 			},
 			{
 				"title": "Nobody 2",
@@ -2875,13 +2893,7 @@
 			"apple": "https://podcasts.apple.com/us/podcast/episode-1027-send-help/id74257105?i=1000748544348",
 			"spotify": "https://open.spotify.com/episode/3nlSMA0uyQYWlJjawbZG2V"
 		},
-		"mentioned": [
-			{
-				"title": "The Dark Knight",
-				"year": null,
-				"film": "the-dark-knight"
-			}
-		]
+		"mentioned": []
 	},
 	{
 		"id": "1026",
@@ -3229,14 +3241,7 @@
 			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-1023-147800742",
 			"apple": "https://podcasts.apple.com/us/podcast/episode-1023-top-10-movies-of-2025-2025-junkies/id74257105?i=1000744493206",
 			"spotify": "https://open.spotify.com/episode/20kcOvtdGq0x7GkXrKcB9S"
-		},
-		"mentioned": [
-			{
-				"title": "2025 Junkies",
-				"year": null,
-				"film": "2025-junkies"
-			}
-		]
+		}
 	},
 	{
 		"id": "1022",
@@ -3606,11 +3611,6 @@
 				"film": "she-walks-in-darkness"
 			},
 			{
-				"title": "Angelina Jolie Hand Gestures",
-				"year": null,
-				"film": "angelina-jolie-hand-gestures"
-			},
-			{
 				"title": "The Chair Company",
 				"year": null,
 				"film": "the-chair-company"
@@ -3693,14 +3693,7 @@
 			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-1018-2-144554959",
 			"apple": "https://podcasts.apple.com/us/podcast/episode-1018-top-100-movies-of-the-21st-century-part-2/id74257105?i=1000738741453",
 			"spotify": "https://open.spotify.com/episode/0FwOm4d6xyLyLqLzHVtNEz"
-		},
-		"mentioned": [
-			{
-				"title": "Feature: Top 100 Movies 2000-2024 Part 2: 50 - 1",
-				"year": null,
-				"film": "feature-top-100-movies-2000-2024-part-2-50-1"
-			}
-		]
+		}
 	},
 	{
 		"id": "1017",
@@ -4186,14 +4179,7 @@
 			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-1013-1-141845610",
 			"apple": "https://podcasts.apple.com/us/podcast/episode-1013-top-100-movies-of-the-21st-century-part-1/id74257105?i=1000733142747",
 			"spotify": "https://open.spotify.com/episode/2VqTdACKSzgw9MjRRNW5SZ"
-		},
-		"mentioned": [
-			{
-				"title": "Feature: Top 100 Movies 2000-2024 Part 1 - 100-51",
-				"year": null,
-				"film": "feature-top-100-movies-2000-2024-part-1-100-51"
-			}
-		]
+		}
 	},
 	{
 		"notes": "",
@@ -5092,13 +5078,7 @@
 			"apple": "https://podcasts.apple.com/us/podcast/episode-1003-weapons-the-naked-gun/id74257105?i=1000720098195",
 			"spotify": "https://open.spotify.com/episode/01VXT5nBsf7hKHm8AwUgZL"
 		},
-		"mentioned": [
-			{
-				"title": "Other Stuff We Watched: War Of The Worlds",
-				"year": 2025,
-				"film": "other-stuff-we-watched-war-of-the-worlds"
-			}
-		]
+		"mentioned": []
 	},
 	{
 		"notes": "",
@@ -5400,23 +5380,7 @@
 			"apple": "https://podcasts.apple.com/us/podcast/episode-1000-superman/id74257105?i=1000717770046",
 			"spotify": "https://open.spotify.com/episode/5wP6pB9O0xrf0bGpjpaiAy"
 		},
-		"mentioned": [
-			{
-				"title": "Guest Intro",
-				"year": null,
-				"film": "guest-intro"
-			},
-			{
-				"title": "Episode 1000 Junkies",
-				"year": null,
-				"film": "episode-1000-junkies"
-			},
-			{
-				"title": "Fan Messages",
-				"year": null,
-				"film": "fan-messages"
-			}
-		]
+		"mentioned": []
 	},
 	{
 		"id": "999",
@@ -5453,9 +5417,9 @@
 		],
 		"watched": [
 			{
-				"title": "F1: The Movie",
+				"title": "F1",
 				"year": null,
-				"film": "f1-the-movie"
+				"film": "f1"
 			},
 			{
 				"title": "Once Upon a Time in Hollywood",
@@ -5572,9 +5536,9 @@
 		],
 		"watched": [
 			{
-				"title": "From The World of John Wick: Ballerina",
-				"year": null,
-				"film": "from-the-world-of-john-wick-ballerina"
+				"title": "Ballerina",
+				"year": 2025,
+				"film": "ballerina"
 			},
 			{
 				"title": "The Sopranos",
@@ -6909,11 +6873,6 @@
 				"title": "Last Breath",
 				"year": null,
 				"film": "last-breath"
-			},
-			{
-				"title": "Beatles Movie Announcement",
-				"year": null,
-				"film": "beatles-movie-announcement"
 			}
 		],
 		"segments": [],
@@ -6995,7 +6954,7 @@
 			{
 				"title": "Cobra Kai",
 				"year": null,
-				"film": "cobra-kai"
+				"film": "cobra-kai-season-3"
 			},
 			{
 				"title": "2073",
@@ -7593,9 +7552,9 @@
 				"film": "super-bowl-lix"
 			},
 			{
-				"title": "The Wolf Man",
-				"year": 2010,
-				"film": "the-wolf-man"
+				"title": "Wolf Man",
+				"year": 2025,
+				"film": "wolf-man"
 			},
 			{
 				"title": "Wolf",
@@ -7603,9 +7562,9 @@
 				"film": "wolf"
 			},
 			{
-				"title": "The Wolf Man",
-				"year": 1941,
-				"film": "the-wolf-man"
+				"title": "Wolf Man",
+				"year": 2025,
+				"film": "wolf-man"
 			}
 		],
 		"segments": [],
@@ -7912,9 +7871,9 @@
 				"film": "den-of-thieves"
 			},
 			{
-				"title": "Den of Thieves 2",
+				"title": "Den of Thieves 2: Pantera",
 				"year": null,
-				"film": "den-of-thieves-2"
+				"film": "den-of-thieves-2-pantera"
 			},
 			{
 				"title": "The Beast",
@@ -8025,13 +7984,7 @@
 			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-976-10-120163849",
 			"spotify": "https://open.spotify.com/episode/6SmTRrAU3LgUlRSKFTzT8g"
 		},
-		"mentioned": [
-			{
-				"title": "2024 Junkies",
-				"year": null,
-				"film": "2024-junkies"
-			}
-		]
+		"mentioned": []
 	},
 	{
 		"id": "975",
@@ -8221,7 +8174,7 @@
 			{
 				"title": "Squid Game: Season 2",
 				"year": null,
-				"film": "squid-game-season-2"
+				"film": "squid-game"
 			},
 			{
 				"title": "The Intern",
@@ -8254,11 +8207,6 @@
 			"spotify": "https://open.spotify.com/episode/571swFWG8nnThCntBTyfva"
 		},
 		"mentioned": [
-			{
-				"title": "05 - Review: Nosferatu",
-				"year": 2024,
-				"film": "05-review-nosferatu"
-			},
 			{
 				"title": "Squid Game",
 				"year": null,
@@ -9529,9 +9477,9 @@
 				"film": "apocalypse-now"
 			},
 			{
-				"title": "Hearts of Darkness",
+				"title": "Hearts of Darkness: A Filmmaker's Apocalypse",
 				"year": null,
-				"film": "hearts-of-darkness"
+				"film": "hearts-of-darkness-a-filmmakers-apocalypse"
 			}
 		],
 		"segments": [],
@@ -9709,9 +9657,9 @@
 				"film": "the-sixth-sense"
 			},
 			{
-				"title": "Silence of the Lambs",
+				"title": "The Silence of the Lambs",
 				"year": null,
-				"film": "silence-of-the-lambs"
+				"film": "the-silence-of-the-lambs"
 			},
 			{
 				"title": "Election",
@@ -10081,13 +10029,7 @@
 			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-958-110987445",
 			"spotify": "https://open.spotify.com/episode/5fOVtYMpl74sa9kSDXGYQQ"
 		},
-		"mentioned": [
-			{
-				"title": "55 - Review: The Crow",
-				"year": 1994,
-				"film": "55-review-the-crow"
-			}
-		]
+		"mentioned": []
 	},
 	{
 		"id": "957",
@@ -10341,7 +10283,7 @@
 			{
 				"title": "Cobra Kai",
 				"year": null,
-				"film": "cobra-kai"
+				"film": "cobra-kai-season-3"
 			},
 			{
 				"title": "The Flash",
@@ -10451,11 +10393,6 @@
 				"title": "Justice League: Crisis on Infinite Earths",
 				"year": null,
 				"film": "justice-league-crisis-on-infinite-earths"
-			},
-			{
-				"title": "\"Scamming the Scammers\" Interlude",
-				"year": null,
-				"film": "scamming-the-scammers-interlude"
 			},
 			{
 				"title": "Abigail",
@@ -11653,13 +11590,7 @@
 			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-943-of-104333387",
 			"spotify": "https://open.spotify.com/episode/1v8TRDsKXF6WSAOrOYgzhi"
 		},
-		"mentioned": [
-			{
-				"title": "Streaming Events We Participated In: Knuckles",
-				"year": null,
-				"film": "streaming-events-we-participated-in-knuckles"
-			}
-		]
+		"mentioned": []
 	},
 	{
 		"id": "942",
@@ -11824,9 +11755,14 @@
 				"film": "humane"
 			},
 			{
-				"title": "Rebel Moon Part 1 and 2",
+				"title": "Rebel Moon - Part One: A Child of Fire",
 				"year": null,
-				"film": "rebel-moon-part-1-and-2"
+				"film": "rebel-moon-part-one-a-child-of-fire"
+			},
+			{
+				"title": "Rebel Moon - Part Two: The Scargiver",
+				"year": null,
+				"film": "rebel-moon-part-two-the-scargiver"
 			}
 		],
 		"segments": [],
@@ -12280,13 +12216,7 @@
 			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-937-101675900",
 			"spotify": "https://open.spotify.com/episode/5WPSEaY5s6gWjm56w5YS1w"
 		},
-		"mentioned": [
-			{
-				"title": "10 - Review: Road House",
-				"year": 1989,
-				"film": "10-review-road-house"
-			}
-		]
+		"mentioned": []
 	},
 	{
 		"id": "premium-denis-villeneuve",
@@ -12381,9 +12311,9 @@
 				"film": "rustin"
 			},
 			{
-				"title": "Roadhouse",
+				"title": "Road House",
 				"year": 2024,
-				"film": "roadhouse"
+				"film": "road-house-2024"
 			},
 			{
 				"title": "X-Men '97",
@@ -12408,11 +12338,6 @@
 			"spotify": "https://open.spotify.com/episode/4Uzvf4eaC51qSNV6vmBSlH"
 		},
 		"mentioned": [
-			{
-				"title": "Road House",
-				"year": 2024,
-				"film": "road-house-2024"
-			},
 			{
 				"title": "Beetlejuice Beetlejuice",
 				"year": null,
@@ -12568,11 +12493,6 @@
 				"film": "good-time"
 			},
 			{
-				"title": "Emma Stone Oscar Reaction gif",
-				"year": null,
-				"film": "emma-stone-oscar-reaction-gif"
-			},
-			{
 				"title": "Damsel",
 				"year": null,
 				"film": "damsel"
@@ -12594,13 +12514,7 @@
 			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-934-100312215",
 			"spotify": "https://open.spotify.com/episode/6l8knVZ2bgQk7CohmoOsko"
 		},
-		"mentioned": [
-			{
-				"title": "Film Junk Re-Review: Ready Player One",
-				"year": null,
-				"film": "film-junk-re-review-ready-player-one"
-			}
-		]
+		"mentioned": []
 	},
 	{
 		"notes": "",
@@ -12942,11 +12856,6 @@
 				"title": "her",
 				"year": null,
 				"film": "her"
-			},
-			{
-				"title": "12 - Top 5/Bottom 5",
-				"year": null,
-				"film": "12-top-5-bottom-5"
 			}
 		]
 	},
@@ -13453,19 +13362,7 @@
 			"gumroad": "https://filmjunk.gumroad.com/l/olxpzq",
 			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-925-10-96274437",
 			"spotify": "https://open.spotify.com/episode/6A94y0o1Sb5PZ3YIs9JRAr"
-		},
-		"mentioned": [
-			{
-				"title": "The Junkers Choice Winners 2023",
-				"year": null,
-				"film": "the-junkers-choice-winners-2023"
-			},
-			{
-				"title": "2023 Junkies",
-				"year": null,
-				"film": "2023-junkies"
-			}
-		]
+		}
 	},
 	{
 		"id": "924",
@@ -14389,13 +14286,7 @@
 			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-916-91906513",
 			"spotify": "https://open.spotify.com/episode/0EpDYLxKXB7KQqPAr1ydgZ"
 		},
-		"mentioned": [
-			{
-				"title": "35- Review: The Wicker Man",
-				"year": 1973,
-				"film": "35-review-the-wicker-man"
-			}
-		]
+		"mentioned": []
 	},
 	{
 		"notes": "",
@@ -14566,9 +14457,9 @@
 				"film": "nosferatu"
 			},
 			{
-				"title": "Horror of Dracula",
-				"year": null,
-				"film": "horror-of-dracula"
+				"title": "Dracula",
+				"year": 1958,
+				"film": "dracula"
 			},
 			{
 				"title": "Blood for Dracula",
@@ -14594,11 +14485,6 @@
 				"title": "Dracula: Dead and Loving It",
 				"year": null,
 				"film": "dracula-dead-and-loving-it"
-			},
-			{
-				"title": "33 - Dracula",
-				"year": 1979,
-				"film": "33-dracula"
 			}
 		]
 	},
@@ -14702,11 +14588,6 @@
 				"title": "Claudio Simonetti's Goblin Live",
 				"year": null,
 				"film": "claudio-simonettis-goblin-live"
-			},
-			{
-				"title": "Levithan",
-				"year": 1989,
-				"film": "levithan"
 			}
 		]
 	},
@@ -14845,11 +14726,6 @@
 				"title": "Reed's \"Story\"",
 				"year": null,
 				"film": "reeds-story"
-			},
-			{
-				"title": "30 - Other Stuff We Watched: Imitation of Life",
-				"year": 1934,
-				"film": "30-other-stuff-we-watched-imitation-of-life"
 			}
 		]
 	},
@@ -15591,9 +15467,14 @@
 				"film": "universal-soldier"
 			},
 			{
-				"title": "Rapid Fire, Showdown in Little Tokyo",
+				"title": "Rapid Fire",
+				"year": 1992,
+				"film": "rapid-fire"
+			},
+			{
+				"title": "Showdown in Little Tokyo",
 				"year": null,
-				"film": "rapid-fire-showdown-in-little-tokyo"
+				"film": "showdown-in-little-tokyo"
 			},
 			{
 				"title": "The Pope's Exorcist",
@@ -15805,7 +15686,7 @@
 			{
 				"title": "Extraterrestrial Visitors",
 				"year": null,
-				"film": "extraterrestrial-visitors"
+				"film": "extra-terrestrial-visitors"
 			}
 		]
 	},
@@ -16077,7 +15958,7 @@
 			{
 				"title": "Commando",
 				"year": null,
-				"film": "commando"
+				"film": "retro-review-commando"
 			},
 			{
 				"title": "The Running Man",
@@ -16272,9 +16153,9 @@
 				"film": "tramps"
 			},
 			{
-				"title": "Extraction II",
+				"title": "Extraction 2",
 				"year": null,
-				"film": "extraction-ii"
+				"film": "extraction-2"
 			},
 			{
 				"title": "Transformers: Rise of the Beasts",
@@ -16453,9 +16334,9 @@
 				"film": "waynes-world"
 			},
 			{
-				"title": "Superman 3",
+				"title": "Superman III",
 				"year": null,
-				"film": "superman-3"
+				"film": "superman-iii"
 			},
 			{
 				"title": "The Fly",
@@ -16573,9 +16454,14 @@
 				"film": "mcgregor-forever"
 			},
 			{
-				"title": "Succession / Barry",
+				"title": "Succession",
 				"year": null,
-				"film": "succession-barry"
+				"film": "succession"
+			},
+			{
+				"title": "Barry",
+				"year": null,
+				"film": "barry"
 			},
 			{
 				"title": "Reality",
@@ -16839,9 +16725,9 @@
 		],
 		"watched": [
 			{
-				"title": "Hands on a Hard Body",
+				"title": "Hands on a Hardbody: The Documentary",
 				"year": null,
-				"film": "hands-on-a-hard-body"
+				"film": "hands-on-a-hardbody-the-documentary"
 			},
 			{
 				"title": "Tales from the Darkside: The Movie",
@@ -17049,13 +16935,7 @@
 			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-895-83174165",
 			"spotify": "https://open.spotify.com/episode/1AJI1G06xObnxxIgeOg5kN"
 		},
-		"mentioned": [
-			{
-				"title": "40 - Retro Review: Dead Again",
-				"year": 1991,
-				"film": "40-retro-review-dead-again"
-			}
-		]
+		"mentioned": []
 	},
 	{
 		"id": "894",
@@ -17099,7 +16979,7 @@
 			{
 				"title": "The Mandalorian: Season 3",
 				"year": null,
-				"film": "the-mandalorian-season-3"
+				"film": "the-mandalorian-season-2"
 			},
 			{
 				"title": "The Artifice Girl",
@@ -17127,7 +17007,7 @@
 			{
 				"title": "The Mandalorian",
 				"year": null,
-				"film": "the-mandalorian"
+				"film": "the-mandalorian-season-2"
 			}
 		]
 	},
@@ -17301,13 +17181,7 @@
 			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-893-is-82111681",
 			"spotify": "https://open.spotify.com/episode/7IqWlzSZ2ENF67nkXHRVdj"
 		},
-		"mentioned": [
-			{
-				"title": "45 - Other Stuff We Watched: Evil Dead",
-				"year": 2013,
-				"film": "45-other-stuff-we-watched-evil-dead"
-			}
-		]
+		"mentioned": []
 	},
 	{
 		"notes": "",
@@ -17490,7 +17364,7 @@
 			{
 				"title": "Succession: Season 4",
 				"year": null,
-				"film": "succession-season-4"
+				"film": "succession"
 			},
 			{
 				"title": "Under Siege",
@@ -17583,7 +17457,7 @@
 			{
 				"title": "The Mandalorian: Season 3",
 				"year": null,
-				"film": "the-mandalorian-season-3"
+				"film": "the-mandalorian-season-2"
 			},
 			{
 				"title": "Black Sunday",
@@ -17601,9 +17475,9 @@
 				"film": "tetris"
 			},
 			{
-				"title": "Midsommar: Director's Cut",
+				"title": "Midsommar",
 				"year": null,
-				"film": "midsommar-directors-cut"
+				"film": "midsommar"
 			},
 			{
 				"title": "Filmmakers for the Prosecution",
@@ -17631,7 +17505,7 @@
 			{
 				"title": "The Mandalorian",
 				"year": null,
-				"film": "the-mandalorian"
+				"film": "the-mandalorian-season-2"
 			}
 		]
 	},
@@ -18057,7 +17931,7 @@
 			{
 				"title": "The Mandalorian",
 				"year": null,
-				"film": "the-mandalorian"
+				"film": "the-mandalorian-season-2"
 			},
 			{
 				"title": "All Quiet on the Western Front",
@@ -18090,9 +17964,14 @@
 				"film": "argentina-1985"
 			},
 			{
-				"title": "Ted Bundy, EO",
+				"title": "Ted Bundy",
 				"year": null,
-				"film": "ted-bundy-eo"
+				"film": "ted-bundy"
+			},
+			{
+				"title": "EO",
+				"year": null,
+				"film": "eo"
 			}
 		],
 		"segments": [],
@@ -18250,13 +18129,7 @@
 			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-885-79411092",
 			"spotify": "https://open.spotify.com/episode/5IAzIFKuBleleuMCrvOTRe"
 		},
-		"mentioned": [
-			{
-				"title": "Cheap Charts Bits",
-				"year": null,
-				"film": "cheap-charts-bits"
-			}
-		]
+		"mentioned": []
 	},
 	{
 		"id": "884",
@@ -18480,13 +18353,7 @@
 			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-883-78745914",
 			"spotify": "https://open.spotify.com/episode/1TxLHuDevVTsK887vdmTOI"
 		},
-		"mentioned": [
-			{
-				"title": "Super Bowl Reactions",
-				"year": null,
-				"film": "super-bowl-reactions"
-			}
-		]
+		"mentioned": []
 	},
 	{
 		"notes": "",
@@ -19053,23 +18920,7 @@
 			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-878-of-77158243",
 			"spotify": "https://open.spotify.com/episode/1J254Zud3UIig7wMFPigs9"
 		},
-		"mentioned": [
-			{
-				"title": "Best of 2022",
-				"year": null,
-				"film": "best-of-2022"
-			},
-			{
-				"title": "2022 Junkers' Choice Award Winners",
-				"year": null,
-				"film": "2022-junkers-choice-award-winners"
-			},
-			{
-				"title": "2022 Junkies",
-				"year": null,
-				"film": "2022-junkies"
-			}
-		]
+		"mentioned": []
 	},
 	{
 		"id": "877",
@@ -19379,13 +19230,7 @@
 			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-876-of-76210199",
 			"spotify": "https://open.spotify.com/episode/5oVA18TlQrcUMf9RD3xYNx"
 		},
-		"mentioned": [
-			{
-				"title": "05 - Other Stuff We Watched: Mortal Kombat",
-				"year": 2021,
-				"film": "05-other-stuff-we-watched-mortal-kombat"
-			}
-		]
+		"mentioned": []
 	},
 	{
 		"id": "premium-james-cameron",
@@ -19396,8 +19241,8 @@
 		"description": "Kaltxì! In this episode of the Film Junk Premium Podcast, we talk about the films of James Cameron! Our conversation includes Piranha 2: The Spawning, The Abyss, True Lies, Titanic, and Avatar. \r\n\r\nIf you like what you hear, head to patreon.com/filmjunk and subscribe.",
 		"covers": [
 			{
-				"title": "Piranha 2: The Spawning",
-				"film": "piranha-2-the-spawning"
+				"title": "Piranha II: The Spawning",
+				"film": "piranha-ii-the-spawning"
 			},
 			{
 				"title": "The Abyss",
@@ -19409,7 +19254,7 @@
 			},
 			{
 				"title": "Titanic",
-				"film": "titanic"
+				"film": "titanic-3d"
 			},
 			{
 				"title": "Avatar",
@@ -19442,7 +19287,7 @@
 			{
 				"title": "Titanic",
 				"year": null,
-				"film": "titanic"
+				"film": "titanic-3d"
 			},
 			{
 				"title": "Avatar",
@@ -20194,12 +20039,12 @@
 				"film": "the-beyond"
 			},
 			{
-				"title": "House by the Cemetery",
-				"film": "house-by-the-cemetery"
+				"title": "The House by the Cemetery",
+				"film": "the-house-by-the-cemetery"
 			},
 			{
-				"title": "New York Ripper",
-				"film": "new-york-ripper"
+				"title": "The New York Ripper",
+				"film": "the-new-york-ripper"
 			},
 			{
 				"title": "Conquest",
@@ -20333,13 +20178,7 @@
 			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-869-73853494",
 			"spotify": "https://open.spotify.com/episode/6ih0izxkspynSIu2rr9E1N"
 		},
-		"mentioned": [
-			{
-				"title": "45 - Retro Review: Phantasm",
-				"year": 1979,
-				"film": "45-retro-review-phantasm"
-			}
-		]
+		"mentioned": []
 	},
 	{
 		"id": "868",
@@ -20729,8 +20568,16 @@
 		"description": "On this episode of the Film Junk Premium Podcast, we talk the Child's Play franchise. Our discussion includes Child's Play, Child's Play 2, Child's Play 3, Bride of Chucky, Seed of Chucky, Curse of Chucky, and Cult of Chucky.",
 		"covers": [
 			{
-				"title": "Child's Play 1-3",
-				"film": "childs-play-1-3"
+				"title": "Child's Play (1988)",
+				"film": "childs-play"
+			},
+			{
+				"title": "Child's Play 2",
+				"film": "childs-play-2"
+			},
+			{
+				"title": "Child's Play 3",
+				"film": "childs-play-3"
 			},
 			{
 				"title": "Bride of Chucky",
@@ -21014,7 +20861,7 @@
 			{
 				"title": "Cobra Kai: Season 4 + 5",
 				"year": null,
-				"film": "cobra-kai-season-4-5"
+				"film": "cobra-kai-season-3"
 			},
 			{
 				"title": "Thriller: A Cruel Picture",
@@ -21205,9 +21052,9 @@
 				"film": "extreme-measures"
 			},
 			{
-				"title": "Berserk: Golden Age Arc I - The Egg of the King",
+				"title": "Berserk: The Golden Age Arc I - The Egg of the King",
 				"year": null,
-				"film": "berserk-golden-age-arc-i-the-egg-of-the-king"
+				"film": "berserk-the-golden-age-arc-i-the-egg-of-the-king"
 			},
 			{
 				"title": "Funny Pages",
@@ -21997,9 +21844,19 @@
 				"film": "the-orville-new-horizons"
 			},
 			{
-				"title": "Star Wars: Episodes 1-3",
+				"title": "Star Wars: Episode I - The Phantom Menace",
 				"year": null,
-				"film": "star-wars-episodes-1-3"
+				"film": "star-wars-episode-i-the-phantom-menace"
+			},
+			{
+				"title": "Star Wars: Episode II - Attack of the Clones",
+				"year": null,
+				"film": "star-wars-episode-ii-attack-of-the-clones"
+			},
+			{
+				"title": "Star Wars: Episode III - Revenge of the Sith",
+				"year": null,
+				"film": "star-wars-episode-iii-revenge-of-the-sith"
 			},
 			{
 				"title": "Step Brothers",
@@ -22508,13 +22365,7 @@
 			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-850-of-67523243",
 			"spotify": "https://open.spotify.com/episode/5t5JHDdwLz0gXZCN3HHezp"
 		},
-		"mentioned": [
-			{
-				"title": "38 - Other Stuff We Watched: Crash",
-				"year": 1996,
-				"film": "38-other-stuff-we-watched-crash"
-			}
-		]
+		"mentioned": []
 	},
 	{
 		"id": "premium-tony-scott",
@@ -22991,12 +22842,20 @@
 		"description": "I will making you an offer you won't refuse! In this episode of the Film Junk Premium Podcast, we discuss The Godfather DUALITY (The Godfather and The Godfather Part II) along with The Godfather Part III, and The Godfather Coda: The Death of Michael Corleone.",
 		"covers": [
 			{
-				"title": "The Godfather 1-3",
-				"film": "the-godfather-1-3"
+				"title": "The Godfather",
+				"film": "the-godfather"
 			},
 			{
-				"title": "The Godfather Coda",
-				"film": "the-godfather-coda"
+				"title": "The Godfather Part II",
+				"film": "the-godfather-part-ii"
+			},
+			{
+				"title": "The Godfather Part III",
+				"film": "the-godfather-part-iii"
+			},
+			{
+				"title": "The Godfather Part III",
+				"film": "the-godfather-part-iii"
 			}
 		],
 		"notes": "",
@@ -23067,7 +22926,7 @@
 			{
 				"title": "E.R.: Season 15",
 				"year": null,
-				"film": "e-r-season-15"
+				"film": "e-r"
 			},
 			{
 				"title": "Lingo",
@@ -23222,7 +23081,7 @@
 			{
 				"title": "PG: Psycho Goreman",
 				"year": null,
-				"film": "pg-psycho-goreman"
+				"film": "psycho-goreman"
 			}
 		],
 		"segments": [],
@@ -23486,18 +23345,7 @@
 			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-842-65095440",
 			"spotify": "https://open.spotify.com/episode/4I8mRFJr6A8UIQAtkUv1JB"
 		},
-		"mentioned": [
-			{
-				"title": "Cool Thing of the Week: Haulathon",
-				"year": null,
-				"film": "cool-thing-of-the-week-haulathon"
-			},
-			{
-				"title": "Criterionitis: Rosemary's Baby",
-				"year": null,
-				"film": "criterionitis-rosemarys-baby"
-			}
-		]
+		"mentioned": []
 	},
 	{
 		"id": "841",
@@ -23534,9 +23382,9 @@
 		],
 		"watched": [
 			{
-				"title": "Apollo 10.5: A Space Age Childhood",
+				"title": "Apollo 10½: A Space Age Childhood",
 				"year": null,
-				"film": "apollo-10-5-a-space-age-childhood"
+				"film": "apollo-101-2-a-space-age-childhood"
 			},
 			{
 				"title": "The Bubble",
@@ -23551,7 +23399,7 @@
 			{
 				"title": "Atlanta",
 				"year": null,
-				"film": "atlanta"
+				"film": "atlanta-season-4"
 			},
 			{
 				"title": "Halo",
@@ -23663,7 +23511,7 @@
 			{
 				"title": "E.R.: Season 13 and 14",
 				"year": null,
-				"film": "e-r-season-13-and-14"
+				"film": "e-r"
 			},
 			{
 				"title": "Cleopatra",
@@ -23916,13 +23764,7 @@
 			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-839-63921757",
 			"spotify": "https://open.spotify.com/episode/4GzLCIzqqML3q7Li8ZEzzL"
 		},
-		"mentioned": [
-			{
-				"title": "40 - Other Stuff We Watched: West Side Story",
-				"year": 2021,
-				"film": "40-other-stuff-we-watched-west-side-story"
-			}
-		]
+		"mentioned": []
 	},
 	{
 		"notes": "",
@@ -24013,9 +23855,29 @@
 				"film": "the-ridiculous-6"
 			},
 			{
-				"title": "The Bourne Series",
+				"title": "The Bourne Identity",
+				"year": 2002,
+				"film": "the-bourne-identity"
+			},
+			{
+				"title": "The Bourne Supremacy",
 				"year": null,
-				"film": "the-bourne-series"
+				"film": "the-bourne-supremacy"
+			},
+			{
+				"title": "The Bourne Ultimatum",
+				"year": null,
+				"film": "the-bourne-ultimatum"
+			},
+			{
+				"title": "The Bourne Legacy",
+				"year": null,
+				"film": "the-bourne-legacy"
+			},
+			{
+				"title": "Jason Bourne",
+				"year": null,
+				"film": "jason-bourne"
 			},
 			{
 				"title": "Batman: Year One",
@@ -24023,9 +23885,9 @@
 				"film": "batman-year-one"
 			},
 			{
-				"title": "Dune: Part One",
-				"year": null,
-				"film": "dune-part-one"
+				"title": "Dune",
+				"year": 2021,
+				"film": "dune-2021"
 			},
 			{
 				"title": "How To with John Wilson",
@@ -24178,18 +24040,7 @@
 			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-837-63261487",
 			"spotify": "https://open.spotify.com/episode/42XGbiXXEL6P2NEWTmK3ED"
 		},
-		"mentioned": [
-			{
-				"title": "10 - Review: Scream",
-				"year": 2022,
-				"film": "10-review-scream"
-			},
-			{
-				"title": "45 - Spoiler Discussion: Scream",
-				"year": 2022,
-				"film": "45-spoiler-discussion-scream"
-			}
-		]
+		"mentioned": []
 	},
 	{
 		"id": "836",
@@ -24236,9 +24087,9 @@
 				"film": "ken-and-barbie-killers-the-lost-murder-tapes"
 			},
 			{
-				"title": "Texas Chainsaw Massacre: The Next Generation",
+				"title": "The Return of the Texas Chainsaw Massacre",
 				"year": null,
-				"film": "texas-chainsaw-massacre-the-next-generation"
+				"film": "the-return-of-the-texas-chainsaw-massacre"
 			},
 			{
 				"title": "Love is Blind: Season 2",
@@ -24269,13 +24120,7 @@
 			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-836-62950957",
 			"spotify": "https://open.spotify.com/episode/7o3WoWEQDi83rvHPmCYPhk"
 		},
-		"mentioned": [
-			{
-				"title": "25 - Review: Texas Chainsaw Massacre",
-				"year": 2022,
-				"film": "25-review-texas-chainsaw-massacre"
-			}
-		]
+		"mentioned": []
 	},
 	{
 		"notes": "",
@@ -24384,7 +24229,7 @@
 			{
 				"title": "Big Bug",
 				"year": null,
-				"film": "big-bug"
+				"film": "bigbug"
 			},
 			{
 				"title": "Wind River",
@@ -24530,13 +24375,7 @@
 			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-834-of-62369599",
 			"spotify": "https://open.spotify.com/episode/1qFc1V7JAgTQVpYRg1l8E0"
 		},
-		"mentioned": [
-			{
-				"title": "50 - Other Stuff We Watched: MacGruber",
-				"year": 2021,
-				"film": "50-other-stuff-we-watched-macgruber"
-			}
-		]
+		"mentioned": []
 	},
 	{
 		"notes": "",
@@ -24611,7 +24450,7 @@
 			{
 				"title": "Cobra Kai: Season 4",
 				"year": null,
-				"film": "cobra-kai-season-4"
+				"film": "cobra-kai-season-3"
 			}
 		],
 		"segments": [
@@ -24635,13 +24474,7 @@
 			"patreon": "https://www.patreon.com/filmjunk/posts/criterionitis-62121051",
 			"spotify": "https://open.spotify.com/episode/2mTaXiR7jxBmxYJVkQctso"
 		},
-		"mentioned": [
-			{
-				"title": "Feature: Top 5 Most Anticipated Movies of 2022",
-				"year": null,
-				"film": "feature-top-5-most-anticipated-movies-of-2022"
-			}
-		]
+		"mentioned": []
 	},
 	{
 		"id": "832",
@@ -24821,9 +24654,14 @@
 				"film": "being-the-ricardos"
 			},
 			{
-				"title": "Wayne's World 1 + 2",
+				"title": "Wayne's World",
 				"year": null,
-				"film": "waynes-world-1-2"
+				"film": "waynes-world"
+			},
+			{
+				"title": "Wayne's World 2",
+				"year": null,
+				"film": "waynes-world-2"
 			},
 			{
 				"title": "Disclosure",
@@ -24865,13 +24703,7 @@
 			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-831-of-61358592",
 			"spotify": "https://open.spotify.com/episode/32YdM44rL6Ex9rOMn9wVy7"
 		},
-		"mentioned": [
-			{
-				"title": "Wayne's World",
-				"year": null,
-				"film": "waynes-world"
-			}
-		]
+		"mentioned": []
 	},
 	{
 		"notes": "",
@@ -24930,19 +24762,7 @@
 			"gumroad": "https://filmjunk.gumroad.com/l/hjvmm",
 			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-830-10-61102725",
 			"spotify": "https://open.spotify.com/episode/6YvF2S2l1obwi4UG1AAn6f"
-		},
-		"mentioned": [
-			{
-				"title": "2021 Junkies",
-				"year": null,
-				"film": "2021-junkies"
-			},
-			{
-				"title": "2021 Junkers' Choice Awards",
-				"year": null,
-				"film": "2021-junkers-choice-awards"
-			}
-		]
+		}
 	},
 	{
 		"id": "premium-paul-thomas-anderson",
@@ -25298,7 +25118,7 @@
 			{
 				"title": "Succession: Season 3",
 				"year": null,
-				"film": "succession-season-3"
+				"film": "succession"
 			},
 			{
 				"title": "Curb Your Enthusiasm",
@@ -25316,9 +25136,9 @@
 				"film": "the-power-of-the-dog"
 			},
 			{
-				"title": "Biggles: Adventures in Time",
+				"title": "Biggles",
 				"year": null,
-				"film": "biggles-adventures-in-time"
+				"film": "biggles"
 			},
 			{
 				"title": "Mandibles",
@@ -26081,8 +25901,8 @@
 				"film": "the-wolfman"
 			},
 			{
-				"title": "The Creature From the Black Lagoon",
-				"film": "the-creature-from-the-black-lagoon"
+				"title": "Creature from the Black Lagoon",
+				"film": "creature-from-the-black-lagoon"
 			}
 		],
 		"notes": "",
@@ -26230,9 +26050,29 @@
 				"film": "quantum-of-solace"
 			},
 			{
-				"title": "Halloween 1-5",
+				"title": "Halloween",
+				"year": 1978,
+				"film": "halloween-1978"
+			},
+			{
+				"title": "Halloween II",
+				"year": 1981,
+				"film": "halloween-ii-1981"
+			},
+			{
+				"title": "Halloween III: Season of the Witch",
 				"year": null,
-				"film": "halloween-1-5"
+				"film": "halloween-iii-season-of-the-witch"
+			},
+			{
+				"title": "Halloween 4: The Return of Michael Myers",
+				"year": null,
+				"film": "halloween-4-the-return-of-michael-myers"
+			},
+			{
+				"title": "Halloween 5: The Revenge of Michael Myers",
+				"year": null,
+				"film": "halloween-5-the-revenge-of-michael-myers"
 			},
 			{
 				"title": "Squid Game",
@@ -26646,7 +26486,7 @@
 			{
 				"title": "The White Lotus",
 				"year": null,
-				"film": "the-white-lotus"
+				"film": "the-white-lotus-season-2"
 			},
 			{
 				"title": "Reminiscence",
@@ -26701,11 +26541,6 @@
 			"spotify": "https://open.spotify.com/episode/7DN257v7HrBUClZmPts5kq"
 		},
 		"mentioned": [
-			{
-				"title": "In-House Stuff: FilmJunk.com is Shutting Down",
-				"year": null,
-				"film": "in-house-stuff-filmjunk-com-is-shutting-down"
-			},
 			{
 				"title": "The Matrix Resurrections",
 				"year": null,
@@ -27093,9 +26928,19 @@
 				"film": "the-suicide-squad"
 			},
 			{
-				"title": "Fear Street Trilogy",
+				"title": "Fear Street: 1994",
 				"year": null,
-				"film": "fear-street-trilogy"
+				"film": "fear-street-1994"
+			},
+			{
+				"title": "Fear Street: 1978",
+				"year": null,
+				"film": "fear-street-1978"
+			},
+			{
+				"title": "Fear Street: 1666",
+				"year": null,
+				"film": "fear-street-1666"
 			},
 			{
 				"title": "Profile",
@@ -27108,9 +26953,9 @@
 				"film": "freaky"
 			},
 			{
-				"title": "The Lamp (aka The Outing)",
-				"year": null,
-				"film": "the-lamp-aka-the-outing"
+				"title": "The Outing",
+				"year": 1987,
+				"film": "the-outing"
 			},
 			{
 				"title": "Deadlock",
@@ -27135,7 +26980,7 @@
 			{
 				"title": "The White Lotus",
 				"year": null,
-				"film": "the-white-lotus"
+				"film": "the-white-lotus-season-2"
 			},
 			{
 				"title": "Untold: Malice at the Palace",
@@ -27263,7 +27108,7 @@
 			{
 				"title": "F9",
 				"year": null,
-				"film": "f9"
+				"film": "f9-the-fast-saga"
 			},
 			{
 				"title": "Val",
@@ -27276,9 +27121,9 @@
 				"film": "tombstone"
 			},
 			{
-				"title": "Fear Street Part 3: 1666",
+				"title": "Fear Street: 1666",
 				"year": null,
-				"film": "fear-street-part-3-1666"
+				"film": "fear-street-1666"
 			},
 			{
 				"title": "Jungle Cruise",
@@ -27373,9 +27218,9 @@
 				"film": "minnie-and-moskowitz"
 			},
 			{
-				"title": "The Wolf Man",
-				"year": 1941,
-				"film": "the-wolf-man"
+				"title": "Wolf Man",
+				"year": 2025,
+				"film": "wolf-man"
 			},
 			{
 				"title": "Dragonslayer",
@@ -27411,18 +27256,7 @@
 			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-809-54503389",
 			"spotify": "https://open.spotify.com/episode/1JvadQrG0cxhT2SXCyB0Bp"
 		},
-		"mentioned": [
-			{
-				"title": "Book Review + Re-Review: Once Upon a Time... in Hollywood",
-				"year": null,
-				"film": "book-review-re-review-once-upon-a-time-in-hollywood"
-			},
-			{
-				"title": "Wolf Man",
-				"year": null,
-				"film": "wolf-man"
-			}
-		]
+		"mentioned": []
 	},
 	{
 		"id": "808",
@@ -27730,9 +27564,9 @@
 				"film": "censor"
 			},
 			{
-				"title": "Fear Street: Part 2 - 1978",
+				"title": "Fear Street: 1978",
 				"year": null,
-				"film": "fear-street-part-2-1978"
+				"film": "fear-street-1978"
 			},
 			{
 				"title": "George of the Jungle",
@@ -27832,9 +27666,9 @@
 				"film": "looking-for-his-murderer"
 			},
 			{
-				"title": "Fear Street Part 1: 1994",
+				"title": "Fear Street: 1994",
 				"year": null,
-				"film": "fear-street-part-1-1994"
+				"film": "fear-street-1994"
 			},
 			{
 				"title": "ER",
@@ -27871,15 +27705,23 @@
 		"description": "On this episode of the Film Junk Premium Podcast, we talk the Ocean's Franchise. Our discussion includes Ocean's 11 (1960), Ocean's Eleven, Ocean's Twelve, Ocean's Thirteen, and Ocean's 8.",
 		"covers": [
 			{
-				"title": "Ocean's 11 (1960)",
-				"film": "oceans-11"
+				"title": "Ocean's Eleven (2001)",
+				"film": "oceans-eleven"
 			},
 			{
-				"title": "Ocean's 11-13",
-				"film": "oceans-11-13"
+				"title": "Ocean's Eleven (2001)",
+				"film": "oceans-eleven"
 			},
 			{
-				"title": "Ocean's 8",
+				"title": "Ocean's Twelve",
+				"film": "oceans-twelve"
+			},
+			{
+				"title": "Ocean's Thirteen",
+				"film": "oceans-thirteen"
+			},
+			{
+				"title": "Ocean's Eight",
 				"film": "oceans-8"
 			}
 		],
@@ -27931,7 +27773,7 @@
 			{
 				"title": "Mythic Quest: Season 1",
 				"year": null,
-				"film": "mythic-quest-season-1"
+				"film": "mythic-quest"
 			}
 		],
 		"segments": [],
@@ -28028,7 +27870,7 @@
 			{
 				"title": "Hacks",
 				"year": null,
-				"film": "hacks"
+				"film": "hacks-season-3"
 			},
 			{
 				"title": "Deep Impact",
@@ -28248,9 +28090,9 @@
 				"film": "the-mosquito-coast"
 			},
 			{
-				"title": "Speed 4K",
-				"year": null,
-				"film": "speed-4k"
+				"title": "Speed",
+				"year": 1994,
+				"film": "speed"
 			},
 			{
 				"title": "Shiva Baby",
@@ -28263,9 +28105,9 @@
 				"film": "career-opportunities"
 			},
 			{
-				"title": "Bo Burnham's Inside",
+				"title": "Bo Burnham: Inside",
 				"year": null,
-				"film": "bo-burnhams-inside"
+				"film": "bo-burnham-inside"
 			},
 			{
 				"title": "Purple Rain",
@@ -28411,13 +28253,7 @@
 			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-800-of-52048874",
 			"spotify": "https://open.spotify.com/episode/015eTHQ2303ClGk7XgC2pi"
 		},
-		"mentioned": [
-			{
-				"title": "Feature: Film Junk Bits",
-				"year": null,
-				"film": "feature-film-junk-bits"
-			}
-		]
+		"mentioned": []
 	},
 	{
 		"id": "799",
@@ -28501,9 +28337,9 @@
 				"film": "jupiters-legacy"
 			},
 			{
-				"title": "9 to 5",
+				"title": "Nine to Five",
 				"year": null,
-				"film": "9-to-5"
+				"film": "nine-to-five"
 			},
 			{
 				"title": "Oxygen",
@@ -28559,13 +28395,7 @@
 			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-799-of-51433561",
 			"spotify": "https://open.spotify.com/episode/3V7psuMx50JHKUjhEbLZA9"
 		},
-		"mentioned": [
-			{
-				"title": "40 - Other Stuff We Watched: The Heartbreak Kid",
-				"year": 1972,
-				"film": "40-other-stuff-we-watched-the-heartbreak-kid"
-			}
-		]
+		"mentioned": []
 	},
 	{
 		"id": "2021-05-18-the-falcon-and-the-winter-soldier-wandavision",
@@ -28842,7 +28672,7 @@
 			{
 				"title": "Titanic",
 				"year": null,
-				"film": "titanic"
+				"film": "titanic-3d"
 			},
 			{
 				"title": "Alita: Battle Angel",
@@ -28898,13 +28728,7 @@
 			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-797-50882314",
 			"spotify": "https://open.spotify.com/episode/6QQU9NAcYyV3zgXIyMUl8g"
 		},
-		"mentioned": [
-			{
-				"title": "Cheap Charts Bits",
-				"year": null,
-				"film": "cheap-charts-bits"
-			}
-		]
+		"mentioned": []
 	},
 	{
 		"id": "796",
@@ -29114,13 +28938,7 @@
 			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-795-50288769",
 			"spotify": "https://open.spotify.com/episode/6a1ENmHEYxnnJzcoGBPwwr"
 		},
-		"mentioned": [
-			{
-				"title": "00 - Other Stuff We Watched: Communion",
-				"year": 1989,
-				"film": "00-other-stuff-we-watched-communion"
-			}
-		]
+		"mentioned": []
 	},
 	{
 		"notes": "",
@@ -29276,8 +29094,8 @@
 				"film": "beverly-hills-cop"
 			},
 			{
-				"title": "Golden Child",
-				"film": "golden-child"
+				"title": "The Golden Child",
+				"film": "the-golden-child"
 			},
 			{
 				"title": "Coming to America",
@@ -29522,7 +29340,7 @@
 			{
 				"title": "Last Chance U: Basketball",
 				"year": null,
-				"film": "last-chance-u-basketball"
+				"film": "last-chance-u-basketball-season-2"
 			},
 			{
 				"title": "The United States vs. Billie Holiday",
@@ -29672,14 +29490,24 @@
 				"film": "a-new-leaf"
 			},
 			{
-				"title": "The Before Trilogy",
+				"title": "Before Sunrise",
 				"year": null,
-				"film": "the-before-trilogy"
+				"film": "before-sunrise"
 			},
 			{
-				"title": "9 to 5",
+				"title": "Before Sunset",
 				"year": null,
-				"film": "9-to-5"
+				"film": "before-sunset"
+			},
+			{
+				"title": "Before Midnight",
+				"year": null,
+				"film": "before-midnight"
+			},
+			{
+				"title": "Nine to Five",
+				"year": null,
+				"film": "nine-to-five"
 			},
 			{
 				"title": "How To with John Wilson",
@@ -29878,13 +29706,7 @@
 			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-789-2-48568739",
 			"spotify": "https://open.spotify.com/episode/2D2AFE2wNhtxqISpsNDNGH"
 		},
-		"mentioned": [
-			{
-				"title": "Hot Topic: Top 3 Donuts",
-				"year": null,
-				"film": "hot-topic-top-3-donuts"
-			}
-		]
+		"mentioned": []
 	},
 	{
 		"id": "788",
@@ -29958,9 +29780,9 @@
 				"film": "sister-act"
 			},
 			{
-				"title": "Three Men and a Baby",
+				"title": "3 Men and a Baby",
 				"year": null,
-				"film": "three-men-and-a-baby"
+				"film": "3-men-and-a-baby"
 			},
 			{
 				"title": "An Unmarried Woman",
@@ -29998,13 +29820,7 @@
 			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-788-up-48267888",
 			"spotify": "https://open.spotify.com/episode/0gpE3PvGeUONIp75ALKbGj"
 		},
-		"mentioned": [
-			{
-				"title": "Hot Topic: Stuff We're Into Lately",
-				"year": null,
-				"film": "hot-topic-stuff-were-into-lately"
-			}
-		]
+		"mentioned": []
 	},
 	{
 		"id": "787",
@@ -30110,8 +29926,8 @@
 		"description": "On this episode of the Film Junk Premium Podcast, we discuss hacker movies! Our conversation includes War Games, Sneakers, The Net, Hackers, and Swordfish. HACK THE WORLD!",
 		"covers": [
 			{
-				"title": "War Games",
-				"film": "war-games"
+				"title": "WarGames",
+				"film": "wargames"
 			},
 			{
 				"title": "Sneakers",
@@ -30243,9 +30059,19 @@
 				"film": "friday"
 			},
 			{
-				"title": "The Matrix Trilogy",
+				"title": "The Matrix",
 				"year": null,
-				"film": "the-matrix-trilogy"
+				"film": "the-matrix"
+			},
+			{
+				"title": "The Matrix Reloaded",
+				"year": null,
+				"film": "the-matrix-reloaded"
+			},
+			{
+				"title": "The Matrix Revolutions",
+				"year": null,
+				"film": "the-matrix-revolutions"
 			},
 			{
 				"title": "The Thirteenth Floor",
@@ -30268,9 +30094,9 @@
 				"film": "tiger"
 			},
 			{
-				"title": "They Live 4K",
+				"title": "They Live",
 				"year": null,
-				"film": "they-live-4k"
+				"film": "they-live"
 			},
 			{
 				"title": "Painting with John",
@@ -30532,9 +30358,19 @@
 				"film": "apollo-11-quarantine"
 			},
 			{
-				"title": "The Matrix Trilogy",
+				"title": "The Matrix",
 				"year": null,
-				"film": "the-matrix-trilogy"
+				"film": "the-matrix"
+			},
+			{
+				"title": "The Matrix Reloaded",
+				"year": null,
+				"film": "the-matrix-reloaded"
+			},
+			{
+				"title": "The Matrix Revolutions",
+				"year": null,
+				"film": "the-matrix-revolutions"
 			},
 			{
 				"title": "Tiger",
@@ -30778,13 +30614,7 @@
 			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-782-of-46166050",
 			"spotify": "https://open.spotify.com/episode/3fvuw41nHp3zDAim8pXyQK"
 		},
-		"mentioned": [
-			{
-				"title": "2020 Junkies",
-				"year": null,
-				"film": "2020-junkies"
-			}
-		]
+		"mentioned": []
 	},
 	{
 		"id": "781",
@@ -30868,7 +30698,7 @@
 			{
 				"title": "Cobra Kai",
 				"year": null,
-				"film": "cobra-kai"
+				"film": "cobra-kai-season-3"
 			},
 			{
 				"title": "Saint Frances",
@@ -30916,13 +30746,7 @@
 			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-781-45874887",
 			"spotify": "https://open.spotify.com/episode/0yMU9yHBARY7BRXgZ0Itpz"
 		},
-		"mentioned": [
-			{
-				"title": "CheapCharts Bits",
-				"year": null,
-				"film": "cheapcharts-bits"
-			}
-		]
+		"mentioned": []
 	},
 	{
 		"id": "780",
@@ -31006,9 +30830,9 @@
 				"film": "the-midnight-sky"
 			},
 			{
-				"title": "Dawn of the Dead 4K",
-				"year": null,
-				"film": "dawn-of-the-dead-4k"
+				"title": "Dawn of the Dead",
+				"year": 1978,
+				"film": "dawn-of-the-dead"
 			},
 			{
 				"title": "A Christmas Story (Frankie’s Disc Rot Problem)",
@@ -31065,16 +30889,16 @@
 		"description": "On this episode of the Film Junk Premium Podcast, we discuss the Hobbit trilogy! DRAGULLAAAAAAAA.",
 		"covers": [
 			{
-				"title": "Unexpected Journey",
-				"film": "unexpected-journey"
+				"title": "The Hobbit: An Unexpected Journey",
+				"film": "the-hobbit-an-unexpected-journey"
 			},
 			{
-				"title": "Desolation of Smaug",
-				"film": "desolation-of-smaug"
+				"title": "The Hobbit: The Desolation of Smaug",
+				"film": "the-hobbit-the-desolation-of-smaug"
 			},
 			{
-				"title": "Battle of the Five Armies",
-				"film": "battle-of-the-five-armies"
+				"title": "The Hobbit: The Battle of the Five Armies",
+				"film": "the-hobbit-the-battle-of-the-five-armies"
 			}
 		],
 		"notes": "",
@@ -31173,13 +30997,7 @@
 			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-779-2-45294296",
 			"spotify": "https://open.spotify.com/episode/6taiRAcxegK3ST6nqUBmmM"
 		},
-		"mentioned": [
-			{
-				"title": "Tagline Trivia: Holiday Edition",
-				"year": null,
-				"film": "tagline-trivia-holiday-edition"
-			}
-		]
+		"mentioned": []
 	},
 	{
 		"notes": "",
@@ -31254,9 +31072,9 @@
 				"film": "let-them-all-talk"
 			},
 			{
-				"title": "Deadly Games aka Dial Code Santa Claus",
+				"title": "Dial Code Santa Claus",
 				"year": null,
-				"film": "deadly-games-aka-dial-code-santa-claus"
+				"film": "dial-code-santa-claus"
 			},
 			{
 				"title": "Bloody Nose Empty Pockets",
@@ -31726,7 +31544,7 @@
 			{
 				"title": "Cobra Kai: Season 2",
 				"year": null,
-				"film": "cobra-kai-season-2"
+				"film": "cobra-kai-season-3"
 			},
 			{
 				"title": "Rocky",
@@ -31792,13 +31610,7 @@
 			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-774-of-44030737",
 			"spotify": "https://open.spotify.com/episode/7oCFGiUugj1n2z76QVrmv0"
 		},
-		"mentioned": [
-			{
-				"title": "00 - Retro Review: Best of the Best",
-				"year": 1989,
-				"film": "00-retro-review-best-of-the-best"
-			}
-		]
+		"mentioned": []
 	},
 	{
 		"id": "773",
@@ -31840,14 +31652,14 @@
 				"film": "scary-tales"
 			},
 			{
-				"title": "Back to the Future 4K",
+				"title": "Back to the Future",
 				"year": null,
-				"film": "back-to-the-future-4k"
+				"film": "back-to-the-future"
 			},
 			{
-				"title": "Jurassic Park 4K",
+				"title": "Jurassic Park",
 				"year": null,
-				"film": "jurassic-park-4k"
+				"film": "jurassic-park"
 			},
 			{
 				"title": "Sweetheart",
@@ -31899,11 +31711,6 @@
 			"spotify": "https://open.spotify.com/episode/1Qfl8OqdNmfHAUDg3P9Sqv"
 		},
 		"mentioned": [
-			{
-				"title": "30 - Other Stuff We Watched: Scary Tales",
-				"year": 1993,
-				"film": "30-other-stuff-we-watched-scary-tales"
-			},
 			{
 				"title": "Friday the 13th",
 				"year": null,
@@ -32050,7 +31857,7 @@
 			{
 				"title": "The Mandalorian",
 				"year": null,
-				"film": "the-mandalorian"
+				"film": "the-mandalorian-season-2"
 			}
 		]
 	},
@@ -32190,8 +31997,20 @@
 		"description": "On this episode of the Film Junk Premium Podcast we talk the Scream franchise! Our discussion includes Scream, Scream 2, Scream 3, and Scream 4.",
 		"covers": [
 			{
-				"title": "Scream 1-4",
-				"film": "scream-1-4"
+				"title": "Scream (1996)",
+				"film": "scream-1996"
+			},
+			{
+				"title": "Scream 2",
+				"film": "scream-2"
+			},
+			{
+				"title": "Scream 3",
+				"film": "scream-3"
+			},
+			{
+				"title": "Scream 4",
+				"film": "scream-4"
 			}
 		],
 		"notes": "",
@@ -32218,9 +32037,9 @@
 				"film": "scream-3"
 			},
 			{
-				"title": "Scream IV",
+				"title": "Scream 4",
 				"year": null,
-				"film": "scream-iv"
+				"film": "scream-4"
 			},
 			{
 				"title": "Scream VI",
@@ -32657,7 +32476,7 @@
 			{
 				"title": "Cobra Kai",
 				"year": null,
-				"film": "cobra-kai"
+				"film": "cobra-kai-season-3"
 			},
 			{
 				"title": "Ted Lasso",
@@ -32866,7 +32685,7 @@
 			{
 				"title": "Cobra Kai",
 				"year": null,
-				"film": "cobra-kai"
+				"film": "cobra-kai-season-3"
 			},
 			{
 				"title": "Road Games",
@@ -33024,11 +32843,6 @@
 			"spotify": "https://open.spotify.com/episode/6acVlbD41ilA7AXbbhJlfF"
 		},
 		"mentioned": [
-			{
-				"title": "Interview: Bryan Kluger of High-Def Digest",
-				"year": null,
-				"film": "interview-bryan-kluger-of-high-def-digest"
-			},
 			{
 				"title": "The Batman",
 				"year": null,
@@ -33541,7 +33355,7 @@
 			{
 				"title": "The Boys: Season 1",
 				"year": null,
-				"film": "the-boys-season-1"
+				"film": "the-boys-season-3"
 			}
 		],
 		"segments": [],
@@ -33621,9 +33435,9 @@
 				"film": "the-hateful-eight"
 			},
 			{
-				"title": "Doctor Cyclops",
+				"title": "Dr. Cyclops",
 				"year": null,
-				"film": "doctor-cyclops"
+				"film": "dr-cyclops"
 			},
 			{
 				"title": "Das Boot",
@@ -33777,18 +33591,7 @@
 			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-758-39055663",
 			"spotify": "https://open.spotify.com/episode/7Hac8HbutZjYvLAOB3pp8A"
 		},
-		"mentioned": [
-			{
-				"title": "Film Junk Re-Review: Cloud Atlas",
-				"year": null,
-				"film": "film-junk-re-review-cloud-atlas"
-			},
-			{
-				"title": "20 - Other Stuff We Watched: The Invisible Man",
-				"year": 2020,
-				"film": "20-other-stuff-we-watched-the-invisible-man"
-			}
-		]
+		"mentioned": []
 	},
 	{
 		"id": "757",
@@ -34023,9 +33826,9 @@
 		],
 		"watched": [
 			{
-				"title": "Blackhat: Director's Cut",
+				"title": "Blackhat",
 				"year": null,
-				"film": "blackhat-directors-cut"
+				"film": "blackhat"
 			},
 			{
 				"title": "Family Ties",
@@ -34078,13 +33881,7 @@
 			"patreon": "https://www.patreon.com/filmjunk/posts/episode-755-38320504",
 			"spotify": "https://open.spotify.com/episode/1aAGeJSzZFN2UEPNCFEMbh"
 		},
-		"mentioned": [
-			{
-				"title": "Hot Topic: Making Of Documentaries",
-				"year": null,
-				"film": "hot-topic-making-of-documentaries"
-			}
-		]
+		"mentioned": []
 	},
 	{
 		"id": "premium-spike-lee",
@@ -34233,13 +34030,7 @@
 			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-754-37840101",
 			"spotify": "https://open.spotify.com/episode/6j50F8ZErDIU10ShJurDLM"
 		},
-		"mentioned": [
-			{
-				"title": "30 - Retro Review: Cloak & Dagger",
-				"year": 1984,
-				"film": "30-retro-review-cloak-and-dagger"
-			}
-		]
+		"mentioned": []
 	},
 	{
 		"id": "753",
@@ -34341,7 +34132,7 @@
 			{
 				"title": "The Trip",
 				"year": null,
-				"film": "the-trip"
+				"film": "the-trip-2011"
 			}
 		]
 	},
@@ -34402,9 +34193,34 @@
 		],
 		"watched": [
 			{
-				"title": "Star Wars Episodes 1-6",
+				"title": "Star Wars: Episode I - The Phantom Menace",
 				"year": null,
-				"film": "star-wars-episodes-1-6"
+				"film": "star-wars-episode-i-the-phantom-menace"
+			},
+			{
+				"title": "Star Wars: Episode II - Attack of the Clones",
+				"year": null,
+				"film": "star-wars-episode-ii-attack-of-the-clones"
+			},
+			{
+				"title": "Star Wars: Episode III - Revenge of the Sith",
+				"year": null,
+				"film": "star-wars-episode-iii-revenge-of-the-sith"
+			},
+			{
+				"title": "Star Wars",
+				"year": 1977,
+				"film": "star-wars"
+			},
+			{
+				"title": "The Empire Strikes Back",
+				"year": null,
+				"film": "the-empire-strikes-back"
+			},
+			{
+				"title": "Return of the Jedi",
+				"year": null,
+				"film": "return-of-the-jedi"
 			},
 			{
 				"title": "Bronson",
@@ -34694,11 +34510,6 @@
 				"title": "Star Trek",
 				"year": null,
 				"film": "star-trek"
-			},
-			{
-				"title": "Discussion: Night Promoting Twitter Account",
-				"year": null,
-				"film": "discussion-night-promoting-twitter-account"
 			}
 		]
 	},
@@ -34842,13 +34653,7 @@
 			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-749-f-36210792",
 			"spotify": "https://open.spotify.com/episode/0EIsn3XdyRZ36kO8N9rzcn"
 		},
-		"mentioned": [
-			{
-				"title": "The Twilight Zone: The Movie",
-				"year": null,
-				"film": "the-twilight-zone-the-movie"
-			}
-		]
+		"mentioned": []
 	},
 	{
 		"id": "748",
@@ -34909,7 +34714,7 @@
 			{
 				"title": "Star Trek: Picard",
 				"year": null,
-				"film": "star-trek-picard"
+				"film": "star-trek-picard-season-3"
 			},
 			{
 				"title": "The Treasure of the Sierra Madre",
@@ -35025,13 +34830,7 @@
 			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-747-35731450",
 			"spotify": "https://open.spotify.com/episode/650pf7TNgyHEUNYBzGAvXh"
 		},
-		"mentioned": [
-			{
-				"title": "Film Junk Re-review: Knowing",
-				"year": null,
-				"film": "film-junk-re-review-knowing"
-			}
-		]
+		"mentioned": []
 	},
 	{
 		"id": "premium-video-game-movies",
@@ -35164,12 +34963,7 @@
 			{
 				"title": "Tiger King",
 				"year": null,
-				"film": "tiger-king"
-			},
-			{
-				"title": "Hot Topic: Frank's Bread",
-				"year": null,
-				"film": "hot-topic-franks-bread"
+				"film": "tiger-king-murder-mayhem-and-madness"
 			}
 		]
 	},
@@ -35286,13 +35080,7 @@
 			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-745-35243985",
 			"spotify": "https://open.spotify.com/episode/12odRyhVWiKseLJ3KbZswL"
 		},
-		"mentioned": [
-			{
-				"title": "55 - Other Stuff We Watched: Black Christmas",
-				"year": 2019,
-				"film": "55-other-stuff-we-watched-black-christmas"
-			}
-		]
+		"mentioned": []
 	},
 	{
 		"id": "premium-twin-peaks-the-return",
@@ -35444,7 +35232,7 @@
 			{
 				"title": "Star Trek: Picard",
 				"year": null,
-				"film": "star-trek-picard"
+				"film": "star-trek-picard-season-3"
 			},
 			{
 				"title": "Devs",
@@ -35478,11 +35266,6 @@
 			"spotify": "https://open.spotify.com/episode/08zllbN7KeVBe10jJl7Cei"
 		},
 		"mentioned": [
-			{
-				"title": "Hot Topic: Best Outbreak / Pandemic Movies",
-				"year": null,
-				"film": "hot-topic-best-outbreak-pandemic-movies"
-			},
 			{
 				"title": "Star Trek",
 				"year": null,
@@ -35615,13 +35398,7 @@
 			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-742-34572270",
 			"spotify": "https://open.spotify.com/episode/4oB8ErgTgGOXYO6DN4ybce"
 		},
-		"mentioned": [
-			{
-				"title": "Hot Topic: Most Anticipated Movies of 2020",
-				"year": null,
-				"film": "hot-topic-most-anticipated-movies-of-2020"
-			}
-		]
+		"mentioned": []
 	},
 	{
 		"id": "741",
@@ -35675,7 +35452,7 @@
 			{
 				"title": "The Mandalorian",
 				"year": null,
-				"film": "the-mandalorian"
+				"film": "the-mandalorian-season-2"
 			},
 			{
 				"title": "Almost Famous",
@@ -35762,14 +35539,7 @@
 		"links": {
 			"gumroad": "https://filmjunk.gumroad.com/l/DygSp",
 			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-bonus-34288871"
-		},
-		"mentioned": [
-			{
-				"title": "Manifesto Recap",
-				"year": null,
-				"film": "manifesto-recap"
-			}
-		]
+		}
 	},
 	{
 		"id": "premium-star-trek-the-next-generation-films",
@@ -35780,16 +35550,16 @@
 		"description": "",
 		"covers": [
 			{
-				"title": "Generations",
-				"film": "generations"
+				"title": "Star Trek: Generations",
+				"film": "star-trek-generations"
 			},
 			{
-				"title": "First Contact",
-				"film": "first-contact"
+				"title": "Star Trek: First Contact",
+				"film": "star-trek-first-contact"
 			},
 			{
-				"title": "Insurrection",
-				"film": "insurrection"
+				"title": "Star Trek: Insurrection",
+				"film": "star-trek-insurrection"
 			},
 			{
 				"title": "Nemesis",
@@ -35849,7 +35619,7 @@
 			{
 				"title": "Star Trek: Picard",
 				"year": null,
-				"film": "star-trek-picard"
+				"film": "star-trek-picard-season-3"
 			},
 			{
 				"title": "6 Underground",
@@ -36000,18 +35770,7 @@
 			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-739-of-33545418",
 			"spotify": "https://open.spotify.com/episode/3FWZ2bqNeJmAazTt7gtX73"
 		},
-		"mentioned": [
-			{
-				"title": "Hot Topic: 2020 Oscar Nominations",
-				"year": null,
-				"film": "hot-topic-2020-oscar-nominations"
-			},
-			{
-				"title": "Feature: The Best of the Decade",
-				"year": null,
-				"film": "feature-the-best-of-the-decade"
-			}
-		]
+		"mentioned": []
 	},
 	{
 		"id": "738",
@@ -36068,18 +35827,7 @@
 			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-738-of-33166918",
 			"spotify": "https://open.spotify.com/episode/5jaMNG5j2OgpTL57XqN5p8"
 		},
-		"mentioned": [
-			{
-				"title": "Feature: Top 10 Movies of 2019",
-				"year": null,
-				"film": "feature-top-10-movies-of-2019"
-			},
-			{
-				"title": "Feature: 2019 Junkies",
-				"year": null,
-				"film": "feature-2019-junkies"
-			}
-		]
+		"mentioned": []
 	},
 	{
 		"id": "737",
@@ -36178,7 +35926,7 @@
 			{
 				"title": "The Mandalorian",
 				"year": null,
-				"film": "the-mandalorian"
+				"film": "the-mandalorian-season-2"
 			}
 		],
 		"segments": [
@@ -36202,11 +35950,6 @@
 			"spotify": "https://open.spotify.com/episode/4rQI9pUzS2wdIaP01PZZEN"
 		},
 		"mentioned": [
-			{
-				"title": "Hot Topic: Letterboxd Police Interrogation",
-				"year": null,
-				"film": "hot-topic-letterboxd-police-interrogation"
-			},
 			{
 				"title": "Star Trek",
 				"year": null,
@@ -36367,13 +36110,7 @@
 			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-736-of-32576939",
 			"spotify": "https://open.spotify.com/episode/3LqHxizNAXtHSR9Vu3o3Pk"
 		},
-		"mentioned": [
-			{
-				"title": "Ranking The Skywalker Saga Films",
-				"year": null,
-				"film": "ranking-the-skywalker-saga-films"
-			}
-		]
+		"mentioned": []
 	},
 	{
 		"id": "premium-oliver-stone",
@@ -36475,13 +36212,7 @@
 			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-735-32427335",
 			"spotify": "https://open.spotify.com/episode/1oROoFXooKGO2uWFDnNQ1Y"
 		},
-		"mentioned": [
-			{
-				"title": "Hot Topic: Star Wars Fandom",
-				"year": null,
-				"film": "hot-topic-star-wars-fandom"
-			}
-		]
+		"mentioned": []
 	},
 	{
 		"id": "734",
@@ -36794,23 +36525,7 @@
 			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-732-31886194",
 			"spotify": "https://open.spotify.com/episode/0VG2DLpLoilS5bYZ8KqLYI"
 		},
-		"mentioned": [
-			{
-				"title": "Hot Topic Grab Bag",
-				"year": null,
-				"film": "hot-topic-grab-bag"
-			},
-			{
-				"title": "30 - Retro Review: Scarface",
-				"year": 1983,
-				"film": "30-retro-review-scarface"
-			},
-			{
-				"title": "15 - Other Stuff We Watched: Watchmen",
-				"year": 2019,
-				"film": "15-other-stuff-we-watched-watchmen"
-			}
-		]
+		"mentioned": []
 	},
 	{
 		"id": "731",
@@ -36909,11 +36624,6 @@
 		},
 		"mentioned": [
 			{
-				"title": "Hot Topic: PG-13 Horror Movies",
-				"year": null,
-				"film": "hot-topic-pg-13-horror-movies"
-			},
-			{
 				"title": "Happy Death Day",
 				"year": null,
 				"film": "happy-death-day"
@@ -37006,11 +36716,6 @@
 			"spotify": "https://open.spotify.com/episode/5YJDJkR5gu7J3E1i9ALs2Z"
 		},
 		"mentioned": [
-			{
-				"title": "Hot Topic: Using CG Recreations to Bring Back Dead Actors",
-				"year": null,
-				"film": "hot-topic-using-cg-recreations-to-bring-back-dead-actors"
-			},
 			{
 				"title": "Star Trek",
 				"year": null,
@@ -37133,13 +36838,7 @@
 			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-729-31353423",
 			"spotify": "https://open.spotify.com/episode/2wqUZXUTPGbNu7rFByCZmM"
 		},
-		"mentioned": [
-			{
-				"title": "Hot Topic: Netflix Introducing Variable Playback Speed",
-				"year": null,
-				"film": "hot-topic-netflix-introducing-variable-playback-speed"
-			}
-		]
+		"mentioned": []
 	},
 	{
 		"id": "premium-david-cronenberg",
@@ -37520,13 +37219,7 @@
 			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-726-30768717",
 			"spotify": "https://open.spotify.com/episode/5RhzdiioAWXETQ5ATMOzKT"
 		},
-		"mentioned": [
-			{
-				"title": "Hot Topic: Martin Scorsese Says Marvel is Not Cinema",
-				"year": null,
-				"film": "hot-topic-martin-scorsese-says-marvel-is-not-cinema"
-			}
-		]
+		"mentioned": []
 	},
 	{
 		"id": "725",
@@ -37683,9 +37376,29 @@
 				"film": "psycho-ii"
 			},
 			{
-				"title": "Final Destination Series",
+				"title": "Final Destination",
 				"year": null,
-				"film": "final-destination-series"
+				"film": "final-destination"
+			},
+			{
+				"title": "Final Destination 2",
+				"year": null,
+				"film": "final-destination-2"
+			},
+			{
+				"title": "Final Destination 3",
+				"year": null,
+				"film": "final-destination-3"
+			},
+			{
+				"title": "The Final Destination",
+				"year": null,
+				"film": "the-final-destination"
+			},
+			{
+				"title": "Final Destination 5",
+				"year": null,
+				"film": "final-destination-5"
 			},
 			{
 				"title": "Piranha 3D",
@@ -37811,12 +37524,12 @@
 				"film": "first-blood"
 			},
 			{
-				"title": "Rambo: First Blood Part 2",
-				"film": "rambo-first-blood-part-2"
+				"title": "Rambo: First Blood Part II",
+				"film": "rambo-first-blood-part-ii"
 			},
 			{
-				"title": "Rambo 3",
-				"film": "rambo-3"
+				"title": "Rambo III",
+				"film": "rambo-iii"
 			},
 			{
 				"title": "Rambo",
@@ -38118,8 +37831,8 @@
 				"film": "dressed-to-kill"
 			},
 			{
-				"title": "Untouchables",
-				"film": "untouchables"
+				"title": "The Untouchables",
+				"film": "the-untouchables"
 			},
 			{
 				"title": "Snake Eyes",
@@ -38441,7 +38154,7 @@
 			{
 				"title": "Last Chance U: Season 4",
 				"year": null,
-				"film": "last-chance-u-season-4"
+				"film": "last-chance-u"
 			},
 			{
 				"title": "QB1",
@@ -38975,9 +38688,9 @@
 				"film": "role-models"
 			},
 			{
-				"title": "E.T.",
+				"title": "E.T. the Extra-Terrestrial",
 				"year": null,
-				"film": "e-t"
+				"film": "e-t-the-extra-terrestrial"
 			},
 			{
 				"title": "Bob Lazar: Area 51 & Flying Saucers",
@@ -39007,7 +38720,7 @@
 			{
 				"title": "Black Mirror: Season 5",
 				"year": null,
-				"film": "black-mirror-season-5"
+				"film": "black-mirror-season-6"
 			},
 			{
 				"title": "School of Rock",
@@ -39043,8 +38756,16 @@
 		"description": "On this episode of the Film Junk Premium Podcast, we discuss the original Men in Black trilogy (Men in Black, Men in Black II, and Men in Black 3) and as a bonus, we've included a discussion of Wild Wild West. Check out the regular podcast for our review of Men in Black: International.",
 		"covers": [
 			{
-				"title": "Men In Black 1-3",
-				"film": "men-in-black-1-3"
+				"title": "Men in Black",
+				"film": "men-in-black"
+			},
+			{
+				"title": "Men in Black II",
+				"film": "men-in-black-ii"
+			},
+			{
+				"title": "Men in Black 3",
+				"film": "men-in-black-3"
 			},
 			{
 				"title": "Wild Wild West",
@@ -39104,12 +38825,27 @@
 			{
 				"title": "Ikarie XB1",
 				"year": null,
-				"film": "ikarie-xb1"
+				"film": "ikarie-xb-1"
 			},
 			{
-				"title": "Friday the 13th I-IV",
+				"title": "Friday the 13th",
+				"year": 1980,
+				"film": "friday-the-13th-1980"
+			},
+			{
+				"title": "Friday the 13th Part 2",
 				"year": null,
-				"film": "friday-the-13th-i-iv"
+				"film": "friday-the-13th-part-2"
+			},
+			{
+				"title": "Friday the 13th Part III",
+				"year": null,
+				"film": "friday-the-13th-part-iii"
+			},
+			{
+				"title": "Friday the 13th: The Final Chapter",
+				"year": null,
+				"film": "friday-the-13th-the-final-chapter"
 			},
 			{
 				"title": "Eli Roth's History of Horror Uncut Podcast,",
@@ -39268,7 +39004,7 @@
 			{
 				"title": "Big Little Lies: Season 1",
 				"year": null,
-				"film": "big-little-lies-season-1"
+				"film": "big-little-lies"
 			},
 			{
 				"title": "Warrior",
@@ -40062,7 +39798,7 @@
 				"film": "my-cousin-vinny"
 			},
 			{
-				"title": "Q The Winged Serpent",
+				"title": "Q: The Winged Serpent",
 				"year": null,
 				"film": "q-the-winged-serpent"
 			},
@@ -40666,8 +40402,20 @@
 				"film": "drunken-master"
 			},
 			{
-				"title": "Police Story 1-4",
-				"film": "police-story-1-4"
+				"title": "Police Story (1985)",
+				"film": "police-story"
+			},
+			{
+				"title": "Police Story 2",
+				"film": "police-story-2"
+			},
+			{
+				"title": "Police Story 3: Super Cop",
+				"film": "police-story-3-super-cop"
+			},
+			{
+				"title": "Police Story 4: First Strike",
+				"film": "police-story-4-first-strike"
 			},
 			{
 				"title": "Rumble in the Bronx",
@@ -40722,7 +40470,7 @@
 			{
 				"title": "The Hitchhiker's Guide to the Galaxy",
 				"year": null,
-				"film": "the-hitchhikers-guide-to-the-galaxy"
+				"film": "hitchhikers-guide-to-the-galaxy"
 			},
 			{
 				"title": "Solo: A Star Wars Story",
@@ -41070,9 +40818,9 @@
 				"film": "mid90s"
 			},
 			{
-				"title": "The Hateful 8",
+				"title": "The Hateful Eight",
 				"year": null,
-				"film": "the-hateful-8"
+				"film": "the-hateful-eight"
 			},
 			{
 				"title": "Annihilation",
@@ -41136,16 +40884,16 @@
 		"description": "On this episode of the Film Junk Premium Podcast, we discuss the films of Stanley Kubrick. The movies covered on this episode include Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb, 2001: A Space Odyssey, A Clockwork Orange, The Shining, and Eyes Wide Shut.",
 		"covers": [
 			{
-				"title": "Dr. Strangelove",
-				"film": "dr-strangelove"
+				"title": "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb",
+				"film": "dr-strangelove-or-how-i-learned-to-stop-worrying-and-love-the-bomb"
 			},
 			{
 				"title": "2001",
 				"film": "2001"
 			},
 			{
-				"title": "Clockwork Orange",
-				"film": "clockwork-orange"
+				"title": "A Clockwork Orange",
+				"film": "a-clockwork-orange"
 			},
 			{
 				"title": "The Shining",
@@ -41667,9 +41415,9 @@
 				"film": "the-night-comes-for-us"
 			},
 			{
-				"title": "Zombie",
+				"title": "Zombie Flesh Eaters",
 				"year": null,
-				"film": "zombie"
+				"film": "zombie-flesh-eaters"
 			},
 			{
 				"title": "Mandy",
@@ -41926,8 +41674,8 @@
 		"description": "On this episode of the Film Junk Premium Podcast we discuss the films of Dario Argento! Our conversation includes The Bird with the Crystal Plumage, Deep Red, Suspiria, Tenebrae, and Phenomena.",
 		"covers": [
 			{
-				"title": "Bird with the Crystal Plumage",
-				"film": "bird-with-the-crystal-plumage"
+				"title": "The Bird with the Crystal Plumage",
+				"film": "the-bird-with-the-crystal-plumage"
 			},
 			{
 				"title": "Deep Red",
@@ -41982,7 +41730,7 @@
 						"outOf": 5
 					}
 				],
-				"film": "halloween-1978"
+				"film": "halloween-2018"
 			}
 		],
 		"watched": [
@@ -42399,9 +42147,9 @@
 				"film": "976-evil"
 			},
 			{
-				"title": "Lupin III: The Castle of Cagliostro",
+				"title": "The Castle of Cagliostro",
 				"year": null,
-				"film": "lupin-iii-the-castle-of-cagliostro"
+				"film": "the-castle-of-cagliostro"
 			}
 		],
 		"segments": [],
@@ -42425,16 +42173,24 @@
 		"description": "On this episode of the Film Junk Premium Podcast, we're talking Predator! Our conversation includes Predator, Predator 2, Predators, Alien Vs. Predator, and Alien vs. Predator: Requiem. Check out the regular Film Junk podcast for our discussion of The Predator (2018).",
 		"covers": [
 			{
-				"title": "Predator 1&2",
-				"film": "predator-1-and-2"
+				"title": "Predator",
+				"film": "predator"
+			},
+			{
+				"title": "Predator 2",
+				"film": "predator-2"
 			},
 			{
 				"title": "Predators",
 				"film": "predators"
 			},
 			{
-				"title": "Alien v Predator 1&2",
-				"film": "alien-v-predator-1-and-2"
+				"title": "AVP: Alien vs. Predator",
+				"film": "avp-alien-vs-predator"
+			},
+			{
+				"title": "Aliens vs Predator: Requiem",
+				"film": "aliens-vs-predator-requiem"
 			}
 		],
 		"notes": "",
@@ -42795,7 +42551,7 @@
 			{
 				"title": "Cobra Kai",
 				"year": null,
-				"film": "cobra-kai"
+				"film": "cobra-kai-season-3"
 			},
 			{
 				"title": "Jeff Lynne's E.L.O. Live",
@@ -43006,7 +42762,7 @@
 			{
 				"title": "Last Chance U: Season 3",
 				"year": null,
-				"film": "last-chance-u-season-3"
+				"film": "last-chance-u"
 			}
 		],
 		"segments": [],
@@ -43327,9 +43083,9 @@
 				"film": "how-to-build-a-time-machine"
 			},
 			{
-				"title": "Ghostbusters: Answer the Call",
-				"year": null,
-				"film": "ghostbusters-answer-the-call"
+				"title": "Ghostbusters",
+				"year": 2016,
+				"film": "ghostbusters"
 			},
 			{
 				"title": "Space Jam",
@@ -43337,9 +43093,9 @@
 				"film": "space-jam"
 			},
 			{
-				"title": "Wrong Man",
+				"title": "The Wrong Man",
 				"year": null,
-				"film": "wrong-man"
+				"film": "the-wrong-man"
 			}
 		],
 		"segments": [],
@@ -43537,7 +43293,7 @@
 			{
 				"title": "Game of Thrones: Season 1",
 				"year": null,
-				"film": "game-of-thrones-season-1"
+				"film": "game-of-thrones"
 			},
 			{
 				"title": "Freaked",
@@ -43736,9 +43492,19 @@
 				"film": "thoroughbreds"
 			},
 			{
-				"title": "Ocean's Trilogy",
+				"title": "Ocean's Eleven",
+				"year": 2001,
+				"film": "oceans-eleven"
+			},
+			{
+				"title": "Ocean's Twelve",
 				"year": null,
-				"film": "oceans-trilogy"
+				"film": "oceans-twelve"
+			},
+			{
+				"title": "Ocean's Thirteen",
+				"year": null,
+				"film": "oceans-thirteen"
 			},
 			{
 				"title": "Won't You Be My Neighbor?",
@@ -43772,12 +43538,16 @@
 		"description": "On this episode of the Film Junk Premium Podcast, we talk Bill & Ted's Excellent Adventure, Bill & Ted's Bogus Journey, and The Adventures of Buckaroo Banzai Across the 8th Dimension.",
 		"covers": [
 			{
-				"title": "Bill & Ted 1&2",
-				"film": "bill-and-ted-1-and-2"
+				"title": "Bill & Ted's Excellent Adventure",
+				"film": "bill-and-teds-excellent-adventure"
 			},
 			{
-				"title": "Buckaroo Banzai",
-				"film": "buckaroo-banzai"
+				"title": "Bill & Ted's Bogus Journey",
+				"film": "bill-and-teds-bogus-journey"
+			},
+			{
+				"title": "The Adventures of Buckaroo Banzai Across the 8th Dimension",
+				"film": "the-adventures-of-buckaroo-banzai-across-the-8th-dimension"
 			}
 		],
 		"notes": "",
@@ -43999,7 +43769,7 @@
 			{
 				"title": "Silicon Valley: Season 5",
 				"year": null,
-				"film": "silicon-valley-season-5"
+				"film": "silicon-valley"
 			},
 			{
 				"title": "Highpoint",
@@ -44153,7 +43923,7 @@
 			{
 				"title": "Cobra Kai",
 				"year": null,
-				"film": "cobra-kai"
+				"film": "cobra-kai-season-3"
 			},
 			{
 				"title": "Rampage",
@@ -44756,7 +44526,7 @@
 			{
 				"title": "The Tick: Season 1, Part 2",
 				"year": null,
-				"film": "the-tick-season-1-part-2"
+				"film": "the-tick-season-2"
 			}
 		],
 		"segments": [],
@@ -44959,16 +44729,16 @@
 				"film": "rushmore"
 			},
 			{
-				"title": "Royal Tenenbaums",
-				"film": "royal-tenenbaums"
+				"title": "The Royal Tenenbaums",
+				"film": "the-royal-tenenbaums"
 			},
 			{
-				"title": "Life Aquatic",
-				"film": "life-aquatic"
+				"title": "The Life Aquatic with Steve Zissou",
+				"film": "the-life-aquatic-with-steve-zissou"
 			},
 			{
-				"title": "Darjeeling Limited",
-				"film": "darjeeling-limited"
+				"title": "The Darjeeling Limited",
+				"film": "the-darjeeling-limited"
 			}
 		],
 		"notes": "",
@@ -45539,7 +45309,7 @@
 			{
 				"title": "Slapshot",
 				"year": null,
-				"film": "slapshot"
+				"film": "slap-shot"
 			},
 			{
 				"title": "Goon",
@@ -45873,9 +45643,9 @@
 				"film": "personal-shopper"
 			},
 			{
-				"title": "Valerian",
+				"title": "Valerian and the City of a Thousand Planets",
 				"year": null,
-				"film": "valerian"
+				"film": "valerian-and-the-city-of-a-thousand-planets"
 			},
 			{
 				"title": "Split",
@@ -46136,8 +45906,8 @@
 		"description": "On this episode of the Film Junk Premium Podcast, we discuss the films of David Fincher. Our discussion includes Se7en, The Game, Fight Club, Panic Room, Zodiac, and The Curious Case of Benjamin Button. You can also check out our Alien Quadrilogy premium podcast for our discussion of Fincher's Alien 3.",
 		"covers": [
 			{
-				"title": "Seven",
-				"film": "seven"
+				"title": "Se7en",
+				"film": "se7en"
 			},
 			{
 				"title": "The Game",
@@ -46156,8 +45926,8 @@
 				"film": "zodiac"
 			},
 			{
-				"title": "Benjamin Button",
-				"film": "benjamin-button"
+				"title": "The Curious Case of Benjamin Button",
+				"film": "the-curious-case-of-benjamin-button"
 			}
 		],
 		"notes": "",
@@ -46519,9 +46289,9 @@
 				"film": "jumanji"
 			},
 			{
-				"title": "Zathura",
+				"title": "Zathura: A Space Adventure",
 				"year": null,
-				"film": "zathura"
+				"film": "zathura-a-space-adventure"
 			}
 		],
 		"segments": [
@@ -46605,9 +46375,9 @@
 				"film": "kung-fu-yoga"
 			},
 			{
-				"title": "The VVitch",
-				"year": null,
-				"film": "the-vvitch"
+				"title": "The Witch",
+				"year": 2015,
+				"film": "the-witch-2015"
 			},
 			{
 				"title": "1922",
@@ -46669,8 +46439,12 @@
 		"description": "On this episode of the Film Junk Premium Podcast, we discuss 80's vampire movies! Our talk includes Fright Night, Fright Night Part 2, The Lost Boys, and Near Dark.",
 		"covers": [
 			{
-				"title": "Fright Night 1&2",
-				"film": "fright-night-1-and-2"
+				"title": "Fright Night (1985)",
+				"film": "fright-night-1985"
+			},
+			{
+				"title": "Fright Night Part 2",
+				"film": "fright-night-part-2"
 			},
 			{
 				"title": "Lost Boys",
@@ -47619,7 +47393,7 @@
 			{
 				"title": "The Tick",
 				"year": 2017,
-				"film": "the-tick"
+				"film": "the-tick-season-2"
 			},
 			{
 				"title": "Alien: Covenant",
@@ -47933,9 +47707,9 @@
 				"film": "wizards"
 			},
 			{
-				"title": "Aeon Flux",
+				"title": "Æon Flux",
 				"year": null,
-				"film": "aeon-flux"
+				"film": "on-flux"
 			},
 			{
 				"title": "Ace Ventura: Pet Detective",
@@ -48140,7 +47914,7 @@
 			{
 				"title": "Last Chance U: Season 2",
 				"year": null,
-				"film": "last-chance-u-season-2"
+				"film": "last-chance-u"
 			}
 		],
 		"segments": [
@@ -49869,9 +49643,9 @@
 				"film": "moana"
 			},
 			{
-				"title": "Jewel of the Nile",
+				"title": "The Jewel of the Nile",
 				"year": null,
-				"film": "jewel-of-the-nile"
+				"film": "the-jewel-of-the-nile"
 			},
 			{
 				"title": "Live PD",
@@ -49896,7 +49670,7 @@
 			{
 				"title": "Love: Season 2",
 				"year": null,
-				"film": "love-season-2"
+				"film": "love-season-3"
 			},
 			{
 				"title": "Baskets: Season 2",
@@ -50005,8 +49779,8 @@
 				"film": "king-kong"
 			},
 			{
-				"title": "Son of Kong",
-				"film": "son-of-kong"
+				"title": "The Son of Kong",
+				"film": "the-son-of-kong"
 			}
 		],
 		"notes": "",
@@ -50250,9 +50024,9 @@
 				"film": "frailty"
 			},
 			{
-				"title": "Zombi: Dawn of the Dead",
-				"year": null,
-				"film": "zombi-dawn-of-the-dead"
+				"title": "Dawn of the Dead",
+				"year": 1978,
+				"film": "dawn-of-the-dead"
 			},
 			{
 				"title": "John Wick: Chapter 2",
@@ -50277,7 +50051,7 @@
 			{
 				"title": "Fleabag",
 				"year": null,
-				"film": "fleabag"
+				"film": "fleabag-season-2"
 			},
 			{
 				"title": "Shane",
@@ -51704,9 +51478,9 @@
 				"film": "where-to-invade-next"
 			},
 			{
-				"title": "Oasis: Supersonic",
-				"year": null,
-				"film": "oasis-supersonic"
+				"title": "Supersonic",
+				"year": 2016,
+				"film": "supersonic"
 			},
 			{
 				"title": "Ouija: Origin of Evil",
@@ -51724,9 +51498,14 @@
 				"film": "backdraft"
 			},
 			{
-				"title": "Waxwork 1 + 2",
+				"title": "Waxwork",
 				"year": null,
-				"film": "waxwork-1-2"
+				"film": "waxwork"
+			},
+			{
+				"title": "Waxwork II: Lost in Time",
+				"year": null,
+				"film": "waxwork-ii-lost-in-time"
 			},
 			{
 				"title": "Crimson Peak",
@@ -51785,8 +51564,12 @@
 		"description": "On this episode of the Film Junk Premium Podcast, we talk about the films of Tobe Hooper. Our discussion includes The Texas Chainsaw Massacre, Eaten Alive, The Funhouse, Lifeforce, Invaders From Mars, and The Texas Chainsaw Massacre 2. Stay tuned for our Poltergeist premium in the future!",
 		"covers": [
 			{
-				"title": "The Texas Chain Saw Massacre 1&2",
-				"film": "the-texas-chain-saw-massacre-1-and-2"
+				"title": "The Texas Chain Saw Massacre (1974)",
+				"film": "the-texas-chain-saw-massacre"
+			},
+			{
+				"title": "The Texas Chainsaw Massacre Part 2",
+				"film": "the-texas-chainsaw-massacre-part-2"
 			},
 			{
 				"title": "Eaten Alive",
@@ -52003,12 +51786,16 @@
 				"film": "the-devils-rejects"
 			},
 			{
-				"title": "Halloween 1&2",
-				"film": "halloween-1-and-2"
+				"title": "Halloween (1978)",
+				"film": "halloween-1978"
 			},
 			{
-				"title": "Lords of Salem",
-				"film": "lords-of-salem"
+				"title": "Halloween II (1981)",
+				"film": "halloween-ii-1981"
+			},
+			{
+				"title": "The Lords of Salem",
+				"film": "the-lords-of-salem"
 			}
 		],
 		"notes": "",
@@ -52059,7 +51846,7 @@
 			{
 				"title": "Westworld",
 				"year": 2016,
-				"film": "westworld-2016"
+				"film": "westworld-season-1"
 			},
 			{
 				"title": "The Magnificent Seven",
@@ -52176,9 +51963,9 @@
 				"film": "breaking-a-monster"
 			},
 			{
-				"title": "Brides of Dracula",
+				"title": "The Brides of Dracula",
 				"year": null,
-				"film": "brides-of-dracula"
+				"film": "the-brides-of-dracula"
 			},
 			{
 				"title": "Pusher",
@@ -52714,7 +52501,7 @@
 			{
 				"title": "The Tick",
 				"year": null,
-				"film": "the-tick"
+				"film": "the-tick-season-2"
 			}
 		],
 		"segments": [
@@ -52877,9 +52664,9 @@
 		],
 		"watched": [
 			{
-				"title": "Batman v Superman: Dawn of Justice – Ultimate Edition",
+				"title": "Batman v Superman: Dawn of Justice",
 				"year": null,
-				"film": "batman-v-superman-dawn-of-justice-ultimate-edition"
+				"film": "batman-v-superman-dawn-of-justice"
 			},
 			{
 				"title": "Last Chance U",
@@ -53240,12 +53027,16 @@
 		"description": "On this episode of the Film Junk Premium Podcast, we talk the Ghostbusters franchise. Our discussion includes Ghostbusters (1984), Ghostbusters II, and a bonus discussion of The Blues Brothers, and Nothing But Trouble.",
 		"covers": [
 			{
-				"title": "Ghostbusters 1&2",
-				"film": "ghostbusters-1-and-2"
+				"title": "Ghostbusters (1984)",
+				"film": "ghostbusters-1984"
 			},
 			{
-				"title": "Blues Brothers",
-				"film": "blues-brothers"
+				"title": "Ghostbusters II",
+				"film": "ghostbusters-ii"
+			},
+			{
+				"title": "The Blues Brothers",
+				"film": "the-blues-brothers"
 			},
 			{
 				"title": "Nothing But Trouble",
@@ -53443,8 +53234,20 @@
 		"description": "On this episode of the Film Junk Premium Podcast we discuss the Jaws franchise. The films covered on this episode include Jaws, Jaws 2, Jaws 3-D, and Jaws: The Revenge.",
 		"covers": [
 			{
-				"title": "Jaws 1-4",
-				"film": "jaws-1-4"
+				"title": "Jaws",
+				"film": "jaws"
+			},
+			{
+				"title": "Jaws 2",
+				"film": "jaws-2"
+			},
+			{
+				"title": "Jaws 3-D",
+				"film": "jaws-3-d"
+			},
+			{
+				"title": "Jaws: The Revenge",
+				"film": "jaws-the-revenge"
 			}
 		],
 		"notes": "",
@@ -53510,7 +53313,7 @@
 			{
 				"title": "Game of Thrones: Season 6",
 				"year": null,
-				"film": "game-of-thrones-season-6"
+				"film": "game-of-thrones"
 			},
 			{
 				"title": "Finding Dory",
@@ -53616,9 +53419,9 @@
 				"film": "the-wave"
 			},
 			{
-				"title": "Arabian Nights Vol. 1",
+				"title": "Arabian Nights: Volume 1, The Restless One",
 				"year": null,
-				"film": "arabian-nights-vol-1"
+				"film": "arabian-nights-volume-1-the-restless-one"
 			},
 			{
 				"title": "Weiner",
@@ -53753,9 +53556,9 @@
 				"film": "popstar-never-stop-never-stopping"
 			},
 			{
-				"title": "The Brothers Grimsby",
+				"title": "Grimsby",
 				"year": null,
-				"film": "the-brothers-grimsby"
+				"film": "grimsby"
 			},
 			{
 				"title": "Her",
@@ -54114,20 +53917,24 @@
 		"description": "On this episode of the Film Junk Premium Podcast, we talk the X-Men Franchise. Our discussion includes X-Men, X2: X-Men United, X-Men: The Last Stand, X-Men: First Class, and X-Men: Days of Future Past.",
 		"covers": [
 			{
-				"title": "X-Men 1-2",
-				"film": "x-men-1-2"
+				"title": "X-Men (2000)",
+				"film": "x-men"
 			},
 			{
-				"title": "Last Stand",
-				"film": "last-stand"
+				"title": "X2",
+				"film": "x2"
 			},
 			{
-				"title": "First Class",
-				"film": "first-class"
+				"title": "The Last Stand",
+				"film": "the-last-stand"
 			},
 			{
-				"title": "Days Of Future Past",
-				"film": "days-of-future-past"
+				"title": "X-Men: First Class",
+				"film": "x-men-first-class"
+			},
+			{
+				"title": "X-Men: Days of Future Past",
+				"film": "x-men-days-of-future-past"
 			}
 		],
 		"notes": "",
@@ -55123,9 +54930,9 @@
 				"film": "love"
 			},
 			{
-				"title": "Jafar Panahi's Taxi",
-				"year": null,
-				"film": "jafar-panahis-taxi"
+				"title": "Taxi",
+				"year": 2015,
+				"film": "taxi"
 			},
 			{
 				"title": "Dragon's Den",
@@ -55232,9 +55039,9 @@
 		],
 		"watched": [
 			{
-				"title": "The Brothers Grimsby",
+				"title": "Grimsby",
 				"year": null,
-				"film": "the-brothers-grimsby"
+				"film": "grimsby"
 			},
 			{
 				"title": "Murder She Said",
@@ -55252,9 +55059,9 @@
 				"film": "angie-tribeca"
 			},
 			{
-				"title": "Demonoid: Messenger of Death",
+				"title": "Demonoid",
 				"year": null,
-				"film": "demonoid-messenger-of-death"
+				"film": "demonoid"
 			},
 			{
 				"title": "Love",
@@ -55523,7 +55330,7 @@
 						"outOf": 5
 					}
 				],
-				"film": "the-witch"
+				"film": "the-witch-2016"
 			}
 		],
 		"watched": [
@@ -55553,9 +55360,9 @@
 				"film": "cries-and-whispers"
 			},
 			{
-				"title": "Haxan: Witchcraft Through the Ages",
+				"title": "Häxan",
 				"year": null,
-				"film": "haxan-witchcraft-through-the-ages"
+				"film": "haxan"
 			},
 			{
 				"title": "11-22-63",
@@ -55684,7 +55491,7 @@
 			{
 				"title": "Baskets",
 				"year": null,
-				"film": "baskets"
+				"film": "baskets-season-2"
 			},
 			{
 				"title": "American Crime Story",
@@ -55851,8 +55658,12 @@
 		"description": "On this episode of the Film Junk Premium Podcast, we discuss the early films of Michael Bay. Our discussion includes Bad Boys, The Rock, Armageddon, Bad Boys II, and The Island.",
 		"covers": [
 			{
-				"title": "Bad Boys 1&2",
-				"film": "bad-boys-1-and-2"
+				"title": "Bad Boys (1995)",
+				"film": "bad-boys"
+			},
+			{
+				"title": "Bad Boys II",
+				"film": "bad-boys-ii"
 			},
 			{
 				"title": "The Rock",
@@ -55920,7 +55731,7 @@
 			{
 				"title": "Baskets",
 				"year": null,
-				"film": "baskets"
+				"film": "baskets-season-2"
 			},
 			{
 				"title": "Sherlock: The Abominable Bride",
@@ -55963,9 +55774,9 @@
 				"film": "chi-raq"
 			},
 			{
-				"title": "13 Hours",
+				"title": "13 Hours: The Secret Soldiers of Benghazi",
 				"year": null,
-				"film": "13-hours"
+				"film": "13-hours-the-secret-soldiers-of-benghazi"
 			},
 			{
 				"title": "Joy",
@@ -56386,8 +56197,12 @@
 				"film": "jackie-brown"
 			},
 			{
-				"title": "Kill Bill 1&2",
-				"film": "kill-bill-1-and-2"
+				"title": "Kill Bill: Vol. 1",
+				"film": "kill-bill-vol-1"
+			},
+			{
+				"title": "Kill Bill: Vol. 2",
+				"film": "kill-bill-vol-2"
 			}
 		],
 		"notes": "",
@@ -56605,9 +56420,9 @@
 				"film": "ant-man"
 			},
 			{
-				"title": "The Ridiculous Six",
+				"title": "The Ridiculous 6",
 				"year": null,
-				"film": "the-ridiculous-six"
+				"film": "the-ridiculous-6"
 			},
 			{
 				"title": "Carol",
@@ -56956,9 +56771,9 @@
 				"film": "fat-city"
 			},
 			{
-				"title": "Blue is the Warmest Colour",
+				"title": "Blue Is the Warmest Color",
 				"year": null,
-				"film": "blue-is-the-warmest-colour"
+				"film": "blue-is-the-warmest-color"
 			},
 			{
 				"title": "Spotlight",
@@ -57008,12 +56823,12 @@
 				"film": "close-encounters-of-the-third-kind"
 			},
 			{
-				"title": "E.T",
-				"film": "e-t"
+				"title": "E.T. the Extra-Terrestrial",
+				"film": "e-t-the-extra-terrestrial"
 			},
 			{
-				"title": "A.I",
-				"film": "a-i"
+				"title": "A.I. Artificial Intelligence",
+				"film": "a-i-artificial-intelligence"
 			},
 			{
 				"title": "Minority Report",
@@ -57121,7 +56936,7 @@
 			{
 				"title": "Nathan for You: Season 3",
 				"year": null,
-				"film": "nathan-for-you-season-3"
+				"film": "nathan-for-you"
 			}
 		],
 		"segments": [
@@ -57207,7 +57022,7 @@
 			{
 				"title": "Master of None",
 				"year": null,
-				"film": "master-of-none"
+				"film": "master-of-none-season-2"
 			},
 			{
 				"title": "Odd Man Out",
@@ -57304,7 +57119,7 @@
 			{
 				"title": "Master of None",
 				"year": null,
-				"film": "master-of-none"
+				"film": "master-of-none-season-2"
 			},
 			{
 				"title": "Inland Empire",
@@ -57562,7 +57377,7 @@
 			{
 				"title": "The Texas Chainsaw Massacre",
 				"year": null,
-				"film": "the-texas-chainsaw-massacre"
+				"film": "the-texas-chain-saw-massacre"
 			},
 			{
 				"title": "Jeepers Creepers",
@@ -57649,16 +57464,32 @@
 		"description": "On this episode of the Film Junk Premium Podcast, we discuss the A Nightmare On Elm Street franchise. We cover: A Nightmare On Elm Street, A Nightmare On Elm Street 2: Freddy's Revenge, A Nightmare On Elm Street 3: Dream Warriors, A Nightmare On Elm Street 4: The Dream Master, A Nightmare On Elm Street 5: The Dream Child, Freddy's Dead: The Final Nightmare, Wes Craven's New Nightmare, and Freddy Vs. Jason.",
 		"covers": [
 			{
-				"title": "Nightmare On Elm Street 1-5",
-				"film": "nightmare-on-elm-street-1-5"
+				"title": "A Nightmare on Elm Street (1984)",
+				"film": "a-nightmare-on-elm-street"
 			},
 			{
-				"title": "Freddy's Dead",
-				"film": "freddys-dead"
+				"title": "A Nightmare on Elm Street Part 2: Freddy's Revenge",
+				"film": "a-nightmare-on-elm-street-part-2-freddys-revenge"
 			},
 			{
-				"title": "New Nightmare",
-				"film": "new-nightmare"
+				"title": "A Nightmare on Elm Street 3: Dream Warriors",
+				"film": "a-nightmare-on-elm-street-3-dream-warriors"
+			},
+			{
+				"title": "A Nightmare on Elm Street 4: The Dream Master",
+				"film": "a-nightmare-on-elm-street-4-the-dream-master"
+			},
+			{
+				"title": "A Nightmare on Elm Street: The Dream Child",
+				"film": "a-nightmare-on-elm-street-the-dream-child"
+			},
+			{
+				"title": "Freddy's Dead: The Final Nightmare",
+				"film": "freddys-dead-the-final-nightmare"
+			},
+			{
+				"title": "Wes Craven's New Nightmare",
+				"film": "wes-cravens-new-nightmare"
 			},
 			{
 				"title": "Freddy vs Jason",
@@ -58189,7 +58020,7 @@
 				"title": "The Witch",
 				"year": null,
 				"ratings": [],
-				"film": "the-witch"
+				"film": "the-witch-2015"
 			}
 		],
 		"watched": [
@@ -58400,8 +58231,12 @@
 				"film": "the-howling"
 			},
 			{
-				"title": "Gremlins 1&2",
-				"film": "gremlins-1-and-2"
+				"title": "Gremlins",
+				"film": "gremlins"
+			},
+			{
+				"title": "Gremlins 2: The New Batch",
+				"film": "gremlins-2-the-new-batch"
 			},
 			{
 				"title": "InnerSpace",
@@ -58579,7 +58414,7 @@
 			{
 				"title": "True Detective: Season 2",
 				"year": null,
-				"film": "true-detective-season-2"
+				"film": "true-detective"
 			},
 			{
 				"title": "Valerie and Her Week of Wonders",
@@ -58627,9 +58462,9 @@
 				"film": "jaws"
 			},
 			{
-				"title": "Seven",
+				"title": "Se7en",
 				"year": null,
-				"film": "seven"
+				"film": "se7en"
 			},
 			{
 				"title": "Two Days, One Night",
@@ -58961,8 +58796,20 @@
 		"description": "On this episode of the Film Junk Premium Podcast we talk the Mission: Impossible franchise. Our discussion includes Mission: Impossible, Mission: Impossible 2, Mission: Impossible 3, and Mission: Impossible - Ghost Protocol.",
 		"covers": [
 			{
-				"title": "Mission Impossible 1-4",
-				"film": "mission-impossible-1-4"
+				"title": "Mission: Impossible",
+				"film": "mission-impossible"
+			},
+			{
+				"title": "Mission: Impossible II",
+				"film": "mission-impossible-ii"
+			},
+			{
+				"title": "Mission: Impossible III",
+				"film": "mission-impossible-iii"
+			},
+			{
+				"title": "Mission: Impossible - Ghost Protocol",
+				"film": "mission-impossible-ghost-protocol"
 			}
 		],
 		"notes": "",
@@ -59339,8 +59186,8 @@
 				"film": "thor"
 			},
 			{
-				"title": "Captain America: First Avenger",
-				"film": "captain-america-first-avenger"
+				"title": "Captain America: The First Avenger",
+				"film": "captain-america-the-first-avenger"
 			},
 			{
 				"title": "The Avengers",
@@ -59511,7 +59358,7 @@
 			{
 				"title": "Game of Thrones: Season 5",
 				"year": null,
-				"film": "game-of-thrones-season-5"
+				"film": "game-of-thrones"
 			}
 		],
 		"segments": [
@@ -60073,8 +59920,16 @@
 		"description": "On this episode of the Film Junk Premium Podcast we discuss the Mad Max trilogy. We talk Mad Max, Mad Max 2: The Road Warrior, and Mad Max: Beyond Thunderdome. As a bonus, we also discuss the Kevin Costner classic, Waterworld.",
 		"covers": [
 			{
-				"title": "Mad Max 1-3",
-				"film": "mad-max-1-3"
+				"title": "Mad Max",
+				"film": "mad-max"
+			},
+			{
+				"title": "Mad Max 2",
+				"film": "mad-max-2"
+			},
+			{
+				"title": "Mad Max Beyond Thunderdome",
+				"film": "mad-max-beyond-thunderdome"
 			},
 			{
 				"title": "Waterworld",
@@ -60617,7 +60472,7 @@
 			{
 				"title": "Girls: Season 4",
 				"year": null,
-				"film": "girls-season-4"
+				"film": "girls"
 			},
 			{
 				"title": "The Director’s Chair",
@@ -60772,8 +60627,28 @@
 		"description": "On this episode of the Film Junk Premium Podcast we're joined by Andrew James from the Row Three Cinecast to talk about the Fast & Furious franchise. We talk The Fast & The Furious, 2 Fast 2 Furious, The Fast & The Furious: Tokyo Drift, Fast & Furious, Fast Five, and Fast & Furious 6.",
 		"covers": [
 			{
-				"title": "Fast & The Furious 1-6",
-				"film": "fast-and-the-furious-1-6"
+				"title": "The Fast and the Furious",
+				"film": "the-fast-and-the-furious"
+			},
+			{
+				"title": "2 Fast 2 Furious",
+				"film": "2-fast-2-furious"
+			},
+			{
+				"title": "The Fast and the Furious: Tokyo Drift",
+				"film": "the-fast-and-the-furious-tokyo-drift"
+			},
+			{
+				"title": "Fast & Furious",
+				"film": "fast-and-furious"
+			},
+			{
+				"title": "Fast Five",
+				"film": "fast-five"
+			},
+			{
+				"title": "Fast & Furious 6",
+				"film": "fast-and-furious-6"
 			}
 		],
 		"notes": "Guest: Andrew James.",
@@ -60996,9 +60871,9 @@
 				"film": "beetlejuice"
 			},
 			{
-				"title": "Caddyshack 2",
+				"title": "Caddyshack II",
 				"year": null,
-				"film": "caddyshack-2"
+				"film": "caddyshack-ii"
 			},
 			{
 				"title": "Bram Stoker's Dracula",
@@ -61194,16 +61069,20 @@
 				"film": "twilight"
 			},
 			{
-				"title": "New Moon",
-				"film": "new-moon"
+				"title": "The Twilight Saga: New Moon",
+				"film": "the-twilight-saga-new-moon"
 			},
 			{
 				"title": "Eclipse",
 				"film": "eclipse"
 			},
 			{
-				"title": "Breaking Dawn Parts 1&2",
-				"film": "breaking-dawn-parts-1-and-2"
+				"title": "The Twilight Saga: Breaking Dawn - Part 1",
+				"film": "the-twilight-saga-breaking-dawn-part-1"
+			},
+			{
+				"title": "The Twilight Saga: Breaking Dawn - Part 2",
+				"film": "the-twilight-saga-breaking-dawn-part-2"
 			}
 		],
 		"notes": "",
@@ -61566,7 +61445,7 @@
 			{
 				"title": "The SpongeBob SquarePants Movie",
 				"year": null,
-				"film": "the-spongebob-squarepants-movie"
+				"film": "spongebob-squarepants-the-movie"
 			},
 			{
 				"title": "Supernova",
@@ -62167,8 +62046,20 @@
 		"description": "On this episode we discuss Pixar's Toy Story trilogy plus the Toy Story specials Toy Story of Terror! and Toy Story That Time Forgot.",
 		"covers": [
 			{
-				"title": "Toy Story 1-3. Toy Story Of Terror",
-				"film": "toy-story-1-3-toy-story-of-terror"
+				"title": "Toy Story",
+				"film": "toy-story"
+			},
+			{
+				"title": "Toy Story 2",
+				"film": "toy-story-2"
+			},
+			{
+				"title": "Toy Story 3",
+				"film": "toy-story-3"
+			},
+			{
+				"title": "Toy Story of Terror!",
+				"film": "toy-story-of-terror"
 			},
 			{
 				"title": "Toy Story That Time Forgot",
@@ -62429,8 +62320,8 @@
 				"film": "jay-and-silent-bob-strike-back"
 			},
 			{
-				"title": "Clerks 2",
-				"film": "clerks-2"
+				"title": "Clerks II",
+				"film": "clerks-ii"
 			}
 		],
 		"notes": "",
@@ -63135,16 +63026,32 @@
 		"description": "On this episode of the Film Junk Premium Podcast, we're joined by special guest Matt Gourley to discuss the Halloween franchise from Halloween through to Halloween Resurrection.",
 		"covers": [
 			{
-				"title": "Halloween 1-5",
-				"film": "halloween-1-5"
+				"title": "Halloween (1978)",
+				"film": "halloween-1978"
 			},
 			{
-				"title": "Curse Of Michael Myers",
-				"film": "curse-of-michael-myers"
+				"title": "Halloween II (1981)",
+				"film": "halloween-ii-1981"
 			},
 			{
-				"title": "H20",
-				"film": "h20"
+				"title": "Halloween III: Season of the Witch",
+				"film": "halloween-iii-season-of-the-witch"
+			},
+			{
+				"title": "Halloween 4: The Return of Michael Myers",
+				"film": "halloween-4-the-return-of-michael-myers"
+			},
+			{
+				"title": "Halloween 5: The Revenge of Michael Myers",
+				"film": "halloween-5-the-revenge-of-michael-myers"
+			},
+			{
+				"title": "Halloween: The Curse of Michael Myers",
+				"film": "halloween-the-curse-of-michael-myers"
+			},
+			{
+				"title": "Halloween H20: 20 Years Later",
+				"film": "halloween-h20-20-years-later"
 			},
 			{
 				"title": "Resurrection",
@@ -63506,8 +63413,16 @@
 		"description": "On this episode we discuss The Exorcist, The Exorcist II: The Heretic, The Exorcist III, Exorcist: The Beginning and Dominion: Prequel to the Exorcist.",
 		"covers": [
 			{
-				"title": "Exorcist 1-3",
-				"film": "exorcist-1-3"
+				"title": "The Exorcist",
+				"film": "the-exorcist"
+			},
+			{
+				"title": "Exorcist II: The Heretic",
+				"film": "exorcist-ii-the-heretic"
+			},
+			{
+				"title": "The Exorcist III",
+				"film": "the-exorcist-iii"
 			},
 			{
 				"title": "The Beginning",
@@ -63775,9 +63690,19 @@
 				"film": "casablanca"
 			},
 			{
-				"title": "Crocodile Dundee Trilogy",
+				"title": "Crocodile Dundee",
 				"year": null,
-				"film": "crocodile-dundee-trilogy"
+				"film": "crocodile-dundee"
+			},
+			{
+				"title": "Crocodile Dundee II",
+				"year": null,
+				"film": "crocodile-dundee-ii"
+			},
+			{
+				"title": "Crocodile Dundee in Los Angeles",
+				"year": null,
+				"film": "crocodile-dundee-in-los-angeles"
 			},
 			{
 				"title": "A Hard Day's Night",
@@ -64497,8 +64422,16 @@
 		"description": "In this episode of the Film Junk Premium Podcast, Dax (@D__Gee) joins the Sean, Jay and Frank to discuss the Teenage Mutant Ninja Turtles films. We talk Teenage Mutant Ninja Turtles, Teenage Mutant Ninja Turtles II: The Secret of the Ooze, Teenage Mutant Ninja Turtles III, and TMNT.",
 		"covers": [
 			{
-				"title": "Teenage Mutant Ninja Turtles 1-3",
-				"film": "teenage-mutant-ninja-turtles-1-3"
+				"title": "Teenage Mutant Ninja Turtles (1990)",
+				"film": "teenage-mutant-ninja-turtles-1990"
+			},
+			{
+				"title": "Teenage Mutant Ninja Turtles II: The Secret of the Ooze",
+				"film": "teenage-mutant-ninja-turtles-ii-the-secret-of-the-ooze"
+			},
+			{
+				"title": "Teenage Mutant Ninja Turtles III",
+				"film": "teenage-mutant-ninja-turtles-iii"
 			},
 			{
 				"title": "TMNT",
@@ -64773,9 +64706,9 @@
 				"film": "krull"
 			},
 			{
-				"title": "Dr. No in 4K",
+				"title": "Dr. No",
 				"year": null,
-				"film": "dr-no-in-4k"
+				"film": "dr-no"
 			},
 			{
 				"title": "Turtle Power",
@@ -64818,9 +64751,9 @@
 				"film": "snowpiercer"
 			},
 			{
-				"title": "Hearts of Darkness",
+				"title": "Hearts of Darkness: A Filmmaker's Apocalypse",
 				"year": null,
-				"film": "hearts-of-darkness"
+				"film": "hearts-of-darkness-a-filmmakers-apocalypse"
 			},
 			{
 				"title": "Apocalypse Now",
@@ -64878,8 +64811,24 @@
 		"description": "On this episode of the Film Junk Premium Podcast we talk the Planet of the Apes series, including: Planet of the Apes, Beneath the Planet of the Apes, Escape from the Planet of the Apes, Conquest of the Planet of the Apes, Battle for the Planet of the Apes, and Tim Burton's 2001 Planet of the Apes. We are also joined by special guest Reed Farrington.",
 		"covers": [
 			{
-				"title": "Planet Of The Apes 1-5",
-				"film": "planet-of-the-apes-1-5"
+				"title": "Planet of the Apes (1968)",
+				"film": "planet-of-the-apes"
+			},
+			{
+				"title": "Beneath the Planet of the Apes",
+				"film": "beneath-the-planet-of-the-apes"
+			},
+			{
+				"title": "Escape from the Planet of the Apes",
+				"film": "escape-from-the-planet-of-the-apes"
+			},
+			{
+				"title": "Conquest of the Planet of the Apes",
+				"film": "conquest-of-the-planet-of-the-apes"
+			},
+			{
+				"title": "Battle for the Planet of the Apes",
+				"film": "battle-for-the-planet-of-the-apes"
 			},
 			{
 				"title": "Planet Of The Apes (2001)",
@@ -65320,9 +65269,9 @@
 				"film": "aguirre-the-wrath-of-god"
 			},
 			{
-				"title": "The Sweet Smell of Success",
+				"title": "Sweet Smell of Success",
 				"year": null,
-				"film": "the-sweet-smell-of-success"
+				"film": "sweet-smell-of-success"
 			}
 		],
 		"segments": [
@@ -66117,9 +66066,9 @@
 				"film": "the-hobbit-the-desolation-of-smaug"
 			},
 			{
-				"title": "Anchorman 2: Super-Sized R-Rated Version",
+				"title": "Anchorman 2: The Legend Continues",
 				"year": null,
-				"film": "anchorman-2-super-sized-r-rated-version"
+				"film": "anchorman-2-the-legend-continues"
 			},
 			{
 				"title": "The Final Member",
@@ -66514,9 +66463,9 @@
 				"film": "grand-piano"
 			},
 			{
-				"title": "Seven",
+				"title": "Se7en",
 				"year": null,
-				"film": "seven"
+				"film": "se7en"
 			},
 			{
 				"title": "Cosmos",
@@ -66774,7 +66723,7 @@
 			{
 				"title": "House of Cards: Season 2",
 				"year": null,
-				"film": "house-of-cards-season-2"
+				"film": "house-of-cards-season-3"
 			},
 			{
 				"title": "Sideways",
@@ -67139,7 +67088,7 @@
 			{
 				"title": "Girls: Season 3",
 				"year": null,
-				"film": "girls-season-3"
+				"film": "girls"
 			}
 		],
 		"segments": [
@@ -67174,8 +67123,16 @@
 		"description": "On this episode we discuss the original Robocop trilogy plus Paul Verhoeven's Starship Troopers.",
 		"covers": [
 			{
-				"title": "RoboCop 1-3",
-				"film": "robocop-1-3"
+				"title": "RoboCop (1987)",
+				"film": "robocop-1987"
+			},
+			{
+				"title": "RoboCop 2",
+				"film": "robocop-2"
+			},
+			{
+				"title": "RoboCop 3",
+				"film": "robocop-3"
 			},
 			{
 				"title": "Starship Troopers",
@@ -67572,12 +67529,36 @@
 		"description": "In this episode of the Film Junk Premium Podcast we discuss the Harry Potter series, years 1-7.",
 		"covers": [
 			{
-				"title": "Harry Potter 1-6",
-				"film": "harry-potter-1-6"
+				"title": "Harry Potter and the Philosopher's Stone",
+				"film": "harry-potter-and-the-philosophers-stone"
 			},
 			{
-				"title": "Deathly Hallows Parts 1&2",
-				"film": "deathly-hallows-parts-1-and-2"
+				"title": "Harry Potter and the Chamber of Secrets",
+				"film": "harry-potter-and-the-chamber-of-secrets"
+			},
+			{
+				"title": "Harry Potter and the Prisoner of Azkaban",
+				"film": "harry-potter-and-the-prisoner-of-azkaban"
+			},
+			{
+				"title": "Harry Potter and the Goblet of Fire",
+				"film": "harry-potter-and-the-goblet-of-fire"
+			},
+			{
+				"title": "Harry Potter and the Order of the Phoenix",
+				"film": "harry-potter-and-the-order-of-the-phoenix"
+			},
+			{
+				"title": "Harry Potter and the Half-Blood Prince",
+				"film": "harry-potter-and-the-half-blood-prince"
+			},
+			{
+				"title": "Harry Potter and the Deathly Hallows: Part 1",
+				"film": "harry-potter-and-the-deathly-hallows-part-1"
+			},
+			{
+				"title": "Harry Potter and the Deathly Hallows: Part 2",
+				"film": "harry-potter-and-the-deathly-hallows-part-2"
 			}
 		],
 		"notes": "",
@@ -67722,7 +67703,7 @@
 			{
 				"title": "The Office: Season 8",
 				"year": null,
-				"film": "the-office-season-8"
+				"film": "the-office-season-9"
 			},
 			{
 				"title": "Gravity",
@@ -68177,9 +68158,9 @@
 		],
 		"watched": [
 			{
-				"title": "The Hobbit: An Unexpected Journey – Extended Edition",
+				"title": "The Hobbit: An Unexpected Journey",
 				"year": null,
-				"film": "the-hobbit-an-unexpected-journey-extended-edition"
+				"film": "the-hobbit-an-unexpected-journey"
 			},
 			{
 				"title": "A Night in Casablanca",
@@ -68222,9 +68203,9 @@
 				"film": "gentlemans-agreement"
 			},
 			{
-				"title": "A Very Harold and Kumar 3D Christmas",
+				"title": "A Very Harold & Kumar Christmas",
 				"year": null,
-				"film": "a-very-harold-and-kumar-3d-christmas"
+				"film": "a-very-harold-and-kumar-christmas"
 			},
 			{
 				"title": "Fanboys",
@@ -68569,9 +68550,19 @@
 				"film": "la-notte"
 			},
 			{
-				"title": "Vengeance Trilogy",
+				"title": "Sympathy for Mr. Vengeance",
 				"year": null,
-				"film": "vengeance-trilogy"
+				"film": "sympathy-for-mr-vengeance"
+			},
+			{
+				"title": "Oldboy",
+				"year": 2003,
+				"film": "oldboy-2003"
+			},
+			{
+				"title": "Lady Vengeance",
+				"year": null,
+				"film": "sympathy-for-lady-vengeance"
 			},
 			{
 				"title": "Day of the Animals",
@@ -68610,8 +68601,20 @@
 		"description": "On this episode we discuss Lethal Weapon 1-4 plus the Shane Black-penned The Last Boy Scout.",
 		"covers": [
 			{
-				"title": "Lethal Weapon 1-4",
-				"film": "lethal-weapon-1-4"
+				"title": "Lethal Weapon",
+				"film": "lethal-weapon"
+			},
+			{
+				"title": "Lethal Weapon 2",
+				"film": "lethal-weapon-2"
+			},
+			{
+				"title": "Lethal Weapon 3",
+				"film": "lethal-weapon-3"
+			},
+			{
+				"title": "Lethal Weapon 4",
+				"film": "lethal-weapon-4"
 			}
 		],
 		"notes": "The birth of Frank's \"Mom Mentality\" theory.",
@@ -69478,9 +69481,9 @@
 				"film": "the-way-way-back"
 			},
 			{
-				"title": "X-Ray (aka Hospital Massacre)",
+				"title": "Hospital Massacre",
 				"year": null,
-				"film": "x-ray-aka-hospital-massacre"
+				"film": "hospital-massacre"
 			},
 			{
 				"title": "The Shining",
@@ -69646,12 +69649,40 @@
 		"description": "On this episode of the Film Junk Premium Podcast we talk the Friday the 13th Franchise. We talk Friday 1-8 along with Jason Goes to Hell and Jason X.",
 		"covers": [
 			{
-				"title": "Friday The 13th 1-8",
-				"film": "friday-the-13th-1-8"
+				"title": "Friday the 13th (1980)",
+				"film": "friday-the-13th-1980"
 			},
 			{
-				"title": "Jason Goes To Hell",
-				"film": "jason-goes-to-hell"
+				"title": "Friday the 13th Part 2",
+				"film": "friday-the-13th-part-2"
+			},
+			{
+				"title": "Friday the 13th Part III",
+				"film": "friday-the-13th-part-iii"
+			},
+			{
+				"title": "Friday the 13th: The Final Chapter",
+				"film": "friday-the-13th-the-final-chapter"
+			},
+			{
+				"title": "Friday the 13th: A New Beginning",
+				"film": "friday-the-13th-a-new-beginning"
+			},
+			{
+				"title": "Jason Lives - Friday the 13th Part VI",
+				"film": "jason-lives-friday-the-13th-part-vi"
+			},
+			{
+				"title": "Friday the 13th Part VII: The New Blood",
+				"film": "friday-the-13th-part-vii-the-new-blood"
+			},
+			{
+				"title": "Friday the 13th Part VIII: Jason Takes Manhattan",
+				"film": "friday-the-13th-part-viii-jason-takes-manhattan"
+			},
+			{
+				"title": "Jason Goes to Hell: The Final Friday",
+				"film": "jason-goes-to-hell-the-final-friday"
 			},
 			{
 				"title": "Jason X",
@@ -69709,9 +69740,9 @@
 				"film": "racing-dreams"
 			},
 			{
-				"title": "Ghostbusters 2",
+				"title": "Ghostbusters II",
 				"year": null,
-				"film": "ghostbusters-2"
+				"film": "ghostbusters-ii"
 			},
 			{
 				"title": "Snake Eyes",
@@ -69831,9 +69862,9 @@
 				"film": "big-fish"
 			},
 			{
-				"title": "E.T.",
+				"title": "E.T. the Extra-Terrestrial",
 				"year": null,
-				"film": "e-t"
+				"film": "e-t-the-extra-terrestrial"
 			},
 			{
 				"title": "The East",
@@ -70889,9 +70920,9 @@
 				"film": "the-howling"
 			},
 			{
-				"title": "Dredd 3D",
+				"title": "Dredd",
 				"year": null,
-				"film": "dredd-3d"
+				"film": "dredd"
 			},
 			{
 				"title": "Poltergeist II: The Other Side",
@@ -71639,8 +71670,20 @@
 		"description": "In this episode of the Film Junk Premium Podcast we discuss Superman The Movie, Superman II, Superman III, Superman IV: The Quest for Peace, Superman Returns, and Supergirl.",
 		"covers": [
 			{
-				"title": "Superman 1-4",
-				"film": "superman-1-4"
+				"title": "Superman (1978)",
+				"film": "superman-1978"
+			},
+			{
+				"title": "Superman II",
+				"film": "superman-ii"
+			},
+			{
+				"title": "Superman III",
+				"film": "superman-iii"
+			},
+			{
+				"title": "Superman IV: The Quest for Peace",
+				"film": "superman-iv-the-quest-for-peace"
 			},
 			{
 				"title": "Superman Returns",
@@ -71993,9 +72036,9 @@
 				"film": "the-hangover"
 			},
 			{
-				"title": "The Hangover II",
+				"title": "The Hangover Part II",
 				"year": null,
-				"film": "the-hangover-ii"
+				"film": "the-hangover-part-ii"
 			},
 			{
 				"title": "Fast Five",
@@ -72095,8 +72138,28 @@
 		"description": "In this episode of the Film Junk Premium Podcast we discuss the first six original cast Star Trek films with special guest Reed Farrington.",
 		"covers": [
 			{
-				"title": "Star Trek 1-6",
-				"film": "star-trek-1-6"
+				"title": "Star Trek: The Motion Picture",
+				"film": "star-trek-the-motion-picture"
+			},
+			{
+				"title": "Star Trek II: The Wrath of Khan",
+				"film": "star-trek-ii-the-wrath-of-khan"
+			},
+			{
+				"title": "Star Trek III: The Search for Spock",
+				"film": "star-trek-iii-the-search-for-spock"
+			},
+			{
+				"title": "Star Trek IV: The Voyage Home",
+				"film": "star-trek-iv-the-voyage-home"
+			},
+			{
+				"title": "Star Trek V: The Final Frontier",
+				"film": "star-trek-v-the-final-frontier"
+			},
+			{
+				"title": "Star Trek VI: The Undiscovered Country",
+				"film": "star-trek-vi-the-undiscovered-country"
 			}
 		],
 		"notes": "Guest: Reed Farrington.",
@@ -72618,9 +72681,9 @@
 				"film": "the-limey"
 			},
 			{
-				"title": "Disney's Oceans",
-				"year": null,
-				"film": "disneys-oceans"
+				"title": "Oceans",
+				"year": 2009,
+				"film": "oceans"
 			},
 			{
 				"title": "Huff",
@@ -72972,9 +73035,9 @@
 		],
 		"watched": [
 			{
-				"title": "Jurassic Park 3D",
+				"title": "Jurassic Park",
 				"year": null,
-				"film": "jurassic-park-3d"
+				"film": "jurassic-park"
 			},
 			{
 				"title": "The Net",
@@ -73067,16 +73130,16 @@
 				"film": "evil-dead"
 			},
 			{
-				"title": "Evil Dead 2",
-				"film": "evil-dead-2"
+				"title": "Evil Dead II",
+				"film": "evil-dead-ii"
 			},
 			{
 				"title": "Army Of Darkness",
 				"film": "army-of-darkness"
 			},
 			{
-				"title": "Dead Alive",
-				"film": "dead-alive"
+				"title": "Braindead",
+				"film": "braindead"
 			}
 		],
 		"notes": "",
@@ -74150,9 +74213,14 @@
 				"film": "superman-vs-the-elite"
 			},
 			{
-				"title": "The Dark Knight Returns: Part 1 and 2",
+				"title": "Batman: The Dark Knight Returns, Part 1",
 				"year": null,
-				"film": "the-dark-knight-returns-part-1-and-2"
+				"film": "batman-the-dark-knight-returns-part-1"
+			},
+			{
+				"title": "Batman: The Dark Knight Returns, Part 2",
+				"year": null,
+				"film": "batman-the-dark-knight-returns-part-2"
 			},
 			{
 				"title": "Peter Pan",
@@ -74190,9 +74258,9 @@
 				"film": "identity-thief"
 			},
 			{
-				"title": "Ocean’s 11",
-				"year": null,
-				"film": "oceans-11"
+				"title": "Ocean's Eleven",
+				"year": 2001,
+				"film": "oceans-eleven"
 			},
 			{
 				"title": "Flight",
@@ -74200,9 +74268,9 @@
 				"film": "flight"
 			},
 			{
-				"title": "Top Gun 3D",
+				"title": "Top Gun",
 				"year": null,
-				"film": "top-gun-3d"
+				"film": "top-gun"
 			},
 			{
 				"title": "The Last Boyscout",
@@ -74478,7 +74546,7 @@
 			{
 				"title": "Titanic",
 				"year": null,
-				"film": "titanic"
+				"film": "titanic-3d"
 			},
 			{
 				"title": "The Ring",
@@ -74755,9 +74823,19 @@
 				"film": "the-staircase-2-last-chance"
 			},
 			{
-				"title": "Qatsi Trilogy",
+				"title": "Koyaanisqatsi",
 				"year": null,
-				"film": "qatsi-trilogy"
+				"film": "koyaanisqatsi"
+			},
+			{
+				"title": "Powaqqatsi",
+				"year": null,
+				"film": "powaqqatsi"
+			},
+			{
+				"title": "Naqoyqatsi",
+				"year": null,
+				"film": "naqoyqatsi"
 			},
 			{
 				"title": "Two-Lane Blacktop",
@@ -74795,9 +74873,9 @@
 				"film": "murder-on-a-sunday-morning"
 			},
 			{
-				"title": "War Witch (Rebelle)",
+				"title": "War Witch",
 				"year": null,
-				"film": "war-witch-rebelle"
+				"film": "war-witch"
 			}
 		],
 		"segments": [
@@ -74869,9 +74947,9 @@
 				"film": "this-is-40"
 			},
 			{
-				"title": "It’s a Very Merry Muppet Christmas",
+				"title": "It's a Very Merry Muppet Christmas Movie",
 				"year": null,
-				"film": "its-a-very-merry-muppet-christmas"
+				"film": "its-a-very-merry-muppet-christmas-movie"
 			},
 			{
 				"title": "Rocky III",
@@ -75038,9 +75116,9 @@
 				"film": "scrooged"
 			},
 			{
-				"title": "Christmas Vacation",
+				"title": "National Lampoon's Christmas Vacation",
 				"year": null,
-				"film": "christmas-vacation"
+				"film": "national-lampoons-christmas-vacation"
 			},
 			{
 				"title": "Magic Mike",
@@ -75053,9 +75131,9 @@
 				"film": "paris-texas"
 			},
 			{
-				"title": "Dr. Strangelove",
+				"title": "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb",
 				"year": null,
-				"film": "dr-strangelove"
+				"film": "dr-strangelove-or-how-i-learned-to-stop-worrying-and-love-the-bomb"
 			},
 			{
 				"title": "The Firm",
@@ -75242,16 +75320,16 @@
 		"description": "On this episode we discuss the extended editions of Peter Jackson's The Lord of the Rings trilogy.",
 		"covers": [
 			{
-				"title": "Fellowship Of The Ring",
-				"film": "fellowship-of-the-ring"
+				"title": "The Lord of the Rings: The Fellowship of the Ring",
+				"film": "the-lord-of-the-rings-the-fellowship-of-the-ring"
 			},
 			{
-				"title": "Two Towers",
-				"film": "two-towers"
+				"title": "The Lord of the Rings: The Two Towers",
+				"film": "the-lord-of-the-rings-the-two-towers"
 			},
 			{
-				"title": "Return Of The King",
-				"film": "return-of-the-king"
+				"title": "The Lord of the Rings: The Return of the King",
+				"film": "the-lord-of-the-rings-the-return-of-the-king"
 			}
 		],
 		"notes": "",
@@ -75305,9 +75383,9 @@
 				"film": "elf"
 			},
 			{
-				"title": "The Muppets Christmas Carol",
+				"title": "The Muppet Christmas Carol",
 				"year": null,
-				"film": "the-muppets-christmas-carol"
+				"film": "the-muppet-christmas-carol"
 			},
 			{
 				"title": "Bill & Ted’s Excellent Adventure",
@@ -75320,9 +75398,9 @@
 				"film": "le-silence-de-la-mer"
 			},
 			{
-				"title": "Wages of Fear",
+				"title": "The Wages of Fear",
 				"year": null,
-				"film": "wages-of-fear"
+				"film": "the-wages-of-fear"
 			},
 			{
 				"title": "The Waiting Room",
@@ -75551,9 +75629,9 @@
 				"film": "the-queen-of-versailles"
 			},
 			{
-				"title": "Anchorman",
+				"title": "Anchorman: The Legend of Ron Burgundy",
 				"year": null,
-				"film": "anchorman"
+				"film": "anchorman-the-legend-of-ron-burgundy"
 			},
 			{
 				"title": "Rudy",
@@ -75922,9 +76000,9 @@
 				"film": "the-birds"
 			},
 			{
-				"title": "Avatar 3D",
-				"year": null,
-				"film": "avatar-3d"
+				"title": "Avatar",
+				"year": 2009,
+				"film": "avatar"
 			},
 			{
 				"title": "Moonrise Kingdom",
@@ -76110,9 +76188,9 @@
 				"film": "the-boogens"
 			},
 			{
-				"title": "Twitch of the Death Nerve",
+				"title": "A Bay of Blood",
 				"year": null,
-				"film": "twitch-of-the-death-nerve"
+				"film": "a-bay-of-blood"
 			},
 			{
 				"title": "Terror Train",
@@ -76200,8 +76278,8 @@
 				"film": "day-of-the-dead"
 			},
 			{
-				"title": "Return Of The Living Dead",
-				"film": "return-of-the-living-dead"
+				"title": "The Return of the Living Dead",
+				"film": "the-return-of-the-living-dead"
 			}
 		],
 		"notes": "",
@@ -76359,9 +76437,9 @@
 				"film": "in-the-mood-for-love"
 			},
 			{
-				"title": "E.T.",
+				"title": "E.T. the Extra-Terrestrial",
 				"year": null,
-				"film": "e-t"
+				"film": "e-t-the-extra-terrestrial"
 			}
 		],
 		"segments": [],
@@ -76518,9 +76596,9 @@
 				"film": "frankenstein"
 			},
 			{
-				"title": "The Bride of Frankenstein",
+				"title": "Bride of Frankenstein",
 				"year": null,
-				"film": "the-bride-of-frankenstein"
+				"film": "bride-of-frankenstein"
 			},
 			{
 				"title": "Frankenhooker",
@@ -76568,16 +76646,16 @@
 				"film": "raiders-of-the-lost-ark"
 			},
 			{
-				"title": "Temple Of Doom",
-				"film": "temple-of-doom"
+				"title": "Indiana Jones and the Temple of Doom",
+				"film": "indiana-jones-and-the-temple-of-doom"
 			},
 			{
-				"title": "Last Crusade",
-				"film": "last-crusade"
+				"title": "Indiana Jones and the Last Crusade",
+				"film": "indiana-jones-and-the-last-crusade"
 			},
 			{
-				"title": "Kingdom Of The Crystal Skull",
-				"film": "kingdom-of-the-crystal-skull"
+				"title": "Indiana Jones and the Kingdom of the Crystal Skull",
+				"film": "indiana-jones-and-the-kingdom-of-the-crystal-skull"
 			}
 		],
 		"notes": "",
@@ -77287,8 +77365,24 @@
 		"description": "Movies discussed include Rocky 1 through 5 plus Rocky Balboa.",
 		"covers": [
 			{
-				"title": "Rocky 1-5",
-				"film": "rocky-1-5"
+				"title": "Rocky",
+				"film": "rocky"
+			},
+			{
+				"title": "Rocky II",
+				"film": "rocky-ii"
+			},
+			{
+				"title": "Rocky III",
+				"film": "rocky-iii"
+			},
+			{
+				"title": "Rocky IV",
+				"film": "rocky-iv"
+			},
+			{
+				"title": "Rocky V",
+				"film": "rocky-v"
 			},
 			{
 				"title": "Rocky Balboa",
@@ -77879,9 +77973,9 @@
 				"film": "the-devils-double"
 			},
 			{
-				"title": "Brave 3D",
-				"year": null,
-				"film": "brave-3d"
+				"title": "Brave",
+				"year": 2012,
+				"film": "brave"
 			},
 			{
 				"title": "Hardware",
@@ -77899,9 +77993,9 @@
 				"film": "silent-house"
 			},
 			{
-				"title": "Operation Condor (Armour of God II)",
-				"year": null,
-				"film": "operation-condor-armour-of-god-ii"
+				"title": "Operation Condor",
+				"year": 1991,
+				"film": "operation-condor"
 			},
 			{
 				"title": "Shallow Grave",
@@ -78003,8 +78097,16 @@
 		"description": "In this episode we discuss Sam Raimi's Spider-Man trilogy plus his 1990 film Darkman.",
 		"covers": [
 			{
-				"title": "Spider-Man 1-3",
-				"film": "spider-man-1-3"
+				"title": "Spider-Man (2002)",
+				"film": "spider-man"
+			},
+			{
+				"title": "Spider-Man 2",
+				"film": "spider-man-2"
+			},
+			{
+				"title": "Spider-Man 3",
+				"film": "spider-man-3"
 			},
 			{
 				"title": "Darkman",
@@ -78099,9 +78201,9 @@
 				"film": "laura"
 			},
 			{
-				"title": "Jackie Chan's First Strike",
+				"title": "Police Story 4: First Strike",
 				"year": null,
-				"film": "jackie-chans-first-strike"
+				"film": "police-story-4-first-strike"
 			},
 			{
 				"title": "Where the Wild Things Are",
@@ -78323,9 +78425,9 @@
 				"film": "missing-in-action"
 			},
 			{
-				"title": "M. Hulot's Holiday",
+				"title": "Monsieur Hulot's Holiday",
 				"year": null,
-				"film": "m-hulots-holiday"
+				"film": "monsieur-hulots-holiday"
 			},
 			{
 				"title": "Blade Runner",
@@ -78466,9 +78568,9 @@
 				"film": "crack-in-the-world"
 			},
 			{
-				"title": "Legend of the Guardians",
+				"title": "Legend of the Guardians: The Owls of Ga'Hoole",
 				"year": null,
-				"film": "legend-of-the-guardians"
+				"film": "legend-of-the-guardians-the-owls-of-gahoole"
 			},
 			{
 				"title": "Singin' in the Rain",
@@ -78693,9 +78795,9 @@
 				"film": "lethal-weapon-4"
 			},
 			{
-				"title": "Being Elmo",
+				"title": "Being Elmo: A Puppeteer's Journey",
 				"year": null,
-				"film": "being-elmo"
+				"film": "being-elmo-a-puppeteers-journey"
 			},
 			{
 				"title": "Teenage Paparazzo",
@@ -79006,8 +79108,16 @@
 		"description": "In this episode we discuss The Terminator and its three sequels plus Paul Verhoeven's 1990 film Total Recall.",
 		"covers": [
 			{
-				"title": "Terminator 1-3",
-				"film": "terminator-1-3"
+				"title": "The Terminator",
+				"film": "the-terminator"
+			},
+			{
+				"title": "Terminator 2: Judgment Day",
+				"film": "terminator-2-judgment-day"
+			},
+			{
+				"title": "Terminator 3: Rise of the Machines",
+				"film": "terminator-3-rise-of-the-machines"
 			},
 			{
 				"title": "Terminator Salvation",
@@ -79096,9 +79206,9 @@
 				"film": "men-in-black"
 			},
 			{
-				"title": "Men in Black 2",
+				"title": "Men in Black II",
 				"year": null,
-				"film": "men-in-black-2"
+				"film": "men-in-black-ii"
 			},
 			{
 				"title": "Hollow Man",
@@ -79294,9 +79404,9 @@
 				"film": "demons"
 			},
 			{
-				"title": "Demons II",
+				"title": "Demons 2",
 				"year": null,
-				"film": "demons-ii"
+				"film": "demons-2"
 			},
 			{
 				"title": "Haywire",
@@ -79809,7 +79919,7 @@
 			{
 				"title": "Tchoupitoulas",
 				"year": null,
-				"film": "tchoupitoulas"
+				"film": "tchopitoulous"
 			},
 			{
 				"title": "The Red Chapel",
@@ -80127,12 +80237,12 @@
 				"film": "matrix"
 			},
 			{
-				"title": "Matrix Reloaded",
-				"film": "matrix-reloaded"
+				"title": "The Matrix Reloaded",
+				"film": "the-matrix-reloaded"
 			},
 			{
-				"title": "Matrix Revolutions",
-				"film": "matrix-revolutions"
+				"title": "The Matrix Revolutions",
+				"film": "the-matrix-revolutions"
 			},
 			{
 				"title": "Speed Racer",
@@ -81223,8 +81333,16 @@
 		"description": "Note: This is the only premium podcast where we did not do our usual countdown of Top 5 and Bottom 5 moments at the end.",
 		"covers": [
 			{
-				"title": "Back To The Future 1-3",
-				"film": "back-to-the-future-1-3"
+				"title": "Back to the Future",
+				"film": "back-to-the-future"
+			},
+			{
+				"title": "Back to the Future Part II",
+				"film": "back-to-the-future-part-ii"
+			},
+			{
+				"title": "Back to the Future Part III",
+				"film": "back-to-the-future-part-iii"
 			}
 		],
 		"notes": "The only premium episode not to feature a Top 5 and Bottom 5.",
@@ -81422,9 +81540,9 @@
 				"film": "we-bought-a-zoo"
 			},
 			{
-				"title": "The Island of Lost Souls",
-				"year": null,
-				"film": "the-island-of-lost-souls"
+				"title": "Island of Lost Souls",
+				"year": 1932,
+				"film": "island-of-lost-souls"
 			},
 			{
 				"title": "Hanna",
@@ -81437,9 +81555,9 @@
 				"film": "con-air"
 			},
 			{
-				"title": "Hands on a Hard Body",
+				"title": "Hands on a Hardbody: The Documentary",
 				"year": null,
-				"film": "hands-on-a-hard-body"
+				"film": "hands-on-a-hardbody-the-documentary"
 			},
 			{
 				"title": "Routine Pleasures",
@@ -81620,9 +81738,9 @@
 				"film": "x-men-first-class"
 			},
 			{
-				"title": "Paradise Lost 3",
+				"title": "Paradise Lost 3: Purgatory",
 				"year": null,
-				"film": "paradise-lost-3"
+				"film": "paradise-lost-3-purgatory"
 			},
 			{
 				"title": "Dumbo",
@@ -81765,7 +81883,7 @@
 			{
 				"title": "Sherlock",
 				"year": null,
-				"film": "sherlock"
+				"film": "sherlock-season-1"
 			},
 			{
 				"title": "The Fighter",
@@ -82132,8 +82250,8 @@
 				"film": "the-lost-world"
 			},
 			{
-				"title": "Jurassic Park 3",
-				"film": "jurassic-park-3"
+				"title": "Jurassic Park III",
+				"film": "jurassic-park-iii"
 			}
 		],
 		"notes": "",
@@ -82563,9 +82681,9 @@
 				"film": "taxi-driver"
 			},
 			{
-				"title": "Italian American",
+				"title": "Italianamerican",
 				"year": null,
-				"film": "italian-american"
+				"film": "italianamerican"
 			},
 			{
 				"title": "American Boy",
@@ -82889,12 +83007,12 @@
 		"description": "The second part of our Star Wars Special. This time we revisit Star Wars Episodes 4 through 6, discuss their merits and compare them to the prequels.",
 		"covers": [
 			{
-				"title": "A New Hope",
-				"film": "a-new-hope"
+				"title": "Star Wars (1977)",
+				"film": "star-wars"
 			},
 			{
-				"title": "Empire Strikes Back",
-				"film": "empire-strikes-back"
+				"title": "The Empire Strikes Back",
+				"film": "the-empire-strikes-back"
 			},
 			{
 				"title": "Return Of The Jedi",
@@ -82989,9 +83107,9 @@
 				"film": "tabloid"
 			},
 			{
-				"title": "The Kids in the Hall: Brain Candy",
+				"title": "Kids in the Hall: Brain Candy",
 				"year": null,
-				"film": "the-kids-in-the-hall-brain-candy"
+				"film": "kids-in-the-hall-brain-candy"
 			},
 			{
 				"title": "Teen Wolf",
@@ -83506,9 +83624,14 @@
 				"film": "the-thing-from-another-world"
 			},
 			{
-				"title": "The Blob (original and remake)",
-				"year": null,
-				"film": "the-blob-original-and-remake"
+				"title": "The Blob",
+				"year": 1958,
+				"film": "the-blob"
+			},
+			{
+				"title": "The Blob",
+				"year": 1988,
+				"film": "the-blob"
 			},
 			{
 				"title": "Dracula: Dead and Loving It",
@@ -83585,16 +83708,16 @@
 		"description": "To celebrate the release of The Star Wars Saga on Blu-ray, we revisit Star Wars Episodes 1 through 3 and re-evaluate each film a decade later.",
 		"covers": [
 			{
-				"title": "The Phantom Menace",
-				"film": "the-phantom-menace"
+				"title": "Star Wars: Episode I - The Phantom Menace",
+				"film": "star-wars-episode-i-the-phantom-menace"
 			},
 			{
-				"title": "Attack Of The Clones",
-				"film": "attack-of-the-clones"
+				"title": "Star Wars: Episode II - Attack of the Clones",
+				"film": "star-wars-episode-ii-attack-of-the-clones"
 			},
 			{
-				"title": "Revenge Of The Sith",
-				"film": "revenge-of-the-sith"
+				"title": "Star Wars: Episode III - Revenge of the Sith",
+				"film": "star-wars-episode-iii-revenge-of-the-sith"
 			}
 		],
 		"notes": "Guest: Dax.",
@@ -83611,19 +83734,19 @@
 				"film": "star-wars-episode-i-the-phantom-menace"
 			},
 			{
-				"title": "Star Wars Episode II: The Clone Wars",
-				"year": null,
-				"film": "star-wars-episode-ii-the-clone-wars"
+				"title": "Star Wars: The Clone Wars",
+				"year": 2008,
+				"film": "star-wars-the-clone-wars"
 			},
 			{
-				"title": "Star Wars Episode I: Revenge of the Sith",
+				"title": "Star Wars: Episode III - Revenge of the Sith",
 				"year": null,
-				"film": "star-wars-episode-i-revenge-of-the-sith"
+				"film": "star-wars-episode-iii-revenge-of-the-sith"
 			},
 			{
 				"title": "The Mandalorian",
 				"year": null,
-				"film": "the-mandalorian"
+				"film": "the-mandalorian-season-2"
 			}
 		]
 	},
@@ -83709,9 +83832,9 @@
 				"film": "blood-feast"
 			},
 			{
-				"title": "A Nightmare on Elm Street 2: Freddy's Revenge",
+				"title": "A Nightmare on Elm Street Part 2: Freddy's Revenge",
 				"year": null,
-				"film": "a-nightmare-on-elm-street-2-freddys-revenge"
+				"film": "a-nightmare-on-elm-street-part-2-freddys-revenge"
 			},
 			{
 				"title": "A Nightmare on Elm Street 3: Dream Warriors",
@@ -83734,9 +83857,9 @@
 				"film": "jackie-brown"
 			},
 			{
-				"title": "Black Sunday aka The Mask of Satan",
-				"year": null,
-				"film": "black-sunday-aka-the-mask-of-satan"
+				"title": "Black Sunday",
+				"year": 1960,
+				"film": "black-sunday"
 			},
 			{
 				"title": "Black Sabbath",
@@ -83754,9 +83877,9 @@
 				"film": "the-living-corpse-aka-dracula-in-pakistan"
 			},
 			{
-				"title": "Horror of Dracula",
-				"year": null,
-				"film": "horror-of-dracula"
+				"title": "Dracula",
+				"year": 1958,
+				"film": "dracula"
 			},
 			{
 				"title": "The Lion King",
@@ -84113,9 +84236,9 @@
 		],
 		"watched": [
 			{
-				"title": "Paradise Lost 3",
+				"title": "Paradise Lost 3: Purgatory",
 				"year": null,
-				"film": "paradise-lost-3"
+				"film": "paradise-lost-3-purgatory"
 			},
 			{
 				"title": "Into the Abyss",
@@ -84175,7 +84298,7 @@
 			{
 				"title": "The Raid",
 				"year": null,
-				"film": "the-raid"
+				"film": "the-raid-redemption"
 			},
 			{
 				"title": "Pearl Jam Twenty",
@@ -84248,9 +84371,9 @@
 				"film": "united-93"
 			},
 			{
-				"title": "Mimic: The Director's Cut",
+				"title": "Mimic",
 				"year": null,
-				"film": "mimic-the-directors-cut"
+				"film": "mimic"
 			}
 		],
 		"segments": [],
@@ -84337,7 +84460,7 @@
 			{
 				"title": "The Office: Season 7",
 				"year": null,
-				"film": "the-office-season-7"
+				"film": "the-office-season-9"
 			}
 		],
 		"segments": [
@@ -84798,14 +84921,14 @@
 				"film": "baseketball"
 			},
 			{
-				"title": "Fright Night: Part II",
+				"title": "Fright Night Part 2",
 				"year": null,
-				"film": "fright-night-part-ii"
+				"film": "fright-night-part-2"
 			},
 			{
 				"title": "Louie: Season 1",
 				"year": null,
-				"film": "louie-season-1"
+				"film": "louie"
 			}
 		],
 		"segments": [
@@ -85192,9 +85315,9 @@
 				"film": "macgruber"
 			},
 			{
-				"title": "Zathura",
+				"title": "Zathura: A Space Adventure",
 				"year": null,
-				"film": "zathura"
+				"film": "zathura-a-space-adventure"
 			},
 			{
 				"title": "Cave of Forgotten Dreams",
@@ -85623,9 +85746,19 @@
 				"film": "princess-mononoke"
 			},
 			{
-				"title": "The Lord of the Rings Trilogy",
+				"title": "The Lord of the Rings: The Fellowship of the Ring",
 				"year": null,
-				"film": "the-lord-of-the-rings-trilogy"
+				"film": "the-lord-of-the-rings-the-fellowship-of-the-ring"
+			},
+			{
+				"title": "The Lord of the Rings: The Two Towers",
+				"year": null,
+				"film": "the-lord-of-the-rings-the-two-towers"
+			},
+			{
+				"title": "The Lord of the Rings: The Return of the King",
+				"year": null,
+				"film": "the-lord-of-the-rings-the-return-of-the-king"
 			},
 			{
 				"title": "Just Go With It",
@@ -85742,7 +85875,7 @@
 						"outOf": 4
 					}
 				],
-				"film": "the-trip"
+				"film": "the-trip-2011"
 			}
 		],
 		"watched": [
@@ -86196,9 +86329,9 @@
 				"film": "make-believe"
 			},
 			{
-				"title": "Tree of Life",
+				"title": "The Tree of Life",
 				"year": null,
-				"film": "tree-of-life"
+				"film": "the-tree-of-life"
 			},
 			{
 				"title": "Sunshine",
@@ -86318,9 +86451,9 @@
 		],
 		"watched": [
 			{
-				"title": "Rules of Attraction",
+				"title": "The Rules of Attraction",
 				"year": null,
-				"film": "rules-of-attraction"
+				"film": "the-rules-of-attraction"
 			},
 			{
 				"title": "Maverick",
@@ -86333,9 +86466,9 @@
 				"film": "deep-red"
 			},
 			{
-				"title": "Chronicles of a Summer",
+				"title": "Chronicle of a Summer",
 				"year": null,
-				"film": "chronicles-of-a-summer"
+				"film": "chronicle-of-a-summer"
 			},
 			{
 				"title": "Bobby Fischer Against the World",
@@ -86473,9 +86606,9 @@
 				"film": "backdraft"
 			},
 			{
-				"title": "Rules of Attraction",
+				"title": "The Rules of Attraction",
 				"year": null,
-				"film": "rules-of-attraction"
+				"film": "the-rules-of-attraction"
 			},
 			{
 				"title": "Barking Dogs Never Bite",
@@ -87048,9 +87181,9 @@
 				"film": "the-ten-commandments"
 			},
 			{
-				"title": "Fist of Fury aka Chinese Connection",
+				"title": "Fist of Fury",
 				"year": null,
-				"film": "fist-of-fury-aka-chinese-connection"
+				"film": "fist-of-fury"
 			},
 			{
 				"title": "The Way Back",
@@ -87159,9 +87292,9 @@
 				"film": "the-fighter"
 			},
 			{
-				"title": "Jackass 3",
+				"title": "Jackass 3D",
 				"year": null,
-				"film": "jackass-3"
+				"film": "jackass-3d"
 			},
 			{
 				"title": "Little Dieter Needs to Fly",
@@ -87414,9 +87547,9 @@
 		],
 		"watched": [
 			{
-				"title": "Crimson Wing: The Mystery of the Flamingos",
+				"title": "The Crimson Wing: Mystery of the Flamingos",
 				"year": null,
-				"film": "crimson-wing-the-mystery-of-the-flamingos"
+				"film": "the-crimson-wing-mystery-of-the-flamingos"
 			},
 			{
 				"title": "Moon",
@@ -87441,7 +87574,7 @@
 			{
 				"title": "Party Down: Season 1",
 				"year": null,
-				"film": "party-down-season-1"
+				"film": "party-down"
 			},
 			{
 				"title": "The Staircase",
@@ -87454,9 +87587,9 @@
 				"film": "paradise-lost"
 			},
 			{
-				"title": "Paradise Lost 2",
+				"title": "Paradise Lost 2: Revelations",
 				"year": null,
-				"film": "paradise-lost-2"
+				"film": "paradise-lost-2-revelations"
 			},
 			{
 				"title": "Darkon",
@@ -87738,9 +87871,9 @@
 				"film": "hereafter"
 			},
 			{
-				"title": "Dear Zachary",
+				"title": "Dear Zachary: A Letter to a Son About His Father",
 				"year": null,
-				"film": "dear-zachary"
+				"film": "dear-zachary-a-letter-to-a-son-about-his-father"
 			},
 			{
 				"title": "The Thin Blue Line",
@@ -87841,9 +87974,9 @@
 		],
 		"watched": [
 			{
-				"title": "Jackass 3",
+				"title": "Jackass 3D",
 				"year": null,
-				"film": "jackass-3"
+				"film": "jackass-3d"
 			},
 			{
 				"title": "The Next Three Days",
@@ -87881,9 +88014,9 @@
 				"film": "vacation"
 			},
 			{
-				"title": "European Vacation",
+				"title": "National Lampoon's European Vacation",
 				"year": null,
-				"film": "european-vacation"
+				"film": "national-lampoons-european-vacation"
 			},
 			{
 				"title": "Last Action Hero",
@@ -88138,9 +88271,9 @@
 				"film": "broadcast-news"
 			},
 			{
-				"title": "X2: X-Men United",
+				"title": "X2",
 				"year": null,
-				"film": "x2-x-men-united"
+				"film": "x2"
 			},
 			{
 				"title": "Shoot to Kill",
@@ -89354,9 +89487,9 @@
 				"film": "phantom-of-the-paradise"
 			},
 			{
-				"title": "Santa Clause: The Movie",
+				"title": "Santa Claus: The Movie",
 				"year": null,
-				"film": "santa-clause-the-movie"
+				"film": "santa-claus-the-movie"
 			},
 			{
 				"title": "Despicable Me",
@@ -89492,7 +89625,7 @@
 			{
 				"title": "The King of Kong: A Fistful of Quarters",
 				"year": null,
-				"film": "the-king-of-kong-a-fistful-of-quarters"
+				"film": "the-king-of-kong"
 			},
 			{
 				"title": "Wordplay",
@@ -89613,7 +89746,7 @@
 			{
 				"title": "The Last Boy Scout",
 				"year": null,
-				"film": "the-last-boy-scout"
+				"film": "the-last-boyscout"
 			},
 			{
 				"title": "Inception",
@@ -89626,9 +89759,9 @@
 				"film": "the-sorcerers-apprentice"
 			},
 			{
-				"title": "The Complete Metropolis",
-				"year": null,
-				"film": "the-complete-metropolis"
+				"title": "Metropolis",
+				"year": 1927,
+				"film": "metropolis"
 			},
 			{
 				"title": "The Office and Community Christmas Specials",
@@ -89893,9 +90026,9 @@
 				"film": "head"
 			},
 			{
-				"title": "The Complete Metropolis",
-				"year": null,
-				"film": "the-complete-metropolis"
+				"title": "Metropolis",
+				"year": 1927,
+				"film": "metropolis"
 			},
 			{
 				"title": "Winter's Bone",
@@ -90411,14 +90544,24 @@
 				"film": "frozen"
 			},
 			{
-				"title": "Back to the Future Trilogy",
+				"title": "Back to the Future",
 				"year": null,
-				"film": "back-to-the-future-trilogy"
+				"film": "back-to-the-future"
 			},
 			{
-				"title": "House aka Hausu",
+				"title": "Back to the Future Part II",
 				"year": null,
-				"film": "house-aka-hausu"
+				"film": "back-to-the-future-part-ii"
+			},
+			{
+				"title": "Back to the Future Part III",
+				"year": null,
+				"film": "back-to-the-future-part-iii"
+			},
+			{
+				"title": "House",
+				"year": 1977,
+				"film": "house-1977"
 			},
 			{
 				"title": "Paranormal Activity 2",
@@ -90856,7 +90999,7 @@
 			{
 				"title": "Deadliest Catch: Season 3",
 				"year": null,
-				"film": "deadliest-catch-season-3"
+				"film": "deadliest-catch"
 			},
 			{
 				"title": "Catfish",
@@ -90876,7 +91019,7 @@
 			{
 				"title": "Sherlock",
 				"year": null,
-				"film": "sherlock"
+				"film": "sherlock-season-1"
 			},
 			{
 				"title": "Harry Brown",
@@ -91100,7 +91243,7 @@
 						"outOf": 4
 					}
 				],
-				"film": "the-trip"
+				"film": "the-trip-2010"
 			},
 			{
 				"title": "Boxing Gym",
@@ -91509,9 +91652,19 @@
 				"film": "midnight-express"
 			},
 			{
-				"title": "The Red Riding Trilogy",
+				"title": "Red Riding: The Year of Our Lord 1974",
 				"year": null,
-				"film": "the-red-riding-trilogy"
+				"film": "red-riding-the-year-of-our-lord-1974"
+			},
+			{
+				"title": "Red Riding: The Year of Our Lord 1980",
+				"year": null,
+				"film": "red-riding-the-year-of-our-lord-1980"
+			},
+			{
+				"title": "Red Riding: The Year of Our Lord 1983",
+				"year": null,
+				"film": "red-riding-the-year-of-our-lord-1983"
 			}
 		],
 		"segments": [
@@ -91606,9 +91759,9 @@
 				"film": "rec-2"
 			},
 			{
-				"title": "Dominion: The Prequel to The Exorcist",
+				"title": "Dominion: Prequel to the Exorcist",
 				"year": null,
-				"film": "dominion-the-prequel-to-the-exorcist"
+				"film": "dominion-prequel-to-the-exorcist"
 			},
 			{
 				"title": "The Exorcist III",
@@ -91653,7 +91806,7 @@
 			{
 				"title": "Breaking Bad: Season 2",
 				"year": null,
-				"film": "breaking-bad-season-2"
+				"film": "breaking-bad"
 			}
 		],
 		"segments": [
@@ -91894,7 +92047,7 @@
 			{
 				"title": "Sherlock",
 				"year": null,
-				"film": "sherlock"
+				"film": "sherlock-season-1"
 			},
 			{
 				"title": "Man v Food: Season 3",
@@ -91937,9 +92090,9 @@
 				"film": "until-the-light-takes-us"
 			},
 			{
-				"title": "And the Pursuit of Happiness t",
+				"title": "...And the Pursuit of Happiness",
 				"year": null,
-				"film": "and-the-pursuit-of-happiness-t"
+				"film": "and-the-pursuit-of-happiness"
 			},
 			{
 				"title": "The Last Lovecraft",
@@ -92113,9 +92266,9 @@
 				"film": "the-hard-way"
 			},
 			{
-				"title": "Rambo: Extended Cut",
-				"year": null,
-				"film": "rambo-extended-cut"
+				"title": "Rambo",
+				"year": 2008,
+				"film": "rambo"
 			},
 			{
 				"title": "Baraka",
@@ -92774,9 +92927,9 @@
 				"film": "the-burger-and-the-king-the-life-and-cuisine-of-elvis-presley"
 			},
 			{
-				"title": "The Karate Kid II",
+				"title": "The Karate Kid Part II",
 				"year": null,
-				"film": "the-karate-kid-ii"
+				"film": "the-karate-kid-part-ii"
 			},
 			{
 				"title": "The Last Winter",
@@ -93128,9 +93281,9 @@
 				"film": "scanners"
 			},
 			{
-				"title": "Super Snooper aka Super Fuzz",
+				"title": "Super Fuzz",
 				"year": null,
-				"film": "super-snooper-aka-super-fuzz"
+				"film": "super-fuzz"
 			},
 			{
 				"title": "Get Him to the Greek",
@@ -93739,9 +93892,9 @@
 				"film": "return-of-the-jedi"
 			},
 			{
-				"title": "Ralph Bakshi's The Lord of the Rings",
-				"year": null,
-				"film": "ralph-bakshis-the-lord-of-the-rings"
+				"title": "The Lord of the Rings",
+				"year": 1978,
+				"film": "the-lord-of-the-rings"
 			},
 			{
 				"title": "Fire and Ice",
@@ -93941,7 +94094,7 @@
 			{
 				"title": "Breaking Bad: Season 1",
 				"year": null,
-				"film": "breaking-bad-season-1"
+				"film": "breaking-bad"
 			},
 			{
 				"title": "No Crossover: The Trial of Allen Iverson",
@@ -94712,7 +94865,7 @@
 			},
 			{
 				"title": "Precious",
-				"year": null,
+				"year": 2009,
 				"film": "precious"
 			},
 			{
@@ -94768,7 +94921,7 @@
 			{
 				"title": "The 40-Year-Old Virgin",
 				"year": null,
-				"film": "the-40-year-old-virgin"
+				"film": "40-year-old-virgin"
 			},
 			{
 				"title": "Futurama: Bender's Game",
@@ -94848,9 +95001,9 @@
 				"film": "an-education"
 			},
 			{
-				"title": "Michael Jackson's This Is It",
+				"title": "This Is It",
 				"year": null,
-				"film": "michael-jacksons-this-is-it"
+				"film": "this-is-it"
 			},
 			{
 				"title": "The Men Who Stare at Goats",
@@ -94863,9 +95016,9 @@
 				"film": "wrong-side-of-town"
 			},
 			{
-				"title": "Anchorman",
+				"title": "Anchorman: The Legend of Ron Burgundy",
 				"year": null,
-				"film": "anchorman"
+				"film": "anchorman-the-legend-of-ron-burgundy"
 			},
 			{
 				"title": "The Crazies",
@@ -95221,9 +95374,9 @@
 				"film": "more-than-a-game"
 			},
 			{
-				"title": "District B13: Ultimatum",
+				"title": "District 13: Ultimatum",
 				"year": null,
-				"film": "district-b13-ultimatum"
+				"film": "district-13-ultimatum"
 			},
 			{
 				"title": "Lost",
@@ -95445,7 +95598,7 @@
 			{
 				"title": "30 Rock: Season 1",
 				"year": null,
-				"film": "30-rock-season-1"
+				"film": "30-rock"
 			}
 		],
 		"segments": [
@@ -95744,9 +95897,9 @@
 				"film": "jennifers-body"
 			},
 			{
-				"title": "Shut Up & Sing",
+				"title": "Dixie Chicks: Shut Up and Sing",
 				"year": null,
-				"film": "shut-up-and-sing"
+				"film": "dixie-chicks-shut-up-and-sing"
 			},
 			{
 				"title": "Little Children",
@@ -95900,9 +96053,19 @@
 				"film": "paper-heart"
 			},
 			{
-				"title": "The Lord of the Rings Trilogy",
+				"title": "The Lord of the Rings: The Fellowship of the Ring",
 				"year": null,
-				"film": "the-lord-of-the-rings-trilogy"
+				"film": "the-lord-of-the-rings-the-fellowship-of-the-ring"
+			},
+			{
+				"title": "The Lord of the Rings: The Two Towers",
+				"year": null,
+				"film": "the-lord-of-the-rings-the-two-towers"
+			},
+			{
+				"title": "The Lord of the Rings: The Return of the King",
+				"year": null,
+				"film": "the-lord-of-the-rings-the-return-of-the-king"
 			},
 			{
 				"title": "Under Siege",
@@ -95917,7 +96080,7 @@
 			{
 				"title": "The Office Season 5",
 				"year": null,
-				"film": "the-office-season-5"
+				"film": "the-office-season-9"
 			},
 			{
 				"title": "Invictus",
@@ -95926,7 +96089,7 @@
 			},
 			{
 				"title": "Precious",
-				"year": null,
+				"year": 2009,
 				"film": "precious"
 			},
 			{
@@ -96009,7 +96172,7 @@
 			{
 				"title": "Man v. Food",
 				"year": null,
-				"film": "man-v-food"
+				"film": "man-v-food-season-3"
 			},
 			{
 				"title": "Sons of Anarchy",
@@ -96119,9 +96282,34 @@
 		],
 		"watched": [
 			{
-				"title": "Rocky: The Undisputed Collection",
+				"title": "Rocky",
 				"year": null,
-				"film": "rocky-the-undisputed-collection"
+				"film": "rocky"
+			},
+			{
+				"title": "Rocky II",
+				"year": null,
+				"film": "rocky-ii"
+			},
+			{
+				"title": "Rocky III",
+				"year": null,
+				"film": "rocky-iii"
+			},
+			{
+				"title": "Rocky IV",
+				"year": null,
+				"film": "rocky-iv"
+			},
+			{
+				"title": "Rocky V",
+				"year": null,
+				"film": "rocky-v"
+			},
+			{
+				"title": "Rocky Balboa",
+				"year": null,
+				"film": "rocky-balboa"
 			},
 			{
 				"title": "City of God",
@@ -97601,9 +97789,9 @@
 		],
 		"watched": [
 			{
-				"title": "The New World: Extended Cut",
+				"title": "The New World",
 				"year": null,
-				"film": "the-new-world-extended-cut"
+				"film": "the-new-world"
 			},
 			{
 				"title": "Planet Terror",
@@ -97820,9 +98008,9 @@
 				"film": "cabin-fever"
 			},
 			{
-				"title": "Fistful of Dollars",
+				"title": "A Fistful of Dollars",
 				"year": null,
-				"film": "fistful-of-dollars"
+				"film": "a-fistful-of-dollars"
 			},
 			{
 				"title": "Escape to Athena",
@@ -98058,7 +98246,7 @@
 			{
 				"title": "Play Time",
 				"year": null,
-				"film": "play-time"
+				"film": "playtime"
 			},
 			{
 				"title": "Rip: A Remix Manifesto",
@@ -99227,9 +99415,9 @@
 				"film": "weeds"
 			},
 			{
-				"title": "My Bloody Valentine 3-D",
-				"year": null,
-				"film": "my-bloody-valentine-3-d"
+				"title": "My Bloody Valentine",
+				"year": 2009,
+				"film": "my-bloody-valentine"
 			},
 			{
 				"title": "S. Darko",
@@ -99877,9 +100065,9 @@
 		],
 		"watched": [
 			{
-				"title": "A Haunting in Connecticut",
+				"title": "The Haunting in Connecticut",
 				"year": null,
-				"film": "a-haunting-in-connecticut"
+				"film": "the-haunting-in-connecticut"
 			},
 			{
 				"title": "Friday the 13th",
@@ -100084,9 +100272,9 @@
 		],
 		"watched": [
 			{
-				"title": "Seven",
+				"title": "Se7en",
 				"year": null,
-				"film": "seven"
+				"film": "se7en"
 			},
 			{
 				"title": "Moonraker",
@@ -100114,9 +100302,9 @@
 				"film": "the-400-blows"
 			},
 			{
-				"title": "Star Wars Episode II",
+				"title": "Star Wars: Episode II - Attack of the Clones",
 				"year": null,
-				"film": "star-wars-episode-ii"
+				"film": "star-wars-episode-ii-attack-of-the-clones"
 			},
 			{
 				"title": "Surfwise",
@@ -100247,9 +100435,9 @@
 				"film": "synecdoche-new-york"
 			},
 			{
-				"title": "Hearts of Darkness",
+				"title": "Hearts of Darkness: A Filmmaker's Apocalypse",
 				"year": null,
-				"film": "hearts-of-darkness"
+				"film": "hearts-of-darkness-a-filmmakers-apocalypse"
 			},
 			{
 				"title": "The Steel Helmet",
@@ -100372,9 +100560,9 @@
 				"film": "45365"
 			},
 			{
-				"title": "The Return of the Swamp Thing",
+				"title": "The Return of Swamp Thing",
 				"year": null,
-				"film": "the-return-of-the-swamp-thing"
+				"film": "the-return-of-swamp-thing"
 			},
 			{
 				"title": "Gomorrah",
@@ -100562,9 +100750,9 @@
 				"film": "the-f-word"
 			},
 			{
-				"title": "Dear Zachary",
+				"title": "Dear Zachary: A Letter to a Son About His Father",
 				"year": null,
-				"film": "dear-zachary"
+				"film": "dear-zachary-a-letter-to-a-son-about-his-father"
 			},
 			{
 				"title": "Apocalypto",
@@ -100637,9 +100825,9 @@
 				"film": "die-hard"
 			},
 			{
-				"title": "Friday the 13th: Part 3",
+				"title": "Friday the 13th Part III",
 				"year": null,
-				"film": "friday-the-13th-part-3"
+				"film": "friday-the-13th-part-iii"
 			},
 			{
 				"title": "A Life Less Ordinary",
@@ -100742,9 +100930,9 @@
 		],
 		"watched": [
 			{
-				"title": "HellÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢s Kitchen",
+				"title": "Hell's Kitchen",
 				"year": null,
-				"film": "hella-a-a-a-sa-a-a-za-s-kitchen"
+				"film": "hells-kitchen"
 			},
 			{
 				"title": "Swingers",
@@ -100762,9 +100950,9 @@
 				"film": "the-wrestler"
 			},
 			{
-				"title": "Nick and NorahÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢s Infinite Playlist",
+				"title": "Nick and Norah's Infinite Playlist",
 				"year": null,
-				"film": "nick-and-noraha-a-a-a-sa-a-a-za-s-infinite-playlist"
+				"film": "nick-and-norahs-infinite-playlist"
 			},
 			{
 				"title": "Blindness",
@@ -101008,7 +101196,7 @@
 			{
 				"title": "Project Greenlight: Season 2",
 				"year": null,
-				"film": "project-greenlight-season-2"
+				"film": "project-greenlight"
 			},
 			{
 				"title": "My Bloody Valentine",
@@ -101029,11 +101217,6 @@
 				"title": "The Class",
 				"year": null,
 				"film": "the-class"
-			},
-			{
-				"title": "Fill Out Our Podcast Listener Survey!",
-				"year": null,
-				"film": "fill-out-our-podcast-listener-survey"
 			}
 		],
 		"segments": [
@@ -101107,7 +101290,7 @@
 			{
 				"title": "Project Greenlight: Season 1",
 				"year": null,
-				"film": "project-greenlight-season-1"
+				"film": "project-greenlight"
 			},
 			{
 				"title": "Towelhead",
@@ -101123,11 +101306,6 @@
 				"title": "City of Ember",
 				"year": null,
 				"film": "city-of-ember"
-			},
-			{
-				"title": "Fill Out Our Podcast Listener Survey!",
-				"year": null,
-				"film": "fill-out-our-podcast-listener-survey"
 			}
 		],
 		"segments": [
@@ -101315,9 +101493,9 @@
 				"film": "i-love-lucy"
 			},
 			{
-				"title": "Dear Zachary",
+				"title": "Dear Zachary: A Letter to a Son About His Father",
 				"year": null,
-				"film": "dear-zachary"
+				"film": "dear-zachary-a-letter-to-a-son-about-his-father"
 			},
 			{
 				"title": "Days of Heaven",
@@ -101520,9 +101698,9 @@
 				"film": "frost-nixon"
 			},
 			{
-				"title": "Wallace and Gromit in A Matter of Loaf and Death",
+				"title": "A Matter of Loaf and Death",
 				"year": null,
-				"film": "wallace-and-gromit-in-a-matter-of-loaf-and-death"
+				"film": "a-matter-of-loaf-and-death"
 			},
 			{
 				"title": "Star Trek II: The Wrath of Khan",
@@ -101567,7 +101745,7 @@
 			{
 				"title": "This American Life: Season 1",
 				"year": null,
-				"film": "this-american-life-season-1"
+				"film": "this-american-life-season-2"
 			}
 		],
 		"segments": [
@@ -101831,9 +102009,9 @@
 				"film": "the-terminator"
 			},
 			{
-				"title": "Dear Zachary",
+				"title": "Dear Zachary: A Letter to a Son About His Father",
 				"year": null,
-				"film": "dear-zachary"
+				"film": "dear-zachary-a-letter-to-a-son-about-his-father"
 			},
 			{
 				"title": "Blindness",
@@ -101938,9 +102116,9 @@
 				"film": "the-shield"
 			},
 			{
-				"title": "Journey to the Center of the Earth 3-D",
-				"year": null,
-				"film": "journey-to-the-center-of-the-earth-3-d"
+				"title": "Journey to the Center of the Earth",
+				"year": 2008,
+				"film": "journey-to-the-center-of-the-earth"
 			},
 			{
 				"title": "Gonzo: The Life and Work of Dr. Hunter S. Thompson",
@@ -102308,9 +102486,9 @@
 				"film": "trick-or-treat"
 			},
 			{
-				"title": "The Adventures of Buckaroo Banzai",
+				"title": "The Adventures of Buckaroo Banzai Across the 8th Dimension",
 				"year": null,
-				"film": "the-adventures-of-buckaroo-banzai"
+				"film": "the-adventures-of-buckaroo-banzai-across-the-8th-dimension"
 			},
 			{
 				"title": "Thunderball",
@@ -102348,9 +102526,9 @@
 				"film": "lifeforce"
 			},
 			{
-				"title": "Midnight Meat Train",
+				"title": "The Midnight Meat Train",
 				"year": null,
-				"film": "midnight-meat-train"
+				"film": "the-midnight-meat-train"
 			}
 		],
 		"segments": [
@@ -102431,9 +102609,9 @@
 				"film": "halloween-5-the-revenge-of-michael-myers"
 			},
 			{
-				"title": "Rob Zombie's Halloween: Director's Cut",
-				"year": null,
-				"film": "rob-zombies-halloween-directors-cut"
+				"title": "Halloween",
+				"year": 2007,
+				"film": "halloween-2007"
 			},
 			{
 				"title": "Rookies",
@@ -103222,9 +103400,9 @@
 		],
 		"watched": [
 			{
-				"title": "Back To The Future 3",
+				"title": "Back to the Future Part III",
 				"year": null,
-				"film": "back-to-the-future-3"
+				"film": "back-to-the-future-part-iii"
 			},
 			{
 				"title": "Domino",
@@ -103259,7 +103437,7 @@
 			{
 				"title": "Fringe",
 				"year": null,
-				"film": "fringe"
+				"film": "fringe-season-1"
 			}
 		],
 		"segments": [
@@ -103421,9 +103599,9 @@
 		],
 		"watched": [
 			{
-				"title": "Inglorious Bastards",
-				"year": null,
-				"film": "inglorious-bastards"
+				"title": "The Inglorious Bastards",
+				"year": 1978,
+				"film": "the-inglorious-bastards"
 			},
 			{
 				"title": "Encounters at the End of the World",
@@ -103729,9 +103907,9 @@
 				"film": "die-hard"
 			},
 			{
-				"title": "Die Hard 2: Die Harder",
+				"title": "Die Hard 2",
 				"year": null,
-				"film": "die-hard-2-die-harder"
+				"film": "die-hard-2"
 			},
 			{
 				"title": "Hot Fuzz",
@@ -103822,9 +104000,9 @@
 				"film": "the-monster-squad"
 			},
 			{
-				"title": "Walk Hard",
+				"title": "Walk Hard: The Dewey Cox Story",
 				"year": null,
-				"film": "walk-hard"
+				"film": "walk-hard-the-dewey-cox-story"
 			},
 			{
 				"title": "The 6th Day",
@@ -104583,9 +104761,9 @@
 				"film": "close-encounters-of-the-third-kind"
 			},
 			{
-				"title": "Jurassic Park 2: The Lost World",
+				"title": "The Lost World: Jurassic Park",
 				"year": null,
-				"film": "jurassic-park-2-the-lost-world"
+				"film": "the-lost-world-jurassic-park"
 			},
 			{
 				"title": "Aliens vs Predator: Requiem",
@@ -104598,9 +104776,9 @@
 				"film": "eaten-alive"
 			},
 			{
-				"title": "1990: Bronx Warriors",
+				"title": "1990: The Bronx Warriors",
 				"year": null,
-				"film": "1990-bronx-warriors"
+				"film": "1990-the-bronx-warriors"
 			},
 			{
 				"title": "Gas!",
@@ -104884,7 +105062,7 @@
 			{
 				"title": "This American Life: Season 1",
 				"year": null,
-				"film": "this-american-life-season-1"
+				"film": "this-american-life-season-2"
 			},
 			{
 				"title": "Redacted",
@@ -105004,29 +105182,29 @@
 				"film": "forgetting-sarah-marshall"
 			},
 			{
-				"title": "Hot Docs: Second Skin",
+				"title": "Second Skin",
 				"year": null,
-				"film": "hot-docs-second-skin"
+				"film": "second-skin"
 			},
 			{
-				"title": "Hot Docs: The English Surgeon",
+				"title": "The English Surgeon",
 				"year": null,
-				"film": "hot-docs-the-english-surgeon"
+				"film": "the-english-surgeon"
 			},
 			{
-				"title": "Hot Docs: Man on Wire",
+				"title": "Man on Wire",
 				"year": null,
-				"film": "hot-docs-man-on-wire"
+				"film": "man-on-wire"
 			},
 			{
-				"title": "Hot Docs: Stranded: I've Come From A Plane That Crashed in the Mountains",
+				"title": "Stranded: I've Come from a Plane That Crashed on the Mountains",
 				"year": null,
-				"film": "hot-docs-stranded-ive-come-from-a-plane-that-crashed-in-the-mountains"
+				"film": "stranded-ive-come-from-a-plane-that-crashed-on-the-mountains"
 			},
 			{
-				"title": "Hot Docs: The Rise and Fall of the Grumpy Burger",
+				"title": "The Rise and Fall of the Grumpy Burger",
 				"year": null,
-				"film": "hot-docs-the-rise-and-fall-of-the-grumpy-burger"
+				"film": "the-rise-and-fall-of-the-grumpy-burger"
 			},
 			{
 				"title": "Wolf Creek",
@@ -105082,19 +105260,19 @@
 				"film": "ghosts-of-cite-soleil"
 			},
 			{
-				"title": "Hot Docs: Shot in Bombay",
+				"title": "Shot in Bombay",
 				"year": null,
-				"film": "hot-docs-shot-in-bombay"
+				"film": "shot-in-bombay"
 			},
 			{
-				"title": "Hot Docs: The Betrayal",
+				"title": "The Betrayal - Nerakhoon",
 				"year": null,
-				"film": "hot-docs-the-betrayal"
+				"film": "the-betrayal-nerakhoon"
 			},
 			{
-				"title": "Hot Docs: Carny",
-				"year": null,
-				"film": "hot-docs-carny"
+				"title": "Carny",
+				"year": 2009,
+				"film": "carny"
 			}
 		],
 		"segments": [
@@ -105300,9 +105478,9 @@
 				"film": "the-first-year"
 			},
 			{
-				"title": "The Horror of Dracula",
-				"year": null,
-				"film": "the-horror-of-dracula"
+				"title": "Dracula",
+				"year": 1958,
+				"film": "dracula"
 			},
 			{
 				"title": "David Blaine: Fearless",
