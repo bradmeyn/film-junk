@@ -1,6 +1,5 @@
 ---
 import Layout from '../../layouts/layout.astro';
-import FilmSearch from '../../components/film-search.svelte';
 import FilmBrowser, { type Item } from '../../components/film-browser.svelte';
 import { episodeHref, episodeLabel, episodes, filmBySlug, films, formatDate } from '../../lib/data';
 
@@ -44,17 +43,12 @@ const mostMentioned = films
 	<div class="wrap">
 		<h1>Films</h1>
 		<p class="muted intro">
-			Every film and show that was reviewed or came up in "what we watched", {films.length.toLocaleString()} in total.
+			All {items.length.toLocaleString()} reviews. Filter by rating to find the favourites, or the ones nobody liked. To find any of
+			the {films.length.toLocaleString()} films and shows mentioned on the podcast, use the search at the top.
 		</p>
-		<div class="search">
-			<FilmSearch client:load limit={40} />
-		</div>
-
-		<section class="reviews" aria-labelledby="reviews-h">
-			<h2 id="reviews-h">Every review</h2>
-			<p class="muted intro">{items.length.toLocaleString()} reviews. Filter by rating to find the favourites, or the ones nobody liked.</p>
+		<div class="browser">
 			<FilmBrowser client:load {items} {hosts} />
-		</section>
+		</div>
 
 		<div class="lists">
 			<section>
@@ -87,7 +81,7 @@ const mostMentioned = films
 
 <style>
 	h1 {
-		font-size: var(--step-4);
+		font-size: var(--step-3);
 		margin-top: 1.5rem;
 	}
 
@@ -95,12 +89,7 @@ const mostMentioned = films
 		max-width: 55ch;
 	}
 
-	.search {
-		max-width: 44rem;
-		margin-bottom: 3rem;
-	}
-
-	.reviews {
+	.browser {
 		margin-bottom: 3.5rem;
 	}
 
