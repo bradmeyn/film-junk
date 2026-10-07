@@ -24,8 +24,40 @@
 		"date": "2026-10-05",
 		"title": "Viy",
 		"links": {
-			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-1066-171269433"
+			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-1066-171269433",
+			"spotify": "https://open.spotify.com/episode/361tQugKya8CGH5WWNLn34"
 		}
+	},
+	{
+		"id": "1065",
+		"kind": "regular",
+		"show": "Film Junk",
+		"number": 1065,
+		"part": null,
+		"date": "2026-10-05",
+		"dateApprox": false,
+		"title": "The Rocky Horror Picture Show",
+		"reviews": [
+			{
+				"title": "The Rocky Horror Picture Show",
+				"year": 1975,
+				"ratings": [],
+				"film": "the-rocky-horror-picture-show"
+			}
+		],
+		"watched": [],
+		"segments": [],
+		"music": {},
+		"notes": "",
+		"description": "This week on the Film Junk Podcast, let's do the time warp again as we revisit one of the biggest cult classics of all time. The Rocky Horror Picture Show remains an influential and utterly unique musical that seems like an ideal choice to kick off the month of October. But what is it about this movie that has allowed it to endure? Is Tim Curry's performance revered yet still somehow underrated? Is seeing it with a live audience the best way to experience this movie? What is the deeper psychological meaning behind Frank killing Eddie? Damnit Janet... don't dream it, be it on this week's episode of Film Junk.",
+		"pack": null,
+		"links": {
+			"libsyn": "https://directory.libsyn.com/episode/index/id/43050678",
+			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-1065-170756857",
+			"apple": "https://podcasts.apple.com/us/podcast/the-rocky-horror-picture-show-1975/id74257105?i=1000793283849",
+			"spotify": "https://open.spotify.com/episode/3gbRNVb5WDlygSp38JHeaa"
+		},
+		"mentioned": []
 	},
 	{
 		"notes": "",
@@ -154,7 +186,8 @@
 		"title": "What We Watched: Resident Evil, Primetime, The Python Hunt, and more!",
 		"duration": 7792,
 		"links": {
-			"patreon": "https://www.patreon.com/filmjunk/posts/what-we-watched-171125405"
+			"patreon": "https://www.patreon.com/filmjunk/posts/what-we-watched-171125405",
+			"spotify": "https://open.spotify.com/episode/3VWwleljBpeT4ILhuYfTDE"
 		}
 	},
 	{
@@ -177,36 +210,8 @@
 		"title": "Junk Mail: September 2026, Part 2",
 		"duration": 2707,
 		"links": {
-			"patreon": "https://www.patreon.com/filmjunk/posts/junk-mail-2026-2-170908457"
-		}
-	},
-	{
-		"notes": "",
-		"description": "This week on the Film Junk Podcast, let's do the time warp again as we revisit one of the biggest cult classics of all time. The Rocky Horror Picture Show remains an influential and utterly unique musical that seems like an ideal choice to kick off the month of October. But what is it about this movie that has allowed it to endure? Is Tim Curry's performance revered yet still somehow underrated? Is seeing it with a live audience the best way to experience this movie? What is the deeper psychological meaning behind Frank killing Eddie? Damnit Janet... don't dream it, be it on this week's episode of Film Junk.",
-		"mentioned": [],
-		"segments": [],
-		"watched": [],
-		"reviews": [
-			{
-				"title": "The Rocky Horror Picture Show",
-				"year": 1975,
-				"ratings": [],
-				"film": "the-rocky-horror-picture-show"
-			}
-		],
-		"music": {},
-		"show": "Film Junk",
-		"part": null,
-		"dateApprox": false,
-		"pack": null,
-		"id": "1065",
-		"kind": "regular",
-		"number": 1065,
-		"date": "2026-09-28",
-		"title": "The Rocky Horror Picture Show",
-		"links": {
-			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-1065-170756857",
-			"spotify": "https://open.spotify.com/episode/6sdjhR0dWcmAw20wW6Lmqj"
+			"patreon": "https://www.patreon.com/filmjunk/posts/junk-mail-2026-2-170908457",
+			"spotify": "https://open.spotify.com/episode/6YjJk8ILXHSjtmZWHaUN3D"
 		}
 	},
 	{
@@ -235,6 +240,7 @@
 		"links": {
 			"libsyn": "https://directory.libsyn.com/episode/index/id/42907817",
 			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-1064-168986577",
+			"apple": "https://podcasts.apple.com/us/podcast/shermans-march-1985/id74257105?i=1000792057587",
 			"spotify": "https://open.spotify.com/episode/17GbKcCs8sovj6UMA9kOvY"
 		},
 		"mentioned": []
