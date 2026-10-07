@@ -1,7 +1,33 @@
 ---
 import Layout from '../../layouts/layout.astro';
 import FilmSearch from '../../components/film-search.svelte';
-import { films } from '../../lib/data';
+import FilmBrowser, { type Item } from '../../components/film-browser.svelte';
+import { episodeHref, episodeLabel, episodes, filmBySlug, films, formatDate } from '../../lib/data';
+
+// Every review, for the browser. "6 out of 5" counts as 5 in the average, as everywhere else on the site.
+const items: Item[] = episodes.flatMap((e) =>
+	(e.reviews ?? []).map((review) => {
+		const film = review.film ? filmBySlug.get(review.film) : undefined;
+		const capped = review.ratings.map((r) => Math.min(5, (r.score / r.outOf) * 5));
+		return {
+			k: `${e.id}:${review.film ?? review.title}`,
+			f: film?.slug ?? null,
+			t: film?.title ?? review.title,
+			y: film?.year ?? review.year,
+			p: film?.poster ?? null,
+			e: episodeHref(e),
+			l: `${episodeLabel(e)}, ${formatDate(e.date, e.dateApprox)}`,
+			d: e.date,
+			r: review.ratings.map((r) => ({ h: r.host, s: r.score, o: r.outOf })),
+			a: capped.length ? capped.reduce((a, b) => a + b, 0) / capped.length : null,
+		};
+	}),
+);
+
+// Regular hosts first, then guests by how often they rated something.
+const hostCounts = new Map<string, number>();
+for (const i of items) for (const r of i.r) hostCounts.set(r.h, (hostCounts.get(r.h) ?? 0) + 1);
+const hosts = [...hostCounts].filter(([, n]) => n >= 5).sort((a, b) => b[1] - a[1]).map(([h]) => h);
 
 const reviewCount = (f: (typeof films)[number]) => f.appearances.filter((a) => a.role !== 'watched').length;
 const mostReviewed = films
@@ -18,11 +44,17 @@ const mostMentioned = films
 	<div class="wrap">
 		<h1>Films</h1>
 		<p class="muted intro">
-			Every film and show that was reviewed or came up in "what we watched", {films.length.toLocaleString()} in total. Or browse the <a href="/films/top-rated/">top rated</a>, every 5 and 6 star review.
+			Every film and show that was reviewed or came up in "what we watched", {films.length.toLocaleString()} in total.
 		</p>
 		<div class="search">
 			<FilmSearch client:load limit={40} />
 		</div>
+
+		<section class="reviews" aria-labelledby="reviews-h">
+			<h2 id="reviews-h">Every review</h2>
+			<p class="muted intro">{items.length.toLocaleString()} reviews. Filter by rating to find the favourites, or the ones nobody liked.</p>
+			<FilmBrowser client:load {items} {hosts} />
+		</section>
 
 		<div class="lists">
 			<section>
@@ -66,6 +98,10 @@ const mostMentioned = films
 	.search {
 		max-width: 44rem;
 		margin-bottom: 3rem;
+	}
+
+	.reviews {
+		margin-bottom: 3.5rem;
 	}
 
 	.lists {

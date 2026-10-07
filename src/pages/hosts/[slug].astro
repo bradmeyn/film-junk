@@ -172,7 +172,7 @@ const fmt = (n: number) => n.toFixed(1);
 
 		<section>
 			<h2>Perfect scores</h2>
-			<p class="muted note">Every film {first} gave full marks, newest first. <a href={`/films/top-rated/?host=${host.key}`}>Filter by year</a></p>
+			<p class="muted note">Every film {first} gave full marks, newest first. <a href={`/films/?host=${host.key}&rating=4.5`}>Browse all their ratings</a></p>
 			<ul class="chips">
 				{
 					perfect.map((s) => {
