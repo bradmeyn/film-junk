@@ -1,10 +1,42 @@
 [
 	{
 		"notes": "",
-		"description": "I summon the vampires! I summon the werewolves! I summon Viy! On this week's episode of Film Junk we are unearthing Viy, a spooky hidden gem from 1967 that is billed as the Soviet Union's first horror film. It's a wild ride that delivers some laughs, some thrills and a lot of impressive visual effects. So why isn't this movie more widely known? How is the Russian take on vampires, witches and demons different from the mythology we know today? Does vodka cure everything? Is there a connection between Viy and the Dogma poop monster? Drop blood tear and download the latest episode of Film Junk now.",
+		"description": "\"We've always said, if there's no risk, what's the point?\" On this week's episode of Film Junk, we gear up and dive back into the darkness as we return to Neil Marshall's acclaimed 2005 horror film The Descent. But not everyone on the podcast has seen it before... let's find out if still holds up or if it is actually a little bit \"shite\". Did The Descent kickstart the trend of \"elevated horror\" or is it kind of the opposite? Are the creatures just humans who got lost in the caves or are they something else entirely? Which ending is better... or do they both suck? Did the jump scares make Frankie go boom boom in his pants? Find out how to give a lemon an orgasm by downloading the latest episode of Film Junk.",
 		"mentioned": [],
 		"segments": [],
 		"watched": [],
+		"reviews": [
+			{
+				"title": "The Descent",
+				"year": 2005,
+				"ratings": [],
+				"film": "the-descent"
+			}
+		],
+		"music": {},
+		"show": "Film Junk",
+		"part": null,
+		"dateApprox": false,
+		"pack": null,
+		"id": "1067",
+		"kind": "regular",
+		"number": 1067,
+		"date": "2026-10-12",
+		"title": "The Descent",
+		"links": {
+			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-1067-172117202",
+			"spotify": "https://open.spotify.com/episode/0pjgZXaxlkiZov47PmJ50o"
+		}
+	},
+	{
+		"id": "1066",
+		"kind": "regular",
+		"show": "Film Junk",
+		"number": 1066,
+		"part": null,
+		"date": "2026-10-12",
+		"dateApprox": false,
+		"title": "Viy",
 		"reviews": [
 			{
 				"title": "Viy",
@@ -13,19 +45,17 @@
 				"film": "viy"
 			}
 		],
+		"watched": [],
+		"segments": [],
 		"music": {},
-		"show": "Film Junk",
-		"part": null,
-		"dateApprox": false,
+		"notes": "",
+		"description": "I summon the vampires! I summon the werewolves! I summon Viy! On this week's episode of Film Junk we are unearthing Viy, a spooky hidden gem from 1967 that is billed as the Soviet Union's first horror film. It's a wild ride that delivers some laughs, some thrills and a lot of impressive visual effects. So why isn't this movie more widely known? How is the Russian take on vampires, witches and demons different from the mythology we know today? Does vodka cure everything? Is there a connection between Viy and the Dogma poop monster? Drop blood tear and download the latest episode of Film Junk now.",
 		"pack": null,
-		"id": "1066",
-		"kind": "regular",
-		"number": 1066,
-		"date": "2026-10-05",
-		"title": "Viy",
 		"links": {
+			"libsyn": "https://directory.libsyn.com/episode/index/id/43154643",
 			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-1066-171269433",
-			"spotify": "https://open.spotify.com/episode/361tQugKya8CGH5WWNLn34"
+			"apple": "https://podcasts.apple.com/us/podcast/viy-1967/id74257105?i=1000795980076",
+			"spotify": "https://open.spotify.com/episode/6iMp27naLX57d2ct4mb6sf"
 		}
 	},
 	{

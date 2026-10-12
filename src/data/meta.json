@@ -1,5 +1,5 @@
 {
-	"builtAt": "2026-10-11T18:31:40.899Z",
+	"builtAt": "2026-10-12T21:55:19.333Z",
 	"yearNotes": {
 		"2005": [
 			"Total episodes: 47",
@@ -1052,16 +1052,16 @@
 					"episode": "1066",
 					"film": "viy",
 					"poster": "/rgkp4X9C1NNobH8bq55zcMTQFCl.jpg",
-					"status": "patreon"
+					"status": "out"
 				},
 				{
 					"date": "2026-10-19",
 					"title": "The Descent",
 					"year": 2005,
-					"episode": null,
-					"film": null,
+					"episode": "1067",
+					"film": "the-descent",
 					"poster": "/mxFPI4KYBk5ri9cPteIS8jiDFgj.jpg",
-					"status": "upcoming"
+					"status": "patreon"
 				},
 				{
 					"date": "2026-10-26",
