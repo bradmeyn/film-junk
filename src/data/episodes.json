@@ -2707,46 +2707,39 @@
 		"date": "2026-02-20",
 		"title": "Ron Howard",
 		"description": "Ron Howard has always been a divisive director on the Film Junk Podcast, and it's time we finally dig into a selection of his filmography. Is he a normie, corporate pinhead getting by on his nice guy reputation? Or is he a titan of cinema, thriving across genres and adapting to powerhouse casts and challenging technical demands?\r\n\r\nWe discuss three personal favourites of the Film Junk hosts: Parenthood (Frank), Apollo 13 (Sean) and Backdraft(Jay) as well as three other classics from the 80s and 90s: Night Shift, Splash and Ransom. \r\n\r\nHouston, DO we have a problem? Tune in to find out!",
-		"covers": [],
+		"covers": [
+			{
+				"title": "Night Shift",
+				"film": "night-shift"
+			},
+			{
+				"title": "Splash",
+				"film": "splash"
+			},
+			{
+				"title": "Parenthood",
+				"film": "parenthood"
+			},
+			{
+				"title": "Backdraft",
+				"film": "backdraft"
+			},
+			{
+				"title": "Apollo 13",
+				"film": "apollo-13"
+			},
+			{
+				"title": "Ransom",
+				"film": "ransom"
+			}
+		],
 		"notes": "",
 		"art": "https://f4.bcbits.com/img/a0859387721_16.jpg",
 		"links": {
 			"bandcamp": "https://filmjunk.bandcamp.com/album/ron-howard",
 			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-118-151065698",
 			"spotify": "https://open.spotify.com/episode/5bsUD2LFZu6UGZbmB4l1kM"
-		},
-		"mentioned": [
-			{
-				"title": "Night Shift",
-				"year": null,
-				"film": "night-shift"
-			},
-			{
-				"title": "Splash",
-				"year": null,
-				"film": "splash"
-			},
-			{
-				"title": "Parenthood",
-				"year": null,
-				"film": "parenthood"
-			},
-			{
-				"title": "Backdraft",
-				"year": null,
-				"film": "backdraft"
-			},
-			{
-				"title": "Apollo 13",
-				"year": null,
-				"film": "apollo-13"
-			},
-			{
-				"title": "Ransom",
-				"year": null,
-				"film": "ransom"
-			}
-		]
+		}
 	},
 	{
 		"id": "1028",
@@ -3391,41 +3384,35 @@
 		"date": "2025-12-24",
 		"title": "Action-Packed Christmas Movies",
 		"description": "Now that the normies of the world have finally accepted Die Hard as a Christmas movie, it’s time to dig a little deeper with Film Junk’s Action-Packed Christmas (TM)! Curl up by the fire with a glass of eggnog and a pair of Mini-Uzi submachine guns as we unwrap an interesting assortment of holiday-themed action movies. We selected five unique holiday treasures including Canadian cult classic The Silent Partner, the explosive Chuck Norris flick Invasion U.S.A., and the dark Home Alone-esque thriller Deadly Games along with a token Shane Black movie (The Long Kiss Goodnight) and the much-maligned Reindeer Games. But did these movies get us in the Christmas spirit or did they bring out Eddie-neezer Scrooge? Life is pain… get used to it. \r\n\r\nYou haven't opened all of your presents until you've listened to this premium!\r\n\r\nMerry Christmas Junkers!",
-		"covers": [],
+		"covers": [
+			{
+				"title": "The Silent Partner",
+				"film": "the-silent-partner"
+			},
+			{
+				"title": "Invasion U.S.A",
+				"film": "invasion-u-s-a"
+			},
+			{
+				"title": "Deadly Games",
+				"film": "deadly-games"
+			},
+			{
+				"title": "The Long Kiss Goodnight",
+				"film": "the-long-kiss-goodnight"
+			},
+			{
+				"title": "Reindeer Games",
+				"film": "reindeer-games"
+			}
+		],
 		"notes": "",
 		"art": "https://f4.bcbits.com/img/a0075191769_16.jpg",
 		"links": {
 			"bandcamp": "https://filmjunk.bandcamp.com/album/action-packed-christmas-movies",
 			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-117-146547853",
 			"spotify": "https://open.spotify.com/episode/23Sb3WS5mUz68r4jfmNA1a"
-		},
-		"mentioned": [
-			{
-				"title": "The Silent Partner",
-				"year": null,
-				"film": "the-silent-partner"
-			},
-			{
-				"title": "Invasion U.S.A",
-				"year": null,
-				"film": "invasion-u-s-a"
-			},
-			{
-				"title": "Deadly Games",
-				"year": null,
-				"film": "deadly-games"
-			},
-			{
-				"title": "The Long Kiss Goodnight",
-				"year": null,
-				"film": "the-long-kiss-goodnight"
-			},
-			{
-				"title": "Reindeer Games",
-				"year": null,
-				"film": "reindeer-games"
-			}
-		]
+		}
 	},
 	{
 		"id": "1021",
@@ -4063,46 +4050,39 @@
 		"date": "2025-10-29",
 		"title": "Post-Scream Slashers",
 		"description": "Scream changed the game in the 90s and made horror cool again. On this Film Junk Premium Podcast we discuss six movies that aspired to be as hip and as profitable as Wes Craven's classic: I Know What You Did Last Summer, I Still Know What You Did Last Summer, Urban Legend, Urban Legends: Final Cut, Cherry Falls and Valentine. \r\n\r\nIt’s nostalgia, bloodshed, and plenty of nu-metal to mosh to.\r\n\r\nWHAT ARE YOU WAITING FOR !?!?! Listen now.",
-		"covers": [],
+		"covers": [
+			{
+				"title": "I Know What You Did Last Summer",
+				"film": "i-know-what-you-did-last-summer"
+			},
+			{
+				"title": "I Still Know What You Did Last Summer",
+				"film": "i-still-know-what-you-did-last-summer"
+			},
+			{
+				"title": "Urban Legend",
+				"film": "urban-legend"
+			},
+			{
+				"title": "Urban Legends: Final Cut",
+				"film": "urban-legends-final-cut"
+			},
+			{
+				"title": "Cherry Falls",
+				"film": "cherry-falls"
+			},
+			{
+				"title": "Valentine",
+				"film": "valentine"
+			}
+		],
 		"notes": "",
 		"art": "https://f4.bcbits.com/img/a1169628974_16.jpg",
 		"links": {
 			"bandcamp": "https://filmjunk.bandcamp.com/album/post-scream-slashers",
 			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-116-142220098",
 			"spotify": "https://open.spotify.com/episode/6l9n3SaKmH2OcAgUepmdEs"
-		},
-		"mentioned": [
-			{
-				"title": "I Know What You Did Last Summer",
-				"year": null,
-				"film": "i-know-what-you-did-last-summer"
-			},
-			{
-				"title": "I Still Know What You Did Last Summer",
-				"year": null,
-				"film": "i-still-know-what-you-did-last-summer"
-			},
-			{
-				"title": "Urban Legend",
-				"year": null,
-				"film": "urban-legend"
-			},
-			{
-				"title": "Urban Legends: Final Cut",
-				"year": null,
-				"film": "urban-legends-final-cut"
-			},
-			{
-				"title": "Cherry Falls",
-				"year": null,
-				"film": "cherry-falls"
-			},
-			{
-				"title": "Valentine",
-				"year": null,
-				"film": "valentine"
-			}
-		]
+		}
 	},
 	{
 		"id": "1014",
@@ -4502,41 +4482,35 @@
 		"date": "2025-09-24",
 		"title": "Rob Reiner",
 		"description": "Inconceivable! Another long-requested director finally gets the Film Junk Premium Podcast treatment this week as we revisit the early films of Rob Reiner. It's a versatile group of '80s and '90s classics that includes comedies like This is Spinal Tap and When Harry Met Sally..., more serious dramas like Stand By Me and A Few Good Men, plus a beloved pick that blends just about every genre you can think of (The Princess Bride).\nWas This is Spinal Tap the first mockumentary ever made? Which character do you most identify with from Stand By Me? What is Rob Reiner's most quotable movie? Did he just rely on great screenwriters or did he also bring his own magical touch to these projects?\nYou want answers? Think you can handle the truth? Turn it up to 11 and listen to this month's premium podcast below.\n0:00 - Intro\n13:25 - This Is Spinal Tap\n55:50 - Stand By Me\n1:30:50 - The Princess Bride\n2:10:15 - When Harry Met Sally ...\n2:34:50 - A Few Good Men\n3:06:00 - Top 5 / Bottom 5",
-		"covers": [],
+		"covers": [
+			{
+				"title": "This Is Spinal Tap",
+				"film": "this-is-spinal-tap"
+			},
+			{
+				"title": "Stand By Me",
+				"film": "stand-by-me"
+			},
+			{
+				"title": "The Princess Bride",
+				"film": "the-princess-bride"
+			},
+			{
+				"title": "When Harry Met Sally",
+				"film": "when-harry-met-sally"
+			},
+			{
+				"title": "A Few Good Men",
+				"film": "a-few-good-men"
+			}
+		],
 		"notes": "",
 		"art": "https://f4.bcbits.com/img/a2657640040_16.jpg",
 		"links": {
 			"bandcamp": "https://filmjunk.bandcamp.com/album/rob-reiner",
 			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-115-139440272",
 			"spotify": "https://open.spotify.com/episode/2IZG5FbHAzXsMpuwCpYGyI"
-		},
-		"mentioned": [
-			{
-				"title": "This Is Spinal Tap",
-				"year": null,
-				"film": "this-is-spinal-tap"
-			},
-			{
-				"title": "Stand By Me",
-				"year": null,
-				"film": "stand-by-me"
-			},
-			{
-				"title": "The Princess Bride",
-				"year": null,
-				"film": "the-princess-bride"
-			},
-			{
-				"title": "When Harry Met Sally",
-				"year": null,
-				"film": "when-harry-met-sally"
-			},
-			{
-				"title": "A Few Good Men",
-				"year": null,
-				"film": "a-few-good-men"
-			}
-		]
+		}
 	},
 	{
 		"id": "1009",
@@ -6074,41 +6048,35 @@
 		"date": "2025-05-22",
 		"title": "The Final Destination Franchise",
 		"description": "Film Junk is back with a deep dive into a horror franchise that has been heavily requested over the years: Final Destination. In this premium episode, we’re unpacking all five films in the series in preparation for the latest theatrical installment.\r\n\r\nWhich opening sequences are the most iconic? Which kills are the most creative? Is the Final Destination series a forgotten treasure of 2000s horror or just a graveyard for the careers of D-list Canadian talent? \r\n\r\nLock yourself in a padded room, and open up a can of tinned meat and prepare for the answers, if you dare!",
-		"covers": [],
+		"covers": [
+			{
+				"title": "Final Destination",
+				"film": "final-destination"
+			},
+			{
+				"title": "Final Destination 2",
+				"film": "final-destination-2"
+			},
+			{
+				"title": "Final Destination 3",
+				"film": "final-destination-3"
+			},
+			{
+				"title": "The Final Destination",
+				"film": "the-final-destination"
+			},
+			{
+				"title": "Final Destination 5",
+				"film": "final-destination-5"
+			}
+		],
 		"notes": "",
 		"art": "https://f4.bcbits.com/img/a0192971309_16.jpg",
 		"links": {
 			"bandcamp": "https://filmjunk.bandcamp.com/album/the-final-destination-franchise",
 			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-114-129303889",
 			"spotify": "https://open.spotify.com/episode/4dDwtHPLTxp5u8O8E6b4f2"
-		},
-		"mentioned": [
-			{
-				"title": "Final Destination",
-				"year": null,
-				"film": "final-destination"
-			},
-			{
-				"title": "Final Destination 2",
-				"year": null,
-				"film": "final-destination-2"
-			},
-			{
-				"title": "Final Destination 3",
-				"year": null,
-				"film": "final-destination-3"
-			},
-			{
-				"title": "The Final Destination",
-				"year": null,
-				"film": "the-final-destination"
-			},
-			{
-				"title": "Final Destination 5",
-				"year": null,
-				"film": "final-destination-5"
-			}
-		]
+		}
 	},
 	{
 		"id": "993",
@@ -6587,51 +6555,43 @@
 		"date": "2025-04-22",
 		"title": "Harmony Korine",
 		"description": "The Film Junk Podcast is finally tackling the films of the world's foremost edgelord auteur: Harmony Korine.\r\n\r\nWe kick off the podcast examining his screenwriting debut Kids and then discuss all of his pre-EDGLRD films: Gummo, Julien Donkey-Boy, Mister Lonely, Trash Humpers, Spring Breakers, and The Beach Bum \r\n\r\nBuy it! Buy it! Don't try it!\r\n\r\nWARNING: If you are under the age of 18 and a resident of Quebec you are not allowed to listen to this podcast!!",
-		"covers": [],
+		"covers": [
+			{
+				"title": "Kids",
+				"film": "kids"
+			},
+			{
+				"title": "Gummo",
+				"film": "gummo"
+			},
+			{
+				"title": "Julien Donkey-Boy",
+				"film": "julien-donkey-boy"
+			},
+			{
+				"title": "Mister Lonely",
+				"film": "mister-lonely"
+			},
+			{
+				"title": "Trash Humpers",
+				"film": "trash-humpers"
+			},
+			{
+				"title": "Spring Breakers",
+				"film": "spring-breakers"
+			},
+			{
+				"title": "The Beach Bum",
+				"film": "the-beach-bum"
+			}
+		],
 		"notes": "",
 		"art": "https://f4.bcbits.com/img/a3169390455_16.jpg",
 		"links": {
 			"bandcamp": "https://filmjunk.bandcamp.com/album/harmony-korine",
 			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-113-127152797",
 			"spotify": "https://open.spotify.com/episode/2OLDORgY9f7Y20T9OnHwMt"
-		},
-		"mentioned": [
-			{
-				"title": "Kids",
-				"year": null,
-				"film": "kids"
-			},
-			{
-				"title": "Gummo",
-				"year": null,
-				"film": "gummo"
-			},
-			{
-				"title": "Julien Donkey-Boy",
-				"year": null,
-				"film": "julien-donkey-boy"
-			},
-			{
-				"title": "Mister Lonely",
-				"year": null,
-				"film": "mister-lonely"
-			},
-			{
-				"title": "Trash Humpers",
-				"year": null,
-				"film": "trash-humpers"
-			},
-			{
-				"title": "Spring Breakers",
-				"year": null,
-				"film": "spring-breakers"
-			},
-			{
-				"title": "The Beach Bum",
-				"year": null,
-				"film": "the-beach-bum"
-			}
-		]
+		}
 	},
 	{
 		"id": "988",
@@ -7217,41 +7177,35 @@
 		"date": "2025-03-07",
 		"title": "90's Cyber Thrillers",
 		"description": "We're jacking in and going under the visor for this Film Junk Premium Podcast. We focus our techno-gaze on cyber thrillers of the 1990s including: The Lawnmower Man, Arcade, Ghost in the Machine, Virtuosity, and Johnny Mnemonic. It's time to get cyberdelic and buckle in, there's no escape button for this sadistic, intelligent and dangerous premium.",
-		"covers": [],
+		"covers": [
+			{
+				"title": "The Lawnmower Man",
+				"film": "the-lawnmower-man"
+			},
+			{
+				"title": "Arcade",
+				"film": "arcade"
+			},
+			{
+				"title": "Ghost in the Machine",
+				"film": "ghost-in-the-machine"
+			},
+			{
+				"title": "Virtuosity",
+				"film": "virtuosity"
+			},
+			{
+				"title": "Johnny Mnemonic",
+				"film": "johnny-mnemonic"
+			}
+		],
 		"notes": "",
 		"art": "https://f4.bcbits.com/img/a3891970837_16.jpg",
 		"links": {
 			"bandcamp": "https://filmjunk.bandcamp.com/album/90s-cyber-thrillers",
 			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-112-123862562",
 			"spotify": "https://open.spotify.com/episode/5qwvNfClfA8V2Sdo4llwba"
-		},
-		"mentioned": [
-			{
-				"title": "The Lawnmower Man",
-				"year": null,
-				"film": "the-lawnmower-man"
-			},
-			{
-				"title": "Arcade",
-				"year": null,
-				"film": "arcade"
-			},
-			{
-				"title": "Ghost in the Machine",
-				"year": null,
-				"film": "ghost-in-the-machine"
-			},
-			{
-				"title": "Virtuosity",
-				"year": null,
-				"film": "virtuosity"
-			},
-			{
-				"title": "Johnny Mnemonic",
-				"year": null,
-				"film": "johnny-mnemonic"
-			}
-		]
+		}
 	},
 	{
 		"id": "982",
@@ -8257,36 +8211,31 @@
 		"date": "2024-12-22",
 		"title": "Crappy Christmas Movies",
 		"description": "Our first \"official\" Christmas Premium Podcast has us doing some dumpster diving for the holidays. We discuss four movies of varying crappiness including: Ernest Saves Christmas, The Santa Clause, Jingle All The Way, and Jack Frost. \r\n\r\nThis premium begs the question. Are these really \"crappy\" movies or are they just misunderstood? Or perhaps more controversially, this premium raises the question: is there such a thing as a bad Christmas movie? \r\n\r\nYou haven't opened up all of your Christmas presents until you've listened to this premium podcast.",
-		"covers": [],
+		"covers": [
+			{
+				"title": "Ernest Saves Christmas",
+				"film": "ernest-saves-christmas"
+			},
+			{
+				"title": "The Santa Clause",
+				"film": "the-santa-clause"
+			},
+			{
+				"title": "Jingle All The Way",
+				"film": "jingle-all-the-way"
+			},
+			{
+				"title": "Jack Frost",
+				"film": "jack-frost"
+			}
+		],
 		"notes": "",
 		"art": "https://f4.bcbits.com/img/a0530140147_16.jpg",
 		"links": {
 			"bandcamp": "https://filmjunk.bandcamp.com/album/crappy-christmas-movies",
 			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-111-118501350",
 			"spotify": "https://open.spotify.com/episode/4za2Bs6VKPr97jijx1Spm4"
-		},
-		"mentioned": [
-			{
-				"title": "Ernest Saves Christmas",
-				"year": null,
-				"film": "ernest-saves-christmas"
-			},
-			{
-				"title": "The Santa Clause",
-				"year": null,
-				"film": "the-santa-clause"
-			},
-			{
-				"title": "Jingle All The Way",
-				"year": null,
-				"film": "jingle-all-the-way"
-			},
-			{
-				"title": "Jack Frost",
-				"year": null,
-				"film": "jack-frost"
-			}
-		]
+		}
 	},
 	{
 		"id": "973",
@@ -8562,7 +8511,6 @@
 	{
 		"notes": "",
 		"description": "It's Thanksgiving in America. According to data from IBA, an aviation market intelligence and advisory company, there has been a significant increase in North American air travel capacity over the 2024 Thanksgiving holiday compared to pre-pandemic levels. Scheduled seats to, from, and within North America from 28 November to 1 December 2024 have reached 13,838,608. This represents a 3% increase from 13,416,295 over the same period in 2023 and a 9% rise compared to the pre-pandemic total of 12,671,619 in 2019.\nAccording to IBA Insight, IBA’s data and analytics platform, airlines’ Available Seat Kilometres (ASKs) have risen by 3% year-on-year, increasing from 26,872 million last Thanksgiving to 27,778 million in 2024.\nMarie is not real, and Neil Peart* is a con man, passing off plastic shower curtain rings as priceless ivory, perpetuating the slaughter of the majestic Loxodonta africana and financing his nomadic lifestyle.\n*Correction",
-		"mentioned": [],
 		"segments": [],
 		"watched": [],
 		"reviews": [],
@@ -9170,36 +9118,31 @@
 		"date": "2024-10-29",
 		"title": "Hellraiser",
 		"description": "Let the gates of sado-masochistic hell be opened. The long requested Hellraiser premium is finally here. We examine the Quartet of Torment, which contains the first four, theatrically released films in the series. We start with the unique vision that started it all, Clive Barker's Hellraiser, followed by Hellbound: Hellraiser II, Hellraiser III: Hell on Earth, and Hellraiser: Bloodline. \r\n\r\nIs this premium an experience of pain, pleasure or both? Enjoy the sweet sweet suffering.",
-		"covers": [],
+		"covers": [
+			{
+				"title": "Hellraiser",
+				"film": "hellraiser"
+			},
+			{
+				"title": "Hellbound: Hellraiser II",
+				"film": "hellbound-hellraiser-ii"
+			},
+			{
+				"title": "Hellraiser III: Hell on Earth",
+				"film": "hellraiser-iii-hell-on-earth"
+			},
+			{
+				"title": "Hellraiser: Bloodline",
+				"film": "hellraiser-bloodline"
+			}
+		],
 		"notes": "",
 		"art": "https://f4.bcbits.com/img/a2989658681_16.jpg",
 		"links": {
 			"bandcamp": "https://filmjunk.bandcamp.com/album/hellraiser",
 			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-110-114695251",
 			"spotify": "https://open.spotify.com/episode/2QyxuDqeLy1jXouvfHlo0m"
-		},
-		"mentioned": [
-			{
-				"title": "Hellraiser",
-				"year": null,
-				"film": "hellraiser"
-			},
-			{
-				"title": "Hellbound: Hellraiser II",
-				"year": null,
-				"film": "hellbound-hellraiser-ii"
-			},
-			{
-				"title": "Hellraiser III: Hell on Earth",
-				"year": null,
-				"film": "hellraiser-iii-hell-on-earth"
-			},
-			{
-				"title": "Hellraiser: Bloodline",
-				"year": null,
-				"film": "hellraiser-bloodline"
-			}
-		]
+		}
 	},
 	{
 		"notes": "",
@@ -9422,31 +9365,27 @@
 		"date": "2024-10-06",
 		"title": "The Poltergeist Trilogy",
 		"description": "It’s Heeeeeeeeerrrreeeeeee, \r\n\r\nWith Hooptober looming, it's time we finally give the classic film directed by its namesake the premium treatment. We dig deep into all three films in the trilogy starting with Tobe Hooper's Poltergeist, followed by Poltergeist II: The Other Side and Poltergeist III.\r\n\r\nPoints of discussion include Jay's notorious petition for Frank to watch Poltergeist, remote fights, potato chip kisses and much, much more. Enjoy!",
-		"covers": [],
+		"covers": [
+			{
+				"title": "Poltergeist",
+				"film": "poltergeist-2015"
+			},
+			{
+				"title": "Poltergeist II: The Other Side",
+				"film": "poltergeist-ii-the-other-side"
+			},
+			{
+				"title": "Poltergeist III",
+				"film": "poltergeist-iii"
+			}
+		],
 		"notes": "",
 		"art": "https://f4.bcbits.com/img/a1536240644_16.jpg",
 		"links": {
 			"bandcamp": "https://filmjunk.bandcamp.com/album/the-poltergeist-trilogy",
 			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-109-113030803",
 			"spotify": "https://open.spotify.com/episode/35liACsgH1oW5lhrxwccUq"
-		},
-		"mentioned": [
-			{
-				"title": "Poltergeist",
-				"year": null,
-				"film": "poltergeist-2015"
-			},
-			{
-				"title": "Poltergeist II: The Other Side",
-				"year": null,
-				"film": "poltergeist-ii-the-other-side"
-			},
-			{
-				"title": "Poltergeist III",
-				"year": null,
-				"film": "poltergeist-iii"
-			}
-		]
+		}
 	},
 	{
 		"id": "963",
@@ -10462,46 +10401,39 @@
 		"date": "2024-07-29",
 		"title": "Kathryn Bigelow",
 		"description": "For our latest premium podcast we dive into the filmography of the first woman to take home Oscar gold for Best Director; none other than Kathryn Bigelow! We discuss all of her action films : Blue Steel, Point Break, Strange Days, K-19: The Widowmaker, The Hurt Locker, and Zero Dark Thirty. \r\n\r\nWill K-19 get a 4K bump? Do The Hurt Locker and Zero Dark Thirty hold up more than a decade later? Is Point Break one of THE great action films of all time? \r\n\r\nOnly one way to find out, little hand says it's time to rock and roll.",
-		"covers": [],
+		"covers": [
+			{
+				"title": "Blue Steel",
+				"film": "blue-steel"
+			},
+			{
+				"title": "Point Break",
+				"film": "point-break"
+			},
+			{
+				"title": "Strange Days",
+				"film": "strange-days"
+			},
+			{
+				"title": "K-19: The Widowmaker",
+				"film": "k-19-the-widowmaker"
+			},
+			{
+				"title": "The Hurt Locker",
+				"film": "the-hurt-locker"
+			},
+			{
+				"title": "Zero Dark Thirty",
+				"film": "zero-dark-thirty"
+			}
+		],
 		"notes": "",
 		"art": "https://f4.bcbits.com/img/a2513203504_16.jpg",
 		"links": {
 			"bandcamp": "https://filmjunk.bandcamp.com/album/kathryn-bigelow",
 			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-108-108637470",
 			"spotify": "https://open.spotify.com/episode/1ePQLgND3cWdCnXGewH6gR"
-		},
-		"mentioned": [
-			{
-				"title": "Blue Steel",
-				"year": null,
-				"film": "blue-steel"
-			},
-			{
-				"title": "Point Break",
-				"year": null,
-				"film": "point-break"
-			},
-			{
-				"title": "Strange Days",
-				"year": null,
-				"film": "strange-days"
-			},
-			{
-				"title": "K-19: The Widowmaker",
-				"year": null,
-				"film": "k-19-the-widowmaker"
-			},
-			{
-				"title": "The Hurt Locker",
-				"year": null,
-				"film": "the-hurt-locker"
-			},
-			{
-				"title": "Zero Dark Thirty",
-				"year": null,
-				"film": "zero-dark-thirty"
-			}
-		]
+		}
 	},
 	{
 		"id": "953",
@@ -11384,13 +11316,6 @@
 	{
 		"notes": "",
 		"description": "Your favourite blood bags are BACK with a new Film Junk Premium One-Shot! (Whatever that means...) In preparation for Furiosia: A Mad Max Saga, we revisit visionary OLD bag George Miller's 2015 epic, Mad Max: Fury Road. Before you ask, Frank was the only one who watched both the theatrical version and Miller's preferred Black and Chrome version. Sean wanted to watch it, but was apparently chugging guzzoline and couldn't find the special features on his digital copy. MEDIOCRE!",
-		"mentioned": [
-			{
-				"title": "Mad Max: Fury Road",
-				"year": null,
-				"film": "mad-max-fury-road"
-			}
-		],
 		"segments": [],
 		"watched": [],
 		"reviews": [],
@@ -11505,35 +11430,30 @@
 		"date": "2024-05-15",
 		"title": "Planet of the Apes: The Caesar Trilogy",
 		"description": "We finally really did it. In preparance for the release of Kingdom of the Planet of the Apes this weekend, we decided to revisit the three most recent Apes films and rediscover our inner primates. We look back at the Nu Planet of the Apes Trilogy and evaluate the visual effects, the believability and the Capital E Entertainment of it all plus we also determine who is the true VIP of this creative coup: Matt Reeves, Rupert Wyatt or Psycho Serkis himself. Get your stinking paws on a plastic divider-less bag of Chips Of Hoy cookies and chow down on the latest premium podcast below.",
-		"covers": [],
+		"covers": [
+			{
+				"title": "Rise of the Planet of the Apes",
+				"film": "rise-of-the-planet-of-the-apes"
+			},
+			{
+				"title": "Dawn of the Planet of the Apes",
+				"film": "dawn-of-the-planet-of-the-apes"
+			},
+			{
+				"title": "War for the Planet of the Apes",
+				"film": "war-for-the-planet-of-the-apes"
+			},
+			{
+				"title": "Kingdom of the Planet of the Apes",
+				"film": "kingdom-of-the-planet-of-the-apes"
+			}
+		],
 		"notes": "",
 		"art": "https://f4.bcbits.com/img/a2651111871_16.jpg",
 		"links": {
 			"bandcamp": "https://filmjunk.bandcamp.com/album/planet-of-the-apes-the-caesar-trilogy",
 			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-107-of-104042473"
-		},
-		"mentioned": [
-			{
-				"title": "Rise of the Planet of the Apes",
-				"year": null,
-				"film": "rise-of-the-planet-of-the-apes"
-			},
-			{
-				"title": "Dawn of the Planet of the Apes",
-				"year": null,
-				"film": "dawn-of-the-planet-of-the-apes"
-			},
-			{
-				"title": "War for the Planet of the Apes",
-				"year": null,
-				"film": "war-for-the-planet-of-the-apes"
-			},
-			{
-				"title": "Kingdom of the Planet of the Apes",
-				"year": null,
-				"film": "kingdom-of-the-planet-of-the-apes"
-			}
-		]
+		}
 	},
 	{
 		"id": "943",
@@ -12261,46 +12181,39 @@
 		"date": "2024-04-01",
 		"title": "Denis Villeneuve",
 		"description": "With the release of Dune Part 1 and Part 2, Denis Villeneuve has solidified his place as one of the more respected and acclaimed auteurs working in Hollywood today. But did he always have the juice? (The Prisoners fun juice, that is.) We revisit six of his previous movies from Canadian Genie-bait films Polytechnique and Incendies through to his Jake Gyllenhaal period with Prisoners and Enemy followed by breakout films Sicario and Arrival. Get your tickle guns ready... this month's premium podcast has arrived.",
-		"covers": [],
+		"covers": [
+			{
+				"title": "Polytechnique",
+				"film": "polytechnique"
+			},
+			{
+				"title": "Incendies",
+				"film": "incendies"
+			},
+			{
+				"title": "Prisoners",
+				"film": "prisoners"
+			},
+			{
+				"title": "Enemy",
+				"film": "enemy"
+			},
+			{
+				"title": "Sicario",
+				"film": "sicario"
+			},
+			{
+				"title": "Arrival",
+				"film": "arrival"
+			}
+		],
 		"notes": "",
 		"art": "https://f4.bcbits.com/img/a2439051404_16.jpg",
 		"links": {
 			"bandcamp": "https://filmjunk.bandcamp.com/album/denis-villeneuve",
 			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-106-101009248",
 			"spotify": "https://open.spotify.com/episode/1r6t4bXjA7K50AoC5S0gUd"
-		},
-		"mentioned": [
-			{
-				"title": "Polytechnique",
-				"year": null,
-				"film": "polytechnique"
-			},
-			{
-				"title": "Incendies",
-				"year": null,
-				"film": "incendies"
-			},
-			{
-				"title": "Prisoners",
-				"year": null,
-				"film": "prisoners"
-			},
-			{
-				"title": "Enemy",
-				"year": null,
-				"film": "enemy"
-			},
-			{
-				"title": "Sicario",
-				"year": null,
-				"film": "sicario"
-			},
-			{
-				"title": "Arrival",
-				"year": null,
-				"film": "arrival"
-			}
-		]
+		}
 	},
 	{
 		"id": "936",
@@ -12864,36 +12777,31 @@
 		"date": "2024-02-19",
 		"title": "Spike Jonze",
 		"description": "For our latest premium podcast we break down the iconic film catalogue of none other than Spike Jonze, including Being John Malkovich, Adaptation., Where the Wild Things Are, and her. \r\n\r\nThe Junkers have been Jonze'n' for this one for a long time, so grab your single earbud, put your phone in your front pocket, and prepare to be mindfucked!",
-		"covers": [],
+		"covers": [
+			{
+				"title": "Being John Malkovich",
+				"film": "being-john-malkovich"
+			},
+			{
+				"title": "Adaptation",
+				"film": "adaptation"
+			},
+			{
+				"title": "Where the Wild Things Are",
+				"film": "where-the-wild-things-are"
+			},
+			{
+				"title": "her",
+				"film": "her"
+			}
+		],
 		"notes": "",
 		"art": "https://f4.bcbits.com/img/a2901365339_16.jpg",
 		"links": {
 			"bandcamp": "https://filmjunk.bandcamp.com/album/spike-jonze",
 			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-105-98435798",
 			"spotify": "https://open.spotify.com/episode/0xwc4VvHcbKE8ZXtXJQSvG"
-		},
-		"mentioned": [
-			{
-				"title": "Being John Malkovich",
-				"year": null,
-				"film": "being-john-malkovich"
-			},
-			{
-				"title": "Adaptation",
-				"year": null,
-				"film": "adaptation"
-			},
-			{
-				"title": "Where the Wild Things Are",
-				"year": null,
-				"film": "where-the-wild-things-are"
-			},
-			{
-				"title": "her",
-				"year": null,
-				"film": "her"
-			}
-		]
+		}
 	},
 	{
 		"id": "930",
@@ -13543,26 +13451,23 @@
 		"date": "2023-12-22",
 		"title": "A Bob Clark Christmas",
 		"description": "Our first double feature premium podcast focuses on two Christmas classics directed by the same man; none other than Bob Clark. We discuss one movie that's a little naughty (Black Christmas) and one that's nice (A Christmas Story). Merry Christmas and Happy Holidays Junkers!",
-		"covers": [],
+		"covers": [
+			{
+				"title": "Black Christmas",
+				"film": "black-christmas"
+			},
+			{
+				"title": "A Christmas Story",
+				"film": "a-christmas-story"
+			}
+		],
 		"notes": "",
 		"art": "https://f4.bcbits.com/img/a2890299764_16.jpg",
 		"links": {
 			"bandcamp": "https://filmjunk.bandcamp.com/album/a-bob-clark-christmas",
 			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-104-95127997",
 			"spotify": "https://open.spotify.com/episode/4fC4mKKxZI3mG6yxumvia3"
-		},
-		"mentioned": [
-			{
-				"title": "Black Christmas",
-				"year": null,
-				"film": "black-christmas"
-			},
-			{
-				"title": "A Christmas Story",
-				"year": null,
-				"film": "a-christmas-story"
-			}
-		]
+		}
 	},
 	{
 		"id": "923",
@@ -14478,51 +14383,39 @@
 		"date": "2023-10-15",
 		"title": "Dracula",
 		"description": "The Film Junk Podcast gets into the Halloween Spirit by sinking our teeth into several interpretations of one the most beloved horror stories of all time, Bram Stoker's Dracula.\r\n\r\nWe tackle no less than SEVEN different portrayals of the horror icon including: Nosferatu, Horror of Dracula, Blood for Dracula, Dracula (1979), Nosferatu The Vampyre, Bram Stoker's Dracula and Dracula: Dead and Loving It.\r\n\r\nListen to it, the soundboard of the night. What sweet music it makes!",
-		"covers": [],
+		"covers": [
+			{
+				"title": "Nosferatu",
+				"film": "nosferatu"
+			},
+			{
+				"title": "Dracula (1958)",
+				"film": "dracula"
+			},
+			{
+				"title": "Blood for Dracula",
+				"film": "blood-for-dracula"
+			},
+			{
+				"title": "Nosferatu The Vampyre",
+				"film": "nosferatu-the-vampyre"
+			},
+			{
+				"title": "Bram Stoker's Dracula",
+				"film": "bram-stokers-dracula"
+			},
+			{
+				"title": "Dracula: Dead and Loving It",
+				"film": "dracula-dead-and-loving-it"
+			}
+		],
 		"notes": "",
 		"art": "https://f4.bcbits.com/img/a2984200227_16.jpg",
 		"links": {
 			"bandcamp": "https://filmjunk.bandcamp.com/album/dracula",
 			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-103-90685915",
 			"spotify": "https://open.spotify.com/episode/5WfmrvXAOuz4anrRryl9oF"
-		},
-		"mentioned": [
-			{
-				"title": "Nosferatu",
-				"year": null,
-				"film": "nosferatu"
-			},
-			{
-				"title": "Dracula",
-				"year": 1958,
-				"film": "dracula"
-			},
-			{
-				"title": "Blood for Dracula",
-				"year": null,
-				"film": "blood-for-dracula"
-			},
-			{
-				"title": "Dracula",
-				"year": 1979,
-				"film": "dracula"
-			},
-			{
-				"title": "Nosferatu The Vampyre",
-				"year": null,
-				"film": "nosferatu-the-vampyre"
-			},
-			{
-				"title": "Bram Stoker's Dracula",
-				"year": null,
-				"film": "bram-stokers-dracula"
-			},
-			{
-				"title": "Dracula: Dead and Loving It",
-				"year": null,
-				"film": "dracula-dead-and-loving-it"
-			}
-		]
+		}
 	},
 	{
 		"id": "914",
@@ -15392,46 +15285,39 @@
 		"date": "2023-08-20",
 		"title": "Werner Herzog",
 		"description": "Join us on episode 102 of the Film Junk Premium Podcast as we discuss the films of Werner Herzog. We hand-picked a selection of movies that capture his unusual blend of fact and fiction, some of which are the catalyst of the unbelievable myths and legends connected to the filmmaker Muhammad Ali once called \"One of the most significant voices in German cinema.\"\r\n\r\nThis episode is nine years in the making. Hardcore Junkers (aka Heroes) might recall episode 474 of the Film Junk Podcast titled \"Little Frankie Needs To Buy, Buy, Buy,\" in which Matt Gourley joined Sean, Jay, and Frank as they opened their newly purchased, autographed Herzog Blu-ray sets. Upon discovering a smudge on one of the signatures, Werner Herzog himself called in to comment on the situation. Now, a decade later, the purchases have finally paid off. Please enjoy against your better judgment.\r\n\r\nNote: This episode was recorded deep within the Pindaya Caves in Myanmar on primitive microphones stolen from the audio/visual department of an unnamed university in the Rangon region.",
-		"covers": [],
+		"covers": [
+			{
+				"title": "Even Dwarfs Started Small",
+				"film": "even-dwarfs-started-small"
+			},
+			{
+				"title": "Aguirre: The Wrath Of God",
+				"film": "aguirre-the-wrath-of-god"
+			},
+			{
+				"title": "Fitzcarraldo",
+				"film": "fitzcarraldo"
+			},
+			{
+				"title": "Burden Of Dreams",
+				"film": "burden-of-dreams"
+			},
+			{
+				"title": "Lessons Of Darkness",
+				"film": "lessons-of-darkness"
+			},
+			{
+				"title": "Little Dieter Needs To Fly",
+				"film": "little-dieter-needs-to-fly"
+			}
+		],
 		"notes": "",
 		"art": "https://f4.bcbits.com/img/a3611843404_16.jpg",
 		"links": {
 			"bandcamp": "https://filmjunk.bandcamp.com/album/werner-herzog",
 			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-102-87868147",
 			"spotify": "https://open.spotify.com/episode/1z7AGexNGUZ1zmrBNX6S53"
-		},
-		"mentioned": [
-			{
-				"title": "Even Dwarfs Started Small",
-				"year": null,
-				"film": "even-dwarfs-started-small"
-			},
-			{
-				"title": "Aguirre: The Wrath Of God",
-				"year": null,
-				"film": "aguirre-the-wrath-of-god"
-			},
-			{
-				"title": "Fitzcarraldo",
-				"year": null,
-				"film": "fitzcarraldo"
-			},
-			{
-				"title": "Burden Of Dreams",
-				"year": null,
-				"film": "burden-of-dreams"
-			},
-			{
-				"title": "Lessons Of Darkness",
-				"year": null,
-				"film": "lessons-of-darkness"
-			},
-			{
-				"title": "Little Dieter Needs To Fly",
-				"year": null,
-				"film": "little-dieter-needs-to-fly"
-			}
-		]
+		}
 	},
 	{
 		"id": "906",
@@ -15982,41 +15868,35 @@
 		"date": "2023-07-17",
 		"title": "Arnold Schwarzenegger",
 		"description": "Arnie is back. The CAO of Netflix seems to be everywhere these days, so we felt the need to celebrate his non-franchise films. On this premium podcast we discuss Commando, The Running Man, Red Heat, Last Action Hero, and End of Days.\r\n\r\nFailing to listen to this premium would be a \"big mistake\".",
-		"covers": [],
+		"covers": [
+			{
+				"title": "Commando",
+				"film": "retro-review-commando"
+			},
+			{
+				"title": "The Running Man",
+				"film": "the-running-man"
+			},
+			{
+				"title": "Red Heat",
+				"film": "red-heat"
+			},
+			{
+				"title": "Last Action Hero",
+				"film": "last-action-hero"
+			},
+			{
+				"title": "End of Days",
+				"film": "end-of-days"
+			}
+		],
 		"notes": "",
 		"art": "https://f4.bcbits.com/img/a0456570603_16.jpg",
 		"links": {
 			"bandcamp": "https://filmjunk.bandcamp.com/album/arnold-schwarzenegger",
 			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-101-85888712",
 			"spotify": "https://open.spotify.com/episode/67TWTqnMYVcRQQLmGNDGYH"
-		},
-		"mentioned": [
-			{
-				"title": "Commando",
-				"year": null,
-				"film": "retro-review-commando"
-			},
-			{
-				"title": "The Running Man",
-				"year": null,
-				"film": "the-running-man"
-			},
-			{
-				"title": "Red Heat",
-				"year": null,
-				"film": "red-heat"
-			},
-			{
-				"title": "Last Action Hero",
-				"year": null,
-				"film": "last-action-hero"
-			},
-			{
-				"title": "End of Days",
-				"year": null,
-				"film": "end-of-days"
-			}
-		]
+		}
 	},
 	{
 		"notes": "",
@@ -17054,56 +16934,47 @@
 		"date": "2023-05-08",
 		"title": "Christopher Nolan",
 		"description": "The 100th Film Junk Premium Podcast needed to be something special, so we finally tapped into the filmography of Christopher Nolan. We discuss all of his films outside of the Dark Knight Trilogy and despite our best efforts to \"move it along\", it required an epic 5 hours to fit in all of our thoughts.\r\n\r\nI think it's safe to say we're all ready for a Nolanoscopy after this one. Enjoy!\r\n\r\nSpecial thanks to all of The Junkers for supporting 100 Premium Podcasts !!",
-		"covers": [],
+		"covers": [
+			{
+				"title": "Following",
+				"film": "following"
+			},
+			{
+				"title": "Memento",
+				"film": "memento"
+			},
+			{
+				"title": "Insomnia",
+				"film": "insomnia"
+			},
+			{
+				"title": "The Prestige",
+				"film": "the-prestige"
+			},
+			{
+				"title": "Inception",
+				"film": "inception"
+			},
+			{
+				"title": "Interstellar",
+				"film": "interstellar"
+			},
+			{
+				"title": "Dunkirk",
+				"film": "dunkirk"
+			},
+			{
+				"title": "Tenet",
+				"film": "tenet"
+			}
+		],
 		"notes": "",
 		"art": "https://f4.bcbits.com/img/a2481035604_16.jpg",
 		"links": {
 			"bandcamp": "https://filmjunk.bandcamp.com/album/christopher-nolan",
 			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-100-82555692",
 			"spotify": "https://open.spotify.com/episode/7q7ajIJEuyXODVWbqLX95d"
-		},
-		"mentioned": [
-			{
-				"title": "Following",
-				"year": null,
-				"film": "following"
-			},
-			{
-				"title": "Memento",
-				"year": null,
-				"film": "memento"
-			},
-			{
-				"title": "Insomnia",
-				"year": null,
-				"film": "insomnia"
-			},
-			{
-				"title": "The Prestige",
-				"year": null,
-				"film": "the-prestige"
-			},
-			{
-				"title": "Inception",
-				"year": null,
-				"film": "inception"
-			},
-			{
-				"title": "Interstellar",
-				"year": null,
-				"film": "interstellar"
-			},
-			{
-				"title": "Dunkirk",
-				"year": null,
-				"film": "dunkirk"
-			},
-			{
-				"title": "Tenet",
-				"year": null,
-				"film": "tenet"
-			}
-		]
+		}
 	},
 	{
 		"notes": "",
@@ -18033,36 +17904,31 @@
 		"date": "2023-03-03",
 		"title": "90's Pulp Heroes",
 		"description": "Join us as we are transported back the most magical time of our lives. A time when marketing movies to kids was more important than the movies themselves. A time when movie studios were desperate for old pulp heroes to turn into the next box office bomb. A time known as \"The 90's\". We focus our discussion on Dick Tracy, The Rocketeer, The Shadow and The Phantom, while occasionally dipping into tangential 90's nostalgia.",
-		"covers": [],
+		"covers": [
+			{
+				"title": "Dick Tracy",
+				"film": "dick-tracy"
+			},
+			{
+				"title": "The Rocketeer",
+				"film": "the-rocketeer"
+			},
+			{
+				"title": "The Shadow",
+				"film": "the-shadow"
+			},
+			{
+				"title": "The Phantom",
+				"film": "the-phantom"
+			}
+		],
 		"notes": "",
 		"art": "https://f4.bcbits.com/img/a1267211191_16.jpg",
 		"links": {
 			"bandcamp": "https://filmjunk.bandcamp.com/album/90s-pulp-heroes-2",
 			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-99-90s-79311226",
 			"spotify": "https://open.spotify.com/episode/3nMcYCaMWBMfcOyIHjAtSe"
-		},
-		"mentioned": [
-			{
-				"title": "Dick Tracy",
-				"year": null,
-				"film": "dick-tracy"
-			},
-			{
-				"title": "The Rocketeer",
-				"year": null,
-				"film": "the-rocketeer"
-			},
-			{
-				"title": "The Shadow",
-				"year": null,
-				"film": "the-shadow"
-			},
-			{
-				"title": "The Phantom",
-				"year": null,
-				"film": "the-phantom"
-			}
-		]
+		}
 	},
 	{
 		"id": "885",
@@ -18528,31 +18394,27 @@
 		"date": "2023-02-03",
 		"title": "The Mummy Franchise",
 		"description": "Since achieving \"National Treasure\" status, the world has been desperate for more hot Brendan Fraser content. The Film Junk crew thought we should oblige the masses and revisit his iconic work in The Mummy Trilogy. While we were at it, we went on a little adventure with The Scorpion King. Live Free. Listen Well.",
-		"covers": [],
+		"covers": [
+			{
+				"title": "The Mummy",
+				"film": "the-mummy"
+			},
+			{
+				"title": "The Mummy Returns",
+				"film": "the-mummy-returns"
+			},
+			{
+				"title": "The Scorpion King",
+				"film": "the-scorpion-king"
+			}
+		],
 		"notes": "",
 		"art": "https://f4.bcbits.com/img/a1508601123_16.jpg",
 		"links": {
 			"bandcamp": "https://filmjunk.bandcamp.com/album/the-mummy-franchise",
 			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-98-78096128",
 			"spotify": "https://open.spotify.com/episode/7lKauIvrsTJRfUbfrdb9uH"
-		},
-		"mentioned": [
-			{
-				"title": "The Mummy",
-				"year": null,
-				"film": "the-mummy"
-			},
-			{
-				"title": "The Mummy Returns",
-				"year": null,
-				"film": "the-mummy-returns"
-			},
-			{
-				"title": "The Scorpion King",
-				"year": null,
-				"film": "the-scorpion-king"
-			}
-		]
+		}
 	},
 	{
 		"id": "881",
@@ -19295,6 +19157,10 @@
 			{
 				"title": "Avatar",
 				"film": "avatar"
+			},
+			{
+				"title": "Avatar: The Way of Water",
+				"film": "avatar-the-way-of-water"
 			}
 		],
 		"notes": "",
@@ -19303,39 +19169,7 @@
 			"bandcamp": "https://filmjunk.bandcamp.com/album/james-cameron",
 			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-97-75919733",
 			"spotify": "https://open.spotify.com/episode/7bxWzL7OhAevr6h2KsxqsX"
-		},
-		"mentioned": [
-			{
-				"title": "Piranha II: The Spawning",
-				"year": null,
-				"film": "piranha-ii-the-spawning"
-			},
-			{
-				"title": "The Abyss",
-				"year": null,
-				"film": "the-abyss"
-			},
-			{
-				"title": "True Lies",
-				"year": null,
-				"film": "true-lies"
-			},
-			{
-				"title": "Titanic",
-				"year": null,
-				"film": "titanic-3d"
-			},
-			{
-				"title": "Avatar",
-				"year": null,
-				"film": "avatar"
-			},
-			{
-				"title": "Avatar: The Way of Water",
-				"year": null,
-				"film": "avatar-the-way-of-water"
-			}
-		]
+		}
 	},
 	{
 		"notes": "",
@@ -19717,7 +19551,6 @@
 	{
 		"notes": "",
 		"description": "It's alright, it's okay, there's something to live for... Jesus told me so! For our very first Premium One-Shot (errr... One-Shot Premium?), we are discussing the Chris Smith's 1999 documentary American Movie.",
-		"mentioned": [],
 		"segments": [],
 		"watched": [],
 		"reviews": [],
@@ -22884,10 +22717,6 @@
 			{
 				"title": "The Godfather Part II",
 				"film": "the-godfather-part-ii"
-			},
-			{
-				"title": "The Godfather Part III",
-				"film": "the-godfather-part-iii"
 			},
 			{
 				"title": "The Godfather Part III",
@@ -27745,10 +27574,6 @@
 				"film": "oceans-eleven"
 			},
 			{
-				"title": "Ocean's Eleven (2001)",
-				"film": "oceans-eleven"
-			},
-			{
 				"title": "Ocean's Twelve",
 				"film": "oceans-twelve"
 			},
@@ -32047,6 +31872,14 @@
 			{
 				"title": "Scream 4",
 				"film": "scream-4"
+			},
+			{
+				"title": "Scream",
+				"film": "scream"
+			},
+			{
+				"title": "Scream VI",
+				"film": "scream-vi"
 			}
 		],
 		"notes": "",
@@ -32055,34 +31888,7 @@
 			"bandcamp": "https://filmjunk.bandcamp.com/album/the-scream-franchise",
 			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-84-79827166",
 			"spotify": "https://open.spotify.com/episode/15iY1rSpJ5XaExI4GbX542"
-		},
-		"mentioned": [
-			{
-				"title": "Scream",
-				"year": null,
-				"film": "scream"
-			},
-			{
-				"title": "Scream 2",
-				"year": null,
-				"film": "scream-2"
-			},
-			{
-				"title": "Scream 3",
-				"year": null,
-				"film": "scream-3"
-			},
-			{
-				"title": "Scream 4",
-				"year": null,
-				"film": "scream-4"
-			},
-			{
-				"title": "Scream VI",
-				"year": null,
-				"film": "scream-vi"
-			}
-		]
+		}
 	},
 	{
 		"notes": "",
@@ -42920,12 +42726,12 @@
 				"film": "the-purge"
 			},
 			{
-				"title": "Anarchy",
-				"film": "anarchy"
+				"title": "The Purge: Anarchy",
+				"film": "the-purge-anarchy"
 			},
 			{
-				"title": "Election Year",
-				"film": "election-year"
+				"title": "The Purge: Election Year",
+				"film": "the-purge-election-year"
 			}
 		],
 		"notes": "",
@@ -42934,24 +42740,7 @@
 			"bandcamp": "https://filmjunk.bandcamp.com/album/the-purge-trilogy",
 			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-66-134511719",
 			"spotify": "https://open.spotify.com/episode/0NR20TPckSHXYsO400OVvl"
-		},
-		"mentioned": [
-			{
-				"title": "The Purge",
-				"year": null,
-				"film": "the-purge"
-			},
-			{
-				"title": "The Purge: Anarchy",
-				"year": null,
-				"film": "the-purge-anarchy"
-			},
-			{
-				"title": "The Purge: Election Year",
-				"year": null,
-				"film": "the-purge-election-year"
-			}
-		]
+		}
 	},
 	{
 		"id": "669",
@@ -44775,6 +44564,10 @@
 			{
 				"title": "The Darjeeling Limited",
 				"film": "the-darjeeling-limited"
+			},
+			{
+				"title": "Asteroid City",
+				"film": "asteroid-city"
 			}
 		],
 		"notes": "",
@@ -44783,39 +44576,7 @@
 			"bandcamp": "https://filmjunk.bandcamp.com/album/wes-anderson",
 			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-64-wes-85228808",
 			"spotify": "https://open.spotify.com/episode/44S2RcmJsvI7R5AjVyFMsN"
-		},
-		"mentioned": [
-			{
-				"title": "Bottle Rocket",
-				"year": null,
-				"film": "bottle-rocket"
-			},
-			{
-				"title": "Rushmore",
-				"year": null,
-				"film": "rushmore"
-			},
-			{
-				"title": "The Royal Tenenbaums",
-				"year": null,
-				"film": "the-royal-tenenbaums"
-			},
-			{
-				"title": "The Life Aquatic with Steve Zissou",
-				"year": null,
-				"film": "the-life-aquatic-with-steve-zissou"
-			},
-			{
-				"title": "The Darjeeling Limited",
-				"year": null,
-				"film": "the-darjeeling-limited"
-			},
-			{
-				"title": "Asteroid City",
-				"year": null,
-				"film": "asteroid-city"
-			}
-		]
+		}
 	},
 	{
 		"id": "649",
@@ -45964,6 +45725,10 @@
 			{
 				"title": "The Curious Case of Benjamin Button",
 				"film": "the-curious-case-of-benjamin-button"
+			},
+			{
+				"title": "The Killer",
+				"film": "the-killer"
 			}
 		],
 		"notes": "",
@@ -45972,44 +45737,7 @@
 			"bandcamp": "https://filmjunk.bandcamp.com/album/david-fincher",
 			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-63-92910317",
 			"spotify": "https://open.spotify.com/episode/1ZXzhMhOnPOBpqxprxwfdN"
-		},
-		"mentioned": [
-			{
-				"title": "Se7en",
-				"year": null,
-				"film": "se7en"
-			},
-			{
-				"title": "The Game",
-				"year": null,
-				"film": "the-game"
-			},
-			{
-				"title": "Fight Club",
-				"year": null,
-				"film": "fight-club"
-			},
-			{
-				"title": "Panic Room",
-				"year": null,
-				"film": "panic-room"
-			},
-			{
-				"title": "Zodiac",
-				"year": null,
-				"film": "zodiac"
-			},
-			{
-				"title": "The Curious Case of Benjamin Button",
-				"year": null,
-				"film": "the-curious-case-of-benjamin-button"
-			},
-			{
-				"title": "The Killer",
-				"year": null,
-				"film": "the-killer"
-			}
-		]
+		}
 	},
 	{
 		"id": "638",
@@ -56881,34 +56609,7 @@
 			"bandcamp": "https://filmjunk.bandcamp.com/album/steven-spielberg-sci-fi-spectacular",
 			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-44-sci-75330376",
 			"spotify": "https://open.spotify.com/episode/6ncuDQ6h3Wf3iHfNv5jaBZ"
-		},
-		"mentioned": [
-			{
-				"title": "Close Encounters of the Third Kind",
-				"year": null,
-				"film": "close-encounters-of-the-third-kind"
-			},
-			{
-				"title": "E.T. the Extra Terrestrial",
-				"year": null,
-				"film": "e-t-the-extra-terrestrial"
-			},
-			{
-				"title": "A.I. Artificial Intelligence",
-				"year": null,
-				"film": "a-i-artificial-intelligence"
-			},
-			{
-				"title": "Minority Report",
-				"year": null,
-				"film": "minority-report"
-			},
-			{
-				"title": "War of the Worlds",
-				"year": null,
-				"film": "war-of-the-worlds"
-			}
-		]
+		}
 	},
 	{
 		"id": "541",
@@ -64865,10 +64566,6 @@
 			{
 				"title": "Battle for the Planet of the Apes",
 				"film": "battle-for-the-planet-of-the-apes"
-			},
-			{
-				"title": "Planet Of The Apes (2001)",
-				"film": "planet-of-the-apes"
 			}
 		],
 		"notes": "Guest: Reed Farrington",
@@ -72205,36 +71902,168 @@
 			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-18-168925678",
 			"spotify": "https://open.spotify.com/episode/0hWLu2L54Gx5KFfIkkaLnb"
 		},
-		"mentioned": [
+		"reviews": [
 			{
 				"title": "Star Trek: The Motion Picture",
-				"year": null,
-				"film": "star-trek-the-motion-picture"
+				"year": 1979,
+				"film": "star-trek-the-motion-picture",
+				"ratings": [
+					{
+						"host": "Sean",
+						"score": 2,
+						"outOf": 4
+					},
+					{
+						"host": "Frank",
+						"score": 2.5,
+						"outOf": 4
+					},
+					{
+						"host": "Jay",
+						"score": 2,
+						"outOf": 4
+					},
+					{
+						"host": "Reed",
+						"score": 3,
+						"outOf": 4
+					}
+				]
 			},
 			{
 				"title": "Star Trek II: The Wrath of Khan",
-				"year": null,
-				"film": "star-trek-ii-the-wrath-of-khan"
+				"year": 1982,
+				"film": "star-trek-ii-the-wrath-of-khan",
+				"ratings": [
+					{
+						"host": "Sean",
+						"score": 4,
+						"outOf": 4
+					},
+					{
+						"host": "Frank",
+						"score": 3.5,
+						"outOf": 4
+					},
+					{
+						"host": "Jay",
+						"score": 4,
+						"outOf": 4
+					},
+					{
+						"host": "Reed",
+						"score": 2,
+						"outOf": 4
+					}
+				]
 			},
 			{
 				"title": "Star Trek III: The Search for Spock",
-				"year": null,
-				"film": "star-trek-iii-the-search-for-spock"
+				"year": 1984,
+				"film": "star-trek-iii-the-search-for-spock",
+				"ratings": [
+					{
+						"host": "Sean",
+						"score": 3,
+						"outOf": 4
+					},
+					{
+						"host": "Frank",
+						"score": 2.5,
+						"outOf": 4
+					},
+					{
+						"host": "Jay",
+						"score": 3,
+						"outOf": 4
+					},
+					{
+						"host": "Reed",
+						"score": 3,
+						"outOf": 4
+					}
+				]
 			},
 			{
 				"title": "Star Trek IV: The Voyage Home",
-				"year": null,
-				"film": "star-trek-iv-the-voyage-home"
+				"year": 1986,
+				"film": "star-trek-iv-the-voyage-home",
+				"ratings": [
+					{
+						"host": "Sean",
+						"score": 4,
+						"outOf": 4
+					},
+					{
+						"host": "Frank",
+						"score": 3.5,
+						"outOf": 4
+					},
+					{
+						"host": "Jay",
+						"score": 4,
+						"outOf": 4
+					},
+					{
+						"host": "Reed",
+						"score": 3.5,
+						"outOf": 4
+					}
+				]
 			},
 			{
 				"title": "Star Trek V: The Final Frontier",
-				"year": null,
-				"film": "star-trek-v-the-final-frontier"
+				"year": 1989,
+				"film": "star-trek-v-the-final-frontier",
+				"ratings": [
+					{
+						"host": "Sean",
+						"score": 1.5,
+						"outOf": 4
+					},
+					{
+						"host": "Frank",
+						"score": 2.5,
+						"outOf": 4
+					},
+					{
+						"host": "Jay",
+						"score": 1.5,
+						"outOf": 4
+					},
+					{
+						"host": "Reed",
+						"score": 3.5,
+						"outOf": 4
+					}
+				]
 			},
 			{
 				"title": "Star Trek VI: The Undiscovered Country",
-				"year": null,
-				"film": "star-trek-vi-the-undiscovered-country"
+				"year": 1991,
+				"film": "star-trek-vi-the-undiscovered-country",
+				"ratings": [
+					{
+						"host": "Sean",
+						"score": 3.5,
+						"outOf": 4
+					},
+					{
+						"host": "Frank",
+						"score": 3.5,
+						"outOf": 4
+					},
+					{
+						"host": "Jay",
+						"score": 4,
+						"outOf": 4
+					},
+					{
+						"host": "Reed",
+						"score": 3.5,
+						"outOf": 4
+					}
+				]
 			}
 		]
 	},
@@ -78094,10 +77923,6 @@
 				"film": "batman"
 			},
 			{
-				"title": "Batman (1989)",
-				"film": "batman"
-			},
-			{
 				"title": "Batman Returns",
 				"film": "batman-returns"
 			},
@@ -83754,6 +83579,14 @@
 			{
 				"title": "Star Wars: Episode III - Revenge of the Sith",
 				"film": "star-wars-episode-iii-revenge-of-the-sith"
+			},
+			{
+				"title": "Star Wars: The Clone Wars (2008)",
+				"film": "star-wars-the-clone-wars"
+			},
+			{
+				"title": "The Mandalorian",
+				"film": "the-mandalorian-season-2"
 			}
 		],
 		"notes": "Guest: Dax.",
@@ -83762,29 +83595,7 @@
 			"bandcamp": "https://filmjunk.bandcamp.com/album/star-wars-the-prequels-bonus-podcast",
 			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-1-star-157287078",
 			"spotify": "https://open.spotify.com/episode/7ueRFqQL4Xt1am2K9jqlaW"
-		},
-		"mentioned": [
-			{
-				"title": "Star Wars Episode I: The Phantom Menace",
-				"year": null,
-				"film": "star-wars-episode-i-the-phantom-menace"
-			},
-			{
-				"title": "Star Wars: The Clone Wars",
-				"year": 2008,
-				"film": "star-wars-the-clone-wars"
-			},
-			{
-				"title": "Star Wars: Episode III - Revenge of the Sith",
-				"year": null,
-				"film": "star-wars-episode-iii-revenge-of-the-sith"
-			},
-			{
-				"title": "The Mandalorian",
-				"year": null,
-				"film": "the-mandalorian-season-2"
-			}
-		]
+		}
 	},
 	{
 		"id": "339",

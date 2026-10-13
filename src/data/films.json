@@ -1173,7 +1173,7 @@
 			},
 			{
 				"id": "premium-arnold-schwarzenegger",
-				"role": "watched"
+				"role": "premium"
 			},
 			{
 				"id": "363",
@@ -2435,7 +2435,7 @@
 			},
 			{
 				"id": "premium-dracula",
-				"role": "watched"
+				"role": "premium"
 			},
 			{
 				"id": "392",
@@ -3145,7 +3145,7 @@
 		"appearances": [
 			{
 				"id": "premium-planet-of-the-apes-the-caesar-trilogy",
-				"role": "watched"
+				"role": "premium"
 			},
 			{
 				"id": "943",
@@ -3871,7 +3871,7 @@
 			},
 			{
 				"id": "premium-david-fincher",
-				"role": "watched"
+				"role": "premium"
 			}
 		]
 	},
@@ -4369,7 +4369,7 @@
 			},
 			{
 				"id": "premium-wes-anderson",
-				"role": "watched"
+				"role": "premium"
 			}
 		]
 	},
@@ -4779,7 +4779,7 @@
 			},
 			{
 				"id": "premium-the-scream-franchise",
-				"role": "watched"
+				"role": "premium"
 			}
 		]
 	},
@@ -5081,10 +5081,6 @@
 			},
 			{
 				"id": "premium-star-wars-the-prequels-bonus-podcast",
-				"role": "watched"
-			},
-			{
-				"id": "premium-star-wars-the-prequels-bonus-podcast",
 				"role": "premium"
 			}
 		]
@@ -5125,7 +5121,7 @@
 			},
 			{
 				"id": "premium-james-cameron",
-				"role": "watched"
+				"role": "premium"
 			},
 			{
 				"id": "846",
@@ -6307,7 +6303,7 @@
 			},
 			{
 				"id": "premium-the-scream-franchise",
-				"role": "watched"
+				"role": "premium"
 			},
 			{
 				"id": "315",
@@ -7941,7 +7937,7 @@
 		"appearances": [
 			{
 				"id": "premium-rob-reiner",
-				"role": "watched"
+				"role": "premium"
 			},
 			{
 				"id": "790",
@@ -8379,7 +8375,7 @@
 			},
 			{
 				"id": "premium-star-wars-the-prequels-bonus-podcast",
-				"role": "watched"
+				"role": "premium"
 			}
 		]
 	},
@@ -8801,7 +8797,7 @@
 		"appearances": [
 			{
 				"id": "premium-christopher-nolan",
-				"role": "watched"
+				"role": "premium"
 			},
 			{
 				"id": "779",
@@ -10392,7 +10388,7 @@
 		"appearances": [
 			{
 				"id": "premium-harmony-korine",
-				"role": "watched"
+				"role": "premium"
 			},
 			{
 				"id": "862",
@@ -12688,7 +12684,7 @@
 		"appearances": [
 			{
 				"id": "premium-christopher-nolan",
-				"role": "watched"
+				"role": "premium"
 			},
 			{
 				"id": "737",
@@ -12748,7 +12744,7 @@
 		"appearances": [
 			{
 				"id": "premium-planet-of-the-apes-the-caesar-trilogy",
-				"role": "watched"
+				"role": "premium"
 			},
 			{
 				"id": "620",
@@ -12882,7 +12878,7 @@
 		"appearances": [
 			{
 				"id": "premium-the-mummy-franchise",
-				"role": "watched"
+				"role": "premium"
 			},
 			{
 				"id": "615",
@@ -13654,7 +13650,7 @@
 		"appearances": [
 			{
 				"id": "premium-denis-villeneuve",
-				"role": "watched"
+				"role": "premium"
 			},
 			{
 				"id": "589",
@@ -15253,7 +15249,7 @@
 		"appearances": [
 			{
 				"id": "premium-denis-villeneuve",
-				"role": "watched"
+				"role": "premium"
 			},
 			{
 				"id": "550",
@@ -16033,7 +16029,7 @@
 		"appearances": [
 			{
 				"id": "premium-the-poltergeist-trilogy",
-				"role": "watched"
+				"role": "premium"
 			},
 			{
 				"id": "956",
@@ -16075,10 +16071,6 @@
 		},
 		"imdb": "tt1392190",
 		"appearances": [
-			{
-				"id": "premium-mad-max-fury-road",
-				"role": "watched"
-			},
 			{
 				"id": "premium-mad-max-fury-road",
 				"role": "premium"
@@ -16783,7 +16775,7 @@
 			},
 			{
 				"id": "premium-christopher-nolan",
-				"role": "watched"
+				"role": "premium"
 			},
 			{
 				"id": "784",
@@ -17257,7 +17249,7 @@
 		"appearances": [
 			{
 				"id": "premium-planet-of-the-apes-the-caesar-trilogy",
-				"role": "watched"
+				"role": "premium"
 			},
 			{
 				"id": "619",
@@ -17651,7 +17643,7 @@
 		"appearances": [
 			{
 				"id": "premium-denis-villeneuve",
-				"role": "watched"
+				"role": "premium"
 			},
 			{
 				"id": "463",
@@ -18315,7 +18307,7 @@
 		"appearances": [
 			{
 				"id": "premium-spike-jonze",
-				"role": "watched"
+				"role": "premium"
 			},
 			{
 				"id": "569",
@@ -18619,7 +18611,7 @@
 		"appearances": [
 			{
 				"id": "premium-denis-villeneuve",
-				"role": "watched"
+				"role": "premium"
 			},
 			{
 				"id": "434",
@@ -19384,6 +19376,122 @@
 		]
 	},
 	{
+		"slug": "star-trek-the-motion-picture",
+		"title": "Star Trek: The Motion Picture",
+		"year": 1979,
+		"poster": "/wfiAfNwH6CMKxz4vRaW8CPTabtk.jpg",
+		"votes": 2023,
+		"tmdb": {
+			"type": "movie",
+			"id": 152
+		},
+		"imdb": "tt0079945",
+		"appearances": [
+			{
+				"id": "premium-the-star-trek-original-motion-picture-franchise",
+				"role": "review"
+			}
+		]
+	},
+	{
+		"slug": "star-trek-ii-the-wrath-of-khan",
+		"title": "Star Trek II: The Wrath of Khan",
+		"year": 1982,
+		"poster": "/uPyLsKl8Z0LOoxeaFXsY5MxhR5s.jpg",
+		"votes": 2234,
+		"tmdb": {
+			"type": "movie",
+			"id": 154
+		},
+		"imdb": "tt0084726",
+		"appearances": [
+			{
+				"id": "premium-the-star-trek-original-motion-picture-franchise",
+				"role": "review"
+			},
+			{
+				"id": "200",
+				"role": "watched"
+			}
+		]
+	},
+	{
+		"slug": "star-trek-iii-the-search-for-spock",
+		"title": "Star Trek III: The Search for Spock",
+		"year": 1984,
+		"poster": "/yqEj0oPfKBMCz7YcCARHDgH7VFm.jpg",
+		"votes": 1599,
+		"tmdb": {
+			"type": "movie",
+			"id": 157
+		},
+		"imdb": "tt0088170",
+		"appearances": [
+			{
+				"id": "premium-the-star-trek-original-motion-picture-franchise",
+				"role": "review"
+			}
+		]
+	},
+	{
+		"slug": "star-trek-iv-the-voyage-home",
+		"title": "Star Trek IV: The Voyage Home",
+		"year": 1986,
+		"poster": "/xY5TzGXJOB3L9rhZ1MbbPyVlW5J.jpg",
+		"votes": 1735,
+		"tmdb": {
+			"type": "movie",
+			"id": 168
+		},
+		"imdb": "tt0092007",
+		"appearances": [
+			{
+				"id": "premium-the-star-trek-original-motion-picture-franchise",
+				"role": "review"
+			}
+		]
+	},
+	{
+		"slug": "star-trek-v-the-final-frontier",
+		"title": "Star Trek V: The Final Frontier",
+		"year": 1989,
+		"poster": "/uiXr41VLYsuug3CZbFrKLSNahuZ.jpg",
+		"votes": 1370,
+		"tmdb": {
+			"type": "movie",
+			"id": 172
+		},
+		"imdb": "tt0098382",
+		"appearances": [
+			{
+				"id": "premium-the-star-trek-original-motion-picture-franchise",
+				"role": "review"
+			}
+		]
+	},
+	{
+		"slug": "star-trek-vi-the-undiscovered-country",
+		"title": "Star Trek VI: The Undiscovered Country",
+		"year": 1991,
+		"poster": "/tvTOJD7Gz668GLy2nNdLRQvpPsv.jpg",
+		"votes": 1488,
+		"tmdb": {
+			"type": "movie",
+			"id": 174
+		},
+		"imdb": "tt0102975",
+		"appearances": [
+			{
+				"id": "premium-the-star-trek-original-motion-picture-franchise",
+				"role": "review"
+			},
+			{
+				"id": "200",
+				"role": "watched"
+			}
+		]
+	},
+	{
 		"slug": "star-trek-into-darkness",
 		"title": "Star Trek Into Darkness",
 		"year": 2013,
@@ -20013,7 +20121,7 @@
 		"appearances": [
 			{
 				"id": "premium-harmony-korine",
-				"role": "watched"
+				"role": "premium"
 			},
 			{
 				"id": "452",
@@ -20255,7 +20363,7 @@
 		"appearances": [
 			{
 				"id": "premium-kathryn-bigelow",
-				"role": "watched"
+				"role": "premium"
 			},
 			{
 				"id": "401",
@@ -21637,10 +21745,6 @@
 		"appearances": [
 			{
 				"id": "premium-james-cameron",
-				"role": "watched"
-			},
-			{
-				"id": "premium-james-cameron",
 				"role": "premium"
 			},
 			{
@@ -22667,7 +22771,7 @@
 		"appearances": [
 			{
 				"id": "premium-planet-of-the-apes-the-caesar-trilogy",
-				"role": "watched"
+				"role": "premium"
 			},
 			{
 				"id": "619",
@@ -23129,10 +23233,6 @@
 		},
 		"imdb": "tt1262416",
 		"appearances": [
-			{
-				"id": "premium-the-scream-franchise",
-				"role": "watched"
-			},
 			{
 				"id": "premium-the-scream-franchise",
 				"role": "premium"
@@ -24291,7 +24391,7 @@
 		"appearances": [
 			{
 				"id": "premium-christopher-nolan",
-				"role": "watched"
+				"role": "premium"
 			},
 			{
 				"id": "490",
@@ -24965,10 +25065,6 @@
 		"appearances": [
 			{
 				"id": "premium-james-cameron",
-				"role": "watched"
-			},
-			{
-				"id": "premium-james-cameron",
 				"role": "premium"
 			},
 			{
@@ -25179,7 +25275,7 @@
 		"appearances": [
 			{
 				"id": "premium-spike-jonze",
-				"role": "watched"
+				"role": "premium"
 			},
 			{
 				"id": "377",
@@ -25497,7 +25593,7 @@
 		"appearances": [
 			{
 				"id": "premium-harmony-korine",
-				"role": "watched"
+				"role": "premium"
 			},
 			{
 				"id": "411",
@@ -25805,7 +25901,7 @@
 		"appearances": [
 			{
 				"id": "premium-kathryn-bigelow",
-				"role": "watched"
+				"role": "premium"
 			},
 			{
 				"id": "376",
@@ -26647,10 +26743,6 @@
 		},
 		"imdb": "tt0421715",
 		"appearances": [
-			{
-				"id": "premium-david-fincher",
-				"role": "watched"
-			},
 			{
 				"id": "premium-david-fincher",
 				"role": "premium"
@@ -28314,10 +28406,6 @@
 		"appearances": [
 			{
 				"id": "premium-wes-anderson",
-				"role": "watched"
-			},
-			{
-				"id": "premium-wes-anderson",
 				"role": "premium"
 			},
 			{
@@ -29216,10 +29304,6 @@
 		"appearances": [
 			{
 				"id": "969",
-				"role": "watched"
-			},
-			{
-				"id": "premium-david-fincher",
 				"role": "watched"
 			},
 			{
@@ -30528,7 +30612,7 @@
 		"appearances": [
 			{
 				"id": "premium-arnold-schwarzenegger",
-				"role": "watched"
+				"role": "premium"
 			},
 			{
 				"id": "39",
@@ -30924,10 +31008,6 @@
 		"appearances": [
 			{
 				"id": "premium-steven-spielberg-sci-fi-spectacular",
-				"role": "watched"
-			},
-			{
-				"id": "premium-steven-spielberg-sci-fi-spectacular",
 				"role": "premium"
 			},
 			{
@@ -31090,10 +31170,6 @@
 			},
 			{
 				"id": "premium-star-wars-the-prequels-bonus-podcast",
-				"role": "watched"
-			},
-			{
-				"id": "premium-star-wars-the-prequels-bonus-podcast",
 				"role": "premium"
 			},
 			{
@@ -31225,7 +31301,7 @@
 		"appearances": [
 			{
 				"id": "premium-star-wars-the-prequels-bonus-podcast",
-				"role": "watched"
+				"role": "premium"
 			},
 			{
 				"id": "182",
@@ -31505,10 +31581,6 @@
 		},
 		"imdb": "tt0362270",
 		"appearances": [
-			{
-				"id": "premium-wes-anderson",
-				"role": "watched"
-			},
 			{
 				"id": "premium-wes-anderson",
 				"role": "premium"
@@ -34228,7 +34300,7 @@
 		"appearances": [
 			{
 				"id": "premium-ron-howard",
-				"role": "watched"
+				"role": "premium"
 			}
 		]
 	},
@@ -34246,7 +34318,7 @@
 		"appearances": [
 			{
 				"id": "premium-ron-howard",
-				"role": "watched"
+				"role": "premium"
 			}
 		]
 	},
@@ -34264,7 +34336,7 @@
 		"appearances": [
 			{
 				"id": "premium-ron-howard",
-				"role": "watched"
+				"role": "premium"
 			},
 			{
 				"id": "467",
@@ -34294,7 +34366,7 @@
 		"appearances": [
 			{
 				"id": "premium-ron-howard",
-				"role": "watched"
+				"role": "premium"
 			},
 			{
 				"id": "588",
@@ -34320,7 +34392,7 @@
 		"appearances": [
 			{
 				"id": "premium-ron-howard",
-				"role": "watched"
+				"role": "premium"
 			},
 			{
 				"id": "518",
@@ -34342,7 +34414,7 @@
 		"appearances": [
 			{
 				"id": "premium-ron-howard",
-				"role": "watched"
+				"role": "premium"
 			},
 			{
 				"id": "407",
@@ -34981,7 +35053,7 @@
 		"appearances": [
 			{
 				"id": "premium-action-packed-christmas-movies",
-				"role": "watched"
+				"role": "premium"
 			},
 			{
 				"id": "800",
@@ -35007,7 +35079,7 @@
 		"appearances": [
 			{
 				"id": "premium-action-packed-christmas-movies",
-				"role": "watched"
+				"role": "premium"
 			},
 			{
 				"id": "310",
@@ -35029,7 +35101,7 @@
 		"appearances": [
 			{
 				"id": "premium-action-packed-christmas-movies",
-				"role": "watched"
+				"role": "premium"
 			}
 		]
 	},
@@ -35047,7 +35119,7 @@
 		"appearances": [
 			{
 				"id": "premium-action-packed-christmas-movies",
-				"role": "watched"
+				"role": "premium"
 			},
 			{
 				"id": "312",
@@ -35069,7 +35141,7 @@
 		"appearances": [
 			{
 				"id": "premium-action-packed-christmas-movies",
-				"role": "watched"
+				"role": "premium"
 			},
 			{
 				"id": "973",
@@ -35512,7 +35584,7 @@
 			},
 			{
 				"id": "premium-post-scream-slashers",
-				"role": "watched"
+				"role": "premium"
 			},
 			{
 				"id": "315",
@@ -35552,7 +35624,7 @@
 		"appearances": [
 			{
 				"id": "premium-post-scream-slashers",
-				"role": "watched"
+				"role": "premium"
 			},
 			{
 				"id": "726",
@@ -35574,7 +35646,7 @@
 		"appearances": [
 			{
 				"id": "premium-post-scream-slashers",
-				"role": "watched"
+				"role": "premium"
 			},
 			{
 				"id": "821",
@@ -35600,7 +35672,7 @@
 		"appearances": [
 			{
 				"id": "premium-post-scream-slashers",
-				"role": "watched"
+				"role": "premium"
 			},
 			{
 				"id": "726",
@@ -35622,7 +35694,7 @@
 		"appearances": [
 			{
 				"id": "premium-post-scream-slashers",
-				"role": "watched"
+				"role": "premium"
 			},
 			{
 				"id": "728",
@@ -35644,7 +35716,7 @@
 		"appearances": [
 			{
 				"id": "premium-post-scream-slashers",
-				"role": "watched"
+				"role": "premium"
 			},
 			{
 				"id": "708",
@@ -36042,7 +36114,7 @@
 		"appearances": [
 			{
 				"id": "premium-rob-reiner",
-				"role": "watched"
+				"role": "premium"
 			},
 			{
 				"id": "509",
@@ -36068,7 +36140,7 @@
 		"appearances": [
 			{
 				"id": "premium-rob-reiner",
-				"role": "watched"
+				"role": "premium"
 			},
 			{
 				"id": "483",
@@ -36098,7 +36170,7 @@
 		"appearances": [
 			{
 				"id": "premium-rob-reiner",
-				"role": "watched"
+				"role": "premium"
 			},
 			{
 				"id": "569",
@@ -36120,7 +36192,7 @@
 		"appearances": [
 			{
 				"id": "premium-rob-reiner",
-				"role": "watched"
+				"role": "premium"
 			},
 			{
 				"id": "771",
@@ -37898,7 +37970,7 @@
 		"appearances": [
 			{
 				"id": "premium-the-final-destination-franchise",
-				"role": "watched"
+				"role": "premium"
 			},
 			{
 				"id": "725",
@@ -37920,7 +37992,7 @@
 		"appearances": [
 			{
 				"id": "premium-the-final-destination-franchise",
-				"role": "watched"
+				"role": "premium"
 			},
 			{
 				"id": "725",
@@ -37942,7 +38014,7 @@
 		"appearances": [
 			{
 				"id": "premium-the-final-destination-franchise",
-				"role": "watched"
+				"role": "premium"
 			},
 			{
 				"id": "725",
@@ -37964,7 +38036,7 @@
 		"appearances": [
 			{
 				"id": "premium-the-final-destination-franchise",
-				"role": "watched"
+				"role": "premium"
 			},
 			{
 				"id": "725",
@@ -37986,7 +38058,7 @@
 		"appearances": [
 			{
 				"id": "premium-the-final-destination-franchise",
-				"role": "watched"
+				"role": "premium"
 			},
 			{
 				"id": "725",
@@ -38485,7 +38557,7 @@
 		"appearances": [
 			{
 				"id": "premium-harmony-korine",
-				"role": "watched"
+				"role": "premium"
 			},
 			{
 				"id": "905",
@@ -38507,7 +38579,7 @@
 		"appearances": [
 			{
 				"id": "premium-harmony-korine",
-				"role": "watched"
+				"role": "premium"
 			},
 			{
 				"id": "967",
@@ -38537,7 +38609,7 @@
 		"appearances": [
 			{
 				"id": "premium-harmony-korine",
-				"role": "watched"
+				"role": "premium"
 			},
 			{
 				"id": "410",
@@ -38559,7 +38631,7 @@
 		"appearances": [
 			{
 				"id": "premium-harmony-korine",
-				"role": "watched"
+				"role": "premium"
 			},
 			{
 				"id": "411",
@@ -39168,7 +39240,7 @@
 		"appearances": [
 			{
 				"id": "premium-90s-cyber-thrillers",
-				"role": "watched"
+				"role": "premium"
 			},
 			{
 				"id": "463",
@@ -39190,7 +39262,7 @@
 		"appearances": [
 			{
 				"id": "premium-90s-cyber-thrillers",
-				"role": "watched"
+				"role": "premium"
 			}
 		]
 	},
@@ -39208,7 +39280,7 @@
 		"appearances": [
 			{
 				"id": "premium-90s-cyber-thrillers",
-				"role": "watched"
+				"role": "premium"
 			}
 		]
 	},
@@ -39226,7 +39298,7 @@
 		"appearances": [
 			{
 				"id": "premium-90s-cyber-thrillers",
-				"role": "watched"
+				"role": "premium"
 			},
 			{
 				"id": "978",
@@ -39252,7 +39324,7 @@
 		"appearances": [
 			{
 				"id": "premium-90s-cyber-thrillers",
-				"role": "watched"
+				"role": "premium"
 			}
 		]
 	},
@@ -39306,10 +39378,6 @@
 		"appearances": [
 			{
 				"id": "982",
-				"role": "watched"
-			},
-			{
-				"id": "premium-david-fincher",
 				"role": "watched"
 			},
 			{
@@ -40604,7 +40672,7 @@
 		"appearances": [
 			{
 				"id": "premium-crappy-christmas-movies",
-				"role": "watched"
+				"role": "premium"
 			},
 			{
 				"id": "497",
@@ -40626,7 +40694,7 @@
 		"appearances": [
 			{
 				"id": "premium-crappy-christmas-movies",
-				"role": "watched"
+				"role": "premium"
 			},
 			{
 				"id": "199",
@@ -40648,7 +40716,7 @@
 		"appearances": [
 			{
 				"id": "premium-crappy-christmas-movies",
-				"role": "watched"
+				"role": "premium"
 			},
 			{
 				"id": "447",
@@ -40674,7 +40742,7 @@
 		"appearances": [
 			{
 				"id": "premium-crappy-christmas-movies",
-				"role": "watched"
+				"role": "premium"
 			}
 		]
 	},
@@ -41847,7 +41915,7 @@
 		"appearances": [
 			{
 				"id": "premium-hellraiser",
-				"role": "watched"
+				"role": "premium"
 			},
 			{
 				"id": "869",
@@ -41877,7 +41945,7 @@
 		"appearances": [
 			{
 				"id": "premium-hellraiser",
-				"role": "watched"
+				"role": "premium"
 			}
 		]
 	},
@@ -41895,7 +41963,7 @@
 		"appearances": [
 			{
 				"id": "premium-hellraiser",
-				"role": "watched"
+				"role": "premium"
 			}
 		]
 	},
@@ -41913,7 +41981,7 @@
 		"appearances": [
 			{
 				"id": "premium-hellraiser",
-				"role": "watched"
+				"role": "premium"
 			}
 		]
 	},
@@ -42203,7 +42271,7 @@
 		"appearances": [
 			{
 				"id": "premium-the-poltergeist-trilogy",
-				"role": "watched"
+				"role": "premium"
 			},
 			{
 				"id": "959",
@@ -42229,7 +42297,7 @@
 		"appearances": [
 			{
 				"id": "premium-the-poltergeist-trilogy",
-				"role": "watched"
+				"role": "premium"
 			}
 		]
 	},
@@ -43343,7 +43411,7 @@
 		"appearances": [
 			{
 				"id": "premium-kathryn-bigelow",
-				"role": "watched"
+				"role": "premium"
 			},
 			{
 				"id": "796",
@@ -43365,7 +43433,7 @@
 		"appearances": [
 			{
 				"id": "premium-kathryn-bigelow",
-				"role": "watched"
+				"role": "premium"
 			},
 			{
 				"id": "432",
@@ -43387,7 +43455,7 @@
 		"appearances": [
 			{
 				"id": "premium-kathryn-bigelow",
-				"role": "watched"
+				"role": "premium"
 			},
 			{
 				"id": "419",
@@ -43409,7 +43477,7 @@
 		"appearances": [
 			{
 				"id": "premium-kathryn-bigelow",
-				"role": "watched"
+				"role": "premium"
 			},
 			{
 				"id": "442",
@@ -45494,7 +45562,7 @@
 		"appearances": [
 			{
 				"id": "premium-denis-villeneuve",
-				"role": "watched"
+				"role": "premium"
 			},
 			{
 				"id": "722",
@@ -45520,7 +45588,7 @@
 		"appearances": [
 			{
 				"id": "premium-denis-villeneuve",
-				"role": "watched"
+				"role": "premium"
 			},
 			{
 				"id": "434",
@@ -46147,7 +46215,7 @@
 		"appearances": [
 			{
 				"id": "premium-spike-jonze",
-				"role": "watched"
+				"role": "premium"
 			},
 			{
 				"id": "369",
@@ -46169,7 +46237,7 @@
 		"appearances": [
 			{
 				"id": "premium-spike-jonze",
-				"role": "watched"
+				"role": "premium"
 			},
 			{
 				"id": "627",
@@ -46732,7 +46800,7 @@
 		"appearances": [
 			{
 				"id": "premium-a-bob-clark-christmas",
-				"role": "watched"
+				"role": "premium"
 			},
 			{
 				"id": "772",
@@ -46762,7 +46830,7 @@
 		"appearances": [
 			{
 				"id": "premium-a-bob-clark-christmas",
-				"role": "watched"
+				"role": "premium"
 			},
 			{
 				"id": "828",
@@ -47637,7 +47705,7 @@
 		"appearances": [
 			{
 				"id": "premium-dracula",
-				"role": "watched"
+				"role": "premium"
 			},
 			{
 				"id": "premium-universal-monsters",
@@ -47675,7 +47743,7 @@
 		"appearances": [
 			{
 				"id": "premium-dracula",
-				"role": "watched"
+				"role": "premium"
 			}
 		]
 	},
@@ -47693,7 +47761,7 @@
 		"appearances": [
 			{
 				"id": "premium-dracula",
-				"role": "watched"
+				"role": "premium"
 			},
 			{
 				"id": "486",
@@ -47719,7 +47787,7 @@
 		"appearances": [
 			{
 				"id": "premium-dracula",
-				"role": "watched"
+				"role": "premium"
 			},
 			{
 				"id": "633",
@@ -47753,7 +47821,7 @@
 		"appearances": [
 			{
 				"id": "premium-dracula",
-				"role": "watched"
+				"role": "premium"
 			},
 			{
 				"id": "340",
@@ -48842,7 +48910,7 @@
 		"appearances": [
 			{
 				"id": "premium-werner-herzog",
-				"role": "watched"
+				"role": "premium"
 			},
 			{
 				"id": "223",
@@ -48864,7 +48932,7 @@
 		"appearances": [
 			{
 				"id": "premium-werner-herzog",
-				"role": "watched"
+				"role": "premium"
 			},
 			{
 				"id": "470",
@@ -48886,7 +48954,7 @@
 		"appearances": [
 			{
 				"id": "premium-werner-herzog",
-				"role": "watched"
+				"role": "premium"
 			}
 		]
 	},
@@ -48904,7 +48972,7 @@
 		"appearances": [
 			{
 				"id": "premium-werner-herzog",
-				"role": "watched"
+				"role": "premium"
 			}
 		]
 	},
@@ -48922,7 +48990,7 @@
 		"appearances": [
 			{
 				"id": "premium-werner-herzog",
-				"role": "watched"
+				"role": "premium"
 			},
 			{
 				"id": "478",
@@ -48944,7 +49012,7 @@
 		"appearances": [
 			{
 				"id": "premium-werner-herzog",
-				"role": "watched"
+				"role": "premium"
 			},
 			{
 				"id": "315",
@@ -49797,7 +49865,7 @@
 		"appearances": [
 			{
 				"id": "premium-arnold-schwarzenegger",
-				"role": "watched"
+				"role": "premium"
 			},
 			{
 				"id": "319",
@@ -49819,7 +49887,7 @@
 		"appearances": [
 			{
 				"id": "premium-arnold-schwarzenegger",
-				"role": "watched"
+				"role": "premium"
 			},
 			{
 				"id": "417",
@@ -49849,7 +49917,7 @@
 		"appearances": [
 			{
 				"id": "premium-arnold-schwarzenegger",
-				"role": "watched"
+				"role": "premium"
 			}
 		]
 	},
@@ -51016,7 +51084,7 @@
 		"appearances": [
 			{
 				"id": "premium-christopher-nolan",
-				"role": "watched"
+				"role": "premium"
 			},
 			{
 				"id": "399",
@@ -51038,7 +51106,7 @@
 		"appearances": [
 			{
 				"id": "premium-christopher-nolan",
-				"role": "watched"
+				"role": "premium"
 			},
 			{
 				"id": "768",
@@ -51060,7 +51128,7 @@
 		"appearances": [
 			{
 				"id": "premium-christopher-nolan",
-				"role": "watched"
+				"role": "premium"
 			},
 			{
 				"id": "477",
@@ -51086,7 +51154,7 @@
 		"appearances": [
 			{
 				"id": "premium-christopher-nolan",
-				"role": "watched"
+				"role": "premium"
 			},
 			{
 				"id": "421",
@@ -52072,7 +52140,7 @@
 		"appearances": [
 			{
 				"id": "premium-90s-pulp-heroes-2",
-				"role": "watched"
+				"role": "premium"
 			},
 			{
 				"id": "397",
@@ -52098,7 +52166,7 @@
 		"appearances": [
 			{
 				"id": "premium-90s-pulp-heroes-2",
-				"role": "watched"
+				"role": "premium"
 			},
 			{
 				"id": "2014-03-30-the-movie-review-show-9",
@@ -52128,7 +52196,7 @@
 		"appearances": [
 			{
 				"id": "premium-90s-pulp-heroes-2",
-				"role": "watched"
+				"role": "premium"
 			},
 			{
 				"id": "457",
@@ -52150,7 +52218,7 @@
 		"appearances": [
 			{
 				"id": "premium-90s-pulp-heroes-2",
-				"role": "watched"
+				"role": "premium"
 			},
 			{
 				"id": "366",
@@ -52620,7 +52688,7 @@
 		"appearances": [
 			{
 				"id": "premium-the-mummy-franchise",
-				"role": "watched"
+				"role": "premium"
 			}
 		]
 	},
@@ -52638,7 +52706,7 @@
 		"appearances": [
 			{
 				"id": "premium-the-mummy-franchise",
-				"role": "watched"
+				"role": "premium"
 			}
 		]
 	},
@@ -53190,10 +53258,6 @@
 		"appearances": [
 			{
 				"id": "premium-james-cameron",
-				"role": "watched"
-			},
-			{
-				"id": "premium-james-cameron",
 				"role": "premium"
 			},
 			{
@@ -53214,10 +53278,6 @@
 		},
 		"imdb": "tt0096754",
 		"appearances": [
-			{
-				"id": "premium-james-cameron",
-				"role": "watched"
-			},
 			{
 				"id": "premium-james-cameron",
 				"role": "premium"
@@ -53248,10 +53308,6 @@
 		},
 		"imdb": "tt0111503",
 		"appearances": [
-			{
-				"id": "premium-james-cameron",
-				"role": "watched"
-			},
 			{
 				"id": "premium-james-cameron",
 				"role": "premium"
@@ -65926,6 +65982,24 @@
 		]
 	},
 	{
+		"slug": "scream-1996",
+		"title": "Scream",
+		"year": 1996,
+		"poster": "/lr9ZIrmuwVmZhpZuTCW8D9g0ZJe.jpg",
+		"votes": 8297,
+		"tmdb": {
+			"type": "movie",
+			"id": 4232
+		},
+		"imdb": "tt0117571",
+		"appearances": [
+			{
+				"id": "premium-the-scream-franchise",
+				"role": "premium"
+			}
+		]
+	},
+	{
 		"slug": "scream-2",
 		"title": "Scream 2",
 		"year": 1997,
@@ -65937,10 +66011,6 @@
 		},
 		"imdb": "tt0120082",
 		"appearances": [
-			{
-				"id": "premium-the-scream-franchise",
-				"role": "watched"
-			},
 			{
 				"id": "premium-the-scream-franchise",
 				"role": "premium"
@@ -65965,33 +66035,11 @@
 		"appearances": [
 			{
 				"id": "premium-the-scream-franchise",
-				"role": "watched"
-			},
-			{
-				"id": "premium-the-scream-franchise",
 				"role": "premium"
 			},
 			{
 				"id": "315",
 				"role": "watched"
-			}
-		]
-	},
-	{
-		"slug": "scream-1996",
-		"title": "Scream",
-		"year": 1996,
-		"poster": "/lr9ZIrmuwVmZhpZuTCW8D9g0ZJe.jpg",
-		"votes": 8297,
-		"tmdb": {
-			"type": "movie",
-			"id": 4232
-		},
-		"imdb": "tt0117571",
-		"appearances": [
-			{
-				"id": "premium-the-scream-franchise",
-				"role": "premium"
 			}
 		]
 	},
@@ -73146,10 +73194,6 @@
 			},
 			{
 				"id": "premium-steven-spielberg-sci-fi-spectacular",
-				"role": "watched"
-			},
-			{
-				"id": "premium-steven-spielberg-sci-fi-spectacular",
 				"role": "premium"
 			},
 			{
@@ -77592,10 +77636,6 @@
 		"appearances": [
 			{
 				"id": "premium-the-purge-trilogy",
-				"role": "watched"
-			},
-			{
-				"id": "premium-the-purge-trilogy",
 				"role": "premium"
 			},
 			{
@@ -77622,7 +77662,7 @@
 		"appearances": [
 			{
 				"id": "premium-the-purge-trilogy",
-				"role": "watched"
+				"role": "premium"
 			},
 			{
 				"id": "475",
@@ -77644,47 +77684,11 @@
 		"appearances": [
 			{
 				"id": "premium-the-purge-trilogy",
-				"role": "watched"
+				"role": "premium"
 			},
 			{
 				"id": "573",
 				"role": "watched"
-			}
-		]
-	},
-	{
-		"slug": "anarchy",
-		"title": "Anarchy",
-		"year": 2008,
-		"poster": "/57qXDvZmEvYyV82hr6mw6VnfV4S.jpg",
-		"votes": 0,
-		"tmdb": {
-			"type": "movie",
-			"id": 1089069
-		},
-		"imdb": null,
-		"appearances": [
-			{
-				"id": "premium-the-purge-trilogy",
-				"role": "premium"
-			}
-		]
-	},
-	{
-		"slug": "election-year",
-		"title": "Election Year",
-		"year": 2016,
-		"poster": null,
-		"votes": 0,
-		"tmdb": {
-			"type": "movie",
-			"id": 1564850
-		},
-		"imdb": "tt3278902",
-		"appearances": [
-			{
-				"id": "premium-the-purge-trilogy",
-				"role": "premium"
 			}
 		]
 	},
@@ -79393,10 +79397,6 @@
 		"appearances": [
 			{
 				"id": "premium-wes-anderson",
-				"role": "watched"
-			},
-			{
-				"id": "premium-wes-anderson",
 				"role": "premium"
 			},
 			{
@@ -79427,10 +79427,6 @@
 		"appearances": [
 			{
 				"id": "premium-wes-anderson",
-				"role": "watched"
-			},
-			{
-				"id": "premium-wes-anderson",
 				"role": "premium"
 			},
 			{
@@ -79459,10 +79455,6 @@
 		},
 		"imdb": "tt0265666",
 		"appearances": [
-			{
-				"id": "premium-wes-anderson",
-				"role": "watched"
-			},
 			{
 				"id": "premium-wes-anderson",
 				"role": "premium"
@@ -80439,10 +80431,6 @@
 		"appearances": [
 			{
 				"id": "premium-david-fincher",
-				"role": "watched"
-			},
-			{
-				"id": "premium-david-fincher",
 				"role": "premium"
 			},
 			{
@@ -80473,10 +80461,6 @@
 		"appearances": [
 			{
 				"id": "premium-david-fincher",
-				"role": "watched"
-			},
-			{
-				"id": "premium-david-fincher",
 				"role": "premium"
 			},
 			{
@@ -80497,10 +80481,6 @@
 		},
 		"imdb": "tt0137523",
 		"appearances": [
-			{
-				"id": "premium-david-fincher",
-				"role": "watched"
-			},
 			{
 				"id": "premium-david-fincher",
 				"role": "premium"
@@ -91095,10 +91075,6 @@
 		"appearances": [
 			{
 				"id": "premium-steven-spielberg-sci-fi-spectacular",
-				"role": "watched"
-			},
-			{
-				"id": "premium-steven-spielberg-sci-fi-spectacular",
 				"role": "premium"
 			},
 			{
@@ -91121,10 +91097,6 @@
 		"appearances": [
 			{
 				"id": "premium-steven-spielberg-sci-fi-spectacular",
-				"role": "watched"
-			},
-			{
-				"id": "premium-steven-spielberg-sci-fi-spectacular",
 				"role": "premium"
 			}
 		]
@@ -91141,10 +91113,6 @@
 		},
 		"imdb": "tt0181689",
 		"appearances": [
-			{
-				"id": "premium-steven-spielberg-sci-fi-spectacular",
-				"role": "watched"
-			},
 			{
 				"id": "premium-steven-spielberg-sci-fi-spectacular",
 				"role": "premium"
@@ -105925,146 +105893,6 @@
 		"appearances": [
 			{
 				"id": "419",
-				"role": "watched"
-			}
-		]
-	},
-	{
-		"slug": "star-trek-the-motion-picture",
-		"title": "Star Trek: The Motion Picture",
-		"year": 1979,
-		"poster": "/wfiAfNwH6CMKxz4vRaW8CPTabtk.jpg",
-		"votes": 2013,
-		"tmdb": {
-			"type": "movie",
-			"id": 152
-		},
-		"imdb": "tt0079945",
-		"appearances": [
-			{
-				"id": "premium-the-star-trek-original-motion-picture-franchise",
-				"role": "watched"
-			},
-			{
-				"id": "premium-the-star-trek-original-motion-picture-franchise",
-				"role": "premium"
-			}
-		]
-	},
-	{
-		"slug": "star-trek-ii-the-wrath-of-khan",
-		"title": "Star Trek II: The Wrath of Khan",
-		"year": 1982,
-		"poster": "/uPyLsKl8Z0LOoxeaFXsY5MxhR5s.jpg",
-		"votes": 2222,
-		"tmdb": {
-			"type": "movie",
-			"id": 154
-		},
-		"imdb": "tt0084726",
-		"appearances": [
-			{
-				"id": "premium-the-star-trek-original-motion-picture-franchise",
-				"role": "watched"
-			},
-			{
-				"id": "premium-the-star-trek-original-motion-picture-franchise",
-				"role": "premium"
-			},
-			{
-				"id": "200",
-				"role": "watched"
-			}
-		]
-	},
-	{
-		"slug": "star-trek-iii-the-search-for-spock",
-		"title": "Star Trek III: The Search for Spock",
-		"year": 1984,
-		"poster": "/yqEj0oPfKBMCz7YcCARHDgH7VFm.jpg",
-		"votes": 1590,
-		"tmdb": {
-			"type": "movie",
-			"id": 157
-		},
-		"imdb": "tt0088170",
-		"appearances": [
-			{
-				"id": "premium-the-star-trek-original-motion-picture-franchise",
-				"role": "watched"
-			},
-			{
-				"id": "premium-the-star-trek-original-motion-picture-franchise",
-				"role": "premium"
-			}
-		]
-	},
-	{
-		"slug": "star-trek-iv-the-voyage-home",
-		"title": "Star Trek IV: The Voyage Home",
-		"year": 1986,
-		"poster": "/xY5TzGXJOB3L9rhZ1MbbPyVlW5J.jpg",
-		"votes": 1726,
-		"tmdb": {
-			"type": "movie",
-			"id": 168
-		},
-		"imdb": "tt0092007",
-		"appearances": [
-			{
-				"id": "premium-the-star-trek-original-motion-picture-franchise",
-				"role": "watched"
-			},
-			{
-				"id": "premium-the-star-trek-original-motion-picture-franchise",
-				"role": "premium"
-			}
-		]
-	},
-	{
-		"slug": "star-trek-v-the-final-frontier",
-		"title": "Star Trek V: The Final Frontier",
-		"year": 1989,
-		"poster": "/uiXr41VLYsuug3CZbFrKLSNahuZ.jpg",
-		"votes": 1362,
-		"tmdb": {
-			"type": "movie",
-			"id": 172
-		},
-		"imdb": "tt0098382",
-		"appearances": [
-			{
-				"id": "premium-the-star-trek-original-motion-picture-franchise",
-				"role": "watched"
-			},
-			{
-				"id": "premium-the-star-trek-original-motion-picture-franchise",
-				"role": "premium"
-			}
-		]
-	},
-	{
-		"slug": "star-trek-vi-the-undiscovered-country",
-		"title": "Star Trek VI: The Undiscovered Country",
-		"year": 1991,
-		"poster": "/tvTOJD7Gz668GLy2nNdLRQvpPsv.jpg",
-		"votes": 1480,
-		"tmdb": {
-			"type": "movie",
-			"id": 174
-		},
-		"imdb": "tt0102975",
-		"appearances": [
-			{
-				"id": "premium-the-star-trek-original-motion-picture-franchise",
-				"role": "watched"
-			},
-			{
-				"id": "premium-the-star-trek-original-motion-picture-franchise",
-				"role": "premium"
-			},
-			{
-				"id": "200",
 				"role": "watched"
 			}
 		]

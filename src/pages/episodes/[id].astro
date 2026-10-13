@@ -31,6 +31,9 @@ const art = episodeArt(e);
 // Only show per-review posters when there's more than one film; one is already the header art.
 const reviewPosters = (e.reviews?.length ?? 0) > 1;
 const reviewedTitles = (e.reviews ?? []).map((r) => (r.year ? `${r.title} (${r.year})` : r.title));
+// Premiums with ratings already list those films as reviews.
+const reviewedFilms = new Set((e.reviews ?? []).map((r) => r.film).filter(Boolean));
+const covers = (e.covers ?? []).filter((c) => !c.film || !reviewedFilms.has(c.film));
 const pageDescription = [
 	`${label} of the Film Junk Podcast, ${formatDate(e.date)}.`,
 	reviewedTitles.length ? `Reviews: ${reviewedTitles.join(', ')}.` : e.title + '.',
@@ -103,11 +106,11 @@ const pageDescription = [
 			}
 
 			{
-				!!e.covers?.length && (
+				covers.length > 0 && (
 					<section>
-						<h2>Films covered</h2>
+						<h2>{e.reviews?.length ? 'Also covered' : 'Films covered'}</h2>
 						<ul class="chips">
-							{e.covers.map((c) => {
+							{covers.map((c) => {
 								const href = filmHref(c.film);
 								return <li>{href ? <a href={href}>{c.title}</a> : <span>{c.title}</span>}</li>;
 							})}

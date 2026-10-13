@@ -867,6 +867,27 @@ for (const e of all) {
 		});
 }
 
+// Premium ratings, noted by hand from the audio: { "<episode id>": [{ title, year, ratings: { Host: "3.5/4" } }] }.
+type PremiumReview = { title: string; year: number; ratings: Record<string, string> };
+const premiumRatings = readJson<Record<string, PremiumReview[] | string>>('data/premium-ratings.json') ?? {};
+for (const [id, list] of Object.entries(premiumRatings)) {
+	if (id.startsWith('_') || typeof list === 'string') continue;
+	const e = all.find((x) => x.id === id);
+	if (!e) throw new Error(`premium-ratings.json: no episode "${id}"`);
+	e.reviews = list.map((r) => ({
+		title: r.title,
+		year: r.year,
+		film: null,
+		ratings: Object.entries(r.ratings).map(([host, said]) => {
+			// "3.5/4", "6/5"; a bare number is out of the scale the others use.
+			const m = said.trim().match(/^(\d+(?:\.\d+)?)(?:\s*\/\s*(\d+))?$/);
+			if (!m) throw new Error(`premium-ratings.json: ${id}, ${r.title}: can't read ${host}'s rating "${said}"`);
+			const scales = Object.values(r.ratings).map((x) => x.match(/\/\s*(\d+)/)?.[1]).filter(Boolean);
+			return { host, score: +m[1], outOf: +(m[2] ?? scales[0] ?? 5) };
+		}),
+	}));
+}
+
 // TMDB matches for reviewed films, cached by scripts/fetch-tmdb.ts.
 const tmdb = readJson<TmdbCache>('data/tmdb.json') ?? {};
 const tmdbOverrides = readJson<TmdbCache>('data/tmdb-overrides.json') ?? {};
@@ -980,6 +1001,11 @@ for (const e of all) {
 		w.film = resolveMention(w.title, w.year, e);
 		appear(w.film, e, 'watched');
 	}
+	// A premium's Patreon chapter list names the films it covers, so it joins the wiki's list.
+	if (e.kind === 'premium' && e.mentioned) {
+		e.covers = [...(e.covers ?? []), ...e.mentioned.map((m) => ({ title: m.year ? `${m.title} (${m.year})` : m.title, film: null }))];
+		delete e.mentioned;
+	}
 	// Films named in the description, minus ones this episode already reviews or lists.
 	if (e.mentioned) {
 		const listed = new Set([...(e.reviews ?? []), ...(e.watched ?? [])].map((x) => slugify(x.title)));
@@ -989,13 +1015,21 @@ for (const e of all) {
 			appear(m.film, e, 'watched');
 		}
 	}
-	if (e.covers)
-		e.covers = e.covers.map((c) => {
+	if (e.covers) {
+		// A premium with ratings already lists those films as reviews.
+		const reviewed = new Set((e.reviews ?? []).map((r) => r.film));
+		const seen = new Set<string>();
+		e.covers = e.covers.flatMap((c) => {
 			const { title, year } = splitYear(c.title);
 			const film = resolveMention(title, year, e);
-			appear(film, e, 'premium');
-			return { title: c.title, film };
+			// The wiki and the chapter list often name the same film.
+			const key = film ?? slugify(title);
+			if (seen.has(key)) return [];
+			seen.add(key);
+			if (!reviewed.has(film)) appear(film, e, 'premium');
+			return [{ title: c.title, film }];
 		});
+	}
 }
 
 // Mention-only titles: show a year only when every mention agrees on it.

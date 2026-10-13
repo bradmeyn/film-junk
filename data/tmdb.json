@@ -68073,5 +68073,59 @@
 		"poster": "/7aZ8uWvCckLTbalbiqut3Vrt33c.jpg",
 		"votes": 48,
 		"imdb": "tt0811136"
+	},
+	"star trek ii: the wrath of khan|1982|": {
+		"type": "movie",
+		"id": 154,
+		"title": "Star Trek II: The Wrath of Khan",
+		"year": 1982,
+		"poster": "/uPyLsKl8Z0LOoxeaFXsY5MxhR5s.jpg",
+		"votes": 2234,
+		"imdb": "tt0084726"
+	},
+	"star trek iii: the search for spock|1984|": {
+		"type": "movie",
+		"id": 157,
+		"title": "Star Trek III: The Search for Spock",
+		"year": 1984,
+		"poster": "/yqEj0oPfKBMCz7YcCARHDgH7VFm.jpg",
+		"votes": 1599,
+		"imdb": "tt0088170"
+	},
+	"star trek: the motion picture|1979|": {
+		"type": "movie",
+		"id": 152,
+		"title": "Star Trek: The Motion Picture",
+		"year": 1979,
+		"poster": "/wfiAfNwH6CMKxz4vRaW8CPTabtk.jpg",
+		"votes": 2023,
+		"imdb": "tt0079945"
+	},
+	"star trek v: the final frontier|1989|": {
+		"type": "movie",
+		"id": 172,
+		"title": "Star Trek V: The Final Frontier",
+		"year": 1989,
+		"poster": "/uiXr41VLYsuug3CZbFrKLSNahuZ.jpg",
+		"votes": 1370,
+		"imdb": "tt0098382"
+	},
+	"star trek vi: the undiscovered country|1991|": {
+		"type": "movie",
+		"id": 174,
+		"title": "Star Trek VI: The Undiscovered Country",
+		"year": 1991,
+		"poster": "/tvTOJD7Gz668GLy2nNdLRQvpPsv.jpg",
+		"votes": 1488,
+		"imdb": "tt0102975"
+	},
+	"star trek iv: the voyage home|1986|": {
+		"type": "movie",
+		"id": 168,
+		"title": "Star Trek IV: The Voyage Home",
+		"year": 1986,
+		"poster": "/xY5TzGXJOB3L9rhZ1MbbPyVlW5J.jpg",
+		"votes": 1735,
+		"imdb": "tt0092007"
 	}
 }
