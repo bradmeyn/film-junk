@@ -81,7 +81,10 @@ const blurb = latest.description.length > 420 ? latest.description.slice(0, 420)
 		schedule && (
 			<section class="wrap schedule" aria-labelledby="schedule-h">
 				<div class="section-head">
-					<h2 id="schedule-h">{scheduleHeading}</h2>
+					<h2 id="schedule-h">
+						{scheduleName === 'October' && <span aria-hidden="true">🎃 </span>}
+						{scheduleHeading}
+					</h2>
 					{schedule.source && (
 						<a href={schedule.source}>
 							<Icon name="instagram" /> Calendar on Instagram
