@@ -11,7 +11,7 @@ export function podcastSeries(site: Site) {
 	return {
 		'@type': 'PodcastSeries',
 		name: 'Film Junk Podcast',
-		description: 'The longest running film podcast: weekly movie reviews, TV talk and film news from Sean Dwyer, Jay Cheel and Frank Knezic.',
+		description: 'The longest running movie podcast: weekly movie reviews, TV talk and film news from Sean Dwyer, Jay Cheel and Frank Knezic.',
 		url: abs(site, '/'),
 		image: PODCAST_IMAGE,
 		webFeed: LINKS.rss,

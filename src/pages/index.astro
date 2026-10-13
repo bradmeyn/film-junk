@@ -16,6 +16,8 @@ const premiums = episodes.filter((e) => e.kind === 'premium' && e.art).slice(0, 
 const thisMonth = new Date().toISOString().slice(0, 7);
 const schedule = meta.schedule.find((m) => m.month === thisMonth) ?? meta.schedule[0];
 const scheduleName = schedule && new Date(schedule.month + '-01T00:00:00Z').toLocaleString('en-US', { month: 'long', timeZone: 'UTC' });
+// October is Junktober on the show.
+const scheduleHeading = scheduleName === 'October' ? 'Junktober Lineup' : `${scheduleName} Lineup`;
 const dayFormat = new Intl.DateTimeFormat('en-US', { weekday: 'short', month: 'short', day: 'numeric', timeZone: 'UTC' });
 const day = (iso: string) => dayFormat.format(new Date(iso + 'T00:00:00Z'));
 
@@ -38,14 +40,14 @@ const blurb = latest.description.length > 420 ? latest.description.slice(0, 420)
 ---
 
 <Layout
-	title="The Longest Running Film Podcast"
+	title="The Longest Running Movie Podcast"
 	description={`Movie reviews, TV talk and film news since 2005. Search ${films.length.toLocaleString()} films across every Film Junk Podcast episode, premium and Patreon exclusive.`}
 	schema={homeSchema(Astro.site)}
 >
 	<section class="hero wrap">
 		<img class="hero-logo" src="/logo-512.jpg" alt="Film Junk logo" width="512" height="512" />
 		<div class="about">
-			<h1>The Longest Running Film Podcast</h1>
+			<h1>The Longest Running Movie Podcast</h1>
 			<p class="lede muted">An unofficial companion to the Film Junk Podcast, {latest.number!.toLocaleString()} episodes and counting.</p>
 			<div class="hosts">
 				<h2>Hosted by</h2>
@@ -79,7 +81,7 @@ const blurb = latest.description.length > 420 ? latest.description.slice(0, 420)
 		schedule && (
 			<section class="wrap schedule" aria-labelledby="schedule-h">
 				<div class="section-head">
-					<h2 id="schedule-h">{scheduleName} on Film Junk</h2>
+					<h2 id="schedule-h">{scheduleHeading}</h2>
 					{schedule.source && (
 						<a href={schedule.source}>
 							<Icon name="instagram" /> Calendar on Instagram
@@ -244,16 +246,18 @@ const blurb = latest.description.length > 420 ? latest.description.slice(0, 420)
 		grid-row: 1;
 	}
 
+	/* Narrow: a smaller logo beside the heading instead of a block above it. */
 	@media (max-width: 52rem) {
 		.hero {
-			grid-template-columns: 1fr;
+			display: block;
 		}
 		.hero-logo {
-			grid-column: 1;
-			width: 9rem;
+			float: left;
+			width: clamp(5rem, 22vw, 8rem);
+			margin: 0.15rem 1rem 0.5rem 0;
 		}
-		.about {
-			grid-row: 2;
+		.lede {
+			clear: left;
 		}
 	}
 
