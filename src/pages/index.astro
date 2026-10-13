@@ -33,9 +33,7 @@ const history = Object.entries(
 	)
 ).sort(([a], [b]) => b.localeCompare(a));
 
-const premiumCount = episodes.filter((e) => e.kind === 'premium').length;
 const patreonLatest = episodes.filter((e) => e.kind === 'patreon');
-const patreonCount = patreonLatest.length;
 const blurb = latest.description.length > 420 ? latest.description.slice(0, 420).replace(/\s\S*$/, '') + '…' : latest.description;
 ---
 
@@ -178,7 +176,7 @@ const blurb = latest.description.length > 420 ? latest.description.slice(0, 420)
 	<section class="wrap patreon-latest" aria-labelledby="patreon-h">
 		<div class="section-head">
 			<h2 id="patreon-h">New on Patreon</h2>
-			<a href="/episodes/?type=patreon">All {patreonCount} Patreon exclusives</a>
+			<a href="/episodes/?type=patreon">More Patreon</a>
 		</div>
 		<p class="muted packs-intro">
 			Junk Mail, Retro Reviews, Criterionitis and more, for patrons. <a href={LINKS.patreon}>Join on Patreon</a>
@@ -191,7 +189,7 @@ const blurb = latest.description.length > 420 ? latest.description.slice(0, 420)
 	<section class="wrap premiums" aria-labelledby="premium-h">
 		<div class="section-head">
 			<h2 id="premium-h">Premiums</h2>
-			<a href="/commerce/#premiums">All {premiumCount} premiums</a>
+			<a href="/commerce/#premiums">More premiums</a>
 		</div>
 		<ul>
 			{
