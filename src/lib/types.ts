@@ -2,7 +2,8 @@
 // write them) and the site (which reads them), so a parser change that breaks a page
 // fails the type check instead of rendering a blank field.
 
-export type Rating = { host: string; score: number; outOf: number };
+// qualifier: a "light 4" or "heavy 3.5", as said on the show (hand-noted ratings only).
+export type Rating = { host: string; score: number; outOf: number; qualifier?: 'light' | 'heavy' };
 export type Review = { title: string; year: number | null; ratings: Rating[]; film: string | null };
 export type Mention = { title: string; year: number | null; film: string | null };
 export type Kind = 'regular' | 'bonus' | 'premium' | 'patreon';
@@ -32,6 +33,7 @@ export type Episode = {
 	mentioned?: Mention[]; // films named in a Patreon post's description
 	segments?: { label: string; items: string[] }[];
 	music?: { intro?: string; outro?: string };
+	hero?: string; // listener given the hero shout-out, noted by hand
 	notes: string;
 	description: string;
 	pack?: string | null; // Gumroad pack: '2017', 'Space Junk' or 'bonus'

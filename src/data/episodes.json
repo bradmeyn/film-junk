@@ -311,7 +311,24 @@
 			{
 				"title": "Reign of Fire",
 				"year": 2002,
-				"ratings": [],
+				"ratings": [
+					{
+						"host": "Jay",
+						"score": 3.5,
+						"outOf": 5
+					},
+					{
+						"host": "Frank",
+						"score": 3.5,
+						"outOf": 5
+					},
+					{
+						"host": "Sean",
+						"score": 4,
+						"outOf": 5,
+						"qualifier": "light"
+					}
+				],
 				"film": "reign-of-fire"
 			}
 		],
@@ -327,7 +344,8 @@
 			"apple": "https://podcasts.apple.com/us/podcast/reign-of-fire-2002/id74257105?i=1000790969887",
 			"spotify": "https://open.spotify.com/episode/1j6Bqk7l0GUyJjyDLzFUfi"
 		},
-		"mentioned": []
+		"mentioned": [],
+		"hero": "Josh Frank"
 	},
 	{
 		"id": "1063",
@@ -71906,7 +71924,6 @@
 			{
 				"title": "Star Trek: The Motion Picture",
 				"year": 1979,
-				"film": "star-trek-the-motion-picture",
 				"ratings": [
 					{
 						"host": "Sean",
@@ -71928,12 +71945,12 @@
 						"score": 3,
 						"outOf": 4
 					}
-				]
+				],
+				"film": "star-trek-the-motion-picture"
 			},
 			{
 				"title": "Star Trek II: The Wrath of Khan",
 				"year": 1982,
-				"film": "star-trek-ii-the-wrath-of-khan",
 				"ratings": [
 					{
 						"host": "Sean",
@@ -71955,12 +71972,12 @@
 						"score": 2,
 						"outOf": 4
 					}
-				]
+				],
+				"film": "star-trek-ii-the-wrath-of-khan"
 			},
 			{
 				"title": "Star Trek III: The Search for Spock",
 				"year": 1984,
-				"film": "star-trek-iii-the-search-for-spock",
 				"ratings": [
 					{
 						"host": "Sean",
@@ -71982,12 +71999,12 @@
 						"score": 3,
 						"outOf": 4
 					}
-				]
+				],
+				"film": "star-trek-iii-the-search-for-spock"
 			},
 			{
 				"title": "Star Trek IV: The Voyage Home",
 				"year": 1986,
-				"film": "star-trek-iv-the-voyage-home",
 				"ratings": [
 					{
 						"host": "Sean",
@@ -72009,12 +72026,12 @@
 						"score": 3.5,
 						"outOf": 4
 					}
-				]
+				],
+				"film": "star-trek-iv-the-voyage-home"
 			},
 			{
 				"title": "Star Trek V: The Final Frontier",
 				"year": 1989,
-				"film": "star-trek-v-the-final-frontier",
 				"ratings": [
 					{
 						"host": "Sean",
@@ -72036,12 +72053,12 @@
 						"score": 3.5,
 						"outOf": 4
 					}
-				]
+				],
+				"film": "star-trek-v-the-final-frontier"
 			},
 			{
 				"title": "Star Trek VI: The Undiscovered Country",
 				"year": 1991,
-				"film": "star-trek-vi-the-undiscovered-country",
 				"ratings": [
 					{
 						"host": "Sean",
@@ -72063,7 +72080,8 @@
 						"score": 3.5,
 						"outOf": 4
 					}
-				]
+				],
+				"film": "star-trek-vi-the-undiscovered-country"
 			}
 		]
 	},

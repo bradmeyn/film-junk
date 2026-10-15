@@ -61,6 +61,7 @@ const pageDescription = [
 					<time datetime={e.date}>{formatDate(e.date, e.dateApprox)}</time>
 					{formatDuration(e.duration) && <span>{formatDuration(e.duration)}</span>}
 					{e.series && <span>{e.series}</span>}
+					{e.hero && <span>Hero: {e.hero}</span>}
 					<a href={`/years/${year}/`}>More from {year}</a>
 				</p>
 				<ListenLinks episode={e} />
@@ -90,7 +91,7 @@ const pageDescription = [
 													<div>
 														<dt>{hostHref(x.host) ? <a href={hostHref(x.host)}>{x.host}</a> : x.host}</dt>
 														<dd>
-															<Stars score={x.score} outOf={x.outOf} label={x.host} />
+															<Stars score={x.score} outOf={x.outOf} label={x.host} qualifier={x.qualifier} />
 														</dd>
 													</div>
 												))}

@@ -1,0 +1,21 @@
+{
+	"_readme": "Episode details noted by hand from the audio, for things the official guides don't have. Key: the episode id (from its URL, /episodes/<id>/). Fields, all optional: \"hero\", the listener given the hero shout-out; \"reviews\", each a film's full title (and release year for premiums, as on TMDB) with each host's score written as said: \"3.5/4\", \"6/5\", or with the light/heavy the hosts sometimes add, \"light 4\". A bare number is out of 5 unless another host's rating names the scale. build-data adds the reviews, or fills in the ratings of a review the guides already list.",
+
+	"1062": {
+		"hero": "Josh Frank",
+		"reviews": [
+			{"title": "Reign of Fire", "ratings": {"Jay": "3.5", "Frank": "3.5", "Sean": "light 4"}}
+		]
+	},
+
+	"premium-the-star-trek-original-motion-picture-franchise": {
+		"reviews": [
+			{"title": "Star Trek: The Motion Picture", "year": 1979, "ratings": {"Sean": "2/4", "Frank": "2.5/4", "Jay": "2/4", "Reed": "3/4"}},
+			{"title": "Star Trek II: The Wrath of Khan", "year": 1982, "ratings": {"Sean": "4/4", "Frank": "3.5/4", "Jay": "4/4", "Reed": "2/4"}},
+			{"title": "Star Trek III: The Search for Spock", "year": 1984, "ratings": {"Sean": "3/4", "Frank": "2.5/4", "Jay": "3/4", "Reed": "3/4"}},
+			{"title": "Star Trek IV: The Voyage Home", "year": 1986, "ratings": {"Sean": "4/4", "Frank": "3.5/4", "Jay": "4/4", "Reed": "3.5/4"}},
+			{"title": "Star Trek V: The Final Frontier", "year": 1989, "ratings": {"Sean": "1.5/4", "Frank": "2.5/4", "Jay": "1.5/4", "Reed": "3.5/4"}},
+			{"title": "Star Trek VI: The Undiscovered Country", "year": 1991, "ratings": {"Sean": "3.5/4", "Frank": "3.5/4", "Jay": "4/4", "Reed": "3.5/4"}}
+		]
+	}
+}

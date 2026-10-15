@@ -867,25 +867,31 @@ for (const e of all) {
 		});
 }
 
-// Premium ratings, noted by hand from the audio: { "<episode id>": [{ title, year, ratings: { Host: "3.5/4" } }] }.
-type PremiumReview = { title: string; year: number; ratings: Record<string, string> };
-const premiumRatings = readJson<Record<string, PremiumReview[] | string>>('data/premium-ratings.json') ?? {};
-for (const [id, list] of Object.entries(premiumRatings)) {
-	if (id.startsWith('_') || typeof list === 'string') continue;
+// Details noted by hand from the audio, for things the guides don't have (data/hand-notes.json):
+// { "<episode id>": { hero?, reviews?: [{ title, year?, ratings: { Host: "3.5/4" } }] } }. Ratings
+// cover premiums and weekly episodes the guides don't rate yet; a rating can carry the "light" or
+// "heavy" the hosts say ("light 4"), and the score itself is what's averaged.
+type HandNotes = { hero?: string; reviews?: { title: string; year?: number; ratings: Record<string, string> }[] };
+const handNotes = readJson<Record<string, HandNotes | string>>('data/hand-notes.json') ?? {};
+for (const [id, notes] of Object.entries(handNotes)) {
+	if (id.startsWith('_') || typeof notes === 'string') continue;
 	const e = all.find((x) => x.id === id);
-	if (!e) throw new Error(`premium-ratings.json: no episode "${id}"`);
-	e.reviews = list.map((r) => ({
-		title: r.title,
-		year: r.year,
-		film: null,
-		ratings: Object.entries(r.ratings).map(([host, said]) => {
-			// "3.5/4", "6/5"; a bare number is out of the scale the others use.
-			const m = said.trim().match(/^(\d+(?:\.\d+)?)(?:\s*\/\s*(\d+))?$/);
-			if (!m) throw new Error(`premium-ratings.json: ${id}, ${r.title}: can't read ${host}'s rating "${said}"`);
-			const scales = Object.values(r.ratings).map((x) => x.match(/\/\s*(\d+)/)?.[1]).filter(Boolean);
-			return { host, score: +m[1], outOf: +(m[2] ?? scales[0] ?? 5) };
-		}),
-	}));
+	if (!e) throw new Error(`hand-notes.json: no episode "${id}"`);
+	if (notes.hero) e.hero = notes.hero;
+	for (const r of notes.reviews ?? []) {
+		const scales = Object.values(r.ratings).map((x) => x.match(/\/\s*(\d+)/)?.[1]).filter(Boolean);
+		const ratings: Rating[] = Object.entries(r.ratings).map(([host, said]) => {
+			// "3.5/4", "6/5", "light 4"; a bare number is out of the scale the others use, else 5.
+			const m = said.trim().match(/^(?:(light|heavy)\s+)?(\d+(?:\.\d+)?)(?:\s*\/\s*(\d+))?$/i);
+			if (!m) throw new Error(`hand-notes.json: ${id}, ${r.title}: can't read ${host}'s rating "${said}"`);
+			const qualifier = m[1]?.toLowerCase() as Rating['qualifier'];
+			return { host, score: +m[2], outOf: +(m[3] ?? scales[0] ?? 5), ...(qualifier && { qualifier }) };
+		});
+		// Fill in a review the guides already list; otherwise (premiums) add it.
+		const existing = (e.reviews ??= []).find((x) => slugify(x.title) === slugify(r.title));
+		if (existing) Object.assign(existing, { ratings, year: existing.year ?? r.year ?? null });
+		else e.reviews.push({ title: r.title, year: r.year ?? null, ratings, film: null });
+	}
 }
 
 // TMDB matches for reviewed films, cached by scripts/fetch-tmdb.ts.

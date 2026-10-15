@@ -17,7 +17,7 @@ const items: Item[] = episodes.flatMap((e) =>
 			e: episodeHref(e),
 			l: `${episodeLabel(e)}, ${formatDate(e.date, e.dateApprox)}`,
 			d: e.date,
-			r: review.ratings.map((r) => ({ h: r.host, s: r.score, o: r.outOf })),
+			r: review.ratings.map((r) => ({ h: r.host, s: r.score, o: r.outOf, ...(r.qualifier && { q: r.qualifier }) })),
 			a: capped.length ? capped.reduce((a, b) => a + b, 0) / capped.length : null,
 		};
 	}),
