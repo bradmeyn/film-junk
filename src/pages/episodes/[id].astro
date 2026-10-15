@@ -61,7 +61,6 @@ const pageDescription = [
 					<time datetime={e.date}>{formatDate(e.date, e.dateApprox)}</time>
 					{formatDuration(e.duration) && <span>{formatDuration(e.duration)}</span>}
 					{e.series && <span>{e.series}</span>}
-					{e.hero && <span>Hero: {e.hero}</span>}
 					<a href={`/years/${year}/`}>More from {year}</a>
 				</p>
 				<ListenLinks episode={e} />
@@ -129,6 +128,15 @@ const pageDescription = [
 								<p>{p}</p>
 							))}
 						</div>
+					</section>
+				)
+			}
+
+			{
+				e.hero && (
+					<section>
+						<h2>Hero</h2>
+						<p class="prose">{e.hero}</p>
 					</section>
 				)
 			}
