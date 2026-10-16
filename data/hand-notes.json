@@ -8,6 +8,13 @@
 		]
 	},
 
+	"1064": {
+		"hero": "Joshua Smith",
+		"reviews": [
+			{"title": "Sherman's March", "ratings": {"Jay": "5", "Frank": "4", "Sean": "4.5"}}
+		]
+	},
+
 	"931": {
 		"hero": "Levi Rodgers"
 	},

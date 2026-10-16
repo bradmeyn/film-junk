@@ -281,7 +281,23 @@
 			{
 				"title": "Sherman's March",
 				"year": 1985,
-				"ratings": [],
+				"ratings": [
+					{
+						"host": "Jay",
+						"score": 5,
+						"outOf": 5
+					},
+					{
+						"host": "Frank",
+						"score": 4,
+						"outOf": 5
+					},
+					{
+						"host": "Sean",
+						"score": 4.5,
+						"outOf": 5
+					}
+				],
 				"film": "shermans-march"
 			}
 		],
@@ -297,7 +313,8 @@
 			"apple": "https://podcasts.apple.com/us/podcast/shermans-march-1985/id74257105?i=1000792057587",
 			"spotify": "https://open.spotify.com/episode/17GbKcCs8sovj6UMA9kOvY"
 		},
-		"mentioned": []
+		"mentioned": [],
+		"hero": "Joshua Smith"
 	},
 	{
 		"id": "2026-09-24-film-junk-calendar-reveal-oct-2026",
