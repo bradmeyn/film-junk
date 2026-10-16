@@ -53,14 +53,11 @@
 		}
 	},
 	{
-		"id": "1066",
-		"kind": "regular",
-		"show": "Film Junk",
-		"number": 1066,
-		"part": null,
-		"date": "2026-10-12",
-		"dateApprox": false,
-		"title": "Viy",
+		"notes": "",
+		"description": "I summon the vampires! I summon the werewolves! I summon Viy! On this week's episode of Film Junk we are unearthing Viy, a spooky hidden gem from 1967 that is billed as the Soviet Union's first horror film. It's a wild ride that delivers some laughs, some thrills and a lot of impressive visual effects. So why isn't this movie more widely known? How is the Russian take on vampires, witches and demons different from the mythology we know today? Does vodka cure everything? Is there a connection between Viy and the Dogma poop monster? Drop blood tear and download the latest episode of Film Junk now.",
+		"mentioned": [],
+		"segments": [],
+		"watched": [],
 		"reviews": [
 			{
 				"title": "Viy",
@@ -69,49 +66,21 @@
 				"film": "viy"
 			}
 		],
-		"watched": [],
-		"segments": [],
 		"music": {},
-		"notes": "",
-		"description": "I summon the vampires! I summon the werewolves! I summon Viy! On this week's episode of Film Junk we are unearthing Viy, a spooky hidden gem from 1967 that is billed as the Soviet Union's first horror film. It's a wild ride that delivers some laughs, some thrills and a lot of impressive visual effects. So why isn't this movie more widely known? How is the Russian take on vampires, witches and demons different from the mythology we know today? Does vodka cure everything? Is there a connection between Viy and the Dogma poop monster? Drop blood tear and download the latest episode of Film Junk now.",
+		"show": "Film Junk",
+		"part": null,
+		"dateApprox": false,
 		"pack": null,
+		"id": "1066",
+		"kind": "regular",
+		"number": 1066,
+		"date": "2026-10-05",
+		"title": "Viy",
 		"links": {
-			"libsyn": "https://directory.libsyn.com/episode/index/id/43154643",
 			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-1066-171269433",
 			"apple": "https://podcasts.apple.com/us/podcast/viy-1967/id74257105?i=1000795980076",
 			"spotify": "https://open.spotify.com/episode/6iMp27naLX57d2ct4mb6sf"
 		}
-	},
-	{
-		"id": "1065",
-		"kind": "regular",
-		"show": "Film Junk",
-		"number": 1065,
-		"part": null,
-		"date": "2026-10-05",
-		"dateApprox": false,
-		"title": "The Rocky Horror Picture Show",
-		"reviews": [
-			{
-				"title": "The Rocky Horror Picture Show",
-				"year": 1975,
-				"ratings": [],
-				"film": "the-rocky-horror-picture-show"
-			}
-		],
-		"watched": [],
-		"segments": [],
-		"music": {},
-		"notes": "",
-		"description": "This week on the Film Junk Podcast, let's do the time warp again as we revisit one of the biggest cult classics of all time. The Rocky Horror Picture Show remains an influential and utterly unique musical that seems like an ideal choice to kick off the month of October. But what is it about this movie that has allowed it to endure? Is Tim Curry's performance revered yet still somehow underrated? Is seeing it with a live audience the best way to experience this movie? What is the deeper psychological meaning behind Frank killing Eddie? Damnit Janet... don't dream it, be it on this week's episode of Film Junk.",
-		"pack": null,
-		"links": {
-			"libsyn": "https://directory.libsyn.com/episode/index/id/43050678",
-			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-1065-170756857",
-			"apple": "https://podcasts.apple.com/us/podcast/the-rocky-horror-picture-show-1975/id74257105?i=1000793283849",
-			"spotify": "https://open.spotify.com/episode/3gbRNVb5WDlygSp38JHeaa"
-		},
-		"mentioned": []
 	},
 	{
 		"notes": "",
@@ -269,14 +238,41 @@
 		}
 	},
 	{
-		"id": "1064",
-		"kind": "regular",
+		"notes": "",
+		"description": "This week on the Film Junk Podcast, let's do the time warp again as we revisit one of the biggest cult classics of all time. The Rocky Horror Picture Show remains an influential and utterly unique musical that seems like an ideal choice to kick off the month of October. But what is it about this movie that has allowed it to endure? Is Tim Curry's performance revered yet still somehow underrated? Is seeing it with a live audience the best way to experience this movie? What is the deeper psychological meaning behind Frank killing Eddie? Damnit Janet... don't dream it, be it on this week's episode of Film Junk.",
+		"mentioned": [],
+		"segments": [],
+		"watched": [],
+		"reviews": [
+			{
+				"title": "The Rocky Horror Picture Show",
+				"year": 1975,
+				"ratings": [],
+				"film": "the-rocky-horror-picture-show"
+			}
+		],
+		"music": {},
 		"show": "Film Junk",
-		"number": 1064,
 		"part": null,
-		"date": "2026-09-28",
 		"dateApprox": false,
-		"title": "Sherman's March",
+		"pack": null,
+		"id": "1065",
+		"kind": "regular",
+		"number": 1065,
+		"date": "2026-09-28",
+		"title": "The Rocky Horror Picture Show",
+		"links": {
+			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-1065-170756857",
+			"apple": "https://podcasts.apple.com/us/podcast/the-rocky-horror-picture-show-1975/id74257105?i=1000793283849",
+			"spotify": "https://open.spotify.com/episode/3gbRNVb5WDlygSp38JHeaa"
+		}
+	},
+	{
+		"notes": "",
+		"description": "\"Could you turn it off? This is important. This is not art, this is life!\" This week on Film Junk we are revisiting another film that was way ahead of its time. There was nothing like Ross McElwee's documentary Sherman's March back when it came out in 1985 but now we live in a world where everyone is capturing their life on video. Was this movie an influence on the work of people like Nathan Fielder and John Wilson? What do General Sherman, nuclear war, Burt Reynolds and the search for love all have in common? Is Charleen one of the great documentary characters of all time? Do leg squats actually get rid of cellulite? Find yourself a nice Southern girl and check out this week's episode below.",
+		"mentioned": [],
+		"segments": [],
+		"watched": [],
 		"reviews": [
 			{
 				"title": "Sherman's March",
@@ -301,53 +297,65 @@
 				"film": "shermans-march"
 			}
 		],
-		"watched": [],
-		"segments": [],
 		"music": {},
-		"notes": "",
-		"description": "\"Could you turn it off? This is important. This is not art, this is life!\" This week on Film Junk we are revisiting another film that was way ahead of its time. There was nothing like Ross McElwee's documentary Sherman's March back when it came out in 1985 but now we live in a world where everyone is capturing their life on video. Was this movie an influence on the work of people like Nathan Fielder and John Wilson? What do General Sherman, nuclear war, Burt Reynolds and the search for love all have in common? Is Charleen one of the great documentary characters of all time? Do leg squats actually get rid of cellulite? Find yourself a nice Southern girl and check out this week's episode below.",
+		"show": "Film Junk",
+		"part": null,
+		"dateApprox": false,
 		"pack": null,
+		"id": "1064",
+		"kind": "regular",
+		"number": 1064,
+		"date": "2026-09-21",
+		"title": "Sherman's March",
 		"links": {
-			"libsyn": "https://directory.libsyn.com/episode/index/id/42907817",
 			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-1064-168986577",
 			"apple": "https://podcasts.apple.com/us/podcast/shermans-march-1985/id74257105?i=1000792057587",
 			"spotify": "https://open.spotify.com/episode/17GbKcCs8sovj6UMA9kOvY"
 		},
-		"mentioned": [],
 		"hero": "Joshua Smith"
 	},
 	{
-		"id": "2026-09-24-film-junk-calendar-reveal-oct-2026",
-		"kind": "bonus",
-		"show": "Film Junk",
-		"number": null,
-		"part": null,
-		"date": "2026-09-24",
-		"dateApprox": false,
-		"title": "Film Junk Calendar Reveal: Oct 2026",
-		"reviews": [],
-		"watched": [],
-		"segments": [],
-		"music": {},
 		"notes": "",
-		"description": "Six little pumpkins sitting on a gate. The first one said, \"Oh my, it's getting late!\" The second one said, \"There are witches in the air!\" The third one said, \"But we don't care!\" The fourth one said, \"Let's run, let's run!\" The fifth one said, \"Isn't Halloween fun?\" And the sixth one said, \"I'M GONNA FUCKIN' CUMMMMMMMMMMMMMMMMMM\"",
+		"description": "SHADOW DROOOOOPPPPPPPPPPPPPP\nSick of sloughing through shit from the Netflix doc-slop trough? \nFEAR NOT! It's time to crack open the Tickle Trunk and dig out your formal attire, because we've got two beautifully crafted entrees that will wipe that \"premium doc\" format aftertaste out of your stupid mouth.\nNOTE: If you DO have any interest in Remake, you might want to watch Sherman's March first. It's a beautifully fragrant appetizer that will prepare your palate for the best possible tasting experience when sucking down that McElwee Meat.",
+		"mentioned": [],
+		"segments": [],
+		"watched": [],
+		"reviews": [
+			{
+				"title": "The History of Concrete",
+				"year": 2026,
+				"ratings": [],
+				"film": "the-history-of-concrete"
+			},
+			{
+				"title": "Remake",
+				"year": 2025,
+				"ratings": [],
+				"film": "remake"
+			}
+		],
+		"music": {},
+		"show": "Film Junk",
+		"part": null,
+		"dateApprox": false,
 		"pack": null,
+		"id": "1063",
+		"kind": "regular",
+		"number": 1063,
+		"date": "2026-09-15",
+		"title": "The History of Concrete + Remake",
 		"links": {
-			"libsyn": "https://directory.libsyn.com/episode/index/id/43016823",
-			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-reveal-170312465",
-			"apple": "https://podcasts.apple.com/us/podcast/film-junk-calendar-reveal-oct-2026/id74257105?i=1000791396844",
-			"spotify": "https://open.spotify.com/episode/43oBOynJ9VTei60u0UQvQ6"
+			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-1063-169581108",
+			"apple": "https://podcasts.apple.com/us/podcast/the-history-of-concrete-2026-remake-2025/id74257105?i=1000789828327",
+			"spotify": "https://open.spotify.com/episode/4Oseuf93t2wyE5XKeBKaF9"
 		}
 	},
 	{
-		"id": "1062",
-		"kind": "regular",
-		"show": "Film Junk",
-		"number": 1062,
-		"part": null,
-		"date": "2026-09-21",
-		"dateApprox": false,
-		"title": "Reign of Fire",
+		"notes": "",
+		"description": "Look out that window... Eden isn't burning, it's burnt. This week on the Film Junk Podcast we are jumping out of planes during magic hour as we dig hard, dig deep and look back on another post-apocalyptic world. This time Christian Bale and Matthew McConaughey are leading humans in a last stand against dragons in the 2002 cult classic Reign of Fire. Should this movie have been a bigger hit than it was? How do the special effects hold up over 20 years later? Does the fictional biology of dragons make any scientific sense? Can we improvise a better screenplay for this movie during the course of this podcast? Keep two eyes on the sky and download this week's episode of Film Junk below.",
+		"mentioned": [],
+		"segments": [],
+		"watched": [],
 		"reviews": [
 			{
 				"title": "Reign of Fire",
@@ -373,93 +381,22 @@
 				"film": "reign-of-fire"
 			}
 		],
-		"watched": [],
-		"segments": [],
 		"music": {},
-		"notes": "",
-		"description": "Look out that window... Eden isn't burning, it's burnt. This week on the Film Junk Podcast we are jumping out of planes during magic hour as we dig hard, dig deep and look back on another post-apocalyptic world. This time Christian Bale and Matthew McConaughey are leading humans in a last stand against dragons in the 2002 cult classic Reign of Fire. Should this movie have been a bigger hit than it was? How do the special effects hold up over 20 years later? Does the fictional biology of dragons make any scientific sense? Can we improvise a better screenplay for this movie during the course of this podcast? Keep two eyes on the sky and download this week's episode of Film Junk below.",
+		"show": "Film Junk",
+		"part": null,
+		"dateApprox": false,
 		"pack": null,
+		"id": "1062",
+		"kind": "regular",
+		"number": 1062,
+		"date": "2026-09-14",
+		"title": "Reign of Fire",
 		"links": {
-			"libsyn": "https://directory.libsyn.com/episode/index/id/42803255",
 			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-1062-168816107",
 			"apple": "https://podcasts.apple.com/us/podcast/reign-of-fire-2002/id74257105?i=1000790969887",
 			"spotify": "https://open.spotify.com/episode/1j6Bqk7l0GUyJjyDLzFUfi"
 		},
-		"mentioned": [],
 		"hero": "Josh Frank"
-	},
-	{
-		"id": "1063",
-		"kind": "regular",
-		"show": "Film Junk",
-		"number": 1063,
-		"part": null,
-		"date": "2026-09-15",
-		"dateApprox": false,
-		"title": "The History of Concrete + Remake",
-		"reviews": [
-			{
-				"title": "The History of Concrete",
-				"year": 2026,
-				"ratings": [],
-				"film": "the-history-of-concrete"
-			},
-			{
-				"title": "Remake",
-				"year": 2025,
-				"ratings": [],
-				"film": "remake"
-			}
-		],
-		"watched": [],
-		"segments": [],
-		"music": {},
-		"notes": "",
-		"description": "Sick of sloughing through shit from the Netflix doc-slop trough? FEAR NOT! It's time to crack open the Tickle Trunk and dig out your formal attire, because we've got two beautifully crafted entrees that will wipe that \"premium doc\" format aftertaste out of your stupid mouth: John Wilson’s The History of Concrete and Ross McElwee’s Remake.",
-		"pack": null,
-		"links": {
-			"libsyn": "https://directory.libsyn.com/episode/index/id/42907832",
-			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-1063-169581108",
-			"apple": "https://podcasts.apple.com/us/podcast/the-history-of-concrete-2026-remake-2025/id74257105?i=1000789828327",
-			"spotify": "https://open.spotify.com/episode/4Oseuf93t2wyE5XKeBKaF9"
-		},
-		"mentioned": [
-			{
-				"title": "Sherman's March",
-				"year": null,
-				"film": "shermans-march"
-			}
-		]
-	},
-	{
-		"id": "1061",
-		"kind": "regular",
-		"show": "Film Junk",
-		"number": 1061,
-		"part": null,
-		"date": "2026-09-14",
-		"dateApprox": false,
-		"title": "Threads",
-		"reviews": [
-			{
-				"title": "Threads",
-				"year": 1984,
-				"ratings": [],
-				"film": "threads"
-			}
-		],
-		"watched": [],
-		"segments": [],
-		"music": {},
-		"notes": "",
-		"description": "Jesus Christ! They've done it... They've done it! After previously covering one of the most joyful movies of all time, this week we are tackling what could very well be the bleakest. Threads is a British docudrama that goes into brutal detail on the effects of nuclear war on the general population. But is this movie scientifically accurate? How would future generations learn to survive and rebuild society? Would Threads have been better if it starred Steve Guttenberg? Which members of the Film Junk crew would actually survive the apocalypse? Take shelter and soil yourself in fear while listening to this week's episode of Film Junk.",
-		"pack": null,
-		"links": {
-			"libsyn": "https://directory.libsyn.com/episode/index/id/42788665",
-			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-1061-168651031",
-			"apple": "https://podcasts.apple.com/us/podcast/threads-1984/id74257105?i=1000789590077",
-			"spotify": "https://open.spotify.com/episode/7gGL5iXYLedAQHuYkV6g4d"
-		}
 	},
 	{
 		"notes": "",
@@ -486,59 +423,34 @@
 		}
 	},
 	{
-		"id": "2026-09-08-treknobabble-cause-and-effect",
-		"kind": "bonus",
-		"show": "Film Junk",
-		"series": "Treknobabble",
-		"number": null,
-		"part": null,
-		"date": "2026-09-08",
-		"dateApprox": false,
-		"title": "Treknobabble: Cause & Effect",
-		"reviews": [],
-		"watched": [],
-		"segments": [],
-		"music": {},
 		"notes": "",
-		"description": "In honour of Star Trek Day, we are taking an episode of Treknobabble out of the Patreon vault! On this one, Reed Farrington joins us to discuss season 5 episode 18, Cause & Effect (aka The Time Loop Episode). Must be deja vu... or is it vuja dej?",
-		"pack": null,
-		"links": {
-			"libsyn": "https://directory.libsyn.com/episode/index/id/42810510",
-			"patreon": "https://www.patreon.com/filmjunk/posts/treknobabble-5-98139283",
-			"apple": "https://podcasts.apple.com/us/podcast/treknobabble-cause-effect/id74257105?i=1000788500338",
-			"spotify": "https://open.spotify.com/episode/5jLKTwdLN6U6flX4TNZk9K"
-		}
-	},
-	{
-		"id": "1060",
-		"kind": "regular",
-		"show": "Film Junk",
-		"number": 1060,
-		"part": null,
-		"date": "2026-09-07",
-		"dateApprox": false,
-		"title": "Singin' in the Rain",
+		"description": "Jesus Christ! They've done it... They've done it! After previously covering one of the most joyful movies of all time, this week we are tackling what could very well be the bleakest. Threads is a British docudrama that goes into brutal detail on the effects of nuclear war on the general population. But is this movie scientifically accurate? How would future generations learn to survive and rebuild society? Would Threads have been better if it starred Steve Guttenberg? Which members of the Film Junk crew would actually survive the apocalypse? Take shelter and soil yourself in fear while listening to this week's episode of Film Junk.",
+		"mentioned": [],
+		"segments": [],
+		"watched": [],
 		"reviews": [
 			{
-				"title": "Singin' in the Rain",
-				"year": 1952,
+				"title": "Threads",
+				"year": 1984,
 				"ratings": [],
-				"film": "singin-in-the-rain"
+				"film": "threads"
 			}
 		],
-		"watched": [],
-		"segments": [],
 		"music": {},
-		"notes": "",
-		"description": "Come Rain, come shine, come snow, come sleet, the show must go on! We are dancing our way through an all-time classic this week on Film Junk with the 1952 Gene Kelly musical Singin' in the Rain. The genre and era are a bit of a blind spot for us so we also brought in an \"expert\" to help us with our analysis. Does any of the humour still work for modern audiences? Which of the song and dance numbers are the most impressive? Is Donald O'Connor an unsung hero or is he just creepy? Is the movie truly a masterpiece or is it another case of classitosis? Make love to a bush and download this week's episode of Film Junk.",
+		"show": "Film Junk",
+		"part": null,
+		"dateApprox": false,
 		"pack": null,
+		"id": "1061",
+		"kind": "regular",
+		"number": 1061,
+		"date": "2026-09-07",
+		"title": "Threads",
 		"links": {
-			"libsyn": "https://directory.libsyn.com/episode/index/id/42804455",
-			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-1060-168071086",
-			"apple": "https://podcasts.apple.com/us/podcast/singin-in-the-rain-1952/id74257105?i=1000788316067",
-			"spotify": "https://open.spotify.com/episode/1u14IwtlixRkKjLYAP5bVn"
-		},
-		"mentioned": []
+			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-1061-168651031",
+			"apple": "https://podcasts.apple.com/us/podcast/threads-1984/id74257105?i=1000789590077",
+			"spotify": "https://open.spotify.com/episode/7gGL5iXYLedAQHuYkV6g4d"
+		}
 	},
 	{
 		"notes": "",
@@ -627,14 +539,41 @@
 		}
 	},
 	{
-		"id": "1059",
-		"kind": "regular",
+		"notes": "",
+		"description": "Come Rain, come shine, come snow, come sleet, the show must go on! We are dancing our way through an all-time classic this week on Film Junk with the 1952 Gene Kelly musical Singin' in the Rain. The genre and era are a bit of a blind spot for us so we also brought in an \"expert\" to help us with our analysis. Does any of the humour still work for modern audiences? Which of the song and dance numbers are the most impressive? Is Donald O'Connor an unsung hero or is he just creepy? Is the movie truly a masterpiece or is it another case of classitosis? Make love to a bush and download this week's episode of Film Junk.",
+		"mentioned": [],
+		"segments": [],
+		"watched": [],
+		"reviews": [
+			{
+				"title": "Singin' in the Rain",
+				"year": 1952,
+				"ratings": [],
+				"film": "singin-in-the-rain"
+			}
+		],
+		"music": {},
 		"show": "Film Junk",
-		"number": 1059,
 		"part": null,
-		"date": "2026-08-31",
 		"dateApprox": false,
-		"title": "Unlawful Entry",
+		"pack": null,
+		"id": "1060",
+		"kind": "regular",
+		"number": 1060,
+		"date": "2026-08-31",
+		"title": "Singin' in the Rain",
+		"links": {
+			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-1060-168071086",
+			"apple": "https://podcasts.apple.com/us/podcast/singin-in-the-rain-1952/id74257105?i=1000788316067",
+			"spotify": "https://open.spotify.com/episode/1u14IwtlixRkKjLYAP5bVn"
+		}
+	},
+	{
+		"notes": "",
+		"description": "\"What are you gonna do, tough guy? You gonna make a citizen's arrest?\" This week on Film Junk, we are ending the summer season off with a fun '90s thriller starring Kurt Russell, Ray Liotta and Madeleine Stowe. Unlawful Entry is not necessarily a masterpiece but it is watchable in the best way possible. Does this movie have a deeper social commentary or is it just a shallow genre exercise? Is Ray Liotta's performance deserving of more praise than an MTV Movie Award nomination? What would you do if you got the chance to beat up the man who broke into your house and terrorized your wife? Try and guess our seven-letter password on this week's episode of Film Junk.",
+		"mentioned": [],
+		"segments": [],
+		"watched": [],
 		"reviews": [
 			{
 				"title": "Unlawful Entry",
@@ -643,73 +582,21 @@
 				"film": "unlawful-entry"
 			}
 		],
-		"watched": [],
-		"segments": [],
 		"music": {},
-		"notes": "",
-		"description": "\"What are you gonna do, tough guy? You gonna make a citizen's arrest?\" This week on Film Junk, we are ending the summer season off with a fun '90s thriller starring Kurt Russell, Ray Liotta and Madeleine Stowe. Unlawful Entry is not necessarily a masterpiece but it is watchable in the best way possible. Does this movie have a deeper social commentary or is it just a shallow genre exercise? Is Ray Liotta's performance deserving of more praise than an MTV Movie Award nomination? What would you do if you got the chance to beat up the man who broke into your house and terrorized your wife? Try and guess our seven-letter password on this week's episode of Film Junk.",
+		"show": "Film Junk",
+		"part": null,
+		"dateApprox": false,
 		"pack": null,
+		"id": "1059",
+		"kind": "regular",
+		"number": 1059,
+		"date": "2026-08-24",
+		"title": "Unlawful Entry",
 		"links": {
-			"libsyn": "https://directory.libsyn.com/episode/index/id/42397840",
 			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-1059-166440060",
 			"apple": "https://podcasts.apple.com/us/podcast/unlawful-entry-1992/id74257105?i=1000787015061",
 			"spotify": "https://open.spotify.com/episode/21gy5t17h9vXphU33FafB0"
-		},
-		"mentioned": []
-	},
-	{
-		"id": "2026-08-28-film-junk-calendar-reveal-sept-2026",
-		"kind": "bonus",
-		"show": "Film Junk",
-		"number": null,
-		"part": null,
-		"date": "2026-08-28",
-		"dateApprox": false,
-		"title": "Film Junk Calendar Reveal: Sept 2026",
-		"reviews": [],
-		"watched": [],
-		"segments": [],
-		"music": {},
-		"notes": "",
-		"description": "\"COME SEPTEMBER, YOU CAN SUCKING ON MY BIG FAT MEMBER\" - Dolly Parton, RIP. Listen, this month gets dark in a few spots, but honestly, it's about time you WAKE UP and consider the atomic sword of Damocles hanging over ALL of our heads EVERY SINGLE DAY. When those missiles strike, it's not as simple as popping an umbrella and tip-tapping carefree and gay as can be in a REIGN OF FIRE. Unless that umbrella is made from some SERIOUS fire retarded material, that umbrella ain't DOIN' SHIT. All that and a documentary.",
-		"pack": null,
-		"links": {
-			"libsyn": "https://directory.libsyn.com/episode/index/id/42590060",
-			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-reveal-167799567",
-			"apple": "https://podcasts.apple.com/us/podcast/film-junk-calendar-reveal-sept-2026/id74257105?i=1000786518916",
-			"spotify": "https://open.spotify.com/episode/1EUbqs7NskAo3fRlOtVNId"
 		}
-	},
-	{
-		"id": "1058",
-		"kind": "regular",
-		"show": "Film Junk",
-		"number": 1058,
-		"part": null,
-		"date": "2026-08-24",
-		"dateApprox": false,
-		"title": "Falling Down",
-		"reviews": [
-			{
-				"title": "Falling Down",
-				"year": 1993,
-				"ratings": [],
-				"film": "falling-down"
-			}
-		],
-		"watched": [],
-		"segments": [],
-		"music": {},
-		"notes": "",
-		"description": "\"I am not a vigilante. I am just trying to get home to my little girl's birthday party and if everyone will just stay out of my way, nobody will get hurt.\" This week we revisit Joel Schumacher's 1993 dark comedy / thriller Falling Down and find out whether it has gotten more or less controversial over the years. Is D-Fens a relatable anti-hero or just an entitled asshole? Is Prendergast's character arc satisfying or weirdly regressive? Does this movie feel out of place in Joel Schumacher's filmography? Should fast food restaurants just serve breakfast all day long? Go past the point of no return... this week's episode of Film Junk is not economically viable.",
-		"pack": null,
-		"links": {
-			"libsyn": "https://directory.libsyn.com/episode/index/id/42385175",
-			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-1058-166336383",
-			"apple": "https://podcasts.apple.com/us/podcast/falling-down-1993/id74257105?i=1000785580713",
-			"spotify": "https://open.spotify.com/episode/5WE1GpbwTtLET6yD6Lkwwk"
-		},
-		"mentioned": []
 	},
 	{
 		"notes": "",
@@ -813,33 +700,33 @@
 		}
 	},
 	{
-		"id": "1057",
-		"kind": "regular",
-		"show": "Film Junk",
-		"number": 1057,
-		"part": null,
-		"date": "2026-08-17",
-		"dateApprox": false,
-		"title": "The Fan",
+		"notes": "",
+		"description": "\"I am not a vigilante. I am just trying to get home to my little girl's birthday party and if everyone will just stay out of my way, nobody will get hurt.\" This week we revisit Joel Schumacher's 1993 dark comedy / thriller Falling Down and find out whether it has gotten more or less controversial over the years. Is D-Fens a relatable anti-hero or just an entitled asshole? Is Prendergast's character arc satisfying or weirdly regressive? Does this movie feel out of place in Joel Schumacher's filmography? Should fast food restaurants just serve breakfast all day long? Go past the point of no return... this week's episode of Film Junk is not economically viable.",
+		"mentioned": [],
+		"segments": [],
+		"watched": [],
 		"reviews": [
 			{
-				"title": "The Fan",
-				"year": 1996,
+				"title": "Falling Down",
+				"year": 1993,
 				"ratings": [],
-				"film": "the-fan"
+				"film": "falling-down"
 			}
 		],
-		"watched": [],
-		"segments": [],
 		"music": {},
-		"notes": "",
-		"description": "Hey Bobby, now do you care? Just a little bit? This week we are stepping up to the plate to revisit an underrated Tony Scott thriller that was definitely not a hit on initial release. His batting average as a director is pretty solid but everyone goes through the occasional slump. Is it a forgotten classic or is it like a bad freeway accident with everyone slowing down to watch? Does any part of this movie feel realistic or does it even matter? Is the prominent use of Nine Inch Nails on the soundtrack a plus or a minus? Are there hidden Major League references in this movie? What's worse: toxic politeness or toxic fandom? Find out why baseball's better than life on this week's Film Junk Podcast.",
+		"show": "Film Junk",
+		"part": null,
+		"dateApprox": false,
 		"pack": null,
+		"id": "1058",
+		"kind": "regular",
+		"number": 1058,
+		"date": "2026-08-17",
+		"title": "Falling Down",
 		"links": {
-			"libsyn": "https://directory.libsyn.com/episode/index/id/42372560",
-			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-1057-166232920",
-			"apple": "https://podcasts.apple.com/us/podcast/the-fan-1996/id74257105?i=1000783907649",
-			"spotify": "https://open.spotify.com/episode/73UNbUbUKivyzDubEyutlj"
+			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-1058-166336383",
+			"apple": "https://podcasts.apple.com/us/podcast/falling-down-1993/id74257105?i=1000785580713",
+			"spotify": "https://open.spotify.com/episode/5WE1GpbwTtLET6yD6Lkwwk"
 		}
 	},
 	{
@@ -867,35 +754,34 @@
 		}
 	},
 	{
-		"id": "1056",
-		"kind": "regular",
-		"show": "Film Junk",
-		"number": 1056,
-		"part": null,
-		"date": "2026-08-10",
-		"dateApprox": false,
-		"title": "Wake in Fright",
+		"notes": "",
+		"description": "Hey Bobby, now do you care? Just a little bit? This week we are stepping up to the plate to revisit an underrated Tony Scott thriller that was definitely not a hit on initial release. His batting average as a director is pretty solid but everyone goes through the occasional slump. Is it a forgotten classic or is it like a bad freeway accident with everyone slowing down to watch? Does any part of this movie feel realistic or does it even matter? Is the prominent use of Nine Inch Nails on the soundtrack a plus or a minus? Are there hidden Major League references in this movie? What's worse: toxic politeness or toxic fandom? Find out why baseball's better than life on this week's Film Junk Podcast.",
+		"mentioned": [],
+		"segments": [],
+		"watched": [],
 		"reviews": [
 			{
-				"title": "Wake in Fright",
-				"year": 1971,
+				"title": "The Fan",
+				"year": 1996,
 				"ratings": [],
-				"film": "wake-in-fright"
+				"film": "the-fan"
 			}
 		],
-		"watched": [],
-		"segments": [],
 		"music": {},
-		"notes": "",
-		"description": "Note: This episode is dedicated to longtime listener and beloved Film Junk community member Charbel Beaini, aka Chuck B, who sadly passed last week. His positive presence will be greatly missed, and our hearts go out to his family and friends.\r\n\nAll the little devils are proud of hell. This week on the Film Junk Podcast, we travel to The Yabba and experience the extreme heat and aggressive hospitality of the Australian outback in Wake in Fright. This cult classic plays like a horror movie but has a unique vibe that we won’t soon forget. Is everyone in this movie practicing toxic politeness? How does anyone follow the chaos of betting on Two-Up? Is there any justification for the brutal kangaroo hunting scenes? Could any of us survive a week in The Yabba? Come and have a drink, mate... sit down with the latest episode of Film Junk.",
+		"show": "Film Junk",
+		"part": null,
+		"dateApprox": false,
 		"pack": null,
+		"id": "1057",
+		"kind": "regular",
+		"number": 1057,
+		"date": "2026-08-10",
+		"title": "The Fan",
 		"links": {
-			"libsyn": "https://directory.libsyn.com/episode/index/id/42293155",
-			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-1056-165582531",
-			"apple": "https://podcasts.apple.com/us/podcast/wake-in-fright-1971/id74257105?i=1000782016440",
-			"spotify": "https://open.spotify.com/episode/4affxtuAreaoogTrBzg27y"
-		},
-		"mentioned": []
+			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-1057-166232920",
+			"apple": "https://podcasts.apple.com/us/podcast/the-fan-1996/id74257105?i=1000783907649",
+			"spotify": "https://open.spotify.com/episode/73UNbUbUKivyzDubEyutlj"
+		}
 	},
 	{
 		"notes": "",
@@ -995,6 +881,36 @@
 	},
 	{
 		"notes": "",
+		"description": "Note: This episode is dedicated to longtime listener and beloved Film Junk community member Charbel Beaini, aka Chuck B, who sadly passed last week. His positive presence will be greatly missed, and our hearts go out to his family and friends.\nAll the little devils are proud of hell. This week on the Film Junk Podcast, we travel to The Yabba and experience the extreme heat and aggressive hospitality of the Australian outback in Wake in Fright. This cult classic plays like a horror movie but has a unique vibe that we won’t soon forget. Is everyone in this movie practicing toxic politeness? How does anyone follow the chaos of betting on Two-Up? Is there any justification for the brutal kangaroo hunting scenes? Could any of us survive a week in The Yabba? Come and have a drink, mate… sit down with the latest episode of Film Junk.",
+		"mentioned": [],
+		"segments": [],
+		"watched": [],
+		"reviews": [
+			{
+				"title": "Wake in Fright",
+				"year": 1971,
+				"ratings": [],
+				"film": "wake-in-fright"
+			}
+		],
+		"music": {},
+		"show": "Film Junk",
+		"part": null,
+		"dateApprox": false,
+		"pack": null,
+		"id": "1056",
+		"kind": "regular",
+		"number": 1056,
+		"date": "2026-08-03",
+		"title": "Wake in Fright",
+		"links": {
+			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-1056-165582531",
+			"apple": "https://podcasts.apple.com/us/podcast/wake-in-fright-1971/id74257105?i=1000782016440",
+			"spotify": "https://open.spotify.com/episode/4affxtuAreaoogTrBzg27y"
+		}
+	},
+	{
+		"notes": "",
 		"description": "Where's my dinner? This week on the Film Junk Podcast we step inside the world of a 1950s black and white sitcom with the 1998 high concept dramedy Pleasantville. The movie was fairly well-received at the time but let's find out how it holds up almost 30 years later. Is the social commentary on point or does it miss the mark? Do the digital desaturation effects still dazzle? Is this movie better or worse than The Truman Show? What was Don Knotts' mysterious TV repairman trying to accomplish anyway? It's time to separate out the things that are pleasant from the things that are unpleasant... tune in to this week's episode of Film Junk now.",
 		"mentioned": [],
 		"segments": [],
@@ -1015,45 +931,12 @@
 		"id": "1055",
 		"kind": "regular",
 		"number": 1055,
-		"date": "2026-08-08",
+		"date": "2026-07-27",
 		"title": "Pleasantville",
 		"links": {
-			"libsyn": "https://directory.libsyn.com/episode/index/id/42350390",
 			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-1055-164925236",
-			"apple": "https://podcasts.apple.com/us/podcast/pleasantville-1998/id74257105?i=1000780398077",
-			"spotify": "https://open.spotify.com/episode/6eyHJImZgrm6aocvlNVFkF"
+			"spotify": "https://open.spotify.com/episode/1pllXZuQJ2mrGG6LbzzwSP"
 		}
-	},
-	{
-		"id": "1054",
-		"kind": "regular",
-		"show": "Film Junk",
-		"number": 1054,
-		"part": null,
-		"date": "2026-07-27",
-		"dateApprox": false,
-		"title": "Mr. Nobody",
-		"reviews": [
-			{
-				"title": "Mr. Nobody",
-				"year": 2009,
-				"ratings": [],
-				"film": "mr-nobody"
-			}
-		],
-		"watched": [],
-		"segments": [],
-		"music": {},
-		"notes": "",
-		"description": "You have to make the right choice. As long as you don't choose, everything remains possible. For some reason we chose to go back in time to re-review Mr. Nobody as this month's mystery movie, revisiting a conversation that holds special significance in Film Junk history. Do we still hate it or have we learned to embrace the chaos of life? Does the movie do a good job of explaining quantum physics, entropy and The Big Crunch? Are the visuals beautiful and unique or just ripped off from other movies? Is this one of Jared Leto's best performances? Life is a playground... mix the mashed potatoes and the sauce and listen to this week's episode of Film Junk.",
-		"pack": null,
-		"links": {
-			"libsyn": "https://directory.libsyn.com/episode/index/id/42096350",
-			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-1054-163845009",
-			"apple": "https://podcasts.apple.com/us/podcast/mr-nobody-2009/id74257105?i=1000778576554",
-			"spotify": "https://open.spotify.com/episode/71LMkc5QdoW4Vbzms7atFP"
-		},
-		"mentioned": []
 	},
 	{
 		"notes": "",
@@ -1080,68 +963,41 @@
 		}
 	},
 	{
-		"id": "2026-07-21-film-junk-calendar-reveal-august-2026",
-		"kind": "bonus",
-		"show": "Film Junk",
-		"number": null,
-		"part": null,
-		"date": "2026-07-21",
-		"dateApprox": false,
-		"title": "Film Junk Calendar Reveal: August 2026",
-		"reviews": [],
-		"watched": [],
-		"segments": [],
-		"music": {},
 		"notes": "",
-		"description": "\"Come August, we like to celebrate: Saint Suck My Big Fat Fucking Sausage!\" August's lineup is here, and Magnolia is NOT on the schedule! BUT... customer service is on trial in this collection of films that interrogate the concept of TOXIC POLITENESS and the challenging of societal norms, whether it be the right to use ANY colour you'd like for your NUDIE MURAL, or the right to order fast food breakfast ANY TIME OF THE DAY. What are you looking forward to? What are you DREADING? What are you ON? FUCK YOU DUDE. Just joking. RELAX.",
+		"description": "You have to make the right choice. As long as you don't choose, everything remains possible. For some reason we chose to go back in time to re-review Mr. Nobody as this month's mystery movie, revisiting a conversation that holds special significance in Film Junk history. Do we still hate it or have we learned to embrace the chaos of life? Does the movie do a good job of explaining quantum physics, entropy and The Big Crunch? Are the visuals beautiful and unique or just ripped off from other movies? Is this one of Jared Leto's best performances? Life is a playground... mix the mashed potatoes and the sauce and listen to this week's episode of Film Junk.",
+		"mentioned": [],
+		"segments": [],
+		"watched": [],
+		"reviews": [
+			{
+				"title": "Mr. Nobody",
+				"year": 2009,
+				"ratings": [],
+				"film": "mr-nobody"
+			}
+		],
+		"music": {},
+		"show": "Film Junk",
+		"part": null,
+		"dateApprox": false,
 		"pack": null,
+		"id": "1054",
+		"kind": "regular",
+		"number": 1054,
+		"date": "2026-07-20",
+		"title": "Mr. Nobody",
 		"links": {
-			"libsyn": "https://directory.libsyn.com/episode/index/id/42175655",
-			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-reveal-164456346",
-			"apple": "https://podcasts.apple.com/us/podcast/film-junk-calendar-reveal-august-2026/id74257105?i=1000777791848",
-			"spotify": "https://open.spotify.com/episode/4Awwu7WNhDflX0kL7LGZeu"
+			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-1054-163845009",
+			"apple": "https://podcasts.apple.com/us/podcast/mr-nobody-2009/id74257105?i=1000778576554",
+			"spotify": "https://open.spotify.com/episode/71LMkc5QdoW4Vbzms7atFP"
 		}
 	},
 	{
-		"id": "1052",
-		"kind": "regular",
-		"show": "Film Junk",
-		"number": 1052,
-		"part": null,
-		"date": "2026-07-20",
-		"dateApprox": false,
-		"title": "Rain Man",
-		"reviews": [
-			{
-				"title": "Rain Man",
-				"year": 1988,
-				"ratings": [],
-				"film": "rain-man"
-			}
-		],
-		"watched": [],
-		"segments": [],
-		"music": {},
 		"notes": "",
-		"description": "\"What you have to understand is, four days ago he was only my brother in name and this morning we had pancakes.\" It's time for another Frankie favourite here on Film Junk: the 1988 road trip dramedy Rain Man! This one was a huge blockbuster at the time and went on to win four Oscars including Best Picture. But has it been forgotten and a little underappreciated over the years? Was Dustin Hoffman right to question his own performance? Was Tom Cruise snubbed by the Academy that year? Did Hans Zimmer's score break new ground or was it just following '80s trends? Would Raymond really say \"Kmart sucks\"? Definitely three minutes to Wapner... hurry up and listen to this week's episode of the Film Junk Podcast.",
-		"pack": null,
-		"links": {
-			"libsyn": "https://directory.libsyn.com/episode/index/id/41971210",
-			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-1052-163016585",
-			"apple": "https://podcasts.apple.com/us/podcast/rain-man-1988/id74257105?i=1000777588622",
-			"spotify": "https://open.spotify.com/episode/4mYlzhUHHNOLAdPzQJzMkB"
-		},
-		"mentioned": []
-	},
-	{
-		"id": "1053",
-		"kind": "regular",
-		"show": "Film Junk",
-		"number": 1053,
-		"part": null,
-		"date": "2026-07-15",
-		"dateApprox": false,
-		"title": "The Odyssey",
+		"description": "\"Why cover the same ground again? It goes against my grain to repeat a tale told once, and told so clearly.\" Christopher Nolan's The Odyssey has finally arrived but it may not be the hero's journey you were expecting. Join us as we wax poetic on this epic in the grand oral traditions of old. Can this classic story connect with a modern audience? Is Nolan's preference for practical effects his greatest strength or an achilles heel? Are the American accents a bold choice or just plain bad? Follow Zeus' law and pull up a chair while we regale you with the latest episode of Film Junk.",
+		"mentioned": [],
+		"segments": [],
+		"watched": [],
 		"reviews": [
 			{
 				"title": "The Odyssey",
@@ -1150,56 +1006,51 @@
 				"film": "the-odyssey"
 			}
 		],
-		"watched": [],
-		"segments": [],
 		"music": {},
-		"notes": "",
-		"description": "\"Why cover the same ground again? It goes against my grain to repeat a tale told once, and told so clearly.\" Christopher Nolan's The Odyssey has finally arrived but it may not be the hero's journey you were expecting. Join us as we wax poetic on this epic in the grand oral traditions of old. Can this classic story connect with a modern audience? Is Nolan's preference for practical effects his greatest strength or an achilles heel? Are the American accents a bold choice or just plain bad? Follow Zeus' law and pull up a chair while we regale you with the latest episode of Film Junk.",
+		"show": "Film Junk",
+		"part": null,
+		"dateApprox": false,
 		"pack": null,
+		"id": "1053",
+		"kind": "regular",
+		"number": 1053,
+		"date": "2026-07-15",
+		"title": "The Odyssey",
 		"links": {
-			"libsyn": "https://directory.libsyn.com/episode/index/id/42098690",
 			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-1053-163864062",
 			"apple": "https://podcasts.apple.com/us/podcast/the-odyssey-2026/id74257105?i=1000776937510",
 			"spotify": "https://open.spotify.com/episode/3PoB6UnU42e9sVdQm3apn9"
-		},
-		"mentioned": []
+		}
 	},
 	{
-		"id": "1051",
-		"kind": "regular",
-		"show": "Film Junk",
-		"number": 1051,
-		"part": null,
-		"date": "2026-07-13",
-		"dateApprox": false,
-		"title": "O Brother, Where Art Thou?",
+		"notes": "",
+		"description": "“What you have to understand is, four days ago he was only my brother in name and this morning we had pancakes.” It's time for another Frankie favourite here on Film Junk: the 1988 road trip dramedy Rain Man! This one was a huge blockbuster at the time and went on to win four Oscars including Best Picture. But has it been forgotten and a little underappreciated over the years? Was Dustin Hoffman right to question his own performance? Was Tom Cruise snubbed by the Academy that year? Did Hans Zimmer’s score break new ground or was it just following ‘80s trends? Would Raymond really say \"Kmart sucks\"? Definitely three minutes to Wapner... hurry up and listen to this week's episode of the Film Junk Podcast.",
+		"mentioned": [],
+		"segments": [],
+		"watched": [],
 		"reviews": [
 			{
-				"title": "O Brother, Where Art Thou?",
-				"year": 2000,
+				"title": "Rain Man",
+				"year": 1988,
 				"ratings": [],
-				"film": "o-brother-where-art-thou"
+				"film": "rain-man"
 			}
 		],
-		"watched": [],
-		"segments": [],
 		"music": {},
-		"notes": "",
-		"description": "Damn! We're in a tight spot! This week we are seeking treasure with Ulysses Everett McGill and his two companions, Pete and Delmar, in the 2000 Coen Brothers musical comedy O Brother, Where Art Thou? Based loosely upon The Odyssey, this movie was a big hit for The Coens at the time and the soundtrack was massive. But did anyone actually listen to it or was it all just awards hype? Does the early digital colour correction hold up or is it now a bit of an eyesore? Where does this movie rank in the Coen Brothers' filmography? Is it George Clooney's best comedic performance of all time? See you in the funny pages, boys... it's a bushwhack on this week's episode of Film Junk.",
+		"show": "Film Junk",
+		"part": null,
+		"dateApprox": false,
 		"pack": null,
+		"id": "1052",
+		"kind": "regular",
+		"number": 1052,
+		"date": "2026-07-13",
+		"title": "Rain Man",
 		"links": {
-			"libsyn": "https://directory.libsyn.com/episode/index/id/41959195",
-			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-1051-o-162850985",
-			"apple": "https://podcasts.apple.com/us/podcast/o-brother-where-art-thou-2000/id74257105?i=1000776626364",
-			"spotify": "https://open.spotify.com/episode/33GUAkpy4C22xxQEdfI4Z2"
-		},
-		"mentioned": [
-			{
-				"title": "The Odyssey",
-				"year": null,
-				"film": "the-odyssey"
-			}
-		]
+			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-1052-163016585",
+			"apple": "https://podcasts.apple.com/us/podcast/rain-man-1988/id74257105?i=1000777588622",
+			"spotify": "https://open.spotify.com/episode/4mYlzhUHHNOLAdPzQJzMkB"
+		}
 	},
 	{
 		"notes": "",
@@ -1283,14 +1134,41 @@
 		}
 	},
 	{
-		"id": "1050",
-		"kind": "regular",
+		"notes": "",
+		"description": "Damn! We're in a tight spot! This week we are seeking treasure with Ulysses Everett McGill and his two companions, Pete and Delmar, in the 2000 Coen Brothers musical comedy O Brother, Where Art Thou? Based loosely upon The Odyssey, this movie was a big hit for The Coens at the time and the soundtrack was massive. But did anyone actually listen to it or was it all just awards hype? Does the early digital colour correction hold up or is it now a bit of an eyesore? Where does this movie rank in the Coen Brothers' filmography? Is it George Clooney's best comedic performance of all time? See you in the funny pages, boys... it's a bushwhack on this week's episode of Film Junk.",
+		"mentioned": [],
+		"segments": [],
+		"watched": [],
+		"reviews": [
+			{
+				"title": "O Brother, Where Art Thou?",
+				"year": 2000,
+				"ratings": [],
+				"film": "o-brother-where-art-thou"
+			}
+		],
+		"music": {},
 		"show": "Film Junk",
-		"number": 1050,
 		"part": null,
-		"date": "2026-07-06",
 		"dateApprox": false,
-		"title": "Hercules",
+		"pack": null,
+		"id": "1051",
+		"kind": "regular",
+		"number": 1051,
+		"date": "2026-07-06",
+		"title": "O Brother, Where Art Thou?",
+		"links": {
+			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-1051-o-162850985",
+			"apple": "https://podcasts.apple.com/us/podcast/o-brother-where-art-thou-2000/id74257105?i=1000776626364",
+			"spotify": "https://open.spotify.com/episode/33GUAkpy4C22xxQEdfI4Z2"
+		}
+	},
+	{
+		"notes": "",
+		"description": "\"Hercules! Hercules! Hercules!\" - Mama Klump\nJoin us as we crack open Pandora's Jug and chug about an hour-and-change worth of podcast protein puree; thick and white and full of all the nutrients needed to build out those pectoral muscles to the point of total nipple inversion. Lou (Luigi) Ferrigno's clearly been jug chugging that protein pablum in preparation for Luigi Cozzi's celestial peplum. His nipples are completely inverted.\nNOTE: There are no crystals in this motion picture.",
+		"mentioned": [],
+		"segments": [],
+		"watched": [],
 		"reviews": [
 			{
 				"title": "Hercules",
@@ -1299,49 +1177,21 @@
 				"film": "hercules"
 			}
 		],
-		"watched": [],
-		"segments": [],
 		"music": {},
-		"notes": "",
-		"description": "\"Hercules! Hercules! Hercules!\" - Mama Klump. Join us as we crack open Pandora's Jug and chug about an hour-and-change worth of podcast protein puree; thick and white and full of all the nutrients needed to build out those pectoral muscles to the point of total nipple inversion. Lou (Luigi) Ferrigno's clearly been jug chugging that protein pablum in preparation for Luigi Cozzi's celestial peplum. His nipples are completely inverted. NOTE: There are no crystals in this motion picture.",
+		"show": "Film Junk",
+		"part": null,
+		"dateApprox": false,
 		"pack": null,
+		"id": "1050",
+		"kind": "regular",
+		"number": 1050,
+		"date": "2026-06-29",
+		"title": "Hercules",
 		"links": {
-			"libsyn": "https://directory.libsyn.com/episode/index/id/41835255",
 			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-1050-162188466",
 			"apple": "https://podcasts.apple.com/us/podcast/hercules-1983/id74257105?i=1000775674340",
 			"spotify": "https://open.spotify.com/episode/4QJhiXOitEoFVJU2mVfWzf"
 		}
-	},
-	{
-		"id": "1049",
-		"kind": "regular",
-		"show": "Film Junk",
-		"number": 1049,
-		"part": null,
-		"date": "2026-06-29",
-		"dateApprox": false,
-		"title": "Remo Williams: The Adventure Begins",
-		"reviews": [
-			{
-				"title": "Remo Williams: The Adventure Begins",
-				"year": 1985,
-				"ratings": [],
-				"film": "remo-williams-the-adventure-begins"
-			}
-		],
-		"watched": [],
-		"segments": [],
-		"music": {},
-		"notes": "",
-		"description": "Professional assassination is the highest form of public service. Remo Williams: The Adventure Begins was sadly both the beginning and the end of a movie franchise that wanted to be the \"red, white and blue collar\" version of James Bond. But is it better than its reputation lets on or are we desperately trying to force feed a dud? Why does reconstructive facial surgery look like someone just shaved off their moustache? Is the stunt work in this movie objectively spectacular? How did a white actor get a Golden Globe nomination for playing a Korean man? Does your nightingale sing? Learn the secrets of Sinanju on the latest episode of Film Junk.",
-		"pack": null,
-		"links": {
-			"libsyn": "https://directory.libsyn.com/episode/index/id/41673260",
-			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-1049-160754144",
-			"apple": "https://podcasts.apple.com/us/podcast/remo-williams-the-adventure-begins-1985/id74257105?i=1000774727886",
-			"spotify": "https://open.spotify.com/episode/3hiwldP4YYXQDDsHV7bueM"
-		},
-		"mentioned": []
 	},
 	{
 		"notes": "",
@@ -1410,86 +1260,34 @@
 		}
 	},
 	{
-		"id": "2026-06-26-what-we-watched-scream-7-busboys-innerspace-apex",
-		"kind": "bonus",
-		"show": "Film Junk",
-		"number": null,
-		"part": null,
-		"date": "2026-06-26",
-		"dateApprox": false,
-		"title": "What We Watched: Scream 7, Busboys, Innerspace, Apex",
-		"reviews": [],
-		"watched": [],
-		"segments": [],
-		"music": {},
 		"notes": "",
-		"description": "0:00 - Intro\n\n18:35 - Scream 7\n\n48:00 - Busboys\n\n52:55 - Innerspace\n\n54:40 - Apex\n\n59:06 - The Devil Wears Prada\n\n1:07:50 - Mel Brooks: The 99 Year Old Man\n\n1:11:23 - Love on the Spectrum Season 4\n\n1:13:10 - Bullet Train Explosion\n\n1:17:35 - The Pitt Season 2\n\n1:25:22 - Beef Season 2",
-		"pack": null,
-		"links": {
-			"libsyn": "https://directory.libsyn.com/episode/index/id/41828550",
-			"apple": "https://podcasts.apple.com/us/podcast/what-we-watched-scream-7-busboys-innerspace-apex/id74257105?i=1000774393785",
-			"spotify": "https://open.spotify.com/episode/0G8mRdzZKTmbOYOqKPezid"
-		}
-	},
-	{
-		"id": "2026-06-26-film-junk-calendar-reveal-july-2026",
-		"kind": "bonus",
-		"show": "Film Junk",
-		"number": null,
-		"part": null,
-		"date": "2026-06-26",
-		"dateApprox": false,
-		"title": "Film Junk Calendar Reveal: July 2026",
-		"reviews": [],
-		"watched": [],
+		"description": "Professional assassination is the highest form of public service. Remo Williams: The Adventure Begins was sadly both the beginning and the end of a movie franchise that wanted to be the \"red, white and blue collar\" version of James Bond. But is it better than its reputation lets on or are we desperately trying to force feed a dud? Why does reconstructive facial surgery look like someone just shaved off their moustache? Is the stunt work in this movie objectively spectacular? How did a white actor get a Golden Globe nomination for playing a Korean man? Does your nightingale sing? Learn the secrets of Sinanju on the latest episode of Film Junk.",
+		"mentioned": [],
 		"segments": [],
-		"music": {},
-		"notes": "",
-		"description": "Hello Junkers, we're trying something new here to coincide with the announcement of our upcoming episodes for July. Moving forward, we will be \"juicing\" these announcements by releasing a short reveal episode every month where we announce our picks and attempt to justify them to each other. The plan is to release these short episodes publicly in both audio and video format so that everyone can complain about our choices together! The official calendar and order of the episodes will be released shortly afterward. So what's coming in July? Any guesses?? You'll have to watch or listen to find out!",
-		"pack": null,
-		"links": {
-			"libsyn": "https://directory.libsyn.com/episode/index/id/41828735",
-			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-reveal-161975432",
-			"apple": "https://podcasts.apple.com/us/podcast/film-junk-calendar-reveal-july-2026/id74257105?i=1000774374936",
-			"spotify": "https://open.spotify.com/episode/7wbRxzlFhlM419ds1y9IzO"
-		}
-	},
-	{
-		"id": "1047",
-		"kind": "regular",
-		"show": "Film Junk",
-		"number": 1047,
-		"part": null,
-		"date": "2026-06-22",
-		"dateApprox": false,
-		"title": "Saving Private Ryan",
+		"watched": [],
 		"reviews": [
 			{
-				"title": "Saving Private Ryan",
-				"year": 1998,
+				"title": "Remo Williams: The Adventure Begins",
+				"year": 1985,
 				"ratings": [],
-				"film": "saving-private-ryan"
+				"film": "remo-williams-the-adventure-begins"
 			}
 		],
-		"watched": [],
-		"segments": [],
 		"music": {},
-		"notes": "",
-		"description": "O my God, I trust in thee. Let me not be ashamed, let not my enemies triumph over me. With Steven Spielberg's latest film Disclosure Day hitting theatres this month, we decided to revisit one of his most successful movies of all time and one that we have not discussed in great detail before. 1998's Saving Private Ryan was a hugely influential film that redefined action movies for decades to come, but does it hold up in 2026 or is it FUBAR? Is Spielberg always ahead of the curve with his casting choices? Is this an anti-war movie and is such a thing even possible? Would the Call of Duty video games exist without this movie? Which members of the Film Junk crew would have survived WWII? Earn this and download this week's episode of Film Junk.",
+		"show": "Film Junk",
+		"part": null,
+		"dateApprox": false,
 		"pack": null,
+		"id": "1049",
+		"kind": "regular",
+		"number": 1049,
+		"date": "2026-06-22",
+		"title": "Remo Williams: The Adventure Begins",
 		"links": {
-			"libsyn": "https://directory.libsyn.com/episode/index/id/41605575",
-			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-1047-160752754",
-			"apple": "https://podcasts.apple.com/us/podcast/saving-private-ryan-1998/id74257105?i=1000773759708",
-			"spotify": "https://open.spotify.com/episode/1yO4E3WloXOt9wG5pWCWvb"
-		},
-		"mentioned": [
-			{
-				"title": "Disclosure Day",
-				"year": null,
-				"film": "disclosure-day"
-			}
-		]
+			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-1049-160754144",
+			"apple": "https://podcasts.apple.com/us/podcast/remo-williams-the-adventure-begins-1985/id74257105?i=1000774727886",
+			"spotify": "https://open.spotify.com/episode/3hiwldP4YYXQDDsHV7bueM"
+		}
 	},
 	{
 		"notes": "",
@@ -1516,14 +1314,11 @@
 		}
 	},
 	{
-		"id": "1048",
-		"kind": "regular",
-		"show": "Film Junk",
-		"number": 1048,
-		"part": null,
-		"date": "2026-06-17",
-		"dateApprox": false,
-		"title": "Disclosure Day",
+		"notes": "",
+		"description": "Are you an experiencer? With Disclosure Day, Steven Spielberg returns to the idea of extra-terrestrials and brings with him a bold message for humanity. But is this a triumphant return to form for the Scarf or a major disappointment? Are we true believers or whistleblowers? Let's dive into the mystery and suspense, not to mention the convenient plot points and questionable CG animals. People have a right to know the truth. Listen... to the latest episode of the Film Junk Podcast.",
+		"mentioned": [],
+		"segments": [],
+		"watched": [],
 		"reviews": [
 			{
 				"title": "Disclosure Day",
@@ -1532,29 +1327,58 @@
 				"film": "disclosure-day"
 			}
 		],
-		"watched": [],
-		"segments": [],
 		"music": {},
-		"notes": "",
-		"description": "Are you an experiencer? With Disclosure Day, Steven Spielberg returns to the idea of extra-terrestrials and brings with him a bold message for humanity. But is this a triumphant return to form for the Scarf or a major disappointment? Are we true believers or whistleblowers? Let's dive into the mystery and suspense, not to mention the convenient plot points and questionable CG animals. People have a right to know the truth. Listen... to the latest episode of the Film Junk Podcast.",
+		"show": "Film Junk",
+		"part": null,
+		"dateApprox": false,
 		"pack": null,
+		"id": "1048",
+		"kind": "regular",
+		"number": 1048,
+		"date": "2026-06-17",
+		"title": "Disclosure Day",
 		"links": {
-			"libsyn": "https://directory.libsyn.com/episode/index/id/41673245",
 			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-1048-161295930",
 			"apple": "https://podcasts.apple.com/us/podcast/disclosure-day-2026/id74257105?i=1000773197111",
 			"spotify": "https://open.spotify.com/episode/2W1VCYBRK6gaCnqwZS1Dwa"
-		},
-		"mentioned": []
+		}
 	},
 	{
-		"id": "1046",
-		"kind": "regular",
+		"notes": "",
+		"description": "O my God, I trust in thee. Let me not be ashamed, let not my enemies triumph over me. With Steven Spielberg's latest film Disclosure Day hitting theatres this month, we decided to revisit one of his most successful movies of all time and one that we have not discussed in great detail before. 1998's Saving Private Ryan was a hugely influential film that redefined action movies for decades to come, but does it hold up in 2026 or is it FUBAR? Is Spielberg always ahead of the curve with his casting choices? Is this an anti-war movie and is such a thing even possible? Would the Call of Duty video games exist without this movie? Which members of the Film Junk crew would have survived WWII? Earn this and download this week's episode of Film Junk.",
+		"mentioned": [],
+		"segments": [],
+		"watched": [],
+		"reviews": [
+			{
+				"title": "Saving Private Ryan",
+				"year": 1998,
+				"ratings": [],
+				"film": "saving-private-ryan"
+			}
+		],
+		"music": {},
 		"show": "Film Junk",
-		"number": 1046,
 		"part": null,
-		"date": "2026-06-15",
 		"dateApprox": false,
-		"title": "Fire in the Sky",
+		"pack": null,
+		"id": "1047",
+		"kind": "regular",
+		"number": 1047,
+		"date": "2026-06-15",
+		"title": "Saving Private Ryan",
+		"links": {
+			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-1047-160752754",
+			"apple": "https://podcasts.apple.com/us/podcast/saving-private-ryan-1998/id74257105?i=1000773759708",
+			"spotify": "https://open.spotify.com/episode/1yO4E3WloXOt9wG5pWCWvb"
+		}
+	},
+	{
+		"notes": "",
+		"description": "Back in the early 90s, fear of aliens was at an all-time high with the release of The X-Files and Fire in the Sky. One of those was a lot more successful than the other, but Fire in the Sky still left a lasting impression / trauma on many who saw it. What is the true story behind Travis Walton’s disappearance? How and why is it different from the movie? Do any of us believe in visitors from another world? Why don’t we hear reports of alien abductions anymore? Was M.T. Motors the inspiration for Welland restaurant M.T. Bellies? We want to believe on this week’s episode of the Film Junk Podcast.",
+		"mentioned": [],
+		"segments": [],
+		"watched": [],
 		"reviews": [
 			{
 				"title": "Fire in the Sky",
@@ -1563,50 +1387,21 @@
 				"film": "fire-in-the-sky"
 			}
 		],
-		"watched": [],
-		"segments": [],
 		"music": {},
-		"notes": "",
-		"description": "Back in the early 90s, fear of aliens was at an all-time high with the release of The X-Files and Fire in the Sky. One of those was a lot more successful than the other, but Fire in the Sky still left a lasting impression / trauma on many who saw it. What is the true story behind Travis Walton’s disappearance? How and why is it different from the movie? Do any of us believe in visitors from another world? Why don’t we hear reports of alien abductions anymore? Was M.T. Motors the inspiration for Welland restaurant M.T. Bellies? We want to believe on this week’s episode of the Film Junk Podcast.",
+		"show": "Film Junk",
+		"part": null,
+		"dateApprox": false,
 		"pack": null,
+		"id": "1046",
+		"kind": "regular",
+		"number": 1046,
+		"date": "2026-06-08",
+		"title": "Fire in the Sky",
 		"links": {
-			"libsyn": "https://directory.libsyn.com/episode/index/id/41518290-2",
 			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-1046-159985839",
 			"apple": "https://podcasts.apple.com/us/podcast/fire-in-the-sky-1993/id74257105?i=1000772836633",
 			"spotify": "https://open.spotify.com/episode/2OTtqSUlUrPHLVchM7dy0Y"
-		},
-		"mentioned": []
-	},
-	{
-		"id": "1045",
-		"kind": "regular",
-		"show": "Film Junk",
-		"number": 1045,
-		"part": null,
-		"date": "2026-06-08",
-		"dateApprox": false,
-		"title": "Cape Fear",
-		"reviews": [
-			{
-				"title": "Cape Fear",
-				"year": 1991,
-				"ratings": [],
-				"film": "cape-fear"
-			}
-		],
-		"watched": [],
-		"segments": [],
-		"music": {},
-		"notes": "",
-		"description": "Counselor... come out come out wherever you are! With the new Apple TV series about to launch, we thought it might be the perfect time to revisit Martin Scorsese's 1991 thriller Cape Fear. Some say it is an overlooked and underrated entry in Scorsese's filmography while others see it as nothing more than Marty cashing a paycheck. Is it a remake done right or is it too violent and too pulpy? Who is sexier: Robert DeNiro or Nick Nolte? Is there a hidden meaning behind the Problem Child theatre scene? What is the minimum time required for sexual intercourse and maximum time required for a fireworks display? Learn about loss and enter the Ninth Circle of Hell and on this week’s episode of Film Junk.",
-		"pack": null,
-		"links": {
-			"libsyn": "https://directory.libsyn.com/episode/index/id/41500750",
-			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-1045-159866713",
-			"apple": "https://podcasts.apple.com/us/podcast/cape-fear-1991/id74257105?i=1000771718374",
-			"spotify": "https://open.spotify.com/episode/68XUAXKWQ86LilziOEldyo"
-		},
-		"mentioned": []
+		}
 	},
 	{
 		"notes": "",
@@ -1715,33 +1510,33 @@
 		}
 	},
 	{
-		"id": "1043",
-		"kind": "regular",
-		"show": "Film Junk",
-		"number": 1043,
-		"part": null,
-		"date": "2026-06-01",
-		"dateApprox": false,
-		"title": "Spawn",
+		"notes": "",
+		"description": "Counselor... come out come out wherever you are! With the new Apple TV series about to launch, we thought it might be the perfect time to revisit Martin Scorsese's 1991 thriller Cape Fear. Some say it is an overlooked and underrated entry in Scorsese's filmography while others see it as nothing more than Marty cashing a paycheck. Is it a remake done right or is it too violent and too pulpy? Who is sexier: Robert DeNiro or Nick Nolte? Is there a hidden meaning behind the Problem Child theatre scene? What is the minimum time required for sexual intercourse and maximum time required for a fireworks display? Learn about loss and enter the Ninth Circle of Hell and on this week’s episode of Film Junk.",
+		"mentioned": [],
+		"segments": [],
+		"watched": [],
 		"reviews": [
 			{
-				"title": "Spawn",
-				"year": 1997,
+				"title": "Cape Fear",
+				"year": 1991,
 				"ratings": [],
-				"film": "spawn"
+				"film": "cape-fear"
 			}
 		],
-		"watched": [],
-		"segments": [],
 		"music": {},
-		"notes": "",
-		"description": "Every time someone farts, a demon gets his wings, and this week there are a lot of flying demons after we revisited the notorious 1997 stinker Spawn. At least one member of the Film Junk crew was very excited to see this movie on initial release. Was the force feed successful back then and does it hold up any better now? Listen as we reminisce about the Toddfather's comics and toy empire, the electronica / nu-metal soundtrack, vomit-inducing early CG, PG-13 movies for edgelords and the state of comic book movies back in the '90s. You have been violated little girly man. For a limited time only, you too can have this week's podcast for the eensy price of your soul and a buttload of pain.",
+		"show": "Film Junk",
+		"part": null,
+		"dateApprox": false,
 		"pack": null,
+		"id": "1045",
+		"kind": "regular",
+		"number": 1045,
+		"date": "2026-06-01",
+		"title": "Cape Fear",
 		"links": {
-			"libsyn": "https://directory.libsyn.com/episode/index/id/41421135",
-			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-1043-159249357",
-			"apple": "https://podcasts.apple.com/us/podcast/spawn-1997/id74257105?i=1000770621214",
-			"spotify": "https://open.spotify.com/episode/22LUDQZom4R2fskSVA3Z4V"
+			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-1045-159866713",
+			"apple": "https://podcasts.apple.com/us/podcast/cape-fear-1991/id74257105?i=1000771718374",
+			"spotify": "https://open.spotify.com/episode/68XUAXKWQ86LilziOEldyo"
 		}
 	},
 	{
@@ -1775,14 +1570,17 @@
 		}
 	},
 	{
-		"id": "1044",
-		"kind": "regular",
-		"show": "Film Junk",
-		"number": 1044,
-		"part": null,
-		"date": "2026-05-27",
-		"dateApprox": false,
-		"title": "The Mandalorian and Grogu",
+		"notes": "",
+		"description": "We’re back with another current release review as Star Wars returns to the big screen with The Mandalorian and Grogu! Joining us for the ride is special guest Mr. Dax Gordine as we dive deep into whether Mando and his lovable green sidekick truly have what it takes to command the galaxy’s biggest stage.\nSo grab your brand-new Rotta the Hutt plushie, strap in, and join us for a discussion on the next chapter of Star Wars.\nThis is the way.",
+		"mentioned": [
+			{
+				"title": "The Mandalorian",
+				"year": null,
+				"film": "the-mandalorian-season-2"
+			}
+		],
+		"segments": [],
+		"watched": [],
 		"reviews": [
 			{
 				"title": "The Mandalorian and Grogu",
@@ -1791,56 +1589,51 @@
 				"film": "the-mandalorian-and-grogu"
 			}
 		],
-		"watched": [],
-		"segments": [],
 		"music": {},
-		"notes": "",
-		"description": "We're back with another current release review as Star Wars returns to the big screen with The Mandalorian and Grogu! Joining us for the ride is special guest Mr. Dax Gordine as we dive deep into whether Mando and his lovable green sidekick truly have what it takes to command the galaxy's biggest stage. So grab your brand new Rotta the Hutt plushie, strap in, and join us for a discussion on the next chapter of Star Wars. This is the way.",
+		"show": "Film Junk",
+		"part": null,
+		"dateApprox": false,
 		"pack": null,
+		"id": "1044",
+		"kind": "regular",
+		"number": 1044,
+		"date": "2026-05-26",
+		"title": "The Mandalorian and Grogu",
 		"links": {
-			"libsyn": "https://directory.libsyn.com/episode/index/id/41432545",
 			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-1044-159321397",
 			"apple": "https://podcasts.apple.com/us/podcast/the-mandalorian-and-grogu-2026/id74257105?i=1000769758513",
 			"spotify": "https://open.spotify.com/episode/1LgDGkT9ldLwn85UxC9pEp"
-		},
-		"mentioned": [
-			{
-				"title": "The Mandalorian",
-				"year": null,
-				"film": "the-mandalorian-season-2"
-			}
-		]
+		}
 	},
 	{
-		"id": "1042",
-		"kind": "regular",
-		"show": "Film Junk",
-		"number": 1042,
-		"part": null,
-		"date": "2026-05-25",
-		"dateApprox": false,
-		"title": "Battle Beyond the Stars",
+		"notes": "",
+		"description": "Every time someone farts, a demon gets his wings, and this week there are a lot of flying demons after we revisited the notorious 1997 stinker Spawn. At least one member of the Film Junk crew was very excited to see this movie on initial release. Was the force feed successful back then and does it hold up any better now? Listen as we reminisce about the Toddfather's comics and toy empire, the electronica / nu-metal soundtrack, vomit-inducing early CG, PG-13 movies for edgelords and the state of comic book movies back in the '90s. You have been violated little girly man. For a limited time only, you too can have this week's podcast for the eensy price of your soul and a buttload of pain.",
+		"mentioned": [],
+		"segments": [],
+		"watched": [],
 		"reviews": [
 			{
-				"title": "Battle Beyond the Stars",
-				"year": 1980,
+				"title": "Spawn",
+				"year": 1997,
 				"ratings": [],
-				"film": "battle-beyond-the-stars"
+				"film": "spawn"
 			}
 		],
-		"watched": [],
-		"segments": [],
 		"music": {},
-		"notes": "",
-		"description": "Live fast, fight well and have a beautiful ending. On this week's episode, we are journeying to a minor planet in a third rate galaxy for Battle Beyond the Stars, a Roger Corman production that is arguably one of the better Star Wars knockoffs from the early 80s. The movie is also a loose remake of The Magnificent Seven / Seven Samurai with a character named Space Cowboy... I think you get the idea. Is the story behind the making of the movie more interesting than the movie itself? Did James Cameron's VFX work and James Horner's score do most of the heavy lifting? Why does Shad's ship have breasts? Should we be surprised that they still eat hot dogs in the future? Stimulate your solenoid and tingle dingle dangle prangle your transistors with the latest Film Junk Podcast.",
+		"show": "Film Junk",
+		"part": null,
+		"dateApprox": false,
 		"pack": null,
+		"id": "1043",
+		"kind": "regular",
+		"number": 1043,
+		"date": "2026-05-26",
+		"title": "Spawn",
 		"links": {
-			"libsyn": "https://directory.libsyn.com/episode/index/id/41206150",
-			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-1042-157635743",
-			"apple": "https://podcasts.apple.com/us/podcast/battle-beyond-the-stars-1980/id74257105?i=1000769507826",
-			"spotify": "https://open.spotify.com/episode/0bUL6mMPMFgZdExA6XiShg"
-		},
-		"mentioned": []
+			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-1043-159249357",
+			"apple": "https://podcasts.apple.com/us/podcast/spawn-1997/id74257105?i=1000770621214",
+			"spotify": "https://open.spotify.com/episode/22LUDQZom4R2fskSVA3Z4V"
+		}
 	},
 	{
 		"notes": "",
@@ -1867,14 +1660,41 @@
 		}
 	},
 	{
-		"id": "1041",
-		"kind": "regular",
+		"notes": "",
+		"description": "Live fast, fight well and have a beautiful ending. On this week's episode, we are journeying to a minor planet in a third rate galaxy for Battle Beyond the Stars, a Roger Corman production that is arguably one of the better Star Wars knockoffs from the early 80s. The movie is also a loose remake of The Magnificent Seven / Seven Samurai with a character named Space Cowboy... I think you get the idea. Is the story behind the making of the movie more interesting than the movie itself? Did James Cameron's VFX work and James Horner's score do most of the heavy lifting? Why does Shad's ship have breasts? Should we be surprised that they still eat hot dogs in the future? Stimulate your solenoid and tingle dingle dangle prangle your transistors with the latest Film Junk Podcast.",
+		"mentioned": [],
+		"segments": [],
+		"watched": [],
+		"reviews": [
+			{
+				"title": "Battle Beyond the Stars",
+				"year": 1980,
+				"ratings": [],
+				"film": "battle-beyond-the-stars"
+			}
+		],
+		"music": {},
 		"show": "Film Junk",
-		"number": 1041,
 		"part": null,
-		"date": "2026-05-18",
 		"dateApprox": false,
-		"title": "THX 1138",
+		"pack": null,
+		"id": "1042",
+		"kind": "regular",
+		"number": 1042,
+		"date": "2026-05-18",
+		"title": "Battle Beyond the Stars",
+		"links": {
+			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-1042-157635743",
+			"apple": "https://podcasts.apple.com/us/podcast/battle-beyond-the-stars-1980/id74257105?i=1000769507826",
+			"spotify": "https://open.spotify.com/episode/0bUL6mMPMFgZdExA6XiShg"
+		}
+	},
+	{
+		"notes": "",
+		"description": "It's a strange life. Cybernetics, genetics, lasers and all those things... I guess I'll never understand any of that stuff. This week on Film Junk we're looking back at the directorial debut of one Mr. George Lucas, a dystopian sci-fi thriller that feels like it should have a much bigger cult following than it does. THX-1138 was ahead of its time in many ways and still looks visually stunning today. Was this movie simply too bleak for the masses? Does it feel like it was directed by the same guy who made Star Wars? Are the Special Edition changes a problem? Do we all want to live in a future with personal masturbation machines? Take your sedation, buy and be happy with this week's Film Junk Podcast.",
+		"mentioned": [],
+		"segments": [],
+		"watched": [],
 		"reviews": [
 			{
 				"title": "THX 1138",
@@ -1883,49 +1703,21 @@
 				"film": "thx-1138"
 			}
 		],
-		"watched": [],
-		"segments": [],
 		"music": {},
-		"notes": "",
-		"description": "It's a strange life. Cybernetics, genetics, lasers and all those things... I guess I'll never understand any of that stuff. This week on Film Junk we're looking back at the directorial debut of one Mr. George Lucas, a dystopian sci-fi thriller that feels like it should have a much bigger cult following than it does. THX 1138 was ahead of its time in many ways and still looks visually stunning today. Was this movie simply too bleak for the masses? Does it feel like it was directed by the same guy who made Star Wars? Are the Special Edition changes a problem? Do we all want to live in a future with personal masturbation machines? Take your sedation, buy and be happy with this week's Film Junk Podcast.",
+		"show": "Film Junk",
+		"part": null,
+		"dateApprox": false,
 		"pack": null,
+		"id": "1041",
+		"kind": "regular",
+		"number": 1041,
+		"date": "2026-05-11",
+		"title": "THX 1138",
 		"links": {
-			"libsyn": "https://directory.libsyn.com/episode/index/id/41196010",
 			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-1041-157559995",
 			"apple": "https://podcasts.apple.com/us/podcast/thx-1138-1971/id74257105?i=1000768400395",
 			"spotify": "https://open.spotify.com/episode/6TBoWkiWAlPUVkOiQL072H"
 		}
-	},
-	{
-		"id": "1040",
-		"kind": "regular",
-		"show": "Film Junk",
-		"number": 1040,
-		"part": null,
-		"date": "2026-05-11",
-		"dateApprox": false,
-		"title": "The Hidden Fortress",
-		"reviews": [
-			{
-				"title": "The Hidden Fortress",
-				"year": 1958,
-				"ratings": [],
-				"film": "the-hidden-fortress"
-			}
-		],
-		"watched": [],
-		"segments": [],
-		"music": {},
-		"notes": "",
-		"description": "\"I've seen people as they are, without pretense. I've seen their beauty and their ugliness with my own eyes.\" At long last, Film Junk is finally showing legendary director Akira Kurosawa a little love with a review of his 1958 epic adventure film The Hidden Fortress. Is it one of his all-time masterpieces? Many would argue not. But it is a pretty fun watch that served as a loose inspiration for Star Wars, which was our excuse for digging into it. Is Toshiro Mifune one of the manliest actors who ever lived? How do you hide gold inside wood? Should older movies be held up to the same level of plot scrutiny as modern ones? Does every fire festival serve terrible sandwiches? Grab your yari and meet us on the battlefield for the latest episode of Film Junk, you shitworm.",
-		"pack": null,
-		"links": {
-			"libsyn": "https://directory.libsyn.com/episode/index/id/41061390",
-			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-1040-156871475",
-			"apple": "https://podcasts.apple.com/us/podcast/the-hidden-fortress-1958/id74257105?i=1000767187687",
-			"spotify": "https://open.spotify.com/episode/4dqiBrwELzkA2y4yQbSa2Q"
-		},
-		"mentioned": []
 	},
 	{
 		"notes": "",
@@ -1978,14 +1770,41 @@
 		}
 	},
 	{
-		"id": "1039",
-		"kind": "regular",
+		"notes": "",
+		"description": "\"I've seen people as they are, without pretense. I've seen their beauty and their ugliness with my own eyes.\" At long last, Film Junk is finally showing legendary director Akira Kurosawa a little love with a review of his 1958 epic adventure film The Hidden Fortress. Is it one of his all-time masterpieces? Many would argue not. But it is a pretty fun watch that served as a loose inspiration for Star Wars, which was our excuse for digging into it. Is Toshiro Mifune one of the manliest actors who ever lived? How do you hide gold inside wood? Should older movies be held up to the same level of plot scrutiny as modern ones? Does every fire festival serve terrible sandwiches? Grab your yari and meet us on the battlefield for the latest episode of Film Junk, you shitworm.",
+		"mentioned": [],
+		"segments": [],
+		"watched": [],
+		"reviews": [
+			{
+				"title": "The Hidden Fortress",
+				"year": 1958,
+				"ratings": [],
+				"film": "the-hidden-fortress"
+			}
+		],
+		"music": {},
 		"show": "Film Junk",
-		"number": 1039,
 		"part": null,
-		"date": "2026-05-04",
 		"dateApprox": false,
-		"title": "Spaceballs",
+		"pack": null,
+		"id": "1040",
+		"kind": "regular",
+		"number": 1040,
+		"date": "2026-05-04",
+		"title": "The Hidden Fortress",
+		"links": {
+			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-1040-156871475",
+			"apple": "https://podcasts.apple.com/us/podcast/the-hidden-fortress-1958/id74257105?i=1000767187687",
+			"spotify": "https://open.spotify.com/episode/4dqiBrwELzkA2y4yQbSa2Q"
+		}
+	},
+	{
+		"notes": "",
+		"description": "May the Schwartz be with you! To kick off Star Wars month here on Film Junk, we are revisiting a beloved parody film from Mel Brooks, which also happened to have been a very formative experience for a certain budding Prince of Comedy. Spaceballs may not be Brooks’ most acclaimed or successful movie but it very well could be his most ludicrous. What makes a great comedy that stands the test of time? Was Spaceballs the first movie in cinema history to use an extended shot for comedic purposes? Why is there no Luke Skywalker equivalent in this movie? Do we have any hope at all for the upcoming sequel? Get surrounded by assholes and check out the latest episode of the Film Junk Podcast.",
+		"mentioned": [],
+		"segments": [],
+		"watched": [],
 		"reviews": [
 			{
 				"title": "Spaceballs",
@@ -1994,14 +1813,17 @@
 				"film": "spaceballs"
 			}
 		],
-		"watched": [],
-		"segments": [],
 		"music": {},
-		"notes": "",
-		"description": "May the Schwartz be with you! To kick off Star Wars month here on Film Junk, we are revisiting a beloved parody film from Mel Brooks, which also happened to have been a very formative experience for a certain budding Prince of Comedy. Spaceballs may not be Brooks' most acclaimed or successful movie but it very well could be his most ludicrous. What makes a great comedy that stands the test of time? Was Spaceballs the first movie in cinema history to use an extended shot for comedic purposes? Why is there no Luke Skywalker equivalent in this movie? Do we have any hope at all for the upcoming sequel? Get surrounded by assholes and check out the latest episode of the Film Junk Podcast.",
+		"show": "Film Junk",
+		"part": null,
+		"dateApprox": false,
 		"pack": null,
+		"id": "1039",
+		"kind": "regular",
+		"number": 1039,
+		"date": "2026-04-27",
+		"title": "Spaceballs",
 		"links": {
-			"libsyn": "https://directory.libsyn.com/episode/index/id/41012080",
 			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-1039-156493081",
 			"apple": "https://podcasts.apple.com/us/podcast/spaceballs-1987/id74257105?i=1000766078925",
 			"spotify": "https://open.spotify.com/episode/4nwyRMciwUAa5JV5dyJyuv"
@@ -2120,13 +1942,10 @@
 		"id": "1038",
 		"kind": "regular",
 		"number": 1038,
-		"date": "2026-05-01",
+		"date": "2026-04-20",
 		"title": "Lost in Translation",
 		"links": {
-			"libsyn": "https://directory.libsyn.com/episode/index/id/41083910",
-			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-1038-155975296",
-			"apple": "https://podcasts.apple.com/us/podcast/lost-in-translation-2003/id74257105?i=1000765634818",
-			"spotify": "https://open.spotify.com/episode/6d58fkrmFGdR3EgRsdbRyg"
+			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-1038-155975296"
 		}
 	},
 	{
@@ -2327,7 +2146,7 @@
 		"segments": [],
 		"music": {},
 		"notes": "",
-		"description": "Eat your heart out Hulk Hogan, it's the 40th anniversary of Rad and we're ready to revisit this slightly under the radar '80s gem. Cru and his BMX crew fight the good fight against the evil forces of Mongoose before facing the death defying Helltrack... I mean, Hecktrack. Which members of the Film Junk crew were BMX heads as kids? Did Hal Needham and his stunt team elevate this movie way beyond what it deserved? Why was the actress who played Katie erased from film history? Could $100,000 buy two houses based on 1986 gas prices? Go balls out on this week's episode of the Film Junk Podcast.",
+		"description": "Eat your heart out Hulk Hogan, it’s the 40th anniversary of Rad and we’re ready to revisit this slightly under the radar ‘80s gem. Cru and his BMX crew fight the good fight against the evil forces of Mongoose before facing the death defying Helltrack… I mean, Hecktrack. Which members of the Film Junk crew were BMX heads as kids? Did Hal Needham and his stunt team elevate this movie way beyond what it deserved? Why was the actress who played Katie erased from film history? Could $100,000 buy two houses based on 1986 gas prices? Go balls out on this week‘s episode of the Film Junk Podcast.",
 		"pack": null,
 		"links": {
 			"libsyn": "https://directory.libsyn.com/episode/index/id/40663940",
@@ -2357,7 +2176,7 @@
 		"segments": [],
 		"music": {},
 		"notes": "",
-		"description": "There can only be one, or in this case, one plus several sequels, two TV shows and an upcoming modern reboot. Highlander remains a beloved and iconic 80s action movie, and it’s about time Film Junk explored what it means to live forever. Is immortality a gift or a curse? Is The Prize a gift or a curse? What is The Quickening? Do the rules of this world make any sense? Would every movie be better with a soundtrack by Queen? Don't lose your head... Film Junk faces such savage questions with heart, faith and steel on this week's podcast.",
+		"description": "There can only be one, or in this case, one plus several sequels, two TV shows and an upcoming modern reboot. Highlander remains a beloved and iconic 80s action movie, and it’s about time Film Junk explored what it means to live forever. Is immortality a gift or a curse? Is The Prize a gift or a curse? What is The Quickening? Do the rules of this world make any sense? Would every movie be better with a soundtrack by Queen? Don’t lose your head… Film Junk faces such savage questions with heart, faith and steel on this week’s podcast.",
 		"pack": null,
 		"links": {
 			"libsyn": "https://directory.libsyn.com/episode/index/id/40540185",
@@ -2479,7 +2298,7 @@
 		"segments": [],
 		"music": {},
 		"notes": "",
-		"description": "The sun is dying and Ryan Gosling is the only one who can save us. After a few close calls and a close encounter, he’s going to science the shit out of the situation. But is this hero’s journey a new masterpiece or is it just space junk? Why is Reed Farrington using a translator app to watch this movie? Does humanity have a future beyond the stars? Fist my bump and prepare to be amaze on the latest episode of Film Junk.",
+		"description": "The sun is dying and Ryan Gosling is the only one who can save us. After a few close calls and a close encounter, he’s going to science the shit out of the situation. But is this hero’s journey a new masterpiece or is it just space junk? Is Ryan Gosling too cool to be a scientific genius? Does anyone care that Lord and Miller didn’t use green screens? Why did Reed Farrington need a translator app to watch this movie? Fist my bump and save the stars with the latest episode of Film Junk.\n0:00 - Review: Project Hail Mary (2026)\n1:04:05 - Hero Shout Out / Outro\n1:12:30 - Spoiler Discussion: Project Hail Mary (2026)",
 		"pack": null,
 		"links": {
 			"libsyn": "https://directory.libsyn.com/episode/index/id/40616420",
@@ -2510,7 +2329,7 @@
 		"segments": [],
 		"music": {},
 		"notes": "",
-		"description": "Hey there double ugly, it's time for one of the wildest movies we've ever reviewed here on Film Junk. John De Hart's Champagne and Bullets (aka Geteven aka Road to Revenge) is an indie film and vanity project that will challenge your very perception of what cinema can be. It's the buddy cop softcore satanic cult action thriller you didn't know you needed in your life. But is John De Hart a creative visionary or just a guy trying to make out with a Playboy model in a hot tub? How many people in this movie are under the influence of drugs and/or alcohol? Can movies be so bad they're good or does that just make them good? Not a problem... we're ready to do the shimmy slide on this week's podcast.",
+		"description": "Hey there double ugly, it’s time for one of the wildest movies we’ve ever reviewed here on Film Junk. John De Hart’s Champagne and Bullets (aka Geteven aka Road to Revenge) is an indie film and vanity project that will challenge your very perception of what cinema can be. It’s the buddy cop softcore satanic cult action thriller you didn’t know you needed in your life. But is John De Hart a creative visionary or just a guy trying to make out with a Playboy model in a hot tub? How many people in this movie are under the influence of drugs and/or alcohol? Can movies be so bad they’re good or does that just make them good? Not a problem…we’re ready to do the shimmy slide on this week’s podcast.",
 		"pack": null,
 		"links": {
 			"libsyn": "https://directory.libsyn.com/episode/index/id/40491155",
@@ -2565,7 +2384,7 @@
 		"segments": [],
 		"music": {},
 		"notes": "",
-		"description": "The Film Junk Podcast is a goddamn miracle of modern science and this week we're taking a look at another (indisputable?) all-time classic. One Flew Over the Cuckoo's Nest has won its fair share of awards over the years but it's time for a modern diagnosis. Is Nurse Ratched one of the most chilling villains ever put on screen or does she actually seem kinda reasonable? Is this a career-best performance for Jack Nicholson? How do we feel about the portrayal of mental illness in the movie? It makes us feel very... peculiar. We're talking about form, content, interrelationships and so much more on this week's podcast.",
+		"description": "The Film Junk Podcast is a goddamn miracle of modern science and this week we’re taking a look at another (indisputable?) all-time classic. One Flew Over the Cuckoo’s Nest has won its fair share of awards over the years but it’s time for a modern diagnosis. Is Nurse Ratched one of the most chilling villains ever put on screen or does she actually seem kinda reasonable? Is this a career-best performance for Jack Nicholson? How do we feel about the portrayal of mental illness in the movie? It makes us feel very... peculiar. We're talking about form, content, interrelationships and so much more on this week's podcast.",
 		"pack": null,
 		"links": {
 			"libsyn": "https://directory.libsyn.com/episode/index/id/40353965",
@@ -2749,10 +2568,9 @@
 		"segments": [],
 		"music": {},
 		"notes": "",
-		"description": "We face obsolescence with No Other Choice and discuss Is This Thing On?, Zodiac Killer Project, Body of Evidence and The Plague plus we also announce a new evolution of Film Junk.\n\n0:00 - Intro: Format Change Announcement\n\n29:55 - Review: No Other Choice\n\n1:13:20 - What We Watched: Zodiac Killer Project, Best Defence, Is This Thing On?, Body of Evidence, The Plague, The Plumber\n\n2:03:30 - Outro",
+		"description": "0:00 - Intro\n29:55 - Review: No Other Choice\n1:13:20 - What We Watched: Zodiac Killer Project, Best Defence, Is This Thing On?, Body of Evidence, The Plague, The Plumber\n2:03:30 - Outro",
 		"pack": null,
 		"links": {
-			"libsyn": "https://directory.libsyn.com/episode/index/id/40230265",
 			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-1029-151647148",
 			"apple": "https://podcasts.apple.com/us/podcast/episode-1029-no-other-choice/id74257105?i=1000751762519",
 			"spotify": "https://open.spotify.com/episode/2sb6SjmotUbXd64ag3mhzx"
@@ -2880,10 +2698,9 @@
 		"segments": [],
 		"music": {},
 		"notes": "",
-		"description": "We fight the future with Good Luck, Have Fun, Don't Die and protect the past with Nirvanna the Band the Show the Movie plus we also discuss Whistle, The Paper and Lonesome Dove.\n\n0:00 - Intro\n\n19:10 - Review: Good Luck, Have Fun, Don't Die \n\n38:15 - Review: Nirvanna the Band the Show the Movie \n\n58:30 - What We Watched: Frasier, Lonesome Dove, Whistle, The Paper\n\n1:11:10 - This Week on DVD, Blu-ray and VOD\r\n1:12:50 - Outro \n\n1:14:20 - Spoiler Discussion: Good Luck, Have Fun, Don't Die",
+		"description": "0:00 - Intro\n19:10 - Review: Good Luck, Have Fun, Don't Die\n38:15 - Review: Nirvanna the Band the Show the Movie\n58:30 - What We Watched: Frasier, Lonesome Dove, Whistle, The Paper\n1:11:10 - This Week on DVD, Blu-ray and VOD\n1:12:50 - Outro\n1:14:20 - Spoiler Discussion: Good Luck, Have Fun, Don't Die",
 		"pack": null,
 		"links": {
-			"libsyn": "https://directory.libsyn.com/episode/index/id/40081515",
 			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-1028-150535096",
 			"apple": "https://podcasts.apple.com/us/podcast/episode-1028-good-luck-have-fun-dont-die-nirvanna-the/id74257105?i=1000749438942",
 			"spotify": "https://open.spotify.com/episode/3IWU84EljvBFHEt3kY3YeR"
@@ -2973,7 +2790,7 @@
 		"segments": [],
 		"music": {},
 		"notes": "",
-		"description": "We survive and thrive with Send Help plus we also discuss Arco, Him, The Dark Knight Trilogy and Girls Just Want to Have Fun while a special guest also contemplates going digital.\n\n0:00 - Intro\n\n10:20 - Going Digital Discussion\n\n58:55 - Review: Send Help\n\n1:28:15 - What We Watched: Arco, Wolf Man, Girls Just Want to Have Fun, Him, The Dark Knight Trilogy, Nobody 2\n\n2:05:05 - This Week on DVD, Blu-ray and VOD\n\n2:07:15 - Outro\n\n2:10:00 - Spoiler Discussion: Send Help",
+		"description": "0:00 - Intro\n10:20 - Going Digital Discussion\n58:55 - Review: Send Help\n1:28:15 - What We Watched: Arco, Wolf Man, Girls Just Want to Have Fun, Him, The Dark Knight Trilogy, Nobody\n22:05:05 - This Week on DVD, Blu-ray and VOD\n2:07:15 - Outro\n2:10:00 - Spoiler Discussion: Send Help",
 		"pack": null,
 		"links": {
 			"libsyn": "https://directory.libsyn.com/episode/index/id/40016425",
@@ -3061,7 +2878,7 @@
 		"segments": [],
 		"music": {},
 		"notes": "",
-		"description": "We take a walk on the dark side with a retro review of Eddie and the Cruisers plus we also discuss Hamnet, Dead Man's Wire, Die My Love, Springsteen: Deliver Me from Nowhere and Ladies and Gentlemen, The Fabulous Stains.\n\n0:00 - Intro\n\n23:15 - Review: Eddie and the Cruisers\n\n1:12:15 - What We Watched: Dead Man's Wire, Springsteen: Deliver Me From Nowhere, Ladies and Gentlemen, The Fabulous Stains, Hamnet, Die My Love, Toy Soldiers, Skyscraper: Live, One Battle After Another\n\n1:54:30 - This Week on DVD, Blu-ray and VOD\n\n1:57:10 - Outro",
+		"description": "0:00 - Intro\n23:15 - Review: Eddie and The Cruisers\n1:12:15 - What We Watched: Dead Man's Wire, Springsteen: Deliver Me From Nowhere, Ladies and Gentlemen, The Fabulous Stains, Hamnet, Die My Love, Toy Soldiers, Skyscraper: Live, One Battle After Another\n1:54:30 - This Week on DVD, Blu-ray and VOD\n1:57:10 - Outro",
 		"pack": null,
 		"links": {
 			"libsyn": "https://directory.libsyn.com/episode/index/id/39920320",
@@ -3158,7 +2975,7 @@
 		"segments": [],
 		"music": {},
 		"notes": "",
-		"description": "We throw a rager over 28 Years Later: The Bone Temple plus we also discuss The Rip, All You Need is Kill and Red Surf plus Frankie has a new favourite film of 2025... or does he?\n\n0:00 - Intro\n\n12:00 - Review: 28 Years Later: The Bone Temple\n\n36:00 - What We Watched: Red Surf, The Rip, Doomsday, All You Need is Kill, Listers: A Glimpse Into Extreme Birdwatching\n\n1:18:45 - This Week on DVD, Blu-ray and VOD\n\n1:21:45 - Outro\n\n1:24:15 - Spoiler Discussion: 28 Years Later: The Bone Temple",
+		"description": "0:00 - Intro\n12:00 - Review: 28 Years Later: The Bone Temple\n36:00 - What We Watched: Red Surf, The Rip, Doomsday, All You Need is Kill, Listers: A Glimpse Into Extreme Birdwatching\n1:18:45 - This Week on DVD, Blu-ray and VOD\n1:21:45 - Outro\n1:24:15 - Spoiler Discussion: 28 Years Later: The Bone Temple",
 		"pack": null,
 		"links": {
 			"libsyn": "https://directory.libsyn.com/episode/index/id/39830265",
@@ -3266,7 +3083,7 @@
 		"segments": [],
 		"music": {},
 		"notes": "",
-		"description": "We have an awkward visit with Father Mother Sister Brother plus we also discuss The Mastermind, Cover-Up, Caterpillar, One of One, Lurker, Together and The Shop Around the Corner.\n\n0:00 - Intro\n\n14:45 - Review: Father Mother Sister Brother\n\n58:10 - What We Watched: The Shop Around The Corner, You've Got Mail, Caterpillar, Cover-Up, Together, The Shrouds, One of One, Lurker, The Mastermind, The Chair Company, Pluribus, Stranger Things\n\n1:33:20 - This Week on DVD, Blu-ray and VOD\n\n1:23:55 - Outro",
+		"description": "0:00 - Intro\n14:45 - Review: Father Mother Sister Brother\n58:10 - What We Watched: The Shop Around The Corner, You've Got Mail, Caterpillar, Cover-Up, Together, The Shrouds, One of One, Lurker, The Mastermind, The Chair Company, Pluribus, Stranger Things\n1:33:20 - This Week on DVD, Blu-ray and VOD\n1:23:55 - Outro",
 		"pack": null,
 		"links": {
 			"libsyn": "https://directory.libsyn.com/episode/index/id/39753185",
@@ -3322,7 +3139,7 @@
 		],
 		"music": {},
 		"notes": "",
-		"description": "We look back on another exciting year of cinema and count down our top 10 movies of 2025 plus we also hand out many coveted awards for the 2025 Junkies.\n\n0:00 - Intro\n\n6:10 - Top 10 Movies of 2025\n\n56:10 - 2025 Junkies\n\n2:04:55 - Outro",
+		"description": "0:00 - Intro\n\n6:10 - Top 10 Movies of 2025\n\n56:10 - 2025 Junkies\n\n2:04:55 - Outro",
 		"pack": null,
 		"links": {
 			"libsyn": "https://directory.libsyn.com/episode/index/id/39671245",
@@ -3426,7 +3243,7 @@
 		"segments": [],
 		"music": {},
 		"notes": "",
-		"description": "We get burned by Avatar: Fire and Ash and outhustled by Marty Supreme plus we also discuss Sentimental Value, Anaconda, Wicked: For Good, Song Sung Blue and The Housemaid.\n\n0:00 - Intro\n\n34:15 - Review: Avatar: Fire and Ash\n\n1:13:40 - Review: Marty Supreme\n\n1:53:10 - What We Watched: Anaconda, Song Sung Blue, Wicked: For Good, The Housemaid, Frasier, Sentimental Value, Alien: Romulus\n\n2:31:50 - This Week on DVD, Blu-ray and VOD\n\n2:33:35 - Outro\n\n2:35:10 - Spoiler Discussion: Avatar:Fire and Ash\n\n2:51:40- Spoiler Discussion: Marty Supreme",
+		"description": "0:00 - Intro\n34:15 - Review: Avatar: Fire and Ash\n1:13:40 - Review: Marty Supreme\n1:53:10 - What We Watched: Anaconda, Song Sung Blue, Wicked: For Good, The Housemaid, Frasier, Sentimental Value, Alien: Romulus\n2:31:50 - This Week on DVD, Blu-ray and VOD\n2:33:35 - Outro\n2:35:10 - Spoiler Discussion: Avatar: Fire and Ash\n2:51:40- Spoiler Discussion: Marty Supreme",
 		"pack": null,
 		"links": {
 			"libsyn": "https://directory.libsyn.com/episode/index/id/39581525",
@@ -3541,7 +3358,7 @@
 		"segments": [],
 		"music": {},
 		"notes": "",
-		"description": "We confess our feelings about Wake Up Dead Man: A Knives Out Mystery plus we also discuss Oh. What. Fun., Reflection in a Dead Diamond and Metropolitan.\n\n0:00 - Intro\n\n21:22 - Review: Wake Up Dead Man: A Knives Out Mystery\n\n48:50 - What We Watched: Oh. What. Fun., Metropolitan, Reflection in a Dead Diamond, Night Court, Jackie Brown, The Lowdown\n\n1:10:20 - This Week on DVD, Blu-ray and VOD\n\n1:20:25 - Outro",
+		"description": "0:00 - Intro\n21:22 - Review: Wake Up Dead Man: A Knives Out Mystery\n48:50 - What We Watched: Oh. What. Fun., Metropolitan, Reflection in a Dead Diamond, Night Court, Jackie Brown, The Lowdown\n1:10:20 - This Week on DVD, Blu-ray and VOD\n1:20:25 - Outro",
 		"pack": null,
 		"links": {
 			"libsyn": "https://directory.libsyn.com/episode/index/id/39455535",
@@ -3638,7 +3455,7 @@
 		"segments": [],
 		"music": {},
 		"notes": "",
-		"description": "We weigh the emotional heft of Jay Kelly and dive into a double documentary discussion with Predators and Corey Feldman vs. The World plus we also talk Dust Bunny and Sorry, Baby.\n\n0:00 - Intro\n\n34:40 - Review: Jay Kelly\n\n1:05:50 - Other Stuff We Watched: Corey Feldman vs. The World, Predators, For Love of the Game, Dust Bunny, Sorry, Baby\n\n2:28:46 - This Week on DVD, Blu-ray and VOD\n\n2:32:55 - Outro",
+		"description": "0:00 - Intro\n34:40 - Review: Jay Kelly\n1:05:50 - Other Stuff We Watched: Corey Feldman vs. The World, Predators, For Love of the Game, Dust Bunny, Sorry, Baby\n2:28:46 - This Week on DVD, Blu-ray and VOD\n2:32:55 - Outro",
 		"pack": null,
 		"links": {
 			"libsyn": "https://directory.libsyn.com/episode/index/id/39378460",
@@ -3706,10 +3523,10 @@
 		"segments": [],
 		"music": {},
 		"notes": "",
-		"description": "We try to force feed After the Hunt plus we also discuss She Walks in Darkness, Stranger Things: Season 5 and the season finale of The Chair Company.\n\n0:00 - Intro \n\n12:35 - Review: After The Hunt \n\n45:20 - What We Watched: O Night Divine, She Walks in Darkness, Angelina Jolie Hand Gestures, The Chair Company, Stranger Things \n\n1:13:25 - This Week on DVD, Blu-ray and VOD \n\n1:20:40 - Outro",
+		"description": "0:00 - Intro\n12:35 - Review: After The Hunt\n45:20 - What We Watched: O Night Divine, She Walks in Darkness, Angelina Jolie Hand Gestures, The Chair Company, Stranger Things\n1:13:25 - This Week on DVD, Blu-ray and VOD\n1:20:40 - Outro",
 		"pack": null,
 		"links": {
-			"libsyn": "https://directory.libsyn.com/episode/index/id/39259740/",
+			"libsyn": "https://directory.libsyn.com/episode/index/id/39259740",
 			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-1019-145010746",
 			"apple": "https://podcasts.apple.com/us/podcast/episode-1019-after-the-hunt/id74257105?i=1000741140731",
 			"spotify": "https://open.spotify.com/episode/3KzS1Ei5KeDPr6OH3aL79a"
@@ -3768,7 +3585,7 @@
 		],
 		"music": {},
 		"notes": "",
-		"description": "The exciting conclusion to a 2-part podcast series counting down our top 100 movies from the past 25 years.\n\n00:00 - Intro\n\n15:45 - Feature: Top 100 Movies 2000-2024 Part 2\n\n2:58:15 - Outro",
+		"description": "0:00 - Intro\n\n15:45 - Feature: Top 100 Movies 2000-2024 Part 2: 50 - 1\n\n2:58:15 - Outro",
 		"pack": null,
 		"links": {
 			"libsyn": "https://directory.libsyn.com/episode/index/id/39195295",
@@ -3860,7 +3677,7 @@
 		"segments": [],
 		"music": {},
 		"notes": "",
-		"description": "We take a long walk with The Running Man plus we also discuss Being Eddie, The 10th Victim, Orwell: 2+2=5, Grease, The O.C. and My Father, the BTK Killer.\n\n0:00 - Intro\n\n15:15 - Review: The Running Man\n\n55:45 - What We Watched: The O.C., Being Eddie, John Candy: I Like Me, Mr. Scorsese, My Father, the BTK Killer, The 10th Victim, Grease, The Chair Company, Orwell: 2+2=5\n\n1:26:30 - This Week on DVD, Blu-ray and VOD\n\n1:29:05 - Outro\n\n1:30:40 - Spoiler Discussion: The Running Man",
+		"description": "0:00 - Intro\n15:15 - Review: The Running Man \n55:45 - What We Watched: The OC, Being Eddie, John Candy: I Like Me, Mr. Scorsese, My Father, the BTK Killer, The 10th Victim, Grease, The Chair Company, Orwell: 2+2=5\n1:26:30 - This Week on DVD, Blu-ray and VOD\n1:29:05 - Outro\n1:30:40 - Spoiler Discussion: The Running Man",
 		"pack": null,
 		"links": {
 			"libsyn": "https://directory.libsyn.com/episode/index/id/39104485",
@@ -3945,7 +3762,7 @@
 		"segments": [],
 		"music": {},
 		"notes": "",
-		"description": "Dax joins the hunt for Predator: Badlands and we give Frankenstein a jolt plus we also discuss Fire and Water: Making the Avatar Films and Pluribus.\n\n0:00 - Intro\n\n22:35 - Review: Predator: Badlands\n\n1:05:55 - Review: Frankenstein\n\n1:41:50 - What We Watched: Fire and Water: Making the Avatar Films, Pluribus, Union\n\n2:00:00 - This Week on DVD, Blu-ray and VOD\n\n2:05:55 - Outro\n\n2:08:05 - Spoiler Discussion: Predator: Badlands",
+		"description": "0:00 - Intro\n22:35 - Review: Predator: Badlands\n1:05:55 - Review: Frankenstein\n1:41:50 - What We Watched: Fire and Water: Making the Avatar Films, Pluribus, Union\n2:00:00 - This Week on DVD, Blu-ray and VOD\n2:05:55 - Outro\n2:08:05 - Spoiler Discussion: Predator: Badlands",
 		"pack": null,
 		"links": {
 			"libsyn": "https://directory.libsyn.com/episode/index/id/39021310",
@@ -4055,7 +3872,7 @@
 		"segments": [],
 		"music": {},
 		"notes": "",
-		"description": "We drone on about Bugonia and defuse A House of Dynamite plus we also discuss Jennifer's Body, When Evil Lurks, On the Beach and Tim Burton: Life in the Line.\n\n0:00 - Intro\n\n22:20 - Review: Bugonia\n\n44:30 - Review: A House of Dynamite\n\n1:24:55 - What We Watched: Mr. Scorsese, Inkmaster, Halloween (2018), Jennifer's Body, When Evil Lurks, Tim Burton: Life in the Line, I Know What You Did Last Summer, On The Beach \n\n2:13:25 - This Week on DVD, Blu-ray and VOD\n\n2:17:00 - Outro\n\n2:19:15 - Spoiler Discussion: Bugonia",
+		"description": "0:00 - Intro\n22:20 - Review: Bugonia\n44:30 - Review: A House of Dynamite\n1:24:55 - What We Watched: Mr. Scorsese, Inkmaster, Halloween (2018), Jennifer's Body, When Evil Lurks, Tim Burton: Life in the Line, I Know What You Did Last Summer, On The Beach\n2:13:25 - This Week on DVD, Blu-ray and VOD2:17:00 - Outro\n2:19:15 - Spoiler Discussion: Bugonia",
 		"pack": null,
 		"links": {
 			"libsyn": "https://directory.libsyn.com/episode/index/id/38934600",
@@ -4216,7 +4033,7 @@
 		"segments": [],
 		"music": {},
 		"notes": "",
-		"description": "We party with zombies in a retro review of Return of the Living Dead Part II plus we also discuss Good Boy, Cemetery Man, Cloud and The Perfect Neighbor.\n\n0:00 - Intro\n\n13:40 - Review: Return of the Living Dead Part II\n\n54:15 - What We Watched: Cloud, The Perfect Neighbor, Good Boy, Cemetery Man, Mr. Scorsese, Scream, The Exorcist\n\n1:27:50 - This Week on DVD, Blu-ray and VOD\n\n1:32:00 - Outro",
+		"description": "0:00 - Intro\n13:40 - Review: Return of the Living Dead Part II\n54:15 - What We Watched: Cloud, The Perfect Neighbor, Good Boy, Cemetery Man, Mr. Scorsese, Scream, The Exorcist\n1:27:50 - This Week on DVD, Blu-ray and VOD\n1:32:00 - Outro",
 		"pack": null,
 		"links": {
 			"libsyn": "https://directory.libsyn.com/episode/index/id/38844805",
@@ -4247,7 +4064,7 @@
 		],
 		"music": {},
 		"notes": "",
-		"description": "The first of two podcasts counting down our top 100 movies from the past 25 years.\n\n0:00 - Intro\n\n11:40 - Feature: Top 100 Movies 2000-2024 Part 1 - #100-51\n\n2:31:25 - Outro",
+		"description": "0:00 - Intro\n11:40 - Feature: Top 100 Movies 2000-2024 Part 1 - 100-51\n2:31:25 - Outro",
 		"pack": null,
 		"links": {
 			"libsyn": "https://directory.libsyn.com/episode/index/id/38751270",
@@ -4363,7 +4180,7 @@
 		"segments": [],
 		"music": {},
 		"notes": "",
-		"description": "We hide out with Roofman and discuss Megadoc, Tron: Ares, John Candy: I Like Me, Night of the Juggler and The Chair Company.\n\n0:00 - Intro\n\n22:05 - Review: Roofman\n\n58:55 - What We Watched: Megadoc, John Candy: I Like Me, Night Terror, Tron: Ares, Poolman, Shadow of Fear, The Chair Company, Love is Blind, Night of the Juggler\n\n2:10:45 - This Week on DVD, Blu-ray and VOD\n\n2:14:50 - Outro",
+		"description": "0:00 - Intro\n22:05 - Review: Roofman\n58:55 - What We Watched: Megadoc, John Candy: I Like Me, Night Terror, Tron:Ares, Poolman, Shadow of Fear, The Chair Company, Love is Blind, Night of the Juggler\n2:10:45 - This Week on DVD, Blu-ray and VOD\n2:14:50 - Outro",
 		"pack": null,
 		"links": {
 			"libsyn": "https://directory.libsyn.com/episode/index/id/38601315",
@@ -4441,7 +4258,7 @@
 		"segments": [],
 		"music": {},
 		"notes": "",
-		"description": "We ground and pound The Smashing Machine plus we also discuss The Lost Bus, Ghost, Under the Silver Lake and Monster: The Ed Gein Story.\n\n0:00 - Intro\n\n16:25 - Review: The Smashing Machine\n\n59:00 - What We Watched: Monster: The Ed Gein Story, Under The Silver Lake, The Lost Bus, Fire in Paradise, Ghost, Secret Mall Apartment\n\n1:39:00 - This Week on DVD, Blu-ray and VOD\n\n1:43:15 - Outro\n\n1:46:15 - Spoiler Discussion: The Smashing Machine",
+		"description": "0:00 - Intro\n16:25 - Review: The Smashing Machine\n59:00 - What We Watched: Monster: The Ed Gein Story, Under The Silver Lake, The Lost Bus, Fire in Paradise, Ghost, Secret Mall Apartment\n1:39:00 - This Week on DVD, Blu-ray and VOD\n1:43:15 - Outro\n1:46:15 - Spoiler Discussion: The Smashing Machine",
 		"pack": null,
 		"links": {
 			"libsyn": "https://directory.libsyn.com/episode/index/id/38518490",
@@ -4524,7 +4341,7 @@
 		"segments": [],
 		"music": {},
 		"notes": "",
-		"description": "We fight the power with One Battle After Another plus we also talk Relay, Alien Nation, Bad Ronald and The Weather Underground.\n\n0:00 - Intro\n\n29:00 - Review: One Battle After Another\n\n1:27:55 - What We Watched: Alien Nation, Once Upon A Time... In Hollywood, Michael Clayton, Relay, Bad Ronald, Z, The Weather Underground\n\n1:56:00 - This Week on DVD, Blu-ray and VOD\n\n2:02:35 - Outro\n\n2:04:30 - Spoiler Discussion: One Battle After Another",
+		"description": "0:00 - Intro\n29:00 - Review: One Battle After Another\n1:27:55 - What We Watched: Alien Nation, Once Upon A Time ... In Hollywood, Michael Clayton, Relay, Bad Ronald, Z, The Weather Underground\n1:56:00 - This Week on DVD, Blu-ray and VOD\n2:02:35 - Outro\n2:04:30 - Spoiler Discussion: One Battle After Another",
 		"pack": null,
 		"links": {
 			"libsyn": "https://directory.libsyn.com/episode/index/id/38438680",
@@ -4619,7 +4436,7 @@
 		"segments": [],
 		"music": {},
 		"notes": "",
-		"description": "We keep moving forward with The Long Walk plus we also discuss The Surfer and Adolescence.\n\n0:00 - Intro\n\n22:40 - Review: The Long Walk\n\n1:02:45 - What We Watched: The Surfer, Adolescence\n\n1:22:25 - This Week on DVD, Blu-ray and VOD\n\n1:24:00 - Outro\n\n1:25:20 - Spoiler Discussion: The Long Walk",
+		"description": "0:00 - Intro\n22:40 - Review: The Long Walk\n1:02:45 - What We Watched: The Surfer, Adolescence\n1:22:25 - This Week on DVD, Blu-ray and VOD\n1:24:00 - Outro\n1:25:20 - Spoiler Discussion: The Long Walk",
 		"pack": null,
 		"links": {
 			"libsyn": "https://directory.libsyn.com/episode/index/id/38343210",
@@ -4687,7 +4504,7 @@
 		"segments": [],
 		"music": {},
 		"notes": "",
-		"description": "We spontaneously combust while watching Spinal Tap II: The End Continues plus we also discuss Unknown Number: The High School Catfish, The Yogurt Shop Murders and aka Charlie Sheen.\n\n0:00 - Intro\n\n17:45 - Review: Spinal Tap II: The End Continues\n\n58:00 - What We Watched: aka Charlie Sheen, Unknown Number: The High School Catfish, The Yogurt Shop Murders, Amy Bradley Is Missing\n\n1:27:15 - This Week on DVD, Blu-ray and VOD\n\n1:30:45 - Outro",
+		"description": "0:00 - Intro\n17:45 - Review: Spinal Tap II: The End Continues\n58:00 - What We Watched: aka Charlie Sheen, Unknown Number: The High School Catfish, The Yogurt Shop Murders, Amy Bradley Is Missing\n1:27:15 - This Week on DVD, Blu-ray and VOD\n1:30:45 - Outro",
 		"pack": null,
 		"links": {
 			"libsyn": "https://directory.libsyn.com/episode/index/id/38287295",
@@ -4765,7 +4582,7 @@
 		"segments": [],
 		"music": {},
 		"notes": "",
-		"description": "We analyze the ups and downs of Highest 2 Lowest plus we also discuss KPop Demon Hunters, Together, Winter Kills and The Manchurian Candidate.\n\n0:00 - Intro\n\n10:25 - Review: Highest 2 Lowest\n\n53:10 - What We Watched: Together, KPop Demon Hunters, Winter Kills, Funny Pages, The Manchurian Candidate, Peacemaker\n\n1:13:25 - This Week on DVD, Blu-ray and VOD\n\n1:20:10 - Outro\n\n1:23:10 - Spoiler Discussion: Highest 2 Lowest",
+		"description": "0:00 - Intro\n10:25 - Review: Highest 2 Lowest\n53:10 - What We Watched: Together, KPop Demon Hunters, Winter Kills, Funny Pages, The Manchurian Candidate, Peacemaker\n1:13:25 - This Week on DVD, Blu-ray and VOD\n\n1:20:10 - Outro\n1:23:10 - Spoiler Discussion: Highest 2 Lowest",
 		"pack": null,
 		"links": {
 			"libsyn": "https://directory.libsyn.com/episode/index/id/38170560",
@@ -4872,10 +4689,9 @@
 		"segments": [],
 		"music": {},
 		"notes": "",
-		"description": "We take a swing at Caught Stealing plus we also discuss Vice is Broke, Ace in the Hole, Alien: Earth and Back to the Future: The Musical.\n\n0:00 - Intro \n\n10:25 - Review: Caught Stealing \n\n43:10 - What We Watched: Sacramento, Vice is Broke, Back To The Future: The Musical, Galaxy Quest, Ace in the Hole, Alien: Earth, Platonic \n\n1:22:00 - This Week on DVD, Blu-ray and VOD \n\n1:24:05 - Outro",
+		"description": "0:00 - Intro\n10:25 - Review: Caught Stealing\n43:10 - What We Watched: Sacramento, Vice is Broke, Back To The Future: The Musical, Galaxy Quest, Ace in the Hole, Alien: Earth, Platonic\n1:22:00 - This Week on DVD, Blu-ray and VOD\n1:24:05 - Outro",
 		"pack": null,
 		"links": {
-			"libsyn": "https://directory.libsyn.com/episode/index/id/38061540",
 			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-1006-137969684",
 			"apple": "https://podcasts.apple.com/us/podcast/episode-1006-caught-stealing/id74257105?i=1000724791841",
 			"spotify": "https://open.spotify.com/episode/7iUQVkX6v8pMa7hnVFmctN"
@@ -4955,10 +4771,9 @@
 		"segments": [],
 		"music": {},
 		"notes": "",
-		"description": "We investigate the curious case of Honey Don't plus we also discuss The Legend of Ochi, City on Fire, The Great Outdoors and Heads of State.\n\n0:00 - Intro\n\n28:40 - Review: Honey Don't\n\n55:35 - What We Watched: Dirty Work, The Great Outdoors, The Legend of Ochi, Friendship, Heads of State, City on Fire, Sacramento\n\n1:34:25 - This Week on DVD, Blu-ray and VOD\n\n1:37:20 - Outro\n\n1:38:50 - Spoiler Discussion: Honey Don't",
+		"description": "0:00 - Intro\n28:40 - Review: Honey Don't\n55:35 - What We Watched: Dirty Work, The Great Outdoors, The Legend of Ochi, Friendship, Heads of State, City on Fire, Sacramento\n1:34:25 - This Week on DVD, Blu-ray and VOD\n1:37:20 - Outro\n1:38:50 - Spoiler Discussion: Honey Don't",
 		"pack": null,
 		"links": {
-			"libsyn": "https://directory.libsyn.com/episode/index/id/37987175",
 			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-1005-137511293",
 			"apple": "https://podcasts.apple.com/us/podcast/episode-1005-honey-dont/id74257105?i=1000723896219",
 			"spotify": "https://open.spotify.com/episode/6DsDpto1vpUFDG8Wp8PF0r"
@@ -5043,7 +4858,7 @@
 		"segments": [],
 		"music": {},
 		"notes": "",
-		"description": "We debate whether or not M3GAN 2.0 is an upgrade plus we also discuss Basquiat, Karate Kid: Legends and Alien: Earth and Reed tries to understand the appeal of Debbie Does Dallas.\n\n0:00 - Intro\n\n21:55 - Review: M3GAN 2.0\n\n1:02:00 - Other Stuff We Watched: Debbie Does Dallas, Alien: Earth, Basquiat, Karate Kid: Legends, Materialists, The Life of Chuck, Devo, Star Trek: Strange New Worlds\n\n1:59:05 - This Week on DVD, Blu-ray and VOD\n\n2:06:10 - Outro\n\n2:12:30 - Spoiler Discussion: M3GAN 2.0",
+		"description": "0:00 - Intro\n21:55 - Review: M3GAN 2.0\n1:02:00 - Other Stuff We Watched: Debbie Does Dallas, Alien: Earth, Basquiat, Karate Kid: Legends, Materialists, The Life of Chuck, Devo, Star Trek: Strange New Worlds\n1:59:05 - This Week on DVD, Blu-ray and VOD\n2:06:10 - Outro\n2:12:30 - Spoiler Discussion: M3GAN 2.0",
 		"pack": null,
 		"links": {
 			"libsyn": "https://directory.libsyn.com/episode/index/id/37887370",
@@ -5139,7 +4954,7 @@
 		"segments": [],
 		"music": {},
 		"notes": "",
-		"description": "We load up on Weapons and take aim at The Naked Gun plus we also discuss War of the Worlds, The Luckiest Man in America and Spy Hard.\n\n0:00 - Intro\n\n22:25 - Review: Weapons\n\n54:35 - Review: The Naked Gun\n\n1:18:12 - Other Stuff We Watched: War Of The Worlds (2025), The Luckiest Man in America, The Underneath, Spy Hard\n\n1:56:20 - This Week on DVD, Blu-ray and VOD\n\n2:00:30 - Outro\n\n2:01:35 - Spoiler Discussion: Weapons",
+		"description": "0:00 - Intro\n22:25 - Review: Weapons\n54:35 - Review: The Naked Gun\n1:18:12 - Other Stuff We Watched: War Of The Worlds (2025), The Luckiest Man in America, The Underneath, Spy Hard\n1:56:20 - This Week on DVD, Blu-ray and VOD\n2:00:30 - Outro\n2:01:35 - Spoiler Discussion: Weapons",
 		"pack": null,
 		"links": {
 			"libsyn": "https://directory.libsyn.com/episode/index/id/37824690/",
@@ -5277,10 +5092,10 @@
 		"segments": [],
 		"music": {},
 		"notes": "",
-		"description": "Greg and Dax are proud drunk uncles as we welcome the birth of The Fantastic Four: First Steps plus we also discuss Pavements, The Firm, Alexander Nevsky, Thunderbolts*, Invincible and Master Chef.\n\n0:00 - Intro\n\n24:00 - Review: The Fantastic Four: First Steps\n\n1:18:35 - What We Watched: Hockey Night, Kill Bill Vol. 1, Black Hawk Down, Surviving Black Hawk Down, The Firm, Thunderbolts*, Alexander Nevsky, Invincible, Pavements, Master Chef, Critical: Between Life and Death\n\n2:04:30 - This Week on DVD, Blu-ray and VOD\n\n2:10:45 - Outro",
+		"description": "0:00 - Intro\n24:00 - Review: The Fantastic Four: First Steps\n1:18:35 - What We Watched: Hockey Night, Kill Bill Vol. 1, Black Hawk Down, Surviving Black Hawk Down, The Firm, Thunderbolts*, Alexander Nevsky, Invincible, Pavements, Master Chef, Critical: Between Life and Death\n2:04:30 - This Week on DVD, Blu-ray and VOD\n2:10:45 - Outro",
 		"pack": null,
 		"links": {
-			"libsyn": "https://directory.libsyn.com/episode/index/id/37620250/",
+			"libsyn": "https://directory.libsyn.com/episode/index/id/37620250",
 			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-1002-135312029",
 			"apple": "https://podcasts.apple.com/us/podcast/episode-1002-the-fantastic-four-first-steps/id74257105?i=1000722225651",
 			"spotify": "https://open.spotify.com/episode/4ssb7Ci7kz1BL01tyuLz9t"
@@ -5370,7 +5185,7 @@
 		"segments": [],
 		"music": {},
 		"notes": "",
-		"description": "We mask up for Eddington and discuss Bring Her Back, The Night They Raided Minsky's, My Stepmother is an Alien and Swan Song.\n\n0:00 - Intro\n\n29:00 - Review: Eddington\n\n1:12:00 - What We Watched: Bring Her Back, My Stepmother is an Alien, Soul Man, Conan O'Brien Must Go, Long Way Home, Sea of Love, The Night They Raided Minsky's, Swan Song, Trainwreck: Balloon Boy\n\n1:53:25 - This Week on DVD, Blu-ray and VOD\n\n1:54:45 - Outro\n\n1:56:20 - Spoiler Discussion: Eddington",
+		"description": "0:00 - Intro\n29:00 - Review: Eddington\n1:12:00 - What We Watched: Bring Her Back, My Stepmother is an Alien, Soul Man, Conan O'Brien Must Go, Long Way Home, Sea of Love, The Night They Raided Minsky's, Swan Song, Trainwreck: Balloon Boy\n1:53:25 - This Week on DVD, Blu-ray and VOD\n1:54:45 - Outro\n1:56:20 - Spoiler Discussion: Eddington",
 		"pack": null,
 		"links": {
 			"libsyn": "https://directory.libsyn.com/episode/index/id/37530000",
@@ -5441,7 +5256,7 @@
 		],
 		"music": {},
 		"notes": "",
-		"description": "FJ1K is here! We celebrate this epic milestone with a star-studded group review of James Gunn's Superman, followed by a countdown of the Top 5 most embarrassing movies in our collections, a mini-manifesto discussion about going digital and a special edition of the Junkies covering some of the podcast's most memorable moments of all time.\n\n0:00 - Intro\n\n26:55 - Guest Intros\n\n44:20 - Review: Superman\n\n1:58:20 - Top 5 Most Embarrassing Physical Media Items\n\n3:19:55 - Going Digital Debate\n\n4:06:45 - Episode 1000 Junkies\n\n5:24:15 - Fan Messages\n\n5:46:40 - Outro\n\n5:48:50 - Spoiler Discussion: Superman",
+		"description": "0:00 - Intro\n26:55 - Guest Intro\n44:20 - Review: Superman\n1:58:20 - Top 5 Most Embarrassing Physical Media Items\n3:19:55 - Going Digital Debate\n4:06:45 - Episode 1000 Junkies \n5:24:15 - Fan Messages\n5:46:40 - Outro\n5:48:50 - Spoiler Discussion: Superman",
 		"pack": null,
 		"links": {
 			"libsyn": "https://directory.libsyn.com/episode/index/id/37436165",
@@ -5529,7 +5344,7 @@
 		"segments": [],
 		"music": {},
 		"notes": "",
-		"description": "We battle dinosaur fatigue with Jurassic World: Rebirth plus we also discuss F1, M3GAN 2.0, Dark City, Copycat, Le Mans and Jaws at 50.\n\n0:00 - Intro\n\n30:45 - Review: Jurassic World: Rebirth\n\n1:18:05 - What We Watched: F1: The Movie, Once Upon a Time in Hollywood, Dark City, Le Mans, M3GAN 2.0, The Thomas Crown Affair, Jaws at 50, Copycat\n\n1:54:30 - This Week on DVD, Blu-ray and VOD\n\n1:55:20 - Outro",
+		"description": "0:00 - Intro\n30:45 - Review: Jurassic World: Rebirth\n1:18:05 - What We Watched: F1: The Movie, Once Upon a Time in Hollywood, Dark City, Le Mans, M3GAN 2.0, The Thomas Crown Affair, Jaws at 50, Copycat\n1:55:20 - This Week on DVD, Blu-ray and VOD\n1:21:55 - Outro",
 		"pack": null,
 		"links": {
 			"libsyn": "https://directory.libsyn.com/episode/index/id/37286185",
@@ -5628,7 +5443,7 @@
 		"segments": [],
 		"music": {},
 		"notes": "",
-		"description": "We go alpha on 28 Years Later plus we also talk Ballerina, Watch the Skies and Friendship and discuss the Spaceballs 2 announcement.\n\n0:00 - Intro\n\n22:40 - Review: 28 Years Later\n\n56:45 - What We Watched: From The World of John Wick: Ballerina, 555, DeepStar Six, The Sopranos, Watch The Skies, Friendship\n\n1:17:05 - This Week on DVD, Blu-ray and VOD\n\n1:21:55 - Outro\n\n1:25:20 - Spoiler Discussion: 28 Years Later",
+		"description": "0:00 - Intro\n\n22:40 - Review: 28 Years Later\n\n56:45 - What We Watched: From The World of John Wick: Ballerina, The Sopranos, Watch The Skies, Friendship\n\n1:17:05 - This Week on DVD, Blu-ray and VOD\n\n1:21:55 - Outro\n\n1:25:20 - Spoiler Discussion: 28 Years Later",
 		"pack": null,
 		"links": {
 			"libsyn": "https://directory.libsyn.com/episode/index/id/37155925",
@@ -5739,7 +5554,7 @@
 		"segments": [],
 		"music": {},
 		"notes": "",
-		"description": "We rage while revisiting 28 Days Later and 28 Weeks Later plus we also discuss The Life of Chuck, Trainwreck: Mayor of Mayhem, Materialists, Opus and The Mortician.\n\n0:00 - Intro\n\n35:20 - Review: 28 Days Later\n\n1:22:10 - Review: 28 Weeks Later\n\n1:54:15 - What We Watched: Materialists, The Devil at Your Heels, The Mortician, The Life of Chuck, Trainwreck: Mayor of Mayhem, Vulcanizadora, Opus\n\n2:33:25 - This Week on DVD, Blu-ray and VOD\n\n2:35:40 - Outro",
+		"description": "0:00 - Intro\n35:20 - Review: 28 Days Later\n1:22:10 - Review: 28 Weeks Later\n1:54:15 - What We Watched: Materialists, The Devil at Your Heels, The Mortician, The Life of Chuck, Trainwreck: Mayor of Mayhem, Vulcanizadora, Opus\n2:33:25 - This Week on DVD, Blu-ray and VOD\n2:35:40 - Outro",
 		"pack": null,
 		"links": {
 			"libsyn": "https://directory.libsyn.com/episode/index/id/37077720",
@@ -12925,6 +12740,29 @@
 			"spotify": "https://open.spotify.com/episode/4QIzyTyOlftteWUWQ8IiYN"
 		},
 		"mentioned": []
+	},
+	{
+		"notes": "",
+		"description": "\"Captain's log, stardate 45678.9. Our scanners have picked up a derelict box of what seems to be a cluster of abandoned optical discs located just beyond the neutral zone. We've immediately set a course to intercept, but I can't help but feel as though I've done this before. Like almost daily. Looking for trash on the side of the road- I mean, neutral zone.\"",
+		"mentioned": [],
+		"segments": [],
+		"watched": [],
+		"reviews": [],
+		"music": {},
+		"show": "Film Junk",
+		"part": null,
+		"dateApprox": false,
+		"pack": null,
+		"id": "2024-02-09-treknobabble-episode-5-cause-and-effect",
+		"kind": "patreon",
+		"number": null,
+		"series": "Treknobabble",
+		"date": "2024-02-09",
+		"title": "Treknobabble: Cause & Effect",
+		"duration": 3367,
+		"links": {
+			"patreon": "https://www.patreon.com/filmjunk/posts/treknobabble-5-98139283"
+		}
 	},
 	{
 		"id": "929",

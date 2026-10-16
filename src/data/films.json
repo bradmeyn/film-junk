@@ -90,37 +90,7 @@
 				"role": "review"
 			},
 			{
-				"id": "1063",
-				"role": "watched"
-			},
-			{
 				"id": "175",
-				"role": "watched"
-			}
-		]
-	},
-	{
-		"slug": "reign-of-fire",
-		"title": "Reign of Fire",
-		"year": 2002,
-		"poster": "/vZVXCj3jXzIPJUHLaQohzt2uTM3.jpg",
-		"votes": 2553,
-		"tmdb": {
-			"type": "movie",
-			"id": 6278
-		},
-		"imdb": "tt0253556",
-		"appearances": [
-			{
-				"id": "1062",
-				"role": "review"
-			},
-			{
-				"id": "376",
-				"role": "watched"
-			},
-			{
-				"id": "327",
 				"role": "watched"
 			}
 		]
@@ -158,6 +128,32 @@
 			{
 				"id": "1063",
 				"role": "review"
+			}
+		]
+	},
+	{
+		"slug": "reign-of-fire",
+		"title": "Reign of Fire",
+		"year": 2002,
+		"poster": "/vZVXCj3jXzIPJUHLaQohzt2uTM3.jpg",
+		"votes": 2553,
+		"tmdb": {
+			"type": "movie",
+			"id": 6278
+		},
+		"imdb": "tt0253556",
+		"appearances": [
+			{
+				"id": "1062",
+				"role": "review"
+			},
+			{
+				"id": "376",
+				"role": "watched"
+			},
+			{
+				"id": "327",
+				"role": "watched"
 			}
 		]
 	},
@@ -354,6 +350,24 @@
 		]
 	},
 	{
+		"slug": "the-odyssey",
+		"title": "The Odyssey",
+		"year": 2026,
+		"poster": "/5rhTDKUhPYvpdQIijFIs5VoWsON.jpg",
+		"votes": 3941,
+		"tmdb": {
+			"type": "movie",
+			"id": 1368337
+		},
+		"imdb": "tt33764258",
+		"appearances": [
+			{
+				"id": "1053",
+				"role": "review"
+			}
+		]
+	},
+	{
 		"slug": "rain-man",
 		"title": "Rain Man",
 		"year": 1988,
@@ -375,28 +389,6 @@
 			},
 			{
 				"id": "468",
-				"role": "watched"
-			}
-		]
-	},
-	{
-		"slug": "the-odyssey",
-		"title": "The Odyssey",
-		"year": 2026,
-		"poster": "/5rhTDKUhPYvpdQIijFIs5VoWsON.jpg",
-		"votes": 3941,
-		"tmdb": {
-			"type": "movie",
-			"id": 1368337
-		},
-		"imdb": "tt33764258",
-		"appearances": [
-			{
-				"id": "1053",
-				"role": "review"
-			},
-			{
-				"id": "1051",
 				"role": "watched"
 			}
 		]
@@ -476,6 +468,24 @@
 		]
 	},
 	{
+		"slug": "disclosure-day",
+		"title": "Disclosure Day",
+		"year": 2026,
+		"poster": "/AnJ8IQJI23hNpYXVNaythu061Ru.jpg",
+		"votes": 3461,
+		"tmdb": {
+			"type": "movie",
+			"id": 1275779
+		},
+		"imdb": "tt15047880",
+		"appearances": [
+			{
+				"id": "1048",
+				"role": "review"
+			}
+		]
+	},
+	{
 		"slug": "saving-private-ryan",
 		"title": "Saving Private Ryan",
 		"year": 1998,
@@ -502,28 +512,6 @@
 			{
 				"id": "215",
 				"role": "watched"
-			}
-		]
-	},
-	{
-		"slug": "disclosure-day",
-		"title": "Disclosure Day",
-		"year": 2026,
-		"poster": "/AnJ8IQJI23hNpYXVNaythu061Ru.jpg",
-		"votes": 3461,
-		"tmdb": {
-			"type": "movie",
-			"id": 1275779
-		},
-		"imdb": "tt15047880",
-		"appearances": [
-			{
-				"id": "1047",
-				"role": "watched"
-			},
-			{
-				"id": "1048",
-				"role": "review"
 			}
 		]
 	},
@@ -576,6 +564,24 @@
 		]
 	},
 	{
+		"slug": "the-mandalorian-and-grogu",
+		"title": "The Mandalorian and Grogu",
+		"year": 2026,
+		"poster": "/uwMKWjcNID0D9jjplsjkQS2OrB4.jpg",
+		"votes": 1739,
+		"tmdb": {
+			"type": "movie",
+			"id": 1228710
+		},
+		"imdb": "tt30825738",
+		"appearances": [
+			{
+				"id": "1044",
+				"role": "review"
+			}
+		]
+	},
+	{
 		"slug": "spawn",
 		"title": "Spawn",
 		"year": 1997,
@@ -594,24 +600,6 @@
 			{
 				"id": "407",
 				"role": "watched"
-			}
-		]
-	},
-	{
-		"slug": "the-mandalorian-and-grogu",
-		"title": "The Mandalorian and Grogu",
-		"year": 2026,
-		"poster": "/uwMKWjcNID0D9jjplsjkQS2OrB4.jpg",
-		"votes": 1739,
-		"tmdb": {
-			"type": "movie",
-			"id": 1228710
-		},
-		"imdb": "tt30825738",
-		"appearances": [
-			{
-				"id": "1044",
-				"role": "review"
 			}
 		]
 	},
