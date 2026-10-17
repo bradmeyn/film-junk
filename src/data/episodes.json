@@ -95,7 +95,23 @@
 			{
 				"title": "The Rocky Horror Picture Show",
 				"year": 1975,
-				"ratings": [],
+				"ratings": [
+					{
+						"host": "Jay",
+						"score": 5,
+						"outOf": 5
+					},
+					{
+						"host": "Frank",
+						"score": 4,
+						"outOf": 5
+					},
+					{
+						"host": "Sean",
+						"score": 4.5,
+						"outOf": 5
+					}
+				],
 				"film": "the-rocky-horror-picture-show"
 			}
 		],

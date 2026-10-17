@@ -8,6 +8,12 @@
 		]
 	},
 
+	"1065": {
+		"reviews": [
+			{"title": "The Rocky Horror Picture Show", "ratings": {"Jay": "5", "Frank": "4", "Sean": "4.5"}}
+		]
+	},
+
 	"1064": {
 		"hero": "Joshua Smith",
 		"reviews": [
