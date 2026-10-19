@@ -1,6 +1,72 @@
 [
 	{
 		"notes": "",
+		"description": "Okay, here's your motivation. You're lost, you're angry in the woods and no one is here to help you. The Blair Witch Project was a pretty big deal when it arrived in theatres back in 1999 but it was (and still is) a somewhat divisive film. There is no debating the influence it had in terms of found footage horror but somehow the scares remain very subjective. Is this movie still an intense and immersive experience or is it just boring? Are the performances realistic and convincing or is there a little too much riffing going on? Was the marketing for the movie way ahead of its time? What is the deal with that blue slime? Pop a tent and order some Mary Brown's Chicken while listening to the latest episode of Film Junk.",
+		"mentioned": [
+			{
+				"title": "Blair Witch",
+				"year": null,
+				"film": "blair-witch"
+			}
+		],
+		"segments": [],
+		"watched": [],
+		"reviews": [
+			{
+				"title": "The Blair Witch Project",
+				"year": 1999,
+				"ratings": [],
+				"film": "the-blair-witch-project"
+			}
+		],
+		"music": {},
+		"show": "Film Junk",
+		"part": null,
+		"dateApprox": false,
+		"pack": null,
+		"id": "1068",
+		"kind": "regular",
+		"number": 1068,
+		"date": "2026-10-19",
+		"title": "The Blair Witch Project",
+		"links": {
+			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-1068-172366711",
+			"spotify": "https://open.spotify.com/episode/0Yd2DzMQBEcHuDhdKzb5kP"
+		}
+	},
+	{
+		"id": "1067",
+		"kind": "regular",
+		"show": "Film Junk",
+		"number": 1067,
+		"part": null,
+		"date": "2026-10-19",
+		"dateApprox": false,
+		"title": "The Descent",
+		"reviews": [
+			{
+				"title": "The Descent",
+				"year": 2005,
+				"ratings": [],
+				"film": "the-descent"
+			}
+		],
+		"watched": [],
+		"segments": [],
+		"music": {},
+		"notes": "",
+		"description": "\"We've always said, if there's no risk, what's the point?\" On this week's episode of Film Junk, we gear up and dive back into the darkness as we return to Neil Marshall's acclaimed 2005 horror film The Descent. But not everyone on the podcast has seen it before... let's find out if still holds up or if it is actually a little bit \"shite\". Did The Descent kickstart the trend of \"elevated horror\" or is it kind of the opposite? Are the creatures just humans who got lost in the caves or are they something else entirely? Which ending is better... or do they both suck? Did the jump scares make Frankie go boom boom in his pants? Find out how to give a lemon an orgasm by downloading the latest episode of Film Junk.",
+		"pack": null,
+		"links": {
+			"libsyn": "https://directory.libsyn.com/episode/index/id/43254613",
+			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-1067-172117202",
+			"apple": "https://podcasts.apple.com/us/podcast/the-descent-2005/id74257105?i=1000797102567",
+			"spotify": "https://open.spotify.com/episode/0oUgDRF1OpyfRwM66IJM2i"
+		},
+		"mentioned": []
+	},
+	{
+		"notes": "",
 		"description": "SEX. \nNow that I have your attention, listen as we answer the last of your listeners' questions, only to then BEG you for more. When will this nightmare end?",
 		"mentioned": [],
 		"segments": [],
@@ -21,35 +87,6 @@
 		"links": {
 			"patreon": "https://www.patreon.com/filmjunk/posts/junk-mail-2026-172400068",
 			"spotify": "https://open.spotify.com/episode/7hZ61NQElu8JiTAm0EPArN"
-		}
-	},
-	{
-		"notes": "",
-		"description": "\"We've always said, if there's no risk, what's the point?\" On this week's episode of Film Junk, we gear up and dive back into the darkness as we return to Neil Marshall's acclaimed 2005 horror film The Descent. But not everyone on the podcast has seen it before... let's find out if still holds up or if it is actually a little bit \"shite\". Did The Descent kickstart the trend of \"elevated horror\" or is it kind of the opposite? Are the creatures just humans who got lost in the caves or are they something else entirely? Which ending is better... or do they both suck? Did the jump scares make Frankie go boom boom in his pants? Find out how to give a lemon an orgasm by downloading the latest episode of Film Junk.",
-		"mentioned": [],
-		"segments": [],
-		"watched": [],
-		"reviews": [
-			{
-				"title": "The Descent",
-				"year": 2005,
-				"ratings": [],
-				"film": "the-descent"
-			}
-		],
-		"music": {},
-		"show": "Film Junk",
-		"part": null,
-		"dateApprox": false,
-		"pack": null,
-		"id": "1067",
-		"kind": "regular",
-		"number": 1067,
-		"date": "2026-10-12",
-		"title": "The Descent",
-		"links": {
-			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-1067-172117202",
-			"spotify": "https://open.spotify.com/episode/0pjgZXaxlkiZov47PmJ50o"
 		}
 	},
 	{

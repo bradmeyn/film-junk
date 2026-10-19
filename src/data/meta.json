@@ -1,5 +1,5 @@
 {
-	"builtAt": "2026-10-18T17:00:07.748Z",
+	"builtAt": "2026-10-19T19:33:52.953Z",
 	"yearNotes": {
 		"2005": [
 			"Total episodes: 47",
@@ -1061,16 +1061,16 @@
 					"episode": "1067",
 					"film": "the-descent",
 					"poster": "/mxFPI4KYBk5ri9cPteIS8jiDFgj.jpg",
-					"status": "patreon"
+					"status": "out"
 				},
 				{
 					"date": "2026-10-26",
 					"title": "The Blair Witch Project",
 					"year": 1999,
-					"episode": null,
-					"film": null,
+					"episode": "1068",
+					"film": "the-blair-witch-project",
 					"poster": "/9050VGrYjYrEjpOvDZVAngLbg1f.jpg",
-					"status": "upcoming"
+					"status": "patreon"
 				}
 			]
 		},
