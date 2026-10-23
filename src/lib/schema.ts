@@ -1,6 +1,6 @@
 // schema.org JSON-LD for search engines: the podcast, its episodes, the films and the hosts.
 // URLs are absolute when the site address is known (SITE_URL) and left out otherwise.
-import { HOSTS, LINKS, episodeLabel, filmBySlug, filmLinks, posterUrl, type Episode, type Film, type Review } from './data';
+import { HOSTS, LINKS, averageRating, episodeLabel, filmBySlug, filmLinks, posterUrl, type Episode, type Film, type Review } from './data';
 
 type Site = URL | undefined;
 const abs = (site: Site, path: string) => (site ? new URL(path, site).href : undefined);
@@ -81,12 +81,21 @@ export function episodeSchema(e: Episode, site: Site, image?: string) {
 	};
 }
 
+// Google requires an aggregateRating alongside multiple reviews; same /5 average the site shows.
+function aggregateOf(reviews: Review[]) {
+	const avg = averageRating(reviews);
+	const ratingCount = reviews.reduce((n, r) => n + r.ratings.length, 0);
+	return avg === null ? undefined : { '@type': 'AggregateRating', ratingValue: avg, ratingCount, bestRating: 5, worstRating: 0 };
+}
+
 export function filmSchema(film: Film, reviewed: { episode: Episode; review?: Review }[], site: Site) {
 	const reviews = reviewed.flatMap(({ episode, review }) => (review ? reviewOf(review, episode, site) : []));
+	const aggregate = aggregateOf(reviewed.flatMap(({ review }) => (review ? [review] : [])));
 	return {
 		'@context': 'https://schema.org',
 		...work(film, film.title, film.year, site),
 		...(reviews.length && { review: reviews }),
+		...(aggregate && { aggregateRating: aggregate }),
 	};
 }
 
