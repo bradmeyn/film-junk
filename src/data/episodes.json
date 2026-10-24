@@ -25,6 +25,7 @@
 		"links": {
 			"libsyn": "https://directory.libsyn.com/episode/index/id/43395879",
 			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-1069-173038735",
+			"apple": "https://podcasts.apple.com/us/podcast/you-can-see-everything-2026/id74257105?i=1000797678418",
 			"spotify": "https://open.spotify.com/episode/4GR0p7hNvtMeb4mR8ADxw1"
 		},
 		"mentioned": []
@@ -48,6 +49,7 @@
 		"links": {
 			"libsyn": "https://directory.libsyn.com/episode/index/id/43413109",
 			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-reveal-173116483",
+			"apple": "https://podcasts.apple.com/us/podcast/film-junk-calendar-reveal-nov-2026/id74257105?i=1000797679321",
 			"spotify": "https://open.spotify.com/episode/7FO8zpeZaBWfZBf2lF8puu"
 		}
 	},
@@ -154,14 +156,30 @@
 			{
 				"title": "Viy",
 				"year": 1967,
-				"ratings": [],
+				"ratings": [
+					{
+						"host": "Jay",
+						"score": 4,
+						"outOf": 5
+					},
+					{
+						"host": "Frank",
+						"score": 4,
+						"outOf": 5
+					},
+					{
+						"host": "Sean",
+						"score": 4,
+						"outOf": 5
+					}
+				],
 				"film": "viy"
 			}
 		],
 		"watched": [],
 		"segments": [],
 		"music": {},
-		"notes": "",
+		"notes": "Jay tells the story of taking an edible and going to a concert.",
 		"description": "I summon the vampires! I summon the werewolves! I summon Viy! On this week's episode of Film Junk we are unearthing Viy, a spooky hidden gem from 1967 that is billed as the Soviet Union's first horror film. It's a wild ride that delivers some laughs, some thrills and a lot of impressive visual effects. So why isn't this movie more widely known? How is the Russian take on vampires, witches and demons different from the mythology we know today? Does vodka cure everything? Is there a connection between Viy and the Dogma poop monster? Drop blood tear and download the latest episode of Film Junk now.",
 		"pack": null,
 		"links": {
@@ -169,7 +187,8 @@
 			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-1066-171269433",
 			"apple": "https://podcasts.apple.com/us/podcast/viy-1967/id74257105?i=1000795980076",
 			"spotify": "https://open.spotify.com/episode/6iMp27naLX57d2ct4mb6sf"
-		}
+		},
+		"hero": "Jamie Linton"
 	},
 	{
 		"id": "1065",

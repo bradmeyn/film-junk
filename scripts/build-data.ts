@@ -868,16 +868,17 @@ for (const e of all) {
 }
 
 // Details noted by hand from the audio, for things the guides don't have (data/hand-notes.json):
-// { "<episode id>": { hero?, reviews?: [{ title, year?, ratings: { Host: "3.5/4" } }] } }. Ratings
+// { "<episode id>": { hero?, notes?, reviews?: [{ title, year?, ratings: { Host: "3.5/4" } }] } }. Ratings
 // cover premiums and weekly episodes the guides don't rate yet; a rating can carry the "light" or
 // "heavy" the hosts say ("light 4"), and the score itself is what's averaged.
-type HandNotes = { hero?: string; reviews?: { title: string; year?: number; ratings: Record<string, string> }[] };
+type HandNotes = { hero?: string; notes?: string; reviews?: { title: string; year?: number; ratings: Record<string, string> }[] };
 const handNotes = readJson<Record<string, HandNotes | string>>('data/hand-notes.json') ?? {};
 for (const [id, notes] of Object.entries(handNotes)) {
 	if (id.startsWith('_') || typeof notes === 'string') continue;
 	const e = all.find((x) => x.id === id);
 	if (!e) throw new Error(`hand-notes.json: no episode "${id}"`);
 	if (notes.hero) e.hero = notes.hero;
+	if (notes.notes) e.notes = [e.notes, notes.notes].filter(Boolean).join(' ');
 	for (const r of notes.reviews ?? []) {
 		const scales = Object.values(r.ratings).map((x) => x.match(/\/\s*(\d+)/)?.[1]).filter(Boolean);
 		const ratings: Rating[] = Object.entries(r.ratings).map(([host, said]) => {

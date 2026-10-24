@@ -8,6 +8,14 @@
 		]
 	},
 
+	"1066": {
+		"hero": "Jamie Linton",
+		"notes": "Jay tells the story of taking an edible and going to a concert.",
+		"reviews": [
+			{"title": "Viy", "ratings": {"Jay": "4", "Frank": "4", "Sean": "4"}}
+		]
+	},
+
 	"1065": {
 		"hero": "Naz Red",
 		"reviews": [
