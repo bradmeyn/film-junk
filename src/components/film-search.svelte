@@ -136,7 +136,7 @@
 
 {#snippet searchBox()}
 	<form role="search" onsubmit={submit}>
-		<label for={id} class="visually-hidden">Search films and shows</label>
+		<label for={id} class="visually-hidden">Search films, shows or directors</label>
 		<svg class="icon" viewBox="0 0 24 24" aria-hidden="true"
 			><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2.5" /><path
 				d="m15.5 15.5 5 5"
@@ -153,7 +153,7 @@
 			aria-autocomplete="list"
 			autocomplete="off"
 			spellcheck="false"
-			placeholder="Search films and shows"
+			placeholder="Search films, shows or directors"
 			aria-controls={`${id}-results`}
 			aria-expanded={showResults && results.length > 0}
 			aria-activedescendant={results.length ? `${id}-opt-${active}` : undefined}
@@ -175,7 +175,7 @@
 				<p class="msg">No episode mentions "{query}". Try fewer words, or check the spelling.</p>
 			{:else}
 				{#if !typed}<p class="hint">Most discussed</p>{/if}
-				<ul id={`${id}-results`} role="listbox" aria-label="Films">
+				<ul id={`${id}-results`} role="listbox" aria-label="Results">
 					{#each results as row, i (row[0])}
 						<li id={`${id}-opt-${i}`} role="option" aria-selected={i === active} class:active={i === active}>
 							<a href={href(row)} tabindex="-1" onmouseenter={() => (active = i)}>
@@ -207,11 +207,11 @@
 				stroke-linecap="round"
 			/></svg
 		>
-		<span>Search films and shows</span>
+		<span>Search films, shows or directors</span>
 		<kbd aria-hidden="true">{isMac ? '⌘' : 'Ctrl'} K</kbd>
 	</button>
 
-	<dialog bind:this={dialog} class="palette" aria-label="Search films and shows" onclick={onDialogClick}>
+	<dialog bind:this={dialog} class="palette" aria-label="Search films, shows or directors" onclick={onDialogClick}>
 		<div class="panel">
 			{@render searchBox()}
 			{@render resultList()}
