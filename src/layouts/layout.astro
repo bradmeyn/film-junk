@@ -146,7 +146,7 @@ const current = (href: string) => path.startsWith(href) || (href === '/episodes/
 				}
 			</nav>
 			<div class="header-links">
-				<a class="pill patreon" href={LINKS.patreon} aria-label="Patreon" title="Patreon"><Icon name="patreon" /><span>Patreon</span></a>
+				<a class="pill" href={LINKS.patreon} aria-label="Patreon" title="Patreon"><Icon name="patreon" /><span>Patreon</span></a>
 				<a class="pill" href={LINKS.spotify} aria-label="Spotify" title="Spotify"><Icon name="spotify" /><span>Spotify</span></a>
 				<a class="pill" href={LINKS.apple} aria-label="Apple Podcasts" title="Apple Podcasts"><Icon name="apple" /><span>Apple</span></a>
 			</div>
@@ -314,12 +314,6 @@ const current = (href: string) => path.startsWith(href) || (href === '/episodes/
 
 	.pill:hover {
 		border-color: var(--ink);
-	}
-
-	.pill.patreon {
-		background: var(--accent);
-		border-color: var(--accent);
-		color: var(--accent-ink);
 	}
 
 	nav a {
