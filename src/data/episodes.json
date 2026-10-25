@@ -101,7 +101,28 @@
 			{
 				"title": "The Descent",
 				"year": 2005,
-				"ratings": [],
+				"ratings": [
+					{
+						"host": "Frank",
+						"score": 5,
+						"outOf": 5
+					},
+					{
+						"host": "Jay",
+						"score": 4,
+						"outOf": 5
+					},
+					{
+						"host": "Sean",
+						"score": 5,
+						"outOf": 5
+					},
+					{
+						"host": "Scott",
+						"score": 4.5,
+						"outOf": 5
+					}
+				],
 				"film": "the-descent"
 			}
 		],
@@ -117,7 +138,8 @@
 			"apple": "https://podcasts.apple.com/us/podcast/the-descent-2005/id74257105?i=1000797102567",
 			"spotify": "https://open.spotify.com/episode/0oUgDRF1OpyfRwM66IJM2i"
 		},
-		"mentioned": []
+		"mentioned": [],
+		"hero": "Dennis Bastion"
 	},
 	{
 		"notes": "",
