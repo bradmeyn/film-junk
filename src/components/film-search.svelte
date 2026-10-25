@@ -10,6 +10,7 @@
 	let active = $state(0);
 	let index = $state<Row[] | null>(null);
 	let keys: string[] = [];
+	let directorKeys: string[] = [];
 	let loading: Promise<void> | null = null;
 	let input = $state<HTMLInputElement>();
 	let dialog = $state<HTMLDialogElement>();
@@ -73,7 +74,7 @@
 		const q = normalize(query);
 		if (!index) return [];
 		// Before typing, the dialog suggests the most-discussed films (the index is sorted that way).
-		if (q.length < 2) return compact ? index.slice(0, 6) : [];
+		if (q.length < 2) return compact ? index.filter((r) => !isDirector(r)).slice(0, 6) : [];
 		const scored: { row: Row; score: number }[] = [];
 		for (let i = 0; i < index.length; i++) {
 			const k = keys[i];
@@ -97,14 +98,18 @@
 		active = 0;
 	});
 
-	function describe([, , , reviews, mentions]: Row) {
+	const isDirector = (row: Row) => row[0].startsWith('@');
+
+	function describe([slug, , , reviews, mentions, , directors]: Row) {
+		if (slug.startsWith('@')) return `Director · ${reviews + mentions} films on the show`;
 		const parts = [];
+		if (directors) parts.push(directors);
 		if (reviews) parts.push(`reviewed ${reviews === 1 ? 'once' : `${reviews} times`}`);
 		if (mentions) parts.push(`mentioned in ${mentions} episode${mentions === 1 ? '' : 's'}`);
 		return parts.join(', ');
 	}
 
-	const href = (row: Row) => `/films/${row[0]}/`;
+	const href = (row: Row) => (isDirector(row) ? `/directors/${row[0].slice(1)}/` : `/films/${row[0]}/`);
 	const poster = (row: Row) => (row[5] ? `https://image.tmdb.org/t/p/w92/${row[5]}.jpg` : null);
 
 	function submit(event: SubmitEvent) {

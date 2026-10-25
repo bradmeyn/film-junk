@@ -50,6 +50,11 @@ export type TmdbRef = { type: 'movie' | 'tv'; id: number };
 export type TmdbMatch = TmdbRef & { title: string; year: number | null; poster: string | null; votes?: number; imdb?: string | null };
 export type TmdbCache = Record<string, TmdbMatch | null>;
 
+// Film details from TMDB (data/tmdb-details.json), keyed "movie:603". TV shows have creators, not directors.
+export type Person = { id: number; name: string };
+export type TmdbDetails = { directors: Person[]; runtime: number | null; genres: string[]; overview: string };
+export type TmdbDetailsCache = Record<string, TmdbDetails>;
+
 export type Film = {
 	slug: string;
 	title: string;
@@ -58,6 +63,10 @@ export type Film = {
 	votes?: number; // TMDB vote count, for picking a year's biggest films
 	tmdb: TmdbRef | null;
 	imdb?: string | null; // IMDb id, e.g. tt1160419
+	directors?: { name: string; slug: string }[]; // TV: the show's creators
+	runtime?: number | null; // minutes; TV: a typical episode
+	genres?: string[];
+	overview?: string;
 	appearances: Appearance[];
 };
 
@@ -106,5 +115,6 @@ export type Meta = {
 	schedule: ScheduleMonth[];
 };
 
-// Search index row: [slug, title, year, reviews, mentions, poster] (poster: TMDB file id, or '')
-export type SearchRow = [slug: string, title: string, year: number, reviews: number, mentions: number, poster: string];
+// Search index row: [slug, title, year, reviews, mentions, poster, directors] (poster: TMDB file id, or '').
+// A director's row has slug "@<director slug>", their name as title, year 0 and their film count as reviews.
+export type SearchRow = [slug: string, title: string, year: number, reviews: number, mentions: number, poster: string, directors?: string];

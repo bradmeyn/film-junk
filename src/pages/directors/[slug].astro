@@ -1,0 +1,212 @@
+---
+import Layout from '../../layouts/layout.astro';
+import FilmPosters from '../../components/film-posters.astro';
+import Stars from '../../components/stars.astro';
+import { byDiscussion, directors, episodeById, episodeHref, episodeLabel, formatDate, hostHref, posterUrl, type Director } from '../../lib/data';
+
+export function getStaticPaths() {
+	return [...directors.values()].map((director) => ({ params: { slug: director.slug }, props: { director } }));
+}
+
+interface Props {
+	director: Director;
+}
+const { director } = Astro.props;
+
+// Each review of each film, newest film first; films that only came up go in a poster grid below.
+const reviewed = director.films
+	.flatMap((f) =>
+		f.appearances
+			.filter((a) => a.role !== 'watched')
+			.map((a) => episodeById.get(a.id)!)
+			.filter(Boolean)
+			.map((e) => ({ film: f, episode: e, review: e.reviews?.find((r) => r.film === f.slug) })),
+	)
+	.sort((a, b) => (b.film.year ?? 0) - (a.film.year ?? 0) || b.episode.date.localeCompare(a.episode.date));
+const reviewedSlugs = new Set(reviewed.map((r) => r.film.slug));
+const mentioned = director.films.filter((f) => !reviewedSlugs.has(f.slug)).sort(byDiscussion);
+
+const films = director.films.length;
+const summary = [
+	reviewedSlugs.size && `${reviewedSlugs.size} film${reviewedSlugs.size === 1 ? '' : 's'} reviewed`,
+	mentioned.length && `${mentioned.length} more that came up`,
+]
+	.filter(Boolean)
+	.join(', ');
+---
+
+<Layout
+	title={`${director.name} films`}
+	description={`Every ${director.name} film on the Film Junk Podcast: ${summary}, with each host's rating.`}
+>
+	<div class="wrap">
+		<header>
+			<p class="kicker muted">Director</p>
+			<h1>{director.name}</h1>
+			<p class="summary">On Film Junk: {films} films, {summary}.</p>
+		</header>
+
+		{
+			reviewed.length > 0 && (
+				<section>
+					<h2>Reviewed</h2>
+					<ul class="reviews">
+						{reviewed.map(({ film, episode: e, review }) => (
+							<li>
+								<a class="film" href={`/films/${film.slug}/`}>
+									{film.poster ? (
+										<img src={posterUrl(film.poster, 'w154')} alt="" width="154" height="231" loading="lazy" />
+									) : (
+										<span class="no-poster" aria-hidden="true" />
+									)}
+								</a>
+								<div>
+									<a class="title" href={`/films/${film.slug}/`}>
+										{film.title}
+										{film.year && <span class="muted"> ({film.year})</span>}
+									</a>
+									<p class="ep muted">
+										<a href={episodeHref(e)}>{episodeLabel(e)}</a> · {formatDate(e.date, e.dateApprox)}
+									</p>
+									{review && review.ratings.length > 0 && (
+										<dl class="ratings">
+											{review.ratings.map((x) => (
+												<div>
+													<dt>{hostHref(x.host) ? <a href={hostHref(x.host)}>{x.host}</a> : x.host}</dt>
+													<dd>
+														<Stars score={x.score} outOf={x.outOf} label={x.host} qualifier={x.qualifier} />
+													</dd>
+												</div>
+											))}
+										</dl>
+									)}
+								</div>
+							</li>
+						))}
+					</ul>
+				</section>
+			)
+		}
+
+		{
+			mentioned.length > 0 && (
+				<section>
+					<h2>Also came up</h2>
+					<p class="muted note">Films a host watched or the show talked about.</p>
+					<FilmPosters films={mentioned} />
+				</section>
+			)
+		}
+	</div>
+</Layout>
+
+<style>
+	header {
+		padding-block: 1.5rem 1rem;
+	}
+
+	.kicker {
+		margin: 0;
+		font-weight: 600;
+		text-transform: uppercase;
+		letter-spacing: 0.08em;
+		font-size: var(--step--1);
+	}
+
+	h1 {
+		font-size: var(--step-4);
+		line-height: 0.92;
+		overflow-wrap: break-word;
+	}
+
+	.summary {
+		font-size: var(--step-1);
+		margin: 1rem 0 0;
+	}
+
+	section {
+		margin-top: 2.5rem;
+	}
+
+	h2 {
+		font-size: var(--step-2);
+		margin-bottom: 0.75rem;
+	}
+
+	.note {
+		margin: -0.25rem 0 0.75rem;
+	}
+
+	.reviews {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+		max-width: 50rem;
+		display: grid;
+		gap: 0.75rem;
+	}
+
+	.reviews li {
+		display: grid;
+		grid-template-columns: 4rem 1fr;
+		gap: 1rem;
+		align-items: start;
+		padding: 0.75rem;
+		background: var(--surface);
+		border: 1px solid var(--line);
+		border-radius: 0.6rem;
+	}
+
+	.reviews img,
+	.no-poster {
+		display: block;
+		width: 100%;
+		height: auto;
+		aspect-ratio: 2 / 3;
+		object-fit: cover;
+		border-radius: 0.3rem;
+		background: var(--line);
+	}
+
+	.title {
+		font-weight: 700;
+		text-decoration: none;
+		color: var(--ink);
+	}
+
+	.title:hover {
+		text-decoration: underline;
+	}
+
+	.ep {
+		margin: 0.2rem 0 0.5rem;
+		font-size: var(--step--1);
+	}
+
+	.ratings {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.25rem 1.25rem;
+		margin: 0;
+	}
+
+	.ratings div {
+		display: flex;
+		gap: 0.4rem;
+		align-items: baseline;
+	}
+
+	dt {
+		font-weight: 600;
+	}
+
+	dd {
+		margin: 0;
+	}
+
+	@media (max-width: 40rem) {
+		h1 {
+			font-size: var(--step-3);
+		}
+	}
+</style>

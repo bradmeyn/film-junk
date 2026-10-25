@@ -1,0 +1,87 @@
+---
+import { episodeById, episodeLabel, posterUrl, reviewCount, type Film } from '../lib/data';
+
+interface Props {
+	films: Film[];
+}
+const { films } = Astro.props;
+
+// What the show did with it: the review's episode, or how often it came up.
+function note(f: Film) {
+	const reviews = reviewCount(f);
+	if (reviews > 1) return `Reviewed ${reviews} times`;
+	if (reviews === 1) {
+		const e = episodeById.get(f.appearances.find((a) => a.role !== 'watched')!.id);
+		return e ? `${e.kind === 'premium' ? 'Covered in' : 'Reviewed in'} ${episodeLabel(e)}` : 'Reviewed';
+	}
+	return `Came up in ${f.appearances.length} episode${f.appearances.length === 1 ? '' : 's'}`;
+}
+---
+
+<ul class="posters">
+	{
+		films.map((f) => (
+			<li>
+				<a href={`/films/${f.slug}/`}>
+					{f.poster ? (
+						<img src={posterUrl(f.poster, 'w154')} alt="" width="154" height="231" loading="lazy" />
+					) : (
+						<span class="no-poster" aria-hidden="true" />
+					)}
+					<span class="t">
+						{f.title}
+						{f.year && <span class="muted y"> ({f.year})</span>}
+					</span>
+					<span class="muted d">{note(f)}</span>
+				</a>
+			</li>
+		))
+	}
+</ul>
+
+<style>
+	.posters {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+		display: grid;
+		gap: 1rem;
+		grid-template-columns: repeat(auto-fill, minmax(7.5rem, 1fr));
+	}
+
+	.posters a {
+		display: grid;
+		align-content: start;
+		gap: 0.3rem;
+		text-decoration: none;
+	}
+
+	.posters a:hover .t {
+		text-decoration: underline;
+	}
+
+	img,
+	.no-poster {
+		width: 100%;
+		height: auto;
+		aspect-ratio: 2 / 3;
+		object-fit: cover;
+		border-radius: 0.35rem;
+		background: var(--line);
+		display: block;
+	}
+
+	.t {
+		font-weight: 700;
+		line-height: 1.25;
+		color: var(--ink);
+	}
+
+	.y {
+		font-weight: 400;
+	}
+
+	.d {
+		font-size: var(--step--1);
+	}
+</style>

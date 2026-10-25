@@ -58,6 +58,10 @@ function work(film: Film | undefined, title: string, year: number | null, site: 
 		...((film?.year ?? year) && { dateCreated: String(film?.year ?? year) }),
 		...(film?.poster && { image: posterUrl(film.poster, 'w500') }),
 		...(film && { url: abs(site, `/films/${film.slug}/`), sameAs: filmLinks(film).map((l) => l.url) }),
+		...(film?.directors?.length && {
+			[type === 'Movie' ? 'director' : 'creator']: film.directors.map((d) => ({ '@type': 'Person', name: d.name })),
+		}),
+		...(film?.genres?.length && { genre: film.genres }),
 	};
 }
 

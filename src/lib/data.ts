@@ -12,6 +12,25 @@ export const meta = metaJson as unknown as Meta;
 export const episodeById = new Map(episodes.map((e) => [e.id, e]));
 export const filmBySlug = new Map(films.map((f) => [f.slug, f]));
 
+// Directors with at least two films on the show get a page (TV creators don't).
+export type Director = { slug: string; name: string; films: Film[] };
+export const directors = new Map<string, Director>();
+for (const f of films)
+	if (f.tmdb?.type === 'movie')
+		for (const d of f.directors ?? []) {
+			const entry = directors.get(d.slug) ?? directors.set(d.slug, { slug: d.slug, name: d.name, films: [] }).get(d.slug)!;
+			entry.films.push(f);
+		}
+for (const [slug, d] of directors) if (d.films.length < 2) directors.delete(slug);
+
+export function directorHref(slug: string) {
+	return directors.has(slug) ? `/directors/${slug}/` : null;
+}
+
+// Reviews first, then the most talked about.
+export const reviewCount = (f: Film) => f.appearances.filter((a) => a.role !== 'watched').length;
+export const byDiscussion = (a: Film, b: Film) => reviewCount(b) - reviewCount(a) || b.appearances.length - a.appearances.length;
+
 export const LINKS = {
 	patreon: 'https://www.patreon.com/filmjunk',
 	spotify: 'https://open.spotify.com/show/7gC4H6NxbAnQLB7ahS5u2P',
@@ -116,6 +135,11 @@ export function averageRating(reviews: Review[] = []) {
 	const scores = reviews.flatMap((r) => r.ratings.map((x) => Math.min(5, (x.score / x.outOf) * 5)));
 	if (!scores.length) return null;
 	return Math.round((scores.reduce((a, b) => a + b, 0) / scores.length) * 2) / 2;
+}
+
+// Runtime in minutes, e.g. "1 hr 59 min".
+export function formatRuntime(minutes: number | null | undefined) {
+	return minutes ? formatDuration(minutes * 60) : null;
 }
 
 export function formatDuration(seconds: number | null | undefined) {

@@ -12,6 +12,7 @@ import type {
 	Review,
 	ScheduleMonth,
 	TmdbCache,
+	TmdbDetailsCache,
 	TmdbMatch,
 	YearEndLists,
 } from '../src/lib/types.ts';
@@ -1049,6 +1050,30 @@ for (const f of films.values()) {
 	}
 }
 for (const [slug, f] of films) if (!f.appearances.length) films.delete(slug);
+
+// Director, runtime, genres and synopsis from TMDB (cached by fetch-tmdb.ts). Directors get one
+// slug per TMDB person, so two people with the same name get separate pages.
+const tmdbDetails = readJson<TmdbDetailsCache>('data/tmdb-details.json') ?? {};
+const personSlug = new Map<number, string>();
+const takenSlugs = new Set<string>();
+const slugFor = (id: number, name: string) => {
+	let slug = personSlug.get(id);
+	if (!slug) {
+		slug = takenSlugs.has(slugify(name)) ? `${slugify(name)}-${id}` : slugify(name);
+		personSlug.set(id, slug);
+		takenSlugs.add(slug);
+	}
+	return slug;
+};
+// Most-discussed films first, so the better-known person keeps the plain slug.
+for (const f of [...films.values()].sort((a, b) => b.appearances.length - a.appearances.length)) {
+	const d = f.tmdb && tmdbDetails[`${f.tmdb.type}:${f.tmdb.id}`];
+	if (!d) continue;
+	if (d.directors.length) f.directors = d.directors.map((p) => ({ name: p.name, slug: slugFor(p.id, p.name) }));
+	if (d.runtime) f.runtime = d.runtime;
+	if (d.genres.length) f.genres = d.genres;
+	if (d.overview) f.overview = d.overview;
+}
 
 // ---------------------------------------------------------------- year in review
 

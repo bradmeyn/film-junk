@@ -3,9 +3,10 @@
 // Needs TMDB_API_KEY (v3 key) or TMDB_READ_TOKEN (v4 read access token), e.g. in .env.
 // Usage: node scripts/fetch-tmdb.ts [--retry]   (--retry re-queries titles that found nothing)
 import { readFileSync, writeFileSync, existsSync } from 'node:fs';
-import type { Episode, TmdbCache, TmdbMatch } from '../src/lib/types.ts';
+import type { Episode, TmdbCache, TmdbDetails, TmdbDetailsCache, TmdbMatch } from '../src/lib/types.ts';
 
 const CACHE = 'data/tmdb.json';
+const DETAILS = 'data/tmdb-details.json';
 // Either credential from TMDB's API settings works; the long read token is sent as a bearer token.
 const credential = process.env.TMDB_READ_TOKEN || process.env.TMDB_API_KEY;
 const isToken = credential?.startsWith('eyJ');
@@ -24,6 +25,7 @@ type SearchResponse<T> = { results: T[] };
 
 const retry = process.argv.includes('--retry');
 const cache: TmdbCache = existsSync(CACHE) ? JSON.parse(readFileSync(CACHE, 'utf8')) : {};
+const details: TmdbDetailsCache = existsSync(DETAILS) ? JSON.parse(readFileSync(DETAILS, 'utf8')) : {};
 const episodes: Episode[] = JSON.parse(readFileSync('src/data/episodes.json', 'utf8'));
 
 // Must match tmdbKey in build-data.ts.
@@ -168,6 +170,23 @@ async function addImdb(match: TmdbMatch) {
 	match.imdb = ids.imdb_id || null;
 }
 
+// Director, runtime, genres and synopsis; fetched once per TMDB title and cached by "movie:603".
+type MovieDetails = { runtime: number | null; genres: { name: string }[]; overview: string; credits: { crew: { id: number; name: string; job: string }[] } };
+type TvDetails = { episode_run_time: number[]; genres: { name: string }[]; overview: string; created_by: { id: number; name: string }[] };
+async function addDetails({ type, id }: TmdbMatch) {
+	const person = ({ id, name }: { id: number; name: string }) => ({ id, name });
+	let d: TmdbDetails;
+	if (type === 'movie') {
+		const m = await api<MovieDetails>(`/movie/${id}`, { append_to_response: 'credits' });
+		const directors = m.credits.crew.filter((c) => c.job === 'Director').map(person);
+		d = { directors, runtime: m.runtime || null, genres: m.genres.map((g) => g.name), overview: m.overview };
+	} else {
+		const t = await api<TvDetails>(`/tv/${id}`, {});
+		d = { directors: t.created_by.map(person), runtime: t.episode_run_time[0] ?? null, genres: t.genres.map((g) => g.name), overview: t.overview };
+	}
+	details[`${type}:${id}`] = d;
+}
+
 type Job = { key: string; run: () => Promise<void>; label: string };
 const jobs: Job[] = [];
 for (const [k, item] of wanted)
@@ -192,6 +211,7 @@ async function worker(queue: Job[]) {
 		if (++done % 100 === 0) {
 			console.log(`tmdb: ${done} done`);
 			writeFileSync(CACHE, JSON.stringify(cache, null, '\t'));
+			writeFileSync(DETAILS, JSON.stringify(details, null, '\t'));
 		}
 	}
 }
@@ -204,6 +224,16 @@ const imdbJobs: Job[] = Object.entries(cache)
 console.log(`tmdb: ${imdbJobs.length} IMDb ids to fetch`);
 await Promise.all(Array.from({ length: CONCURRENCY }, () => worker(imdbJobs)));
 
+// And details for every matched title, once each.
+const detailJobs = new Map<string, Job>();
+for (const match of Object.values(cache))
+	if (match && !(`${match.type}:${match.id}` in details))
+		detailJobs.set(`${match.type}:${match.id}`, { key: `${match.type}:${match.id}`, label: match.title, run: () => addDetails(match) });
+console.log(`tmdb: ${detailJobs.size} titles to fetch details for`);
+const detailQueue = [...detailJobs.values()];
+await Promise.all(Array.from({ length: CONCURRENCY }, () => worker(detailQueue)));
+
 writeFileSync(CACHE, JSON.stringify(cache, null, '\t'));
+writeFileSync(DETAILS, JSON.stringify(details, null, '\t'));
 const values = Object.values(cache);
 console.log(`tmdb: ${values.filter(Boolean).length} matched, ${values.filter((v) => v === null).length} not found`);
