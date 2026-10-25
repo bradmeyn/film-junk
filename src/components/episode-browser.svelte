@@ -8,7 +8,8 @@
 		d: string; // ISO date
 		t: string; // title
 		h: string[]; // hosts who gave ratings
-		a: number | null; // average rating out of 5
+		a: number | null; // average rating out of 5, for sorting
+		r: { t?: string; s: [host: string, score: number, outOf: number][] }[]; // ratings per film reviewed
 	};
 
 	let { items, years, hosts }: { items: Item[]; years: string[]; hosts: string[] } = $props();
@@ -68,7 +69,12 @@
 	});
 
 	const fmt = new Intl.DateTimeFormat('en-US', { month: 'short', day: 'numeric', year: 'numeric', timeZone: 'UTC' });
-	const stars = (a: number) => '★'.repeat(Math.floor(a)) + (a % 1 ? '½' : '');
+	// Full, half and empty stars on the host's scale, as in stars.astro; "6 out of 5" shows a sixth.
+	const stars = (score: number, outOf: number) => {
+		const full = Math.floor(Math.min(score, outOf)) + Math.max(0, Math.floor(score - outOf));
+		const half = score % 1 >= 0.5 && score < outOf;
+		return { full, half, empty: Math.max(0, outOf - Math.floor(Math.min(score, outOf)) - (half ? 1 : 0)) };
+	};
 
 	function reset() {
 		q = year = kind = host = '';
@@ -136,8 +142,23 @@
 					<a class="title" href={`/episodes/${e.id}/`}>{e.t}</a>
 					<div class="meta">
 						<time datetime={e.d}>{fmt.format(new Date(e.d + 'T00:00:00Z'))}</time>
-						{#if e.a !== null}<span class="stars" aria-label={`Average rating ${e.a} out of 5`}>{stars(e.a)}</span>{/if}
 					</div>
+					{#each e.r as film}
+						<div class="ratings">
+							{#if film.t}<span class="film">{film.t}</span>{/if}
+							{#each film.s as [h, score, outOf]}
+								{@const st = stars(score, outOf)}
+								<span class="rating">
+									{h}
+									<span class="stars" role="img" aria-label={`${h}: ${score} out of ${outOf}`}
+										><span class="on">{'★'.repeat(st.full)}</span>{#if st.half}<span class="half">★</span>{/if}<span class="off"
+											>{'★'.repeat(st.empty)}</span
+										></span
+									>
+								</span>
+							{/each}
+						</div>
+					{/each}
 				</div>
 			</li>
 		{/each}
@@ -321,11 +342,41 @@
 		color: var(--muted);
 	}
 
+	.ratings {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.15rem 1rem;
+		margin-top: 0.2rem;
+		font-size: var(--step--1);
+	}
+
+	.film {
+		color: var(--muted);
+	}
+
+	.rating {
+		font-weight: 600;
+		white-space: nowrap;
+	}
+
 	.stars {
-		color: var(--star);
 		font-weight: 400;
-		font-size: inherit;
 		letter-spacing: 0.05em;
+	}
+
+	.on {
+		color: var(--star);
+	}
+
+	.off {
+		color: var(--line);
+	}
+
+	.half {
+		background: linear-gradient(90deg, var(--star) 50%, var(--line) 50%);
+		background-clip: text;
+		-webkit-background-clip: text;
+		color: transparent;
 	}
 
 	@media (max-width: 30rem) {

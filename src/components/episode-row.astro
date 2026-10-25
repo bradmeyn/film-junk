@@ -1,5 +1,5 @@
 ---
-import { averageRating, episodeHref, episodeLabel, formatDate, type Episode } from '../lib/data';
+import { episodeHref, episodeLabel, formatDate, type Episode } from '../lib/data';
 import Stars from './stars.astro';
 
 interface Props {
@@ -7,7 +7,7 @@ interface Props {
 	note?: string;
 }
 const { episode: e, note } = Astro.props;
-const avg = averageRating(e.reviews);
+const rated = (e.reviews ?? []).filter((r) => r.ratings.length);
 const label = e.kind === 'regular' && e.number ? String(e.number) : { premium: 'Premium', patreon: 'Patreon', bonus: 'Bonus', regular: 'Episode' }[e.kind];
 ---
 
@@ -17,9 +17,20 @@ const label = e.kind === 'regular' && e.number ? String(e.number) : { premium: '
 		<a class="title" href={episodeHref(e)}>{e.title}</a>
 		<div class="meta muted">
 			<time datetime={e.date}>{formatDate(e.date, e.dateApprox)}</time>
-			{avg !== null && <Stars score={avg} label="Average rating" />}
 			{note && <span>{note}</span>}
 		</div>
+		{
+			rated.map((r) => (
+				<div class="ratings">
+					{rated.length > 1 && <span class="muted">{r.title}</span>}
+					{r.ratings.map((x) => (
+						<span class="rating">
+							{x.host} <Stars score={x.score} outOf={x.outOf} label={x.host} qualifier={x.qualifier} />
+						</span>
+					))}
+				</div>
+			))
+		}
 	</div>
 </li>
 
@@ -54,6 +65,17 @@ const label = e.kind === 'regular' && e.number ? String(e.number) : { premium: '
 	}
 	.title:hover {
 		text-decoration: underline;
+	}
+	.ratings {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.15rem 1rem;
+		margin-top: 0.2rem;
+		font-size: var(--step--1);
+	}
+	.rating {
+		font-weight: 600;
+		white-space: nowrap;
 	}
 	.meta {
 		display: flex;

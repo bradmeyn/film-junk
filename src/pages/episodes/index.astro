@@ -1,7 +1,7 @@
 ---
 import Layout from '../../layouts/layout.astro';
 import EpisodeBrowser, { type Item } from '../../components/episode-browser.svelte';
-import { averageRating, episodes, meta, years } from '../../lib/data';
+import { averageRating, episodes, years } from '../../lib/data';
 
 const items: Item[] = episodes.map((e) => ({
 	id: e.id,
@@ -11,6 +11,13 @@ const items: Item[] = episodes.map((e) => ({
 	t: e.title,
 	h: [...new Set((e.reviews ?? []).flatMap((r) => r.ratings.map((x) => x.host)))],
 	a: averageRating(e.reviews),
+	// Each film's ratings; the title only when the episode reviews more than one.
+	r: (e.reviews ?? [])
+		.filter((r) => r.ratings.length)
+		.map((r, _, all) => ({
+			...(all.length > 1 && { t: r.title }),
+			s: r.ratings.map((x) => [x.host, x.score, x.outOf] as [string, number, number]),
+		})),
 }));
 
 // Regular hosts first, then guests by how often they rated something.
@@ -33,7 +40,6 @@ const hosts = [...hostCounts].filter(([, n]) => n >= 5).sort((a, b) => b[1] - a[
 						<li>
 							<a href={`/years/${y}/`}>
 								{y}
-								{meta.yearEnd[y] && <span class="star" title="Top 10 and Junkies">★</span>}
 							</a>
 						</li>
 					))
@@ -93,10 +99,5 @@ const hosts = [...hostCounts].filter(([, n]) => n >= 5).sort((a, b) => b[1] - a[
 
 	.by-year a:hover {
 		border-color: var(--accent);
-	}
-
-	.star {
-		color: var(--star);
-		font-size: 0.75em;
 	}
 </style>
