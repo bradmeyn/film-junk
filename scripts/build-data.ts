@@ -63,6 +63,14 @@ export function slugify(s: string): string {
 		.normalize('NFKD')
 		.replace(/[\u0300-\u036f]/g, '')
 		.toLowerCase()
+		// Letters NFKD doesn't split into a base letter and an accent: Æon Flux, Øresund.
+		.replace(/æ/g, 'ae')
+		.replace(/œ/g, 'oe')
+		.replace(/ø/g, 'o')
+		.replace(/ß/g, 'ss')
+		.replace(/ł/g, 'l')
+		.replace(/[đð]/g, 'd')
+		.replace(/þ/g, 'th')
 		.replace(/&/g, ' and ')
 		.replace(/['’]/g, '')
 		.replace(/[^a-z0-9]+/g, '-')
@@ -82,7 +90,7 @@ function cleanTitle(s: string): string {
 	return s
 		.replace(/\s+/g, ' ')
 		.replace(/\s+([:,])/g, '$1')
-		.replace(/^[-–•*\s]+|[-–\s]+$/g, '')
+		.replace(/^[-–•*\s]+|[-–,;\s]+$/g, '')
 		// "A Quiet Place (SPOILERS)", "12 Monkeys (with Spoilers)"
 		.replace(/\s*\((with )?spoilers?\)$/i, '')
 		// The segment name, not part of the film's title: "Retro Review: Commando".
@@ -437,7 +445,7 @@ for (const w of wikiEpisodes.values()) {
 	const reviews = w.featured
 		.split(/\s+\/\s+|\s+\+\s+/)
 		.map((t): Review => ({ ...splitYear(cleanTitle(t)), ratings: [], film: null }))
-		.filter((r) => r.title && !/^episode \d+!?$|^no feature(d)? review/i.test(r.title));
+		.filter((r) => r.title && !/^episode \d+\b|^no feature(d)? review/i.test(r.title));
 	const e: Draft = { number: w.number, date: w.date, kind: 'regular', reviews, watched: [], segments: [], music: {}, guideNotes: [], source: 'wiki' };
 	guideEpisodes.push(e);
 	byNumber.set(w.number, e);
@@ -918,9 +926,13 @@ const identities = new Map<string, Identity>();
 const reviewIdentity = new Map<Review, string>();
 for (const e of all) {
 	for (const r of e.reviews ?? []) {
-		const base = slugify(r.title);
-		if (base.length < 2) continue;
 		const tm = tmdbFor(r, e);
+		// One page per show or film, so the URL leaves out the season or format the review was of:
+		// "The Mandalorian: Season 2" and "Titanic 3D" live at /films/the-mandalorian/ and /films/titanic/.
+		// "Piranha 3D" is that film's actual title, so the format only goes when TMDB's title lacks it.
+		const format = tm && !/3-?D$/i.test(tm.title) ? /\s*[:\-–]?\s*(season|series)\s+\d+.*$|\s+(in\s+)?3-?D$/i : /\s*[:\-–]?\s*(season|series)\s+\d+.*$/i;
+		const base = slugify(tm ? r.title.replace(format, '') : r.title);
+		if (base.length < 2) continue;
 		const identity = tm ? `tmdb:${tm.type}:${tm.id}` : `slug:${base}`;
 		if (!identities.has(identity))
 			identities.set(identity, { base, title: tm?.title ?? r.title, year: tm?.year ?? null, years: new Set(), tmdb: tm ?? null });
@@ -968,10 +980,14 @@ function resolveMention(title: string, year: number | null, e: Episode): string 
 			// Another spelling of a film that already has a page ("Slapshot", "Cobra Kai: Season 2").
 			const same = tm && tmdbSlug.get(`${tm.type}:${tm.id}`);
 			if (same) return same;
+			// "Euphoria Season 3" is a mention of the show, so its page is the show's: /films/euphoria/.
+			const show = tm?.type === 'tv' && /\bseason\s+\d/i.test(title) && slugify(tm.title);
+			const asShow = show && !films.has(show);
+			if (asShow) slug = show;
 			if (tm) tmdbSlug.set(`${tm.type}:${tm.id}`, slug);
 			films.set(slug, {
 				slug,
-				title,
+				title: asShow ? tm!.title : title,
 				year: year ?? tm?.year ?? null,
 				poster: tm?.poster ?? null,
 				votes: tm?.votes ?? 0,
@@ -991,6 +1007,12 @@ function resolveMention(title: string, year: number | null, e: Episode): string 
 		if (exact) return exact.slug;
 		// "Dune (1984)" when only the 2021 Dune was reviewed: a different film.
 		if (candidates.every((c) => c.year)) return mentionOnly(`${base}-${year}`);
+	}
+	// Every reviewed version came out after this episode, so it means an older film: a 2008 mention of
+	// "Suspiria" is the 1977 one, not the 2018 remake. Give that film its own page when TMDB knows it.
+	if (candidates.every((c) => c.year > episodeYear(e) + 1)) {
+		const tm = tmdb[`m|${title.toLowerCase()}|${year ?? ''}`];
+		if (tm?.year && tm.year <= episodeYear(e) + 1) return mentionOnly(`${base}-${tm.year}`);
 	}
 	if (candidates.length === 1) return candidates[0].slug;
 	const before = candidates.filter((c) => c.year <= episodeYear(e)).sort((a, b) => b.year - a.year);

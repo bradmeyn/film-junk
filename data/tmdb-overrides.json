@@ -1,6 +1,12 @@
 {
 	"_readme": "Fix bad TMDB matches. Key: reviewed title, lowercase. Value: null for no match, or { \"type\": \"movie\"|\"tv\", \"id\": 123, \"title\": \"...\", \"year\": 2000, \"poster\": \"/path.jpg\" }.",
 	"guitar hero": null,
+	"god of war": null,
+	"birds of prey": { "type": "movie", "id": 495764, "title": "Birds of Prey (and the Fantabulous Emancipation of One Harley Quinn)", "year": 2020, "poster": "/h4VB6m0RwcicVEZvzftYZyKXs6K.jpg" },
+	"buffy the vampire slayer": { "type": "movie", "id": 10206, "title": "Buffy the Vampire Slayer", "year": 1992, "poster": "/tcF3S4UdFpuoZEWovMDq5AXazNF.jpg" },
+	"loki": { "type": "tv", "id": 84958, "title": "Loki", "year": 2021, "poster": "/kEl2t3OhXc3Zb9FBh1AuYzRTgZp.jpg" },
+	"best of the best": { "type": "movie", "id": 238751, "title": "Best of the Best", "year": 1989, "poster": "/jB1I9LihBFKzJlRhpOPzbEXdgKc.jpg" },
+	"star wars: the clone wars": { "type": "tv", "id": 3122, "title": "Star Wars: Clone Wars", "year": 2003, "poster": "/jKfAVTGkf9qpGPZ4E1pNKdW6vra.jpg" },
 	"rocky vs. drago": null,
 	"the fantastic four: first steps": {
 		"type": "movie",

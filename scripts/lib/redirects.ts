@@ -24,7 +24,7 @@ export function filmMatcher(current: Film[]) {
 		const k = loose(f.title);
 		byLoose.set(k, byLoose.has(k) ? null : f.slug);
 	}
-	return (old: Pick<Film, 'slug' | 'title' | 'year' | 'tmdb'>): string | null => {
+	const match = (old: Pick<Film, 'slug' | 'title' | 'year' | 'tmdb'>): string | null => {
 		if (old.tmdb) {
 			const hit = byTmdb.get(`${old.tmdb.type}:${old.tmdb.id}`);
 			if (hit) return hit;
@@ -39,6 +39,11 @@ export function filmMatcher(current: Film[]) {
 		// "13 Hours" became "13 Hours: The Secret Soldiers of Benghazi".
 		const longer = current.filter((f) => f.title.toLowerCase().startsWith(title.toLowerCase() + ':'));
 		return longer.length === 1 ? longer[0].slug : null;
+	};
+	return (old: Pick<Film, 'slug' | 'title' | 'year' | 'tmdb'>): string | null => {
+		// A note or a bundle fixed since: "Pacific Rim (with D-BOX)", "FlashForward / Community".
+		const trimmed = old.title.replace(/\s*\([^)]*\)$/, '').split(/\s+[/+]\s+/)[0];
+		return match(old) ?? (trimmed !== old.title ? match({ slug: '', title: trimmed, year: old.year, tmdb: null }) : null);
 	};
 }
 

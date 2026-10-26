@@ -1,7 +1,9 @@
 // Looks up every reviewed film on TMDB and caches the match in data/tmdb.json.
 // Reads src/data/episodes.json, so run build-data first (npm run data does both).
 // Needs TMDB_API_KEY (v3 key) or TMDB_READ_TOKEN (v4 read access token), e.g. in .env.
-// Usage: node scripts/fetch-tmdb.ts [--retry]   (--retry re-queries titles that found nothing)
+// Usage: node scripts/fetch-tmdb.ts [--retry] [--recheck] [--keys=file.json]   (--retry re-queries titles that
+// found nothing; --recheck re-runs matches the current rules would reject: mentions of something released after
+// the episode, and reviews where a TV show of the same name might win; --keys=file.json limits it to those keys)
 import { readFileSync, writeFileSync, existsSync } from 'node:fs';
 import type { Episode, TmdbCache, TmdbDetails, TmdbDetailsCache, TmdbMatch } from '../src/lib/types.ts';
 
@@ -24,6 +26,9 @@ type TvResult = { id: number; name: string; original_name?: string; first_air_da
 type SearchResponse<T> = { results: T[] };
 
 const retry = process.argv.includes('--retry');
+const recheck = process.argv.includes('--recheck');
+const keysArg = process.argv.find((a) => a.startsWith('--keys='));
+const onlyKeys = keysArg ? new Set<string>(JSON.parse(readFileSync(keysArg.slice(7), 'utf8'))) : null;
 const cache: TmdbCache = existsSync(CACHE) ? JSON.parse(readFileSync(CACHE, 'utf8')) : {};
 const details: TmdbDetailsCache = existsSync(DETAILS) ? JSON.parse(readFileSync(DETAILS, 'utf8')) : {};
 const episodes: Episode[] = JSON.parse(readFileSync('src/data/episodes.json', 'utf8'));
@@ -120,15 +125,23 @@ async function lookup({ title, year, episodeYear }: Wanted): Promise<TmdbMatch |
 	// release, so try the episode's year and the year before, then any year.
 	const years = year ? [year, null] : [episodeYear, episodeYear - 1, null];
 	let open: MovieResult[] = [];
+	// TV reviews look like "The Mandalorian: Season 2".
+	const show = title.replace(/\s*[:\-–]\s*(season|series)\s*\d+.*$/i, '').trim();
+	const searchShows = () => api<SearchResponse<TvResult>>('/search/tv', { query: show }).then((d) => d.results);
 	for (const y of years) {
 		const results = await searchMovies(y);
 		if (y === null) open = results;
 		const hit = exact(results, title);
-		if (hit) return movie(hit);
+		// A film from the review's year is what they mean. From any year, a better-known show with the
+		// same name wins: "Stranger Things" is the Netflix series, not a little-seen 2016 film.
+		if (hit && y !== null) return movie(hit);
+		if (hit) {
+			// Only shows that had started by the time of the episode.
+			const tvHit = mostRated((await searchShows()).filter((r) => +(r.first_air_date?.slice(0, 4) ?? '') <= episodeYear), show);
+			return tvHit && tvHit.vote_count > hit.vote_count ? tv(tvHit) : movie(hit);
+		}
 	}
-	// TV reviews look like "The Mandalorian: Season 2".
-	const show = title.replace(/\s*[:\-–]\s*(season|series)\s*\d+.*$/i, '').trim();
-	const shows = (await api<SearchResponse<TvResult>>('/search/tv', { query: show })).results;
+	const shows = await searchShows();
 	const tvHit = exact(shows, show);
 	if (tvHit) return tv(tvHit);
 	const fuzzyMovie = loose(open, title);
@@ -140,7 +153,9 @@ async function lookup({ title, year, episodeYear }: Wanted): Promise<TmdbMatch |
 // Films only mentioned in passing ("what we watched", descriptions, premium covers).
 // There's no context to go on, so only exact title matches count; see lookupMention.
 const mentionKey = (title: string, year: number | null) => `m|${title.toLowerCase()}|${year ?? ''}`;
-const mentions = new Map<string, { title: string; year: number | null }>();
+// latest: the year of the last episode to mention it; nothing released after that can be what they meant.
+type MentionItem = { title: string; year: number | null; latest: number };
+const mentions = new Map<string, MentionItem>();
 for (const e of episodes)
 	for (const { title, year } of [
 		...(e.watched ?? []),
@@ -151,16 +166,26 @@ for (const e of episodes)
 			return m ? { title: m[1], year: +m[2] } : { title: c.title, year: null };
 		}),
 	]) {
-		if (title.length >= 2) mentions.set(mentionKey(title, year), { title, year });
+		if (title.length < 2) continue;
+		const k = mentionKey(title, year);
+		const latest = Math.max(mentions.get(k)?.latest ?? 0, +e.date.slice(0, 4));
+		mentions.set(k, { title, year, latest });
 	}
 
-async function lookupMention({ title, year }: { title: string; year: number | null }): Promise<TmdbMatch | null> {
+async function lookupMention({ title, year, latest }: MentionItem): Promise<TmdbMatch | null> {
+	// Released by the last episode that mentions it (a year's grace for festival films and trailers).
+	const released = (date?: string) => !date || +date.slice(0, 4) <= latest + 1;
 	const films = await api<SearchResponse<MovieResult>>('/search/movie', { query: title, primary_release_year: year, include_adult: 'false' });
-	const film = mostRated(films.results, title);
-	if (film) return movie(film);
+	const film = mostRated(films.results.filter((r) => released(r.release_date)), title);
 	const show = title.replace(/\s*[:\-–]\s*(season|series)\s*\d+.*$/i, '').replace(/\s+season\s+\d+$/i, '').trim();
 	const shows = await api<SearchResponse<TvResult>>('/search/tv', { query: show });
-	const series = mostRated(shows.results, show);
+	// "The Bear (1988)" names the film's year, so a show only counts if it began that year.
+	const series = mostRated(
+		shows.results.filter((r) => released(r.first_air_date) && (!year || r.first_air_date?.startsWith(String(year)))),
+		show,
+	);
+	// The better-known of a film and a show with the same name ("Black Mirror" is the series).
+	if (film && (!series || film.vote_count >= series.vote_count)) return movie(film);
 	return series ? tv(series) : null;
 }
 
@@ -195,6 +220,28 @@ for (const [k, item] of wanted)
 for (const [k, item] of mentions)
 	if (!(k in cache) || (retry && cache[k] === null))
 		jobs.push({ key: k, label: item.title, run: async () => void (cache[k] = await lookupMention(item)) });
+// --recheck: mentions matched to something newer than the episodes, and review matches to a film from
+// another year that a TV show of the same name might beat, get looked up again. Reviews that named a year, or matched a film from the review's
+// own year, were never in doubt.
+// Keeps the cached entry (and its IMDb id) when the match didn't change.
+const keepSame = (k: string, next: TmdbMatch | null) => {
+	const prev = cache[k];
+	cache[k] = prev && next && prev.type === next.type && prev.id === next.id ? prev : next;
+};
+if (recheck)
+	for (const [k, match] of Object.entries(cache)) {
+		if (onlyKeys && !onlyKeys.has(k)) continue;
+		if (jobs.some((j) => j.key === k)) continue;
+		if (k.startsWith('m|')) {
+			const item = mentions.get(k);
+			if (item && (onlyKeys || (match?.year ?? 0) > item.latest + 1)) jobs.push({ key: k, label: item.title, run: async () => keepSame(k, await lookupMention(item)) });
+			continue;
+		}
+		if (!onlyKeys && match?.type !== 'movie') continue;
+		const item = wanted.get(k);
+		if (item && !item.year && match?.year && !(item.episodeYear - 1 <= match.year && match.year <= item.episodeYear))
+			jobs.push({ key: k, label: item.title, run: async () => keepSame(k, await lookup(item)) });
+	}
 console.log(`tmdb: ${wanted.size} reviewed and ${mentions.size} mentioned titles, ${jobs.length} to look up`);
 
 let done = 0;

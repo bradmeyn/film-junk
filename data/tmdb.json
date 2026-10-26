@@ -12302,13 +12302,13 @@
 		"imdb": "tt32843349"
 	},
 	"m|the hawk|": {
-		"type": "movie",
-		"id": 1197406,
+		"type": "tv",
+		"id": 254528,
 		"title": "The Hawk",
-		"year": 2023,
-		"poster": "/nUCkSoWsL9L77HdLFLCTiEyJlO7.jpg",
-		"votes": 51,
-		"imdb": "tt29485013"
+		"year": 2026,
+		"poster": "/6XCbqv7t0rYE2U1jzjh52fBxczj.jpg",
+		"votes": 57,
+		"imdb": "tt27550719"
 	},
 	"m|the odyssey|": {
 		"type": "movie",
@@ -12392,13 +12392,13 @@
 		"imdb": "tt9308022"
 	},
 	"m|supergirl|": {
-		"type": "movie",
-		"id": 1081003,
+		"type": "tv",
+		"id": 62688,
 		"title": "Supergirl",
-		"year": 2026,
-		"poster": "/uhzRnTW4DM13UQBvZP3eVNzQTuz.jpg",
-		"votes": 2444,
-		"imdb": "tt8814476"
+		"year": 2015,
+		"poster": "/90mSQajf4STPROA6H7Hh8OvyWdK.jpg",
+		"votes": 4487,
+		"imdb": "tt4016454"
 	},
 	"m|over your dead body|": {
 		"type": "movie",
@@ -12832,13 +12832,13 @@
 		"imdb": "tt0093843"
 	},
 	"m|coach|": {
-		"type": "movie",
-		"id": 39213,
+		"type": "tv",
+		"id": 2455,
 		"title": "Coach",
-		"year": 2010,
-		"poster": "/dKdoed1EGykgOrqK1GlqNSo0r1Z.jpg",
-		"votes": 24,
-		"imdb": "tt1334521"
+		"year": 1989,
+		"poster": "/jxfsNMQxlgsoUoLOTF4CB6s5gxO.jpg",
+		"votes": 67,
+		"imdb": "tt0096560"
 	},
 	"m|the chronology of 9/11|": null,
 	"m|a knight of the seven kingdoms|": {
@@ -12985,13 +12985,13 @@
 		"imdb": "tt1219289"
 	},
 	"m|love is blind|": {
-		"type": "movie",
-		"id": 345919,
+		"type": "tv",
+		"id": 99353,
 		"title": "Love Is Blind",
-		"year": 2019,
-		"poster": "/z6AJP63GQCt0EIiDOm4H5sYLInv.jpg",
-		"votes": 21,
-		"imdb": "tt4712086"
+		"year": 2020,
+		"poster": "/8XhV6ke8ltRYoG4SYmibF2bGwrC.jpg",
+		"votes": 115,
+		"imdb": "tt11704040"
 	},
 	"m|zodiac killer project|": {
 		"type": "movie",
@@ -13013,13 +13013,13 @@
 	},
 	"m|tau zero (book)|": null,
 	"m|the plague|": {
-		"type": "movie",
-		"id": 1370814,
+		"type": "tv",
+		"id": 76303,
 		"title": "The Plague",
-		"year": 2025,
-		"poster": "/b0RWuqzgvyfiIYU4QfgJHhmxZF4.jpg",
-		"votes": 141,
-		"imdb": "tt32792934"
+		"year": 2018,
+		"poster": "/hJMvxbOXCe07J9PsBfHcrXzvOYg.jpg",
+		"votes": 240,
+		"imdb": "tt5868826"
 	},
 	"m|the plumber|": {
 		"type": "movie",
@@ -13369,13 +13369,13 @@
 		"imdb": "tt1508290"
 	},
 	"m|stranger things|": {
-		"type": "movie",
-		"id": 182026,
+		"type": "tv",
+		"id": 66732,
 		"title": "Stranger Things",
-		"year": 2013,
-		"poster": "/4TKdguyacjYrC1Hnbi3PjSP8r3M.jpg",
-		"votes": 79,
-		"imdb": "tt1468737"
+		"year": 2016,
+		"poster": "/uOOtwVbSr4QDjAGIifLDwpb2Pdl.jpg",
+		"votes": 22031,
+		"imdb": "tt4574334"
 	},
 	"m|one of one|": null,
 	"m|song sung blue|": {
@@ -13520,13 +13520,13 @@
 		"imdb": "tt0100142"
 	},
 	"m|night court|": {
-		"type": "movie",
-		"id": 117004,
+		"type": "tv",
+		"id": 162,
 		"title": "Night Court",
-		"year": 1932,
-		"poster": "/9JyBQTPInoo0gNcegKhFGPPbTBp.jpg",
-		"votes": 10,
-		"imdb": "tt0023268"
+		"year": 1984,
+		"poster": "/bpEVtr4NCkbmTdponemKSjt9POc.jpg",
+		"votes": 151,
+		"imdb": "tt0086770"
 	},
 	"m|jackie brown|": {
 		"type": "movie",
@@ -14037,13 +14037,13 @@
 		"imdb": "tt27813235"
 	},
 	"m|adolescence|": {
-		"type": "movie",
-		"id": 434398,
+		"type": "tv",
+		"id": 249042,
 		"title": "Adolescence",
-		"year": 2018,
-		"poster": "/k6FClwc5rxbFf1PXsH8ZJxMQYvj.jpg",
-		"votes": 30,
-		"imdb": "tt3220900"
+		"year": 2025,
+		"poster": "/20i4nShZZg1g1VFHSB8xpaYM4r7.jpg",
+		"votes": 1844,
+		"imdb": "tt31806037"
 	},
 	"m|unknown number: the high school catfish|": {
 		"type": "movie",
@@ -14104,13 +14104,13 @@
 		"imdb": "tt0368008"
 	},
 	"m|peacemaker|": {
-		"type": "movie",
-		"id": 78242,
+		"type": "tv",
+		"id": 110492,
 		"title": "Peacemaker",
-		"year": 1990,
-		"poster": "/vyDSoAwUfEVOEJOG8vLJEhUfAbC.jpg",
-		"votes": 16,
-		"imdb": "tt0100343"
+		"year": 2022,
+		"poster": "/yb4F1Oocq8GfQt6iIuAgYEBokhG.jpg",
+		"votes": 3602,
+		"imdb": "tt13146488"
 	},
 	"m|the yogurt shop murders|": {
 		"type": "tv",
@@ -14389,13 +14389,13 @@
 		"imdb": "tt35435624"
 	},
 	"m|invincible|": {
-		"type": "movie",
-		"id": 11652,
-		"title": "Invincible",
-		"year": 2006,
-		"poster": "/oEaUMn5POAiMLnU6hKOBKoZbDpo.jpg",
-		"votes": 1071,
-		"imdb": "tt0445990"
+		"type": "tv",
+		"id": 95557,
+		"title": "INVINCIBLE",
+		"year": 2021,
+		"poster": "/4tblBrslcKSifMVZ3TmtT2ukMor.jpg",
+		"votes": 6137,
+		"imdb": "tt6741278"
 	},
 	"m|pavements|": {
 		"type": "movie",
@@ -14770,13 +14770,13 @@
 	},
 	"m|review: slumdog millionaire|": null,
 	"m|shameless|": {
-		"type": "movie",
-		"id": 133521,
+		"type": "tv",
+		"id": 34307,
 		"title": "Shameless",
-		"year": 2012,
-		"poster": "/x3Fkr2cGZa8PYIAjFskbHOPmdQr.jpg",
-		"votes": 71,
-		"imdb": "tt1927068"
+		"year": 2011,
+		"poster": "/Yi3WVT6hOkPahOwwvmLmif1jhs.jpg",
+		"votes": 3561,
+		"imdb": "tt1586680"
 	},
 	"m|werner herzog: radical dreamer|": {
 		"type": "movie",
@@ -14788,13 +14788,13 @@
 		"imdb": "tt21917088"
 	},
 	"m|the rehearsal|": {
-		"type": "movie",
-		"id": 401278,
+		"type": "tv",
+		"id": 204284,
 		"title": "The Rehearsal",
-		"year": 2016,
-		"poster": "/ogCTDqPQ52BcbnTX8VMetNsljEH.jpg",
-		"votes": 19,
-		"imdb": "tt5820812"
+		"year": 2022,
+		"poster": "/mIevNYxovnH4sR22qkUmAgS5vdv.jpg",
+		"votes": 289,
+		"imdb": "tt10802170"
 	},
 	"m|airport|": {
 		"type": "movie",
@@ -14806,13 +14806,13 @@
 		"imdb": "tt0065377"
 	},
 	"m|black mirror|": {
-		"type": "movie",
-		"id": 452830,
+		"type": "tv",
+		"id": 42009,
 		"title": "Black Mirror",
 		"year": 2011,
-		"poster": "/fYi4BQhoj2ay3oJwT2x8kMNHpds.jpg",
-		"votes": 72,
-		"imdb": "tt2492564"
+		"poster": "/seN6rRfN0I6n8iDXjlSMk1QjNcq.jpg",
+		"votes": 6631,
+		"imdb": "tt2085059"
 	},
 	"m|final destination|": {
 		"type": "movie",
@@ -15032,13 +15032,13 @@
 	},
 	"m|review: sinners|": null,
 	"m|the last of us|": {
-		"type": "movie",
-		"id": 408417,
+		"type": "tv",
+		"id": 100088,
 		"title": "The Last of Us",
-		"year": 2018,
-		"poster": "/1slVHMbfGA62sHdbvpO5cfglDuU.jpg",
-		"votes": 11,
-		"imdb": "tt6589330"
+		"year": 2023,
+		"poster": "/dmo6TYuuJgaYinXBPjrgG9mB5od.jpg",
+		"votes": 7448,
+		"imdb": "tt3581920"
 	},
 	"m|spoiler discussion: sinners|": null,
 	"m|light & magic|": {
@@ -15181,13 +15181,13 @@
 		"imdb": "tt0069121"
 	},
 	"m|temptation island|": {
-		"type": "movie",
-		"id": 206271,
+		"type": "tv",
+		"id": 85904,
 		"title": "Temptation Island",
-		"year": 1980,
-		"poster": "/yk0w02ab0jSECOfzpn7j7awRXgj.jpg",
-		"votes": 10,
-		"imdb": "tt0376242"
+		"year": 2019,
+		"poster": "/7ABC84sjxDZ5qCmemulT7ItzXhi.jpg",
+		"votes": 27,
+		"imdb": "tt8694398"
 	},
 	"m|the full monty|": {
 		"type": "movie",
@@ -15261,13 +15261,13 @@
 		"imdb": "tt0117666"
 	},
 	"m|severance|": {
-		"type": "movie",
-		"id": 5072,
+		"type": "tv",
+		"id": 95396,
 		"title": "Severance",
-		"year": 2006,
-		"poster": "/yg1XRTyH5knwh3Tnij2sUV0ZZ5w.jpg",
-		"votes": 693,
-		"imdb": "tt0464196"
+		"year": 2022,
+		"poster": "/pPHpeI2X1qEd1CS1SeyrdhZ4qnT.jpg",
+		"votes": 3064,
+		"imdb": "tt11280740"
 	},
 	"m|2073|": {
 		"type": "movie",
@@ -16241,13 +16241,13 @@
 		"imdb": "tt0117774"
 	},
 	"m|spartacus|": {
-		"type": "movie",
-		"id": 967,
+		"type": "tv",
+		"id": 46296,
 		"title": "Spartacus",
-		"year": 1960,
-		"poster": "/nqU4xAn3ygWA4fvXSBufRwdGhpr.jpg",
-		"votes": 2461,
-		"imdb": "tt0054331"
+		"year": 2010,
+		"poster": "/c2GKN4VHCj1dnjFMANRpGkCVBae.jpg",
+		"votes": 3095,
+		"imdb": "tt1442449"
 	},
 	"m|star wars: skeleton crew|": {
 		"type": "tv",
@@ -16484,13 +16484,13 @@
 		"imdb": "tt0100224"
 	},
 	"m|this is the zodiac speaking|": {
-		"type": "movie",
-		"id": 69170,
+		"type": "tv",
+		"id": 272299,
 		"title": "This Is the Zodiac Speaking",
-		"year": 2008,
-		"poster": "/3VT8OcUPzZPIPdl0pzmvgelOLHJ.jpg",
-		"votes": 12,
-		"imdb": "tt1560206"
+		"year": 2024,
+		"poster": "/crvYcZTN7TTEa85nClY3JqL2F0O.jpg",
+		"votes": 82,
+		"imdb": "tt33480540"
 	},
 	"m|gold|": {
 		"type": "movie",
@@ -16674,13 +16674,13 @@
 		"imdb": "tt0200659"
 	},
 	"m|the last dance|": {
-		"type": "movie",
-		"id": 1226141,
+		"type": "tv",
+		"id": 79525,
 		"title": "The Last Dance",
-		"year": 2024,
-		"poster": "/9Ret10DkYVs45Ooa8yvU23x3L5i.jpg",
-		"votes": 83,
-		"imdb": "tt31648020"
+		"year": 2020,
+		"poster": "/oVf4xGGbDtwVHiKn8uTuSriY7PH.jpg",
+		"votes": 1552,
+		"imdb": "tt8420184"
 	},
 	"m|hellraiser|": {
 		"type": "movie",
@@ -17428,13 +17428,13 @@
 	},
 	"m|spoiler discussion: alien romulus|": null,
 	"m|the flash|": {
-		"type": "movie",
-		"id": 298618,
+		"type": "tv",
+		"id": 60735,
 		"title": "The Flash",
-		"year": 2023,
-		"poster": "/rktDFPbfHfUbArZ6OOOKsXcv0Bm.jpg",
-		"votes": 5280,
-		"imdb": "tt0439572"
+		"year": 2014,
+		"poster": "/yZevl2vHQgmosfwUdVNzviIfaWS.jpg",
+		"votes": 11827,
+		"imdb": "tt3107288"
 	},
 	"m|rocky ultimate knockout collection|": null,
 	"m|review: trap|": null,
@@ -17791,13 +17791,13 @@
 		"imdb": "tt30835128"
 	},
 	"m|the mole|": {
-		"type": "movie",
-		"id": 80007,
+		"type": "tv",
+		"id": 210939,
 		"title": "The Mole",
-		"year": 2011,
-		"poster": "/rVxUtQH9Mt5Uwrlwr9b3p4EzBis.jpg",
-		"votes": 25,
-		"imdb": "tt1994537"
+		"year": 2022,
+		"poster": "/dmZG1YVYLnRARzAZYFExJltQigy.jpg",
+		"votes": 69,
+		"imdb": "tt21822078"
 	},
 	"m|review: maxxxine|": null,
 	"m|klute|": {
@@ -17942,13 +17942,13 @@
 		"imdb": "tt0099329"
 	},
 	"m|lifeline|": {
-		"type": "movie",
-		"id": 118442,
+		"type": "tv",
+		"id": 74547,
 		"title": "Lifeline",
-		"year": 1997,
-		"poster": "/5QUI0mvYQqPsld6uswTcOeYYdpc.jpg",
-		"votes": 25,
-		"imdb": "tt0120115"
+		"year": 2017,
+		"poster": "/hSOGzV7NBKxcg6WxmzKVZmCApvf.jpg",
+		"votes": 42,
+		"imdb": "tt7034646"
 	},
 	"m|ren faire|": {
 		"type": "tv",
@@ -18120,13 +18120,13 @@
 	},
 	"m|spoiler discussion: furiosa: a mad max saga|": null,
 	"m|dark matter|": {
-		"type": "movie",
-		"id": 18031,
+		"type": "tv",
+		"id": 62425,
 		"title": "Dark Matter",
-		"year": 2008,
-		"poster": "/zu5G3J4ITaGzwGu4z6FHa32XbkK.jpg",
-		"votes": 70,
-		"imdb": "tt0416675"
+		"year": 2015,
+		"poster": "/oWYOFBvIMkW64n51uD4mdje6k2u.jpg",
+		"votes": 902,
+		"imdb": "tt4159076"
 	},
 	"m|mad max: fury road|": {
 		"type": "movie",
@@ -18699,13 +18699,13 @@
 		"imdb": "tt0362478"
 	},
 	"m|impulse|": {
-		"type": "movie",
-		"id": 14157,
+		"type": "tv",
+		"id": 78670,
 		"title": "Impulse",
-		"year": 1984,
-		"poster": "/80SZWcSwdAAym8mHN71RTL3l3JI.jpg",
-		"votes": 54,
-		"imdb": "tt0087464"
+		"year": 2018,
+		"poster": "/sMZMj1gCDZA9eZzHpEmDMpQ0Iur.jpg",
+		"votes": 319,
+		"imdb": "tt6160506"
 	},
 	"m|twilight|1990": {
 		"type": "movie",
@@ -18820,13 +18820,13 @@
 		"imdb": "tt21192142"
 	},
 	"m|for all mankind|": {
-		"type": "movie",
-		"id": 20423,
+		"type": "tv",
+		"id": 87917,
 		"title": "For All Mankind",
-		"year": 1989,
-		"poster": "/7k8ylisWiEGxdRSlAf6v4PWiAjH.jpg",
-		"votes": 164,
-		"imdb": "tt0097372"
+		"year": 2019,
+		"poster": "/JP3DItWMbrrLiKR5AYUfpsNf2b.jpg",
+		"votes": 1072,
+		"imdb": "tt7772588"
 	},
 	"m|film junk re-review: ready player one|": null,
 	"m|curse of the dog god|": {
@@ -18839,13 +18839,13 @@
 		"imdb": "tt1987590"
 	},
 	"m|sanctuary|": {
-		"type": "movie",
-		"id": 870518,
+		"type": "tv",
+		"id": 1310,
 		"title": "Sanctuary",
-		"year": 2023,
-		"poster": "/yGQAZupyZgT2ESbBSMZ9R0OBToo.jpg",
-		"votes": 269,
-		"imdb": "tt15364972"
+		"year": 2008,
+		"poster": "/7KIBYETkRSfHNsfWAWAt7uq7oGm.jpg",
+		"votes": 313,
+		"imdb": "tt0965394"
 	},
 	"m|the brothers sun|": {
 		"type": "tv",
@@ -20324,13 +20324,13 @@
 		"imdb": "tt5090568"
 	},
 	"m|hijack|": {
-		"type": "movie",
-		"id": 142583,
+		"type": "tv",
+		"id": 198102,
 		"title": "Hijack",
-		"year": 1999,
-		"poster": "/A31RljKQ4beUL6sztWwlSEULc3n.jpg",
-		"votes": 14,
-		"imdb": "tt0167194"
+		"year": 2023,
+		"poster": "/2C51clnxQdiqPDeqQlXcUx70hse.jpg",
+		"votes": 888,
+		"imdb": "tt19854762"
 	},
 	"m|the beanie bubble|": {
 		"type": "movie",
@@ -20394,7 +20394,7 @@
 		"title": "The Bear",
 		"year": 1988,
 		"poster": "/ry4A1Y2udvqyDlVHLtSeP1u9qwJ.jpg",
-		"votes": 541,
+		"votes": 545,
 		"imdb": "tt0095800"
 	},
 	"m|cold light of day|": {
@@ -21273,13 +21273,13 @@
 	"m|review: evil dead rise|": null,
 	"m|45 - other stuff we watched: evil dead|2013": null,
 	"m|pitch|": {
-		"type": "movie",
-		"id": 52862,
+		"type": "tv",
+		"id": 67147,
 		"title": "Pitch",
-		"year": 1997,
-		"poster": "/pwL7faAN2Rei2gOZvGejNqcDhIi.jpg",
-		"votes": 23,
-		"imdb": "tt0125459"
+		"year": 2016,
+		"poster": "/qTK0N1qLBWzwxuG0DH3cdYXghIT.jpg",
+		"votes": 71,
+		"imdb": "tt5500158"
 	},
 	"m|the china syndrome|": {
 		"type": "movie",
@@ -21300,13 +21300,13 @@
 		"imdb": "tt14923260"
 	},
 	"m|beef|": {
-		"type": "movie",
-		"id": 65768,
-		"title": "Beef",
-		"year": 2003,
-		"poster": "/yZ0llk4yGZDn8YHL8ehK96kUEh4.jpg",
-		"votes": 18,
-		"imdb": "tt0361354"
+		"type": "tv",
+		"id": 154385,
+		"title": "BEEF",
+		"year": 2023,
+		"poster": "/25ih0Xq2zWbxhhKxwhvswKYQyEr.jpg",
+		"votes": 1061,
+		"imdb": "tt14403178"
 	},
 	"m|cam|": {
 		"type": "movie",
@@ -21820,13 +21820,13 @@
 		"imdb": "tt8178634"
 	},
 	"m|happy valley|": {
-		"type": "movie",
-		"id": 250745,
+		"type": "tv",
+		"id": 61244,
 		"title": "Happy Valley",
 		"year": 2014,
-		"poster": "/fZ2a9aBJbU8lQUWojGQxJ2JBXQQ.jpg",
-		"votes": 34,
-		"imdb": "tt2171902"
+		"poster": "/xZK5iQSrn2mouZEk2PwyLPCwa4u.jpg",
+		"votes": 430,
+		"imdb": "tt3428912"
 	},
 	"m|deep rising|": {
 		"type": "movie",
@@ -21847,13 +21847,13 @@
 		"imdb": "tt0102789"
 	},
 	"m|the last man on earth|": {
-		"type": "movie",
-		"id": 21159,
+		"type": "tv",
+		"id": 61888,
 		"title": "The Last Man on Earth",
-		"year": 1964,
-		"poster": "/tTnwBklPiWp5roxtHUO2yHXr9Fw.jpg",
-		"votes": 499,
-		"imdb": "tt0058700"
+		"year": 2015,
+		"poster": "/vONS5oceFmM93hsS3q3mvQ1iBC3.jpg",
+		"votes": 1009,
+		"imdb": "tt3230454"
 	},
 	"m|the day after trinity|": {
 		"type": "movie",
@@ -21979,13 +21979,13 @@
 		"imdb": "tt24509990"
 	},
 	"m|poker face|": {
-		"type": "movie",
-		"id": 842934,
+		"type": "tv",
+		"id": 120998,
 		"title": "Poker Face",
-		"year": 2022,
-		"poster": "/8a2MIBV9LuPYbF5rOEAohjjMz9P.jpg",
-		"votes": 451,
-		"imdb": "tt14714980"
+		"year": 2023,
+		"poster": "/8Xm5dyMQC9whMJKnGdFugUAW73C.jpg",
+		"votes": 564,
+		"imdb": "tt14269590"
 	},
 	"m|gladbeck: the hostage crisis|": {
 		"type": "movie",
@@ -22329,12 +22329,12 @@
 	},
 	"m|deep cover|": {
 		"type": "movie",
-		"id": 1239193,
+		"id": 20676,
 		"title": "Deep Cover",
-		"year": 2025,
-		"poster": "/yYfaChljpg6eo9ZlFyTmI81PMZC.jpg",
-		"votes": 652,
-		"imdb": "tt31121295"
+		"year": 1992,
+		"poster": "/etr2mCm7gMufAJkSLuB23XocDtd.jpg",
+		"votes": 282,
+		"imdb": "tt0104073"
 	},
 	"m|eo|": {
 		"type": "movie",
@@ -22515,13 +22515,13 @@
 		"imdb": "tt11827628"
 	},
 	"m|the chair|": {
-		"type": "movie",
-		"id": 1118403,
+		"type": "tv",
+		"id": 99657,
 		"title": "The Chair",
-		"year": 2022,
-		"poster": "/wzMpVENfY5chcAo3Nb9UrXy75Ky.jpg",
-		"votes": 58,
-		"imdb": "tt15408560"
+		"year": 2021,
+		"poster": "/kz14K7vI2KNGyfTyBnYjBpA0pzQ.jpg",
+		"votes": 164,
+		"imdb": "tt11834150"
 	},
 	"m|the good nurse|": {
 		"type": "movie",
@@ -22869,12 +22869,12 @@
 	"m|review: moonage daydream|": null,
 	"m|speak no evil|": {
 		"type": "movie",
-		"id": 1114513,
+		"id": 833339,
 		"title": "Speak No Evil",
-		"year": 2024,
-		"poster": "/dA4N6uWOnEMgbxXwFX7qX7adzs8.jpg",
-		"votes": 2359,
-		"imdb": "tt27534307"
+		"year": 2022,
+		"poster": "/ukYuuFzPTumN1QNpQyz863bcNvr.jpg",
+		"votes": 1203,
+		"imdb": "tt14253846"
 	},
 	"m|the world is yours|": {
 		"type": "movie",
@@ -23075,12 +23075,12 @@
 	},
 	"m|players|": {
 		"type": "movie",
-		"id": 843617,
+		"id": 83382,
 		"title": "Players",
-		"year": 2024,
-		"poster": "/eA94hAGntLm7Lfol5FQJNxd53Hw.jpg",
-		"votes": 332,
-		"imdb": "tt14833464"
+		"year": 2012,
+		"poster": "/v1EhvuG6PohOoW3qWbBD1rudYGN.jpg",
+		"votes": 69,
+		"imdb": "tt1784589"
 	},
 	"m|untold: the girlfriend who didn't exist|": {
 		"type": "tv",
@@ -23469,13 +23469,13 @@
 	"m|review: marcel the shell with shoes on|": null,
 	"m|the orville: new horizons|": null,
 	"m|mind over murder|": {
-		"type": "movie",
-		"id": 353999,
+		"type": "tv",
+		"id": 203282,
 		"title": "Mind Over Murder",
-		"year": 1979,
-		"poster": "/agsenRZ1Fjb13Cm8eptJXT7ueww.jpg",
-		"votes": 10,
-		"imdb": "tt0079559"
+		"year": 2022,
+		"poster": "/qDhVWwcRCXSFJuIOfLyvj1buTzY.jpg",
+		"votes": 20,
+		"imdb": "tt20782578"
 	},
 	"m|step brothers|": {
 		"type": "movie",
@@ -23505,13 +23505,13 @@
 		"imdb": "tt0116922"
 	},
 	"m|barry|": {
-		"type": "movie",
-		"id": 397717,
+		"type": "tv",
+		"id": 73107,
 		"title": "Barry",
-		"year": 2016,
-		"poster": "/1Dg6phOePOHc4DHA5I7qjXB3fvA.jpg",
-		"votes": 208,
-		"imdb": "tt5477566"
+		"year": 2018,
+		"poster": "/j1XpwD11f0BAEI7pX6UdMhUVX2F.jpg",
+		"votes": 1245,
+		"imdb": "tt5348176"
 	},
 	"m|the sea beast|": {
 		"type": "movie",
@@ -24073,15 +24073,7 @@
 		"votes": 2907,
 		"imdb": "tt1253864"
 	},
-	"m|pg: psycho goreman|": {
-		"type": "movie",
-		"id": 670428,
-		"title": "PG: Psycho Goreman",
-		"year": 2020,
-		"poster": "/28Y3pxfkRZMhLsw4if6e3J0HD7Q.jpg",
-		"votes": 459,
-		"imdb": "tt11252440"
-	},
+	"m|pg: psycho goreman|": null,
 	"m|review: the northman|": null,
 	"m|wild wild country|": {
 		"type": "tv",
@@ -24891,13 +24883,13 @@
 		"imdb": "tt0272338"
 	},
 	"m|hawkeye|": {
-		"type": "movie",
-		"id": 132769,
+		"type": "tv",
+		"id": 88329,
 		"title": "Hawkeye",
-		"year": 1988,
-		"poster": "/sM5meMPMjr6nmw9bu17Jq0zga9s.jpg",
-		"votes": 11,
-		"imdb": "tt0187131"
+		"year": 2021,
+		"poster": "/ct5pNE5dDHryHLDnxyZPYcqO1sz.jpg",
+		"votes": 3890,
+		"imdb": "tt10160804"
 	},
 	"m|mystery alaska|": {
 		"type": "movie",
@@ -25303,12 +25295,12 @@
 	"m|review: dune|": null,
 	"m|dracula|": {
 		"type": "movie",
-		"id": 1246049,
+		"id": 138,
 		"title": "Dracula",
-		"year": 2025,
-		"poster": "/ykyRfv7JDofLxXLAwtLXaSuaFfM.jpg",
-		"votes": 1501,
-		"imdb": "tt31434030"
+		"year": 1931,
+		"poster": "/ueVSPt7vAba0XScHWTDWS5tNxYX.jpg",
+		"votes": 1438,
+		"imdb": "tt0021814"
 	},
 	"m|shadow in the cloud|": {
 		"type": "movie",
@@ -25360,12 +25352,12 @@
 	"m|spoiler discussion: squid game|": null,
 	"m|frankenstein|": {
 		"type": "movie",
-		"id": 1062722,
+		"id": 3035,
 		"title": "Frankenstein",
-		"year": 2025,
-		"poster": "/g4JtvGlQO7DByTI6frUobqvSL3R.jpg",
-		"votes": 3882,
-		"imdb": "tt1312221"
+		"year": 1931,
+		"poster": "/mu6wHwH0IwCCaEYtpqujuPJYat1.jpg",
+		"votes": 1878,
+		"imdb": "tt0021884"
 	},
 	"m|paul graves williams interrogation video werewolves within|": null,
 	"m|review: halloween kills|": null,
@@ -25435,13 +25427,13 @@
 		"imdb": "tt0096936"
 	},
 	"m|raised by wolves|": {
-		"type": "movie",
-		"id": 290656,
+		"type": "tv",
+		"id": 85723,
 		"title": "Raised by Wolves",
-		"year": 2014,
-		"poster": "/rrOTHRNKw7l0FdPwQUqcH406xb4.jpg",
-		"votes": 39,
-		"imdb": "tt2350852"
+		"year": 2020,
+		"poster": "/mTvSVKMn2Npf6zvYNbGMJnYLtvp.jpg",
+		"votes": 1869,
+		"imdb": "tt9170108"
 	},
 	"m|halloween 1-5|": null,
 	"m|review: no time to die|": null,
@@ -25566,15 +25558,7 @@
 		"votes": 497,
 		"imdb": "tt0057603"
 	},
-	"m|saloum|": {
-		"type": "movie",
-		"id": 858096,
-		"title": "Saloum",
-		"year": 2023,
-		"poster": "/yEWO77ClYNqNGMg98v2XNzV8Vx1.jpg",
-		"votes": 44,
-		"imdb": "tt10756184"
-	},
+	"m|saloum|": null,
 	"m|review: free guy|": null,
 	"m|untold: crime & penalties|": {
 		"type": "movie",
@@ -26221,13 +26205,13 @@
 	"m|spoiler discussion: loki|": null,
 	"m|review: spiral|": null,
 	"m|er|": {
-		"type": "movie",
-		"id": 975399,
-		"title": "Er",
-		"year": 2020,
-		"poster": "/c1KVTD4jJQiwQLHrb4Wpo7tARhP.jpg",
-		"votes": 36,
-		"imdb": "tt18358150"
+		"type": "tv",
+		"id": 4588,
+		"title": "ER",
+		"year": 1994,
+		"poster": "/fuS63AoFTkprf8PFeL1f8z68zJr.jpg",
+		"votes": 974,
+		"imdb": "tt0108757"
 	},
 	"m|the verdict|": {
 		"type": "movie",
@@ -26719,13 +26703,13 @@
 		"imdb": "tt0145681"
 	},
 	"m|sasquatch|": {
-		"type": "movie",
-		"id": 29883,
+		"type": "tv",
+		"id": 118556,
 		"title": "Sasquatch",
-		"year": 2002,
-		"poster": "/rPHneBW9Gles5QsFzSduoLAZVhy.jpg",
-		"votes": 28,
-		"imdb": "tt0265944"
+		"year": 2021,
+		"poster": "/eNQseYNU7JOVThxMrRTpAIaDLOl.jpg",
+		"votes": 64,
+		"imdb": "tt14035948"
 	},
 	"m|chain reaction|": {
 		"type": "movie",
@@ -27081,12 +27065,12 @@
 	},
 	"m|road house|": {
 		"type": "movie",
-		"id": 359410,
+		"id": 10135,
 		"title": "Road House",
-		"year": 2024,
-		"poster": "/fDEdtS4P0gJsxHDIt8dG8TR5dx1.jpg",
-		"votes": 3252,
-		"imdb": "tt3359350"
+		"year": 1989,
+		"poster": "/n7Ra0BRYQVn47kiqOMyS8vdY0QS.jpg",
+		"votes": 1622,
+		"imdb": "tt0098206"
 	},
 	"m|judas and the black messiah|": {
 		"type": "movie",
@@ -27392,13 +27376,13 @@
 		"imdb": "tt0139809"
 	},
 	"m|tiger|": {
-		"type": "movie",
-		"id": 1259918,
+		"type": "tv",
+		"id": 116455,
 		"title": "Tiger",
-		"year": 2024,
-		"poster": "/pHWcpdSFDKFnxZUF66MPfJRaA5a.jpg",
-		"votes": 17,
-		"imdb": "tt31497750"
+		"year": 2021,
+		"poster": "/t7pdRvx5WbPakHCs9BIOgSeW2vg.jpg",
+		"votes": 32,
+		"imdb": "tt12688688"
 	},
 	"m|framing britney spears|": {
 		"type": "movie",
@@ -28671,13 +28655,13 @@
 		"imdb": "tt1077368"
 	},
 	"m|high score|": {
-		"type": "movie",
-		"id": 52732,
+		"type": "tv",
+		"id": 106754,
 		"title": "High Score",
-		"year": 2006,
-		"poster": "/jG5YwZpqWABlEyuKiQLaJybtCrj.jpg",
-		"votes": 13,
-		"imdb": "tt0808299"
+		"year": 2020,
+		"poster": "/ooN2RcOSi2tpfL1P6wCRI7LGq8I.jpg",
+		"votes": 276,
+		"imdb": "tt12759400"
 	},
 	"m|american gangster|": {
 		"type": "movie",
@@ -28701,12 +28685,12 @@
 	"m|headlines: the batman trailer|": null,
 	"m|pandemonium|": {
 		"type": "movie",
-		"id": 1080512,
+		"id": 84784,
 		"title": "Pandemonium",
-		"year": 2024,
-		"poster": "/TQ4WcuSgwdSdM7DtBKQdjBDGOZ.jpg",
-		"votes": 34,
-		"imdb": "tt22299048"
+		"year": 1982,
+		"poster": "/3e2POUduuwxQMejbmusZUtfkgeJ.jpg",
+		"votes": 32,
+		"imdb": "tt0084464"
 	},
 	"m|vivarium|": {
 		"type": "movie",
@@ -29070,13 +29054,13 @@
 		"imdb": "tt0039689"
 	},
 	"m|family ties|": {
-		"type": "movie",
-		"id": 64223,
+		"type": "tv",
+		"id": 496,
 		"title": "Family Ties",
-		"year": 2006,
-		"poster": "/gIjYHaP98yGEPpJd7KsPX4uifom.jpg",
-		"votes": 18,
-		"imdb": "tt0823462"
+		"year": 1982,
+		"poster": "/vxERANdozlMKgl7VqGxbAvZ6u1O.jpg",
+		"votes": 280,
+		"imdb": "tt0083413"
 	},
 	"m|review: palm springs|": null,
 	"m|the falcon and the snowman|": {
@@ -30450,13 +30434,13 @@
 		"imdb": "tt6062774"
 	},
 	"m|hell on wheels|": {
-		"type": "movie",
-		"id": 11350,
+		"type": "tv",
+		"id": 1401,
 		"title": "Hell on Wheels",
-		"year": 2004,
-		"poster": "/lobg4TmvXhPOmVXfrroLlOmUfsz.jpg",
-		"votes": 10,
-		"imdb": "tt0411498"
+		"year": 2011,
+		"poster": "/ckC9pL9yeYpOoK5aJ7GbYYWheK7.jpg",
+		"votes": 493,
+		"imdb": "tt1699748"
 	},
 	"m|mad men|": {
 		"type": "tv",
@@ -30582,32 +30566,24 @@
 		"votes": 176,
 		"imdb": "tt8923482"
 	},
-	"m|ghostbusters: afterlife|": {
-		"type": "movie",
-		"id": 425909,
-		"title": "Ghostbusters: Afterlife",
-		"year": 2021,
-		"poster": "/sg4xJaufDiQl7caFEskBtQXfD4x.jpg",
-		"votes": 5344,
-		"imdb": "tt4513678"
-	},
+	"m|ghostbusters: afterlife|": null,
 	"m|no time to die|": {
 		"type": "movie",
-		"id": 370172,
+		"id": 374763,
 		"title": "No Time to Die",
-		"year": 2021,
-		"poster": "/iUgygt3fscRoKWCV1d0C7FbM9TP.jpg",
-		"votes": 7405,
-		"imdb": "tt2382320"
+		"year": 2006,
+		"poster": "/aXII9Lz9dKlnNWv1bGumGbnUv5i.jpg",
+		"votes": 6,
+		"imdb": "tt0899070"
 	},
 	"m|black widow|": {
 		"type": "movie",
-		"id": 497698,
+		"id": 19345,
 		"title": "Black Widow",
-		"year": 2021,
-		"poster": "/qAZ0pzat24kLdO3o8ejmbLxyOac.jpg",
-		"votes": 11646,
-		"imdb": "tt3480822"
+		"year": 1987,
+		"poster": "/iAlUN6XFuvSz1it58aH2cuEITrt.jpg",
+		"votes": 241,
+		"imdb": "tt0090738"
 	},
 	"m|wonder woman 1984|": {
 		"type": "movie",
@@ -31066,13 +31042,13 @@
 		"imdb": "tt7816392"
 	},
 	"m|the boys|": {
-		"type": "movie",
-		"id": 13821,
+		"type": "tv",
+		"id": 76479,
 		"title": "The Boys",
-		"year": 1998,
-		"poster": "/jLyfVrwm5028RPhx5oXmJv01uSr.jpg",
-		"votes": 34,
-		"imdb": "tt0139898"
+		"year": 2019,
+		"poster": "/in1R2dDc421JxsoRWaIIAqVI2KE.jpg",
+		"votes": 13585,
+		"imdb": "tt1190634"
 	},
 	"m|hot topic: martin scorsese says marvel is not cinema|": null,
 	"m|hercules and the haunted world|": null,
@@ -32423,13 +32399,13 @@
 		"imdb": "tt0073631"
 	},
 	"m|losers|": {
-		"type": "movie",
-		"id": 359814,
+		"type": "tv",
+		"id": 87216,
 		"title": "Losers",
-		"year": 2015,
-		"poster": "/nuMvq0Llz9VqTUevUk6uQ7RQ8tl.jpg",
-		"votes": 11,
-		"imdb": "tt4909982"
+		"year": 2019,
+		"poster": "/vBM7wBzgXq4yHbNCX4iRyg3Blx1.jpg",
+		"votes": 21,
+		"imdb": "tt9817218"
 	},
 	"m|the lives of others|": {
 		"type": "movie",
@@ -32604,13 +32580,13 @@
 		"imdb": "tt2675914"
 	},
 	"m|russian doll|": {
-		"type": "movie",
-		"id": 511336,
+		"type": "tv",
+		"id": 84977,
 		"title": "Russian Doll",
-		"year": 2016,
-		"poster": "/4tR7L6T6WND1O9DGTl7xX7wp2aC.jpg",
-		"votes": 13,
-		"imdb": "tt5138866"
+		"year": 2019,
+		"poster": "/1ju4vQ1EwlIkQxEgWiYmxOs3iBG.jpg",
+		"votes": 1084,
+		"imdb": "tt7520794"
 	},
 	"m|drunken master|": {
 		"type": "movie",
@@ -33045,13 +33021,13 @@
 		"imdb": "tt1695360"
 	},
 	"m|the little drummer girl|": {
-		"type": "movie",
-		"id": 32088,
+		"type": "tv",
+		"id": 76887,
 		"title": "The Little Drummer Girl",
-		"year": 1984,
-		"poster": "/5KuqrUbp4YfAWNtmtMEat8tCN19.jpg",
-		"votes": 46,
-		"imdb": "tt0087629"
+		"year": 2018,
+		"poster": "/8Y137iEKnlBtfBWHRi7aAODdD9Z.jpg",
+		"votes": 238,
+		"imdb": "tt7598448"
 	},
 	"m|the ballad of buster scruggs|": {
 		"type": "movie",
@@ -33063,13 +33039,13 @@
 		"imdb": "tt6412452"
 	},
 	"m|chuck|": {
-		"type": "movie",
-		"id": 373546,
+		"type": "tv",
+		"id": 1404,
 		"title": "Chuck",
-		"year": 2017,
-		"poster": "/xRowWuf8Q5bazuPRIqYLaKRxxs.jpg",
-		"votes": 186,
-		"imdb": "tt1610525"
+		"year": 2007,
+		"poster": "/vEZvGVVMjk1TRs59nfypTI5lAXj.jpg",
+		"votes": 1269,
+		"imdb": "tt0934814"
 	},
 	"m|peppermint|": {
 		"type": "movie",
@@ -33181,12 +33157,12 @@
 	},
 	"m|the guilty|": {
 		"type": "movie",
-		"id": 567748,
+		"id": 486947,
 		"title": "The Guilty",
-		"year": 2021,
-		"poster": "/m8aR1k35oZMOzZ1kYWUyt401mwq.jpg",
-		"votes": 3270,
-		"imdb": "tt9421570"
+		"year": 2018,
+		"poster": "/42QPG6p7oLcLd4LQOPeSTLhqfMx.jpg",
+		"votes": 1922,
+		"imdb": "tt6742252"
 	},
 	"m|trilogy of terror|": {
 		"type": "movie",
@@ -33309,13 +33285,13 @@
 		"imdb": "tt0062827"
 	},
 	"m|from the earth to the moon|": {
-		"type": "movie",
-		"id": 44969,
+		"type": "tv",
+		"id": 3556,
 		"title": "From the Earth to the Moon",
-		"year": 1958,
-		"poster": "/cALvMcrweHHswVNfSr1KkQdF2eC.jpg",
-		"votes": 34,
-		"imdb": "tt0051638"
+		"year": 1998,
+		"poster": "/sSnYvoVT2PYWJbF0aWdUFvLqKhR.jpg",
+		"votes": 138,
+		"imdb": "tt0120570"
 	},
 	"m|don't worry he won't get far on foot|": {
 		"type": "movie",
@@ -33505,12 +33481,12 @@
 	"m|alien v predator 1&2|": null,
 	"m|freaks|": {
 		"type": "movie",
-		"id": 136,
+		"id": 539892,
 		"title": "Freaks",
-		"year": 1932,
-		"poster": "/fX2Wxd0W9E7eVClUd8kJTfennoV.jpg",
-		"votes": 1343,
-		"imdb": "tt0022913"
+		"year": 2019,
+		"poster": "/kc2cvuqESIiRX5QoZOoMTBq18kQ.jpg",
+		"votes": 1354,
+		"imdb": "tt8781414"
 	},
 	"m|won't you be my neighbor?|": {
 		"type": "movie",
@@ -33696,13 +33672,13 @@
 		"imdb": "tt3766354"
 	},
 	"m|childhood's end|": {
-		"type": "movie",
-		"id": 165619,
+		"type": "tv",
+		"id": 63647,
 		"title": "Childhood's End",
-		"year": 1996,
-		"poster": "/if7ifKODehAUqrJlYZjrJgP92Jq.jpg",
-		"votes": 10,
-		"imdb": "tt0115880"
+		"year": 2015,
+		"poster": "/4P5d70GyynagnYq4Rk881UjQiD0.jpg",
+		"votes": 475,
+		"imdb": "tt4146128"
 	},
 	"m|father of the year|": {
 		"type": "movie",
@@ -34525,13 +34501,13 @@
 		"imdb": "tt7860890"
 	},
 	"m|mosaic|": {
-		"type": "movie",
-		"id": 22154,
+		"type": "tv",
+		"id": 75944,
 		"title": "Mosaic",
-		"year": 2007,
-		"poster": "/9bWLUjSYkrDcz0s7H4hHLkWhSix.jpg",
-		"votes": 24,
-		"imdb": "tt0942896"
+		"year": 2018,
+		"poster": "/kTmUn0TS1TW1hFB7IGwZDpwFWaS.jpg",
+		"votes": 80,
+		"imdb": "tt5056958"
 	},
 	"m|the thin man|": {
 		"type": "movie",
@@ -35302,13 +35278,13 @@
 		"imdb": "tt0330793"
 	},
 	"m|godless|": {
-		"type": "movie",
-		"id": 400221,
+		"type": "tv",
+		"id": 73467,
 		"title": "Godless",
-		"year": 2015,
-		"poster": "/9FXQQpSr6oAEzehGETU7nYkYgU4.jpg",
-		"votes": 22,
-		"imdb": "tt3717192"
+		"year": 2017,
+		"poster": "/ePOD0ofGWFDTbZR84QhM7kpYMPX.jpg",
+		"votes": 759,
+		"imdb": "tt5516154"
 	},
 	"m|the killing of a sacred deer|": {
 		"type": "movie",
@@ -35516,12 +35492,12 @@
 	},
 	"m|lost boys|": {
 		"type": "movie",
-		"id": 583020,
+		"id": 1784705,
 		"title": "Lost Boys",
-		"year": 2020,
-		"poster": "/w60EUIDDGV0inli7jZZuReIprLo.jpg",
-		"votes": 28,
-		"imdb": "tt12938038"
+		"year": null,
+		"poster": null,
+		"votes": 0,
+		"imdb": null
 	},
 	"m|the old dark house|": {
 		"type": "movie",
@@ -35688,12 +35664,12 @@
 	},
 	"m|pet sematary|": {
 		"type": "movie",
-		"id": 157433,
+		"id": 8913,
 		"title": "Pet Sematary",
-		"year": 2019,
-		"poster": "/7SPhr7Qj39vbnfF9O2qHRYaKHAL.jpg",
-		"votes": 3513,
-		"imdb": "tt0837563"
+		"year": 1989,
+		"poster": "/8ZtH1V4rhrtP53ezlEWrCaMALXF.jpg",
+		"votes": 2503,
+		"imdb": "tt0098084"
 	},
 	"m|top of the lake: china girl|": null,
 	"m|misery|": {
@@ -35814,13 +35790,13 @@
 		"imdb": "tt0052713"
 	},
 	"m|salem's lot|": {
-		"type": "movie",
-		"id": 748230,
+		"type": "tv",
+		"id": 16118,
 		"title": "Salem's Lot",
-		"year": 2024,
-		"poster": "/vCUpo94Qm6DhV5fkQF4xMPsKCP8.jpg",
-		"votes": 743,
-		"imdb": "tt10245072"
+		"year": 1979,
+		"poster": "/yaztNZUErjSmrVsuXEZiuIVyVj2.jpg",
+		"votes": 559,
+		"imdb": "tt0079844"
 	},
 	"m|american ninja warrior|": {
 		"type": "tv",
@@ -35914,13 +35890,13 @@
 		"imdb": "tt0116367"
 	},
 	"m|twin peaks|": {
-		"type": "movie",
-		"id": 452522,
+		"type": "tv",
+		"id": 1920,
 		"title": "Twin Peaks",
-		"year": 1989,
-		"poster": "/Apg4fMfr1Wi19Ilu5HXh4nClCv9.jpg",
-		"votes": 676,
-		"imdb": "tt27449259"
+		"year": 1990,
+		"poster": "/lA9CNSdo50iQPZ8A2fyVpMvJZAf.jpg",
+		"votes": 2746,
+		"imdb": "tt0098936"
 	},
 	"m|full tilt boogie|": {
 		"type": "movie",
@@ -35943,12 +35919,12 @@
 	"m|jaws (novel)|": null,
 	"m|firestarter|": {
 		"type": "movie",
-		"id": 532710,
+		"id": 11495,
 		"title": "Firestarter",
-		"year": 2022,
-		"poster": "/jjBdPcQ0bplBnv2XgElKLoeFDuM.jpg",
-		"votes": 838,
-		"imdb": "tt1798632"
+		"year": 1984,
+		"poster": "/2ux5lqNuibd8eOkwwUhzfzAJBqD.jpg",
+		"votes": 803,
+		"imdb": "tt0087262"
 	},
 	"m|once upon a time in mexico|": {
 		"type": "movie",
@@ -36246,7 +36222,7 @@
 		"title": "Vision Quest",
 		"year": 1985,
 		"poster": "/l3g4e6ocqGA8aNL1hIrIVWLkljL.jpg",
-		"votes": 144,
+		"votes": 146,
 		"imdb": "tt0090270"
 	},
 	"m|caltiki, the immortal monster|": {
@@ -36421,13 +36397,13 @@
 		"imdb": "tt4372240"
 	},
 	"m|the leftovers|": {
-		"type": "movie",
-		"id": 444250,
+		"type": "tv",
+		"id": 54344,
 		"title": "The Leftovers",
-		"year": 1986,
-		"poster": "/5FxOM4vV6PGP5tIn8wVMtLh9xJg.jpg",
-		"votes": 10,
-		"imdb": "tt0091395"
+		"year": 2014,
+		"poster": "/NKJdryIFHr245Umq6gXsf7oULW.jpg",
+		"votes": 1314,
+		"imdb": "tt2699128"
 	},
 	"m|baywatch|": {
 		"type": "movie",
@@ -36495,12 +36471,12 @@
 	},
 	"m|war machine|": {
 		"type": "movie",
-		"id": 1265609,
+		"id": 354287,
 		"title": "War Machine",
-		"year": 2026,
-		"poster": "/ril8yx5SOmj0KjNlftsdfIp00fr.jpg",
-		"votes": 2523,
-		"imdb": "tt15940132"
+		"year": 2017,
+		"poster": "/bU2Q2rCH5VFrJNKSyx6wSmQZFsX.jpg",
+		"votes": 1299,
+		"imdb": "tt4758646"
 	},
 	"m|stray dog|": {
 		"type": "movie",
@@ -36512,13 +36488,13 @@
 		"imdb": "tt0041699"
 	},
 	"m|alias|": {
-		"type": "movie",
-		"id": 120062,
+		"type": "tv",
+		"id": 2046,
 		"title": "Alias",
-		"year": 2002,
-		"poster": "/hLQhyMztPo6k202kVKvFDi3uRPC.jpg",
-		"votes": 16,
-		"imdb": "tt0289055"
+		"year": 2001,
+		"poster": "/Dl3KIxWlSEvnXogNHxdXA4pbAk.jpg",
+		"votes": 733,
+		"imdb": "tt0285333"
 	},
 	"m|la 92|": {
 		"type": "movie",
@@ -36738,13 +36714,13 @@
 		"imdb": "tt5893332"
 	},
 	"m|the handmaid's tale|": {
-		"type": "movie",
-		"id": 20815,
+		"type": "tv",
+		"id": 69478,
 		"title": "The Handmaid's Tale",
-		"year": 1990,
-		"poster": "/cnkKQyRzoCMZliMaknTOXHqXKaz.jpg",
-		"votes": 295,
-		"imdb": "tt0099731"
+		"year": 2017,
+		"poster": "/eGUT7j3n3rn5yGihlCgwUnD70HV.jpg",
+		"votes": 3476,
+		"imdb": "tt5834204"
 	},
 	"m|the italian job|1969": {
 		"type": "movie",
@@ -36838,12 +36814,12 @@
 		"imdb": "tt1723816"
 	},
 	"m|five came back|": {
-		"type": "movie",
-		"id": 449758,
+		"type": "tv",
+		"id": 70508,
 		"title": "Five Came Back",
 		"year": 2017,
-		"poster": "/2XlOc0kQGK9q7Xjq77FLBllppm8.jpg",
-		"votes": 45,
+		"poster": "/lQI1J0MvFmB6pREOyyBaAQpuSAE.jpg",
+		"votes": 75,
 		"imdb": "tt6587094"
 	},
 	"m|hidden figures|": {
@@ -37371,12 +37347,12 @@
 	},
 	"m|who?|": {
 		"type": "movie",
-		"id": 76764,
+		"id": 1594253,
 		"title": "Who?",
-		"year": 1974,
-		"poster": "/5COApMItosxI5OHrBXE0VlPvxhU.jpg",
-		"votes": 27,
-		"imdb": "tt0072405"
+		"year": 2018,
+		"poster": null,
+		"votes": 0,
+		"imdb": null
 	},
 	"m|the laughing policeman|": {
 		"type": "movie",
@@ -37625,12 +37601,12 @@
 	},
 	"m|goat|": {
 		"type": "movie",
-		"id": 1297842,
-		"title": "GOAT",
-		"year": 2026,
-		"poster": "/wfuqMlaExcoYiUEvKfVpUTt1v4u.jpg",
-		"votes": 1100,
-		"imdb": "tt27613895"
+		"id": 337874,
+		"title": "Goat",
+		"year": 2016,
+		"poster": "/kQBy81VxGA20wbwouOruNyucCnG.jpg",
+		"votes": 275,
+		"imdb": "tt4437216"
 	},
 	"m|the night of|": {
 		"type": "tv",
@@ -38574,13 +38550,13 @@
 		"imdb": "tt0314786"
 	},
 	"m|bloodline|": {
-		"type": "movie",
-		"id": 543917,
+		"type": "tv",
+		"id": 61986,
 		"title": "Bloodline",
-		"year": 2019,
-		"poster": "/u9UfbDVilnhT3fa82aTFs3O0TsA.jpg",
-		"votes": 292,
-		"imdb": "tt8883524"
+		"year": 2015,
+		"poster": "/uEaqgEjAShqrziUia4XBzvXXGXP.jpg",
+		"votes": 422,
+		"imdb": "tt3520702"
 	},
 	"m|airport '77|": {
 		"type": "movie",
@@ -39567,13 +39543,13 @@
 		"imdb": "tt0062883"
 	},
 	"m|vinyl|": {
-		"type": "movie",
-		"id": 85871,
+		"type": "tv",
+		"id": 63535,
 		"title": "Vinyl",
-		"year": 1965,
-		"poster": "/eb2OD1I6u6AaMx8ze5qSKhuLpkz.jpg",
-		"votes": 43,
-		"imdb": "tt0059880"
+		"year": 2016,
+		"poster": "/t8RbNsFIvqHxwAEvgn2WXmJK8TL.jpg",
+		"votes": 261,
+		"imdb": "tt3186130"
 	},
 	"m|sullivan's travels|": {
 		"type": "movie",
@@ -39721,22 +39697,22 @@
 	},
 	"m|bad boys 1&2|": null,
 	"m|the x-files|": {
-		"type": "movie",
-		"id": 846,
+		"type": "tv",
+		"id": 4087,
 		"title": "The X-Files",
-		"year": 1998,
-		"poster": "/yLIw6shz2WC3W3iI0jROsF4B2ha.jpg",
-		"votes": 1909,
-		"imdb": "tt0120902"
+		"year": 1993,
+		"poster": "/rcBx0p8h51LHceyhquYMxbspJQu.jpg",
+		"votes": 3762,
+		"imdb": "tt0106179"
 	},
 	"m|homeland|": {
-		"type": "movie",
-		"id": 199914,
+		"type": "tv",
+		"id": 1407,
 		"title": "Homeland",
-		"year": 2013,
-		"poster": "/yr4pOEjIxpgz1sCSAJ5uub0d0mZ.jpg",
-		"votes": 51,
-		"imdb": "tt2844994"
+		"year": 2011,
+		"poster": "/6GAvS2e6VIRsms9FpVt33PsCoEW.jpg",
+		"votes": 2752,
+		"imdb": "tt1796960"
 	},
 	"m|the lady vanishes|": {
 		"type": "movie",
@@ -39927,7 +39903,7 @@
 		"title": "Crazy Love",
 		"year": 1993,
 		"poster": "/vM4Tb2Wxk2X0Sgfy1wAS9bzSZsa.jpg",
-		"votes": 47,
+		"votes": 48,
 		"imdb": "tt0107565"
 	},
 	"m|pather panchali|": {
@@ -40145,7 +40121,7 @@
 		"title": "Moving",
 		"year": 1988,
 		"poster": "/ucqwtWWJ9WMYvODuihXLMsRp61c.jpg",
-		"votes": 140,
+		"votes": 141,
 		"imdb": "tt0095662"
 	},
 	"m|nintendo quest|": {
@@ -40699,12 +40675,12 @@
 	"m|project greenlight: s04e04|": null,
 	"m|dolls|": {
 		"type": "movie",
-		"id": 870,
+		"id": 24341,
 		"title": "Dolls",
-		"year": 2002,
-		"poster": "/vQ9XBpH88jvO3hpHt9Zm5IHe5NP.jpg",
-		"votes": 380,
-		"imdb": "tt0330229"
+		"year": 1987,
+		"poster": "/oMCysbLhEK3xHTavrTLayWT6bnN.jpg",
+		"votes": 383,
+		"imdb": "tt0092906"
 	},
 	"m|graduation day|": {
 		"type": "movie",
@@ -40772,12 +40748,12 @@
 	},
 	"m|the summit|": {
 		"type": "movie",
-		"id": 440374,
+		"id": 133441,
 		"title": "The Summit",
-		"year": 2017,
-		"poster": "/gy2fvMbEuR1uJYGpM7oJ91HFRgl.jpg",
-		"votes": 147,
-		"imdb": "tt6047298"
+		"year": 2013,
+		"poster": "/n7hRnGpAIT75xSyBnTBPfAZQ213.jpg",
+		"votes": 108,
+		"imdb": "tt2363471"
 	},
 	"m|jack reacher|": {
 		"type": "movie",
@@ -40790,12 +40766,12 @@
 	},
 	"m|deranged|": {
 		"type": "movie",
-		"id": 39844,
+		"id": 121491,
 		"title": "Deranged",
-		"year": 1974,
-		"poster": "/lHcXdp4hNx1QiIQyLl2NlyvKSB5.jpg",
-		"votes": 120,
-		"imdb": "tt0071408"
+		"year": 2012,
+		"poster": "/hStPBeJFt0nHH2UbZPdfI5TSRpw.jpg",
+		"votes": 122,
+		"imdb": "tt2173024"
 	},
 	"m|ferrell takes the field|": {
 		"type": "movie",
@@ -40954,13 +40930,13 @@
 		"imdb": "tt0756683"
 	},
 	"m|narcos|": {
-		"type": "movie",
-		"id": 341087,
+		"type": "tv",
+		"id": 63351,
 		"title": "Narcos",
-		"year": 1992,
-		"poster": "/lZenUR45Ka0uO7c92t9P3DQTvuz.jpg",
-		"votes": 17,
-		"imdb": "tt0104971"
+		"year": 2015,
+		"poster": "/rTmal9fDbwh5F0waol2hq35U4ah.jpg",
+		"votes": 3522,
+		"imdb": "tt2707408"
 	},
 	"m|valerie and her week of wonders|": {
 		"type": "movie",
@@ -41072,12 +41048,12 @@
 	},
 	"m|the square|": {
 		"type": "movie",
-		"id": 401246,
+		"id": 159037,
 		"title": "The Square",
-		"year": 2017,
-		"poster": "/pefcv5VNspSK4Dt8doei5bJmmln.jpg",
-		"votes": 1792,
-		"imdb": "tt4995790"
+		"year": 2013,
+		"poster": "/fbhmYUTdRgnFvumVewTCLgbvYm9.jpg",
+		"votes": 168,
+		"imdb": "tt2486682"
 	},
 	"m|tig|": {
 		"type": "movie",
@@ -41125,13 +41101,13 @@
 		"imdb": "tt4341500"
 	},
 	"m|mr. robot|": {
-		"type": "movie",
-		"id": 1414052,
-		"title": "Mr.Robot",
-		"year": 2025,
-		"poster": "/3gLCcU8lNVHdypb9Xiot2lQ8xMq.jpg",
-		"votes": 16,
-		"imdb": "tt36428783"
+		"type": "tv",
+		"id": 62560,
+		"title": "Mr. Robot",
+		"year": 2015,
+		"poster": "/kv1nRqgebSsREnd7vdC2pSGjpLo.jpg",
+		"votes": 5656,
+		"imdb": "tt4158110"
 	},
 	"m|the arrival|": {
 		"type": "movie",
@@ -41152,13 +41128,13 @@
 		"imdb": "tt3904186"
 	},
 	"m|humans|": {
-		"type": "movie",
-		"id": 17408,
+		"type": "tv",
+		"id": 62822,
 		"title": "Humans",
-		"year": 2009,
-		"poster": "/5bA0KY80E0qyam9awVBfuhxwrte.jpg",
-		"votes": 40,
-		"imdb": "tt1109478"
+		"year": 2015,
+		"poster": "/iBjjSGgnjAQBSQGO9pYIh7Gp2PO.jpg",
+		"votes": 728,
+		"imdb": "tt4122068"
 	},
 	"m|the death of “superman lives”: what happened?|": {
 		"type": "movie",
@@ -41859,12 +41835,12 @@
 	},
 	"m|western|": {
 		"type": "movie",
-		"id": 452000,
+		"id": 39968,
 		"title": "Western",
-		"year": 2017,
-		"poster": "/tLWwFrU0JFHIzQzxDpF8CKxfeey.jpg",
-		"votes": 120,
-		"imdb": "tt5157326"
+		"year": 1997,
+		"poster": "/u7P3htHY9FDaEFgtRdp5B830L4O.jpg",
+		"votes": 25,
+		"imdb": "tt0120494"
 	},
 	"m|the wolfpack|": {
 		"type": "movie",
@@ -41923,12 +41899,12 @@
 	},
 	"m|above and below|": {
 		"type": "movie",
-		"id": 1514682,
-		"title": "Above & Below",
-		"year": 2026,
-		"poster": "/7bOuu1SRALGwsG2fLCTvRkCmQBj.jpg",
-		"votes": 39,
-		"imdb": "tt37603783"
+		"id": 316883,
+		"title": "Above and Below",
+		"year": 2015,
+		"poster": "/k3qzAyzDxc6UGjaoEdEKqQXPMSc.jpg",
+		"votes": 16,
+		"imdb": "tt3249414"
 	},
 	"m|welcome to leith|": {
 		"type": "movie",
@@ -42343,13 +42319,13 @@
 		"imdb": "tt2279373"
 	},
 	"m|king of the hill|": {
-		"type": "movie",
-		"id": 34024,
+		"type": "tv",
+		"id": 2122,
 		"title": "King of the Hill",
-		"year": 1993,
-		"poster": "/s2sed4Wpa5NJobKhjiB7T0lmUVS.jpg",
-		"votes": 172,
-		"imdb": "tt0107322"
+		"year": 1997,
+		"poster": "/e2xyMapmYgv4AuSoSDv9Y4pQlD6.jpg",
+		"votes": 712,
+		"imdb": "tt0118375"
 	},
 	"m|billion dollar brain|": {
 		"type": "movie",
@@ -42462,13 +42438,13 @@
 		"imdb": "tt0093072"
 	},
 	"m|the walking dead|": {
-		"type": "movie",
-		"id": 27115,
+		"type": "tv",
+		"id": 1402,
 		"title": "The Walking Dead",
-		"year": 1936,
-		"poster": "/vRZ0NNqaQewNuN6yvw2HXowFCiu.jpg",
-		"votes": 97,
-		"imdb": "tt0028478"
+		"year": 2010,
+		"poster": "/ng3cMtxYKt1OSQYqFlnKWnVsqNO.jpg",
+		"votes": 18307,
+		"imdb": "tt1520211"
 	},
 	"m|fury|": {
 		"type": "movie",
@@ -42855,12 +42831,12 @@
 	},
 	"m|life itself|": {
 		"type": "movie",
-		"id": 446696,
+		"id": 250766,
 		"title": "Life Itself",
-		"year": 2018,
-		"poster": "/pE2hxC8bPbIi9tGyhFg5xiFW6dA.jpg",
-		"votes": 648,
-		"imdb": "tt5989218"
+		"year": 2014,
+		"poster": "/nK4cYTEO2eHLMgMII0Ux0kBOGhG.jpg",
+		"votes": 379,
+		"imdb": "tt2382298"
 	},
 	"m|hickey & boggs|": {
 		"type": "movie",
@@ -43260,13 +43236,13 @@
 		"imdb": "tt0091276"
 	},
 	"m|resurrection|": {
-		"type": "movie",
-		"id": 10359,
+		"type": "tv",
+		"id": 51370,
 		"title": "Resurrection",
-		"year": 1999,
-		"poster": "/2j6cMHN1Mx1u8S897VVhO7wSrce.jpg",
-		"votes": 319,
-		"imdb": "tt0142804"
+		"year": 2014,
+		"poster": "/2bs5QoJwZmew05052jST9vgIEJc.jpg",
+		"votes": 324,
+		"imdb": "tt2647586"
 	},
 	"m|garfield's halloween adventure|": {
 		"type": "movie",
@@ -43403,7 +43379,7 @@
 		"title": "What If",
 		"year": 2013,
 		"poster": "/67x9NJyjK4u02NpISnChDMKzCUr.jpg",
-		"votes": 2115,
+		"votes": 2129,
 		"imdb": "tt1486834"
 	},
 	"m|hollywoodland|": {
@@ -43425,22 +43401,22 @@
 		"imdb": "tt1343092"
 	},
 	"m|dominion|": {
-		"type": "movie",
-		"id": 472796,
+		"type": "tv",
+		"id": 60685,
 		"title": "Dominion",
-		"year": 2018,
-		"poster": "/mzqwEuYSPQ7Kj6ovg016KclS0Sw.jpg",
-		"votes": 98,
-		"imdb": "tt5773402"
+		"year": 2014,
+		"poster": "/2rBiS2m5hZbTSxorXQmUcbt2cTU.jpg",
+		"votes": 318,
+		"imdb": "tt3079768"
 	},
 	"m|the beginning|": {
 		"type": "movie",
-		"id": 672322,
-		"title": "Rurouni Kenshin: The Beginning",
-		"year": 2021,
-		"poster": "/rODS466qSdrwMlGdbUwPENhDN2c.jpg",
-		"votes": 564,
-		"imdb": "tt11991748"
+		"id": 645897,
+		"title": "The Beginning",
+		"year": 2015,
+		"poster": "/7PFmFMA0YEPTyBqRmVNWYD4knmo.jpg",
+		"votes": 2,
+		"imdb": "tt5161240"
 	},
 	"m|tim and eric's bedtime stories|": {
 		"type": "tv",
@@ -43462,12 +43438,12 @@
 	},
 	"m|saturday night|": {
 		"type": "movie",
-		"id": 1120911,
+		"id": 295069,
 		"title": "Saturday Night",
-		"year": 2024,
-		"poster": "/oCf5O6uxooTvRwKVnLHwGqZUifq.jpg",
-		"votes": 407,
-		"imdb": "tt27657135"
+		"year": 2010,
+		"poster": "/3hk7JciWGMyElCBvcRa34iZnXjt.jpg",
+		"votes": 24,
+		"imdb": "tt1580427"
 	},
 	"m|repossessed|": {
 		"type": "movie",
@@ -43479,13 +43455,13 @@
 		"imdb": "tt0100475"
 	},
 	"m|gotham|": {
-		"type": "movie",
-		"id": 41875,
+		"type": "tv",
+		"id": 60708,
 		"title": "Gotham",
-		"year": 1988,
-		"poster": "/tH4mlVf9sbvgnzBbLsQHZwzPjDm.jpg",
-		"votes": 34,
-		"imdb": "tt0095246"
+		"year": 2014,
+		"poster": "/zLpSNnVoL2bjQdc1PcaHUPUzttP.jpg",
+		"votes": 3825,
+		"imdb": "tt3749900"
 	},
 	"m|exorcist 1-3|": null,
 	"m|teenage|": {
@@ -43717,12 +43693,12 @@
 	},
 	"m|point blank|": {
 		"type": "movie",
-		"id": 531503,
+		"id": 61404,
 		"title": "Point Blank",
-		"year": 2019,
-		"poster": "/weAvkxl0dnPevIKD8fwHjiOi6tc.jpg",
-		"votes": 588,
-		"imdb": "tt2499472"
+		"year": 2010,
+		"poster": "/tt2UlArx3joZWBYctJehCGmHGZZ.jpg",
+		"votes": 519,
+		"imdb": "tt1545759"
 	},
 	"m|hot shots: part deux|": {
 		"type": "movie",
@@ -43933,12 +43909,12 @@
 	},
 	"m|knuckleball|": {
 		"type": "movie",
-		"id": 466174,
-		"title": "Knuckleball",
-		"year": 2018,
-		"poster": "/sAxyuS0A9527vBSiv3IZCpqi38R.jpg",
-		"votes": 58,
-		"imdb": "tt6284256"
+		"id": 111174,
+		"title": "Knuckleball!",
+		"year": 2012,
+		"poster": "/tQEYv3sL3jN0H8r7y20CHT6lf5S.jpg",
+		"votes": 35,
+		"imdb": "tt2343601"
 	},
 	"m|pickpocket|": {
 		"type": "movie",
@@ -43994,15 +43970,7 @@
 		"votes": 233,
 		"imdb": "tt0080421"
 	},
-	"m|webcam girls|": {
-		"type": "movie",
-		"id": 495305,
-		"title": "Web Cam Girls",
-		"year": 2017,
-		"poster": "/68E4TRIQkskaAmWnRBYs59dNdYw.jpg",
-		"votes": 10,
-		"imdb": "tt6772926"
-	},
+	"m|webcam girls|": null,
 	"m|planet of the apes|1968": {
 		"type": "movie",
 		"id": 871,
@@ -44022,15 +43990,7 @@
 		"votes": 16700,
 		"imdb": "tt1454468"
 	},
-	"m|inside pixar|": {
-		"type": "tv",
-		"id": 111815,
-		"title": "Inside Pixar",
-		"year": 2020,
-		"poster": "/q8Fu96vDIOJniAu0HDK06meln0S.jpg",
-		"votes": 21,
-		"imdb": "tt13302848"
-	},
+	"m|inside pixar|": null,
 	"m|inside lego|": null,
 	"m|workaholics|": {
 		"type": "tv",
@@ -44159,7 +44119,7 @@
 		"title": "Visitors",
 		"year": 2013,
 		"poster": "/pvdo77M6Np1Jkrneczf7V2xFoKn.jpg",
-		"votes": 32,
+		"votes": 33,
 		"imdb": "tt2936174"
 	},
 	"m|planet of the apes (2001)|": null,
@@ -44354,12 +44314,12 @@
 	},
 	"m|death wish|": {
 		"type": "movie",
-		"id": 395990,
+		"id": 13939,
 		"title": "Death Wish",
-		"year": 2018,
-		"poster": "/g0eEEZAqMf98ULQnoiORuazjOpn.jpg",
-		"votes": 2893,
-		"imdb": "tt1137450"
+		"year": 1974,
+		"poster": "/rNksI6UiuTgLtBy69WvKT1PrG0R.jpg",
+		"votes": 998,
+		"imdb": "tt0071402"
 	},
 	"m|the sweet smell of success|": null,
 	"m|sleeping beauty|": {
@@ -44381,13 +44341,13 @@
 		"imdb": "tt0142342"
 	},
 	"m|smallville|": {
-		"type": "movie",
-		"id": 1154663,
+		"type": "tv",
+		"id": 4604,
 		"title": "Smallville",
-		"year": 2002,
-		"poster": "/Ab2GztrIkIvUvJWuxtpwAkN93Td.jpg",
-		"votes": 31,
-		"imdb": null
+		"year": 2001,
+		"poster": "/pUhJGETy2sec4vEkiqJ9eGeIywc.jpg",
+		"votes": 4639,
+		"imdb": "tt0279600"
 	},
 	"m|the lone ranger|": {
 		"type": "movie",
@@ -44418,12 +44378,12 @@
 	},
 	"m|pete's dragon|": {
 		"type": "movie",
-		"id": 294272,
+		"id": 11114,
 		"title": "Pete's Dragon",
-		"year": 2016,
-		"poster": "/A9x4Ogk8KUXTfU649NS6lS9TCmu.jpg",
-		"votes": 2379,
-		"imdb": "tt2788732"
+		"year": 1977,
+		"poster": "/noShGNQKAgMqNanJL5EiZlf6LCp.jpg",
+		"votes": 746,
+		"imdb": "tt0076538"
 	},
 	"m|the adjustment bureau|": {
 		"type": "movie",
@@ -44581,13 +44541,13 @@
 		"imdb": "tt2383068"
 	},
 	"m|little house on the prairie|": {
-		"type": "movie",
-		"id": 792754,
+		"type": "tv",
+		"id": 1781,
 		"title": "Little House on the Prairie",
 		"year": 1974,
-		"poster": "/msWuQkDPAz06rDO7FeZ76OHHkMY.jpg",
-		"votes": 22,
-		"imdb": "tt0071759"
+		"poster": "/eVpvlqKZfEVsBOttNFTUyfPoA6K.jpg",
+		"votes": 1046,
+		"imdb": "tt0071007"
 	},
 	"m|kiss me deadly|": {
 		"type": "movie",
@@ -44862,13 +44822,13 @@
 		"imdb": "tt2039345"
 	},
 	"m|cosmos|": {
-		"type": "movie",
-		"id": 639771,
+		"type": "tv",
+		"id": 58474,
 		"title": "Cosmos",
-		"year": 2019,
-		"poster": "/kDAr2tO1hfZKeDBunuK6hnBFSPY.jpg",
-		"votes": 121,
-		"imdb": "tt4477292"
+		"year": 2014,
+		"poster": "/5o07ps0QZ0bNoRYxTn9cPdRWlUu.jpg",
+		"votes": 1760,
+		"imdb": "tt2395695"
 	},
 	"m|what about bob|": {
 		"type": "movie",
@@ -44926,12 +44886,12 @@
 	},
 	"m|vice|": {
 		"type": "movie",
-		"id": 429197,
+		"id": 307663,
 		"title": "Vice",
-		"year": 2018,
-		"poster": "/1gCab6rNv1r6V64cwsU4oEr649Y.jpg",
-		"votes": 3699,
-		"imdb": "tt6266538"
+		"year": 2015,
+		"poster": "/cBwZIq1QFasmsC9Wi3HvyEljfYN.jpg",
+		"votes": 598,
+		"imdb": "tt3480796"
 	},
 	"m|sideways|": {
 		"type": "movie",
@@ -44989,12 +44949,12 @@
 	},
 	"m|dogs|": {
 		"type": "tv",
-		"id": 83602,
-		"title": "Dogs",
-		"year": 2018,
-		"poster": "/dz4fP4l01VTwqa3FZFslDf2GfDD.jpg",
-		"votes": 27,
-		"imdb": "tt9199798"
+		"id": 31422,
+		"title": "Tokyo Dogs",
+		"year": 2009,
+		"poster": "/2nlcuPssgmVhLNDqCFPVOeVVT6p.jpg",
+		"votes": 11,
+		"imdb": "tt1527561"
 	},
 	"m|insignificance|": {
 		"type": "movie",
@@ -45196,22 +45156,22 @@
 		"imdb": "tt0103772"
 	},
 	"m|almost human|": {
-		"type": "movie",
-		"id": 210910,
+		"type": "tv",
+		"id": 51019,
 		"title": "Almost Human",
-		"year": 2014,
-		"poster": "/1SxL9zFvBbeNe2A39eTqLOrDmrh.jpg",
-		"votes": 124,
-		"imdb": "tt2325517"
+		"year": 2013,
+		"poster": "/7KNvabIPtsfR01H1bJwc1sobRUM.jpg",
+		"votes": 587,
+		"imdb": "tt2654580"
 	},
 	"m|house of cards|": {
-		"type": "movie",
-		"id": 47095,
+		"type": "tv",
+		"id": 1425,
 		"title": "House of Cards",
-		"year": 1993,
-		"poster": "/cmZTyKkjlchMjhgzvnpfkxIglqJ.jpg",
-		"votes": 82,
-		"imdb": "tt0107148"
+		"year": 2013,
+		"poster": "/hKWxWjFwnMvkWQawbhvC0Y7ygQ8.jpg",
+		"votes": 3352,
+		"imdb": "tt1856010"
 	},
 	"m|the dirty dozen|": {
 		"type": "movie",
@@ -45368,13 +45328,13 @@
 		"imdb": "tt0110763"
 	},
 	"m|community|": {
-		"type": "movie",
-		"id": 172342,
+		"type": "tv",
+		"id": 18347,
 		"title": "Community",
-		"year": 2012,
-		"poster": "/bdXIu5KTCfrmfRpMHrdMNUtgIYx.jpg",
-		"votes": 13,
-		"imdb": "tt2087720"
+		"year": 2009,
+		"poster": "/3KUjDt8XY7w2Ku70UE0SECmv1zP.jpg",
+		"votes": 2216,
+		"imdb": "tt1439629"
 	},
 	"m|the hunt for red october|": {
 		"type": "movie",
@@ -45654,12 +45614,12 @@
 	},
 	"m|overboard|": {
 		"type": "movie",
-		"id": 454619,
+		"id": 10780,
 		"title": "Overboard",
-		"year": 2018,
-		"poster": "/41Rzkgo9y7n6BNGD6O8j0LVs8Yu.jpg",
-		"votes": 1538,
-		"imdb": "tt1563742"
+		"year": 1987,
+		"poster": "/v9MVFgUTvNRXmm2WWOzST6UXb5x.jpg",
+		"votes": 1063,
+		"imdb": "tt0093693"
 	},
 	"m|trance|": {
 		"type": "movie",
@@ -45708,12 +45668,12 @@
 	},
 	"m|baghead|": {
 		"type": "movie",
-		"id": 845783,
+		"id": 5759,
 		"title": "Baghead",
-		"year": 2023,
-		"poster": "/lbOyeiiRYAE6Nm2e7xiNAAaRwZB.jpg",
-		"votes": 571,
-		"imdb": "tt14030816"
+		"year": 2008,
+		"poster": "/pO3Au8iDpZsJt7Xco6fRsNvm3vz.jpg",
+		"votes": 131,
+		"imdb": "tt0923600"
 	},
 	"m|passenger 57|": {
 		"type": "movie",
@@ -45726,12 +45686,12 @@
 	},
 	"m|the beast within|": {
 		"type": "movie",
-		"id": 1300962,
+		"id": 40219,
 		"title": "The Beast Within",
-		"year": 2024,
-		"poster": "/8cKyTYUMHcgGCq46pppGC3zt2w3.jpg",
-		"votes": 240,
-		"imdb": "tt14539318"
+		"year": 1982,
+		"poster": "/4ZYbhYQflIF1FV2cmOfQHBUtiQe.jpg",
+		"votes": 134,
+		"imdb": "tt0083629"
 	},
 	"m|don't stop believin': everyman's journey|": {
 		"type": "movie",
@@ -45879,13 +45839,13 @@
 	},
 	"m|vengeance trilogy|": null,
 	"m|derek|": {
-		"type": "movie",
-		"id": 99453,
+		"type": "tv",
+		"id": 60655,
 		"title": "Derek",
-		"year": 2008,
-		"poster": "/wCSsdAB04tyt2JAIrLQWIELtEMX.jpg",
-		"votes": 14,
-		"imdb": "tt1172992"
+		"year": 2013,
+		"poster": "/nfcvAjfV4u6uFtrA9X55nyJjrN7.jpg",
+		"votes": 261,
+		"imdb": "tt2616280"
 	},
 	"m|lethal weapon 1-4|": null,
 	"m|machete kills|": {
@@ -46103,7 +46063,7 @@
 		"title": "The Fall of the House of Usher",
 		"year": 1928,
 		"poster": "/gWpTehQgkkpMfxdCkr5CwU8vONR.jpg",
-		"votes": 147,
+		"votes": 148,
 		"imdb": "tt0018770"
 	},
 	"m|the wicker man|": {
@@ -46153,12 +46113,12 @@
 	},
 	"m|the innocents|": {
 		"type": "movie",
-		"id": 660942,
+		"id": 16372,
 		"title": "The Innocents",
-		"year": 2021,
-		"poster": "/dqvkxOLmnHgDOqZlT7GgMWEQViR.jpg",
-		"votes": 792,
-		"imdb": "tt4028464"
+		"year": 1961,
+		"poster": "/idqvLBmlEHUITMnQ0EJ6Yb5TpVw.jpg",
+		"votes": 702,
+		"imdb": "tt0055018"
 	},
 	"m|session 9|": {
 		"type": "movie",
@@ -46509,12 +46469,12 @@
 	},
 	"m|the dog|": {
 		"type": "movie",
-		"id": 212849,
+		"id": 1005385,
 		"title": "The Dog",
-		"year": 2013,
-		"poster": "/sgaFoabatyHxumdzTKSw6AAKdmQ.jpg",
-		"votes": 33,
-		"imdb": "tt3091304"
+		"year": 1993,
+		"poster": null,
+		"votes": 1,
+		"imdb": "tt0104116"
 	},
 	"m|burt's buzz|": {
 		"type": "movie",
@@ -46563,12 +46523,12 @@
 	},
 	"m|beyond the edge|": {
 		"type": "movie",
-		"id": 497727,
+		"id": 211088,
 		"title": "Beyond the Edge",
-		"year": 2018,
-		"poster": "/2wCc7YaeolNRo4Bh3xNG4zmu1XQ.jpg",
-		"votes": 196,
-		"imdb": "tt5629524"
+		"year": 2013,
+		"poster": "/zNzdji3vu6LoxH5OvcqaCnNT25t.jpg",
+		"votes": 51,
+		"imdb": "tt2468638"
 	},
 	"m|hudson hawk|": {
 		"type": "movie",
@@ -46625,13 +46585,13 @@
 		"imdb": "tt0055894"
 	},
 	"m|shark!|": {
-		"type": "movie",
-		"id": 4992,
+		"type": "tv",
+		"id": 400,
 		"title": "Shark",
-		"year": 1969,
-		"poster": "/yUTzpRHEWHSZerpKcozoA9NlvQR.jpg",
-		"votes": 33,
-		"imdb": "tt0066365"
+		"year": 2006,
+		"poster": "/Ahxpbk4Uu6zs1DgAbgfU80eHerx.jpg",
+		"votes": 107,
+		"imdb": "tt0805666"
 	},
 	"m|the man|": null,
 	"m|i declare war|": {
@@ -47596,13 +47556,13 @@
 		"imdb": "tt0085995"
 	},
 	"m|family tree|": {
-		"type": "movie",
-		"id": 111481,
+		"type": "tv",
+		"id": 46406,
 		"title": "Family Tree",
-		"year": 2010,
-		"poster": "/bZUbn7GImq9pnCvOupt3Y5KwMzu.jpg",
-		"votes": 11,
-		"imdb": "tt1345444"
+		"year": 2013,
+		"poster": "/aR1QlhiZVPxey4Hb5WxjJI8bpue.jpg",
+		"votes": 40,
+		"imdb": "tt2340036"
 	},
 	"m|star trek ii: the wrath of khan|": {
 		"type": "movie",
@@ -47788,13 +47748,13 @@
 		"imdb": "tt0165854"
 	},
 	"m|huff|": {
-		"type": "movie",
-		"id": 107020,
+		"type": "tv",
+		"id": 2302,
 		"title": "Huff",
-		"year": 2013,
-		"poster": "/hg9u4EmEqaTfMFwGLg2PEaHYvN4.jpg",
-		"votes": 19,
-		"imdb": "tt2128679"
+		"year": 2004,
+		"poster": "/4SlzMxpiXHN7k0UhHx3h0128eVO.jpg",
+		"votes": 37,
+		"imdb": "tt0409570"
 	},
 	"m|disney's oceans|": null,
 	"m|shine a light|": {
@@ -47915,13 +47875,13 @@
 		"imdb": "tt1282140"
 	},
 	"m|graceland|": {
-		"type": "movie",
-		"id": 127495,
+		"type": "tv",
+		"id": 47318,
 		"title": "Graceland",
-		"year": 2012,
-		"poster": "/5nrUyGYBW7FcfLca00DURLR98yM.jpg",
-		"votes": 34,
-		"imdb": "tt2131523"
+		"year": 2013,
+		"poster": "/oX3Hp4snTJH1chqnC8La0MkJJlZ.jpg",
+		"votes": 136,
+		"imdb": "tt2393813"
 	},
 	"m|repo man|": {
 		"type": "movie",
@@ -47943,12 +47903,12 @@
 	},
 	"m|miss bala|": {
 		"type": "movie",
-		"id": 500852,
+		"id": 77635,
 		"title": "Miss Bala",
-		"year": 2019,
-		"poster": "/ae9yrSAS7nLZPbbkOm61pSuIqeo.jpg",
-		"votes": 601,
-		"imdb": "tt5941692"
+		"year": 2011,
+		"poster": "/3YLdzzLfa95P1Rf7JkEZp9r1t8y.jpg",
+		"votes": 218,
+		"imdb": "tt1911600"
 	},
 	"m|the time traveler's wife|": {
 		"type": "movie",
@@ -48238,12 +48198,12 @@
 	"m|wrong|": null,
 	"m|legend|": {
 		"type": "movie",
-		"id": 276907,
+		"id": 11976,
 		"title": "Legend",
-		"year": 2015,
-		"poster": "/4shf5Alq4KWCKqrAAQe0JGJHYp5.jpg",
-		"votes": 4416,
-		"imdb": "tt3569230"
+		"year": 1985,
+		"poster": "/6n3PQSYpZRK5YPk2w8JEwED7AZk.jpg",
+		"votes": 1462,
+		"imdb": "tt0089469"
 	},
 	"m|alienator|": {
 		"type": "movie",
@@ -48355,13 +48315,13 @@
 		"imdb": "tt0047136"
 	},
 	"m|death valley|": {
-		"type": "movie",
-		"id": 892113,
+		"type": "tv",
+		"id": 40245,
 		"title": "Death Valley",
-		"year": 2021,
-		"poster": "/lVVBypE10jInpy2lYurWT8lyOXs.jpg",
-		"votes": 84,
-		"imdb": "tt14623762"
+		"year": 2011,
+		"poster": "/fPKQ4dWFMfjLOBQsHyebaWkfWyh.jpg",
+		"votes": 117,
+		"imdb": "tt1835129"
 	},
 	"m|the dawn patrol|": {
 		"type": "movie",
@@ -49588,7 +49548,7 @@
 		"title": "The Girl",
 		"year": 2012,
 		"poster": "/3LKSvrDqOWGvbE3JPleBrQeo0jO.jpg",
-		"votes": 122,
+		"votes": 124,
 		"imdb": "tt2132485"
 	},
 	"m|moonrise kingdom|": {
@@ -51355,12 +51315,12 @@
 	},
 	"m|the announcement|": {
 		"type": "movie",
-		"id": 538102,
+		"id": 97470,
 		"title": "The Announcement",
-		"year": 2017,
-		"poster": "/pbv0MSL9JKwu06CsaTrLCppkARR.jpg",
-		"votes": 26,
-		"imdb": "tt8751804"
+		"year": 2012,
+		"poster": "/n2RhI9Xjv1fvMF7DDQF1hq4gD0r.jpg",
+		"votes": 14,
+		"imdb": "tt2296987"
 	},
 	"m|speed racer|": {
 		"type": "movie",
@@ -51812,12 +51772,12 @@
 	},
 	"m|the program|": {
 		"type": "movie",
-		"id": 271736,
+		"id": 18133,
 		"title": "The Program",
-		"year": 2015,
-		"poster": "/7qb8L1SydRGGc3cuN0EUvOqLnCB.jpg",
-		"votes": 559,
-		"imdb": "tt3083008"
+		"year": 1993,
+		"poster": "/4pdbutHc9SLEPmdLKtlVffiLByP.jpg",
+		"votes": 112,
+		"imdb": "tt0107889"
 	},
 	"m|little giants|": {
 		"type": "movie",
@@ -51829,13 +51789,13 @@
 		"imdb": "tt0110364"
 	},
 	"m|the river|": {
-		"type": "movie",
-		"id": 38557,
+		"type": "tv",
+		"id": 39336,
 		"title": "The River",
-		"year": 1984,
-		"poster": "/bXIlE2QVIarVug9wpyPIz2xiWxf.jpg",
-		"votes": 142,
-		"imdb": "tt0088007"
+		"year": 2012,
+		"poster": "/8gaGHgNLckAQMwGGFoHzCc92FGj.jpg",
+		"votes": 298,
+		"imdb": "tt1836195"
 	},
 	"m|this means war|": {
 		"type": "movie",
@@ -51892,22 +51852,22 @@
 		"imdb": "tt1229238"
 	},
 	"m|the take|": {
-		"type": "movie",
-		"id": 18056,
+		"type": "tv",
+		"id": 17627,
 		"title": "The Take",
-		"year": 2008,
-		"poster": "/kbJ8bjRr0U2wIhomhllEGUQ9071.jpg",
-		"votes": 50,
-		"imdb": "tt0828158"
+		"year": 2009,
+		"poster": "/1caD6qD3acG2NmVnZeH0xibcfT4.jpg",
+		"votes": 91,
+		"imdb": "tt1366321"
 	},
 	"m|luck|": {
-		"type": "movie",
-		"id": 585511,
+		"type": "tv",
+		"id": 32727,
 		"title": "Luck",
-		"year": 2022,
-		"poster": "/1HOYvwGFioUFL58UVvDRG6beEDm.jpg",
-		"votes": 2122,
-		"imdb": "tt7214954"
+		"year": 2012,
+		"poster": "/ngiaLLLpGeRjww6ZagjZrg9elcg.jpg",
+		"votes": 74,
+		"imdb": "tt1578887"
 	},
 	"m|what about bob?|": {
 		"type": "movie",
@@ -51964,13 +51924,13 @@
 		"imdb": "tt0049518"
 	},
 	"m|alcatraz|": {
-		"type": "movie",
-		"id": 559700,
+		"type": "tv",
+		"id": 35339,
 		"title": "Alcatraz",
-		"year": 2018,
-		"poster": "/2cMu9wCWA3pqQxF4H7s11Pqlf3w.jpg",
-		"votes": 35,
-		"imdb": "tt7099566"
+		"year": 2012,
+		"poster": "/yES1yqjp6Jl2CEVKHdfwKrIsnqd.jpg",
+		"votes": 320,
+		"imdb": "tt1728102"
 	},
 	"m|and everything is going fine|": {
 		"type": "movie",
@@ -52505,12 +52465,12 @@
 	},
 	"m|trigger|": {
 		"type": "movie",
-		"id": 1087179,
+		"id": 80293,
 		"title": "Trigger",
-		"year": 2023,
-		"poster": "/eHiOH4Ldd21EPqBqCFs2LGMKFOf.jpg",
-		"votes": 28,
-		"imdb": "tt21617276"
+		"year": 2010,
+		"poster": "/3d2fDZ0qoU3ac7iqGanEIx3YN3I.jpg",
+		"votes": 25,
+		"imdb": "tt1624408"
 	},
 	"m|boxcar bertha|": {
 		"type": "movie",
@@ -52622,13 +52582,13 @@
 		"imdb": "tt0083791"
 	},
 	"m|the storyteller|": {
-		"type": "movie",
-		"id": 1108906,
+		"type": "tv",
+		"id": 5303,
 		"title": "The Storyteller",
-		"year": 2024,
-		"poster": "/iqiWiA2E0pywiFW1iXAMfz8w3ex.jpg",
-		"votes": 13,
-		"imdb": "tt27304417"
+		"year": 1988,
+		"poster": "/4zyfBsIxQfEK0RcfJvwXgHTKqfn.jpg",
+		"votes": 246,
+		"imdb": "tt0092383"
 	},
 	"m|edtv|": {
 		"type": "movie",
@@ -52715,13 +52675,13 @@
 		"imdb": "tt1493941"
 	},
 	"m|teen wolf|": {
-		"type": "movie",
-		"id": 11824,
+		"type": "tv",
+		"id": 34524,
 		"title": "Teen Wolf",
-		"year": 1985,
-		"poster": "/bv9rY9eoue2Hat6tcvrKVQ0ow8v.jpg",
-		"votes": 1301,
-		"imdb": "tt0090142"
+		"year": 2011,
+		"poster": "/wjKBTcNy1xihmExqJI8kM2qvavP.jpg",
+		"votes": 4829,
+		"imdb": "tt1567432"
 	},
 	"m|louis theroux's weird weekends|": {
 		"type": "tv",
@@ -52774,13 +52734,13 @@
 		"imdb": "tt1161864"
 	},
 	"m|buffy the vampire slayer|": {
-		"type": "movie",
-		"id": 10206,
+		"type": "tv",
+		"id": 95,
 		"title": "Buffy the Vampire Slayer",
-		"year": 1992,
-		"poster": "/tcF3S4UdFpuoZEWovMDq5AXazNF.jpg",
-		"votes": 948,
-		"imdb": "tt0103893"
+		"year": 1997,
+		"poster": "/y7fVZkyheCEQHDUEHwNmYENGfT2.jpg",
+		"votes": 2094,
+		"imdb": "tt0118276"
 	},
 	"m|transformers: dark of the moon|": {
 		"type": "movie",
@@ -52955,13 +52915,13 @@
 		"imdb": "tt0065569"
 	},
 	"m|boss|": {
-		"type": "movie",
-		"id": 228355,
+		"type": "tv",
+		"id": 38922,
 		"title": "Boss",
-		"year": 2013,
-		"poster": "/kOsSC9X6aarcq0LlFAPTECIZ0jd.jpg",
-		"votes": 93,
-		"imdb": "tt2571140"
+		"year": 2011,
+		"poster": "/foV4LJFlFaxLBqSd6Dih9HVupkj.jpg",
+		"votes": 152,
+		"imdb": "tt1833285"
 	},
 	"m|the blob (original and remake)|": null,
 	"m|halloween ii|": {
@@ -53079,13 +53039,13 @@
 		"imdb": "tt0083296"
 	},
 	"m|terra nova|": {
-		"type": "movie",
-		"id": 30858,
+		"type": "tv",
+		"id": 32754,
 		"title": "Terra Nova",
-		"year": 2008,
-		"poster": "/5YopFtvwt2hJ8h3pwbl3XzXX3iE.jpg",
-		"votes": 52,
-		"imdb": "tt1234435"
+		"year": 2011,
+		"poster": "/y8dFONeUSXhMHiFecqFoaGI7S6y.jpg",
+		"votes": 926,
+		"imdb": "tt1641349"
 	},
 	"m|bad dreams|": {
 		"type": "movie",
@@ -53124,13 +53084,13 @@
 		"imdb": "tt0194218"
 	},
 	"m|person of interest|": {
-		"type": "movie",
-		"id": 47640,
+		"type": "tv",
+		"id": 1411,
 		"title": "Person of Interest",
-		"year": 2010,
-		"poster": "/dE3Ngakk6HINe0evHN6xu7Rhk9v.jpg",
-		"votes": 18,
-		"imdb": "tt1208716"
+		"year": 2011,
+		"poster": "/f8aIvYk5h7Z8EP3dinCmVgQFYow.jpg",
+		"votes": 2206,
+		"imdb": "tt1839578"
 	},
 	"m|meek’s cutoff|": {
 		"type": "movie",
@@ -53171,12 +53131,12 @@
 	},
 	"m|extraterrestrial|": {
 		"type": "movie",
-		"id": 265016,
+		"id": 76333,
 		"title": "Extraterrestrial",
-		"year": 2014,
-		"poster": "/mmiG916iIh6w378qBjRfTonqOWb.jpg",
-		"votes": 595,
-		"imdb": "tt2960930"
+		"year": 2011,
+		"poster": "/xIZCOW54wxYYsHBdL3Tion4ptHv.jpg",
+		"votes": 105,
+		"imdb": "tt1680133"
 	},
 	"m|hard core logo ii|": null,
 	"m|the raid|": {
@@ -53290,12 +53250,12 @@
 	},
 	"m|rebirth|": {
 		"type": "movie",
-		"id": 369033,
-		"title": "Rebirth",
-		"year": 2016,
-		"poster": "/rBI7uS5DDfWBPfMmlxUvgn0PePa.jpg",
-		"votes": 210,
-		"imdb": "tt4902716"
+		"id": 52408,
+		"title": "Tomie: Rebirth",
+		"year": 2001,
+		"poster": "/zJ16L8nW2ouQmV0DQ2yebICIPy6.jpg",
+		"votes": 104,
+		"imdb": "tt0348225"
 	},
 	"m|mimic: the director's cut|": null,
 	"m|exporting raymond|": {
@@ -53336,12 +53296,12 @@
 	},
 	"m|if....|": {
 		"type": "movie",
-		"id": 639720,
-		"title": "IF",
-		"year": 2024,
-		"poster": "/xbKFv4KF3sVYuWKllLlwWDmuZP7.jpg",
-		"votes": 1699,
-		"imdb": "tt11152168"
+		"id": 14794,
+		"title": "if....",
+		"year": 1968,
+		"poster": "/oqlpAGq4aXhc6ODtxBcGM1SEoIp.jpg",
+		"votes": 443,
+		"imdb": "tt0063850"
 	},
 	"m|dumb & dumber|": {
 		"type": "movie",
@@ -53354,12 +53314,12 @@
 	},
 	"m|paradise lost|": {
 		"type": "movie",
-		"id": 524323,
+		"id": 184585,
 		"title": "Paradise Lost",
-		"year": 2018,
-		"poster": "/rFgXt24xn6KnaVS0J5IllaWUNJg.jpg",
-		"votes": 56,
-		"imdb": "tt8513302"
+		"year": 1999,
+		"poster": "/2j2gRtNwxost1rk0B0hs1FfyUM8.jpg",
+		"votes": 11,
+		"imdb": "tt0180897"
 	},
 	"m|aladdin|": {
 		"type": "movie",
@@ -53644,12 +53604,12 @@
 	"m|heavy to|": null,
 	"m|naked|": {
 		"type": "movie",
-		"id": 433251,
+		"id": 21450,
 		"title": "Naked",
-		"year": 2017,
-		"poster": "/qXRmYSB9C6SHdxTgY3wB72Riz9Y.jpg",
-		"votes": 1359,
-		"imdb": "tt6048930"
+		"year": 1993,
+		"poster": "/xMYP4uaNeyPmX4FQ2xxWk2eIN6K.jpg",
+		"votes": 717,
+		"imdb": "tt0107653"
 	},
 	"m|cave of forgotten dreams|": {
 		"type": "movie",
@@ -53679,13 +53639,13 @@
 		"imdb": "tt1341167"
 	},
 	"m|entourage|": {
-		"type": "movie",
-		"id": 188222,
+		"type": "tv",
+		"id": 1940,
 		"title": "Entourage",
-		"year": 2015,
-		"poster": "/28dqsx1jCxhR05DfH35ui13ywNZ.jpg",
-		"votes": 1139,
-		"imdb": "tt1674771"
+		"year": 2004,
+		"poster": "/pDueLVvdrR2jSMrQ2pFXI9ff5zB.jpg",
+		"votes": 687,
+		"imdb": "tt0387199"
 	},
 	"m|machine gun mccain|": {
 		"type": "movie",
@@ -53871,12 +53831,12 @@
 	},
 	"m|the harvest|": {
 		"type": "movie",
-		"id": 229182,
+		"id": 54817,
 		"title": "The Harvest",
-		"year": 2015,
-		"poster": "/he6abiplc1atXbN7OztQAiZoYU.jpg",
-		"votes": 223,
-		"imdb": "tt2543336"
+		"year": 1993,
+		"poster": "/8lFeJSx3Zzgy9s3ZRGl2Fjm441a.jpg",
+		"votes": 23,
+		"imdb": "tt0107084"
 	},
 	"m|the hangover part ii|": {
 		"type": "movie",
@@ -53924,13 +53884,13 @@
 		"imdb": "tt1853563"
 	},
 	"m|amazing stories|": {
-		"type": "movie",
-		"id": 576510,
+		"type": "tv",
+		"id": 1026,
 		"title": "Amazing Stories",
-		"year": 1986,
-		"poster": "/8XJb9oEnpLtMoOx4Za6JVMA8vqy.jpg",
-		"votes": 33,
-		"imdb": "tt7763324"
+		"year": 1985,
+		"poster": "/66Utyft9WHPQJSU7f7MbEB72dkc.jpg",
+		"votes": 237,
+		"imdb": "tt0088478"
 	},
 	"m|young sherlock holmes|": {
 		"type": "movie",
@@ -53952,21 +53912,21 @@
 	},
 	"m|the host|": {
 		"type": "movie",
-		"id": 72710,
+		"id": 1255,
 		"title": "The Host",
-		"year": 2013,
-		"poster": "/1mfIZw6WgkCX310eoe0Ys14c3Fi.jpg",
-		"votes": 4137,
-		"imdb": "tt1517260"
+		"year": 2006,
+		"poster": "/dEDLY3KeghKFzks5nTDWdigVikr.jpg",
+		"votes": 3285,
+		"imdb": "tt0468492"
 	},
 	"m|superman|": {
 		"type": "movie",
-		"id": 1061474,
+		"id": 1924,
 		"title": "Superman",
-		"year": 2025,
-		"poster": "/ldyfo0BKmz5rWtJJKCvwaNS4cJT.jpg",
-		"votes": 5515,
-		"imdb": "tt5950044"
+		"year": 1978,
+		"poster": "/d7px1FQxW4tngdACVRsCSaZq0Xl.jpg",
+		"votes": 4478,
+		"imdb": "tt0078346"
 	},
 	"m|superman ii|": {
 		"type": "movie",
@@ -54097,13 +54057,13 @@
 		"imdb": "tt0032553"
 	},
 	"m|the office|": {
-		"type": "movie",
-		"id": 49097,
+		"type": "tv",
+		"id": 2316,
 		"title": "The Office",
-		"year": 1966,
-		"poster": "/8eK9f7mfG2ZZVDvOlW97kF6JGp6.jpg",
-		"votes": 50,
-		"imdb": "tt0167319"
+		"year": 2005,
+		"poster": "/7DJKHzAi83BmQrWLrYYOqcoKfhR.jpg",
+		"votes": 5634,
+		"imdb": "tt0386676"
 	},
 	"m|priest|": {
 		"type": "movie",
@@ -54291,12 +54251,12 @@
 	},
 	"m|superheroes|": {
 		"type": "movie",
-		"id": 612491,
+		"id": 71905,
 		"title": "Superheroes",
-		"year": 2021,
-		"poster": "/9ZDnrgn6Iw9z2XtaQ99G0p1DFP0.jpg",
-		"votes": 228,
-		"imdb": "tt10791152"
+		"year": 2011,
+		"poster": "/utZVTxNMFsGi5oHDJYu73Q367CZ.jpg",
+		"votes": 42,
+		"imdb": "tt1792621"
 	},
 	"m|the flock|": {
 		"type": "movie",
@@ -55379,12 +55339,12 @@
 	},
 	"m|the oath|": {
 		"type": "movie",
-		"id": 520596,
+		"id": 52918,
 		"title": "The Oath",
-		"year": 2018,
-		"poster": "/kHB7Nq93pQxGOit1Lyz1ELfUvy0.jpg",
-		"votes": 108,
-		"imdb": "tt7461200"
+		"year": 2010,
+		"poster": "/tBe3AFoj2usO9mSHNNTpp1t33aR.jpg",
+		"votes": 26,
+		"imdb": "tt1522857"
 	},
 	"m|diva|": {
 		"type": "movie",
@@ -55607,12 +55567,12 @@
 	},
 	"m|i'm still here|": {
 		"type": "movie",
-		"id": 1000837,
+		"id": 43939,
 		"title": "I'm Still Here",
-		"year": 2024,
-		"poster": "/gZnsMbhCvhzAQlKaVpeFRHYjGyb.jpg",
-		"votes": 1170,
-		"imdb": "tt14961016"
+		"year": 2010,
+		"poster": "/h8c53OPv2miF6vzpVXQZX8jw1pJ.jpg",
+		"votes": 420,
+		"imdb": "tt1356864"
 	},
 	"m|manda bala (send a bullet)|": {
 		"type": "movie",
@@ -55741,13 +55701,13 @@
 		"imdb": "tt0480255"
 	},
 	"m|conan|": {
-		"type": "movie",
-		"id": 119423,
+		"type": "tv",
+		"id": 32415,
 		"title": "Conan",
-		"year": 1997,
-		"poster": "/3QxzXU1oVE182NpqiLt5YxGQgoy.jpg",
-		"votes": 25,
-		"imdb": "tt0545498"
+		"year": 2010,
+		"poster": "/oQxrvUhP3ycwnlxIrIMQ9Z3kleq.jpg",
+		"votes": 268,
+		"imdb": "tt1637574"
 	},
 	"m|children shouldn't play with dead things|": {
 		"type": "movie",
@@ -55887,12 +55847,12 @@
 	},
 	"m|primal rage|": {
 		"type": "movie",
-		"id": 436373,
+		"id": 90941,
 		"title": "Primal Rage",
-		"year": 2018,
-		"poster": "/8tGM0Vv4X60r6zHDGcpanIrDcdm.jpg",
-		"votes": 96,
-		"imdb": "tt5688868"
+		"year": 1988,
+		"poster": "/y6bZk79VHK4XvZo6dAJd6Z9JgKq.jpg",
+		"votes": 50,
+		"imdb": "tt0102709"
 	},
 	"m|paranormal activity 2|": {
 		"type": "movie",
@@ -55954,22 +55914,22 @@
 		"imdb": "tt1179034"
 	},
 	"m|house|": {
-		"type": "movie",
-		"id": 25623,
+		"type": "tv",
+		"id": 1408,
 		"title": "House",
-		"year": 1977,
-		"poster": "/ryZ3DdZPvXVCv9qRCtVRfmNbYAH.jpg",
-		"votes": 834,
-		"imdb": "tt0076162"
+		"year": 2004,
+		"poster": "/3Cz7ySOQJmqiuTdrc6CY0r65yDI.jpg",
+		"votes": 7976,
+		"imdb": "tt0412142"
 	},
 	"m|troll 2|": {
 		"type": "movie",
-		"id": 1180831,
+		"id": 26914,
 		"title": "Troll 2",
-		"year": 2025,
-		"poster": "/p6xAExLNFbHcLfvSuvLPoM8aqZU.jpg",
-		"votes": 534,
-		"imdb": "tt29232158"
+		"year": 1990,
+		"poster": "/eFth6zw4PEInzr2Y64mYVN1zbBi.jpg",
+		"votes": 489,
+		"imdb": "tt0105643"
 	},
 	"m|committed|": {
 		"type": "movie",
@@ -56044,13 +56004,13 @@
 		"imdb": "tt0100263"
 	},
 	"m|lost girl|": {
-		"type": "movie",
-		"id": 638943,
+		"type": "tv",
+		"id": 33852,
 		"title": "Lost Girl",
-		"year": 2019,
-		"poster": "/btTzRshPDb5j9xXlxnJvFEm2KuV.jpg",
-		"votes": 56,
-		"imdb": "tt9068514"
+		"year": 2010,
+		"poster": "/6eDCAW4jnyjtR0OwujK1JU2gu2u.jpg",
+		"votes": 462,
+		"imdb": "tt1429449"
 	},
 	"m|shit my dad says|": null,
 	"m|blue bloods|": {
@@ -56575,13 +56535,13 @@
 		"imdb": "tt1325004"
 	},
 	"m|battlestar galactica|": {
-		"type": "movie",
-		"id": 148980,
+		"type": "tv",
+		"id": 1972,
 		"title": "Battlestar Galactica",
-		"year": 1978,
-		"poster": "/96ETJEnHoVuptkCNMtxcEZ5iWzN.jpg",
-		"votes": 218,
-		"imdb": "tt0077215"
+		"year": 2004,
+		"poster": "/99PJSbcO2LeM10uOGWeFihNp77j.jpg",
+		"votes": 1882,
+		"imdb": "tt0407362"
 	},
 	"m|rambo: extended cut|": null,
 	"m|louie bluie|": {
@@ -56604,21 +56564,21 @@
 	},
 	"m|lucky|": {
 		"type": "movie",
-		"id": 407449,
+		"id": 70585,
 		"title": "Lucky",
-		"year": 2017,
-		"poster": "/fy2K8jqCV9rNC8fHx9muPJTNaqs.jpg",
-		"votes": 668,
-		"imdb": "tt5859238"
+		"year": 2011,
+		"poster": "/ve8jNuvrzayJe0WSdPUtHf9OPO0.jpg",
+		"votes": 82,
+		"imdb": "tt1473397"
 	},
 	"m|mother|": {
 		"type": "movie",
-		"id": 381283,
-		"title": "mother!",
-		"year": 2017,
-		"poster": "/fjny9chXPx69ln1LMJxbwi5yHMt.jpg",
-		"votes": 7273,
-		"imdb": "tt5109784"
+		"id": 30018,
+		"title": "Mother",
+		"year": 2009,
+		"poster": "/8oBnSkZE6GDVugAbLPO6uJd4GcS.jpg",
+		"votes": 1774,
+		"imdb": "tt1216496"
 	},
 	"m|lost epilogue|": null,
 	"m|cleanflix|": {
@@ -56650,12 +56610,12 @@
 	},
 	"m|the trap|": {
 		"type": "movie",
-		"id": 592348,
+		"id": 51445,
 		"title": "The Trap",
-		"year": 2019,
-		"poster": "/swk3ionimeKwX1e6k1XbHCSeYv0.jpg",
-		"votes": 84,
-		"imdb": "tt5990444"
+		"year": 1966,
+		"poster": "/qdiAXBVYvSqmN0KEFVvSqzo46nE.jpg",
+		"votes": 38,
+		"imdb": "tt0061115"
 	},
 	"m|rush: beyond the lighted stage|": {
 		"type": "movie",
@@ -56703,13 +56663,13 @@
 		"imdb": "tt1484522"
 	},
 	"m|haven|": {
-		"type": "movie",
-		"id": 9830,
+		"type": "tv",
+		"id": 33001,
 		"title": "Haven",
-		"year": 2004,
-		"poster": "/cV6rQ2wPN5I58d34DHyFAmO36BF.jpg",
-		"votes": 111,
-		"imdb": "tt0386504"
+		"year": 2010,
+		"poster": "/aceumwROgphFLSyOXFfijaoSZJE.jpg",
+		"votes": 521,
+		"imdb": "tt1519931"
 	},
 	"m|greenberg|": {
 		"type": "movie",
@@ -56731,12 +56691,12 @@
 	},
 	"m|god’s country|": {
 		"type": "movie",
-		"id": 879990,
+		"id": 79179,
 		"title": "God's Country",
-		"year": 2022,
-		"poster": "/aZp190Qx33oRO8KGSkO1sFjEqC2.jpg",
-		"votes": 107,
-		"imdb": "tt11818818"
+		"year": 1985,
+		"poster": "/gmNTlAquVpkGoS5bDCfClxrKhrt.jpg",
+		"votes": 19,
+		"imdb": "tt0091125"
 	},
 	"m|rookie blue|": {
 		"type": "tv",
@@ -56820,13 +56780,13 @@
 		"imdb": "tt0454864"
 	},
 	"m|hell's kitchen|": {
-		"type": "movie",
-		"id": 37900,
+		"type": "tv",
+		"id": 2370,
 		"title": "Hell's Kitchen",
-		"year": 1998,
-		"poster": "/4O5qyaUbVBJGe4Gt95RpKS2yyrl.jpg",
-		"votes": 49,
-		"imdb": "tt0129136"
+		"year": 2005,
+		"poster": "/shOVFku8daIGRpgjTdMZBxUAvsV.jpg",
+		"votes": 345,
+		"imdb": "tt0437005"
 	},
 	"m|close-up|": {
 		"type": "movie",
@@ -56987,12 +56947,12 @@
 	},
 	"m|the magnificent seven|": {
 		"type": "movie",
-		"id": 333484,
+		"id": 966,
 		"title": "The Magnificent Seven",
-		"year": 2016,
-		"poster": "/ezcS78TIjgr85pVdaPDd2rSPVNs.jpg",
-		"votes": 6577,
-		"imdb": "tt2404435"
+		"year": 1960,
+		"poster": "/e5ToxOyJwuZD4VOfI0qEn5uIjeJ.jpg",
+		"votes": 2086,
+		"imdb": "tt0054047"
 	},
 	"m|stocky night in canada 2|": null,
 	"m|the deep|": {
@@ -57459,13 +57419,13 @@
 		"imdb": "tt1280011"
 	},
 	"m|the fall guy|": {
-		"type": "movie",
-		"id": 746036,
+		"type": "tv",
+		"id": 5031,
 		"title": "The Fall Guy",
-		"year": 2024,
-		"poster": "/e7olqFmzcIX5c23kX4zSmLPJi8c.jpg",
-		"votes": 4069,
-		"imdb": "tt1684562"
+		"year": 1981,
+		"poster": "/q8IS76HrmnjwGAvMwcanxohNja4.jpg",
+		"votes": 184,
+		"imdb": "tt0081859"
 	},
 	"m|whip it|": {
 		"type": "movie",
@@ -57541,12 +57501,12 @@
 	},
 	"m|sugar|": {
 		"type": "movie",
-		"id": 36799,
+		"id": 17003,
 		"title": "Sugar",
-		"year": 2004,
-		"poster": "/UHmjRNgnSNG3bXlfjQ5OGwmFoG.jpg",
-		"votes": 29,
-		"imdb": "tt0374252"
+		"year": 2008,
+		"poster": "/ldiKnTAt8pBB3rY6HQI4QZt6r7n.jpg",
+		"votes": 79,
+		"imdb": "tt0990413"
 	},
 	"m|wrong side of town|": {
 		"type": "movie",
@@ -57751,13 +57711,13 @@
 	},
 	"m|survivor: heroes vs. villains|": null,
 	"m|aquaman|": {
-		"type": "movie",
-		"id": 297802,
+		"type": "tv",
+		"id": 10724,
 		"title": "Aquaman",
-		"year": 2018,
-		"poster": "/ufl63EFcc5XpByEV2Ecdw6WJZAI.jpg",
-		"votes": 15236,
-		"imdb": "tt1477834"
+		"year": 1967,
+		"poster": "/346THllqSorcNec6HvIMy0NmqFi.jpg",
+		"votes": 99,
+		"imdb": "tt0433278"
 	},
 	"m|leonard part 6|": {
 		"type": "movie",
@@ -58027,12 +57987,12 @@
 	},
 	"m|sweet dreams|": {
 		"type": "movie",
-		"id": 394260,
+		"id": 42045,
 		"title": "Sweet Dreams",
-		"year": 2016,
-		"poster": "/6hVOxQX6Q7K6IsOJAw4D7zPIssX.jpg",
-		"votes": 224,
-		"imdb": "tt4746506"
+		"year": 1985,
+		"poster": "/3BuTH2W1s2AQTZAfiLoUMTx1PmM.jpg",
+		"votes": 67,
+		"imdb": "tt0090110"
 	},
 	"m|invictus|": {
 		"type": "movie",
@@ -58163,12 +58123,12 @@
 	},
 	"m|shadows|": {
 		"type": "movie",
-		"id": 64860,
+		"id": 15484,
 		"title": "Shadows",
-		"year": 1922,
-		"poster": "/Avs0TSFmnyUNCjeYP7QAZAi3reM.jpg",
-		"votes": 18,
-		"imdb": "tt0013592"
+		"year": 1960,
+		"poster": "/zR1gHOGVruoROCdHS7Tc5TSZqED.jpg",
+		"votes": 279,
+		"imdb": "tt0053270"
 	},
 	"m|contempt|": {
 		"type": "movie",
@@ -58236,12 +58196,12 @@
 	"m|star wars in concert|": null,
 	"m|sergio|": {
 		"type": "movie",
-		"id": 653744,
+		"id": 39442,
 		"title": "Sergio",
-		"year": 2020,
-		"poster": "/tABtj9BwYVDCM69h7AK38MDgw64.jpg",
-		"votes": 367,
-		"imdb": "tt8750570"
+		"year": 2009,
+		"poster": "/4VYpekOnxEgJVyErIW5p3fK8Zo6.jpg",
+		"votes": 20,
+		"imdb": "tt1333656"
 	},
 	"m|bruno|": {
 		"type": "movie",
@@ -58299,13 +58259,13 @@
 	},
 	"m|an evening with stephen king|": null,
 	"m|the prisoner|": {
-		"type": "movie",
-		"id": 52857,
+		"type": "tv",
+		"id": 894,
 		"title": "The Prisoner",
-		"year": 1955,
-		"poster": "/gPlWKXHnBI6egwiISo3KqOUzIEP.jpg",
-		"votes": 24,
-		"imdb": "tt0048512"
+		"year": 1967,
+		"poster": "/1FtqAlj6jsBk25PKwL2NrgzdFSo.jpg",
+		"votes": 223,
+		"imdb": "tt0061287"
 	},
 	"m|dog bite dog|": {
 		"type": "movie",
@@ -58426,22 +58386,22 @@
 		"imdb": "tt1398941"
 	},
 	"m|heroes|": {
-		"type": "movie",
-		"id": 83481,
+		"type": "tv",
+		"id": 1639,
 		"title": "Heroes",
-		"year": 2010,
-		"poster": "/4dTrFDDnY13GNkClbtFhl3f0K15.jpg",
-		"votes": 45,
-		"imdb": "tt1483386"
+		"year": 2006,
+		"poster": "/lf0TcOkheYUZKpeh7c8lqJHNk5O.jpg",
+		"votes": 2712,
+		"imdb": "tt0813715"
 	},
 	"m|the good wife|": {
-		"type": "movie",
-		"id": 59066,
+		"type": "tv",
+		"id": 1435,
 		"title": "The Good Wife",
-		"year": 1987,
-		"poster": "/x2cFXujeW68LXn1uCo8SxcCeXhF.jpg",
-		"votes": 20,
-		"imdb": "tt0093106"
+		"year": 2009,
+		"poster": "/lasNCd45fpPLirlA7QxkuopWro.jpg",
+		"votes": 715,
+		"imdb": "tt1442462"
 	},
 	"m|surrogates|": {
 		"type": "movie",
@@ -58508,12 +58468,12 @@
 	},
 	"m|grace|": {
 		"type": "movie",
-		"id": 289416,
+		"id": 21398,
 		"title": "Grace",
-		"year": 2014,
-		"poster": "/6ikvuPIo1kGuRQz70l3ecissZLS.jpg",
-		"votes": 238,
-		"imdb": "tt3068192"
+		"year": 2009,
+		"poster": "/aygXzr6TaeC9jaPC6FfbKxNwZsN.jpg",
+		"votes": 179,
+		"imdb": "tt1220213"
 	},
 	"m|planet terror|": {
 		"type": "movie",
@@ -59012,13 +58972,13 @@
 	},
 	"m|ghostbusters: the video game|": null,
 	"m|weeds|": {
-		"type": "movie",
-		"id": 96333,
+		"type": "tv",
+		"id": 186,
 		"title": "Weeds",
-		"year": 1987,
-		"poster": "/1GVWnb769243POxPy3f9OiyWdK5.jpg",
-		"votes": 20,
-		"imdb": "tt0094304"
+		"year": 2005,
+		"poster": "/gKUsBTa5b0GY7U4iWBseeBalfjO.jpg",
+		"votes": 1053,
+		"imdb": "tt0439100"
 	},
 	"m|s. darko|": {
 		"type": "movie",
@@ -59030,13 +58990,13 @@
 		"imdb": "tt1231277"
 	},
 	"m|true blood|": {
-		"type": "movie",
-		"id": 127523,
+		"type": "tv",
+		"id": 10545,
 		"title": "True Blood",
-		"year": 1989,
-		"poster": "/3zLmhRZXjhh3IBkdCOK8psANays.jpg",
-		"votes": 17,
-		"imdb": "tt0098525"
+		"year": 2008,
+		"poster": "/ktEp6fzL4xzCWsSVtrcH8JaQNQy.jpg",
+		"votes": 2171,
+		"imdb": "tt0844441"
 	},
 	"m|my name is bruce|": {
 		"type": "movie",
@@ -59285,12 +59245,12 @@
 	"m|a haunting in connecticut|": null,
 	"m|the pool|": {
 		"type": "movie",
-		"id": 550201,
+		"id": 11376,
 		"title": "The Pool",
-		"year": 2018,
-		"poster": "/n4XWXUoxH8WCUVfu2Sp3xhbMyUG.jpg",
-		"votes": 371,
-		"imdb": "tt9128686"
+		"year": 2001,
+		"poster": "/nTsnm6cEP9wiSggBByQ05EVusw.jpg",
+		"votes": 123,
+		"imdb": "tt0283027"
 	},
 	"m|pink flamingos|": {
 		"type": "movie",
@@ -59475,22 +59435,22 @@
 		"imdb": "tt0059549"
 	},
 	"m|dollhouse|": {
-		"type": "movie",
-		"id": 1404791,
+		"type": "tv",
+		"id": 14956,
 		"title": "Dollhouse",
-		"year": 2025,
-		"poster": "/vUs4OPpvu4Is7wIGaXkseNJHhEA.jpg",
-		"votes": 144,
-		"imdb": "tt35276942"
+		"year": 2009,
+		"poster": "/oq5WPzUn7R0YcIk7QGwpXqvgSWO.jpg",
+		"votes": 526,
+		"imdb": "tt1135300"
 	},
 	"m|the league of gentlemen|": {
-		"type": "movie",
-		"id": 46724,
+		"type": "tv",
+		"id": 2349,
 		"title": "The League of Gentlemen",
-		"year": 1960,
-		"poster": "/6lJvpL5Z3qZxegmJHUpjGsWROtW.jpg",
-		"votes": 109,
-		"imdb": "tt0052997"
+		"year": 1999,
+		"poster": "/wLAWxtYXvqUo4uVwiVsU7ACui6w.jpg",
+		"votes": 133,
+		"imdb": "tt0184135"
 	},
 	"m|the foot fist way|": {
 		"type": "movie",
@@ -59503,13 +59463,13 @@
 	},
 	"m|the return of the swamp thing|": null,
 	"m|the f word|": {
-		"type": "movie",
-		"id": 861396,
-		"title": "The F-Word",
-		"year": 2021,
-		"poster": "/oRYyqHgDb2ZhlOoWYcBom2vnnDW.jpg",
-		"votes": 39,
-		"imdb": "tt15233750"
+		"type": "tv",
+		"id": 1478,
+		"title": "The F Word",
+		"year": 2005,
+		"poster": "/63tzS2P1B7FQD8MJFoKmvUYK9hz.jpg",
+		"votes": 22,
+		"imdb": "tt0490035"
 	},
 	"m|apocalypto|": {
 		"type": "movie",
@@ -60113,12 +60073,12 @@
 	},
 	"m|rookies|": {
 		"type": "movie",
-		"id": 916403,
-		"title": "Rookies",
-		"year": 2022,
-		"poster": "/OKSprMJ5FbcU1OxNPecN45g1KY.jpg",
-		"votes": 16,
-		"imdb": "tt17157266"
+		"id": 75428,
+		"title": "Rookies the Movie: Graduation",
+		"year": 2009,
+		"poster": "/6aS2if1GgSQADZXWZA1Ac2rOwBo.jpg",
+		"votes": 10,
+		"imdb": "tt1446151"
 	},
 	"m|flashpoint|": {
 		"type": "movie",
@@ -60299,12 +60259,12 @@
 	},
 	"m|adoration|": {
 		"type": "movie",
-		"id": 111190,
+		"id": 8895,
 		"title": "Adoration",
-		"year": 2013,
-		"poster": "/hIQqIeG7Ude0QRUFntdLtsAUEBB.jpg",
-		"votes": 1054,
-		"imdb": "tt2103267"
+		"year": 2009,
+		"poster": "/dnbb6ffJ7ebWCR7IgJoJXSfzCbD.jpg",
+		"votes": 54,
+		"imdb": "tt1074929"
 	},
 	"m|gigantic|": {
 		"type": "movie",
@@ -60379,13 +60339,13 @@
 		"imdb": "tt0905979"
 	},
 	"m|star wars: the clone wars|": {
-		"type": "movie",
-		"id": 12180,
+		"type": "tv",
+		"id": 4194,
 		"title": "Star Wars: The Clone Wars",
 		"year": 2008,
-		"poster": "/iJQfixW818LUdSXlCDL3JZm0S0g.jpg",
-		"votes": 2283,
-		"imdb": "tt1185834"
+		"poster": "/e1nWfnnCVqxS2LeTO3dwGyAsG2V.jpg",
+		"votes": 2457,
+		"imdb": "tt0458290"
 	},
 	"m|rogue|": {
 		"type": "movie",
@@ -60518,13 +60478,13 @@
 	},
 	"m|cane toads|": null,
 	"m|the middleman|": {
-		"type": "movie",
-		"id": 122445,
+		"type": "tv",
+		"id": 15147,
 		"title": "The Middleman",
-		"year": 1976,
-		"poster": "/6dOHOKvGzL1raSjWPLrnzllweqp.jpg",
-		"votes": 23,
-		"imdb": "tt0074710"
+		"year": 2008,
+		"poster": "/gz8PHSYC0rS6yZ7pz0bq1BcykmU.jpg",
+		"votes": 44,
+		"imdb": "tt1122770"
 	},
 	"m|extras: the extra special series finale|": null,
 	"m|punishment park|": {
@@ -60548,13 +60508,13 @@
 	"m|die hard 2: die harder|": null,
 	"m|walk hard|": null,
 	"m|fear itself|": {
-		"type": "movie",
-		"id": 364426,
+		"type": "tv",
+		"id": 7143,
 		"title": "Fear Itself",
-		"year": 2015,
-		"poster": "/78tju8bj08V8F0Wg0YDYznOWjHA.jpg",
-		"votes": 18,
-		"imdb": "tt4573906"
+		"year": 2008,
+		"poster": "/vlcynm3pJf5tRsyXre9oEnVAEVb.jpg",
+		"votes": 178,
+		"imdb": "tt1112285"
 	},
 	"m|basic training|": {
 		"type": "movie",
@@ -60666,12 +60626,12 @@
 	},
 	"m|high school|": {
 		"type": "movie",
-		"id": 27584,
+		"id": 60315,
 		"title": "High School",
-		"year": 2010,
-		"poster": "/3pZzS9R1r6qHvstMxmGq54JkFDR.jpg",
-		"votes": 166,
-		"imdb": "tt1247667"
+		"year": 1969,
+		"poster": "/d3R2ELJJJtsdC722O63BVLmcxSe.jpg",
+		"votes": 78,
+		"imdb": "tt0064429"
 	},
 	"m|the simpsons movie|": {
 		"type": "movie",
@@ -60737,13 +60697,13 @@
 		"imdb": "tt1092007"
 	},
 	"m|law and order|": {
-		"type": "movie",
-		"id": 114116,
-		"title": "Law and Order",
-		"year": 1969,
-		"poster": "/t0l8Yyb5H2U3NCeoCjnpVCX8dEd.jpg",
-		"votes": 24,
-		"imdb": "tt0064577"
+		"type": "tv",
+		"id": 549,
+		"title": "Law & Order",
+		"year": 1990,
+		"poster": "/hmd2tEtjolLWpNLCTvXS2PO5VCi.jpg",
+		"votes": 737,
+		"imdb": "tt0098844"
 	},
 	"m|baron blood|": {
 		"type": "movie",
@@ -61200,12 +61160,12 @@
 	},
 	"m|sour grapes|": {
 		"type": "movie",
-		"id": 396232,
+		"id": 24560,
 		"title": "Sour Grapes",
-		"year": 2016,
-		"poster": "/8jLfS18TvzQ4IkpMXHIgWgS8kZW.jpg",
-		"votes": 98,
-		"imdb": "tt5728684"
+		"year": 1998,
+		"poster": "/u7WrCfoiMarjpARPtgkfEFslCsK.jpg",
+		"votes": 33,
+		"imdb": "tt0120838"
 	},
 	"m|jay's trip to the doctor|": null,
 	"the rocky horror picture show|1975|": {
@@ -61301,13 +61261,13 @@
 		"imdb": "tt5034838"
 	},
 	"m|the munsters|": {
-		"type": "movie",
-		"id": 804413,
+		"type": "tv",
+		"id": 1712,
 		"title": "The Munsters",
-		"year": 2022,
-		"poster": "/kJaEVFhDouD72GKANMkYqzQky9n.jpg",
-		"votes": 276,
-		"imdb": "tt14813212"
+		"year": 1964,
+		"poster": "/4jkCx8m87aMA89X9KB9Adwgep2t.jpg",
+		"votes": 490,
+		"imdb": "tt0057773"
 	},
 	"m|extraterrestrial visitors|": {
 		"type": "movie",
@@ -61639,13 +61599,13 @@
 		"imdb": "tt0087597"
 	},
 	"the rehearsal||2022": {
-		"type": "movie",
-		"id": 300786,
+		"type": "tv",
+		"id": 204284,
 		"title": "The Rehearsal",
-		"year": 1974,
-		"poster": "/qI8VE4aUW4efS6Y4IZRaNLEPpT3.jpg",
-		"votes": 5,
-		"imdb": "tt0072074"
+		"year": 2022,
+		"poster": "/mIevNYxovnH4sR22qkUmAgS5vdv.jpg",
+		"votes": 289,
+		"imdb": "tt10802170"
 	},
 	"aggro dr1ft||2023": {
 		"type": "movie",
@@ -61756,13 +61716,13 @@
 		"imdb": "tt7131622"
 	},
 	"loki||2021": {
-		"type": "movie",
-		"id": 1710362,
+		"type": "tv",
+		"id": 84958,
 		"title": "Loki",
-		"year": 2025,
-		"poster": "/vYmL4zUWDeGQK7YC7IUwN8Jwoht.jpg",
-		"votes": 0,
-		"imdb": null
+		"year": 2021,
+		"poster": "/kEl2t3OhXc3Zb9FBh1AuYzRTgZp.jpg",
+		"votes": 12842,
+		"imdb": "tt9140554"
 	},
 	"three fugitives||2021": {
 		"type": "movie",
@@ -61963,13 +61923,13 @@
 		"imdb": "tt0443680"
 	},
 	"birds of prey||2020": {
-		"type": "movie",
-		"id": 464389,
+		"type": "tv",
+		"id": 1469,
 		"title": "Birds of Prey",
-		"year": 1998,
-		"poster": null,
-		"votes": 4,
-		"imdb": "tt0238863"
+		"year": 2002,
+		"poster": "/gXeFSST0xqy5XNgrbuEaa5BxvDM.jpg",
+		"votes": 96,
+		"imdb": "tt0312098"
 	},
 	"apocalypto||2019": {
 		"type": "movie",
@@ -62125,13 +62085,13 @@
 		"imdb": "tt1907668"
 	},
 	"stranger things||2016": {
-		"type": "movie",
-		"id": 182026,
+		"type": "tv",
+		"id": 66732,
 		"title": "Stranger Things",
-		"year": 2013,
-		"poster": "/4TKdguyacjYrC1Hnbi3PjSP8r3M.jpg",
-		"votes": 79,
-		"imdb": "tt1468737"
+		"year": 2016,
+		"poster": "/uOOtwVbSr4QDjAGIifLDwpb2Pdl.jpg",
+		"votes": 22031,
+		"imdb": "tt4574334"
 	},
 	"strange brew||2016": {
 		"type": "movie",
@@ -62161,13 +62121,13 @@
 		"imdb": "tt0074851"
 	},
 	"buffy the vampire slayer||2016": {
-		"type": "movie",
-		"id": 10206,
+		"type": "tv",
+		"id": 95,
 		"title": "Buffy the Vampire Slayer",
-		"year": 1992,
-		"poster": "/tcF3S4UdFpuoZEWovMDq5AXazNF.jpg",
-		"votes": 951,
-		"imdb": "tt0103893"
+		"year": 1997,
+		"poster": "/y7fVZkyheCEQHDUEHwNmYENGfT2.jpg",
+		"votes": 2094,
+		"imdb": "tt0118276"
 	},
 	"the witch||2015": {
 		"type": "movie",
@@ -62247,7 +62207,7 @@
 		"title": "Westworld",
 		"year": 1973,
 		"poster": "/qNt29HzxwZ4jGTgSRxdA34ino9Q.jpg",
-		"votes": 1531,
+		"votes": 1541,
 		"imdb": "tt0070909"
 	},
 	"honey, i shrunk the kids||2014": {
@@ -62494,13 +62454,13 @@
 		"imdb": "tt1233219"
 	},
 	"the staircase||2006": {
-		"type": "movie",
-		"id": 113875,
+		"type": "tv",
+		"id": 21421,
 		"title": "The Staircase",
-		"year": 1998,
-		"poster": "/7WnerGLooBIFm1AKDvBanHoTdZa.jpg",
-		"votes": 6,
-		"imdb": "tt0152588"
+		"year": 2004,
+		"poster": "/cZUtfXWbMrJZn5WsJzKmpBF9tMJ.jpg",
+		"votes": 213,
+		"imdb": "tt0388644"
 	},
 	"tarnation||2005": {
 		"type": "movie",
@@ -62535,7 +62495,7 @@
 		"title": "Star Wars: The Clone Wars",
 		"year": 2008,
 		"poster": "/iJQfixW818LUdSXlCDL3JZm0S0g.jpg",
-		"votes": 2288,
+		"votes": 2307,
 		"imdb": "tt1185834"
 	},
 	"god of war||2005": {
@@ -62646,15 +62606,7 @@
 		"votes": 3,
 		"imdb": "tt35649428"
 	},
-	"m|listers: a glimpse into extreme birdwatching|": {
-		"type": "movie",
-		"id": 1757612,
-		"title": "Listers: A Glimpse Into Extreme Birdwatching",
-		"year": 2025,
-		"poster": "/fYhAPsF8672PALtbS8pl04y4lSy.jpg",
-		"votes": 1,
-		"imdb": "tt38023177"
-	},
+	"m|listers: a glimpse into extreme birdwatching|": null,
 	"m|brody stevens: enjoy it|": {
 		"type": "tv",
 		"id": 64988,
@@ -62862,15 +62814,7 @@
 		"votes": 1,
 		"imdb": null
 	},
-	"m|milk & serial|": {
-		"type": "movie",
-		"id": 1778411,
-		"title": "Milk & Serial",
-		"year": 2024,
-		"poster": "/7YFkZQEZNlHZewFiqBWeXHRVyGB.jpg",
-		"votes": 2,
-		"imdb": "tt22075376"
-	},
+	"m|milk & serial|": null,
 	"m|32 sounds|": {
 		"type": "movie",
 		"id": 929310,
@@ -63007,13 +62951,13 @@
 		"imdb": "tt12277540"
 	},
 	"m|snake oil|": {
-		"type": "movie",
-		"id": 1442644,
+		"type": "tv",
+		"id": 232624,
 		"title": "Snake Oil",
-		"year": 2025,
-		"poster": "/i10DESKEiEObkOvCH9sZyXn3upw.jpg",
-		"votes": 0,
-		"imdb": null
+		"year": 2023,
+		"poster": "/o9Jfby5QXxXaSGNS20hxjMLGnZZ.jpg",
+		"votes": 5,
+		"imdb": "tt27543011"
 	},
 	"m|the curse|": {
 		"type": "tv",
@@ -63089,12 +63033,12 @@
 	},
 	"m|china|": {
 		"type": "movie",
-		"id": 1113330,
-		"title": "China!",
-		"year": 1965,
-		"poster": "/AbH5B7hg1ZyH0nbHjwWqZ13kABJ.jpg",
-		"votes": 1,
-		"imdb": "tt0189423"
+		"id": 162641,
+		"title": "China",
+		"year": 1943,
+		"poster": "/eaYa9wBgmePr7mWvvlxKkB1hKSI.jpg",
+		"votes": 16,
+		"imdb": "tt0035735"
 	},
 	"m|the atlas moth|": {
 		"type": "movie",
@@ -63125,12 +63069,12 @@
 	},
 	"m|motel|": {
 		"type": "movie",
-		"id": 724310,
+		"id": 945531,
 		"title": "Motel",
-		"year": 1998,
-		"poster": "/zV3CU45IkVZxLYASSpVWL4VOOPf.jpg",
-		"votes": 3,
-		"imdb": "tt0165390"
+		"year": 1974,
+		"poster": "/cwLputdMIPcJrqNBuWhZvl1iNYB.jpg",
+		"votes": 1,
+		"imdb": "tt0159580"
 	},
 	"m|night moves|2013": null,
 	"m|succession|": {
@@ -63296,13 +63240,13 @@
 		"imdb": "tt13111040"
 	},
 	"m|lingo|": {
-		"type": "movie",
-		"id": 211632,
+		"type": "tv",
+		"id": 166,
 		"title": "Lingo",
-		"year": 2012,
-		"poster": "/2Ose1jPpKRXpqRRjVSVvBDYnhId.jpg",
-		"votes": 1,
-		"imdb": "tt2149674"
+		"year": 2002,
+		"poster": "/iC9fvgSBkpUgNhXJHqKxu4RiSuu.jpg",
+		"votes": 8,
+		"imdb": "tt0329871"
 	},
 	"m|atlanta|": {
 		"type": "tv",
@@ -63601,15 +63545,7 @@
 		"votes": 1705,
 		"imdb": "tt7049682"
 	},
-	"m|the quest|1986": {
-		"type": "tv",
-		"id": 196749,
-		"title": "The Quest",
-		"year": 2022,
-		"poster": "/nNQvnKK6TZNF6ibEzuCo6OLNdKz.jpg",
-		"votes": 43,
-		"imdb": "tt11852810"
-	},
+	"m|the quest|1986": null,
 	"m|the children were watching|": {
 		"type": "movie",
 		"id": 214931,
@@ -63799,15 +63735,7 @@
 		"votes": 9,
 		"imdb": "tt0362443"
 	},
-	"m|the last watch|": {
-		"type": "tv",
-		"id": 259166,
-		"title": "The Last Watch",
-		"year": 2024,
-		"poster": "/2jfHmP1OesWpuJMW0dc7vGyLDI6.jpg",
-		"votes": 0,
-		"imdb": null
-	},
+	"m|the last watch|": null,
 	"m|the twilight zone|2019": {
 		"type": "tv",
 		"id": 6357,
@@ -64015,15 +63943,7 @@
 		"votes": 1,
 		"imdb": "tt0462054"
 	},
-	"m|astro zombies|": {
-		"type": "movie",
-		"id": 553597,
-		"title": "Astro Zombies",
-		"year": 2019,
-		"poster": "/yzHVIleDWLEzmkhyqT33CjAog34.jpg",
-		"votes": 0,
-		"imdb": null
-	},
+	"m|astro zombies|": null,
 	"m|love means zero|": {
 		"type": "movie",
 		"id": 469071,
@@ -64485,12 +64405,12 @@
 	},
 	"m|knowing me knowing you|": {
 		"type": "movie",
-		"id": 1110959,
+		"id": 1258351,
 		"title": "Knowing Me, Knowing You",
-		"year": 2023,
-		"poster": "/vhgqtYNZkJ56BzJHXKbBpdC0AxQ.jpg",
+		"year": 1988,
+		"poster": null,
 		"votes": 0,
-		"imdb": "tt28429534"
+		"imdb": null
 	},
 	"m|the bengali detective|": {
 		"type": "movie",
@@ -64501,15 +64421,7 @@
 		"votes": 2,
 		"imdb": "tt1787804"
 	},
-	"m|sixth sense|": {
-		"type": "tv",
-		"id": 108877,
-		"title": "Sixth Sense",
-		"year": 2020,
-		"poster": "/5qVVzz3G5wSPKiCjRzxeJmRDzWr.jpg",
-		"votes": 18,
-		"imdb": "tt13427612"
-	},
+	"m|sixth sense|": null,
 	"m|innocent bystanders|": {
 		"type": "movie",
 		"id": 96793,
@@ -64547,13 +64459,13 @@
 		"imdb": null
 	},
 	"m|killer karaoke|": {
-		"type": "movie",
-		"id": 497090,
+		"type": "tv",
+		"id": 41771,
 		"title": "Killer Karaoke",
-		"year": 2017,
-		"poster": "/4zAmwcgWviJf57pfPuACz1b02t3.jpg",
-		"votes": 7,
-		"imdb": "tt7724874"
+		"year": 2012,
+		"poster": "/dgEVhQQFQhqCEGrc2Z8kWeDfSvl.jpg",
+		"votes": 2,
+		"imdb": "tt2079119"
 	},
 	"m|head games|": {
 		"type": "movie",
@@ -64825,15 +64737,7 @@
 		"votes": 1071,
 		"imdb": "tt1548850"
 	},
-	"m|belle du jour|": {
-		"type": "movie",
-		"id": 875597,
-		"title": "Belle du Jour",
-		"year": 2021,
-		"poster": "/fPzEusHL5SmLZxlkEy3BVxdrXmd.jpg",
-		"votes": 0,
-		"imdb": null
-	},
+	"m|belle du jour|": null,
 	"m|routine pleasures|": {
 		"type": "movie",
 		"id": 84672,
@@ -64852,15 +64756,7 @@
 		"votes": 3,
 		"imdb": "tt2244417"
 	},
-	"m|winter wipeout|": {
-		"type": "tv",
-		"id": 238261,
-		"title": "Winter Wipeout",
-		"year": 2014,
-		"poster": null,
-		"votes": 0,
-		"imdb": null
-	},
+	"m|winter wipeout|": null,
 	"m|rob|": {
 		"type": "tv",
 		"id": 42014,
@@ -64897,23 +64793,15 @@
 		"votes": 238,
 		"imdb": "tt1480684"
 	},
-	"m|ufc|": {
-		"type": "tv",
-		"id": 241702,
-		"title": "인사이드 UFC",
-		"year": 2022,
-		"poster": "/7YXCgf0X60io1wLEnZcFbtHmJM6.jpg",
-		"votes": 0,
-		"imdb": null
-	},
+	"m|ufc|": null,
 	"m|american boy|": {
 		"type": "movie",
-		"id": 1246146,
+		"id": 83661,
 		"title": "American Boy",
-		"year": 2023,
-		"poster": "/mIazmgaEJPEfqJHqTO8HMu1ywiE.jpg",
-		"votes": 6,
-		"imdb": null
+		"year": 1992,
+		"poster": "/hoL0YXAMt4qq6LWqh3hFAbQKCzp.jpg",
+		"votes": 5,
+		"imdb": "tt0103668"
 	},
 	"m|john candy: true double blue|": {
 		"type": "tv",
@@ -65239,15 +65127,7 @@
 		"votes": 7,
 		"imdb": "tt1341795"
 	},
-	"m|harry potter|": {
-		"type": "tv",
-		"id": 224377,
-		"title": "Harry Potter",
-		"year": 2026,
-		"poster": "/SJCnXVBJZh7X7ePLt6XMp6TZAj.jpg",
-		"votes": 0,
-		"imdb": "tt13918446"
-	},
+	"m|harry potter|": null,
 	"m|the defenders|": {
 		"type": "tv",
 		"id": 32736,
@@ -65268,12 +65148,12 @@
 	},
 	"m|convention|": {
 		"type": "movie",
-		"id": 85591,
+		"id": 1325187,
 		"title": "Convention",
-		"year": 2009,
-		"poster": null,
+		"year": null,
+		"poster": "/tyCgRVqGkKo0SE6oT9JxAaQNhGd.jpg",
 		"votes": 0,
-		"imdb": "tt1292645"
+		"imdb": null
 	},
 	"m|sweethearts of the prison rodeo|": {
 		"type": "movie",
@@ -65340,12 +65220,12 @@
 	},
 	"m|lovable|": {
 		"type": "movie",
-		"id": 885317,
+		"id": 117226,
 		"title": "Lovable",
-		"year": 2022,
-		"poster": "/jNlYKkNqrpNWq3jpErNXCgG3lqd.jpg",
-		"votes": 3,
-		"imdb": "tt12881340"
+		"year": 2007,
+		"poster": null,
+		"votes": 2,
+		"imdb": "tt1034396"
 	},
 	"m|the betrayal - nerakhoon|": {
 		"type": "movie",
@@ -65500,15 +65380,7 @@
 		"votes": 2,
 		"imdb": "tt0429377"
 	},
-	"m|all-star family feud|": {
-		"type": "tv",
-		"id": 308115,
-		"title": "All Star Family Feud",
-		"year": 2016,
-		"poster": null,
-		"votes": 0,
-		"imdb": "tt7830990"
-	},
+	"m|all-star family feud|": null,
 	"m|the stuntmen|": {
 		"type": "movie",
 		"id": 392030,
@@ -65680,15 +65552,7 @@
 		"votes": 439,
 		"imdb": "tt0445114"
 	},
-	"m|24: redemption|": {
-		"type": "movie",
-		"id": 1781996,
-		"title": "24: Redemption",
-		"year": null,
-		"poster": "/s6fOXSA9jonYvvtlZok6hYrV1vI.jpg",
-		"votes": 0,
-		"imdb": "tt0813980"
-	},
+	"m|24: redemption|": null,
 	"m|seven steps of kung fu|": {
 		"type": "movie",
 		"id": 55199,
@@ -65726,32 +65590,16 @@
 		"imdb": "tt1228322"
 	},
 	"m|special|": {
-		"type": "tv",
-		"id": 87194,
-		"title": "Special",
-		"year": 2019,
-		"poster": "/rc6jiKt7R4rwpeUdEXhhUK0WYA8.jpg",
-		"votes": 74,
-		"imdb": "tt9381622"
-	},
-	"m|csi|": {
 		"type": "movie",
-		"id": 901277,
-		"title": "CSI Sanatan",
-		"year": 2023,
-		"poster": "/yscCuJsNYDh2vHc6VrASnZcbaDw.jpg",
-		"votes": 5,
-		"imdb": "tt15567964"
+		"id": 13856,
+		"title": "Special",
+		"year": 2006,
+		"poster": "/5oGxZ9Itu8buWnB15p6sri3zh9n.jpg",
+		"votes": 107,
+		"imdb": "tt0479162"
 	},
-	"m|csi: season 1|": {
-		"type": "tv",
-		"id": 212655,
-		"title": "CSI 소비자 탐사대",
-		"year": 2017,
-		"poster": "/o3ZTjMbM10Mh7TpUgSLwOLjYW06.jpg",
-		"votes": 0,
-		"imdb": null
-	},
+	"m|csi|": null,
+	"m|csi: season 1|": null,
 	"m|drakmar: a vassal's journey|": {
 		"type": "movie",
 		"id": 167551,
@@ -66019,7 +65867,7 @@
 		"title": "Dracula",
 		"year": 1958,
 		"poster": "/9UHOATvzXQWbElSGygOY1ar3vpp.jpg",
-		"votes": 735,
+		"votes": 743,
 		"imdb": "tt0051554"
 	},
 	"m|ted bundy|": {
@@ -66844,13 +66692,13 @@
 		"imdb": "tt0094761"
 	},
 	"m|star wars: the clone wars|2008": {
-		"type": "movie",
-		"id": 12180,
+		"type": "tv",
+		"id": 4194,
 		"title": "Star Wars: The Clone Wars",
 		"year": 2008,
-		"poster": "/iJQfixW818LUdSXlCDL3JZm0S0g.jpg",
-		"votes": 2290,
-		"imdb": "tt1185834"
+		"poster": "/e1nWfnnCVqxS2LeTO3dwGyAsG2V.jpg",
+		"votes": 2457,
+		"imdb": "tt0458290"
 	},
 	"m|a nightmare on elm street part 2: freddy's revenge|": {
 		"type": "movie",
@@ -67020,7 +66868,7 @@
 		"title": "House",
 		"year": 1977,
 		"poster": "/ryZ3DdZPvXVCv9qRCtVRfmNbYAH.jpg",
-		"votes": 839,
+		"votes": 854,
 		"imdb": "tt0076162"
 	},
 	"m|dominion: prequel to the exorcist|": {
@@ -67107,15 +66955,7 @@
 		"votes": 4991,
 		"imdb": "tt0079817"
 	},
-	"m|precious|2009": {
-		"type": "tv",
-		"id": 224038,
-		"title": "Precious",
-		"year": 2012,
-		"poster": "/tv7HEkXDQ0PtcW2JaCvwoSZoA1X.jpg",
-		"votes": 0,
-		"imdb": "tt8805514"
-	},
+	"m|precious|2009": null,
 	"m|rocky v|": {
 		"type": "movie",
 		"id": 1375,
@@ -68154,5 +67994,69 @@
 		"poster": "/ollPAAAgZ7euU8VisfqU3cuXhZ6.jpg",
 		"votes": 3343,
 		"imdb": "tt0088944"
+	},
+	"m|blackberry|": {
+		"type": "movie",
+		"id": 1016084,
+		"title": "BlackBerry",
+		"year": 2023,
+		"poster": "/nQSvHZDuMlrZdm7ooMo8gb4CXhW.jpg",
+		"votes": 1017,
+		"imdb": "tt21867434"
+	},
+	"m|xxx: return of xander cage|": {
+		"type": "movie",
+		"id": 47971,
+		"title": "xXx: Return of Xander Cage",
+		"year": 2017,
+		"poster": "/hba8zREJpP1AYhaXgb2oJLQeO0K.jpg",
+		"votes": 9367,
+		"imdb": "tt1293847"
+	},
+	"m|the crimson kimono|": {
+		"type": "movie",
+		"id": 27045,
+		"title": "The Crimson Kimono",
+		"year": 1959,
+		"poster": "/rRliO7Rg1C2zSXtWOhMWOAzuzFS.jpg",
+		"votes": 74,
+		"imdb": "tt0052713"
+	},
+	"m|the transformers: the movie|": {
+		"type": "movie",
+		"id": 1857,
+		"title": "The Transformers: The Movie",
+		"year": 1986,
+		"poster": "/xJ5W0mOAWCVaXmU0pBZh4NjSRv2.jpg",
+		"votes": 656,
+		"imdb": "tt0092106"
+	},
+	"m|50 states of fright|": {
+		"type": "tv",
+		"id": 94251,
+		"title": "50 States of Fright",
+		"year": 2020,
+		"poster": "/bfX15CYiGgBfasc8lVJ7mmxhrMz.jpg",
+		"votes": 106,
+		"imdb": "tt9104072"
+	},
+	"m|when the streetlights go on|": {
+		"type": "tv",
+		"id": 99294,
+		"title": "When the Streetlights Go On",
+		"year": 2020,
+		"poster": "/1i7rVHmZaHfk0yBNyyS1rEDxNqb.jpg",
+		"votes": 26,
+		"imdb": "tt2140663"
+	},
+	"m|eli roth's history of horror uncut podcast|": null,
+	"m|company business|": {
+		"type": "movie",
+		"id": 32074,
+		"title": "Company Business",
+		"year": 1991,
+		"poster": "/vwWexi2O70Efr4MkckbxjeIgchb.jpg",
+		"votes": 84,
+		"imdb": "tt0101606"
 	}
 }

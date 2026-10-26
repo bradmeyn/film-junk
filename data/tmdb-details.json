@@ -97050,5 +97050,3040 @@
 			"Music"
 		],
 		"overview": "Shut Up and Sing is a documentary about the country band from Texas called the Dixie Chicks and how one tiny comment against President Bush dropped their number one hit off the charts and caused fans to hate them, destroy their CD’s, and protest at their concerts. A film about freedom of speech gone out of control and the three girls lives that were forever changed by a small anti-Bush comment"
+	},
+	"tv:94251": {
+		"directors": [
+			{
+				"id": 7623,
+				"name": "Sam Raimi"
+			}
+		],
+		"runtime": 6,
+		"genres": [
+			"Drama",
+			"Crime"
+		],
+		"overview": "A horror anthology series based on urban legends that takes viewers deeper into the horrors that lurk just beneath the surface of America."
+	},
+	"tv:99294": {
+		"directors": [
+			{
+				"id": 1846295,
+				"name": "Matthew Nelson-Mahood"
+			}
+		],
+		"runtime": 8,
+		"genres": [
+			"Drama",
+			"Crime"
+		],
+		"overview": "A double-homicide in a small midwestern suburb rattles the lives of a group of teenagers and sends investigators searching for answers in the fall of 1995. A meditation on growing up, the passing of time, and the insidious violence that lurks in the suburbs."
+	},
+	"movie:1857": {
+		"directors": [
+			{
+				"id": 19542,
+				"name": "Nelson Shin"
+			}
+		],
+		"runtime": 85,
+		"genres": [
+			"Animation",
+			"Science Fiction",
+			"Action",
+			"Adventure",
+			"Family"
+		],
+		"overview": "The Autobots must stop a colossal planet-consuming robot who goes after the Autobot Matrix of Leadership. At the same time, they must defend themselves against an all-out attack from the Decepticons."
+	},
+	"tv:254528": {
+		"directors": [
+			{
+				"id": 23659,
+				"name": "Will Ferrell"
+			},
+			{
+				"id": 1215937,
+				"name": "Harper Steele"
+			},
+			{
+				"id": 99410,
+				"name": "Chris Henchy"
+			}
+		],
+		"runtime": null,
+		"genres": [
+			"Comedy"
+		],
+		"overview": "On the back nine of his career, golf legend Lonnie \"The Hawk\" Hawkins chases one final major — and drags everyone he loves into the chaos."
+	},
+	"tv:76303": {
+		"directors": [
+			{
+				"id": 6521,
+				"name": "Alberto Rodríguez"
+			},
+			{
+				"id": 6522,
+				"name": "Rafael Cobos"
+			}
+		],
+		"runtime": 50,
+		"genres": [
+			"Action & Adventure",
+			"Crime",
+			"Drama"
+		],
+		"overview": "Plague decimates late 16th century Seville, a crowded city where many have arrived to embark for the New World to seek their fortune."
+	},
+	"tv:110492": {
+		"directors": [
+			{
+				"id": 15218,
+				"name": "James Gunn"
+			}
+		],
+		"runtime": null,
+		"genres": [
+			"Action & Adventure",
+			"Sci-Fi & Fantasy",
+			"Comedy"
+		],
+		"overview": "The continuing story of Peacemaker, a vainglorious superhero/supervillain who believes in peace at any cost — no matter how many people he has to kill. After a miraculous recovery from his duel with Bloodsport, Peacemaker soon discovers that his freedom comes at a price."
+	},
+	"tv:249042": {
+		"directors": [
+			{
+				"id": 1115,
+				"name": "Stephen Graham"
+			},
+			{
+				"id": 207132,
+				"name": "Jack Thorne"
+			}
+		],
+		"runtime": null,
+		"genres": [
+			"Drama",
+			"Crime"
+		],
+		"overview": "When a 13-year-old is accused of the murder of a classmate, his family, the psychological expert and the detective in charge are all left asking: what really happened?"
+	},
+	"tv:2455": {
+		"directors": [
+			{
+				"id": 9263,
+				"name": "Barry Kemp"
+			}
+		],
+		"runtime": 24,
+		"genres": [
+			"Comedy"
+		],
+		"overview": "Hayden Fox, the curmudgeonly coach of Minnesota State University's Screaming Eagles football team, tries to navigate his way through the sports world, fatherhood and family life without dropping the ball."
+	},
+	"tv:62688": {
+		"directors": [
+			{
+				"id": 88967,
+				"name": "Greg Berlanti"
+			},
+			{
+				"id": 1216615,
+				"name": "Andrew Kreisberg"
+			},
+			{
+				"id": 1216181,
+				"name": "Ali Adler"
+			}
+		],
+		"runtime": 42,
+		"genres": [
+			"Drama",
+			"Sci-Fi & Fantasy",
+			"Action & Adventure"
+		],
+		"overview": "Twenty-four-year-old Kara Zor-El, who was taken in by the Danvers family when she was 13 after being sent away from Krypton, must learn to embrace her powers after previously hiding them. The Danvers teach her to be careful with her powers, until she has to reveal them during an unexpected disaster, setting her on her journey of heroism."
+	},
+	"tv:85904": {
+		"directors": [],
+		"runtime": 43,
+		"genres": [
+			"Reality"
+		],
+		"overview": "Couples travel to a tropical paradise where they are forced to decide if they're ready to commit to one another for the rest of their lives. A reboot of the 2001 reality series."
+	},
+	"tv:100088": {
+		"directors": [
+			{
+				"id": 1295692,
+				"name": "Neil Druckmann"
+			},
+			{
+				"id": 35796,
+				"name": "Craig Mazin"
+			}
+		],
+		"runtime": null,
+		"genres": [
+			"Drama"
+		],
+		"overview": "Twenty years after modern civilization has been destroyed, Joel, a hardened survivor, is hired to smuggle Ellie, a 14-year-old girl, out of an oppressive quarantine zone. What starts as a small job soon becomes a brutal, heartbreaking journey, as they both must traverse the United States and depend on each other for survival."
+	},
+	"tv:34307": {
+		"directors": [
+			{
+				"id": 1212184,
+				"name": "Paul Abbott"
+			},
+			{
+				"id": 47333,
+				"name": "John Wells"
+			}
+		],
+		"runtime": null,
+		"genres": [
+			"Drama",
+			"Comedy"
+		],
+		"overview": "Chicagoan Frank Gallagher is the proud single dad of six smart, industrious, independent kids, who without him would be... perhaps better off. When Frank's not at the bar spending what little money they have, he's passed out on the floor. But the kids have found ways to grow up in spite of him. They may not be like any family you know, but they make no apologies for being exactly who they are."
+	},
+	"tv:95396": {
+		"directors": [
+			{
+				"id": 3442409,
+				"name": "Dan Erickson"
+			}
+		],
+		"runtime": null,
+		"genres": [
+			"Drama",
+			"Mystery",
+			"Sci-Fi & Fantasy"
+		],
+		"overview": "Mark leads a team of office workers whose memories have been surgically divided between their work and personal lives. When a mysterious colleague appears outside of work, it begins a journey to discover the truth about their jobs."
+	},
+	"tv:46296": {
+		"directors": [
+			{
+				"id": 1213074,
+				"name": "Steven S. DeKnight"
+			}
+		],
+		"runtime": 53,
+		"genres": [
+			"Drama"
+		],
+		"overview": "Torn from his homeland and the woman he loves, Spartacus is condemned to the brutal world of the arena where blood and death are primetime entertainment."
+	},
+	"tv:204284": {
+		"directors": [
+			{
+				"id": 1212667,
+				"name": "Nathan Fielder"
+			}
+		],
+		"runtime": null,
+		"genres": [
+			"Comedy",
+			"Documentary"
+		],
+		"overview": "With a construction crew, a legion of actors, and seemingly unlimited resources, Nathan Fielder allows ordinary people to prepare for life's biggest moments by \"rehearsing\" them in carefully crafted simulations of his own design. When a single misstep could shatter your entire world, why leave life to chance?"
+	},
+	"tv:272299": {
+		"directors": [],
+		"runtime": null,
+		"genres": [
+			"Documentary",
+			"Crime"
+		],
+		"overview": "In this true-crime docuseries, a family searching for answers shares clues and eye-opening testimonies about the prime suspect in the Zodiac murders."
+	},
+	"tv:79525": {
+		"directors": [
+			{
+				"id": 53178,
+				"name": "Michael Tollin"
+			}
+		],
+		"runtime": 50,
+		"genres": [
+			"Documentary"
+		],
+		"overview": "A 10-part documentary chronicling the untold story of Michael Jordan and the Chicago Bulls dynasty with rare, never-before-seen footage and sound from the 1997-98 championship season – plus over 100 interviews with famous figures and basketball’s biggest names."
+	},
+	"tv:60735": {
+		"directors": [
+			{
+				"id": 211962,
+				"name": "Geoff Johns"
+			},
+			{
+				"id": 88967,
+				"name": "Greg Berlanti"
+			},
+			{
+				"id": 1216615,
+				"name": "Andrew Kreisberg"
+			}
+		],
+		"runtime": null,
+		"genres": [
+			"Drama",
+			"Sci-Fi & Fantasy"
+		],
+		"overview": "After being struck by lightning, CSI investigator Barry Allen awakens from a nine-month coma to discover he has been  granted the gift of super speed.  Teaming up with S.T.A.R. Labs, Barry takes on the persona of The Flash, the Fastest  Man Alive, to protect his city."
+	},
+	"tv:210939": {
+		"directors": [],
+		"runtime": null,
+		"genres": [
+			"Reality"
+		],
+		"overview": "A high-stakes competition series where twelve players work together in challenges to add money to a pot that only one of them will win at the end. Among the players is one person who has secretly been designated \"the Mole\" and tasked with sabotaging the group's money-making efforts. In the end, one player will outlast their competition and expose the Mole to win the prize pot."
+	},
+	"tv:62425": {
+		"directors": [
+			{
+				"id": 1230694,
+				"name": "Joseph Mallozzi"
+			},
+			{
+				"id": 1221015,
+				"name": "Paul Mullie"
+			}
+		],
+		"runtime": 43,
+		"genres": [
+			"Sci-Fi & Fantasy",
+			"Drama"
+		],
+		"overview": "The six-person crew of a derelict spaceship awakens from stasis in the farthest reaches of space. Their memories wiped clean, they have no recollection of who they are or how they got on board. The only clue to their identities is a cargo bay full of weaponry and a destination: a remote mining colony that is about to become a war zone. With no idea whose side they are on, they face a deadly decision. Will these amnesiacs turn their backs on history, or will their pasts catch up with them?"
+	},
+	"tv:78670": {
+		"directors": [
+			{
+				"id": 1237491,
+				"name": "Jeffrey Lieber"
+			}
+		],
+		"runtime": null,
+		"genres": [
+			"Sci-Fi & Fantasy",
+			"Action & Adventure",
+			"Drama"
+		],
+		"overview": "16-year-old Henry Coles is an outsider in her new town of Reston, New York. With a major chip on her shoulder and no friends, she remains withdrawn and isolated, but everything changes when a traumatic encounter with a classmate triggers something deep within Henry— unleashing a power she cannot control."
+	},
+	"tv:1310": {
+		"directors": [
+			{
+				"id": 26063,
+				"name": "Damian Kindler"
+			}
+		],
+		"runtime": 45,
+		"genres": [
+			"Action & Adventure",
+			"Sci-Fi & Fantasy"
+		],
+		"overview": "The adventures of the beautiful, enigmatic and always surprising Dr. Helen Magnus, a brilliant scientist who holds the secrets of a clandestine population called Abnormals—a group of strange and sometimes terrifying beings that hide among humans. Magnus seeks to protect this threatened phenomena as well as unlock the mysteries behind their existence."
+	},
+	"tv:42395": {
+		"directors": [],
+		"runtime": 24,
+		"genres": [
+			"Animation",
+			"Action & Adventure"
+		],
+		"overview": "Golgo 13 is not his real name. Then again, neither is Duke Togo, Tadashi Togo, or any number of the aliases he goes by. A man of mystery, not even the world’s most prominent intelligence agencies can determine who Golgo really is, or just where he came from. But all agree that his skills are nothing short of legendary.\n\nArmed with a custom M16, Golgo is willing to take any job for any agency, from the FBI to the KGB. He has completed every contract he has ever taken and will work for anyone who can meet his price. He is both the greatest weapon and the greatest threat to any nation; no one is safe once they are in Golgo’s sights."
+	},
+	"tv:87917": {
+		"directors": [
+			{
+				"id": 1228256,
+				"name": "Matt Wolpert"
+			},
+			{
+				"id": 2385,
+				"name": "Ronald D. Moore"
+			},
+			{
+				"id": 67231,
+				"name": "Ben Nedivi"
+			}
+		],
+		"runtime": null,
+		"genres": [
+			"Drama",
+			"Sci-Fi & Fantasy",
+			"War & Politics"
+		],
+		"overview": "Explore an aspirational world where NASA and the space program remained a priority and a focal point of our hopes and dreams as told through the lives of NASA astronauts, engineers, and their families."
+	},
+	"tv:198102": {
+		"directors": [
+			{
+				"id": 1287248,
+				"name": "George Kay"
+			},
+			{
+				"id": 111686,
+				"name": "Jim Field Smith"
+			}
+		],
+		"runtime": null,
+		"genres": [
+			"Drama"
+		],
+		"overview": "Expert negotiator Sam Nelson is in for the ride of his life—and so is everyone on board with him—after a group of hijackers take control. Sam will try every move in his playbook to take them down...as the stakes grow higher by the second."
+	},
+	"tv:136315": {
+		"directors": [
+			{
+				"id": 1057655,
+				"name": "Christopher Storer"
+			}
+		],
+		"runtime": null,
+		"genres": [
+			"Drama",
+			"Comedy"
+		],
+		"overview": "Carmy, a young fine-dining chef, comes home to Chicago to run his family sandwich shop. As he fights to transform the shop and himself, he works alongside a rough-around-the-edges crew that ultimately reveal themselves as his chosen family."
+	},
+	"tv:67147": {
+		"directors": [
+			{
+				"id": 15892,
+				"name": "Dan Fogelman"
+			},
+			{
+				"id": 1653022,
+				"name": "Rick Singer"
+			}
+		],
+		"runtime": 45,
+		"genres": [
+			"Drama"
+		],
+		"overview": "The dramatic and inspirational story of a young pitcher who becomes the first woman to play Major League Baseball."
+	},
+	"tv:61244": {
+		"directors": [
+			{
+				"id": 1211823,
+				"name": "Sally Wainwright"
+			}
+		],
+		"runtime": 59,
+		"genres": [
+			"Crime",
+			"Drama",
+			"Mystery"
+		],
+		"overview": "Happy Valley is a dark, funny, multi-layered thriller revolving around the personal and professional life of Catherine, a dedicated, experienced, hard-working copper. She is also a bereaved mother who looks after her orphaned grandchild."
+	},
+	"tv:154385": {
+		"directors": [
+			{
+				"id": 1254628,
+				"name": "Lee Sung Jin"
+			}
+		],
+		"runtime": null,
+		"genres": [
+			"Comedy",
+			"Drama"
+		],
+		"overview": "Minor conflicts spiral into consuming feuds between individuals, exposing pride, resentment, and hidden pain."
+	},
+	"tv:74547": {
+		"directors": [
+			{
+				"id": 2018691,
+				"name": "Benjamin Freiburger"
+			}
+		],
+		"runtime": 25,
+		"genres": [
+			"Sci-Fi & Fantasy"
+		],
+		"overview": "What if you could use time travel to save your life? Welcome to \"LIFELINE,\" the new YouTube Red Original Series about the Lifeline insurance agency, whose specially trained agents jump forward in time to prevent the deaths of their clients."
+	},
+	"tv:61888": {
+		"directors": [
+			{
+				"id": 62831,
+				"name": "Will Forte"
+			}
+		],
+		"runtime": 22,
+		"genres": [
+			"Drama",
+			"Comedy"
+		],
+		"overview": "The year is 2022, and after an unlikely event, only one man is left on earth: Phil Miller, who used to be just an average guy who loved his family and hated his job at the bank. Now, in his RV, Phil searches the country for other survivors."
+	},
+	"tv:120998": {
+		"directors": [
+			{
+				"id": 67367,
+				"name": "Rian Johnson"
+			}
+		],
+		"runtime": null,
+		"genres": [
+			"Crime",
+			"Mystery"
+		],
+		"overview": "Follow Charlie Cale, a woman with an extraordinary ability to tell when someone is lying, as she hits the road and, at every stop, encounters a new cast of characters and crimes she can't help but solve."
+	},
+	"tv:99657": {
+		"directors": [
+			{
+				"id": 2956,
+				"name": "Amanda Peet"
+			},
+			{
+				"id": 2546419,
+				"name": "Annie Julia Wyman"
+			}
+		],
+		"runtime": null,
+		"genres": [
+			"Drama",
+			"Comedy"
+		],
+		"overview": "At a major university, the first woman of color to become chair tries to meet the dizzying demands and high expectations of a failing English department."
+	},
+	"tv:85723": {
+		"directors": [
+			{
+				"id": 935990,
+				"name": "Aaron Guzikowski"
+			}
+		],
+		"runtime": null,
+		"genres": [
+			"Sci-Fi & Fantasy",
+			"Drama"
+		],
+		"overview": "After Earth is ravaged by a great religious war, an atheistic android architect sends two of his creations, Mother and Father, to start a peaceful, godless colony on the planet Kepler-22b. Their treacherous task is jeopardized by the arrival of the Mithraic, a deeply devout religious order of surviving humans."
+	},
+	"tv:88329": {
+		"directors": [
+			{
+				"id": 1757552,
+				"name": "Jonathan Igla"
+			}
+		],
+		"runtime": null,
+		"genres": [
+			"Drama",
+			"Comedy",
+			"Action & Adventure"
+		],
+		"overview": "Former Avenger Clint Barton has a seemingly simple mission: get back to his family for Christmas. Possible? Maybe with the help of Kate Bishop, a 22-year-old archer with dreams of becoming a superhero. The two are forced to work together when a presence from Barton’s past threatens to derail far more than the festive spirit."
+	},
+	"tv:203282": {
+		"directors": [
+			{
+				"id": 1654199,
+				"name": "Nanfu Wang"
+			}
+		],
+		"runtime": 52,
+		"genres": [
+			"Documentary",
+			"Crime"
+		],
+		"overview": "Chronicles the bizarre and psychologically complex story of six individuals who were convicted for the 1985 murder of a beloved 68- year-old grandmother, Helen Wilson, in Beatrice, Nebraska."
+	},
+	"tv:118556": {
+		"directors": [
+			{
+				"id": 1314043,
+				"name": "Joshua Rofé"
+			}
+		],
+		"runtime": 45,
+		"genres": [
+			"Documentary",
+			"Mystery",
+			"Crime"
+		],
+		"overview": "Investigative journalist David Holthouse attempts to solve a bizarre twenty-five year old triple homicide that was said to be the work of a mythical creature."
+	},
+	"tv:116455": {
+		"directors": [],
+		"runtime": 90,
+		"genres": [
+			"Documentary"
+		],
+		"overview": "A revealing look at the rise, fall, and epic comeback of global icon Tiger Woods. The series paints an intimate picture of the prodigy whose dedication and obsession with the game of golf not only took his fame and success to new heights, but also down a dark, spiraling road that eventually led to a legendary sports comeback, culminated by his victory at the 2019 Masters."
+	},
+	"tv:106754": {
+		"directors": [
+			{
+				"id": 2519963,
+				"name": "France Costrel"
+			}
+		],
+		"runtime": null,
+		"genres": [
+			"Documentary"
+		],
+		"overview": "This docuseries traces the history of classic video games, featuring insights from the innovators who brought these worlds and characters to life."
+	},
+	"tv:87216": {
+		"directors": [],
+		"runtime": 30,
+		"genres": [
+			"Documentary"
+		],
+		"overview": "In a \"winning is everything\" society, how do we handle failure? This series profiles athletes who have turned the agony of defeat into human triumph."
+	},
+	"tv:496": {
+		"directors": [
+			{
+				"id": 70738,
+				"name": "Gary David Goldberg"
+			}
+		],
+		"runtime": null,
+		"genres": [
+			"Comedy",
+			"Drama",
+			"Family"
+		],
+		"overview": "Former 1960s flower children Steven and Elyse Keaton raise their conservative son Alex, daughters Mallory and Jennifer, and later, youngest child Andrew."
+	},
+	"tv:76887": {
+		"directors": [],
+		"runtime": null,
+		"genres": [
+			"Drama",
+			"War & Politics"
+		],
+		"overview": "Brilliant young actress Charlie strikes up an acquaintance with an intriguing stranger while on holiday in Greece, but it rapidly becomes apparent that his intentions are far from romantic."
+	},
+	"tv:1401": {
+		"directors": [
+			{
+				"id": 69617,
+				"name": "Tony Gayton"
+			},
+			{
+				"id": 56281,
+				"name": "Joe Gayton"
+			}
+		],
+		"runtime": null,
+		"genres": [
+			"Action & Adventure",
+			"Drama",
+			"Western"
+		],
+		"overview": "The epic story of post-Civil War America, focusing on Cullen Bohannon, a Confederate soldier who sets out to exact revenge on the Union soldiers who killed his wife. His journey takes him west to Hell on Wheels, a dangerous, raucous, lawless melting pot of a town that travels with and services the construction of the first transcontinental railroad, an engineering feat unprecedented for its time."
+	},
+	"tv:3556": {
+		"directors": [
+			{
+				"id": 31,
+				"name": "Tom Hanks"
+			},
+			{
+				"id": 339,
+				"name": "Brian Grazer"
+			},
+			{
+				"id": 6159,
+				"name": "Ron Howard"
+			},
+			{
+				"id": 4505,
+				"name": "Michael Bostick"
+			}
+		],
+		"runtime": 58,
+		"genres": [
+			"Action & Adventure",
+			"Drama"
+		],
+		"overview": "The story of the United States' space program, from its beginnings in 1961 to the final moon mission in 1972."
+	},
+	"tv:75944": {
+		"directors": [],
+		"runtime": 50,
+		"genres": [
+			"Drama",
+			"Crime",
+			"Mystery"
+		],
+		"overview": "Explore the psychological underpinnings of love and murder in a small mountain resort town while following popular children’s book author and illustrator Olivia Lake, whose literary success makes her a local celebrity in the tight-knit community."
+	},
+	"tv:63647": {
+		"directors": [
+			{
+				"id": 1213831,
+				"name": "Matthew Graham"
+			}
+		],
+		"runtime": 85,
+		"genres": [
+			"Drama",
+			"Sci-Fi & Fantasy"
+		],
+		"overview": "The peaceful alien invasion of Earth by the mysterious “Overlords,” whose arrival begins decades of apparent utopia under indirect alien rule, at the cost of human identity and culture."
+	},
+	"movie:539892": {
+		"directors": [
+			{
+				"id": 1181022,
+				"name": "Zach Lipovsky"
+			},
+			{
+				"id": 1938317,
+				"name": "Adam Stein"
+			}
+		],
+		"runtime": 105,
+		"genres": [
+			"Science Fiction",
+			"Thriller"
+		],
+		"overview": "Kept locked inside the house by her father, 7-year-old Chloe lives in fear and fascination of the outside world, where Abnormals create a constant threat—or so she believes. When a mysterious stranger offers her a glimpse of what's really happening outside, Chloe soon finds that while the truth isn't so simple, the danger is very real."
+	},
+	"tv:73467": {
+		"directors": [
+			{
+				"id": 2199,
+				"name": "Scott Frank"
+			}
+		],
+		"runtime": null,
+		"genres": [
+			"Western",
+			"Drama"
+		],
+		"overview": "A ruthless outlaw terrorizes the West in search of a former member of his gang, who’s found a new life in a quiet town populated only by women."
+	},
+	"tv:1920": {
+		"directors": [
+			{
+				"id": 58837,
+				"name": "Mark Frost"
+			},
+			{
+				"id": 5602,
+				"name": "David Lynch"
+			}
+		],
+		"runtime": null,
+		"genres": [
+			"Drama",
+			"Mystery"
+		],
+		"overview": "The body of Laura Palmer is washed up on a beach near the small Washington state town of Twin Peaks. FBI Special Agent Dale Cooper is called in to investigate her strange demise only to uncover a web of mystery that ultimately leads him deep into the heart of the surrounding woodland and his very own soul."
+	},
+	"tv:54344": {
+		"directors": [
+			{
+				"id": 28974,
+				"name": "Damon Lindelof"
+			},
+			{
+				"id": 17171,
+				"name": "Tom Perrotta"
+			}
+		],
+		"runtime": null,
+		"genres": [
+			"Sci-Fi & Fantasy",
+			"Drama"
+		],
+		"overview": "When 2% of the world's population abruptly disappears without explanation, the world struggles to understand just what they're supposed to do about it. This is the story of the people who didn't make the cut."
+	},
+	"tv:213375": {
+		"directors": [
+			{
+				"id": 1252001,
+				"name": "Terry Matalas"
+			}
+		],
+		"runtime": null,
+		"genres": [
+			"Sci-Fi & Fantasy",
+			"Drama"
+		],
+		"overview": "With a bounty on his head, Vision must confront his nature and resist Ultron's influence to survive."
+	},
+	"tv:256317": {
+		"directors": [
+			{
+				"id": 8161,
+				"name": "Derek Haas"
+			}
+		],
+		"runtime": null,
+		"genres": [
+			"Crime",
+			"Mystery"
+		],
+		"overview": "When an officer with the Department of Homeland Security is murdered in broad daylight, LAPD detective Mark Meachum is recruited to a secret task force, alongside undercover agents from all branches of law enforcement, to investigate. But the hunt for the killer soon uncovers a plot far more sinister than anyone could have imagined, kicking off a race against time to save a city of millions."
+	},
+	"tv:1404": {
+		"directors": [
+			{
+				"id": 168798,
+				"name": "Josh Schwartz"
+			}
+		],
+		"runtime": 43,
+		"genres": [
+			"Action & Adventure",
+			"Comedy",
+			"Drama"
+		],
+		"overview": "When Buy More computer geek Chuck Bartowski unwittingly downloads a database of government information and deadly fighting skills into his head, he becomes the CIA's most vital secret. This sets Chuck on a path to become a full-fledged spy."
+	},
+	"tv:2046": {
+		"directors": [
+			{
+				"id": 15344,
+				"name": "J.J. Abrams"
+			}
+		],
+		"runtime": 43,
+		"genres": [
+			"Action & Adventure",
+			"Drama"
+		],
+		"overview": "Sydney Bristow, an agent who has been tricked to believe she is working for the U.S. government, is actually working for a criminal organization named the Alliance of Twelve. Upon learning this, Sydney becomes a double agent for the real CIA."
+	},
+	"tv:70508": {
+		"directors": [],
+		"runtime": null,
+		"genres": [
+			"Documentary",
+			"War & Politics"
+		],
+		"overview": "Five acclaimed contemporary directors tell the story of five legendary Hollywood filmmakers who enlisted in the armed forces to document World War II."
+	},
+	"tv:69478": {
+		"directors": [
+			{
+				"id": 157125,
+				"name": "Bruce Miller"
+			}
+		],
+		"runtime": null,
+		"genres": [
+			"Drama",
+			"Sci-Fi & Fantasy",
+			"Action & Adventure"
+		],
+		"overview": "Set in a dystopian future, a woman is forced to live as a concubine under a fundamentalist theocratic dictatorship."
+	},
+	"movie:1680516": {
+		"directors": [
+			{
+				"id": 2707351,
+				"name": "Wil Aime"
+			}
+		],
+		"runtime": 130,
+		"genres": [
+			"Thriller"
+		],
+		"overview": "In a high-stakes world where time is scarce and every choice matters, diverse characters face a merciless system where one wrong move means death. Amid intense pressure, they confront moral quandaries and seek truth while testing limits."
+	},
+	"tv:61986": {
+		"directors": [
+			{
+				"id": 1218098,
+				"name": "Glenn Kessler"
+			},
+			{
+				"id": 68695,
+				"name": "Daniel Zelman"
+			},
+			{
+				"id": 1223742,
+				"name": "Todd A. Kessler"
+			}
+		],
+		"runtime": 60,
+		"genres": [
+			"Drama"
+		],
+		"overview": "A dramatic thriller that explores the demons lurking beneath the surface of a contemporary American family. The Rayburns are hard-working pillars of their Florida Keys community. But when the black sheep son comes home for the 45th anniversary of his parents' hotel, he threatens to expose the Rayburns' dark secrets and shameful past, pushing his siblings to the limits of family loyalty."
+	},
+	"tv:63535": {
+		"directors": [
+			{
+				"id": 62635,
+				"name": "Terence Winter"
+			},
+			{
+				"id": 1110335,
+				"name": "Rich Cohen"
+			},
+			{
+				"id": 1428,
+				"name": "Mick Jagger"
+			},
+			{
+				"id": 1032,
+				"name": "Martin Scorsese"
+			}
+		],
+		"runtime": 60,
+		"genres": [
+			"Drama"
+		],
+		"overview": "In 1970s New York, jaded record exec Richie Finestra tries to resurrect his failing label and fractured personal life while keeping his finger on the pulse of the city's new sound."
+	},
+	"tv:4087": {
+		"directors": [
+			{
+				"id": 12524,
+				"name": "Chris Carter"
+			}
+		],
+		"runtime": null,
+		"genres": [
+			"Mystery",
+			"Sci-Fi & Fantasy",
+			"Crime"
+		],
+		"overview": "The exploits of FBI Special Agents Fox Mulder and Dana Scully who investigate X-Files: marginalized, unsolved cases involving paranormal phenomena. Mulder believes in the existence of aliens and the paranormal while Scully, a skeptic, is assigned to make scientific analyses of Mulder's discoveries that debunk Mulder's work and thus return him to mainstream cases."
+	},
+	"tv:134465": {
+		"directors": [
+			{
+				"id": 2859555,
+				"name": "Kim Jung-hyun"
+			}
+		],
+		"runtime": 70,
+		"genres": [
+			"Drama",
+			"Comedy"
+		],
+		"overview": "No Go Jin is the most popular mathematics instructor in the private education field and the CEO of GOTOP Education. Even though he has only a high school level education, he has achieved all of his success due to his extreme intelligence. He seems like a perfect man with a handsome appearance, high IQ, and wealth. He is also narcissistic. One day, he is suddenly warned that he will be murdered.\n\nLee Shin A works as No Go Jin’s secretary. She is a diligent and responsible employee. Due to her quiet and introverted personality, she has little presence with her boss No Go Jin and her colleagues at work. Her colleagues begin to recognize her, because she has worked for the notorious No Go Jin for more than 1 year. She then learns that she does not have much time left to live."
+	},
+	"tv:126485": {
+		"directors": [
+			{
+				"id": 124392,
+				"name": "Kang Full"
+			},
+			{
+				"id": 4112648,
+				"name": "Park Yoon-seo"
+			},
+			{
+				"id": 573790,
+				"name": "Park In-je"
+			}
+		],
+		"runtime": null,
+		"genres": [
+			"Mystery",
+			"Drama",
+			"Action & Adventure"
+		],
+		"overview": "Children who live in hiding with superpowers, along with their parents who live with painful secrets of the past, face enormous dangers together."
+	},
+	"movie:121491": {
+		"directors": [
+			{
+				"id": 240802,
+				"name": "Park Jung-woo"
+			}
+		],
+		"runtime": 109,
+		"genres": [
+			"Thriller",
+			"Drama"
+		],
+		"overview": "People binge eat and suffer from extreme thirst, which leads them to go crazy for water. They cannot control themselves because they are brainwashed by a parasite."
+	},
+	"tv:63351": {
+		"directors": [
+			{
+				"id": 64506,
+				"name": "Chris Brancato"
+			},
+			{
+				"id": 81203,
+				"name": "Doug Miro"
+			},
+			{
+				"id": 121479,
+				"name": "Carlo Bernard"
+			}
+		],
+		"runtime": null,
+		"genres": [
+			"Crime",
+			"Drama"
+		],
+		"overview": "A gritty chronicle of the war against Colombia's infamously violent and powerful drug cartels."
+	},
+	"tv:1407": {
+		"directors": [
+			{
+				"id": 1221665,
+				"name": "Alex Gansa"
+			},
+			{
+				"id": 1221664,
+				"name": "Howard Gordon"
+			}
+		],
+		"runtime": null,
+		"genres": [
+			"Drama",
+			"War & Politics",
+			"Crime"
+		],
+		"overview": "CIA officer Carrie Mathison is tops in her field despite being bipolar, which makes her volatile and unpredictable. With the help of her long-time mentor Saul Berenson, Carrie fearlessly risks everything, including her personal well-being and even sanity, at every turn."
+	},
+	"tv:2122": {
+		"directors": [
+			{
+				"id": 1216630,
+				"name": "Greg Daniels"
+			},
+			{
+				"id": 17403,
+				"name": "Mike Judge"
+			}
+		],
+		"runtime": 22,
+		"genres": [
+			"Animation",
+			"Comedy",
+			"Family"
+		],
+		"overview": "Set in Texas, this animated series follows the life of propane salesman Hank Hill, who lives with his overly confident substitute Spanish teacher wife Peggy, wannabe comedian son Bobby, and naive niece Luanne. Hank has conservative views about God, family, and country, but his values and ethics are often challenged by the situations he, his family, and his beer-drinking neighbors/buddies find themselves in."
+	},
+	"tv:1402": {
+		"directors": [
+			{
+				"id": 4027,
+				"name": "Frank Darabont"
+			}
+		],
+		"runtime": null,
+		"genres": [
+			"Action & Adventure",
+			"Drama",
+			"Sci-Fi & Fantasy"
+		],
+		"overview": "Sheriff's deputy Rick Grimes awakens from a coma to find a post-apocalyptic world dominated by flesh-eating zombies. He sets out to find his family and encounters many other survivors along the way."
+	},
+	"movie:24341": {
+		"directors": [
+			{
+				"id": 27991,
+				"name": "Stuart Gordon"
+			}
+		],
+		"runtime": 77,
+		"genres": [
+			"Fantasy",
+			"Horror"
+		],
+		"overview": "A precocious girl, her nasty parents, two punk-rock losers and a weak-kneed salesman inadvertently become the guests of two ghoulish senior citizens in their dark, haunted mansion."
+	},
+	"tv:51370": {
+		"directors": [
+			{
+				"id": 1181304,
+				"name": "Aaron Zelman"
+			}
+		],
+		"runtime": null,
+		"genres": [
+			"Sci-Fi & Fantasy",
+			"Drama"
+		],
+		"overview": "The people of Arcadia, Missouri are forever changed when their deceased loved ones suddenly start to reappear."
+	},
+	"tv:91363": {
+		"directors": [],
+		"runtime": null,
+		"genres": [
+			"Animation",
+			"Action & Adventure",
+			"Sci-Fi & Fantasy"
+		],
+		"overview": "Taking inspiration from the comic books of the same name, each episode of this animated anthology series questions, revisits and twists classic Marvel Cinematic moments."
+	},
+	"tv:60685": {
+		"directors": [
+			{
+				"id": 116357,
+				"name": "Scott Stewart"
+			},
+			{
+				"id": 1312316,
+				"name": "Vaun Wilmott"
+			}
+		],
+		"runtime": 60,
+		"genres": [
+			"Sci-Fi & Fantasy",
+			"Drama"
+		],
+		"overview": "Based on characters from the hit theatrical film ‘Legion’ (2010), ‘Dominion’ is an epic supernatural drama set in the year 25 A.E. In this transformed post–apocalyptic future an army of lower angels, assembled by the archangel Gabriel, has waged a war of possession against mankind. The archangel Michael, turning against his own kind, has chosen to side with humanity against Gabriel. Rising out of the ashes of the 25-year-long battle are newly fortified cities which protect the human survivors. In Vega (formerly Las Vegas), the largest of these cities, two houses vie for control and the stage is set for political upheaval and a dangerous power shift. Meanwhile, a rebellious young soldier begins a perilous journey as the war between the human race and the fallen angels hellbent on their domination escalates."
+	},
+	"tv:60708": {
+		"directors": [
+			{
+				"id": 1211883,
+				"name": "Bruno Heller"
+			}
+		],
+		"runtime": 43,
+		"genres": [
+			"Drama",
+			"Crime",
+			"Sci-Fi & Fantasy"
+		],
+		"overview": "Everyone knows the name Commissioner Gordon. He is one of the crime world's greatest foes, a man whose reputation is synonymous with law and order. But what is known of Gordon's story and his rise from rookie detective to Police Commissioner? What did it take to navigate the multiple layers of corruption that secretly ruled Gotham City, the spawning ground of the world's most iconic villains? And what circumstances created them – the larger-than-life personas who would become Catwoman, The Penguin, The Riddler, Two-Face and The Joker?"
+	},
+	"tv:127987": {
+		"directors": [
+			{
+				"id": 212038,
+				"name": "Simon Astier"
+			}
+		],
+		"runtime": 26,
+		"genres": [
+			"Comedy",
+			"Sci-Fi & Fantasy"
+		],
+		"overview": "After a mysterious explosion rocks the town of Pointe-Claire, rookie cop Richard Garcia and his ragtag group of friends find themselves entangled in an all-out war between rival alien factions."
+	},
+	"tv:4604": {
+		"directors": [
+			{
+				"id": 18924,
+				"name": "Alfred Gough"
+			},
+			{
+				"id": 18923,
+				"name": "Miles Millar"
+			}
+		],
+		"runtime": 43,
+		"genres": [
+			"Sci-Fi & Fantasy",
+			"Action & Adventure",
+			"Drama"
+		],
+		"overview": "The origins of the world’s greatest hero–from Krypton refugee Kal-el’s arrival on Earth through his tumultuous teen years to Clark Kent’s final steps toward embracing his destiny as the Man of Steel."
+	},
+	"tv:1781": {
+		"directors": [
+			{
+				"id": 1227201,
+				"name": "Ed Friendly"
+			},
+			{
+				"id": 1586316,
+				"name": "Laura Ingalls Wilder"
+			}
+		],
+		"runtime": null,
+		"genres": [
+			"Western",
+			"Drama",
+			"Family"
+		],
+		"overview": "When the big woods of Wisconsin becomes a difficult spot for hunting, Charles Ingalls reluctantly decides to move his family, pioneering west. Their life on the farm in Walnut Grove, Minnesota, in the 1870s and 1880s is full of adventure, tragedy, and triumph. Based on the books of Laura Ingalls Wilder."
+	},
+	"tv:62560": {
+		"directors": [
+			{
+				"id": 1331163,
+				"name": "Sam Esmail"
+			}
+		],
+		"runtime": null,
+		"genres": [
+			"Crime",
+			"Drama"
+		],
+		"overview": "A young programmer, Elliot, suffers from a debilitating anti-social disorder and decides that he can only connect to people by hacking them. He wields his skills as a weapon to protect the people that he cares about. Elliot finds himself in the intersection between a cybersecurity firm he works for and the underworld organizations that are recruiting him to bring down corporate America."
+	},
+	"tv:58474": {
+		"directors": [
+			{
+				"id": 223041,
+				"name": "Ann Druyan"
+			},
+			{
+				"id": 1224290,
+				"name": "Steven Soter"
+			}
+		],
+		"runtime": null,
+		"genres": [
+			"Documentary"
+		],
+		"overview": "Famed astrophysicist Neil deGrasse Tyson provides clarity for the vision of the cosmos as he voyages across the universe with never-before-told stories that delve into the scientific concepts of the laws of gravity and the origins of space and time."
+	},
+	"tv:51019": {
+		"directors": [
+			{
+				"id": 49825,
+				"name": "J. H. Wyman"
+			}
+		],
+		"runtime": null,
+		"genres": [
+			"Drama",
+			"Crime",
+			"Sci-Fi & Fantasy",
+			"Action & Adventure"
+		],
+		"overview": "The year is 2048. By mandate, every cop must partner with a robot. Detective John Kennex returns to work after waking up from a 17-month coma. As he adjusts to working with his new partner, Dorian, a discontinued android with unexpected emotional responses, John also must learn to get along with his new colleagues."
+	},
+	"tv:157065": {
+		"directors": [
+			{
+				"id": 551463,
+				"name": "Mike Flanagan"
+			}
+		],
+		"runtime": null,
+		"genres": [
+			"Mystery",
+			"Drama"
+		],
+		"overview": "To secure their fortune — and future — two ruthless siblings build a family dynasty that begins to crumble when their heirs mysteriously die, one by one."
+	},
+	"tv:62822": {
+		"directors": [
+			{
+				"id": 1235304,
+				"name": "Jonathan Brackley"
+			},
+			{
+				"id": 1554205,
+				"name": "Sam Vincent"
+			}
+		],
+		"runtime": 46,
+		"genres": [
+			"Sci-Fi & Fantasy",
+			"Drama",
+			"Mystery"
+		],
+		"overview": "In a parallel present where the latest must-have gadget for any busy family is a 'Synth' - a highly-developed robotic servant that's so similar to a real human it's transforming the way we live."
+	},
+	"movie:1385550": {
+		"directors": [
+			{
+				"id": 1965971,
+				"name": "Baker Karim"
+			}
+		],
+		"runtime": 106,
+		"genres": [
+			"Thriller",
+			"Drama"
+		],
+		"overview": "A drug dealer is hired to drive a young escort, Kadzo, to and from her clients. He falls in love with her and decides to rescue her from her situation, leading him into an increasing spiral fo troubles."
+	},
+	"tv:400": {
+		"directors": [
+			{
+				"id": 1294073,
+				"name": "Ian Biederman"
+			}
+		],
+		"runtime": 45,
+		"genres": [
+			"Drama",
+			"Mystery",
+			"Crime"
+		],
+		"overview": "Notorious Los Angeles defense attorney Sebastian Stark becomes disillusioned with his career after his successful defense of a wife-abuser results in the wife's death. After more than a month trying to come to grips with his situation, he is invited by the Los Angeles district attorney to become a public prosecutor so he can apply his unorthodox-but-effective talents to putting guilty people away instead of putting them back on the street."
+	},
+	"tv:46406": {
+		"directors": [
+			{
+				"id": 13524,
+				"name": "Christopher Guest"
+			},
+			{
+				"id": 120560,
+				"name": "Jim Piddock"
+			}
+		],
+		"runtime": 30,
+		"genres": [
+			"Comedy"
+		],
+		"overview": "Having recently lost his job and his girlfriend, 30-year-old Tom Chadwick has a rather unsure sense of his own identity. But when he inherits a mysterious box of belongings from a great aunt he never met, Tom starts investigating his lineage and uncovers a whole world of unusual stories and characters, acquiring a growing sense of who he and his real family are."
+	},
+	"tv:2302": {
+		"directors": [
+			{
+				"id": 183542,
+				"name": "Bob Lowry"
+			}
+		],
+		"runtime": 52,
+		"genres": [
+			"Drama"
+		],
+		"overview": "Dr. Craig Huffstodt, a family man and a successful psychiatrist, gets a wake-up call after a tragedy occurs with one of his patients."
+	},
+	"tv:47318": {
+		"directors": [
+			{
+				"id": 212935,
+				"name": "Jeff Eastin"
+			}
+		],
+		"runtime": 42,
+		"genres": [
+			"Crime",
+			"Drama",
+			"Action & Adventure"
+		],
+		"overview": "In Southern California, a beachfront property was seized and turned into a residence for undercover cops. They are all top agents of the DEA, FBI, and Customs and they are living in this house unofficially known as \"Graceland\". Coming of a new graduating at the top of his class, FBI rookie, Mike Warren, could make the life of a legendary FBI agent Paul Briggs and the others, more complicated or it could reveal the truth. It is based upon actual events."
+	},
+	"tv:40245": {
+		"directors": [
+			{
+				"id": 1222588,
+				"name": "Eric Weinberg"
+			},
+			{
+				"id": 937878,
+				"name": "Curtis Gwinn"
+			}
+		],
+		"runtime": 22,
+		"genres": [
+			"Comedy",
+			"Sci-Fi & Fantasy"
+		],
+		"overview": "A year ago, vampires, werewolves and zombies mysteriously descended upon the streets of California's San Fernando Valley. The Undead Task Force (UTF) was created to combat the emergence of monsters."
+	},
+	"tv:70824": {
+		"directors": [
+			{
+				"id": 1524073,
+				"name": "Clara María Ochoa"
+			},
+			{
+				"id": 2551144,
+				"name": "Juana Uribe"
+			}
+		],
+		"runtime": 45,
+		"genres": [
+			"Documentary",
+			"Drama",
+			"Action & Adventure"
+		],
+		"overview": "A young woman who was part of the guerrilla group is now seeking a better life in the city. She wants to study medicine, to heal rather than harm, but she will face a challenge, because being part of outlaw groups always has consequences."
+	},
+	"tv:39336": {
+		"directors": [
+			{
+				"id": 1214473,
+				"name": "Michael R. Perry"
+			},
+			{
+				"id": 90591,
+				"name": "Oren Peli"
+			}
+		],
+		"runtime": 43,
+		"genres": [
+			"Action & Adventure",
+			"Drama",
+			"Mystery",
+			"Sci-Fi & Fantasy"
+		],
+		"overview": "Wildlife expert and TV personality Emmet Cole sets course around the world with his wife, Tess, and son, Lincoln, while filming what would become one of the most popular shows in television. After he goes missing deep in the Amazon, his family, friends and crew set out on a mysterious and deadly journey to find him."
+	},
+	"tv:17627": {
+		"directors": [
+			{
+				"id": 1676377,
+				"name": "Martina Cole"
+			}
+		],
+		"runtime": 60,
+		"genres": [
+			"Action & Adventure",
+			"Drama"
+		],
+		"overview": "Freddie Jackson is released from prison in 1984 having served a four-year sentence for armed robbery. His wife Jackie, who has been waiting for him on the outside in the mistaken belief that that he wants to go straight, soon finds herself disappointed: Freddie is in fact raring to get back into the game and has set his sights on becoming top dog in the East End underworld."
+	},
+	"tv:35339": {
+		"directors": [
+			{
+				"id": 167784,
+				"name": "Elizabeth Sarnoff"
+			},
+			{
+				"id": 1214618,
+				"name": "Steven Lilien"
+			},
+			{
+				"id": 1214619,
+				"name": "Bryan Wynbrandt"
+			}
+		],
+		"runtime": 43,
+		"genres": [
+			"Mystery",
+			"Action & Adventure",
+			"Drama"
+		],
+		"overview": "A unique team, consisting of a federal agent, a police officer and a conspiracy theory novelist, investigate the shocking reappearance of Alcatraz's most notorious prisoners, fifty years after they supposedly vanished."
+	},
+	"tv:238084": {
+		"directors": [
+			{
+				"id": 2404074,
+				"name": "Kwon Oh-seung"
+			}
+		],
+		"runtime": 47,
+		"genres": [
+			"Action & Adventure",
+			"Drama",
+			"Crime"
+		],
+		"overview": "As illegal firearms flood into a gun-free South Korea, a resolute cop and a mysterious partner join forces to stop the chaos from sweeping the nation."
+	},
+	"tv:5303": {
+		"directors": [
+			{
+				"id": 55983,
+				"name": "Jim Henson"
+			}
+		],
+		"runtime": 25,
+		"genres": [
+			"Action & Adventure",
+			"Family",
+			"Sci-Fi & Fantasy",
+			"Drama"
+		],
+		"overview": "The Storyteller, aided by his cynical dog, narrates classic folk tales, fables, and legends."
+	},
+	"tv:34524": {
+		"directors": [
+			{
+				"id": 1235310,
+				"name": "Jeff Davis"
+			}
+		],
+		"runtime": null,
+		"genres": [
+			"Sci-Fi & Fantasy",
+			"Drama",
+			"Comedy"
+		],
+		"overview": "Scott McCall, a high school student living in the town of Beacon Hills has his life drastically changed when he's bitten by a werewolf, becoming one himself. He must henceforth learn to balance his problematic new identity with his day-to-day teenage life. The following characters are instrumental to his struggle: Stiles, his best friend; Allison, his love interest who comes from a family of werewolf hunters; and Derek, a mysterious werewolf with a dark past. Throughout the series, he strives to keep his loved ones safe while maintaining normal relationships with them."
+	},
+	"tv:95": {
+		"directors": [
+			{
+				"id": 12891,
+				"name": "Joss Whedon"
+			}
+		],
+		"runtime": null,
+		"genres": [
+			"Comedy",
+			"Drama",
+			"Sci-Fi & Fantasy"
+		],
+		"overview": "Into every generation a slayer is born: one girl in all the world, a chosen one. She alone will wield the strength and skill to fight the vampires, demons, and the forces of darkness; to stop the spread of their evil and the swell of their number. She is the Slayer."
+	},
+	"tv:38922": {
+		"directors": [
+			{
+				"id": 17655,
+				"name": "Farhad Safinia"
+			}
+		],
+		"runtime": null,
+		"genres": [
+			"Drama",
+			"War & Politics",
+			"Crime"
+		],
+		"overview": "Mayor Tom Kane sits like a spider at the center of Chicago's web of power; a web built on a covenant with the people. They want to be led, they want disputes settled, jobs dispensed, and loyalties rewarded. If he achieves all this through deception and immorality, so be it. As long as he gets the job done, they look the other way. Yet despite being the most effective mayor in recent history, a degenerative brain disorder is ripping everything away from him. He can't trust his memory, his closest allies, or even himself."
+	},
+	"tv:32754": {
+		"directors": [
+			{
+				"id": 940376,
+				"name": "Kelly Marcel"
+			},
+			{
+				"id": 1224804,
+				"name": "Craig Silverstein"
+			}
+		],
+		"runtime": 45,
+		"genres": [
+			"Sci-Fi & Fantasy",
+			"Mystery",
+			"Action & Adventure"
+		],
+		"overview": "In the year 2149, the world is dying. The planet is overdeveloped and overcrowded, with the majority of plant and animal life extinct. The future of mankind is in jeopardy, and its only hope for survival is in the distant past. An ordinary family goes on an extraordinary journey back in time to prehistoric Earth as a part of a massive expedition to save the human race."
+	},
+	"tv:122530": {
+		"directors": [
+			{
+				"id": 1336419,
+				"name": "Lauren Oliver"
+			}
+		],
+		"runtime": 45,
+		"genres": [
+			"Action & Adventure",
+			"Drama",
+			"Crime"
+		],
+		"overview": "In the forgotten town of Carp, Texas, Panic is the only way out. Every summer the graduating seniors risk their lives competing in a series of challenges for the chance to win life-changing money. After the death of two players the stakes—and danger—have never been higher."
+	},
+	"tv:1411": {
+		"directors": [
+			{
+				"id": 527,
+				"name": "Jonathan Nolan"
+			}
+		],
+		"runtime": null,
+		"genres": [
+			"Action & Adventure",
+			"Crime",
+			"Sci-Fi & Fantasy"
+		],
+		"overview": "John Reese, former CIA paramilitary operative, is presumed dead and teams up with reclusive billionaire Finch to prevent violent crimes in New York City by initiating their own type of justice. With the special training that Reese has had in Covert Operations and Finch's genius software inventing mind, the two are a perfect match for the job that they have to complete. With the help of surveillance equipment, they work \"outside the law\" and get the right criminal behind bars. "
+	},
+	"tv:98178": {
+		"directors": [
+			{
+				"id": 488,
+				"name": "Steven Spielberg"
+			},
+			{
+				"id": 1214366,
+				"name": "Edward Kitsis"
+			},
+			{
+				"id": 1214367,
+				"name": "Adam Horowitz"
+			}
+		],
+		"runtime": null,
+		"genres": [
+			"Sci-Fi & Fantasy",
+			"Action & Adventure"
+		],
+		"overview": "This reimagining of the classic anthology series transports everyday characters into worlds of wonder, possibility, and imagination."
+	},
+	"tv:33852": {
+		"directors": [
+			{
+				"id": 238634,
+				"name": "M. A. Lovretta"
+			}
+		],
+		"runtime": 44,
+		"genres": [
+			"Sci-Fi & Fantasy",
+			"Drama"
+		],
+		"overview": "The gorgeous and charismatic Bo is a supernatural being called a succubus who feeds on the energy of humans, sometimes with fatal results. Refusing to embrace her supernatural clan and its rigid hierarchy, Bo is a renegade who takes up the fight for the underdog while searching for the truth about her own mysterious origins."
+	},
+	"tv:2370": {
+		"directors": [],
+		"runtime": 44,
+		"genres": [
+			"Reality"
+		],
+		"overview": "Aspiring restaurateurs brave Ramsay and his fiery command of the kitchen as he puts the competitors through an intense culinary academy to prove they possess the right combination of ingredients to win a life-changing grand prize."
+	},
+	"tv:61160": {
+		"directors": [],
+		"runtime": 60,
+		"genres": [
+			"Drama",
+			"Sci-Fi & Fantasy"
+		],
+		"overview": "Set in a dystopian future when women have stopped having children, \"The Lottery\" reveals a world staring down the barrel of impending extinction. Remarkably, 100 embryos are successfully fertilized and a national lottery is held to decide the surrogates. As conflict, control and mystery over this global crisis unfolds, the government’s interests and power begin to dominate, igniting a highly controversial debate over our fundamental and personal freedom to raise a family."
+	},
+	"tv:203744": {
+		"directors": [
+			{
+				"id": 6854,
+				"name": "Mark Protosevich"
+			}
+		],
+		"runtime": null,
+		"genres": [
+			"Drama",
+			"Mystery"
+		],
+		"overview": "John Sugar is a dashing private eye navigating the dark corners of sunny LA. Though he sees only the good in humanity, Sugar is haunted by a secret too dangerous to expose."
+	},
+	"movie:15484": {
+		"directors": [
+			{
+				"id": 11147,
+				"name": "John Cassavetes"
+			}
+		],
+		"runtime": 87,
+		"genres": [
+			"Drama"
+		],
+		"overview": "The relationship between Lelia, a light-skinned black woman, and Tony, a white man is put in jeopardy when Tony meets Lelia’s darker-skinned jazz singer brother, Hugh, and discovers that her racial heritage is not what he thought it was."
+	},
+	"tv:894": {
+		"directors": [
+			{
+				"id": 2463,
+				"name": "Patrick McGoohan"
+			},
+			{
+				"id": 1220978,
+				"name": "George Markstein"
+			}
+		],
+		"runtime": 60,
+		"genres": [
+			"Drama",
+			"Sci-Fi & Fantasy",
+			"Mystery"
+		],
+		"overview": "After resigning, a secret agent is abducted and taken to what looks like an idyllic village, but is really a bizarre Kafkaesque prison. His warders demand information. He gives them nothing, but only tries to escape."
+	},
+	"tv:1408": {
+		"directors": [
+			{
+				"id": 169061,
+				"name": "David Shore"
+			}
+		],
+		"runtime": 44,
+		"genres": [
+			"Drama"
+		],
+		"overview": "Dr. Gregory House, a drug-addicted, unconventional, misanthropic medical genius, leads a team of diagnosticians at the fictional Princeton–Plainsboro Teaching Hospital in New Jersey."
+	},
+	"tv:1639": {
+		"directors": [
+			{
+				"id": 17263,
+				"name": "Tim Kring"
+			}
+		],
+		"runtime": 43,
+		"genres": [
+			"Sci-Fi & Fantasy",
+			"Drama"
+		],
+		"overview": "Common people discover that they have super powers. Their lives intertwine as a devastating event must be prevented."
+	},
+	"tv:1435": {
+		"directors": [
+			{
+				"id": 1224547,
+				"name": "Michelle King"
+			},
+			{
+				"id": 1224549,
+				"name": "Robert King"
+			}
+		],
+		"runtime": 43,
+		"genres": [
+			"Drama"
+		],
+		"overview": "Alicia Florrick boldly assumes full responsibility for her family and re-enters the workforce after her husband's very public sex and political corruption scandal lands him in jail."
+	},
+	"tv:186": {
+		"directors": [
+			{
+				"id": 1214409,
+				"name": "Jenji Kohan"
+			}
+		],
+		"runtime": null,
+		"genres": [
+			"Comedy",
+			"Crime",
+			"Drama"
+		],
+		"overview": "After the unexpected death of her husband, a suburban mom resorts to selling weed to support her family."
+	},
+	"tv:10545": {
+		"directors": [
+			{
+				"id": 2152,
+				"name": "Alan Ball"
+			}
+		],
+		"runtime": 60,
+		"genres": [
+			"Sci-Fi & Fantasy",
+			"Drama",
+			"Mystery"
+		],
+		"overview": "Thanks to a Japanese scientist's invention of synthetic blood, vampires have progressed overnight from legendary monsters to fellow citizens. And while humans have been safely removed from the menu, many remain apprehensive about these creatures \"coming out of the coffin.\" Religious leaders, government officials, and vampire fundamentalists around the world have chosen their sides.  But in the small Louisiana town of Bon Temps, the jury is still out."
+	},
+	"tv:14956": {
+		"directors": [
+			{
+				"id": 12891,
+				"name": "Joss Whedon"
+			}
+		],
+		"runtime": 44,
+		"genres": [
+			"Action & Adventure",
+			"Drama",
+			"Sci-Fi & Fantasy"
+		],
+		"overview": "Echo is a member of a highly illegal and underground group of individuals whose personalities have been wiped clean so they can be imprinted with any number of new personas. Confined between missions to a secret facility known as the Dollhouse, the \"Actives\" are hired by the wealthy, powerful and connected to wholly become—with mind, personality and physiology—whomever the client wants or needs them to be. They know no other life than the specific engagements they are in at that time—or do they?"
+	},
+	"tv:2349": {
+		"directors": [
+			{
+				"id": 28485,
+				"name": "Steve Pemberton"
+			},
+			{
+				"id": 34546,
+				"name": "Mark Gatiss"
+			},
+			{
+				"id": 34551,
+				"name": "Reece Shearsmith"
+			},
+			{
+				"id": 173298,
+				"name": "Jeremy Dyson"
+			}
+		],
+		"runtime": 30,
+		"genres": [
+			"Comedy"
+		],
+		"overview": "The League of Gentlemen is a British sitcom broadcast on BBC Two over three series from 1999 to 2002. In the fictional Northern England town of Royston Vasey—based on Bacup, Lancashire—the lives are explored of dozens of bizarre citizens, much of whom are played by three of the show's four writers—Mark Gatiss, Steve Pemberton, and Reece Shearsmith—who, along with Jeremy Dyson, formed the titular comedy troupe in 1995.\n\nThe programme was followed by a film in 2005, and a three-part revival miniseries in December 2017 to celebrate the group's 20th anniversary."
+	},
+	"tv:4194": {
+		"directors": [
+			{
+				"id": 1,
+				"name": "George Lucas"
+			}
+		],
+		"runtime": null,
+		"genres": [
+			"Action & Adventure",
+			"Sci-Fi & Fantasy",
+			"Animation"
+		],
+		"overview": "Yoda, Obi-Wan Kenobi, Anakin Skywalker, Mace Windu and other Jedi Knights lead the Grand Army of the Republic against the droid army of the Separatists."
+	},
+	"tv:32415": {
+		"directors": [
+			{
+				"id": 81200,
+				"name": "Conan O'Brien"
+			}
+		],
+		"runtime": 42,
+		"genres": [
+			"Talk",
+			"Comedy",
+			"News"
+		],
+		"overview": "A late night television talk show hosted by  Conan O'Brien."
+	},
+	"tv:56242": {
+		"directors": [],
+		"runtime": 88,
+		"genres": [
+			"Drama"
+		],
+		"overview": "When an oil rig causes an eruption in a small town, it's just the first in a series that could affect the dangerous Ring of Fire that contains most of the world's volcanoes. If these cataclysmic eruptions cannot be stopped, the Earth could be headed for an extinction level event."
+	},
+	"tv:15147": {
+		"directors": [
+			{
+				"id": 1245670,
+				"name": "Les McClaine"
+			},
+			{
+				"id": 1212204,
+				"name": "Javier Grillo-Marxuach"
+			}
+		],
+		"runtime": 60,
+		"genres": [
+			"Action & Adventure",
+			"Drama",
+			"Sci-Fi & Fantasy",
+			"Comedy"
+		],
+		"overview": "Struggling female artist Wendy Watson, recruited by a secret agency, struggles to wrap her head around her bizarre new job -- fighting dangers humanity isn't prepared to face -- under the guidance of a handsome and relentlessly wholesome hero who calls himself \"The Middleman\" in this tongue-in-cheek adventure series."
+	},
+	"tv:7143": {
+		"directors": [
+			{
+				"id": 61824,
+				"name": "Mick Garris"
+			}
+		],
+		"runtime": 42,
+		"genres": [
+			"Drama",
+			"Mystery"
+		],
+		"overview": "A horror/suspense anthology series directed by the biggest horror directors working in feature films."
+	},
+	"tv:549": {
+		"directors": [
+			{
+				"id": 117443,
+				"name": "Dick Wolf"
+			}
+		],
+		"runtime": null,
+		"genres": [
+			"Crime",
+			"Drama"
+		],
+		"overview": "In cases ripped from the headlines, police investigate serious and often deadly crimes, weighing the evidence and questioning the suspects until someone is taken into custody. The district attorney's office then builds a case to convict the perpetrator by proving the person guilty beyond a reasonable doubt. Working together, these expert teams navigate all sides of the complex criminal justice system to make New York a safer place."
+	},
+	"tv:1712": {
+		"directors": [
+			{
+				"id": 1217132,
+				"name": "Chris Hayward"
+			},
+			{
+				"id": 1226665,
+				"name": "Bob Mosher"
+			},
+			{
+				"id": 87214,
+				"name": "Allan Burns"
+			}
+		],
+		"runtime": 25,
+		"genres": [
+			"Comedy",
+			"Sci-Fi & Fantasy",
+			"Family"
+		],
+		"overview": "A family of friendly monsters that have misadventures all while never quite understanding why people react to them so strangely."
+	},
+	"tv:1469": {
+		"directors": [
+			{
+				"id": 20294,
+				"name": "Laeta Kalogridis"
+			}
+		],
+		"runtime": 42,
+		"genres": [
+			"Drama",
+			"Action & Adventure",
+			"Sci-Fi & Fantasy"
+		],
+		"overview": "The series is set in New Gotham City, several years after it has been apparently abandoned by Batman. In his absence, Huntress, Oracle and Dinah are now the protectors of New Gotham: the Birds of Prey, and had taken over his war on crime.  They are joined by Alfred Pennyworth, who serves Helena as she is heir to the Wayne estate; and Detective Jesse Reese, a police officer confronted with crimes and abilities he cannot explain."
+	},
+	"tv:232624": {
+		"directors": [],
+		"runtime": null,
+		"genres": [
+			"Reality"
+		],
+		"overview": "Contestants are pitched unique products by convincing entrepreneurs – some of whom are showcasing real business ventures, while the others are “Snake Oil Salesmen,” whose products are fake."
+	},
+	"tv:33001": {
+		"directors": [
+			{
+				"id": 1224821,
+				"name": "Jim Dunn"
+			},
+			{
+				"id": 1224820,
+				"name": "Sam Ernst"
+			}
+		],
+		"runtime": null,
+		"genres": [
+			"Drama",
+			"Sci-Fi & Fantasy",
+			"Mystery"
+		],
+		"overview": "FBI agent Audrey Parker arrives in the small town of Haven, Maine to solve a murder and soon discovers the town's many secrets—which also hold the key to unlocking the mysteries of her lost past."
+	},
+	"movie:945531": {
+		"directors": [
+			{
+				"id": 1552134,
+				"name": "Alcino Diniz"
+			}
+		],
+		"runtime": 90,
+		"genres": [
+			"Comedy"
+		],
+		"overview": "Caseli, a young writer and teacher, creates in his imagination characters who would frequent a motel, the subject of the book he is writing. He and Dilma, his student, decide to spend a night in a motel in Rio, where eight couples meet:  - Fábio, visual artist and Stefânia, fashion editor of a magazine;  - Ferraz, flirtatious dentist and his secretary Cleonice, shy and virgin;  - Vera, wife of Ferraz and Kiko, big boy from Ipanema;  - Leopoldo and his wife, an elderly couple celebrating their golden anniversary;  - Detective Camilo and his assistant Dorô, who try to catch Vera in the act of adultery;  - Renato, on vacation from São Paulo and Cláudia, a woman he recently met in Rio;  - Gustavo and Lazinha, a couple who use extravagant artifices to achieve sexual fulfillment.  In the middle of the night, the corpse of an unknown man appears, and the arrival of the police determines the most diverse outcomes for those who were looking for just one night of love."
+	},
+	"movie:162641": {
+		"directors": [
+			{
+				"id": 50300,
+				"name": "John Farrow"
+			}
+		],
+		"runtime": 79,
+		"genres": [
+			"War",
+			"Drama",
+			"Adventure"
+		],
+		"overview": "Shortly before Pearl Harbor, American opportunist Jones and partner Johnny are in China to sell oil to the invading Japanese army. Cynical about the sufferings of the Chinese, Jones meets compassionate teacher Carolyn Grant while travelling cross-country to Shanghai. Sparks fly between these strong-willed characters, neither budging an inch. But when Jones witnesses a Japanese atrocity, his feelings toward his customers (and Carolyn) begin to change..."
+	},
+	"tv:166": {
+		"directors": [
+			{
+				"id": 1214073,
+				"name": "Harry de Winter"
+			},
+			{
+				"id": 1214074,
+				"name": "Ralph Andrews"
+			}
+		],
+		"runtime": 22,
+		"genres": [
+			"Family",
+			"Reality"
+		],
+		"overview": "The second version of the American television game show."
+	},
+	"tv:217288": {
+		"directors": [],
+		"runtime": null,
+		"genres": [
+			"Animation",
+			"Comedy",
+			"Kids"
+		],
+		"overview": "Tom and Jerry as you've never seen them before! With a fresh new look that was born and bred in Asia, they are ready for their adventures in the region. Starting off with Singapore, Tom and Jerry chase each other through the Marina Barrage, Joo Chiat or Bishan Park. Look out also for the Singapore River or your favourite HDB estate! Totally at home with our balmy weather because like true blue Singaporeans, they know exactly how to cool down. Their \"kiasu\" ways come in handy too as they make a new friend with Merli."
+	},
+	"tv:41771": {
+		"directors": [],
+		"runtime": 40,
+		"genres": [],
+		"overview": "Hitting all the wrong notes, in the best possible way, contestants are challenged to perform their favorite songs in extreme and outrageous circumstances."
+	},
+	"tv:86850": {
+		"directors": [
+			{
+				"id": 34546,
+				"name": "Mark Gatiss"
+			},
+			{
+				"id": 146459,
+				"name": "Steven Moffat"
+			},
+			{
+				"id": 150802,
+				"name": "Claes Bang"
+			}
+		],
+		"runtime": 90,
+		"genres": [
+			"Drama",
+			"Action & Adventure"
+		],
+		"overview": "Transylvania, 1897. The blood-drinking Count Dracula is drawing his plans against Victorian London. And be warned: the dead travel fast."
+	},
+	"movie:1325187": {
+		"directors": [
+			{
+				"id": 4825984,
+				"name": "Tim Borowiec"
+			}
+		],
+		"runtime": 16,
+		"genres": [
+			"Drama",
+			"Comedy",
+			"Romance"
+		],
+		"overview": "Claire, a closeted dancer, finds herself at a small convention for Flappers with her friend and longtime crush Lou. As she begins to recognize herself in the other attendees, the truth about who she is becomes increasingly painful to ignore."
+	},
+	"tv:46986": {
+		"directors": [
+			{
+				"id": 2163927,
+				"name": "Germán Castro Caycedo"
+			}
+		],
+		"runtime": 50,
+		"genres": [
+			"Drama"
+		],
+		"overview": "The Witch is a 2011 Colombian telenovela starring Flora Martínez, based on the novel of the same name by Colombian writer Germán Castro Caycedo."
+	},
+	"tv:21421": {
+		"directors": [
+			{
+				"id": 937129,
+				"name": "Jean-Xavier de Lestrade"
+			}
+		],
+		"runtime": 49,
+		"genres": [
+			"Documentary",
+			"Crime"
+		],
+		"overview": "Academy Award-winning documentary filmmaker, Jean-Xavier de Lestrade, presents a gripping courtroom thriller, offering a rare and revealing inside look at a high-profile murder trial. In 2001, author Michael Peterson was arraigned for the murder of his wife Kathleen, whose body was discovered lying in a pool of blood on the stairway of their home. Granted unusual access to Peterson's lawyers, home and immediate family, de Lestrade's cameras capture the defense team as it considers its strategic options. The series is an engrossing look at contemporary American justice that features more twists than a legal bestseller."
+	},
+	"movie:3035": {
+		"directors": [
+			{
+				"id": 2917,
+				"name": "James Whale"
+			}
+		],
+		"runtime": 70,
+		"genres": [
+			"Drama",
+			"Horror",
+			"Science Fiction"
+		],
+		"overview": "Obsessed scientist Dr. Henry Frankenstein attempts to create life by assembling a creature from deceased body parts. Aided by his loyal misshapen assistant, Fritz, Frankenstein succeeds in animating his monster, but it flees into the countryside and begins to wreak havoc."
+	},
+	"movie:833339": {
+		"directors": [
+			{
+				"id": 32685,
+				"name": "Christian Tafdrup"
+			}
+		],
+		"runtime": 98,
+		"genres": [
+			"Horror",
+			"Thriller",
+			"Drama"
+		],
+		"overview": "A Danish family visits a Dutch family they met on a holiday. What was supposed to be an idyllic weekend slowly starts unraveling as the Danes try to stay polite in the face of unpleasantness."
+	},
+	"movie:83382": {
+		"directors": [
+			{
+				"id": 87355,
+				"name": "Mustan Alibhai Burmawalla"
+			},
+			{
+				"id": 87356,
+				"name": "Abbas Alibhai Burmawalla"
+			}
+		],
+		"runtime": 163,
+		"genres": [
+			"Action",
+			"Adventure",
+			"Crime",
+			"Thriller",
+			"Drama"
+		],
+		"overview": "Two professional robbers, an illusionist, an expert make-up artist, a gadget expert and a hacker come together to steal Romanian gold ingots while it is in transit."
+	},
+	"movie:138": {
+		"directors": [
+			{
+				"id": 1496,
+				"name": "Tod Browning"
+			}
+		],
+		"runtime": 74,
+		"genres": [
+			"Horror"
+		],
+		"overview": "A British estate agent travels to Transylvania to meet with the mysterious Count Dracula, who is interested in leasing a London castle. After Dracula enslaves and drives the agent to insanity, the pair return to London together, where Dracula, a secret bloodsucker, begins preying on socialites."
+	},
+	"movie:84784": {
+		"directors": [
+			{
+				"id": 136911,
+				"name": "Alfred Sole"
+			}
+		],
+		"runtime": 82,
+		"genres": [
+			"Comedy",
+			"Horror",
+			"Mystery"
+		],
+		"overview": "A former high school student who always wanted to be a cheerleader decides to reopen the cheerleading program at her former high school after years of closure for being targeted by a serial killer."
+	},
+	"movie:20676": {
+		"directors": [
+			{
+				"id": 1103,
+				"name": "Bill Duke"
+			}
+		],
+		"runtime": 108,
+		"genres": [
+			"Action",
+			"Thriller",
+			"Crime"
+		],
+		"overview": "Black police officer Russell Stevens applies for a special anti-drug squad which targets the highest boss of cocaine delivery to LA—the Colombian foreign minister's nephew. Russell works his way up from the bottom undercover, until he reaches the boss."
+	},
+	"movie:8913": {
+		"directors": [
+			{
+				"id": 56263,
+				"name": "Mary Lambert"
+			}
+		],
+		"runtime": 103,
+		"genres": [
+			"Horror"
+		],
+		"overview": "After the Creed family's cat is accidentally killed, a friendly neighbor advises its burial in a mysterious nearby cemetery."
+	},
+	"tv:16118": {
+		"directors": [],
+		"runtime": 92,
+		"genres": [
+			"Mystery"
+		],
+		"overview": "Ben Mears has returned to his hometown to write a book about the supposedly haunted Marsten House. When people around the Marsten House start dying mysteriously, Mears discovers that the owner of the mansion is actually a vampire who is turning them into an army of undead slaves."
+	},
+	"movie:374763": {
+		"directors": [
+			{
+				"id": 69686,
+				"name": "King Ampaw"
+			}
+		],
+		"runtime": 95,
+		"genres": [
+			"Comedy"
+		],
+		"overview": "Asante, a hearse driver in Ghana, wants a wife. His profession puts most women off. He falls in love with a client whose mother has died, and manages to win her over. But her father forbids marriage to a hearse driver. Asante persists and becomes the first hearse driver in Accra to get married."
+	},
+	"movie:486947": {
+		"directors": [
+			{
+				"id": 1923202,
+				"name": "Gustav Möller"
+			}
+		],
+		"runtime": 85,
+		"genres": [
+			"Thriller",
+			"Drama",
+			"Crime"
+		],
+		"overview": "Police officer Asger Holm, demoted to desk work as an alarm dispatcher, answers a call from a panicked woman who claims to have been kidnapped. Confined to the police station and with the phone as his only tool, Asger races against time to get help and find her."
+	},
+	"movie:11495": {
+		"directors": [
+			{
+				"id": 67753,
+				"name": "Mark L. Lester"
+			}
+		],
+		"runtime": 114,
+		"genres": [
+			"Horror",
+			"Science Fiction",
+			"Thriller"
+		],
+		"overview": "Charlene \"Charlie\" McGee has the amazing ability to start fires with just a glance. Can her psychic power and the love of her father save her from the threatening government agency which wants to destroy her?"
+	},
+	"movie:1594253": {
+		"directors": [
+			{
+				"id": 5861452,
+				"name": "Nacho Gayán"
+			}
+		],
+		"runtime": null,
+		"genres": [],
+		"overview": "Who?\" is a short film and long-form commercial for AMC's The Walking Dead produced by Fox Premium Latin America."
+	},
+	"movie:354287": {
+		"directors": [
+			{
+				"id": 114334,
+				"name": "David Michôd"
+			}
+		],
+		"runtime": 122,
+		"genres": [
+			"Comedy",
+			"Drama",
+			"War"
+		],
+		"overview": "A rock star general bent on winning the “impossible” war in Afghanistan takes us inside the complex machinery of modern war. Inspired by the true story of General Stanley McChrystal."
+	},
+	"movie:337874": {
+		"directors": [
+			{
+				"id": 79683,
+				"name": "Andrew Neel"
+			}
+		],
+		"runtime": 103,
+		"genres": [
+			"Drama"
+		],
+		"overview": "Reeling from a terrifying assault, a nineteen year old enrolls into college with his brother and pledges the same fraternity. What happens there, in the name of 'brotherhood,' tests him and his loyalty in brutal ways."
+	},
+	"movie:19345": {
+		"directors": [
+			{
+				"id": 19450,
+				"name": "Bob Rafelson"
+			}
+		],
+		"runtime": 102,
+		"genres": [
+			"Thriller"
+		],
+		"overview": "Federal agent Alexandra Barnes believes that Catherine Petersen is a serial killer who marries rich men and then murders them for their money. But since Catherine is seemingly a master of disguise and has multiple identities, Alexandra can't prove anything with conventional detective work. With no other option, she goes undercover, pursuing the same man as Catherine, and hoping that Catherine will slip up and reveal her true identity."
+	},
+	"movie:133441": {
+		"directors": [
+			{
+				"id": 111836,
+				"name": "Nick Ryan"
+			}
+		],
+		"runtime": 95,
+		"genres": [
+			"Adventure",
+			"Documentary",
+			"Drama"
+		],
+		"overview": "The Summit is a 2012 documentary film about the 2008 K2 disaster directed by Nick Ryan. It combines documentary footage with dramatized recreations of the events of the 2008 K2 disaster. On the way to and from the summit, eleven climbers died during a short time span creating one of the worst catastophes in climbing history. Much of the documentary footage was captured by Swedish mountaineer Fredrik Sträng. Sträng was planning to do a Documentary which was aborted due to the fact that he did not reach the summit. The footage was still valuable to help solving what really did happen since all the climbers had different stories about what happened."
+	},
+	"movie:39968": {
+		"directors": [
+			{
+				"id": 40263,
+				"name": "Manuel Poirier"
+			}
+		],
+		"runtime": 124,
+		"genres": [
+			"Drama",
+			"Romance"
+		],
+		"overview": "Catalonian Paco is a traveling rep for a shoe manufacturer. When he stops to pick up Russian emigree hitchhiker Nino, Paco soon finds himself on the side of the road with everything stolen out from under him. Local gift shop owner Marinette gives the Spaniard a lift. Their mutual attraction manifests itself quickly, and Paco, who was fired over the stolen-car episode, hangs around. When he happens to spot Nino in the same town, he beats up the scrawny Russian, who lands in the hospital. Oddly enough, this marks the beginning of a beautiful friendship. Paco and Nino soon take the trip down the road together"
+	},
+	"movie:316883": {
+		"directors": [
+			{
+				"id": 1318673,
+				"name": "Nicolas Steiner"
+			}
+		],
+		"runtime": 120,
+		"genres": [
+			"Documentary"
+		],
+		"overview": "Above and Below is a rough and rhythmic roller coaster ride seating five survivors in their daily hustle through an apocalyptic world. A journey of challenges and beauty in uncomfortable places: Rick &amp; Cindy, Godfather Lalo in the flood channels deep down under the shiny strip of Sin City. Dave in the dry and lonesome Californian desert and April in simulation for a Mars mission in the Utah desert. Through the hustle, the pain and the laughs, we are whisked away to an unfamiliar world, yet quickly discover the souls we encounter are perhaps not that different from our own."
+	},
+	"movie:159037": {
+		"directors": [
+			{
+				"id": 115892,
+				"name": "Jehane Noujaim"
+			}
+		],
+		"runtime": 88,
+		"genres": [
+			"Documentary",
+			"Drama",
+			"History"
+		],
+		"overview": "The Square looks at the hard realities faced day-to-day by people working to build Egypt’s new democracy. Cairo’s Tahrir Square is the heart and soul of the film, which follows several young activists. Armed with values, determination, music, humor, an abundance of social media, and sheer obstinacy, they know that the thorny path to democracy only began with Hosni Mubarak’s fall. The life-and-death struggle between the people and the power of the state is still playing out."
+	},
+	"movie:1784705": {
+		"directors": [
+			{
+				"id": 2238834,
+				"name": "Josh Leong"
+			},
+			{
+				"id": 6516041,
+				"name": "Abel Engedayehu"
+			}
+		],
+		"runtime": null,
+		"genres": [
+			"Drama"
+		],
+		"overview": ""
+	},
+	"movie:250766": {
+		"directors": [
+			{
+				"id": 122449,
+				"name": "Steve James"
+			}
+		],
+		"runtime": 121,
+		"genres": [
+			"Documentary"
+		],
+		"overview": "The surprising and entertaining life of renowned film critic and social commentator Roger Ebert (1942-2013): his early days as a freewheeling bachelor and Pulitzer Prize winner, his famously contentious partnership with Gene Siskel, his life-altering marriage, and his brave and transcendent battle with cancer."
+	},
+	"movie:645897": {
+		"directors": [
+			{
+				"id": 1917940,
+				"name": "Melanie McGraw"
+			}
+		],
+		"runtime": 5,
+		"genres": [],
+		"overview": "A young man on his way to prom has something difficult to tell his dad."
+	},
+	"movie:295069": {
+		"directors": [
+			{
+				"id": 17051,
+				"name": "James Franco"
+			}
+		],
+		"runtime": 90,
+		"genres": [
+			"Comedy",
+			"Documentary"
+		],
+		"overview": "With unprecedented access to the behind the scenes process of the writers, actors and producers, Franco and his crew document what it takes to create one full episode of Saturday Night Live."
+	},
+	"movie:61404": {
+		"directors": [
+			{
+				"id": 77008,
+				"name": "Fred Cavayé"
+			}
+		],
+		"runtime": 84,
+		"genres": [
+			"Action",
+			"Thriller",
+			"Crime"
+		],
+		"overview": "Samuel Pierret is a nurse who saves the wrong guy – a thief whose henchmen take Samuel's pregnant wife hostage to force him to spring their boss from the hospital. A race through the subways and streets of Paris ensues, and the body count rises. Can Samuel evade the cops and the criminal underground and deliver his beloved to safety?"
+	},
+	"movie:11114": {
+		"directors": [
+			{
+				"id": 25558,
+				"name": "Don Chaffey"
+			}
+		],
+		"runtime": 128,
+		"genres": [
+			"Fantasy",
+			"Animation",
+			"Comedy",
+			"Family"
+		],
+		"overview": "Pete, a young orphan, runs away to a Maine fishing town with his best friend a lovable, sometimes invisible dragon named Elliott! When they are taken in by a kind lighthouse keeper, Nora, and her father, Elliott's prank playing lands them in big trouble. Then, when crooked salesmen try to capture Elliott for their own gain, Pete must attempt a daring rescue."
+	},
+	"movie:111174": {
+		"directors": [
+			{
+				"id": 74105,
+				"name": "Ricki Stern"
+			},
+			{
+				"id": 74106,
+				"name": "Anne Sundberg"
+			}
+		],
+		"runtime": 93,
+		"genres": [
+			"Documentary"
+		],
+		"overview": "Follows the Boston Red Sox' Tim Wakefield and the New York Mets' R.A. Dickey - the only two major league pitchers who use the unpredictable knuckleball - during the 2011 season."
+	},
+	"movie:307663": {
+		"directors": [
+			{
+				"id": 1024823,
+				"name": "Brian A. Miller"
+			}
+		],
+		"runtime": 96,
+		"genres": [
+			"Thriller",
+			"Science Fiction",
+			"Action",
+			"Adventure"
+		],
+		"overview": "Julian Michaels has designed the ultimate resort: VICE, where anything goes and the customers can play out their wildest fantasies with artificial inhabitants who look, think and feel like humans. When an artificial becomes self-aware and escapes, she finds herself caught in the crossfire between Julian's mercenaries and a cop who is hell-bent on shutting down Vice, and stopping the violence once and for all."
+	},
+	"tv:31422": {
+		"directors": [
+			{
+				"id": 1491593,
+				"name": "Yusuke Ishii"
+			},
+			{
+				"id": 1481550,
+				"name": "Takashi Narita"
+			}
+		],
+		"runtime": 45,
+		"genres": [
+			"Drama",
+			"Comedy"
+		],
+		"overview": "Kanade Takakura is an elite detective from the New York Police department. He has a very keen sense of judgement but is cold and inflexible. Kanade lost his father in a murder as a young boy, which drove him to become a detective. \n\nMaruo Kudo  is a former motorcycle gang member now special detective with the Japanese police department. These two opposite characters team up on a case in which secrets are held by a young lady named Yuki Matsunada."
+	},
+	"movie:5759": {
+		"directors": [
+			{
+				"id": 45407,
+				"name": "Mark Duplass"
+			},
+			{
+				"id": 45405,
+				"name": "Jay Duplass"
+			}
+		],
+		"runtime": 84,
+		"genres": [
+			"Comedy",
+			"Drama",
+			"Horror"
+		],
+		"overview": "Four actors go to a cabin in the woods to write, direct, and act in a film that will jump-start their careers. Their idea is a horror film about a man with a bag over his head, but what happens when that man mysteriously shows up?"
+	},
+	"movie:10780": {
+		"directors": [
+			{
+				"id": 1201,
+				"name": "Garry Marshall"
+			}
+		],
+		"runtime": 112,
+		"genres": [
+			"Comedy",
+			"Romance"
+		],
+		"overview": "Heiress Joanna Stayton hires carpenter Dean Proffitt to build a closet on her yacht—and refuses to pay him for the project when it's done. But after Joanna accidentally falls overboard and loses her memory, Dean sees an opportunity to get even."
+	},
+	"movie:40219": {
+		"directors": [
+			{
+				"id": 114629,
+				"name": "Philippe Mora"
+			}
+		],
+		"runtime": 98,
+		"genres": [
+			"Horror",
+			"Fantasy",
+			"Science Fiction"
+		],
+		"overview": "A horrified teen mutates into a crazed cannibalistic swamp creature, and must uncover the terrifying secret identity of his father before his nasty natural tendencies force him to make jambalaya out of the locals."
+	},
+	"movie:1005385": {
+		"directors": [
+			{
+				"id": 1607803,
+				"name": "Alex Vlacos"
+			},
+			{
+				"id": 5010,
+				"name": "Todd Field"
+			}
+		],
+		"runtime": 3,
+		"genres": [
+			"Drama"
+		],
+		"overview": "An experimental piece about a bible-toting fundamentalist wandering through the bikini-clad bodies of Panama City, Florida."
+	},
+	"movie:16372": {
+		"directors": [
+			{
+				"id": 25630,
+				"name": "Jack Clayton"
+			}
+		],
+		"runtime": 100,
+		"genres": [
+			"Horror",
+			"Mystery"
+		],
+		"overview": "In a mid-19th century Essex country house, a young governess for two children becomes convinced that the house and grounds are haunted by ghosts and that the children are being possessed."
+	},
+	"movie:211088": {
+		"directors": [
+			{
+				"id": 230426,
+				"name": "Leanne Pooley"
+			}
+		],
+		"runtime": 93,
+		"genres": [
+			"Documentary",
+			"Drama"
+		],
+		"overview": "A 3D feature film about Sir Edmund Hillary's monumental and historical ascent of Mt. Everest in 1953 - an event that stunned the world and defined a nation."
+	},
+	"movie:77635": {
+		"directors": [
+			{
+				"id": 238137,
+				"name": "Gerardo Naranjo"
+			}
+		],
+		"runtime": 113,
+		"genres": [
+			"Drama",
+			"Action"
+		],
+		"overview": "The story of a young woman clinging on to her dream to become a beauty contest queen in a Mexico dominated by organized crime."
+	},
+	"movie:97470": {
+		"directors": [
+			{
+				"id": 551989,
+				"name": "Nelson George"
+			}
+		],
+		"runtime": 90,
+		"genres": [
+			"Documentary"
+		],
+		"overview": "On Thursday, Nov. 7, 1991, Earvin \"Magic\" Johnson made people stop and watch at the Forum in Inglewood, Calif. But this time it wasn't his basketball brilliance as a perennial NBA All-Star and three-time MVP that was captivating audiences worldwide. Instead, the 32-year-old groundbreaking point guard was holding a press conference to make the stunning announcement that he was HIV-positive and would be retiring from basketball immediately."
+	},
+	"tv:32727": {
+		"directors": [
+			{
+				"id": 151295,
+				"name": "David Milch"
+			}
+		],
+		"runtime": 60,
+		"genres": [
+			"Drama"
+		],
+		"overview": "A drama set in the world of horse racing focusing on lives of owners, jockeys, trainers and gamblers who are all tied to the same horse track."
+	},
+	"movie:11976": {
+		"directors": [
+			{
+				"id": 578,
+				"name": "Ridley Scott"
+			}
+		],
+		"runtime": 94,
+		"genres": [
+			"Adventure",
+			"Fantasy"
+		],
+		"overview": "Set in a timeless mythical forest inhabited by fairies, goblins, unicorns and mortals, this fantastic story follows a mystical forest dweller, chosen by fate, to undertake a heroic quest. He must save the beautiful Princess  Lili and defeat the demonic Lord of Darkness, or the world will be plunged into a never-ending ice age."
+	},
+	"movie:18133": {
+		"directors": [
+			{
+				"id": 12920,
+				"name": "David S. Ward"
+			}
+		],
+		"runtime": 112,
+		"genres": [
+			"Drama",
+			"Action",
+			"Romance"
+		],
+		"overview": "Several players from different backgrounds try to cope with the pressures of playing football at a major university. Each deals with the pressure differently, some turn to drinking, others to drugs, and some to studying."
+	},
+	"movie:80293": {
+		"directors": [
+			{
+				"id": 55189,
+				"name": "Bruce McDonald"
+			}
+		],
+		"runtime": 78,
+		"genres": [
+			"Drama",
+			"Music"
+		],
+		"overview": "Ten years after ending their partnership as rock musicians, two women become re-acquainted in the course of one night."
+	},
+	"movie:14794": {
+		"directors": [
+			{
+				"id": 78157,
+				"name": "Lindsay Anderson"
+			}
+		],
+		"runtime": 112,
+		"genres": [
+			"Drama"
+		],
+		"overview": "In an English boys' boarding school, social hierarchy reigns supreme and power remains in the hands of distanced and ineffectual teachers and callously vicious prefects in the Upper Sixth. Three Lower Sixth students, Wallace, Johnny and leader Mick Travis decide on a shocking course of action to redress the balance of privilege once and for all."
+	},
+	"movie:52408": {
+		"directors": [
+			{
+				"id": 20310,
+				"name": "Takashi Shimizu"
+			}
+		],
+		"runtime": 100,
+		"genres": [
+			"Horror"
+		],
+		"overview": "Young art student Hideo paints an unnerving portrait of Tomie, who whispers that she loves him. Inexplicably, he reacts by stabbing her to death with a painting trowel. Two friends, Takumi and Shunichi, arrive on the scene and help him dispose of the body. To cheer him up, the boys take the unwitting murderer to the nearest bar for a party... but a mysterious girl named Tomie shows up, bearing a few odd physical resemblances to the dead girl in the ground."
+	},
+	"movie:184585": {
+		"directors": [
+			{
+				"id": 22423,
+				"name": "Herb Freed"
+			}
+		],
+		"runtime": 105,
+		"genres": [
+			"Action"
+		],
+		"overview": "A scientist in the rain forest squares off against a land developer while trying to solve some unexplained deaths."
+	},
+	"movie:76333": {
+		"directors": [
+			{
+				"id": 118303,
+				"name": "Nacho Vigalondo"
+			}
+		],
+		"runtime": 90,
+		"genres": [
+			"Science Fiction",
+			"Comedy"
+		],
+		"overview": "Everyone knows what to do if one morning the sky would be absolutely full of UFOs: run as fast as you can. However, what would happen if the invasion started while you are in the flat of the girl of your dreams, the one you have just met?"
+	},
+	"movie:21450": {
+		"directors": [
+			{
+				"id": 65452,
+				"name": "Mike Leigh"
+			}
+		],
+		"runtime": 131,
+		"genres": [
+			"Drama",
+			"Comedy"
+		],
+		"overview": "An unemployed Brit vents his rage on unsuspecting strangers as he embarks on a nocturnal London odyssey."
+	},
+	"movie:54817": {
+		"directors": [
+			{
+				"id": 21002,
+				"name": "David Marconi"
+			}
+		],
+		"runtime": 97,
+		"genres": [
+			"Thriller",
+			"Mystery"
+		],
+		"overview": "A screenwriter is sent to Mexico to develop a story that can be used to wrap up a movie presently in production. Given a very short time allotment, the writer immerses himself in the seamier side of a Mexican beach resort, but soon finds himself involved in a 'body organ for profit' operation. Drugged, he has one of his own kidneys removed, and then, with a woman he isn't sure he can trust, he sets out to expose the ring..."
+	},
+	"tv:1026": {
+		"directors": [
+			{
+				"id": 488,
+				"name": "Steven Spielberg"
+			},
+			{
+				"id": 1211984,
+				"name": "John Falsey"
+			},
+			{
+				"id": 23757,
+				"name": "Joshua Brand"
+			}
+		],
+		"runtime": null,
+		"genres": [
+			"Sci-Fi & Fantasy",
+			"Comedy",
+			"Family"
+		],
+		"overview": "A truly amazing, fantastical, science fiction, funny and odd, and sometimes scary, sad and endearing anthology series presented by Steven Spielberg with guest appearances by many famous actors, actresses, and directors."
+	},
+	"movie:71905": {
+		"directors": [
+			{
+				"id": 564272,
+				"name": "Michael Barnett"
+			}
+		],
+		"runtime": 81,
+		"genres": [
+			"Documentary"
+		],
+		"overview": "A journey inside the world of real life caped crusaders. From all over America, these self-proclaimed crime fighters, don masks, homemade costumes and elaborate utility belts in an attempt to bring justice to evildoers everywhere."
+	},
+	"movie:52918": {
+		"directors": [
+			{
+				"id": 220691,
+				"name": "Laura Poitras"
+			}
+		],
+		"runtime": 90,
+		"genres": [
+			"Documentary"
+		],
+		"overview": "Tells the story of two men, Abu Jandal and Salim Ahmed Hamdan, whose fateful encounter in 1996 set them on a course of events that led them to Afghanistan, Osama bin Laden, 9/11, Guantanamo, and the U.S. Supreme Court."
+	},
+	"movie:70585": {
+		"directors": [
+			{
+				"id": 68167,
+				"name": "Gil Cates Jr."
+			}
+		],
+		"runtime": 103,
+		"genres": [
+			"Comedy",
+			"Romance"
+		],
+		"overview": "A wannabe serial killer wins the lottery and pursues his lifelong crush."
+	},
+	"movie:79179": {
+		"directors": [
+			{
+				"id": 15389,
+				"name": "Louis Malle"
+			}
+		],
+		"runtime": 95,
+		"genres": [
+			"Documentary",
+			"TV Movie"
+		],
+		"overview": "In 1979, Louis Malle films the thriving lives of a Minnesota farming community, but returns six years later to document its drastic economic decline, offering a poignant look at the impact of political changes."
+	},
+	"movie:51445": {
+		"directors": [
+			{
+				"id": 43792,
+				"name": "Sidney Hayers"
+			}
+		],
+		"runtime": 106,
+		"genres": [
+			"Adventure",
+			"Western",
+			"Drama",
+			"Romance"
+		],
+		"overview": "A French-Canadian fur trapper takes a mute girl as his unwilling wife to live with him in his remote cabin in the woods."
+	},
+	"movie:966": {
+		"directors": [
+			{
+				"id": 14520,
+				"name": "John Sturges"
+			}
+		],
+		"runtime": 128,
+		"genres": [
+			"Western"
+		],
+		"overview": "An oppressed Mexican peasant village hires seven gunfighters to help defend their homes."
+	},
+	"movie:90941": {
+		"directors": [
+			{
+				"id": 572248,
+				"name": "Vittorio Rambaldi"
+			}
+		],
+		"runtime": 92,
+		"genres": [
+			"Horror",
+			"Science Fiction",
+			"Thriller"
+		],
+		"overview": "A scientist at a Florida university inadvertently creates a \"rage virus\" while performing experiments intended to restore dead brain tissue in baboons. When a journalist for the college paper breaks into the campus lab, he's bitten by one of the infected baboons; the virus soon spreads to a trio of rapists and a valley girl, all of whom go on killing sprees."
+	},
+	"tv:5031": {
+		"directors": [
+			{
+				"id": 227330,
+				"name": "Glen A. Larson"
+			}
+		],
+		"runtime": 47,
+		"genres": [
+			"Action & Adventure",
+			"Crime"
+		],
+		"overview": "Hollywood stuntman Colt Seavers picks up some extra pocket money by using his rough-and-tumble skills to track and capture bail jumpers."
+	},
+	"movie:26914": {
+		"directors": [
+			{
+				"id": 45577,
+				"name": "Claudio Fragasso"
+			}
+		],
+		"runtime": 95,
+		"genres": [
+			"Horror",
+			"Fantasy"
+		],
+		"overview": "When young Joshua learns that he will be going on vacation with his family to a small town called Nilbog, he protests adamantly. He is warned by the spirit of his deceased grandfather that goblins populate the town. His parents, Michael and Diana, dismiss his apprehensions, but soon learn to appreciate their son's warnings. Guided by his grandfather's ghost, will Joshua and his family stand a chance in fighting off these evil beings?"
+	},
+	"tv:10724": {
+		"directors": [],
+		"runtime": 30,
+		"genres": [
+			"Animation",
+			"Kids",
+			"Family",
+			"Sci-Fi & Fantasy"
+		],
+		"overview": "Aquaman is a Filmation animated series that premiered on CBS on September 9, 1967, and ended June 1970. It is a 30-minute version of The Superman/Aquaman Hour of Adventure, repackaged without the Superman and Superboy segments. The show is composed of previously-aired adventures featuring the DC Comics superheroes Aquaman and his sidekick Aqualad, the Atom, the Flash and Kid Flash, the Green Lantern and Hawkman. The Justice League of America and Teen Titans are also featured in team adventures."
+	},
+	"movie:17003": {
+		"directors": [
+			{
+				"id": 53069,
+				"name": "Anna Boden"
+			},
+			{
+				"id": 53068,
+				"name": "Ryan Fleck"
+			}
+		],
+		"runtime": 114,
+		"genres": [
+			"Drama"
+		],
+		"overview": "Like many young men in the Dominican Republic, 19-year-old Miguel \"Sugar\" Santos dreams of winning a slot on an American baseball team. Indeed, his talents as a pitcher eventually land him a slot on a single-A team in Iowa, but culture shock, racism and other curveballs threaten to turn Sugar's dream sour."
+	},
+	"movie:39442": {
+		"directors": [
+			{
+				"id": 122904,
+				"name": "Greg Barker"
+			}
+		],
+		"runtime": 94,
+		"genres": [
+			"Documentary"
+		],
+		"overview": "Charismatic, charming and complex, Sérgio Vieira de Mello was the world's go-to guy, a man who could descend into the most dangerous places, charm the worst war criminals, and somehow protect the lives of the ordinary people to whom he'd devoted his life. The documentary tells the story of his most treacherous mission ever... a mission in which his own life hangs in the balance."
+	},
+	"movie:42045": {
+		"directors": [
+			{
+				"id": 72709,
+				"name": "Karel Reisz"
+			}
+		],
+		"runtime": 115,
+		"genres": [
+			"Drama",
+			"Music",
+			"Romance"
+		],
+		"overview": "The story of Patsy Cline, the velvet-voiced country music singer who died in a tragic plane crash at the height of her fame."
+	},
+	"movie:11376": {
+		"directors": [
+			{
+				"id": 69219,
+				"name": "Boris von Sychowski"
+			}
+		],
+		"runtime": 89,
+		"genres": [
+			"Thriller",
+			"Horror"
+		],
+		"overview": "International students at an elite Prague school are stalked and murdered by a masked killer while holding a party in an abandoned water park."
+	},
+	"movie:21398": {
+		"directors": [
+			{
+				"id": 87494,
+				"name": "Paul Solet"
+			}
+		],
+		"runtime": 84,
+		"genres": [
+			"Horror",
+			"Thriller"
+		],
+		"overview": "In the wake of a horrific car accident that kills her husband, Michael, expectant mother Madeline Matheson discovers that her daughter, Grace, has died in the womb. Ignoring her doctor's warnings that the fetus must be removed from her body, a grief-stricken Matheson demands to carry the child to term -- even if it endangers her own life to do so. Curiously, little Grace emerges undead -- and with a craving for human blood."
+	},
+	"tv:1478": {
+		"directors": [],
+		"runtime": 44,
+		"genres": [
+			"Documentary",
+			"Reality"
+		],
+		"overview": "The F Word is a British food magazine and cookery programme featuring chef Gordon Ramsay. The programme covers a wide range of topics, from recipes to food preparation and celebrity food fads. The programme is made by Optomen Television and aired weekly on Channel 4. The theme tune for the series is \"The F-Word\" from the Babybird album Bugged."
+	},
+	"movie:75428": {
+		"directors": [
+			{
+				"id": 575084,
+				"name": "Yuichiro Hirakawa"
+			}
+		],
+		"runtime": 137,
+		"genres": [
+			"Drama"
+		],
+		"overview": "Futakotamagawa High School had a Baseball Club, but because of a fight during one of their games, they were suspended for a year from all games. Composed of student delinquents, Futakotamagawa High's new Literature teacher Kawato Koichi inspires the Baseball Club to believe in a dream goal once again. For them, it is to play at the Koshien - Japan's National High School Baseball Championship. But, Kawato Koichi and the newly reformed baseball team run into plenty of obstacles along the way..."
+	},
+	"movie:8895": {
+		"directors": [
+			{
+				"id": 56205,
+				"name": "Atom Egoyan"
+			}
+		],
+		"runtime": 100,
+		"genres": [
+			"Drama",
+			"Romance"
+		],
+		"overview": "For his French-class assignment, a high school student weaves his family history in a news story involving terrorism, and goes on to invite an Internet audience in on the resulting controversy."
+	},
+	"movie:60315": {
+		"directors": [
+			{
+				"id": 138006,
+				"name": "Frederick Wiseman"
+			}
+		],
+		"runtime": 75,
+		"genres": [
+			"Documentary"
+		],
+		"overview": "What really happens inside the walls of an American high school? Famed documentarian Frederick Wiseman answers that question in this peek inside Philadelphia's Northeast High School, where students constantly clash with teachers, and teachers wage their own battle against the administration. Delving into the everyday struggle teachers face to discipline their unruly charges, the audience is offered a glimpse into the highs and lows at an urban public school."
+	},
+	"movie:24560": {
+		"directors": [
+			{
+				"id": 16376,
+				"name": "Larry David"
+			}
+		],
+		"runtime": 91,
+		"genres": [
+			"Comedy"
+		],
+		"overview": "The bond between cousins is tested when one wins a fortune with the other's money at Atlantic City."
+	},
+	"movie:1258351": {
+		"directors": [
+			{
+				"id": 1135886,
+				"name": "Bill Mousoulis"
+			}
+		],
+		"runtime": 5,
+		"genres": [],
+		"overview": "An essay film about the failure of post-modernism."
+	},
+	"movie:117226": {
+		"directors": [
+			{
+				"id": 201932,
+				"name": "Alan Zweig"
+			}
+		],
+		"runtime": 101,
+		"genres": [
+			"Documentary"
+		],
+		"overview": "At some point, everyone has asked the question, why is it so hard to find love? In this final installment of the autobiographical trilogy that includes Vinyl and I, Curmudgeon, Alan Zweig reflects with disarming candour on why, if he longs for a partner and children, he is still single at mid-life. Through intimate, heartfelt and often hilarious interviews with a series of diverse, smart and attractive single women, Zweig explores yearnings for the romantic myths of our culture and the difficulty of finding and sustaining relationships. Some women have come to accept and prefer being alone, but many still dream of a future they can share. Rather than remaining the objective observer, Zweig approaches his female subjects as kindred spirits, sharing their vulnerability and openness. A perfect mixed tape of love songs provides the backdrop for this courageously candid look at love and longing."
+	},
+	"movie:83661": {
+		"directors": [
+			{
+				"id": 632851,
+				"name": "Borys Kvashnov"
+			}
+		],
+		"runtime": 117,
+		"genres": [
+			"Action",
+			"Thriller",
+			"TV Movie"
+		],
+		"overview": "An orphan named Nikolay Najdenov went through the hell of the war in Afghanistan and the horrors of captivity. From now on he is a US citizen and his name is Nick McCann. In the US he has a family and new life, but in his country of birth, Ukraine, there are still some unpaid bills remaining, so the tough American boy goes back to his home country, where he learns about the death of his best friend, and soon after that his friend's wife got killed, too. Naydenov decides to revenge their death..."
+	},
+	"movie:13856": {
+		"directors": [
+			{
+				"id": 75920,
+				"name": "Jeremy Passmore"
+			},
+			{
+				"id": 75919,
+				"name": "Hal Haberman"
+			}
+		],
+		"runtime": 81,
+		"genres": [
+			"Drama",
+			"Fantasy",
+			"Science Fiction"
+		],
+		"overview": "A lonely metermaid has a psychotic reaction to his medication and becomes convinced he's a superhero. A very select group of people in life are truly gifted. Special is a movie about everyone else."
 	}
 }
