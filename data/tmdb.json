@@ -68058,5 +68058,69 @@
 		"poster": "/vwWexi2O70Efr4MkckbxjeIgchb.jpg",
 		"votes": 84,
 		"imdb": "tt0101606"
+	},
+	"m|onslaught|": {
+		"type": "movie",
+		"id": 1284046,
+		"title": "Onslaught",
+		"year": 2026,
+		"poster": "/eAs7G3yFaULpfwfVdGvPo5HmFJS.jpg",
+		"votes": 128,
+		"imdb": "tt32268691"
+	},
+	"m|evil dead burn|": {
+		"type": "movie",
+		"id": 1212763,
+		"title": "Evil Dead Burn",
+		"year": 2026,
+		"poster": "/uRxrNXQWkHoENm3nwVOZDYSCx2F.jpg",
+		"votes": 1825,
+		"imdb": "tt31170389"
+	},
+	"m|animals|": {
+		"type": "movie",
+		"id": 1236045,
+		"title": "Animals",
+		"year": 2026,
+		"poster": "/iISM36voS1E8gX9BM0DVK0kgi3E.jpg",
+		"votes": 608,
+		"imdb": "tt31049299"
+	},
+	"m|digger|": {
+		"type": "movie",
+		"id": 1248832,
+		"title": "Digger",
+		"year": 2026,
+		"poster": "/1ATXKrIPJyKNwnJ6lcG088Sa6zi.jpg",
+		"votes": 468,
+		"imdb": "tt31450459"
+	},
+	"m|norm|": {
+		"type": "movie",
+		"id": 461915,
+		"title": "Norm",
+		"year": 2017,
+		"poster": "/A0d0HlHkBsMlK9yXiZNJPtUkwlE.jpg",
+		"votes": 2,
+		"imdb": null
+	},
+	"m|the social network, the social reckoning|": null,
+	"m|sleepaway camp|": {
+		"type": "movie",
+		"id": 13567,
+		"title": "Sleepaway Camp",
+		"year": 1983,
+		"poster": "/icRAuGsmXl62Ns0qrTuo9uiP6U1.jpg",
+		"votes": 837,
+		"imdb": "tt0086320"
+	},
+	"m|the entity|": {
+		"type": "movie",
+		"id": 24740,
+		"title": "The Entity",
+		"year": 1982,
+		"poster": "/aUm4Jn9q55OhdHVzYWAUBXNY4G7.jpg",
+		"votes": 614,
+		"imdb": "tt0082334"
 	}
 }

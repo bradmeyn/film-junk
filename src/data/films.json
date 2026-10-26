@@ -1,38 +1,5 @@
 [
 	{
-		"slug": "you-can-see-everything",
-		"title": "You Can See Everything",
-		"year": 2026,
-		"poster": "/Ap8QwmKfSjYbWC4XIP8w9pdn72O.jpg",
-		"votes": 29,
-		"tmdb": {
-			"type": "movie",
-			"id": 1765072
-		},
-		"imdb": "tt45368240",
-		"appearances": [
-			{
-				"id": "1069",
-				"role": "review"
-			}
-		],
-		"directors": [
-			{
-				"name": "Nathan Fielder",
-				"slug": "nathan-fielder"
-			},
-			{
-				"name": "Lance Oppenheim",
-				"slug": "lance-oppenheim"
-			}
-		],
-		"runtime": 174,
-		"genres": [
-			"Documentary"
-		],
-		"overview": "Thirty-four days before she's sent to prison, notorious Silicon Valley founder Elizabeth Holmes invites a skeptical film crew to document her every move. What begins as an intimate portrait of an enigmatic felon becomes a mind-bending three-year journey into the abyss."
-	},
-	{
 		"slug": "the-blair-witch-project",
 		"title": "The Blair Witch Project",
 		"year": 1999,
@@ -69,6 +36,39 @@
 			"Mystery"
 		],
 		"overview": "In October of 1994 three student filmmakers disappeared in the woods near Burkittsville, Maryland, while shooting a documentary. A year later their footage was found."
+	},
+	{
+		"slug": "you-can-see-everything",
+		"title": "You Can See Everything",
+		"year": 2026,
+		"poster": "/Ap8QwmKfSjYbWC4XIP8w9pdn72O.jpg",
+		"votes": 29,
+		"tmdb": {
+			"type": "movie",
+			"id": 1765072
+		},
+		"imdb": "tt45368240",
+		"appearances": [
+			{
+				"id": "1069",
+				"role": "review"
+			}
+		],
+		"directors": [
+			{
+				"name": "Nathan Fielder",
+				"slug": "nathan-fielder"
+			},
+			{
+				"name": "Lance Oppenheim",
+				"slug": "lance-oppenheim"
+			}
+		],
+		"runtime": 174,
+		"genres": [
+			"Documentary"
+		],
+		"overview": "Thirty-four days before she's sent to prison, notorious Silicon Valley founder Elizabeth Holmes invites a skeptical film crew to document her every move. What begins as an intimate portrait of an enigmatic felon becomes a mind-bending three-year journey into the abyss."
 	},
 	{
 		"slug": "the-descent",
@@ -50089,6 +50089,267 @@
 			"Comedy"
 		],
 		"overview": "While Ron Burgundy's rivalry with Veronica Corningstone escalates quickly, a group of unprofessional thieves better known as 'The Alarm Clock' try to make the truth known, whatever that may mean..."
+	},
+	{
+		"slug": "microwave-massacre",
+		"title": "Microwave Massacre",
+		"year": 1983,
+		"poster": "/saPYOf3E92zNy6eM0aA738JN75X.jpg",
+		"votes": 96,
+		"tmdb": {
+			"type": "movie",
+			"id": 87852
+		},
+		"imdb": "tt0085937",
+		"appearances": [
+			{
+				"id": "2026-10-26-what-we-watched-microwave-massacre-digger-evil-dead-burn-and",
+				"role": "watched"
+			},
+			{
+				"id": "581",
+				"role": "watched"
+			},
+			{
+				"id": "392",
+				"role": "watched"
+			}
+		],
+		"directors": [
+			{
+				"name": "Wayne Berwick",
+				"slug": "wayne-berwick"
+			}
+		],
+		"runtime": 76,
+		"genres": [
+			"Comedy",
+			"Horror"
+		],
+		"overview": "Construction worker Donald is having a hard time getting anything good to eat since his wife has decided to only cook gourmet foods. That and her constant harping causes him to snap, so he whacks her. Somewhere in the confusion he comes up with a new use for the microwave oven, and begins to eat much better. Soon he's experimenting with different recipes. And different meats."
+	},
+	{
+		"slug": "digger",
+		"title": "Digger",
+		"year": 2026,
+		"poster": "/1ATXKrIPJyKNwnJ6lcG088Sa6zi.jpg",
+		"votes": 468,
+		"tmdb": {
+			"type": "movie",
+			"id": 1248832
+		},
+		"imdb": "tt31450459",
+		"appearances": [
+			{
+				"id": "2026-10-26-what-we-watched-microwave-massacre-digger-evil-dead-burn-and",
+				"role": "watched"
+			}
+		],
+		"directors": [
+			{
+				"name": "Alejandro G. Iñárritu",
+				"slug": "alejandro-g-inarritu"
+			}
+		],
+		"runtime": 129,
+		"genres": [
+			"Comedy",
+			"Drama"
+		],
+		"overview": "The most powerful man in the world embarks on a frantic mission to prove he is humanity's savior before the disaster he's unleashed destroys everything."
+	},
+	{
+		"slug": "evil-dead-burn",
+		"title": "Evil Dead Burn",
+		"year": 2026,
+		"poster": "/uRxrNXQWkHoENm3nwVOZDYSCx2F.jpg",
+		"votes": 1825,
+		"tmdb": {
+			"type": "movie",
+			"id": 1212763
+		},
+		"imdb": "tt31170389",
+		"appearances": [
+			{
+				"id": "2026-10-26-what-we-watched-microwave-massacre-digger-evil-dead-burn-and",
+				"role": "watched"
+			}
+		],
+		"directors": [
+			{
+				"name": "Sébastien Vaniček",
+				"slug": "sebastien-vanicek"
+			}
+		],
+		"runtime": 110,
+		"genres": [
+			"Horror"
+		],
+		"overview": "After her husband's abrupt death, Alice seeks solace with his remaining family — descendants of a leading researcher on demonic possession. As her in-laws transform one by one into creatures that feed on fear, she comes to discover that the vows she took in life survive even in death."
+	},
+	{
+		"slug": "the-social-network-the-social-reckoning",
+		"title": "The Social Network, The Social Reckoning",
+		"year": null,
+		"poster": null,
+		"votes": 0,
+		"tmdb": null,
+		"imdb": null,
+		"appearances": [
+			{
+				"id": "2026-10-26-what-we-watched-microwave-massacre-digger-evil-dead-burn-and",
+				"role": "watched"
+			}
+		]
+	},
+	{
+		"slug": "onslaught",
+		"title": "Onslaught",
+		"year": 2026,
+		"poster": "/eAs7G3yFaULpfwfVdGvPo5HmFJS.jpg",
+		"votes": 128,
+		"tmdb": {
+			"type": "movie",
+			"id": 1284046
+		},
+		"imdb": "tt32268691",
+		"appearances": [
+			{
+				"id": "2026-10-26-what-we-watched-microwave-massacre-digger-evil-dead-burn-and",
+				"role": "watched"
+			}
+		],
+		"directors": [
+			{
+				"name": "Adam Wingard",
+				"slug": "adam-wingard"
+			}
+		],
+		"runtime": 92,
+		"genres": [
+			"Action",
+			"Horror",
+			"Thriller"
+		],
+		"overview": "When a rogue squad of genetically engineered super soldiers break loose in the desert, a badass Army sniper must unleash hell to protect her young daughter."
+	},
+	{
+		"slug": "norm",
+		"title": "Norm",
+		"year": 2017,
+		"poster": "/A0d0HlHkBsMlK9yXiZNJPtUkwlE.jpg",
+		"votes": 2,
+		"tmdb": {
+			"type": "movie",
+			"id": 461915
+		},
+		"imdb": null,
+		"appearances": [
+			{
+				"id": "2026-10-26-what-we-watched-microwave-massacre-digger-evil-dead-burn-and",
+				"role": "watched"
+			}
+		],
+		"directors": [
+			{
+				"name": "Miguel Endara",
+				"slug": "miguel-endara"
+			}
+		],
+		"runtime": 12,
+		"overview": "\"Norm\" is a short film about two roommates debating over the morality of rape, in a society where raping women is legal and socially accepted."
+	},
+	{
+		"slug": "animals",
+		"title": "Animals",
+		"year": 2026,
+		"poster": "/iISM36voS1E8gX9BM0DVK0kgi3E.jpg",
+		"votes": 608,
+		"tmdb": {
+			"type": "movie",
+			"id": 1236045
+		},
+		"imdb": "tt31049299",
+		"appearances": [
+			{
+				"id": "2026-10-26-what-we-watched-microwave-massacre-digger-evil-dead-burn-and",
+				"role": "watched"
+			}
+		],
+		"directors": [
+			{
+				"name": "Ben Affleck",
+				"slug": "ben-affleck"
+			}
+		],
+		"runtime": 106,
+		"genres": [
+			"Thriller",
+			"Drama",
+			"Action",
+			"Crime"
+		],
+		"overview": "When the son of an L.A. mayoral candidate is kidnapped, he and his wife have a few hours to come up with the ransom payment. With most of their money spent on his political campaign, they have to get their hands dirty and expose a side of their lives they never intended to see the light of day."
+	},
+	{
+		"slug": "sleepaway-camp",
+		"title": "Sleepaway Camp",
+		"year": 1983,
+		"poster": "/icRAuGsmXl62Ns0qrTuo9uiP6U1.jpg",
+		"votes": 837,
+		"tmdb": {
+			"type": "movie",
+			"id": 13567
+		},
+		"imdb": "tt0086320",
+		"appearances": [
+			{
+				"id": "2026-10-26-what-we-watched-microwave-massacre-digger-evil-dead-burn-and",
+				"role": "watched"
+			}
+		],
+		"directors": [
+			{
+				"name": "Robert Hiltzik",
+				"slug": "robert-hiltzik"
+			}
+		],
+		"runtime": 85,
+		"genres": [
+			"Horror"
+		],
+		"overview": "Years after a terrible boating accident, Angela is sent to Camp Arawak where a series of bizarre and violent \"accidents\" begin to claim the lives of various campers."
+	},
+	{
+		"slug": "the-entity",
+		"title": "The Entity",
+		"year": 1982,
+		"poster": "/aUm4Jn9q55OhdHVzYWAUBXNY4G7.jpg",
+		"votes": 614,
+		"tmdb": {
+			"type": "movie",
+			"id": 24740
+		},
+		"imdb": "tt0082334",
+		"appearances": [
+			{
+				"id": "2026-10-26-what-we-watched-microwave-massacre-digger-evil-dead-burn-and",
+				"role": "watched"
+			}
+		],
+		"directors": [
+			{
+				"name": "Sidney J. Furie",
+				"slug": "sidney-j-furie"
+			}
+		],
+		"runtime": 125,
+		"genres": [
+			"Horror",
+			"Mystery",
+			"Thriller"
+		],
+		"overview": "A single mom is raped by an invisible force. Her psychiatrist believes the experience stems from childhood trauma, while she knows something supernatural is at play."
 	},
 	{
 		"slug": "resident-evil",
@@ -138531,40 +138792,6 @@
 			"Comedy"
 		],
 		"overview": "This hilarious fish-out-of-water comedy/reality show follows cultural icons Henry Winkler, William Shatner, Terry Bradshaw and George Foreman on their greatest adventure yet. Deciding it's Better Late Than Never, these four national treasures embark on the journey of a lifetime, traveling across Asia on their own with no schedule and no itinerary. The only \"help\" will come from Jeff Dye, a young, strong, tech-savvy comedian with an agenda of his own - who isn't above leading the men off track. Each stop is packed with hilarious cultural experiences, heartwarming spectacles and unexpected twists as our legends take on this unforgettable adventure."
-	},
-	{
-		"slug": "microwave-massacre",
-		"title": "Microwave Massacre",
-		"year": 1983,
-		"poster": "/saPYOf3E92zNy6eM0aA738JN75X.jpg",
-		"votes": 96,
-		"tmdb": {
-			"type": "movie",
-			"id": 87852
-		},
-		"imdb": "tt0085937",
-		"appearances": [
-			{
-				"id": "581",
-				"role": "watched"
-			},
-			{
-				"id": "392",
-				"role": "watched"
-			}
-		],
-		"directors": [
-			{
-				"name": "Wayne Berwick",
-				"slug": "wayne-berwick"
-			}
-		],
-		"runtime": 76,
-		"genres": [
-			"Comedy",
-			"Horror"
-		],
-		"overview": "Construction worker Donald is having a hard time getting anything good to eat since his wife has decided to only cook gourmet foods. That and her constant harping causes him to snap, so he whacks her. Somewhere in the confusion he comes up with a new use for the microwave oven, and begins to eat much better. Soon he's experimenting with different recipes. And different meats."
 	},
 	{
 		"slug": "house-on-haunted-hill",
