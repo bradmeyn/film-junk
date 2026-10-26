@@ -2,6 +2,7 @@
 // Usage: node scripts/build-data.ts
 import { readFileSync, readdirSync, writeFileSync, mkdirSync, existsSync } from 'node:fs';
 import { normalizeGuide, decode } from './lib/normalize.ts';
+import { redirectsFile, updateRedirects, type Redirects } from './lib/redirects.ts';
 import type {
 	Episode,
 	Film,
@@ -1174,6 +1175,15 @@ const schedule: ScheduleMonth[] = Object.entries(scheduleData)
 
 // Hand-entered lists and awards, keyed by year (see data/year-end.json).
 const yearEndLists = readJson<Record<string, YearEndLists>>('data/year-end.json') ?? {};
+
+// Pages whose slug changed since the last build redirect to their new URL (see scripts/lib/redirects.ts).
+const redirects = updateRedirects(
+	readJson<Redirects>('data/redirects.json') ?? { films: {}, episodes: {} },
+	{ films: readJson<Film[]>(`${OUT}/films.json`) ?? [], episodes: readJson<Episode[]>(`${OUT}/episodes.json`) ?? [] },
+	{ films: [...films.values()], episodes: all },
+);
+writeFileSync('data/redirects.json', JSON.stringify(redirects, null, '\t'));
+writeFileSync('public/_redirects', redirectsFile(redirects));
 
 mkdirSync(OUT, { recursive: true });
 writeFileSync(`${OUT}/episodes.json`, JSON.stringify(all, null, '\t'));
