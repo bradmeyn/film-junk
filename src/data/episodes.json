@@ -16078,7 +16078,7 @@
 		"covers": [
 			{
 				"title": "Commando",
-				"film": "retro-review-commando"
+				"film": "commando"
 			},
 			{
 				"title": "The Running Man",
@@ -111041,13 +111041,13 @@
 		"part": null,
 		"date": "2005-10-14",
 		"dateApprox": false,
-		"title": "Retro Review: Commando",
+		"title": "Commando",
 		"reviews": [
 			{
-				"title": "Retro Review: Commando",
+				"title": "Commando",
 				"year": null,
 				"ratings": [],
-				"film": "retro-review-commando"
+				"film": "commando"
 			}
 		],
 		"watched": [],

@@ -15,7 +15,6 @@
 		"35-review-the-wicker-man": "the-wicker-man",
 		"30-other-stuff-we-watched-imitation-of-life": "imitation-of-life",
 		"extraterrestrial-visitors": "extra-terrestrial-visitors",
-		"commando": "retro-review-commando",
 		"40-retro-review-dead-again": "dead-again",
 		"the-mandalorian-season-3": "the-mandalorian-season-2",
 		"45-other-stuff-we-watched-evil-dead": "evil-dead",
@@ -150,7 +149,8 @@
 		"inglorious-bastards": "the-inglorious-bastards",
 		"walk-hard": "walk-hard-the-dewey-cox-story",
 		"dune": "dune-2021",
-		"house": "house-1985"
+		"house": "house-1985",
+		"retro-review-commando": "commando"
 	},
 	"episodes": {
 		"2024-02-09-treknobabble-episode-5-cause-and-effect": "2026-09-08-treknobabble-cause-and-effect",

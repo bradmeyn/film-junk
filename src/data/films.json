@@ -48768,16 +48768,16 @@
 		"overview": "Cheese-loving eccentric Wallace and his cunning canine pal Gromit run a business ridding the town of garden pests. Using only humane methods, which turns their home into a halfway house for evicted vermin, the pair stumble upon a mystery involving a voracious vegetarian monster that threatens to ruin the annual veggie-growing contest."
 	},
 	{
-		"slug": "retro-review-commando",
+		"slug": "commando",
 		"title": "Commando",
 		"year": 1985,
 		"poster": "/ollPAAAgZ7euU8VisfqU3cuXhZ6.jpg",
-		"votes": 0,
+		"votes": 3343,
 		"tmdb": {
 			"type": "movie",
 			"id": 10999
 		},
-		"imdb": null,
+		"imdb": "tt0088944",
 		"appearances": [
 			{
 				"id": "premium-arnold-schwarzenegger",

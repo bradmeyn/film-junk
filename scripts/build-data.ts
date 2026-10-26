@@ -85,6 +85,8 @@ function cleanTitle(s: string): string {
 		.replace(/^[-–•*\s]+|[-–\s]+$/g, '')
 		// "A Quiet Place (SPOILERS)", "12 Monkeys (with Spoilers)"
 		.replace(/\s*\((with )?spoilers?\)$/i, '')
+		// The segment name, not part of the film's title: "Retro Review: Commando".
+		.replace(/^retro review:\s*/i, '')
 		.trim();
 }
 

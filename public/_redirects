@@ -89,8 +89,6 @@
 /films/cobra-kai-season-4 /films/cobra-kai-season-3/ 301
 /films/cobra-kai-season-4-5/ /films/cobra-kai-season-3/ 301
 /films/cobra-kai-season-4-5 /films/cobra-kai-season-3/ 301
-/films/commando/ /films/retro-review-commando/ 301
-/films/commando /films/retro-review-commando/ 301
 /films/darjeeling-limited/ /films/the-darjeeling-limited/ 301
 /films/darjeeling-limited /films/the-darjeeling-limited/ 301
 /films/deadliest-catch-season-3/ /films/deadliest-catch/ 301
@@ -203,6 +201,8 @@
 /films/project-greenlight-season-1 /films/project-greenlight/ 301
 /films/project-greenlight-season-2/ /films/project-greenlight/ 301
 /films/project-greenlight-season-2 /films/project-greenlight/ 301
+/films/retro-review-commando/ /films/commando/ 301
+/films/retro-review-commando /films/commando/ 301
 /films/return-of-the-living-dead/ /films/the-return-of-the-living-dead/ 301
 /films/return-of-the-living-dead /films/the-return-of-the-living-dead/ 301
 /films/royal-tenenbaums/ /films/the-royal-tenenbaums/ 301
