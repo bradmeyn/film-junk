@@ -50234,16 +50234,16 @@
 		"overview": "When a rogue squad of genetically engineered super soldiers break loose in the desert, a badass Army sniper must unleash hell to protect her young daughter."
 	},
 	{
-		"slug": "norm",
-		"title": "Norm",
-		"year": 2017,
-		"poster": "/A0d0HlHkBsMlK9yXiZNJPtUkwlE.jpg",
-		"votes": 2,
+		"slug": "norm-the-tale-of-norm-macdonald",
+		"title": "Norm: The Tale of Norm MacDonald",
+		"year": 2026,
+		"poster": "/sQw3m4hl1xyoT9zr7shnNCHDKI3.jpg",
+		"votes": 13,
 		"tmdb": {
 			"type": "movie",
-			"id": 461915
+			"id": 1620918
 		},
-		"imdb": null,
+		"imdb": "tt44822485",
 		"appearances": [
 			{
 				"id": "2026-10-26-what-we-watched-microwave-massacre-digger-evil-dead-burn-and",
@@ -50252,12 +50252,15 @@
 		],
 		"directors": [
 			{
-				"name": "Miguel Endara",
-				"slug": "miguel-endara"
+				"name": "Judd Apatow",
+				"slug": "judd-apatow"
 			}
 		],
-		"runtime": 12,
-		"overview": "\"Norm\" is a short film about two roommates debating over the morality of rape, in a society where raping women is legal and socially accepted."
+		"runtime": 127,
+		"genres": [
+			"Documentary"
+		],
+		"overview": "Go down a wormhole in this documentary on master of deadpan humor Norm Macdonald, whose life and career were uncompromising yet full of contradictions."
 	},
 	{
 		"slug": "animals",
