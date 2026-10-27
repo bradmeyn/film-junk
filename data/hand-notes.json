@@ -8,6 +8,13 @@
 		]
 	},
 
+	"1068": {
+		"hero": "Luke Hoctor",
+		"reviews": [
+			{"title": "The Blair Witch Project", "ratings": {"Frank": "4.5", "Jay": "4.5", "Sean": "4.5"}}
+		]
+	},
+
 	"1067": {
 		"hero": "Dennis Bastion",
 		"reviews": [

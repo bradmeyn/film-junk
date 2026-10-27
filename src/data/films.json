@@ -1,5 +1,38 @@
 [
 	{
+		"slug": "you-can-see-everything",
+		"title": "You Can See Everything",
+		"year": 2026,
+		"poster": "/Ap8QwmKfSjYbWC4XIP8w9pdn72O.jpg",
+		"votes": 29,
+		"tmdb": {
+			"type": "movie",
+			"id": 1765072
+		},
+		"imdb": "tt45368240",
+		"appearances": [
+			{
+				"id": "1069",
+				"role": "review"
+			}
+		],
+		"directors": [
+			{
+				"name": "Nathan Fielder",
+				"slug": "nathan-fielder"
+			},
+			{
+				"name": "Lance Oppenheim",
+				"slug": "lance-oppenheim"
+			}
+		],
+		"runtime": 174,
+		"genres": [
+			"Documentary"
+		],
+		"overview": "Thirty-four days before she's sent to prison, notorious Silicon Valley founder Elizabeth Holmes invites a skeptical film crew to document her every move. What begins as an intimate portrait of an enigmatic felon becomes a mind-bending three-year journey into the abyss."
+	},
+	{
 		"slug": "the-blair-witch-project",
 		"title": "The Blair Witch Project",
 		"year": 1999,
@@ -36,39 +69,6 @@
 			"Mystery"
 		],
 		"overview": "In October of 1994 three student filmmakers disappeared in the woods near Burkittsville, Maryland, while shooting a documentary. A year later their footage was found."
-	},
-	{
-		"slug": "you-can-see-everything",
-		"title": "You Can See Everything",
-		"year": 2026,
-		"poster": "/Ap8QwmKfSjYbWC4XIP8w9pdn72O.jpg",
-		"votes": 29,
-		"tmdb": {
-			"type": "movie",
-			"id": 1765072
-		},
-		"imdb": "tt45368240",
-		"appearances": [
-			{
-				"id": "1069",
-				"role": "review"
-			}
-		],
-		"directors": [
-			{
-				"name": "Nathan Fielder",
-				"slug": "nathan-fielder"
-			},
-			{
-				"name": "Lance Oppenheim",
-				"slug": "lance-oppenheim"
-			}
-		],
-		"runtime": 174,
-		"genres": [
-			"Documentary"
-		],
-		"overview": "Thirty-four days before she's sent to prison, notorious Silicon Valley founder Elizabeth Holmes invites a skeptical film crew to document her every move. What begins as an intimate portrait of an enigmatic felon becomes a mind-bending three-year journey into the abyss."
 	},
 	{
 		"slug": "the-descent",
@@ -50144,19 +50144,7 @@
 				"id": "2026-10-26-what-we-watched-microwave-massacre-digger-evil-dead-burn-and",
 				"role": "watched"
 			}
-		],
-		"directors": [
-			{
-				"name": "Alejandro G. Iñárritu",
-				"slug": "alejandro-g-inarritu"
-			}
-		],
-		"runtime": 129,
-		"genres": [
-			"Comedy",
-			"Drama"
-		],
-		"overview": "The most powerful man in the world embarks on a frantic mission to prove he is humanity's savior before the disaster he's unleashed destroys everything."
+		]
 	},
 	{
 		"slug": "evil-dead-burn",
@@ -50174,18 +50162,7 @@
 				"id": "2026-10-26-what-we-watched-microwave-massacre-digger-evil-dead-burn-and",
 				"role": "watched"
 			}
-		],
-		"directors": [
-			{
-				"name": "Sébastien Vaniček",
-				"slug": "sebastien-vanicek"
-			}
-		],
-		"runtime": 110,
-		"genres": [
-			"Horror"
-		],
-		"overview": "After her husband's abrupt death, Alice seeks solace with his remaining family — descendants of a leading researcher on demonic possession. As her in-laws transform one by one into creatures that feed on fear, she comes to discover that the vows she took in life survive even in death."
+		]
 	},
 	{
 		"slug": "the-social-network-the-social-reckoning",
@@ -50218,20 +50195,7 @@
 				"id": "2026-10-26-what-we-watched-microwave-massacre-digger-evil-dead-burn-and",
 				"role": "watched"
 			}
-		],
-		"directors": [
-			{
-				"name": "Adam Wingard",
-				"slug": "adam-wingard"
-			}
-		],
-		"runtime": 92,
-		"genres": [
-			"Action",
-			"Horror",
-			"Thriller"
-		],
-		"overview": "When a rogue squad of genetically engineered super soldiers break loose in the desert, a badass Army sniper must unleash hell to protect her young daughter."
+		]
 	},
 	{
 		"slug": "norm",
@@ -50249,15 +50213,7 @@
 				"id": "2026-10-26-what-we-watched-microwave-massacre-digger-evil-dead-burn-and",
 				"role": "watched"
 			}
-		],
-		"directors": [
-			{
-				"name": "Miguel Endara",
-				"slug": "miguel-endara"
-			}
-		],
-		"runtime": 12,
-		"overview": "\"Norm\" is a short film about two roommates debating over the morality of rape, in a society where raping women is legal and socially accepted."
+		]
 	},
 	{
 		"slug": "animals",
@@ -50275,21 +50231,7 @@
 				"id": "2026-10-26-what-we-watched-microwave-massacre-digger-evil-dead-burn-and",
 				"role": "watched"
 			}
-		],
-		"directors": [
-			{
-				"name": "Ben Affleck",
-				"slug": "ben-affleck"
-			}
-		],
-		"runtime": 106,
-		"genres": [
-			"Thriller",
-			"Drama",
-			"Action",
-			"Crime"
-		],
-		"overview": "When the son of an L.A. mayoral candidate is kidnapped, he and his wife have a few hours to come up with the ransom payment. With most of their money spent on his political campaign, they have to get their hands dirty and expose a side of their lives they never intended to see the light of day."
+		]
 	},
 	{
 		"slug": "sleepaway-camp",
@@ -50307,18 +50249,7 @@
 				"id": "2026-10-26-what-we-watched-microwave-massacre-digger-evil-dead-burn-and",
 				"role": "watched"
 			}
-		],
-		"directors": [
-			{
-				"name": "Robert Hiltzik",
-				"slug": "robert-hiltzik"
-			}
-		],
-		"runtime": 85,
-		"genres": [
-			"Horror"
-		],
-		"overview": "Years after a terrible boating accident, Angela is sent to Camp Arawak where a series of bizarre and violent \"accidents\" begin to claim the lives of various campers."
+		]
 	},
 	{
 		"slug": "the-entity",
@@ -50336,20 +50267,7 @@
 				"id": "2026-10-26-what-we-watched-microwave-massacre-digger-evil-dead-burn-and",
 				"role": "watched"
 			}
-		],
-		"directors": [
-			{
-				"name": "Sidney J. Furie",
-				"slug": "sidney-j-furie"
-			}
-		],
-		"runtime": 125,
-		"genres": [
-			"Horror",
-			"Mystery",
-			"Thriller"
-		],
-		"overview": "A single mom is raped by an invisible force. Her psychiatrist believes the experience stems from childhood trauma, while she knows something supernatural is at play."
+		]
 	},
 	{
 		"slug": "resident-evil",
