@@ -100085,5 +100085,115 @@
 			"Science Fiction"
 		],
 		"overview": "A lonely metermaid has a psychotic reaction to his medication and becomes convinced he's a superhero. A very select group of people in life are truly gifted. Special is a movie about everyone else."
+	},
+	"movie:461915": {
+		"directors": [
+			{
+				"id": 1833699,
+				"name": "Miguel Endara"
+			}
+		],
+		"runtime": 12,
+		"genres": [],
+		"overview": "\"Norm\" is a short film about two roommates debating over the morality of rape, in a society where raping women is legal and socially accepted."
+	},
+	"movie:1212763": {
+		"directors": [
+			{
+				"id": 3662751,
+				"name": "Sébastien Vaniček"
+			}
+		],
+		"runtime": 110,
+		"genres": [
+			"Horror"
+		],
+		"overview": "After her husband's abrupt death, Alice seeks solace with his remaining family — descendants of a leading researcher on demonic possession. As her in-laws transform one by one into creatures that feed on fear, she comes to discover that the vows she took in life survive even in death."
+	},
+	"movie:1236045": {
+		"directors": [
+			{
+				"id": 880,
+				"name": "Ben Affleck"
+			}
+		],
+		"runtime": 106,
+		"genres": [
+			"Thriller",
+			"Drama",
+			"Action",
+			"Crime"
+		],
+		"overview": "When the son of an L.A. mayoral candidate is kidnapped, he and his wife have a few hours to come up with the ransom payment. With most of their money spent on his political campaign, they have to get their hands dirty and expose a side of their lives they never intended to see the light of day."
+	},
+	"movie:1248832": {
+		"directors": [
+			{
+				"id": 223,
+				"name": "Alejandro G. Iñárritu"
+			}
+		],
+		"runtime": 129,
+		"genres": [
+			"Comedy",
+			"Drama"
+		],
+		"overview": "The most powerful man in the world embarks on a frantic mission to prove he is humanity's savior before the disaster he's unleashed destroys everything."
+	},
+	"movie:1284046": {
+		"directors": [
+			{
+				"id": 98631,
+				"name": "Adam Wingard"
+			}
+		],
+		"runtime": 92,
+		"genres": [
+			"Action",
+			"Horror",
+			"Thriller"
+		],
+		"overview": "When a rogue squad of genetically engineered super soldiers break loose in the desert, a badass Army sniper must unleash hell to protect her young daughter."
+	},
+	"movie:1620918": {
+		"directors": [
+			{
+				"id": 41039,
+				"name": "Judd Apatow"
+			}
+		],
+		"runtime": 127,
+		"genres": [
+			"Documentary"
+		],
+		"overview": "Go down a wormhole in this documentary on master of deadpan humor Norm Macdonald, whose life and career were uncompromising yet full of contradictions."
+	},
+	"movie:13567": {
+		"directors": [
+			{
+				"id": 74671,
+				"name": "Robert Hiltzik"
+			}
+		],
+		"runtime": 85,
+		"genres": [
+			"Horror"
+		],
+		"overview": "Years after a terrible boating accident, Angela is sent to Camp Arawak where a series of bizarre and violent \"accidents\" begin to claim the lives of various campers."
+	},
+	"movie:24740": {
+		"directors": [
+			{
+				"id": 64508,
+				"name": "Sidney J. Furie"
+			}
+		],
+		"runtime": 125,
+		"genres": [
+			"Horror",
+			"Mystery",
+			"Thriller"
+		],
+		"overview": "A single mom is raped by an invisible force. Her psychiatrist believes the experience stems from childhood trauma, while she knows something supernatural is at play."
 	}
 }
