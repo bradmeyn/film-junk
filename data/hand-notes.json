@@ -1,6 +1,240 @@
 {
 	"_readme": "Episode details noted by hand from the audio, for things the official guides don't have. Key: the episode id (from its URL, /episodes/<id>/). Fields, all optional: \"hero\", the listener given the hero shout-out; \"reviews\", each a film's full title (and release year for premiums, as on TMDB) with each host's score written as said: \"3.5/4\", \"6/5\", or with the light/heavy the hosts sometimes add, \"light 4\". A bare number is out of 5 unless another host's rating names the scale. build-data adds the reviews, or fills in the ratings of a review the guides already list.",
 
+	"1069": {
+		"hero": "James Mills",
+		"reviews": [
+			{"title": "You Can See Everything", "ratings": {"Frank": "5", "Jay": "5", "Sean": "5"}}
+		]
+	},
+
+	"1063": {
+		"hero": "Gavin Roberts",
+		"notes": "This episode was shadow dropped.",
+		"reviews": [
+			{"title": "The History of Concrete", "ratings": {"Frank": "4.5", "Jay": "4.5", "Sean": "4.5"}},
+			{"title": "Remake", "ratings": {"Frank": "4.5", "Jay": "5", "Sean": "5"}}
+		]
+	},
+
+	"1061": {
+		"hero": "Matt Lentner",
+		"reviews": [
+			{"title": "Threads", "ratings": {"Frank": "4", "Jay": "4.5", "Sean": "4.5"}}
+		]
+	},
+
+	"1060": {
+		"hero": "Paddy O'Furniture",
+		"reviews": [
+			{"title": "Singin' in the Rain", "ratings": {"Frank": "4.5", "Jay": "4", "Sean": "5", "Dwayne": "4.5"}}
+		]
+	},
+
+	"1059": {
+		"hero": "Frank Pavich",
+		"reviews": [
+			{"title": "Unlawful Entry", "ratings": {"Frank": "3", "Jay": "3.5", "Sean": "3"}}
+		]
+	},
+
+	"1058": {
+		"hero": "Ryan Supe",
+		"reviews": [
+			{"title": "Falling Down", "ratings": {"Frank": "4.5", "Jay": "4", "Sean": "4.5"}}
+		]
+	},
+
+	"1057": {
+		"hero": "Isaac Rosso Klakovich",
+		"reviews": [
+			{"title": "The Fan", "ratings": {"Frank": "4.5", "Jay": "4.5", "Sean": "4"}}
+		]
+	},
+
+	"1056": {
+		"hero": "Kevin Gebo",
+		"reviews": [
+			{"title": "Wake in Fright", "ratings": {"Frank": "5", "Jay": "5", "Sean": "5"}}
+		]
+	},
+
+	"1055": {
+		"hero": "David Garcia Ortiz",
+		"reviews": [
+			{"title": "Pleasantville", "ratings": {"Frank": "4", "Jay": "4", "Sean": "4"}}
+		]
+	},
+
+	"1054": {
+		"hero": "Thomas",
+		"notes": "Jay retires Mr. Nobody.",
+		"reviews": [
+			{"title": "Mr. Nobody", "ratings": {"Frank": "1", "Jay": "0", "Sean": "1"}}
+		]
+	},
+
+	"1053": {
+		"hero": "Dominic Amos",
+		"reviews": [
+			{"title": "The Odyssey", "ratings": {"Frank": "5", "Jay": "3.5", "Sean": "4"}}
+		]
+	},
+
+	"1052": {
+		"hero": "Other Josh",
+		"reviews": [
+			{"title": "Rain Man", "ratings": {"Frank": "6/5", "Jay": "3.5", "Sean": "4"}}
+		]
+	},
+
+	"1051": {
+		"hero": "Niko Rantalainen",
+		"reviews": [
+			{"title": "O Brother, Where Art Thou?", "ratings": {"Frank": "3.5", "Jay": "4", "Sean": "4"}}
+		]
+	},
+
+	"1050": {
+		"hero": "Steve K",
+		"reviews": [
+			{"title": "Hercules", "ratings": {"Frank": "2", "Jay": "3", "Sean": "2.5"}}
+		]
+	},
+
+	"1049": {
+		"hero": "Big Russ",
+		"reviews": [
+			{"title": "Remo Williams: The Adventure Begins", "ratings": {"Frank": "2.5", "Jay": "3.5", "Sean": "3.5"}}
+		]
+	},
+
+	"1048": {
+		"hero": "Jimmy Cerda",
+		"reviews": [
+			{"title": "Disclosure Day", "ratings": {"Frank": "3", "Jay": "2", "Sean": "3"}}
+		]
+	},
+
+	"1047": {
+		"hero": "Danny Schluck",
+		"reviews": [
+			{"title": "Saving Private Ryan", "ratings": {"Frank": "5", "Jay": "4.5", "Sean": "4.5"}}
+		]
+	},
+
+	"1046": {
+		"hero": "Peter",
+		"reviews": [
+			{"title": "Fire in the Sky", "ratings": {"Frank": "3", "Jay": "3", "Sean": "3.5"}}
+		]
+	},
+
+	"1045": {
+		"hero": "JD",
+		"reviews": [
+			{"title": "Cape Fear", "ratings": {"Frank": "5", "Jay": "4.5", "Sean": "4.5"}}
+		]
+	},
+
+	"1044": {
+		"hero": "Loggins",
+		"reviews": [
+			{"title": "The Mandalorian and Grogu", "ratings": {"Frank": "3", "Jay": "3.5", "Sean": "2.5", "Dax": "4"}}
+		]
+	},
+
+	"1043": {
+		"hero": "James Waters",
+		"reviews": [
+			{"title": "Spawn", "ratings": {"Frank": "2", "Jay": "1", "Sean": "1.5"}}
+		]
+	},
+
+	"1042": {
+		"hero": "Nothing Clever",
+		"reviews": [
+			{"title": "Battle Beyond the Stars", "ratings": {"Frank": "3.5", "Jay": "3.5", "Sean": "3.5"}}
+		]
+	},
+
+	"1041": {
+		"hero": "Sean U",
+		"reviews": [
+			{"title": "THX 1138", "ratings": {"Frank": "4.5", "Jay": "5", "Sean": "4.5"}}
+		]
+	},
+
+	"1040": {
+		"hero": "Sam",
+		"reviews": [
+			{"title": "The Hidden Fortress", "ratings": {"Frank": "4", "Jay": "4.5", "Sean": "4"}}
+		]
+	},
+
+	"1039": {
+		"hero": "Sylar Gaf",
+		"reviews": [
+			{"title": "Spaceballs", "ratings": {"Frank": "5", "Jay": "3.5", "Sean": "4"}}
+		]
+	},
+
+	"1038": {
+		"hero": "Brad Posh",
+		"reviews": [
+			{"title": "Lost in Translation", "ratings": {"Frank": "4", "Jay": "5", "Sean": "5"}}
+		]
+	},
+
+	"1037": {
+		"hero": "Oliver Paa",
+		"reviews": [
+			{"title": "Gimme Shelter", "ratings": {"Frank": "5", "Jay": "5", "Sean": "5"}}
+		]
+	},
+
+	"1036": {
+		"hero": "Ron Jolly",
+		"reviews": [
+			{"title": "Chungking Express", "ratings": {"Frank": "3", "Jay": "4", "Sean": "4"}}
+		]
+	},
+
+	"1035": {
+		"hero": "Ethan",
+		"reviews": [
+			{"title": "Rad", "ratings": {"Frank": "3.5", "Jay": "3.5", "Sean": "3.5"}}
+		]
+	},
+
+	"1033": {
+		"hero": "Trebor Treebeard",
+		"reviews": [
+			{"title": "Highlander", "ratings": {"Frank": "3.5", "Jay": "3.5", "Sean": "4"}}
+		]
+	},
+
+	"1032": {
+		"hero": "Justin Jaramillo",
+		"reviews": [
+			{"title": "Champagne and Bullets", "ratings": {"Frank": "4.5", "Jay": "4.5", "Sean": "3.5"}}
+		]
+	},
+
+	"1031": {
+		"hero": "Prickly Pear",
+		"reviews": [
+			{"title": "One Flew Over the Cuckoo's Nest", "ratings": {"Frank": "5", "Jay": "5", "Sean": "5"}}
+		]
+	},
+
+	"1030": {
+		"hero": "Lauren Adam",
+		"reviews": [
+			{"title": "The Goonies", "ratings": {"Frank": "3.5", "Jay": "5", "Sean": "4.5"}}
+		]
+	},
+
 	"1062": {
 		"hero": "Josh Frank",
 		"reviews": [

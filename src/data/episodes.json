@@ -1,59 +1,5 @@
 [
 	{
-		"id": "1068",
-		"kind": "regular",
-		"show": "Film Junk",
-		"number": 1068,
-		"part": null,
-		"date": "2026-10-26",
-		"dateApprox": false,
-		"title": "The Blair Witch Project",
-		"reviews": [
-			{
-				"title": "The Blair Witch Project",
-				"year": 1999,
-				"ratings": [
-					{
-						"host": "Frank",
-						"score": 4.5,
-						"outOf": 5
-					},
-					{
-						"host": "Jay",
-						"score": 4.5,
-						"outOf": 5
-					},
-					{
-						"host": "Sean",
-						"score": 4.5,
-						"outOf": 5
-					}
-				],
-				"film": "the-blair-witch-project"
-			}
-		],
-		"watched": [],
-		"segments": [],
-		"music": {},
-		"notes": "",
-		"description": "Okay, here's your motivation. You're lost, you're angry in the woods and no one is here to help you. The Blair Witch Project was a pretty big deal when it arrived in theatres back in 1999 but it was (and still is) a somewhat divisive film. There is no debating the influence it had in terms of found footage horror but somehow the scares remain very subjective. Is this movie still an intense and immersive experience or is it just boring? Are the performances realistic and convincing or is there a little too much riffing going on? Was the marketing for the movie way ahead of its time? What is the deal with that blue slime? Pop a tent and order some Mary Brown's Chicken while listening to the latest episode of Film Junk.",
-		"pack": null,
-		"links": {
-			"libsyn": "https://directory.libsyn.com/episode/index/id/43295509",
-			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-1068-172366711",
-			"apple": "https://podcasts.apple.com/us/podcast/the-blair-witch-project-1999/id74257105?i=1000798207688",
-			"spotify": "https://open.spotify.com/episode/3iKdi5NyDtciHAa7grPMn4"
-		},
-		"mentioned": [
-			{
-				"title": "Blair Witch",
-				"year": null,
-				"film": "blair-witch"
-			}
-		],
-		"hero": "Luke Hoctor"
-	},
-	{
 		"notes": "",
 		"description": "00:00 - Intro\n01:45 - Microwave Massacre\n20:30 - Digger\n28:00 - Evil Dead Burn\n36:50 - The Social Network, The Social Reckoning\n43:00 - Onslaught\n46:58 - Norm: The Tale of Norm MacDonald\n50:40 - Animals\n59:57 - Sleepaway Camp\n1:02:30 - The Entity",
 		"mentioned": [
@@ -120,8 +66,7 @@
 		"title": "What We Watched: Microwave Massacre, Digger, Evil Dead Burn, and more!",
 		"duration": 3979,
 		"links": {
-			"patreon": "https://www.patreon.com/filmjunk/posts/what-we-watched-173464008",
-			"spotify": "https://open.spotify.com/episode/2eqp2fS3tLiC51Qp2tH04M"
+			"patreon": "https://www.patreon.com/filmjunk/posts/what-we-watched-173464008"
 		}
 	},
 	{
@@ -137,7 +82,23 @@
 			{
 				"title": "You Can See Everything",
 				"year": 2026,
-				"ratings": [],
+				"ratings": [
+					{
+						"host": "Frank",
+						"score": 5,
+						"outOf": 5
+					},
+					{
+						"host": "Jay",
+						"score": 5,
+						"outOf": 5
+					},
+					{
+						"host": "Sean",
+						"score": 5,
+						"outOf": 5
+					}
+				],
 				"film": "you-can-see-everything"
 			}
 		],
@@ -153,7 +114,8 @@
 			"apple": "https://podcasts.apple.com/us/podcast/you-can-see-everything-2026/id74257105?i=1000797678418",
 			"spotify": "https://open.spotify.com/episode/4GR0p7hNvtMeb4mR8ADxw1"
 		},
-		"mentioned": []
+		"mentioned": [],
+		"hero": "James Mills"
 	},
 	{
 		"id": "2026-10-22-film-junk-calendar-reveal-nov-2026",
@@ -177,6 +139,58 @@
 			"apple": "https://podcasts.apple.com/us/podcast/film-junk-calendar-reveal-nov-2026/id74257105?i=1000797679321",
 			"spotify": "https://open.spotify.com/episode/7FO8zpeZaBWfZBf2lF8puu"
 		}
+	},
+	{
+		"notes": "",
+		"description": "Okay, here's your motivation. You're lost, you're angry in the woods and no one is here to help you. The Blair Witch Project was a pretty big deal when it arrived in theatres back in 1999 but it was (and still is) a somewhat divisive film. There is no debating the influence it had in terms of found footage horror but somehow the scares remain very subjective. Is this movie still an intense and immersive experience or is it just boring? Are the performances realistic and convincing or is there a little too much riffing going on? Was the marketing for the movie way ahead of its time? What is the deal with that blue slime? Pop a tent and order some Mary Brown's Chicken while listening to the latest episode of Film Junk.",
+		"mentioned": [
+			{
+				"title": "Blair Witch",
+				"year": null,
+				"film": "blair-witch"
+			}
+		],
+		"segments": [],
+		"watched": [],
+		"reviews": [
+			{
+				"title": "The Blair Witch Project",
+				"year": 1999,
+				"ratings": [
+					{
+						"host": "Frank",
+						"score": 4.5,
+						"outOf": 5
+					},
+					{
+						"host": "Jay",
+						"score": 4.5,
+						"outOf": 5
+					},
+					{
+						"host": "Sean",
+						"score": 4.5,
+						"outOf": 5
+					}
+				],
+				"film": "the-blair-witch-project"
+			}
+		],
+		"music": {},
+		"show": "Film Junk",
+		"part": null,
+		"dateApprox": false,
+		"pack": null,
+		"id": "1068",
+		"kind": "regular",
+		"number": 1068,
+		"date": "2026-10-19",
+		"title": "The Blair Witch Project",
+		"links": {
+			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-1068-172366711",
+			"spotify": "https://open.spotify.com/episode/0Yd2DzMQBEcHuDhdKzb5kP"
+		},
+		"hero": "Luke Hoctor"
 	},
 	{
 		"id": "1067",
@@ -638,20 +652,52 @@
 			{
 				"title": "The History of Concrete",
 				"year": 2026,
-				"ratings": [],
+				"ratings": [
+					{
+						"host": "Frank",
+						"score": 4.5,
+						"outOf": 5
+					},
+					{
+						"host": "Jay",
+						"score": 4.5,
+						"outOf": 5
+					},
+					{
+						"host": "Sean",
+						"score": 4.5,
+						"outOf": 5
+					}
+				],
 				"film": "the-history-of-concrete"
 			},
 			{
 				"title": "Remake",
 				"year": 2025,
-				"ratings": [],
+				"ratings": [
+					{
+						"host": "Frank",
+						"score": 4.5,
+						"outOf": 5
+					},
+					{
+						"host": "Jay",
+						"score": 5,
+						"outOf": 5
+					},
+					{
+						"host": "Sean",
+						"score": 5,
+						"outOf": 5
+					}
+				],
 				"film": "remake"
 			}
 		],
 		"watched": [],
 		"segments": [],
 		"music": {},
-		"notes": "",
+		"notes": "This episode was shadow dropped.",
 		"description": "Sick of sloughing through shit from the Netflix doc-slop trough? FEAR NOT! It's time to crack open the Tickle Trunk and dig out your formal attire, because we've got two beautifully crafted entrees that will wipe that \"premium doc\" format aftertaste out of your stupid mouth: John Wilson’s The History of Concrete and Ross McElwee’s Remake.",
 		"pack": null,
 		"links": {
@@ -666,7 +712,8 @@
 				"year": null,
 				"film": "shermans-march"
 			}
-		]
+		],
+		"hero": "Gavin Roberts"
 	},
 	{
 		"id": "1061",
@@ -681,7 +728,23 @@
 			{
 				"title": "Threads",
 				"year": 1984,
-				"ratings": [],
+				"ratings": [
+					{
+						"host": "Frank",
+						"score": 4,
+						"outOf": 5
+					},
+					{
+						"host": "Jay",
+						"score": 4.5,
+						"outOf": 5
+					},
+					{
+						"host": "Sean",
+						"score": 4.5,
+						"outOf": 5
+					}
+				],
 				"film": "threads"
 			}
 		],
@@ -696,7 +759,8 @@
 			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-1061-168651031",
 			"apple": "https://podcasts.apple.com/us/podcast/threads-1984/id74257105?i=1000789590077",
 			"spotify": "https://open.spotify.com/episode/7gGL5iXYLedAQHuYkV6g4d"
-		}
+		},
+		"hero": "Matt Lentner"
 	},
 	{
 		"notes": "",
@@ -759,7 +823,28 @@
 			{
 				"title": "Singin' in the Rain",
 				"year": 1952,
-				"ratings": [],
+				"ratings": [
+					{
+						"host": "Frank",
+						"score": 4.5,
+						"outOf": 5
+					},
+					{
+						"host": "Jay",
+						"score": 4,
+						"outOf": 5
+					},
+					{
+						"host": "Sean",
+						"score": 5,
+						"outOf": 5
+					},
+					{
+						"host": "Dwayne",
+						"score": 4.5,
+						"outOf": 5
+					}
+				],
 				"film": "singin-in-the-rain"
 			}
 		],
@@ -775,7 +860,8 @@
 			"apple": "https://podcasts.apple.com/us/podcast/singin-in-the-rain-1952/id74257105?i=1000788316067",
 			"spotify": "https://open.spotify.com/episode/1u14IwtlixRkKjLYAP5bVn"
 		},
-		"mentioned": []
+		"mentioned": [],
+		"hero": "Paddy O'Furniture"
 	},
 	{
 		"notes": "",
@@ -876,7 +962,23 @@
 			{
 				"title": "Unlawful Entry",
 				"year": 1992,
-				"ratings": [],
+				"ratings": [
+					{
+						"host": "Frank",
+						"score": 3,
+						"outOf": 5
+					},
+					{
+						"host": "Jay",
+						"score": 3.5,
+						"outOf": 5
+					},
+					{
+						"host": "Sean",
+						"score": 3,
+						"outOf": 5
+					}
+				],
 				"film": "unlawful-entry"
 			}
 		],
@@ -892,7 +994,8 @@
 			"apple": "https://podcasts.apple.com/us/podcast/unlawful-entry-1992/id74257105?i=1000787015061",
 			"spotify": "https://open.spotify.com/episode/21gy5t17h9vXphU33FafB0"
 		},
-		"mentioned": []
+		"mentioned": [],
+		"hero": "Frank Pavich"
 	},
 	{
 		"id": "2026-08-28-film-junk-calendar-reveal-sept-2026",
@@ -930,7 +1033,23 @@
 			{
 				"title": "Falling Down",
 				"year": 1993,
-				"ratings": [],
+				"ratings": [
+					{
+						"host": "Frank",
+						"score": 4.5,
+						"outOf": 5
+					},
+					{
+						"host": "Jay",
+						"score": 4,
+						"outOf": 5
+					},
+					{
+						"host": "Sean",
+						"score": 4.5,
+						"outOf": 5
+					}
+				],
 				"film": "falling-down"
 			}
 		],
@@ -946,7 +1065,8 @@
 			"apple": "https://podcasts.apple.com/us/podcast/falling-down-1993/id74257105?i=1000785580713",
 			"spotify": "https://open.spotify.com/episode/5WE1GpbwTtLET6yD6Lkwwk"
 		},
-		"mentioned": []
+		"mentioned": [],
+		"hero": "Ryan Supe"
 	},
 	{
 		"notes": "",
@@ -1062,7 +1182,23 @@
 			{
 				"title": "The Fan",
 				"year": 1996,
-				"ratings": [],
+				"ratings": [
+					{
+						"host": "Frank",
+						"score": 4.5,
+						"outOf": 5
+					},
+					{
+						"host": "Jay",
+						"score": 4.5,
+						"outOf": 5
+					},
+					{
+						"host": "Sean",
+						"score": 4,
+						"outOf": 5
+					}
+				],
 				"film": "the-fan"
 			}
 		],
@@ -1077,7 +1213,8 @@
 			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-1057-166232920",
 			"apple": "https://podcasts.apple.com/us/podcast/the-fan-1996/id74257105?i=1000783907649",
 			"spotify": "https://open.spotify.com/episode/73UNbUbUKivyzDubEyutlj"
-		}
+		},
+		"hero": "Isaac Rosso Klakovich"
 	},
 	{
 		"notes": "",
@@ -1116,7 +1253,23 @@
 			{
 				"title": "Wake in Fright",
 				"year": 1971,
-				"ratings": [],
+				"ratings": [
+					{
+						"host": "Frank",
+						"score": 5,
+						"outOf": 5
+					},
+					{
+						"host": "Jay",
+						"score": 5,
+						"outOf": 5
+					},
+					{
+						"host": "Sean",
+						"score": 5,
+						"outOf": 5
+					}
+				],
 				"film": "wake-in-fright"
 			}
 		],
@@ -1132,7 +1285,8 @@
 			"apple": "https://podcasts.apple.com/us/podcast/wake-in-fright-1971/id74257105?i=1000782016440",
 			"spotify": "https://open.spotify.com/episode/4affxtuAreaoogTrBzg27y"
 		},
-		"mentioned": []
+		"mentioned": [],
+		"hero": "Kevin Gebo"
 	},
 	{
 		"notes": "",
@@ -1240,7 +1394,23 @@
 			{
 				"title": "Pleasantville",
 				"year": 1998,
-				"ratings": [],
+				"ratings": [
+					{
+						"host": "Frank",
+						"score": 4,
+						"outOf": 5
+					},
+					{
+						"host": "Jay",
+						"score": 4,
+						"outOf": 5
+					},
+					{
+						"host": "Sean",
+						"score": 4,
+						"outOf": 5
+					}
+				],
 				"film": "pleasantville"
 			}
 		],
@@ -1259,7 +1429,8 @@
 			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-1055-164925236",
 			"apple": "https://podcasts.apple.com/us/podcast/pleasantville-1998/id74257105?i=1000780398077",
 			"spotify": "https://open.spotify.com/episode/6eyHJImZgrm6aocvlNVFkF"
-		}
+		},
+		"hero": "David Garcia Ortiz"
 	},
 	{
 		"id": "1054",
@@ -1274,14 +1445,30 @@
 			{
 				"title": "Mr. Nobody",
 				"year": 2009,
-				"ratings": [],
+				"ratings": [
+					{
+						"host": "Frank",
+						"score": 1,
+						"outOf": 5
+					},
+					{
+						"host": "Jay",
+						"score": 0,
+						"outOf": 5
+					},
+					{
+						"host": "Sean",
+						"score": 1,
+						"outOf": 5
+					}
+				],
 				"film": "mr-nobody"
 			}
 		],
 		"watched": [],
 		"segments": [],
 		"music": {},
-		"notes": "",
+		"notes": "Jay retires Mr. Nobody.",
 		"description": "You have to make the right choice. As long as you don't choose, everything remains possible. For some reason we chose to go back in time to re-review Mr. Nobody as this month's mystery movie, revisiting a conversation that holds special significance in Film Junk history. Do we still hate it or have we learned to embrace the chaos of life? Does the movie do a good job of explaining quantum physics, entropy and The Big Crunch? Are the visuals beautiful and unique or just ripped off from other movies? Is this one of Jared Leto's best performances? Life is a playground... mix the mashed potatoes and the sauce and listen to this week's episode of Film Junk.",
 		"pack": null,
 		"links": {
@@ -1290,7 +1477,8 @@
 			"apple": "https://podcasts.apple.com/us/podcast/mr-nobody-2009/id74257105?i=1000778576554",
 			"spotify": "https://open.spotify.com/episode/71LMkc5QdoW4Vbzms7atFP"
 		},
-		"mentioned": []
+		"mentioned": [],
+		"hero": "Thomas"
 	},
 	{
 		"notes": "",
@@ -1352,7 +1540,23 @@
 			{
 				"title": "Rain Man",
 				"year": 1988,
-				"ratings": [],
+				"ratings": [
+					{
+						"host": "Frank",
+						"score": 6,
+						"outOf": 5
+					},
+					{
+						"host": "Jay",
+						"score": 3.5,
+						"outOf": 5
+					},
+					{
+						"host": "Sean",
+						"score": 4,
+						"outOf": 5
+					}
+				],
 				"film": "rain-man"
 			}
 		],
@@ -1368,7 +1572,8 @@
 			"apple": "https://podcasts.apple.com/us/podcast/rain-man-1988/id74257105?i=1000777588622",
 			"spotify": "https://open.spotify.com/episode/4mYlzhUHHNOLAdPzQJzMkB"
 		},
-		"mentioned": []
+		"mentioned": [],
+		"hero": "Other Josh"
 	},
 	{
 		"id": "1053",
@@ -1383,7 +1588,23 @@
 			{
 				"title": "The Odyssey",
 				"year": 2026,
-				"ratings": [],
+				"ratings": [
+					{
+						"host": "Frank",
+						"score": 5,
+						"outOf": 5
+					},
+					{
+						"host": "Jay",
+						"score": 3.5,
+						"outOf": 5
+					},
+					{
+						"host": "Sean",
+						"score": 4,
+						"outOf": 5
+					}
+				],
 				"film": "the-odyssey"
 			}
 		],
@@ -1399,7 +1620,8 @@
 			"apple": "https://podcasts.apple.com/us/podcast/the-odyssey-2026/id74257105?i=1000776937510",
 			"spotify": "https://open.spotify.com/episode/3PoB6UnU42e9sVdQm3apn9"
 		},
-		"mentioned": []
+		"mentioned": [],
+		"hero": "Dominic Amos"
 	},
 	{
 		"id": "1051",
@@ -1414,7 +1636,23 @@
 			{
 				"title": "O Brother, Where Art Thou?",
 				"year": 2000,
-				"ratings": [],
+				"ratings": [
+					{
+						"host": "Frank",
+						"score": 3.5,
+						"outOf": 5
+					},
+					{
+						"host": "Jay",
+						"score": 4,
+						"outOf": 5
+					},
+					{
+						"host": "Sean",
+						"score": 4,
+						"outOf": 5
+					}
+				],
 				"film": "o-brother-where-art-thou"
 			}
 		],
@@ -1436,7 +1674,8 @@
 				"year": null,
 				"film": "the-odyssey"
 			}
-		]
+		],
+		"hero": "Niko Rantalainen"
 	},
 	{
 		"notes": "",
@@ -1532,7 +1771,23 @@
 			{
 				"title": "Hercules",
 				"year": 1983,
-				"ratings": [],
+				"ratings": [
+					{
+						"host": "Frank",
+						"score": 2,
+						"outOf": 5
+					},
+					{
+						"host": "Jay",
+						"score": 3,
+						"outOf": 5
+					},
+					{
+						"host": "Sean",
+						"score": 2.5,
+						"outOf": 5
+					}
+				],
 				"film": "hercules"
 			}
 		],
@@ -1547,7 +1802,8 @@
 			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-1050-162188466",
 			"apple": "https://podcasts.apple.com/us/podcast/hercules-1983/id74257105?i=1000775674340",
 			"spotify": "https://open.spotify.com/episode/4QJhiXOitEoFVJU2mVfWzf"
-		}
+		},
+		"hero": "Steve K"
 	},
 	{
 		"id": "1049",
@@ -1562,7 +1818,23 @@
 			{
 				"title": "Remo Williams: The Adventure Begins",
 				"year": 1985,
-				"ratings": [],
+				"ratings": [
+					{
+						"host": "Frank",
+						"score": 2.5,
+						"outOf": 5
+					},
+					{
+						"host": "Jay",
+						"score": 3.5,
+						"outOf": 5
+					},
+					{
+						"host": "Sean",
+						"score": 3.5,
+						"outOf": 5
+					}
+				],
 				"film": "remo-williams-the-adventure-begins"
 			}
 		],
@@ -1578,7 +1850,8 @@
 			"apple": "https://podcasts.apple.com/us/podcast/remo-williams-the-adventure-begins-1985/id74257105?i=1000774727886",
 			"spotify": "https://open.spotify.com/episode/3hiwldP4YYXQDDsHV7bueM"
 		},
-		"mentioned": []
+		"mentioned": [],
+		"hero": "Big Russ"
 	},
 	{
 		"notes": "",
@@ -1704,7 +1977,23 @@
 			{
 				"title": "Saving Private Ryan",
 				"year": 1998,
-				"ratings": [],
+				"ratings": [
+					{
+						"host": "Frank",
+						"score": 5,
+						"outOf": 5
+					},
+					{
+						"host": "Jay",
+						"score": 4.5,
+						"outOf": 5
+					},
+					{
+						"host": "Sean",
+						"score": 4.5,
+						"outOf": 5
+					}
+				],
 				"film": "saving-private-ryan"
 			}
 		],
@@ -1726,7 +2015,8 @@
 				"year": null,
 				"film": "disclosure-day"
 			}
-		]
+		],
+		"hero": "Danny Schluck"
 	},
 	{
 		"notes": "",
@@ -1765,7 +2055,23 @@
 			{
 				"title": "Disclosure Day",
 				"year": 2026,
-				"ratings": [],
+				"ratings": [
+					{
+						"host": "Frank",
+						"score": 3,
+						"outOf": 5
+					},
+					{
+						"host": "Jay",
+						"score": 2,
+						"outOf": 5
+					},
+					{
+						"host": "Sean",
+						"score": 3,
+						"outOf": 5
+					}
+				],
 				"film": "disclosure-day"
 			}
 		],
@@ -1781,7 +2087,8 @@
 			"apple": "https://podcasts.apple.com/us/podcast/disclosure-day-2026/id74257105?i=1000773197111",
 			"spotify": "https://open.spotify.com/episode/2W1VCYBRK6gaCnqwZS1Dwa"
 		},
-		"mentioned": []
+		"mentioned": [],
+		"hero": "Jimmy Cerda"
 	},
 	{
 		"id": "1046",
@@ -1796,7 +2103,23 @@
 			{
 				"title": "Fire in the Sky",
 				"year": 1993,
-				"ratings": [],
+				"ratings": [
+					{
+						"host": "Frank",
+						"score": 3,
+						"outOf": 5
+					},
+					{
+						"host": "Jay",
+						"score": 3,
+						"outOf": 5
+					},
+					{
+						"host": "Sean",
+						"score": 3.5,
+						"outOf": 5
+					}
+				],
 				"film": "fire-in-the-sky"
 			}
 		],
@@ -1812,7 +2135,8 @@
 			"apple": "https://podcasts.apple.com/us/podcast/fire-in-the-sky-1993/id74257105?i=1000772836633",
 			"spotify": "https://open.spotify.com/episode/2OTtqSUlUrPHLVchM7dy0Y"
 		},
-		"mentioned": []
+		"mentioned": [],
+		"hero": "Peter"
 	},
 	{
 		"id": "1045",
@@ -1827,7 +2151,23 @@
 			{
 				"title": "Cape Fear",
 				"year": 1991,
-				"ratings": [],
+				"ratings": [
+					{
+						"host": "Frank",
+						"score": 5,
+						"outOf": 5
+					},
+					{
+						"host": "Jay",
+						"score": 4.5,
+						"outOf": 5
+					},
+					{
+						"host": "Sean",
+						"score": 4.5,
+						"outOf": 5
+					}
+				],
 				"film": "cape-fear"
 			}
 		],
@@ -1843,7 +2183,8 @@
 			"apple": "https://podcasts.apple.com/us/podcast/cape-fear-1991/id74257105?i=1000771718374",
 			"spotify": "https://open.spotify.com/episode/68XUAXKWQ86LilziOEldyo"
 		},
-		"mentioned": []
+		"mentioned": [],
+		"hero": "JD"
 	},
 	{
 		"notes": "",
@@ -1964,7 +2305,23 @@
 			{
 				"title": "Spawn",
 				"year": 1997,
-				"ratings": [],
+				"ratings": [
+					{
+						"host": "Frank",
+						"score": 2,
+						"outOf": 5
+					},
+					{
+						"host": "Jay",
+						"score": 1,
+						"outOf": 5
+					},
+					{
+						"host": "Sean",
+						"score": 1.5,
+						"outOf": 5
+					}
+				],
 				"film": "spawn"
 			}
 		],
@@ -1979,7 +2336,8 @@
 			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-1043-159249357",
 			"apple": "https://podcasts.apple.com/us/podcast/spawn-1997/id74257105?i=1000770621214",
 			"spotify": "https://open.spotify.com/episode/22LUDQZom4R2fskSVA3Z4V"
-		}
+		},
+		"hero": "James Waters"
 	},
 	{
 		"notes": "",
@@ -2024,7 +2382,28 @@
 			{
 				"title": "The Mandalorian and Grogu",
 				"year": 2026,
-				"ratings": [],
+				"ratings": [
+					{
+						"host": "Frank",
+						"score": 3,
+						"outOf": 5
+					},
+					{
+						"host": "Jay",
+						"score": 3.5,
+						"outOf": 5
+					},
+					{
+						"host": "Sean",
+						"score": 2.5,
+						"outOf": 5
+					},
+					{
+						"host": "Dax",
+						"score": 4,
+						"outOf": 5
+					}
+				],
 				"film": "the-mandalorian-and-grogu"
 			}
 		],
@@ -2046,7 +2425,8 @@
 				"year": null,
 				"film": "the-mandalorian"
 			}
-		]
+		],
+		"hero": "Loggins"
 	},
 	{
 		"id": "1042",
@@ -2061,7 +2441,23 @@
 			{
 				"title": "Battle Beyond the Stars",
 				"year": 1980,
-				"ratings": [],
+				"ratings": [
+					{
+						"host": "Frank",
+						"score": 3.5,
+						"outOf": 5
+					},
+					{
+						"host": "Jay",
+						"score": 3.5,
+						"outOf": 5
+					},
+					{
+						"host": "Sean",
+						"score": 3.5,
+						"outOf": 5
+					}
+				],
 				"film": "battle-beyond-the-stars"
 			}
 		],
@@ -2077,7 +2473,8 @@
 			"apple": "https://podcasts.apple.com/us/podcast/battle-beyond-the-stars-1980/id74257105?i=1000769507826",
 			"spotify": "https://open.spotify.com/episode/0bUL6mMPMFgZdExA6XiShg"
 		},
-		"mentioned": []
+		"mentioned": [],
+		"hero": "Nothing Clever"
 	},
 	{
 		"notes": "",
@@ -2116,7 +2513,23 @@
 			{
 				"title": "THX 1138",
 				"year": 1971,
-				"ratings": [],
+				"ratings": [
+					{
+						"host": "Frank",
+						"score": 4.5,
+						"outOf": 5
+					},
+					{
+						"host": "Jay",
+						"score": 5,
+						"outOf": 5
+					},
+					{
+						"host": "Sean",
+						"score": 4.5,
+						"outOf": 5
+					}
+				],
 				"film": "thx-1138"
 			}
 		],
@@ -2131,7 +2544,8 @@
 			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-1041-157559995",
 			"apple": "https://podcasts.apple.com/us/podcast/thx-1138-1971/id74257105?i=1000768400395",
 			"spotify": "https://open.spotify.com/episode/6TBoWkiWAlPUVkOiQL072H"
-		}
+		},
+		"hero": "Sean U"
 	},
 	{
 		"id": "1040",
@@ -2146,7 +2560,23 @@
 			{
 				"title": "The Hidden Fortress",
 				"year": 1958,
-				"ratings": [],
+				"ratings": [
+					{
+						"host": "Frank",
+						"score": 4,
+						"outOf": 5
+					},
+					{
+						"host": "Jay",
+						"score": 4.5,
+						"outOf": 5
+					},
+					{
+						"host": "Sean",
+						"score": 4,
+						"outOf": 5
+					}
+				],
 				"film": "the-hidden-fortress"
 			}
 		],
@@ -2162,7 +2592,8 @@
 			"apple": "https://podcasts.apple.com/us/podcast/the-hidden-fortress-1958/id74257105?i=1000767187687",
 			"spotify": "https://open.spotify.com/episode/4dqiBrwELzkA2y4yQbSa2Q"
 		},
-		"mentioned": []
+		"mentioned": [],
+		"hero": "Sam"
 	},
 	{
 		"notes": "",
@@ -2227,7 +2658,23 @@
 			{
 				"title": "Spaceballs",
 				"year": 1987,
-				"ratings": [],
+				"ratings": [
+					{
+						"host": "Frank",
+						"score": 5,
+						"outOf": 5
+					},
+					{
+						"host": "Jay",
+						"score": 3.5,
+						"outOf": 5
+					},
+					{
+						"host": "Sean",
+						"score": 4,
+						"outOf": 5
+					}
+				],
 				"film": "spaceballs"
 			}
 		],
@@ -2242,7 +2689,8 @@
 			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-1039-156493081",
 			"apple": "https://podcasts.apple.com/us/podcast/spaceballs-1987/id74257105?i=1000766078925",
 			"spotify": "https://open.spotify.com/episode/4nwyRMciwUAa5JV5dyJyuv"
-		}
+		},
+		"hero": "Sylar Gaf"
 	},
 	{
 		"notes": "",
@@ -2345,7 +2793,23 @@
 			{
 				"title": "Lost in Translation",
 				"year": 2003,
-				"ratings": [],
+				"ratings": [
+					{
+						"host": "Frank",
+						"score": 4,
+						"outOf": 5
+					},
+					{
+						"host": "Jay",
+						"score": 5,
+						"outOf": 5
+					},
+					{
+						"host": "Sean",
+						"score": 5,
+						"outOf": 5
+					}
+				],
 				"film": "lost-in-translation"
 			}
 		],
@@ -2364,7 +2828,8 @@
 			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-1038-155975296",
 			"apple": "https://podcasts.apple.com/us/podcast/lost-in-translation-2003/id74257105?i=1000765634818",
 			"spotify": "https://open.spotify.com/episode/6d58fkrmFGdR3EgRsdbRyg"
-		}
+		},
+		"hero": "Brad Posh"
 	},
 	{
 		"id": "1037",
@@ -2379,7 +2844,23 @@
 			{
 				"title": "Gimme Shelter",
 				"year": 1970,
-				"ratings": [],
+				"ratings": [
+					{
+						"host": "Frank",
+						"score": 5,
+						"outOf": 5
+					},
+					{
+						"host": "Jay",
+						"score": 5,
+						"outOf": 5
+					},
+					{
+						"host": "Sean",
+						"score": 5,
+						"outOf": 5
+					}
+				],
 				"film": "gimme-shelter"
 			}
 		],
@@ -2395,7 +2876,8 @@
 			"apple": "https://podcasts.apple.com/us/podcast/gimme-shelter-1970/id74257105?i=1000762427856",
 			"spotify": "https://open.spotify.com/episode/1gKdvOBUd0HKMhgnmeIB1a"
 		},
-		"mentioned": []
+		"mentioned": [],
+		"hero": "Oliver Paa"
 	},
 	{
 		"notes": "",
@@ -2434,7 +2916,23 @@
 			{
 				"title": "Chungking Express",
 				"year": 1994,
-				"ratings": [],
+				"ratings": [
+					{
+						"host": "Frank",
+						"score": 3,
+						"outOf": 5
+					},
+					{
+						"host": "Jay",
+						"score": 4,
+						"outOf": 5
+					},
+					{
+						"host": "Sean",
+						"score": 4,
+						"outOf": 5
+					}
+				],
 				"film": "chungking-express"
 			}
 		],
@@ -2450,7 +2948,8 @@
 			"apple": "https://podcasts.apple.com/us/podcast/chungking-express-1994/id74257105?i=1000762014076",
 			"spotify": "https://open.spotify.com/episode/27Y0jW3cGiRyh5wlPtigb5"
 		},
-		"mentioned": []
+		"mentioned": [],
+		"hero": "Ron Jolly"
 	},
 	{
 		"notes": "",
@@ -2556,7 +3055,23 @@
 			{
 				"title": "Rad",
 				"year": 1986,
-				"ratings": [],
+				"ratings": [
+					{
+						"host": "Frank",
+						"score": 3.5,
+						"outOf": 5
+					},
+					{
+						"host": "Jay",
+						"score": 3.5,
+						"outOf": 5
+					},
+					{
+						"host": "Sean",
+						"score": 3.5,
+						"outOf": 5
+					}
+				],
 				"film": "rad"
 			}
 		],
@@ -2571,7 +3086,8 @@
 			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-1035-154291551",
 			"apple": "https://podcasts.apple.com/us/podcast/rad-1986/id74257105?i=1000759859455",
 			"spotify": "https://open.spotify.com/episode/4fOHCNAx8VhPR9RkekB0o3"
-		}
+		},
+		"hero": "Ethan"
 	},
 	{
 		"id": "1033",
@@ -2586,7 +3102,23 @@
 			{
 				"title": "Highlander",
 				"year": 1986,
-				"ratings": [],
+				"ratings": [
+					{
+						"host": "Frank",
+						"score": 3.5,
+						"outOf": 5
+					},
+					{
+						"host": "Jay",
+						"score": 3.5,
+						"outOf": 5
+					},
+					{
+						"host": "Sean",
+						"score": 4,
+						"outOf": 5
+					}
+				],
 				"film": "highlander"
 			}
 		],
@@ -2601,7 +3133,8 @@
 			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-1033-153411478",
 			"apple": "https://podcasts.apple.com/us/podcast/highlander-1986/id74257105?i=1000758251762",
 			"spotify": "https://open.spotify.com/episode/45BAVpfwmUA2ei4BfNjnCU"
-		}
+		},
+		"hero": "Trebor Treebeard"
 	},
 	{
 		"notes": "",
@@ -2739,7 +3272,23 @@
 			{
 				"title": "Champagne and Bullets",
 				"year": 1993,
-				"ratings": [],
+				"ratings": [
+					{
+						"host": "Frank",
+						"score": 4.5,
+						"outOf": 5
+					},
+					{
+						"host": "Jay",
+						"score": 4.5,
+						"outOf": 5
+					},
+					{
+						"host": "Sean",
+						"score": 3.5,
+						"outOf": 5
+					}
+				],
 				"film": "champagne-and-bullets"
 			}
 		],
@@ -2755,7 +3304,8 @@
 			"apple": "https://podcasts.apple.com/us/podcast/champagne-and-bullets-1993/id74257105?i=1000756777065",
 			"spotify": "https://open.spotify.com/episode/0PB89aLZo1rdsMXlUuGyf1"
 		},
-		"mentioned": []
+		"mentioned": [],
+		"hero": "Justin Jaramillo"
 	},
 	{
 		"notes": "",
@@ -2794,7 +3344,23 @@
 			{
 				"title": "One Flew Over the Cuckoo's Nest",
 				"year": 1975,
-				"ratings": [],
+				"ratings": [
+					{
+						"host": "Frank",
+						"score": 5,
+						"outOf": 5
+					},
+					{
+						"host": "Jay",
+						"score": 5,
+						"outOf": 5
+					},
+					{
+						"host": "Sean",
+						"score": 5,
+						"outOf": 5
+					}
+				],
 				"film": "one-flew-over-the-cuckoos-nest"
 			}
 		],
@@ -2809,7 +3375,8 @@
 			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-1031-152495086",
 			"apple": "https://podcasts.apple.com/us/podcast/one-flew-over-the-cuckoos-nest-1975/id74257105?i=1000755625582",
 			"spotify": "https://open.spotify.com/episode/4YKa0jfov4ebtCdcucsLBX"
-		}
+		},
+		"hero": "Prickly Pear"
 	},
 	{
 		"notes": "",
@@ -2895,7 +3462,23 @@
 			{
 				"title": "The Goonies",
 				"year": 1985,
-				"ratings": [],
+				"ratings": [
+					{
+						"host": "Frank",
+						"score": 3.5,
+						"outOf": 5
+					},
+					{
+						"host": "Jay",
+						"score": 5,
+						"outOf": 5
+					},
+					{
+						"host": "Sean",
+						"score": 4.5,
+						"outOf": 5
+					}
+				],
 				"film": "the-goonies"
 			}
 		],
@@ -2911,7 +3494,8 @@
 			"apple": "https://podcasts.apple.com/us/podcast/the-goonies-1985/id74257105?i=1000754021057",
 			"spotify": "https://open.spotify.com/episode/6aULsfy7kVPHupGkfxQeOD"
 		},
-		"mentioned": []
+		"mentioned": [],
+		"hero": "Lauren Adam"
 	},
 	{
 		"id": "1029",
