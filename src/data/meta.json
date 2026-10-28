@@ -1,5 +1,5 @@
 {
-	"builtAt": "2026-10-28T19:11:44.488Z",
+	"builtAt": "2026-10-28T19:30:54.614Z",
 	"yearNotes": {
 		"2005": [
 			"Total episodes: 47",
@@ -1126,6 +1126,12 @@
 			"art": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/23/81/51/238151c4-8f05-71f8-ec23-fb7b02eb6acd/mza_6021458389695684246.jpg/600x600bb.jpg",
 			"episodes": [
 				{
+					"title": "Bye Bye BioWare",
+					"number": 286,
+					"date": "2026-10-28",
+					"url": "https://podcasts.apple.com/us/podcast/game-junk-episode-286-bye-bye-bioware/id385273911?i=1000798560842"
+				},
+				{
 					"title": "Is Valor Mortis the Biggest Surprise of the Year?",
 					"number": 285,
 					"date": "2026-10-21",
@@ -1136,12 +1142,6 @@
 					"number": 284,
 					"date": "2026-10-14",
 					"url": "https://podcasts.apple.com/us/podcast/game-junk-episode-284-is-order-of-the-sinking/id385273911?i=1000796357099"
-				},
-				{
-					"title": "Gears of War: E-Day + Star Wars: Galactic Racer Impressions",
-					"number": 283,
-					"date": "2026-10-08",
-					"url": "https://podcasts.apple.com/us/podcast/game-junk-episode-283-gears-of-war-e-day-star-wars/id385273911?i=1000793904701"
 				}
 			]
 		},
