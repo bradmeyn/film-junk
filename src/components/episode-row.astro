@@ -1,6 +1,7 @@
 ---
 import { episodeHref, episodeLabel, formatDate, type Episode } from '../lib/data';
 import Stars from './stars.astro';
+import { episodeTile, TILE_ICONS } from '../lib/episode-tile';
 
 interface Props {
 	episode: Episode;
@@ -11,10 +12,29 @@ interface Props {
 const { episode: e, note, hideKind } = Astro.props;
 const rated = (e.reviews ?? []).filter((r) => r.ratings.length);
 const label = e.kind === 'regular' && e.number ? String(e.number) : { premium: 'Premium', patreon: 'Patreon', bonus: 'Bonus', regular: 'Episode' }[e.kind];
+// Without the kind badge, the series icon (Junk Mail, What We Watched…) takes its place.
+const [icon, series] = episodeTile(e.title, e.kind);
 ---
 
 <li class:list={['row', { 'no-kind': hideKind }]}>
-	{!hideKind && <span class="sticker" data-kind={e.kind} title={episodeLabel(e)}>{label}</span>}
+	{
+		hideKind ? (
+			<span class="icon" data-kind={e.kind} title={series} aria-hidden="true">
+				<svg viewBox="0 0 24 24">
+					<path d={TILE_ICONS[icon]} />
+					{icon === 'fj' && (
+						<text x="12" y="17.6" text-anchor="middle">
+							FJ
+						</text>
+					)}
+				</svg>
+			</span>
+		) : (
+			<span class="sticker" data-kind={e.kind} title={episodeLabel(e)}>
+				{label}
+			</span>
+		)
+	}
 	<div>
 		<a class="title" href={episodeHref(e)}>{e.title}</a>
 		<div class="meta muted">
@@ -47,7 +67,42 @@ const label = e.kind === 'regular' && e.number ? String(e.number) : { premium: '
 		border-bottom: 1px solid var(--line);
 	}
 	.row.no-kind {
-		grid-template-columns: 1fr;
+		grid-template-columns: 2.75rem 1fr;
+		gap: 0.85rem;
+	}
+
+	/* The series icon on a tinted square, as on the episodes list's tiles. */
+	.icon {
+		display: grid;
+		place-items: center;
+		aspect-ratio: 1;
+		border-radius: var(--radius);
+		background: linear-gradient(160deg, color-mix(in srgb, var(--accent) 22%, var(--surface)), var(--surface));
+		color: var(--accent);
+	}
+
+	.icon[data-kind='bonus'],
+	.icon[data-kind='regular'] {
+		background: linear-gradient(160deg, color-mix(in srgb, var(--star) 20%, var(--surface)), var(--surface));
+		color: var(--star);
+	}
+
+	.icon svg {
+		width: 1.5rem;
+		height: 1.5rem;
+		fill: none;
+		stroke: currentColor;
+		stroke-width: 1.5;
+		stroke-linecap: round;
+		stroke-linejoin: round;
+	}
+
+	.icon text {
+		fill: currentColor;
+		stroke: none;
+		font-family: var(--font-body);
+		font-size: 5.5px;
+		font-weight: 800;
 	}
 	.sticker {
 		justify-self: start;
