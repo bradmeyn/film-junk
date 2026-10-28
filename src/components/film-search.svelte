@@ -162,7 +162,13 @@
 			oninput={load}
 			onkeydown={onInputKeydown}
 		/>
-		{#if compact}<kbd class="esc" aria-hidden="true">esc</kbd>{/if}
+		{#if compact}
+			<!-- Closes the search: shows the esc key on keyboards, a × on phones. -->
+			<button type="button" class="close" aria-label="Close search" onclick={close}>
+				<kbd aria-hidden="true">esc</kbd>
+				<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18" /></svg>
+			</button>
+		{/if}
 	</form>
 {/snippet}
 
@@ -272,12 +278,35 @@
 		color: var(--muted);
 	}
 
-	.esc {
+	.close {
 		position: absolute;
-		right: 0.8rem;
+		right: 0.5rem;
 		top: 50%;
 		transform: translateY(-50%);
-		pointer-events: none;
+		display: grid;
+		place-items: center;
+		min-width: 2.25rem;
+		height: 2.25rem;
+		padding: 0 0.3rem;
+		border: 0;
+		border-radius: 999px;
+		background: none;
+		color: var(--muted);
+		cursor: pointer;
+	}
+
+	.close:hover {
+		color: var(--ink);
+	}
+
+	.close svg {
+		display: none;
+		width: 1.25rem;
+		height: 1.25rem;
+		fill: none;
+		stroke: currentColor;
+		stroke-width: 2;
+		stroke-linecap: round;
 	}
 
 	/* ---------- header trigger: looks like a search box */
@@ -402,8 +431,12 @@
 			margin-top: 1rem;
 		}
 		.keys,
-		.trigger kbd {
+		.trigger kbd,
+		.close kbd {
 			display: none;
+		}
+		.close svg {
+			display: block;
 		}
 	}
 

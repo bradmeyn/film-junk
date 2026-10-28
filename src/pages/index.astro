@@ -29,7 +29,10 @@ const schedule = meta.schedule.find((m) => m.month === thisMonth) ?? meta.schedu
 const scheduleName = schedule && new Date(schedule.month + '-01T00:00:00Z').toLocaleString('en-US', { month: 'long', timeZone: 'UTC' });
 // October is Junktober on the show.
 const scheduleHeading = scheduleName === 'October' ? 'Junktober Lineup' : `${scheduleName} Lineup`;
-const dayFormat = new Intl.DateTimeFormat('en-US', { weekday: 'short', month: 'short', day: 'numeric', timeZone: 'UTC' });
+// "Mon, Oct 5"; the weekday is dropped on phones, where the lineup's columns are narrow.
+const weekdayFormat = new Intl.DateTimeFormat('en-US', { weekday: 'short', timeZone: 'UTC' });
+const dayFormat = new Intl.DateTimeFormat('en-US', { month: 'short', day: 'numeric', timeZone: 'UTC' });
+const weekday = (iso: string) => weekdayFormat.format(new Date(iso + 'T00:00:00Z'));
 const day = (iso: string) => dayFormat.format(new Date(iso + 'T00:00:00Z'));
 
 // "This month in history" is fixed at build time; the site rebuilds daily.
@@ -142,7 +145,10 @@ const blurb = latest.description.length > 420 ? latest.description.slice(0, 420)
 										) : (
 											<span class="no-poster" aria-hidden="true" />
 										)}
-										<span class="when">{day(item.date)}</span>
+										<span class="when">
+											<span class="weekday">{weekday(item.date)}, </span>
+											{day(item.date)}
+										</span>
 										<span class="what">
 											{item.title}
 											{item.year && <span class="muted"> ({item.year})</span>}
@@ -319,9 +325,21 @@ const blurb = latest.description.length > 420 ? latest.description.slice(0, 420)
 		list-style: none;
 		padding: 0;
 		margin: 0;
+		/* The whole month in one row, however many episodes it has. */
 		display: grid;
 		gap: 1rem;
-		grid-template-columns: repeat(auto-fill, minmax(7.5rem, 1fr));
+		grid-auto-flow: column;
+		grid-auto-columns: minmax(0, 1fr);
+	}
+
+	@media (max-width: 40rem) {
+		.schedule ol {
+			gap: 0.6rem;
+		}
+
+		.weekday {
+			display: none;
+		}
 	}
 
 	.slot {
