@@ -9,6 +9,7 @@
 		t: string; // title
 		h: string[]; // hosts who gave ratings
 		a: number | null; // average rating out of 5, for sorting
+		y?: true; // a year-end show: top 10 lists and the Junkies
 		r: { t?: string; s: [host: string, score: number, outOf: number][] }[]; // ratings per film reviewed
 	};
 
@@ -27,6 +28,7 @@
 	let year = $state('');
 	let kind = $state('');
 	let host = $state('');
+	let junkies = $state(false);
 	let sort = $state('newest');
 	let shown = $state(PAGE);
 
@@ -37,6 +39,7 @@
 		year = p.get('year') ?? '';
 		kind = p.get('type') ?? '';
 		host = p.get('host') ?? '';
+		junkies = p.has('junkies');
 		sort = p.get('sort') ?? 'newest';
 	});
 
@@ -46,8 +49,9 @@
 		if (year) p.set('year', year);
 		if (kind) p.set('type', kind);
 		if (host) p.set('host', host);
+		if (junkies) p.set('junkies', '');
 		if (sort !== 'newest') p.set('sort', sort);
-		const qs = p.toString();
+		const qs = p.toString().replace(/=(?=&|$)/g, '');
 		history.replaceState(null, '', qs ? `?${qs}` : location.pathname);
 		shown = PAGE;
 	}
@@ -60,6 +64,7 @@
 				(!year || e.d.startsWith(year)) &&
 				(!kind || e.k === kind) &&
 				(!host || e.h.includes(host)) &&
+				(!junkies || e.y) &&
 				(!needle || e.n === numberQuery || e.t.toLowerCase().includes(needle))
 		);
 		if (sort === 'oldest') return list.toReversed();
@@ -78,6 +83,7 @@
 
 	function reset() {
 		q = year = kind = host = '';
+		junkies = false;
 		sort = 'newest';
 		syncUrl();
 	}
@@ -122,11 +128,18 @@
 			{/each}
 		</div>
 	</fieldset>
+	<label class="toggle" class:active={junkies}>
+		<input type="checkbox" bind:checked={junkies} onchange={syncUrl} />
+		Junkies &amp; top 10s
+	</label>
 </div>
 
 <p class="count muted" aria-live="polite">
 	{filtered.length.toLocaleString()} episode{filtered.length === 1 ? '' : 's'}
-	{#if q || year || kind || host || sort !== 'newest'}
+	{#if year}
+		<a href={`/years/${year}/`}>{year} at a glance</a>
+	{/if}
+	{#if q || year || kind || host || junkies || sort !== 'newest'}
 		<button type="button" class="link" onclick={reset}>Clear filters</button>
 	{/if}
 </p>
@@ -248,6 +261,30 @@
 		outline-offset: -3px;
 	}
 
+	/* A quick filter, styled like one of the type options. */
+	.filters > .toggle {
+		display: block;
+		padding: 0.5rem 0.75rem;
+		border: 1px solid var(--line);
+		border-radius: 0.4rem;
+		background: var(--bg);
+		cursor: pointer;
+		font-size: var(--step--1);
+		font-weight: 600;
+	}
+
+	.toggle.active {
+		background: var(--ink);
+		border-color: var(--ink);
+		color: var(--bg);
+	}
+
+	.toggle:has(input:focus-visible) {
+		outline: 3px solid var(--focus);
+		outline-offset: 2px;
+	}
+
+	.toggle input,
 	.segmented input {
 		position: absolute;
 		opacity: 0;
@@ -263,8 +300,13 @@
 		}
 
 		.filters .grow,
-		.filters fieldset {
+		.filters fieldset,
+		.filters > .toggle {
 			grid-column: 1 / -1;
+		}
+
+		.filters > .toggle {
+			text-align: center;
 		}
 
 		.filters select {

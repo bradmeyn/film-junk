@@ -37,7 +37,6 @@ const jsonLd = schema && JSON.stringify(schema).replace(/</g, '\\u003c');
 const nav = [
 	['/episodes/', 'Episodes'],
 	['/films/', 'Films'],
-	['/junkies/', 'Junkies'],
 	['/commerce/', 'Commerce'],
 ];
 // Everywhere else to find the show, from Film Junk's Linktree (linktr.ee/filmjunk).
@@ -47,7 +46,7 @@ const footerGroups = [
 		links: [
 			['/episodes/', 'Every episode'],
 			['/films/', 'Every film'],
-			['/junkies/', 'The Junkies'],
+			['/episodes/?junkies', 'The Junkies'],
 			['/commerce/', 'Premiums and old episodes'],
 			['/random/', 'Surprise me'],
 		],
