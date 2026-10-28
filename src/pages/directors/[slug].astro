@@ -53,7 +53,7 @@ const summary = [
 					<ul class="reviews">
 						{reviewed.map(({ film, episode: e, review }) => (
 							<li>
-								<a class="film" href={`/films/${film.slug}/`}>
+								<a class="film" href={`/films/${film.slug}/`} tabindex="-1" aria-hidden="true">
 									{film.poster ? (
 										<img src={posterUrl(film.poster, 'w154')} alt="" width="154" height="231" loading="lazy" />
 									) : (
@@ -74,7 +74,7 @@ const summary = [
 												<div>
 													<dt>{hostHref(x.host) ? <a href={hostHref(x.host)}>{x.host}</a> : x.host}</dt>
 													<dd>
-														<Stars score={x.score} outOf={x.outOf} label={x.host} qualifier={x.qualifier} />
+														<Stars score={x.score} outOf={x.outOf} qualifier={x.qualifier} />
 													</dd>
 												</div>
 											))}

@@ -127,6 +127,7 @@ const current = (href: string) => path.startsWith(href) || (href === '/episodes/
 		<link rel="preload" href={bodyFont} as="font" type="font/woff2" crossorigin />
 	</head>
 	<body>
+		<a class="skip" href="#main">Skip to content</a>
 		<header class="site-header wrap">
 			<a class="brand" href="/">
 				<img src="/logo-128.jpg" alt="" width="40" height="40" />
@@ -151,7 +152,7 @@ const current = (href: string) => path.startsWith(href) || (href === '/episodes/
 			</div>
 		</header>
 
-		<main>
+		<main id="main" tabindex="-1">
 			<slot />
 		</main>
 

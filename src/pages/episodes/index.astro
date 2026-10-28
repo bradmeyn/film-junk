@@ -1,7 +1,7 @@
 ---
 import Layout from '../../layouts/layout.astro';
 import EpisodeBrowser, { type Item } from '../../components/episode-browser.svelte';
-import { averageRating, episodes, meta, years } from '../../lib/data';
+import { averageRating, episodes, filmBySlug, meta, years } from '../../lib/data';
 
 // Year-end shows: the hosts' top 10 lists and the Junkies awards.
 const yearEnd = new Set(Object.values(meta.yearEnd).flatMap((shows) => shows.map((s) => s.id)));
@@ -15,6 +15,7 @@ const items: Item[] = episodes.map((e) => ({
 	h: [...new Set((e.reviews ?? []).flatMap((r) => r.ratings.map((x) => x.host)))],
 	a: averageRating(e.reviews),
 	...(yearEnd.has(e.id) && { y: true }),
+	p: e.reviews?.map((r) => r.film && filmBySlug.get(r.film)?.poster).find(Boolean) || undefined,
 	// Each film's ratings; the title only when the episode reviews more than one.
 	r: (e.reviews ?? [])
 		.filter((r) => r.ratings.length)

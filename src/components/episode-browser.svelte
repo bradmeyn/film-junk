@@ -10,6 +10,7 @@
 		h: string[]; // hosts who gave ratings
 		a: number | null; // average rating out of 5, for sorting
 		y?: true; // a year-end show: top 10 lists and the Junkies
+		p?: string; // TMDB poster path of the first film reviewed
 		r: { t?: string; s: [host: string, score: number, outOf: number][] }[]; // ratings per film reviewed
 	};
 
@@ -151,6 +152,11 @@
 		{#each filtered.slice(0, shown) as e (e.id)}
 			<li>
 				<span class="sticker" data-kind={e.k}>{e.k === 'regular' && e.n ? e.n : { premium: 'Premium', patreon: 'Patreon', bonus: 'Bonus', regular: 'Episode' }[e.k]}</span>
+				{#if e.p}
+					<img class="poster" src={`https://image.tmdb.org/t/p/w92${e.p}`} alt="" width="92" height="138" loading="lazy" decoding="async" />
+				{:else}
+					<span class="poster"></span>
+				{/if}
 				<div>
 					<a class="title" href={`/episodes/${e.id}/`}>{e.t}</a>
 					<div class="meta">
@@ -163,7 +169,7 @@
 								{@const st = stars(score, outOf)}
 								<span class="rating">
 									{h}
-									<span class="stars" role="img" aria-label={`${h}: ${score} out of ${outOf}`}
+									<span class="stars" role="img" aria-label={`${score} out of ${outOf}`}
 										><span class="on">{'★'.repeat(st.full)}</span>{#if st.half}<span class="half">★</span>{/if}<span class="off"
 											>{'★'.repeat(st.empty)}</span
 										></span
@@ -345,11 +351,25 @@
 
 	.list li {
 		display: grid;
-		grid-template-columns: 5.5rem 1fr;
+		grid-template-columns: 5.5rem 2.75rem 1fr;
 		gap: 1rem;
 		align-items: start;
 		padding-block: 0.75rem;
 		border-bottom: 1px solid var(--line);
+	}
+
+	/* Decorative: the title next to it already names the film. A blank keeps titles aligned. */
+	.poster {
+		width: 100%;
+		height: auto;
+		aspect-ratio: 2 / 3;
+		object-fit: cover;
+		border-radius: 0.25rem;
+		background: var(--line);
+	}
+
+	span.poster {
+		opacity: 0.4;
 	}
 
 	.list .sticker {
@@ -423,8 +443,8 @@
 
 	@media (max-width: 30rem) {
 		.list li {
-			grid-template-columns: 4.25rem 1fr;
-			gap: 0.75rem;
+			grid-template-columns: 4.25rem 2.25rem 1fr;
+			gap: 0.6rem;
 		}
 
 		.list .sticker {

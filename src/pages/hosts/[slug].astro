@@ -129,7 +129,7 @@ const fmt = (n: number) => n.toFixed(1);
 							<li>
 								<a href={filmHref(s.film) ?? episodeHref(s.episode)}>{s.title}</a>
 								<span class="muted">
-									{first} <Stars score={Math.min(s.score, 5)} label={first} /> vs others {fmt(s.othersAvg!)}
+									{first} <Stars score={Math.min(s.score, 5)} /> vs others {fmt(s.othersAvg!)}
 								</span>
 							</li>
 						))
@@ -145,7 +145,7 @@ const fmt = (n: number) => n.toFixed(1);
 							<li>
 								<a href={filmHref(s.film) ?? episodeHref(s.episode)}>{s.title}</a>
 								<span class="muted">
-									{first} <Stars score={s.score} label={first} /> vs others {fmt(s.othersAvg!)}
+									{first} <Stars score={s.score} /> vs others {fmt(s.othersAvg!)}
 								</span>
 							</li>
 						))

@@ -13,7 +13,7 @@
 	--brand-ink: #1a0f24;
 	--slime: #b4ca36; /* logo lettering green */
 	--slime-ink: #1a0f24;
-	--star: #e0a800;
+	--star: #b07c00; /* 3:1 against --bg and --surface, so the stars read as more than decoration */
 	--premium: #4f6b00; /* slime green, deepened for text */
 	--focus: #2f6bff;
 	--chart: #8a2fc4; /* validated: dataviz validate_palette.js vs #fff */
@@ -123,6 +123,26 @@ b {
 
 .muted {
 	color: var(--muted);
+}
+
+.skip {
+	position: absolute;
+	left: 1rem;
+	top: -3rem;
+	z-index: 100;
+	padding: 0.5rem 1rem;
+	border-radius: 0.4rem;
+	background: var(--ink);
+	color: var(--bg);
+	font-weight: 700;
+}
+
+.skip:focus {
+	top: 1rem;
+}
+
+main:focus {
+	outline: none;
 }
 
 .visually-hidden {

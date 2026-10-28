@@ -177,8 +177,8 @@
 				{#if !typed}<p class="hint">Most discussed</p>{/if}
 				<ul id={`${id}-results`} role="listbox" aria-label="Results">
 					{#each results as row, i (row[0])}
-						<li id={`${id}-opt-${i}`} role="option" aria-selected={i === active} class:active={i === active}>
-							<a href={href(row)} tabindex="-1" onmouseenter={() => (active = i)}>
+						<li role="none" class:active={i === active}>
+							<a id={`${id}-opt-${i}`} role="option" aria-selected={i === active} href={href(row)} tabindex="-1" onmouseenter={() => (active = i)}>
 								{#if poster(row)}
 									<img src={poster(row)} alt="" width="92" height="138" loading="lazy" />
 								{:else}

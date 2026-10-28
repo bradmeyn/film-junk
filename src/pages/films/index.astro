@@ -45,6 +45,7 @@ const mostMentioned = films
 			All {items.length.toLocaleString()} reviews. Filter by rating to find the favourites, or the ones nobody liked. To find any of
 			the {films.length.toLocaleString()} films and shows mentioned on the podcast, use the search at the top.
 		</p>
+		<h2 class="visually-hidden">Reviews</h2>
 		<div class="browser">
 			<FilmBrowser client:load {items} {hosts} />
 		</div>
