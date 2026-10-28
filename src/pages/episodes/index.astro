@@ -34,7 +34,12 @@ const hosts = [...hostCounts].filter(([, n]) => n >= 5).sort((a, b) => b[1] - a[
 <Layout title="Episodes" description="Every Film Junk Podcast episode since 2005, with the movies reviewed and each host's rating. Filter by year, type and host, or find the year-end top 10s and Junkies.">
 	<div class="wrap">
 		<div class="head">
-			<h1>Every episode</h1>
+			<div>
+				<h1>Episodes</h1>
+				<p class="muted intro">
+					All {items.length.toLocaleString()} episodes since 2005, with the films reviewed and each host's rating.
+				</p>
+			</div>
 			<a class="button" href="/random/">Surprise me</a>
 		</div>
 		<EpisodeBrowser client:load {items} {years} {hosts} />
@@ -45,7 +50,7 @@ const hosts = [...hostCounts].filter(([, n]) => n >= 5).sort((a, b) => b[1] - a[
 	.head {
 		display: flex;
 		flex-wrap: wrap;
-		align-items: center;
+		align-items: end;
 		justify-content: space-between;
 		gap: 1rem;
 		margin: 1.5rem 0 1.25rem;
@@ -53,5 +58,10 @@ const hosts = [...hostCounts].filter(([, n]) => n >= 5).sort((a, b) => b[1] - a[
 
 	h1 {
 		font-size: var(--step-4);
+	}
+
+	.intro {
+		max-width: 55ch;
+		margin: 0.5rem 0 0;
 	}
 </style>
