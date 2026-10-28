@@ -1,5 +1,5 @@
 ---
-import { episodeHref, episodeLabel, formatDate, type Episode } from '../lib/data';
+import { episodeHref, episodeLabel, formatDate, leadPoster, posterUrl, type Episode } from '../lib/data';
 import Stars from './stars.astro';
 import { episodeTile, TILE_ICONS } from '../lib/episode-tile';
 
@@ -12,13 +12,16 @@ interface Props {
 const { episode: e, note, hideKind } = Astro.props;
 const rated = (e.reviews ?? []).filter((r) => r.ratings.length);
 const label = e.kind === 'regular' && e.number ? String(e.number) : { premium: 'Premium', patreon: 'Patreon', bonus: 'Bonus', regular: 'Episode' }[e.kind];
-// Without the kind badge, the series icon (Junk Mail, What We Watched…) takes its place.
+// Without the kind badge, the lead film's poster takes its place (What We Watched), else the series icon.
+const poster = hideKind ? posterUrl(leadPoster(e), 'w154') : null;
 const [icon, series] = episodeTile(e.title, e.kind);
 ---
 
 <li class:list={['row', { 'no-kind': hideKind }]}>
 	{
-		hideKind ? (
+		poster ? (
+			<img class="poster" src={poster} alt="" width="154" height="231" loading="lazy" />
+		) : hideKind ? (
 			<span class="icon" data-kind={e.kind} title={series} aria-hidden="true">
 				<svg viewBox="0 0 24 24">
 					<path d={TILE_ICONS[icon]} />
@@ -69,6 +72,14 @@ const [icon, series] = episodeTile(e.title, e.kind);
 	.row.no-kind {
 		grid-template-columns: 2.75rem 1fr;
 		gap: 0.85rem;
+	}
+
+	.poster {
+		width: 100%;
+		height: auto;
+		aspect-ratio: 2 / 3;
+		object-fit: cover;
+		border-radius: var(--radius);
 	}
 
 	/* The series icon on a tinted square, as on the episodes list's tiles. */

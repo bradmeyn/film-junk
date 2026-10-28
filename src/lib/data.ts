@@ -104,6 +104,13 @@ export function posterUrl(path: string | null | undefined, size: 'w154' | 'w342'
 	return path ? `https://image.tmdb.org/t/p/${size}${path}` : null;
 }
 
+// The poster that stands for an episode: its first reviewed film's. What We Watched has no review,
+// so it takes the first film it names that has a poster.
+export function leadPoster(e: Episode) {
+	const first = (list: { film?: string | null }[] | undefined) => list?.map((x) => x.film && filmBySlug.get(x.film)?.poster).find(Boolean);
+	return first(e.reviews) ?? (/what we watched/i.test(e.title) ? first(e.watched) : undefined) ?? null;
+}
+
 // Artwork for an episode: the premium's Bandcamp cover, else the first reviewed film's poster.
 export function episodeArt(e: Episode) {
 	if (e.art) return { src: e.art, square: true };
