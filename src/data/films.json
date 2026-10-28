@@ -1,5 +1,38 @@
 [
 	{
+		"slug": "you-can-see-everything",
+		"title": "You Can See Everything",
+		"year": 2026,
+		"poster": "/Ap8QwmKfSjYbWC4XIP8w9pdn72O.jpg",
+		"votes": 29,
+		"tmdb": {
+			"type": "movie",
+			"id": 1765072
+		},
+		"imdb": "tt45368240",
+		"appearances": [
+			{
+				"id": "1069",
+				"role": "review"
+			}
+		],
+		"directors": [
+			{
+				"name": "Nathan Fielder",
+				"slug": "nathan-fielder"
+			},
+			{
+				"name": "Lance Oppenheim",
+				"slug": "lance-oppenheim"
+			}
+		],
+		"runtime": 174,
+		"genres": [
+			"Documentary"
+		],
+		"overview": "Thirty-four days before she's sent to prison, notorious Silicon Valley founder Elizabeth Holmes invites a skeptical film crew to document her every move. What begins as an intimate portrait of an enigmatic felon becomes a mind-bending three-year journey into the abyss."
+	},
+	{
 		"slug": "the-blair-witch-project",
 		"title": "The Blair Witch Project",
 		"year": 1999,
@@ -36,39 +69,6 @@
 			"Mystery"
 		],
 		"overview": "In October of 1994 three student filmmakers disappeared in the woods near Burkittsville, Maryland, while shooting a documentary. A year later their footage was found."
-	},
-	{
-		"slug": "you-can-see-everything",
-		"title": "You Can See Everything",
-		"year": 2026,
-		"poster": "/Ap8QwmKfSjYbWC4XIP8w9pdn72O.jpg",
-		"votes": 29,
-		"tmdb": {
-			"type": "movie",
-			"id": 1765072
-		},
-		"imdb": "tt45368240",
-		"appearances": [
-			{
-				"id": "1069",
-				"role": "review"
-			}
-		],
-		"directors": [
-			{
-				"name": "Nathan Fielder",
-				"slug": "nathan-fielder"
-			},
-			{
-				"name": "Lance Oppenheim",
-				"slug": "lance-oppenheim"
-			}
-		],
-		"runtime": 174,
-		"genres": [
-			"Documentary"
-		],
-		"overview": "Thirty-four days before she's sent to prison, notorious Silicon Valley founder Elizabeth Holmes invites a skeptical film crew to document her every move. What begins as an intimate portrait of an enigmatic felon becomes a mind-bending three-year journey into the abyss."
 	},
 	{
 		"slug": "the-descent",
@@ -50357,37 +50357,33 @@
 	{
 		"slug": "resident-evil",
 		"title": "Resident Evil",
-		"year": 2002,
-		"poster": "/1UKNef590A0ZaMnxsscIcWuK1Em.jpg",
-		"votes": 7205,
+		"year": 2026,
+		"poster": "/i7UyjfPio0VFHB9rBUZSFyhOoM8.jpg",
+		"votes": 1085,
 		"tmdb": {
 			"type": "movie",
-			"id": 1576
+			"id": 1423191
 		},
-		"imdb": "tt0120804",
+		"imdb": "tt35538033",
 		"appearances": [
 			{
 				"id": "2026-10-01-what-we-watched-resident-evil-primetime-the-python-hunt-and-",
-				"role": "watched"
-			},
-			{
-				"id": "2026-08-19-what-we-watched-spider-man-brand-new-day-the-invite-chairman",
 				"role": "watched"
 			}
 		],
 		"directors": [
 			{
-				"name": "Paul W. S. Anderson",
-				"slug": "paul-w-s-anderson"
+				"name": "Zach Cregger",
+				"slug": "zach-cregger"
 			}
 		],
-		"runtime": 100,
+		"runtime": 95,
 		"genres": [
 			"Horror",
-			"Action",
-			"Science Fiction"
+			"Science Fiction",
+			"Adventure"
 		],
-		"overview": "When a virus leaks from a top-secret facility, turning all resident researchers into ravenous zombies and their lab animals into mutated hounds from hell, the government sends in an elite military task force to contain the outbreak."
+		"overview": "Medical courier Bryan unwittingly finds himself fighting for survival as one fateful, horrifying night collapses around him in chaos."
 	},
 	{
 		"slug": "primetime",
@@ -51732,6 +51728,37 @@
 			"Thriller"
 		],
 		"overview": "Five \"city boys\" travel to the country to relax by doing some hunting, drinking Bud, and generally having good time. However, the local inbred backwoods psychos turn the hunters to be the hunted, and they need all the ammo and wits they have to get out of the woods alive."
+	},
+	{
+		"slug": "resident-evil-2002",
+		"title": "Resident Evil",
+		"year": 2002,
+		"poster": "/1UKNef590A0ZaMnxsscIcWuK1Em.jpg",
+		"votes": 7220,
+		"tmdb": {
+			"type": "movie",
+			"id": 1576
+		},
+		"imdb": "tt0120804",
+		"appearances": [
+			{
+				"id": "2026-08-19-what-we-watched-spider-man-brand-new-day-the-invite-chairman",
+				"role": "watched"
+			}
+		],
+		"directors": [
+			{
+				"name": "Paul W. S. Anderson",
+				"slug": "paul-w-s-anderson"
+			}
+		],
+		"runtime": 100,
+		"genres": [
+			"Horror",
+			"Action",
+			"Science Fiction"
+		],
+		"overview": "When a virus leaks from a top-secret facility, turning all resident researchers into ravenous zombies and their lab animals into mutated hounds from hell, the government sends in an elite military task force to contain the outbreak."
 	},
 	{
 		"slug": "resident-evil-apocalypse",
@@ -57985,7 +58012,7 @@
 	{
 		"slug": "the-manchurian-candidate",
 		"title": "The Manchurian Candidate",
-		"year": 1962,
+		"year": 2004,
 		"poster": "/4xEWtEbKK2EXMZ8UPff8hDCSiVW.jpg",
 		"votes": 1811,
 		"tmdb": {
@@ -57996,10 +58023,6 @@
 		"appearances": [
 			{
 				"id": "1007",
-				"role": "watched"
-			},
-			{
-				"id": "640",
 				"role": "watched"
 			}
 		],
@@ -63295,7 +63318,7 @@
 	{
 		"slug": "childs-play",
 		"title": "Child's Play",
-		"year": null,
+		"year": 1972,
 		"poster": "/sOfwI5dzqTwFWQh40C86fjQz07M.jpg",
 		"votes": 56,
 		"tmdb": {
@@ -63306,14 +63329,6 @@
 		"appearances": [
 			{
 				"id": "979",
-				"role": "watched"
-			},
-			{
-				"id": "premium-childs-play",
-				"role": "premium"
-			},
-			{
-				"id": "727",
 				"role": "watched"
 			},
 			{
@@ -66814,7 +66829,7 @@
 	{
 		"slug": "hellraiser",
 		"title": "Hellraiser",
-		"year": 2022,
+		"year": 1987,
 		"poster": "/3Z0oPHyLnk3Vx6ZMC1MiVwIrKhO.jpg",
 		"votes": 3003,
 		"tmdb": {
@@ -66826,10 +66841,6 @@
 			{
 				"id": "premium-hellraiser",
 				"role": "premium"
-			},
-			{
-				"id": "869",
-				"role": "watched"
 			},
 			{
 				"id": "439",
@@ -69691,7 +69702,7 @@
 	{
 		"slug": "warrior",
 		"title": "Warrior",
-		"year": 2019,
+		"year": 2011,
 		"poster": "/iM8n4nZJPR2abpnyZ36FUgHiRjr.jpg",
 		"votes": 5154,
 		"tmdb": {
@@ -69702,10 +69713,6 @@
 		"appearances": [
 			{
 				"id": "952",
-				"role": "watched"
-			},
-			{
-				"id": "709",
 				"role": "watched"
 			},
 			{
@@ -70928,7 +70935,7 @@
 	{
 		"slug": "monster",
 		"title": "Monster",
-		"year": 2023,
+		"year": 2003,
 		"poster": "/sWPKG1GX0woLNBuvDZkwZC8Q3Ub.jpg",
 		"votes": 2634,
 		"tmdb": {
@@ -70939,10 +70946,6 @@
 		"appearances": [
 			{
 				"id": "946",
-				"role": "watched"
-			},
-			{
-				"id": "929",
 				"role": "watched"
 			}
 		],
@@ -73953,6 +73956,37 @@
 		"overview": "A British wartime aviator who cheats death must argue for his life before a celestial court, hoping to prolong his fledgling romance with an American girl."
 	},
 	{
+		"slug": "monster-2023",
+		"title": "Monster",
+		"year": 2023,
+		"poster": "/kvUJUyUGOhEoiWWNH04IXoExPE2.jpg",
+		"votes": 964,
+		"tmdb": {
+			"type": "movie",
+			"id": 1050035
+		},
+		"imdb": "tt23736044",
+		"appearances": [
+			{
+				"id": "929",
+				"role": "watched"
+			}
+		],
+		"directors": [
+			{
+				"name": "Hirokazu Kore-eda",
+				"slug": "hirokazu-kore-eda"
+			}
+		],
+		"runtime": 125,
+		"genres": [
+			"Mystery",
+			"Thriller",
+			"Drama"
+		],
+		"overview": "After an outburst at school involving her son, a concerned single mother demands answers, triggering a sequence of deepening suspicion and turmoil."
+	},
+	{
 		"slug": "afire",
 		"title": "Afire",
 		"year": 2023,
@@ -74611,7 +74645,7 @@
 	{
 		"slug": "black-christmas",
 		"title": "Black Christmas",
-		"year": null,
+		"year": 1974,
 		"poster": "/ym0QcbrKNujzDyAU1IHGYUdRWub.jpg",
 		"votes": 982,
 		"tmdb": {
@@ -74626,10 +74660,6 @@
 			},
 			{
 				"id": "772",
-				"role": "watched"
-			},
-			{
-				"id": "745",
 				"role": "watched"
 			},
 			{
@@ -76058,7 +76088,7 @@
 	{
 		"slug": "dracula",
 		"title": "Dracula",
-		"year": null,
+		"year": 1958,
 		"poster": "/9UHOATvzXQWbElSGygOY1ar3vpp.jpg",
 		"votes": 743,
 		"tmdb": {
@@ -76132,6 +76162,38 @@
 			"Horror"
 		],
 		"overview": "Deathly ill Count Dracula and his slimy underling, Anton, travel to Italy in search of a virgin's blood. They're welcomed at the crumbling estate of indebted Marchese Di Fiore, who's desperate to marry off his daughters to rich suitors. But there, instead of pure women, the count encounters incestuous lesbians with vile blood and Marxist manservant Mario, who's suspicious of the aristocratic Dracula."
+	},
+	{
+		"slug": "dracula-1979",
+		"title": "Dracula",
+		"year": 1979,
+		"poster": "/gU0BMydJQV9HES5fRAEAPs2qw2M.jpg",
+		"votes": 294,
+		"tmdb": {
+			"type": "movie",
+			"id": 33521
+		},
+		"imdb": "tt0079073",
+		"appearances": [
+			{
+				"id": "premium-dracula",
+				"role": "premium"
+			}
+		],
+		"directors": [
+			{
+				"name": "John Badham",
+				"slug": "john-badham"
+			}
+		],
+		"runtime": 109,
+		"genres": [
+			"Romance",
+			"Drama",
+			"Fantasy",
+			"Horror"
+		],
+		"overview": "In 1913, charming, seductive, and sinister Count Dracula travels to England seeking an immortal bride."
 	},
 	{
 		"slug": "nosferatu-the-vampyre",
@@ -76515,7 +76577,7 @@
 	{
 		"slug": "imitation-of-life",
 		"title": "Imitation of Life",
-		"year": null,
+		"year": 1934,
 		"poster": "/nA8pXV1C2WDJrGQWHwqNUW6RG5i.jpg",
 		"votes": 88,
 		"tmdb": {
@@ -76541,6 +76603,36 @@
 			"Romance"
 		],
 		"overview": "A struggling widow and her daughter take in a black housekeeper and her fair-skinned daughter. The two women start a successful business but face familial, identity, and racial issues along the way."
+	},
+	{
+		"slug": "imitation-of-life-1959",
+		"title": "Imitation of Life",
+		"year": 1959,
+		"poster": "/xt3cUn7lsjpaGuB279A4v8zAYRn.jpg",
+		"votes": 328,
+		"tmdb": {
+			"type": "movie",
+			"id": 34148
+		},
+		"imdb": "tt0052918",
+		"appearances": [
+			{
+				"id": "913",
+				"role": "watched"
+			}
+		],
+		"directors": [
+			{
+				"name": "Douglas Sirk",
+				"slug": "douglas-sirk"
+			}
+		],
+		"runtime": 125,
+		"genres": [
+			"Drama",
+			"Romance"
+		],
+		"overview": "In 1940s New York, a white widow who dreams of being on Broadway has a chance encounter with a black single mother, who becomes her maid."
 	},
 	{
 		"slug": "the-ring",
@@ -80175,7 +80267,7 @@
 	{
 		"slug": "batman",
 		"title": "Batman",
-		"year": null,
+		"year": 1989,
 		"poster": "/cij4dd21v2Rk2YtUQbV5kW69WB2.jpg",
 		"votes": 8828,
 		"tmdb": {
@@ -81973,7 +82065,7 @@
 	{
 		"slug": "night-moves",
 		"title": "Night Moves",
-		"year": null,
+		"year": 2013,
 		"poster": null,
 		"votes": 0,
 		"tmdb": null,
@@ -81981,10 +82073,6 @@
 		"appearances": [
 			{
 				"id": "891",
-				"role": "watched"
-			},
-			{
-				"id": "811",
 				"role": "watched"
 			},
 			{
@@ -85915,7 +86003,7 @@
 	{
 		"slug": "invasion-of-the-body-snatchers",
 		"title": "Invasion of the Body Snatchers",
-		"year": null,
+		"year": 1978,
 		"poster": "/skS02wdeH2C0nrbCQP3qKwJdZtZ.jpg",
 		"votes": 1401,
 		"tmdb": {
@@ -85934,10 +86022,6 @@
 			},
 			{
 				"id": "825",
-				"role": "watched"
-			},
-			{
-				"id": "431",
 				"role": "watched"
 			},
 			{
@@ -86515,6 +86599,36 @@
 		"overview": "Nearly 5,000 years after he was bestowed with the almighty powers of the Egyptian gods—and imprisoned just as quickly—Black Adam is freed from his earthly tomb, ready to unleash his unique form of justice on the modern world."
 	},
 	{
+		"slug": "hellraiser-2022",
+		"title": "Hellraiser",
+		"year": 2022,
+		"poster": "/f9ZAIUxTTk23vo1BC9Ur1Rx5c2E.jpg",
+		"votes": 1106,
+		"tmdb": {
+			"type": "movie",
+			"id": 338947
+		},
+		"imdb": "tt0887261",
+		"appearances": [
+			{
+				"id": "869",
+				"role": "watched"
+			}
+		],
+		"directors": [
+			{
+				"name": "David Bruckner",
+				"slug": "david-bruckner"
+			}
+		],
+		"runtime": 121,
+		"genres": [
+			"Horror",
+			"Thriller"
+		],
+		"overview": "A young woman struggling with addiction comes into possession of an ancient puzzle box, unaware that its purpose is to summon the Cenobites, a group of sadistic supernatural beings from another dimension."
+	},
+	{
 		"slug": "untold-operation-flagrant-foul",
 		"title": "Untold: Operation Flagrant Foul",
 		"year": 2022,
@@ -86908,6 +87022,35 @@
 			"Comedy"
 		],
 		"overview": "29 years since the Black Flame Candle was last lit, the 17th-century Sanderson sisters are resurrected, and they are looking for revenge. Now it's up to three high school students to stop the ravenous witches from wreaking a new kind of havoc on Salem before dawn on All Hallow's Eve."
+	},
+	{
+		"slug": "childs-play-1988",
+		"title": "Child's Play",
+		"year": 1988,
+		"poster": "/wvpgvcWNkF2HLuTEMIM7K83MvZ.jpg",
+		"votes": 3499,
+		"tmdb": {
+			"type": "movie",
+			"id": 10585
+		},
+		"imdb": "tt0094862",
+		"appearances": [
+			{
+				"id": "premium-childs-play",
+				"role": "premium"
+			}
+		],
+		"directors": [
+			{
+				"name": "Tom Holland",
+				"slug": "tom-holland"
+			}
+		],
+		"runtime": 87,
+		"genres": [
+			"Horror"
+		],
+		"overview": "After being shot in a toy store, a serial killer transfers his soul into a Good Guy doll. A mother then gifts it to her six-year-old son Andy, which unleashes terror upon the city."
 	},
 	{
 		"slug": "childs-play-2",
@@ -90658,7 +90801,7 @@
 	{
 		"slug": "west-side-story",
 		"title": "West Side Story",
-		"year": 2021,
+		"year": 1961,
 		"poster": "/nzCMu6D5q60i2bVrIQ0DxlRSgCZ.jpg",
 		"votes": 2100,
 		"tmdb": {
@@ -90669,14 +90812,6 @@
 		"appearances": [
 			{
 				"id": "846",
-				"role": "watched"
-			},
-			{
-				"id": "839",
-				"role": "watched"
-			},
-			{
-				"id": "829",
 				"role": "watched"
 			}
 		],
@@ -92211,6 +92346,41 @@
 		"overview": "Mabel Longhetti, desperate and lonely, is married to a Los Angeles municipal construction worker, Nick. Increasingly unstable, especially in the company of others, she craves happiness, but her extremely volatile behavior convinces Nick that she poses a danger to their family and decides to commit her to an institution for six months. Alone with a trio of kids to raise on his own, he awaits her return, which holds more than a few surprises."
 	},
 	{
+		"slug": "west-side-story-2021",
+		"title": "West Side Story",
+		"year": 2021,
+		"poster": "/yfz3IUoYYSY32tkb97HlUBGFsnh.jpg",
+		"votes": 1845,
+		"tmdb": {
+			"type": "movie",
+			"id": 511809
+		},
+		"imdb": "tt3581652",
+		"appearances": [
+			{
+				"id": "839",
+				"role": "watched"
+			},
+			{
+				"id": "829",
+				"role": "watched"
+			}
+		],
+		"directors": [
+			{
+				"name": "Steven Spielberg",
+				"slug": "steven-spielberg"
+			}
+		],
+		"runtime": 156,
+		"genres": [
+			"Drama",
+			"Romance",
+			"Crime"
+		],
+		"overview": "Two youngsters from rival New York City gangs fall in love, but tensions between their respective friends build toward tragedy."
+	},
+	{
 		"slug": "tick-tick-boom",
 		"title": "Tick Tick Boom",
 		"year": 2021,
@@ -92365,7 +92535,7 @@
 	{
 		"slug": "the-bourne-identity",
 		"title": "The Bourne Identity",
-		"year": null,
+		"year": 2002,
 		"poster": "/aP8swke3gmowbkfZ6lmNidu0y9p.jpg",
 		"votes": 10433,
 		"tmdb": {
@@ -97226,6 +97396,37 @@
 		"overview": "Following his infamous championship as part of a marketing stunt for the film Ready to Rumble, David Arquette is widely known as the most hated man in pro-wrestling worldwide. Nearly 20 years after he \"won\" the initial title, through ups and downs in his career, with his family, and with his struggles with addiction, David Arquette seeks redemption by returning to the ring...for real this time."
 	},
 	{
+		"slug": "night-moves-1975",
+		"title": "Night Moves",
+		"year": 1975,
+		"poster": "/j3zMCyvhGlpw31BAWLVMEZNPfOX.jpg",
+		"votes": 378,
+		"tmdb": {
+			"type": "movie",
+			"id": 32042
+		},
+		"imdb": "tt0073453",
+		"appearances": [
+			{
+				"id": "811",
+				"role": "watched"
+			}
+		],
+		"directors": [
+			{
+				"name": "Arthur Penn",
+				"slug": "arthur-penn"
+			}
+		],
+		"runtime": 100,
+		"genres": [
+			"Thriller",
+			"Crime",
+			"Drama"
+		],
+		"overview": "Private detective and former football player Harry Moseby gets hired on to what seems a standard missing person case - a former Hollywood actress wants Moseby to find and return her daughter. Harry travels to Florida to find her, but he begins to see a connection between the runaway girl, the world of Hollywood stuntmen, and a suspicious mechanic when an unsolved murder comes to light."
+	},
+	{
 		"slug": "val",
 		"title": "Val",
 		"year": 2021,
@@ -99014,7 +99215,7 @@
 	{
 		"slug": "the-heartbreak-kid",
 		"title": "The Heartbreak Kid",
-		"year": null,
+		"year": 1972,
 		"poster": "/5HtYW6taG3paHleY2LOCi44Qqei.jpg",
 		"votes": 112,
 		"tmdb": {
@@ -105036,6 +105237,40 @@
 			"Romance"
 		],
 		"overview": "In 1850s Louisiana, the willfulness of a tempestuous Southern belle threatens to destroy all who care for her."
+	},
+	{
+		"slug": "black-christmas-2019",
+		"title": "Black Christmas",
+		"year": 2019,
+		"poster": "/iMBlUzqwpz9ffbeLsYjyHPp8tn8.jpg",
+		"votes": 621,
+		"tmdb": {
+			"type": "movie",
+			"id": 551808
+		},
+		"imdb": "tt10481868",
+		"appearances": [
+			{
+				"id": "772",
+				"role": "watched"
+			},
+			{
+				"id": "745",
+				"role": "watched"
+			}
+		],
+		"directors": [
+			{
+				"name": "Sophia Takal",
+				"slug": "sophia-takal"
+			}
+		],
+		"runtime": 92,
+		"genres": [
+			"Horror",
+			"Mystery"
+		],
+		"overview": "A group of sorority pledges are stalked by a stranger during their Christmas break. That is until the young women discover that the killer is part of an underground campus conspiracy."
 	},
 	{
 		"slug": "the-devil-rides-out",
@@ -113906,7 +114141,7 @@
 	{
 		"slug": "countdown",
 		"title": "Countdown",
-		"year": 1967,
+		"year": 2019,
 		"poster": "/qCDPKUMX5xrxxQY8XhGVCKO3fks.jpg",
 		"votes": 2377,
 		"tmdb": {
@@ -113917,10 +114152,6 @@
 		"appearances": [
 			{
 				"id": "728",
-				"role": "watched"
-			},
-			{
-				"id": "680",
 				"role": "watched"
 			}
 		],
@@ -114121,6 +114352,36 @@
 			"Thriller"
 		],
 		"overview": "In Miami, Florida, biker gang leader Edward \"Diablo\" Santer is about to be executed for murder when he proclaims his innocence and vows revenge from the grave. When a mysterious biker comes to town during Spring Break festivities, leaving several teenagers electrocuted to death, some begin to suspect that Santer has made good on his promise."
+	},
+	{
+		"slug": "childs-play-2019",
+		"title": "Child's Play",
+		"year": 2019,
+		"poster": "/rpS7ROczWulqfaXG2klYapULXKm.jpg",
+		"votes": 2103,
+		"tmdb": {
+			"type": "movie",
+			"id": 533642
+		},
+		"imdb": "tt8663516",
+		"appearances": [
+			{
+				"id": "727",
+				"role": "watched"
+			}
+		],
+		"directors": [
+			{
+				"name": "Lars Klevberg",
+				"slug": "lars-klevberg"
+			}
+		],
+		"runtime": 90,
+		"genres": [
+			"Horror",
+			"Science Fiction"
+		],
+		"overview": "Karen, a single mother, gifts her son Andy a Buddi doll for his birthday, unaware of its more sinister nature. A contemporary re-imagining of the 1988 horror classic."
 	},
 	{
 		"slug": "hercules-and-the-haunted-world",
@@ -114383,7 +114644,7 @@
 	{
 		"slug": "psycho",
 		"title": "Psycho",
-		"year": null,
+		"year": 1960,
 		"poster": "/yz4QVqPx3h1hD1DfqqQkCq3rmxW.jpg",
 		"votes": 11281,
 		"tmdb": {
@@ -114394,10 +114655,6 @@
 		"appearances": [
 			{
 				"id": "725",
-				"role": "watched"
-			},
-			{
-				"id": "635",
 				"role": "watched"
 			},
 			{
@@ -117675,7 +117932,7 @@
 	{
 		"slug": "the-tick",
 		"title": "The Tick",
-		"year": 2017,
+		"year": 2016,
 		"poster": "/8sngJVF54bugHfCkjJOsY4wx8Hk.jpg",
 		"votes": 352,
 		"tmdb": {
@@ -117835,6 +118092,38 @@
 			"Fantasy"
 		],
 		"overview": "After a meteorite unleashes a three-headed beast upon Tokyo, Mothra tries to unite with Godzilla and Rodan to battle the extraterrestrial threat."
+	},
+	{
+		"slug": "warrior-2019",
+		"title": "Warrior",
+		"year": 2019,
+		"poster": "/hR9qPFMI6BoR63XK6BBX5Ueghan.jpg",
+		"votes": 686,
+		"tmdb": {
+			"type": "tv",
+			"id": 73544
+		},
+		"imdb": "tt5743796",
+		"appearances": [
+			{
+				"id": "709",
+				"role": "watched"
+			}
+		],
+		"directors": [
+			{
+				"name": "Jonathan Tropper",
+				"slug": "jonathan-tropper"
+			}
+		],
+		"runtime": 55,
+		"genres": [
+			"Crime",
+			"Drama",
+			"Action & Adventure",
+			"Western"
+		],
+		"overview": "A gritty, action-packed crime drama set during the brutal Tong Wars of San Francisco’s Chinatown in the second half of the 19th century. The series follows Ah Sahm, a martial arts prodigy who immigrates from China to San Francisco under mysterious circumstances, and becomes a hatchet man for one of Chinatown’s most powerful tongs."
 	},
 	{
 		"slug": "batman-vs-teenage-mutant-ninja-turtles",
@@ -122275,6 +122564,36 @@
 		"overview": "High-tech robots equipped with state-of-the-art security devices have been recruited as the new mechanical \"night watchmen\" for the Park Plaza Mall. When a jolting bolt of lightning short-circuits the main computer control, the robots turn into \"killbots\" on the loose after unsuspecting shoppers!"
 	},
 	{
+		"slug": "countdown-1967",
+		"title": "Countdown",
+		"year": 1967,
+		"poster": "/dsGu8yNR6xyn1lTaiB6bBgqKVCQ.jpg",
+		"votes": 60,
+		"tmdb": {
+			"type": "movie",
+			"id": 27441
+		},
+		"imdb": "tt0062827",
+		"appearances": [
+			{
+				"id": "680",
+				"role": "watched"
+			}
+		],
+		"directors": [
+			{
+				"name": "Robert Altman",
+				"slug": "robert-altman"
+			}
+		],
+		"runtime": 101,
+		"genres": [
+			"Science Fiction",
+			"Thriller"
+		],
+		"overview": "Desperate to land a man on the moon before Russia does, NASA hastily preps a would-be spaceman for a mission that would leave him alone in a lunar shelter for a year."
+	},
+	{
 		"slug": "dont-worry-he-wont-get-far-on-foot",
 		"title": "Don't Worry He Won't Get Far on Foot",
 		"year": 2018,
@@ -122633,7 +122952,7 @@
 	{
 		"slug": "little-shop-of-horrors",
 		"title": "Little Shop of Horrors",
-		"year": null,
+		"year": 1986,
 		"poster": "/iKkbN17OmFosaW6asCNZTTsyvpu.jpg",
 		"votes": 1703,
 		"tmdb": {
@@ -122671,6 +122990,21 @@
 			"Comedy"
 		],
 		"overview": "Seymour Krelborn is a nerdy orphan working at Mushnik's, a flower shop in urban Skid Row. He harbors a crush on fellow co-worker, Audrey Fulquard, and is berated by Mr. Mushnik daily. One day, Seymour finds a very mysterious unidentified plant which he calls Audrey II. The plant seems to have a craving for blood and soon begins to sing for its supper."
+	},
+	{
+		"slug": "little-shop-of-horrors-1960",
+		"title": "Little Shop of Horrors",
+		"year": 1960,
+		"poster": null,
+		"votes": 0,
+		"tmdb": null,
+		"imdb": null,
+		"appearances": [
+			{
+				"id": "678",
+				"role": "watched"
+			}
+		]
 	},
 	{
 		"slug": "the-tingler",
@@ -123210,7 +123544,7 @@
 	{
 		"slug": "the-vanishing",
 		"title": "The Vanishing",
-		"year": null,
+		"year": 1988,
 		"poster": "/eE5bbuRJluooG2MjEAsLEYyuJoa.jpg",
 		"votes": 876,
 		"tmdb": {
@@ -123221,10 +123555,6 @@
 		"appearances": [
 			{
 				"id": "675",
-				"role": "watched"
-			},
-			{
-				"id": "560",
 				"role": "watched"
 			}
 		],
@@ -128391,6 +128721,36 @@
 		"overview": "The events of a crisis hotline business on one crazy night during the Christmas holidays."
 	},
 	{
+		"slug": "the-manchurian-candidate-1962",
+		"title": "The Manchurian Candidate",
+		"year": 1962,
+		"poster": "/fE0Yjnxnv9JPs11elXha4BEwKTR.jpg",
+		"votes": 842,
+		"tmdb": {
+			"type": "movie",
+			"id": 982
+		},
+		"imdb": "tt0056218",
+		"appearances": [
+			{
+				"id": "640",
+				"role": "watched"
+			}
+		],
+		"directors": [
+			{
+				"name": "John Frankenheimer",
+				"slug": "john-frankenheimer"
+			}
+		],
+		"runtime": 126,
+		"genres": [
+			"Thriller",
+			"Drama"
+		],
+		"overview": "Near the end of the Korean War, a platoon of U.S. soldiers is captured by communists and brainwashed. Following the war, the platoon is returned home, and Sergeant Raymond Shaw is lauded as a hero by the rest of his platoon. However, the platoon commander, Captain Bennett Marco, finds himself plagued by strange nightmares and soon races to uncover a terrible plot."
+	},
+	{
 		"slug": "brigsby-bear",
 		"title": "Brigsby Bear",
 		"year": 2017,
@@ -129254,6 +129614,41 @@
 			"Drama"
 		],
 		"overview": "A simple yet proud rancher conspires to murder his wife for financial gain, convincing his teenage son to participate."
+	},
+	{
+		"slug": "psycho-1998",
+		"title": "Psycho",
+		"year": 1998,
+		"poster": "/6pQpZu6JjPsbHzjhG545OsjU2TG.jpg",
+		"votes": 1078,
+		"tmdb": {
+			"type": "movie",
+			"id": 11252
+		},
+		"imdb": "tt0155975",
+		"appearances": [
+			{
+				"id": "635",
+				"role": "watched"
+			},
+			{
+				"id": "612",
+				"role": "watched"
+			}
+		],
+		"directors": [
+			{
+				"name": "Gus Van Sant",
+				"slug": "gus-van-sant"
+			}
+		],
+		"runtime": 104,
+		"genres": [
+			"Horror",
+			"Mystery",
+			"Thriller"
+		],
+		"overview": "A young female embezzler arrives at the Bates Motel, which has terrible secrets of its own."
 	},
 	{
 		"slug": "david-lynch-the-art-life",
@@ -133310,7 +133705,7 @@
 	{
 		"slug": "beauty-and-the-beast",
 		"title": "Beauty and the Beast",
-		"year": 1946,
+		"year": 2017,
 		"poster": "/hKegSKIDep2ewJWPUQD7u0KqFIp.jpg",
 		"votes": 16179,
 		"tmdb": {
@@ -133321,10 +133716,6 @@
 		"appearances": [
 			{
 				"id": "610",
-				"role": "watched"
-			},
-			{
-				"id": "581",
 				"role": "watched"
 			},
 			{
@@ -133548,7 +133939,7 @@
 	{
 		"slug": "the-italian-job",
 		"title": "The Italian Job",
-		"year": null,
+		"year": 1969,
 		"poster": "/8NOw3HPHkcBndJW2K6ofbcSb7WD.jpg",
 		"votes": 899,
 		"tmdb": {
@@ -133579,6 +133970,36 @@
 			"Thriller"
 		],
 		"overview": "Charlie's got a 'job' to do. Having just left prison he finds one of his friends has attempted a high-risk job in Torino, Italy, right under the nose of the mafia. Charlie's friend doesn't get very far, so Charlie takes over the 'job'. Using three Mini Coopers, a couple of Jaguars, and a bus, he hopes to bring Torino to a standstill, steal a fortune in gold and escape in the chaos."
+	},
+	{
+		"slug": "the-italian-job-2003",
+		"title": "The Italian Job",
+		"year": 2003,
+		"poster": "/eSkjK4kctyrWpFhxl35GPvSs6tI.jpg",
+		"votes": 6208,
+		"tmdb": {
+			"type": "movie",
+			"id": 9654
+		},
+		"imdb": "tt0317740",
+		"appearances": [
+			{
+				"id": "608",
+				"role": "watched"
+			}
+		],
+		"directors": [
+			{
+				"name": "F. Gary Gray",
+				"slug": "f-gary-gray"
+			}
+		],
+		"runtime": 110,
+		"genres": [
+			"Action",
+			"Crime"
+		],
+		"overview": "Charlie Croker pulled off the crime of a lifetime. The one thing that he didn't plan on was being double-crossed. Along with a drop-dead gorgeous safecracker, Croker and his team take off to re-steal the loot and end up in a pulse-pounding, pedal-to-the-metal chase that careens up, down, above and below the streets of Los Angeles."
 	},
 	{
 		"slug": "louis-c-k-2017",
@@ -138773,6 +139194,37 @@
 		"overview": "For years, old wood carver Mr. Meacham has delighted local children with his tales of the fierce dragon that resides deep in the woods of the Pacific Northwest. To his daughter, Grace, who works as a forest ranger, these stories are little more than tall tales... until she meets Pete, a mysterious 10-year-old with no family and no home who claims to live in the woods with a giant, green dragon named Elliott. And from Pete's descriptions, Elliott seems remarkably similar to the dragon from Mr. Meacham's stories. With the help of Natalie, an 11-year-old girl whose father Jack owns the local lumber mill, Grace sets out to determine where Pete came from, where he belongs, and the truth about this dragon."
 	},
 	{
+		"slug": "beauty-and-the-beast-1946",
+		"title": "Beauty and the Beast",
+		"year": 1946,
+		"poster": "/iYSe3yrkma0e1B0wWPXgr8w5sDN.jpg",
+		"votes": 689,
+		"tmdb": {
+			"type": "movie",
+			"id": 648
+		},
+		"imdb": "tt0038348",
+		"appearances": [
+			{
+				"id": "581",
+				"role": "watched"
+			}
+		],
+		"directors": [
+			{
+				"name": "Jean Cocteau",
+				"slug": "jean-cocteau"
+			}
+		],
+		"runtime": 96,
+		"genres": [
+			"Drama",
+			"Fantasy",
+			"Romance"
+		],
+		"overview": "The story of a gentle-hearted beast in love with a simple and beautiful girl. She is drawn to the repellent but strangely fascinating Beast, who tests her fidelity by giving her a key, telling her that if she doesn't return it to him by a specific time, he will die of grief. She is unable to return the key on time, but it is revealed that the Beast is the genuinely handsome one. A simple tale of tragic love that turns into a surreal vision of death, desire, and beauty."
+	},
+	{
 		"slug": "better-late-than-never",
 		"title": "Better Late Than Never",
 		"year": 2016,
@@ -141158,7 +141610,7 @@
 	{
 		"slug": "assault-on-precinct-13",
 		"title": "Assault on Precinct 13",
-		"year": 2005,
+		"year": 1976,
 		"poster": "/RtGDEmXbSxE8NThCCY1SXFXLLw.jpg",
 		"votes": 1258,
 		"tmdb": {
@@ -141170,10 +141622,6 @@
 			{
 				"id": "premium-john-carpenter-part-2",
 				"role": "premium"
-			},
-			{
-				"id": "406",
-				"role": "watched"
 			}
 		],
 		"directors": [
@@ -141822,6 +142270,38 @@
 		"overview": "Plagued by a series of apocalyptic visions, a young husband and father questions whether to shelter his family from a coming storm, or from himself."
 	},
 	{
+		"slug": "the-vanishing-1993",
+		"title": "The Vanishing",
+		"year": 1993,
+		"poster": "/tlFUthtOMlRYDpRzYDBtyrNJJUU.jpg",
+		"votes": 587,
+		"tmdb": {
+			"type": "movie",
+			"id": 1644
+		},
+		"imdb": "tt0108473",
+		"appearances": [
+			{
+				"id": "560",
+				"role": "watched"
+			}
+		],
+		"directors": [
+			{
+				"name": "George Sluizer",
+				"slug": "george-sluizer"
+			}
+		],
+		"runtime": 109,
+		"genres": [
+			"Thriller",
+			"Drama",
+			"Mystery",
+			"Horror"
+		],
+		"overview": "The boyfriend of an abducted woman never gives up the search as the abductor looks on."
+	},
+	{
 		"slug": "secrets-of-the-force-awakens-a-cinematic-journey",
 		"title": "Secrets of The Force Awakens: A Cinematic Journey",
 		"year": 2016,
@@ -141912,6 +142392,40 @@
 			"Crime"
 		],
 		"overview": "Walter Burns is an irresistibly conniving newspaper publisher desperate to woo back his paper’s star reporter, who also happens to be his estranged wife. She’s threatening to quit and settle down with a new beau, but, as Walter knows, she has a weakness: she can’t resist a juicy scoop."
+	},
+	{
+		"slug": "the-heartbreak-kid-2007",
+		"title": "The Heartbreak Kid",
+		"year": 2007,
+		"poster": "/bVWM0L3DqFpNE3Yt49WjAgTQUc0.jpg",
+		"votes": 1811,
+		"tmdb": {
+			"type": "movie",
+			"id": 9038
+		},
+		"imdb": "tt0408839",
+		"appearances": [
+			{
+				"id": "559",
+				"role": "watched"
+			}
+		],
+		"directors": [
+			{
+				"name": "Peter Farrelly",
+				"slug": "peter-farrelly"
+			},
+			{
+				"name": "Bobby Farrelly",
+				"slug": "bobby-farrelly"
+			}
+		],
+		"runtime": 116,
+		"genres": [
+			"Comedy",
+			"Romance"
+		],
+		"overview": "Eddie, the 40-year-old confirmed bachelor finally says \"I do\" to the beautiful and sexy Lila. But during their honeymoon in Mexico, the woman of his dreams turns out to be a total nightmare, and the guy who could never pull the trigger realizes he’s jumped the gun."
 	},
 	{
 		"slug": "when-eight-bells-toll",
@@ -146025,7 +146539,7 @@
 	{
 		"slug": "the-hound-of-the-baskervilles",
 		"title": "The Hound of the Baskervilles",
-		"year": null,
+		"year": 1959,
 		"poster": "/gJNscfPsBnQRdIjjdrTIHVCRwvY.jpg",
 		"votes": 394,
 		"tmdb": {
@@ -146036,10 +146550,6 @@
 		"appearances": [
 			{
 				"id": "540",
-				"role": "watched"
-			},
-			{
-				"id": "452",
 				"role": "watched"
 			}
 		],
@@ -146689,7 +147199,7 @@
 	{
 		"slug": "a-nightmare-on-elm-street",
 		"title": "A Nightmare on Elm Street",
-		"year": null,
+		"year": 1984,
 		"poster": "/wGTpGGRMZmyFCcrY2YoxVTIBlli.jpg",
 		"votes": 5980,
 		"tmdb": {
@@ -146701,10 +147211,6 @@
 			{
 				"id": "premium-a-nightmare-on-elm-street-franchise",
 				"role": "premium"
-			},
-			{
-				"id": "536",
-				"role": "watched"
 			},
 			{
 				"id": "271",
@@ -146967,6 +147473,37 @@
 				"role": "watched"
 			}
 		]
+	},
+	{
+		"slug": "a-nightmare-on-elm-street-2010",
+		"title": "A Nightmare on Elm Street",
+		"year": 2010,
+		"poster": "/nsmW28GcNabCUZfP5YtUEe8Li0f.jpg",
+		"votes": 2995,
+		"tmdb": {
+			"type": "movie",
+			"id": 23437
+		},
+		"imdb": "tt1179056",
+		"appearances": [
+			{
+				"id": "536",
+				"role": "watched"
+			}
+		],
+		"directors": [
+			{
+				"name": "Samuel Bayer",
+				"slug": "samuel-bayer"
+			}
+		],
+		"runtime": 95,
+		"genres": [
+			"Horror",
+			"Mystery",
+			"Thriller"
+		],
+		"overview": "Teenagers Nancy, Quentin, Kris, Jesse and Dean are all neighborhood friends who begin having the same dream of a horribly disfigured man who wears a tattered sweater and a glove made of knives. The man terrorizes them in their dreams, and the only escape is to wake up. But when, one by one, they start dying violently, the friends realize that what happens in the dream world is real, and the only way to stay alive is to stay awake."
 	},
 	{
 		"slug": "the-keeping-room",
@@ -158250,7 +158787,7 @@
 	{
 		"slug": "planet-of-the-apes",
 		"title": "Planet of the Apes",
-		"year": null,
+		"year": 1968,
 		"poster": "/2r9iKnlSYEk4daQadsXfcjHfIjQ.jpg",
 		"votes": 4125,
 		"tmdb": {
@@ -158266,10 +158803,6 @@
 			{
 				"id": "premium-the-planet-of-the-apes-series",
 				"role": "premium"
-			},
-			{
-				"id": "430",
-				"role": "watched"
 			},
 			{
 				"id": "330",
@@ -158826,6 +159359,42 @@
 			"Science Fiction"
 		],
 		"overview": "The fifth and final episode in the Planet of the Apes series. After the collapse of human civilization, a community of intelligent apes led by Caesar lives in harmony with a group of humans. Gorilla General Aldo tries to cause an ape civil war and a community of human mutants who live beneath a destroyed city try to conquer those whom they perceive as enemies. All leading to the finale."
+	},
+	{
+		"slug": "planet-of-the-apes-2001",
+		"title": "Planet Of The Apes",
+		"year": 2001,
+		"poster": "/3ZWsuP5rExMSji7erxnb1P5SK6F.jpg",
+		"votes": 4559,
+		"tmdb": {
+			"type": "movie",
+			"id": 869
+		},
+		"imdb": "tt0133152",
+		"appearances": [
+			{
+				"id": "premium-the-planet-of-the-apes-series",
+				"role": "premium"
+			},
+			{
+				"id": "430",
+				"role": "watched"
+			}
+		],
+		"directors": [
+			{
+				"name": "Tim Burton",
+				"slug": "tim-burton"
+			}
+		],
+		"runtime": 120,
+		"genres": [
+			"Thriller",
+			"Science Fiction",
+			"Action",
+			"Adventure"
+		],
+		"overview": "After a spectacular crash-landing on an uncharted planet, brash astronaut Leo Davidson finds himself trapped in a savage world where talking apes dominate the human race. Desperate to find a way home, Leo must evade the invincible gorilla army led by Ruthless General Thade."
 	},
 	{
 		"slug": "running-wilde",
@@ -162756,6 +163325,38 @@
 			"Comedy"
 		],
 		"overview": "An underachieving vocal coach is motivated by her father, the king of movie-trailer voice-overs, to pursue her aspirations of becoming a voice-over star. Amidst pride, sexism and family dysfunction, she sets out to change the voice of a generation."
+	},
+	{
+		"slug": "the-hound-of-the-baskervilles-1939",
+		"title": "The Hound of the Baskervilles",
+		"year": 1939,
+		"poster": "/61XD1LxA3kXLRrBXat3jN84MtPR.jpg",
+		"votes": 238,
+		"tmdb": {
+			"type": "movie",
+			"id": 27118
+		},
+		"imdb": "tt0031448",
+		"appearances": [
+			{
+				"id": "452",
+				"role": "watched"
+			}
+		],
+		"directors": [
+			{
+				"name": "Sidney Lanfield",
+				"slug": "sidney-lanfield"
+			}
+		],
+		"runtime": 80,
+		"genres": [
+			"Mystery",
+			"Crime",
+			"Horror",
+			"Thriller"
+		],
+		"overview": "When a nobleman is threatened by a family curse on his newly inherited estate, detective Sherlock Holmes is hired to investigate."
 	},
 	{
 		"slug": "the-office",
@@ -167294,6 +167895,37 @@
 				"role": "watched"
 			}
 		]
+	},
+	{
+		"slug": "invasion-of-the-body-snatchers-1956",
+		"title": "Invasion of the Body Snatchers",
+		"year": 1956,
+		"poster": "/8BrMQmgwGzIHSyBjCDOLOdi79fJ.jpg",
+		"votes": 1240,
+		"tmdb": {
+			"type": "movie",
+			"id": 11549
+		},
+		"imdb": "tt0049366",
+		"appearances": [
+			{
+				"id": "431",
+				"role": "watched"
+			}
+		],
+		"directors": [
+			{
+				"name": "Don Siegel",
+				"slug": "don-siegel"
+			}
+		],
+		"runtime": 80,
+		"genres": [
+			"Science Fiction",
+			"Horror",
+			"Thriller"
+		],
+		"overview": "A small-town doctor learns that the population of his community is being replaced by emotionless alien duplicates."
 	},
 	{
 		"slug": "i-declare-war",
@@ -173465,6 +174097,38 @@
 		"overview": "The spoiled daughter of a Georgia plantation owner conducts a tumultuous romance with a cynical profiteer during the American Civil War and Reconstruction Era."
 	},
 	{
+		"slug": "assault-on-precinct-13-2005",
+		"title": "Assault on Precinct 13",
+		"year": 2005,
+		"poster": "/oBpsRvMN1ONl8oFHuWt1rasDYFJ.jpg",
+		"votes": 1250,
+		"tmdb": {
+			"type": "movie",
+			"id": 8978
+		},
+		"imdb": "tt0398712",
+		"appearances": [
+			{
+				"id": "406",
+				"role": "watched"
+			}
+		],
+		"directors": [
+			{
+				"name": "Jean-François Richet",
+				"slug": "jean-francois-richet"
+			}
+		],
+		"runtime": 109,
+		"genres": [
+			"Thriller",
+			"Action",
+			"Adventure",
+			"Crime"
+		],
+		"overview": "On New Year's Eve, inside a police station that's about to be closed for good, officer Jake Roenick must cobble together a force made up cops and criminals to save themselves from a mob looking to kill mobster Marion Bishop."
+	},
+	{
 		"slug": "the-man-with-two-brains",
 		"title": "The Man with Two Brains",
 		"year": 1983,
@@ -176897,7 +177561,7 @@
 	{
 		"slug": "the-blob",
 		"title": "The Blob",
-		"year": null,
+		"year": 1988,
 		"poster": "/n6nT4SMY6fLozm7AuGySpXUmjry.jpg",
 		"votes": 1109,
 		"tmdb": {
@@ -178858,6 +179522,35 @@
 		"overview": "Held in an L.A. interrogation room, Verbal Kint attempts to convince the feds that a mythic crime lord, Keyser Soze, not only exists, but was also responsible for drawing him and his four partners into a multi-million dollar heist that ended with an explosion in San Pedro harbor – leaving few survivors. Verbal lures his interrogators with an incredible story of the crime lord's almost supernatural prowess."
 	},
 	{
+		"slug": "the-bourne-identity-1988",
+		"title": "The Bourne Identity",
+		"year": 1988,
+		"poster": "/4NLM7JqueGMHw3LgnPzvoAFYyeD.jpg",
+		"votes": 104,
+		"tmdb": {
+			"type": "tv",
+			"id": 25397
+		},
+		"imdb": "tt0094791",
+		"appearances": [
+			{
+				"id": "381",
+				"role": "watched"
+			}
+		],
+		"directors": [
+			{
+				"name": "Robert Ludlum",
+				"slug": "robert-ludlum"
+			}
+		],
+		"genres": [
+			"Drama",
+			"Action & Adventure"
+		],
+		"overview": "Wounded to the brink of death and suffering from amnesia, Jason Bourne is rescued at sea by a fisherman. With nothing to go on but a Swiss bank account number, he starts to reconstruct his life, but finds that many people he encounters want him dead. However, Bourne realizes that he has the combat and mental skills of a world-class spy—but who does he work for?"
+	},
+	{
 		"slug": "the-ninth-gate",
 		"title": "The Ninth Gate",
 		"year": 1999,
@@ -179680,6 +180373,37 @@
 			"Thriller"
 		],
 		"overview": "Hired by a Spanish baron, Hong Kong treasure hunter Jackie, a.k.a. \"Asian Hawk\" and his entourage seek WWII Nazi gold buried in the Sahara Desert."
+	},
+	{
+		"slug": "batman-1966",
+		"title": "Batman",
+		"year": 1966,
+		"poster": "/iBaHizz1sfMs4N03aHsGe7I2G6S.jpg",
+		"votes": 1100,
+		"tmdb": {
+			"type": "movie",
+			"id": 2661
+		},
+		"imdb": "tt0060153",
+		"appearances": [
+			{
+				"id": "premium-the-batman-saga",
+				"role": "premium"
+			}
+		],
+		"directors": [
+			{
+				"name": "Leslie H. Martinson",
+				"slug": "leslie-h-martinson"
+			}
+		],
+		"runtime": 105,
+		"genres": [
+			"Action",
+			"Comedy",
+			"Crime"
+		],
+		"overview": "The Dynamic Duo faces four super-villains who plan to hold the world for ransom with the help of a secret invention that instantly dehydrates people."
 	},
 	{
 		"slug": "batman-returns",
@@ -188146,6 +188870,36 @@
 			"Science Fiction"
 		],
 		"overview": "Scientists and US Air Force officials fend off a blood-thirsty alien organism while investigating at a remote arctic outpost."
+	},
+	{
+		"slug": "the-blob-1958",
+		"title": "The Blob",
+		"year": 1958,
+		"poster": "/ctOwn1Ibg3SjDG4WulvFvSH0PRT.jpg",
+		"votes": 690,
+		"tmdb": {
+			"type": "movie",
+			"id": 8851
+		},
+		"imdb": "tt0051418",
+		"appearances": [
+			{
+				"id": "340",
+				"role": "watched"
+			}
+		],
+		"directors": [
+			{
+				"name": "Irvin S. Yeaworth Jr.",
+				"slug": "irvin-s-yeaworth-jr"
+			}
+		],
+		"runtime": 82,
+		"genres": [
+			"Horror",
+			"Science Fiction"
+		],
+		"overview": "A drive-in favorite, this sci-fi classic follows teenagers Steve and his best girl, Jane, as they try to protect their hometown from a gelatinous alien life form that engulfs everything it touches. The first to discover the substance and live to tell about it, Steve and Jane witness the blob destroying an elderly man, then it growing to a terrifying size. But no one else has seen the goo, and policeman Dave refuses to believe the kids without proof."
 	},
 	{
 		"slug": "count-dracula",

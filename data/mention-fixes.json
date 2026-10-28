@@ -1,5 +1,7 @@
 {
-	"_readme": "Fixes for titles mentioned in passing (what we watched, descriptions). Key: the mentioned title, lowercase (with \" (year)\" if it had one). Value: the corrected title (add \" (1985)\" to pin a year), a list of titles to split a bundle into its films, or null for something that isn't a film. Reviews are fixed in tmdb-overrides.json instead.",
+	"_readme": "Fixes for titles mentioned in passing (what we watched, descriptions). Key: the mentioned title, lowercase (with \" (year)\" if it had one). To fix it in one episode only, prefix the key with the episode id and \"|\". Value: the corrected title (add \" (1985)\" to pin a year), a list of titles to split a bundle into its films, or null for something that isn't a film. Reviews are fixed in tmdb-overrides.json instead.",
+
+	"2026-10-01-what-we-watched-resident-evil-primetime-the-python-hunt-and-|resident evil": "Resident Evil (2026)",
 
 	"levithan": "Leviathan (1989)",
 	"royal tenenbaums": "The Royal Tenenbaums",

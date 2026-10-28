@@ -1,59 +1,5 @@
 [
 	{
-		"id": "1068",
-		"kind": "regular",
-		"show": "Film Junk",
-		"number": 1068,
-		"part": null,
-		"date": "2026-10-26",
-		"dateApprox": false,
-		"title": "The Blair Witch Project",
-		"reviews": [
-			{
-				"title": "The Blair Witch Project",
-				"year": 1999,
-				"ratings": [
-					{
-						"host": "Frank",
-						"score": 4.5,
-						"outOf": 5
-					},
-					{
-						"host": "Jay",
-						"score": 4.5,
-						"outOf": 5
-					},
-					{
-						"host": "Sean",
-						"score": 4.5,
-						"outOf": 5
-					}
-				],
-				"film": "the-blair-witch-project"
-			}
-		],
-		"watched": [],
-		"segments": [],
-		"music": {},
-		"notes": "",
-		"description": "Okay, here's your motivation. You're lost, you're angry in the woods and no one is here to help you. The Blair Witch Project was a pretty big deal when it arrived in theatres back in 1999 but it was (and still is) a somewhat divisive film. There is no debating the influence it had in terms of found footage horror but somehow the scares remain very subjective. Is this movie still an intense and immersive experience or is it just boring? Are the performances realistic and convincing or is there a little too much riffing going on? Was the marketing for the movie way ahead of its time? What is the deal with that blue slime? Pop a tent and order some Mary Brown's Chicken while listening to the latest episode of Film Junk.",
-		"pack": null,
-		"links": {
-			"libsyn": "https://directory.libsyn.com/episode/index/id/43295509",
-			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-1068-172366711",
-			"apple": "https://podcasts.apple.com/us/podcast/the-blair-witch-project-1999/id74257105?i=1000798207688",
-			"spotify": "https://open.spotify.com/episode/3iKdi5NyDtciHAa7grPMn4"
-		},
-		"mentioned": [
-			{
-				"title": "Blair Witch",
-				"year": null,
-				"film": "blair-witch"
-			}
-		],
-		"hero": "Luke Hoctor"
-	},
-	{
 		"notes": "",
 		"description": "00:00 - Intro\n01:45 - Microwave Massacre\n20:30 - Digger\n28:00 - Evil Dead Burn\n36:50 - The Social Network, The Social Reckoning\n43:00 - Onslaught\n46:58 - Norm: The Tale of Norm MacDonald\n50:40 - Animals\n59:57 - Sleepaway Camp\n1:02:30 - The Entity",
 		"mentioned": [
@@ -120,8 +66,7 @@
 		"title": "What We Watched: Microwave Massacre, Digger, Evil Dead Burn, and more!",
 		"duration": 3979,
 		"links": {
-			"patreon": "https://www.patreon.com/filmjunk/posts/what-we-watched-173464008",
-			"spotify": "https://open.spotify.com/episode/2eqp2fS3tLiC51Qp2tH04M"
+			"patreon": "https://www.patreon.com/filmjunk/posts/what-we-watched-173464008"
 		}
 	},
 	{
@@ -194,6 +139,58 @@
 			"apple": "https://podcasts.apple.com/us/podcast/film-junk-calendar-reveal-nov-2026/id74257105?i=1000797679321",
 			"spotify": "https://open.spotify.com/episode/7FO8zpeZaBWfZBf2lF8puu"
 		}
+	},
+	{
+		"notes": "",
+		"description": "Okay, here's your motivation. You're lost, you're angry in the woods and no one is here to help you. The Blair Witch Project was a pretty big deal when it arrived in theatres back in 1999 but it was (and still is) a somewhat divisive film. There is no debating the influence it had in terms of found footage horror but somehow the scares remain very subjective. Is this movie still an intense and immersive experience or is it just boring? Are the performances realistic and convincing or is there a little too much riffing going on? Was the marketing for the movie way ahead of its time? What is the deal with that blue slime? Pop a tent and order some Mary Brown's Chicken while listening to the latest episode of Film Junk.",
+		"mentioned": [
+			{
+				"title": "Blair Witch",
+				"year": null,
+				"film": "blair-witch"
+			}
+		],
+		"segments": [],
+		"watched": [],
+		"reviews": [
+			{
+				"title": "The Blair Witch Project",
+				"year": 1999,
+				"ratings": [
+					{
+						"host": "Frank",
+						"score": 4.5,
+						"outOf": 5
+					},
+					{
+						"host": "Jay",
+						"score": 4.5,
+						"outOf": 5
+					},
+					{
+						"host": "Sean",
+						"score": 4.5,
+						"outOf": 5
+					}
+				],
+				"film": "the-blair-witch-project"
+			}
+		],
+		"music": {},
+		"show": "Film Junk",
+		"part": null,
+		"dateApprox": false,
+		"pack": null,
+		"id": "1068",
+		"kind": "regular",
+		"number": 1068,
+		"date": "2026-10-19",
+		"title": "The Blair Witch Project",
+		"links": {
+			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-1068-172366711",
+			"spotify": "https://open.spotify.com/episode/0Yd2DzMQBEcHuDhdKzb5kP"
+		},
+		"hero": "Luke Hoctor"
 	},
 	{
 		"id": "1067",
@@ -466,7 +463,7 @@
 		"watched": [
 			{
 				"title": "Resident Evil",
-				"year": null,
+				"year": 2026,
 				"film": "resident-evil"
 			},
 			{
@@ -1122,7 +1119,7 @@
 			{
 				"title": "Resident Evil",
 				"year": 2002,
-				"film": "resident-evil"
+				"film": "resident-evil-2002"
 			},
 			{
 				"title": "Resident Evil: Apocalypse",
@@ -13833,7 +13830,7 @@
 			{
 				"title": "Monster",
 				"year": 2023,
-				"film": "monster"
+				"film": "monster-2023"
 			},
 			{
 				"title": "Afire",
@@ -15275,6 +15272,10 @@
 				"film": "blood-for-dracula"
 			},
 			{
+				"title": "Dracula (1979)",
+				"film": "dracula-1979"
+			},
+			{
 				"title": "Nosferatu The Vampyre",
 				"film": "nosferatu-the-vampyre"
 			},
@@ -15445,7 +15446,7 @@
 			{
 				"title": "Imitation of Life",
 				"year": 1959,
-				"film": "imitation-of-life"
+				"film": "imitation-of-life-1959"
 			},
 			{
 				"title": "The Ring",
@@ -20903,7 +20904,7 @@
 			{
 				"title": "Hellraiser",
 				"year": 2022,
-				"film": "hellraiser"
+				"film": "hellraiser-2022"
 			},
 			{
 				"title": "Untold: Operation Flagrant Foul",
@@ -21316,7 +21317,7 @@
 		"covers": [
 			{
 				"title": "Child's Play (1988)",
-				"film": "childs-play"
+				"film": "childs-play-1988"
 			},
 			{
 				"title": "Child's Play 2",
@@ -24499,7 +24500,7 @@
 			{
 				"title": "West Side Story",
 				"year": 2021,
-				"film": "west-side-story"
+				"film": "west-side-story-2021"
 			},
 			{
 				"title": "Tick Tick Boom",
@@ -25660,7 +25661,7 @@
 			{
 				"title": "West Side Story",
 				"year": 2021,
-				"film": "west-side-story"
+				"film": "west-side-story-2021"
 			},
 			{
 				"title": "The One",
@@ -27742,7 +27743,7 @@
 			{
 				"title": "Night Moves",
 				"year": 1975,
-				"film": "night-moves"
+				"film": "night-moves-1975"
 			},
 			{
 				"title": "The White Lotus",
@@ -32570,7 +32571,7 @@
 			{
 				"title": "Black Christmas",
 				"year": 2019,
-				"film": "black-christmas"
+				"film": "black-christmas-2019"
 			},
 			{
 				"title": "The Devil Rides Out",
@@ -35749,7 +35750,7 @@
 			{
 				"title": "Black Christmas",
 				"year": 2019,
-				"film": "black-christmas"
+				"film": "black-christmas-2019"
 			},
 			{
 				"title": "Surviving the Game",
@@ -37796,7 +37797,7 @@
 			{
 				"title": "Child's Play",
 				"year": 2019,
-				"film": "childs-play"
+				"film": "childs-play-2019"
 			},
 			{
 				"title": "Hercules and The Haunted World",
@@ -39754,7 +39755,7 @@
 			{
 				"title": "Warrior",
 				"year": 2019,
-				"film": "warrior"
+				"film": "warrior-2019"
 			},
 			{
 				"title": "Punch-Drunk Love",
@@ -42586,7 +42587,7 @@
 			{
 				"title": "Countdown",
 				"year": 1967,
-				"film": "countdown"
+				"film": "countdown-1967"
 			},
 			{
 				"title": "Don't Worry He Won't Get Far on Foot",
@@ -42790,7 +42791,7 @@
 			{
 				"title": "Little Shop of Horrors",
 				"year": 1960,
-				"film": "little-shop-of-horrors"
+				"film": "little-shop-of-horrors-1960"
 			},
 			{
 				"title": "The Tingler",
@@ -46450,7 +46451,7 @@
 			{
 				"title": "The Manchurian Candidate",
 				"year": 1962,
-				"film": "the-manchurian-candidate"
+				"film": "the-manchurian-candidate-1962"
 			},
 			{
 				"title": "Brigsby Bear",
@@ -47044,7 +47045,7 @@
 			{
 				"title": "Psycho",
 				"year": 1998,
-				"film": "psycho"
+				"film": "psycho-1998"
 			},
 			{
 				"title": "Blade Runner 2049",
@@ -49589,7 +49590,7 @@
 			{
 				"title": "Psycho",
 				"year": 1998,
-				"film": "psycho"
+				"film": "psycho-1998"
 			}
 		],
 		"segments": [],
@@ -49981,7 +49982,7 @@
 			{
 				"title": "The Italian Job",
 				"year": 2003,
-				"film": "the-italian-job"
+				"film": "the-italian-job-2003"
 			},
 			{
 				"title": "Louis C.K.: 2017",
@@ -53011,7 +53012,7 @@
 			{
 				"title": "Beauty and the Beast",
 				"year": 1946,
-				"film": "beauty-and-the-beast"
+				"film": "beauty-and-the-beast-1946"
 			},
 			{
 				"title": "Better Late Than Never",
@@ -55174,7 +55175,7 @@
 			{
 				"title": "The Vanishing",
 				"year": 1993,
-				"film": "the-vanishing"
+				"film": "the-vanishing-1993"
 			},
 			{
 				"title": "Secrets of The Force Awakens: A Cinematic Journey",
@@ -55254,7 +55255,7 @@
 			{
 				"title": "The Heartbreak Kid",
 				"year": 2007,
-				"film": "the-heartbreak-kid"
+				"film": "the-heartbreak-kid-2007"
 			},
 			{
 				"title": "The Heartbreak Kid",
@@ -58186,7 +58187,7 @@
 			{
 				"title": "A Nightmare on Elm Street",
 				"year": 2010,
-				"film": "a-nightmare-on-elm-street"
+				"film": "a-nightmare-on-elm-street-2010"
 			},
 			{
 				"title": "The Keeping Room",
@@ -65454,6 +65455,10 @@
 			{
 				"title": "Battle for the Planet of the Apes",
 				"film": "battle-for-the-planet-of-the-apes"
+			},
+			{
+				"title": "Planet Of The Apes (2001)",
+				"film": "planet-of-the-apes-2001"
 			}
 		],
 		"notes": "Guest: Reed Farrington",
@@ -68100,7 +68105,7 @@
 			{
 				"title": "The Hound of the Baskervilles",
 				"year": 1939,
-				"film": "the-hound-of-the-baskervilles"
+				"film": "the-hound-of-the-baskervilles-1939"
 			},
 			{
 				"title": "The Office: Season 9",
@@ -70946,7 +70951,7 @@
 			{
 				"title": "Invasion of the Body Snatchers",
 				"year": 1956,
-				"film": "invasion-of-the-body-snatchers"
+				"film": "invasion-of-the-body-snatchers-1956"
 			},
 			{
 				"title": "I Declare War",
@@ -71069,7 +71074,7 @@
 			{
 				"title": "Planet of the Apes",
 				"year": 2001,
-				"film": "planet-of-the-apes"
+				"film": "planet-of-the-apes-2001"
 			},
 			{
 				"title": "The Trip",
@@ -74822,7 +74827,7 @@
 			{
 				"title": "Assault on Precinct 13",
 				"year": 2005,
-				"film": "assault-on-precinct-13"
+				"film": "assault-on-precinct-13-2005"
 			},
 			{
 				"title": "Skyfall",
@@ -78309,7 +78314,7 @@
 			{
 				"title": "The Bourne Identity",
 				"year": 1988,
-				"film": "the-bourne-identity"
+				"film": "the-bourne-identity-1988"
 			},
 			{
 				"title": "The Ninth Gate",
@@ -78803,6 +78808,10 @@
 		"covers": [
 			{
 				"title": "Batman (1966)",
+				"film": "batman-1966"
+			},
+			{
+				"title": "Batman (1989)",
 				"film": "batman"
 			},
 			{
@@ -84370,7 +84379,7 @@
 			{
 				"title": "The Blob",
 				"year": 1958,
-				"film": "the-blob"
+				"film": "the-blob-1958"
 			},
 			{
 				"title": "The Blob",

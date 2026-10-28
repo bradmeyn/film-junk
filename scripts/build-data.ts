@@ -863,20 +863,23 @@ attach(readJson<PlatformItem[]>(`${RAW}/spotify.json`), 'spotify');
 // Hand fixes for mentioned titles: typos renamed, bundles ("Rocky 1-5") split into their films,
 // null for things that aren't films at all. Runs before TMDB lookups see the titles.
 const mentionFixes = readJson<Record<string, string | string[] | null>>('data/mention-fixes.json') ?? {};
-// The fixed titles for one, or undefined when it needs no fixing.
-function fixTitle(title: string, year: number | null): string[] | undefined {
+// The fixed titles for one, or undefined when it needs no fixing. A key can be scoped to one
+// episode ("<episode id>|resident evil") when the same title means a different film elsewhere.
+function fixTitle(title: string, year: number | null, id: string): string[] | undefined {
 	const withYear = (year ? `${title} (${year})` : title).toLowerCase();
-	const fix = withYear in mentionFixes ? mentionFixes[withYear] : mentionFixes[title.toLowerCase()];
-	return fix === undefined ? undefined : [fix ?? []].flat();
+	const keys = [`${id}|${withYear}`, `${id}|${title.toLowerCase()}`, withYear, title.toLowerCase()];
+	const key = keys.find((k) => k in mentionFixes);
+	if (key === undefined) return undefined;
+	return [mentionFixes[key] ?? []].flat();
 }
-const fixMentions = (list: Mention[]) => list.flatMap((m) => fixTitle(m.title, m.year)?.map(mention) ?? [m]);
 for (const e of all) {
+	const fixMentions = (list: Mention[]) => list.flatMap((m) => fixTitle(m.title, m.year, e.id)?.map(mention) ?? [m]);
 	if (e.watched) e.watched = fixMentions(e.watched);
 	if (e.mentioned) e.mentioned = fixMentions(e.mentioned);
 	if (e.covers)
 		e.covers = e.covers.flatMap((c) => {
 			const { title, year } = splitYear(c.title);
-			return fixTitle(title, year)?.map((t) => ({ ...c, title: t })) ?? [c];
+			return fixTitle(title, year, e.id)?.map((t) => ({ ...c, title: t })) ?? [c];
 		});
 }
 
@@ -999,7 +1002,13 @@ function resolveMention(title: string, year: number | null, e: Episode): string 
 		films.get(slug)!.years?.add(year);
 		return slug;
 	};
-	if (!group) return mentionOnly(base);
+	if (!group) {
+		// Only ever mentioned: mentions that give different years are different films ("Resident Evil
+		// (2002)" and the 2026 one), so a second year gets its own page.
+		const taken = films.get(base);
+		if (year && taken?.year && taken.year !== year) return mentionOnly(`${base}-${year}`);
+		return mentionOnly(base);
+	}
 	const candidates = group.map(([identity, v]) => ({ slug: identitySlug.get(identity)!, year: v.year ?? 0 }));
 	if (year) {
 		const exact = candidates.find((c) => c.year === year);
