@@ -161,7 +161,7 @@ const fmt = (n: number) => n.toFixed(1);
 							<li>
 								<a href={filmHref(s.film) ?? episodeHref(s.episode)}>{s.title}</a>
 								<span class="muted">
-									<Stars score={s.raw.score} outOf={s.raw.outOf} label={first} qualifier={s.raw.qualifier} /> {formatDate(s.episode.date)}
+									<Stars score={s.raw.score} outOf={s.raw.outOf} label={first} /> {formatDate(s.episode.date)}
 								</span>
 							</li>
 						))

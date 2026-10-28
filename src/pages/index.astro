@@ -94,7 +94,7 @@ const blurb = latest.description.length > 420 ? latest.description.slice(0, 420)
 							{latest.reviews.flatMap((r) =>
 								r.ratings.map((x) => (
 									<li>
-										<span>{hostHref(x.host) ? <a href={hostHref(x.host)}>{x.host}</a> : x.host}</span> <Stars score={x.score} outOf={x.outOf} qualifier={x.qualifier} />
+										<span>{hostHref(x.host) ? <a href={hostHref(x.host)}>{x.host}</a> : x.host}</span> <Stars score={x.score} outOf={x.outOf} />
 									</li>
 								))
 							)}

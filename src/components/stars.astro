@@ -4,9 +4,8 @@ interface Props {
 	outOf?: number;
 	// Only when the host's name isn't already next to the stars, or screen readers say it twice.
 	label?: string;
-	qualifier?: 'light' | 'heavy';
 }
-const { score, outOf = 5, label, qualifier } = Astro.props;
+const { score, outOf = 5, label } = Astro.props;
 const full = Math.floor(Math.min(score, outOf));
 const half = score % 1 >= 0.5 && score < outOf;
 const empty = Math.max(0, outOf - full - (half ? 1 : 0));
@@ -14,20 +13,14 @@ const empty = Math.max(0, outOf - full - (half ? 1 : 0));
 const bonus = Math.max(0, Math.floor(score - outOf));
 ---
 
-<span class="stars" role="img" aria-label={`${label ? label + ': ' : ''}${qualifier ? qualifier + ' ' : ''}${score} out of ${outOf}`}>
-	{qualifier && <span class="qualifier">{qualifier}</span>}<span class="on">{'★'.repeat(full + bonus)}</span>{half && <span class="half">★</span>}<span class="off">{'★'.repeat(empty)}</span>
+<span class="stars" role="img" aria-label={`${label ? label + ': ' : ''}${score} out of ${outOf}`}>
+	<span class="on">{'★'.repeat(full + bonus)}</span>{half && <span class="half">★</span>}<span class="off">{'★'.repeat(empty)}</span>
 </span>
 
 <style>
 	.stars {
 		letter-spacing: 0.05em;
 		white-space: nowrap;
-	}
-	.qualifier {
-		margin-right: 0.3em;
-		font-size: 0.8em;
-		letter-spacing: 0;
-		color: var(--muted);
 	}
 	.on {
 		color: var(--star);

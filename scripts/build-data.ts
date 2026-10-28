@@ -881,8 +881,7 @@ for (const e of all) {
 
 // Details noted by hand from the audio, for things the guides don't have (data/hand-notes.json):
 // { "<episode id>": { hero?, notes?, reviews?: [{ title, year?, ratings: { Host: "3.5/4" } }] } }. Ratings
-// cover premiums and weekly episodes the guides don't rate yet; a rating can carry the "light" or
-// "heavy" the hosts say ("light 4"), and the score itself is what's averaged.
+// cover premiums and weekly episodes the guides don't rate yet.
 type HandNotes = { hero?: string; notes?: string; reviews?: { title: string; year?: number; ratings: Record<string, string> }[] };
 const handNotes = readJson<Record<string, HandNotes | string>>('data/hand-notes.json') ?? {};
 for (const [id, notes] of Object.entries(handNotes)) {
@@ -894,11 +893,10 @@ for (const [id, notes] of Object.entries(handNotes)) {
 	for (const r of notes.reviews ?? []) {
 		const scales = Object.values(r.ratings).map((x) => x.match(/\/\s*(\d+)/)?.[1]).filter(Boolean);
 		const ratings: Rating[] = Object.entries(r.ratings).map(([host, said]) => {
-			// "3.5/4", "6/5", "light 4"; a bare number is out of the scale the others use, else 5.
-			const m = said.trim().match(/^(?:(light|heavy)\s+)?(\d+(?:\.\d+)?)(?:\s*\/\s*(\d+))?$/i);
+			// "3.5/4", "6/5"; a bare number is out of the scale the others use, else 5.
+			const m = said.trim().match(/^(\d+(?:\.\d+)?)(?:\s*\/\s*(\d+))?$/);
 			if (!m) throw new Error(`hand-notes.json: ${id}, ${r.title}: can't read ${host}'s rating "${said}"`);
-			const qualifier = m[1]?.toLowerCase() as Rating['qualifier'];
-			return { host, score: +m[2], outOf: +(m[3] ?? scales[0] ?? 5), ...(qualifier && { qualifier }) };
+			return { host, score: +m[1], outOf: +(m[2] ?? scales[0] ?? 5) };
 		});
 		// Fill in a review the guides already list; otherwise (premiums) add it.
 		const existing = (e.reviews ??= []).find((x) => slugify(x.title) === slugify(r.title));

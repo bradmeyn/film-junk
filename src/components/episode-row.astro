@@ -25,7 +25,7 @@ const label = e.kind === 'regular' && e.number ? String(e.number) : { premium: '
 					{rated.length > 1 && <span class="muted">{r.title}</span>}
 					{r.ratings.map((x) => (
 						<span class="rating">
-							{x.host} <Stars score={x.score} outOf={x.outOf} qualifier={x.qualifier} />
+							{x.host} <Stars score={x.score} outOf={x.outOf} />
 						</span>
 					))}
 				</div>

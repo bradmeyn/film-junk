@@ -11,7 +11,7 @@
 		e: string; // episode href
 		l: string; // episode label and date
 		d: string; // ISO date of the episode
-		r: { h: string; s: number; o: number; q?: string }[]; // ratings: host, score, out of, light/heavy
+		r: { h: string; s: number; o: number }[]; // ratings: host, score, out of
 		a: number | null; // average out of 5, with 6/5 counted as 5
 	};
 
@@ -223,7 +223,7 @@
 								<li class:picked={r.h === host}>
 									<span>{r.h}</span>
 									<span class="stars" role="img" aria-label={`${r.h}: ${r.q ? r.q + ' ' : ''}${r.s} out of ${r.o}`}
-										>{#if r.q}<span class="qualifier">{r.q}</span>{/if}<span class="on">{s.on}</span>{#if s.half}<span class="half">★</span>{/if}<span class="off">{s.off}</span></span
+										><span class="on">{s.on}</span>{#if s.half}<span class="half">★</span>{/if}<span class="off">{s.off}</span></span
 									>
 								</li>
 							{/each}
@@ -460,13 +460,6 @@
 	.stars {
 		letter-spacing: 0.05em;
 		white-space: nowrap;
-	}
-
-	.qualifier {
-		margin-right: 0.3em;
-		font-size: 0.8em;
-		letter-spacing: 0;
-		color: var(--muted);
 	}
 
 	.on {

@@ -1,5 +1,5 @@
 {
-	"_readme": "Episode details noted by hand from the audio, for things the official guides don't have. Key: the episode id (from its URL, /episodes/<id>/). Fields, all optional: \"hero\", the listener given the hero shout-out; \"reviews\", each a film's full title (and release year for premiums, as on TMDB) with each host's score written as said: \"3.5/4\", \"6/5\", or with the light/heavy the hosts sometimes add, \"light 4\". A bare number is out of 5 unless another host's rating names the scale. build-data adds the reviews, or fills in the ratings of a review the guides already list.",
+	"_readme": "Episode details noted by hand from the audio, for things the official guides don't have. Key: the episode id (from its URL, /episodes/<id>/). Fields, all optional: \"hero\", the listener given the hero shout-out; \"reviews\", each a film's full title (and release year for premiums, as on TMDB) with each host's score written as said: \"3.5/4\", \"6/5\". A bare number is out of 5 unless another host's rating names the scale. build-data adds the reviews, or fills in the ratings of a review the guides already list.",
 
 	"1069": {
 		"hero": "James Mills",
@@ -238,7 +238,7 @@
 	"1062": {
 		"hero": "Josh Frank",
 		"reviews": [
-			{"title": "Reign of Fire", "ratings": {"Jay": "3.5", "Frank": "3.5", "Sean": "light 4"}}
+			{"title": "Reign of Fire", "ratings": {"Jay": "3.5", "Frank": "3.5", "Sean": "4"}}
 		]
 	},
 

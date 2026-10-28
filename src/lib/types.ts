@@ -2,8 +2,7 @@
 // write them) and the site (which reads them), so a parser change that breaks a page
 // fails the type check instead of rendering a blank field.
 
-// qualifier: a "light 4" or "heavy 3.5", as said on the show (hand-noted ratings only).
-export type Rating = { host: string; score: number; outOf: number; qualifier?: 'light' | 'heavy' };
+export type Rating = { host: string; score: number; outOf: number };
 export type Review = { title: string; year: number | null; ratings: Rating[]; film: string | null };
 export type Mention = { title: string; year: number | null; film: string | null };
 export type Kind = 'regular' | 'bonus' | 'premium' | 'patreon';
