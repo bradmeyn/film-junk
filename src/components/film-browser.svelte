@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
+	import { closeOnBackdrop, fitFilterSheet } from '../lib/filter-sheet';
 
 	// One review of one film. Scores are normalised to 5 stars; "6 out of 5" stays above 5.
 	export type Item = {
@@ -45,6 +46,11 @@
 	let reviewed = $state('');
 	let sort = $state('top');
 	let shown = $state(PAGE);
+	let sheet: HTMLDialogElement;
+	// Filters in use, besides the search box: shown on the phone Filters button.
+	let active = $derived([rating, host, decade, reviewed, sort !== DEFAULTS.sort].filter(Boolean).length);
+
+	onMount(() => fitFilterSheet(sheet));
 
 	const decades = [...new Set(items.flatMap((i) => (i.y ? [Math.floor(i.y / 10) * 10] : [])))].sort((a, b) => b - a);
 	const reviewYears = [...new Set(items.map((i) => i.d.slice(0, 4)))].sort().reverse();
@@ -154,6 +160,14 @@
 		<span>Title</span>
 		<input type="search" bind:value={q} oninput={syncUrl} placeholder="e.g. Alien" />
 	</label>
+	<button type="button" class="button sheet-open" aria-haspopup="dialog" onclick={() => sheet.showModal()}>
+		Filters{#if active}<span class="sheet-count" aria-label={`${active} on`}>{active}</span>{/if}
+	</button>
+	<dialog class="sheet" bind:this={sheet} onclick={closeOnBackdrop} aria-labelledby="film-filters-h">
+	<div class="sheet-head">
+		<h2 id="film-filters-h">Filters</h2>
+		{#if active}<button type="button" class="link" onclick={reset}>Clear all</button>{/if}
+	</div>
 	<label>
 		<span>Rated by</span>
 		<select bind:value={host} onchange={syncUrl}>
@@ -182,7 +196,7 @@
 		</select>
 	</label>
 	<fieldset>
-		<legend>{host ? `${host}'s rating` : 'Average rating'}</legend>
+		<legend>{host ? `${host}'s rating` : 'Rating'}</legend>
 		<div class="segmented">
 			{#each RATINGS as [value, label]}
 				<label class:active={rating === value}>
@@ -192,6 +206,10 @@
 			{/each}
 		</div>
 	</fieldset>
+	<button type="button" class="button primary sheet-done" onclick={() => sheet.close()}>
+		Show {filtered.length.toLocaleString()} review{filtered.length === 1 ? '' : 's'}
+	</button>
+	</dialog>
 </div>
 
 <p class="count muted" aria-live="polite">
@@ -252,7 +270,8 @@
 		border-top: 1px solid var(--line);
 	}
 
-	.filters > label {
+	.filters > label,
+	.sheet > label {
 		display: grid;
 		gap: 0.25rem;
 	}
@@ -328,18 +347,9 @@
 	@media (max-width: 40rem) {
 		.filters {
 			display: grid;
-			grid-template-columns: 1fr 1fr;
+			grid-template-columns: 1fr auto;
 			gap: 0.75rem;
-			padding: 0.75rem;
-		}
-
-		.filters .grow,
-		.filters fieldset {
-			grid-column: 1 / -1;
-		}
-
-		.filters select {
-			width: 100%;
+			padding-block: 0.75rem;
 		}
 
 		.segmented label {

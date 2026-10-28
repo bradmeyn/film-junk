@@ -306,3 +306,104 @@ select:hover {
 		transition: none !important;
 	}
 }
+
+/* Filter panels (src/lib/filter-sheet.ts). Wider screens: the dialog is only a wrapper, so its
+   controls sit in the filter row. Phones: a Filters button opens it as a bottom sheet. */
+.sheet[open]:not(:modal) {
+	display: contents;
+}
+
+.sheet-open,
+.sheet-head,
+.sheet-done {
+	display: none;
+}
+
+.sheet:modal {
+	position: fixed;
+	inset: auto 0 0;
+	width: 100%;
+	max-width: none;
+	max-height: 85dvh;
+	margin: 0;
+	padding: 1rem var(--gutter) calc(1rem + env(safe-area-inset-bottom));
+	overflow-y: auto;
+	border: 0;
+	border-top: 1px solid var(--line);
+	border-radius: var(--radius) var(--radius) 0 0;
+	background: var(--bg);
+	color: var(--text);
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 1rem 0.75rem;
+	align-items: end;
+}
+
+.sheet:modal::backdrop {
+	background: rgb(0 0 0 / 0.55);
+}
+
+.sheet:modal > :is(fieldset, .toggle, .sheet-head, .sheet-done) {
+	grid-column: 1 / -1;
+}
+
+.sheet:modal select {
+	width: 100%;
+}
+
+.sheet:modal .sheet-head {
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+}
+
+.sheet-head h2 {
+	font-size: var(--step-2);
+}
+
+.sheet:modal .sheet-done {
+	display: block;
+	width: 100%;
+	padding: 0.8rem;
+	font-size: var(--step-0);
+	text-align: center;
+	cursor: pointer;
+}
+
+@media (max-width: 40rem) {
+	.sheet-open {
+		display: inline-flex;
+		align-items: center;
+		gap: 0.4rem;
+		min-height: 2.5rem;
+		cursor: pointer;
+		font: inherit;
+		font-weight: 600;
+		color: var(--ink);
+	}
+}
+
+/* How many filters are on, on the Filters button. */
+.sheet-count {
+	display: inline-grid;
+	place-items: center;
+	min-width: 1.35rem;
+	height: 1.35rem;
+	padding-inline: 0.3rem;
+	border-radius: 999px;
+	background: var(--accent);
+	color: var(--accent-ink);
+	font-size: var(--step--2);
+	font-weight: 700;
+}
+
+/* Option groups in the sheet: an even grid, not a ragged wrap. */
+.sheet:modal .segmented {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+}
+
+/* A last option alone on a row with one gap beside it (5 options in 3 columns) fills the gap. */
+.sheet:modal .segmented > :last-child:nth-child(3n + 2) {
+	grid-column: span 2;
+}

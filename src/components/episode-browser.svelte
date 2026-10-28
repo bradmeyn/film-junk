@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
+	import { closeOnBackdrop, fitFilterSheet } from '../lib/filter-sheet';
 
 	export type Item = {
 		id: string;
@@ -32,6 +33,11 @@
 	let junkies = $state(false);
 	let sort = $state('newest');
 	let shown = $state(PAGE);
+	let sheet: HTMLDialogElement;
+	// Filters in use, besides the search box: shown on the phone Filters button.
+	let active = $derived([year, host, kind, junkies, sort !== 'newest'].filter(Boolean).length);
+
+	onMount(() => fitFilterSheet(sheet));
 
 	// Read filters from the URL once on load so filtered views can be shared.
 	onMount(() => {
@@ -95,6 +101,14 @@
 		<span>Title or number</span>
 		<input type="search" bind:value={q} oninput={syncUrl} placeholder="e.g. Dune or 500" />
 	</label>
+	<button type="button" class="button sheet-open" aria-haspopup="dialog" onclick={() => sheet.showModal()}>
+		Filters{#if active}<span class="sheet-count" aria-label={`${active} on`}>{active}</span>{/if}
+	</button>
+	<dialog class="sheet" bind:this={sheet} onclick={closeOnBackdrop} aria-labelledby="episode-filters-h">
+	<div class="sheet-head">
+		<h2 id="episode-filters-h">Filters</h2>
+		{#if active}<button type="button" class="link" onclick={reset}>Clear all</button>{/if}
+	</div>
 	<label>
 		<span>Year</span>
 		<select bind:value={year} onchange={syncUrl}>
@@ -133,6 +147,10 @@
 		<input type="checkbox" bind:checked={junkies} onchange={syncUrl} />
 		Junkies &amp; top 10s
 	</label>
+	<button type="button" class="button primary sheet-done" onclick={() => sheet.close()}>
+		Show {filtered.length.toLocaleString()} episode{filtered.length === 1 ? '' : 's'}
+	</button>
+	</dialog>
 </div>
 
 <p class="count muted" aria-live="polite">
@@ -199,7 +217,8 @@
 		border-top: 1px solid var(--line);
 	}
 
-	.filters > label {
+	.filters > label,
+	.sheet > label:not(.toggle) {
 		display: grid;
 		gap: 0.25rem;
 	}
@@ -266,7 +285,7 @@
 	}
 
 	/* A quick filter, styled like one of the type options. */
-	.filters > .toggle {
+	.toggle {
 		display: block;
 		padding: 0.5rem 0.75rem;
 		border: 1px solid var(--line);
@@ -298,23 +317,13 @@
 	@media (max-width: 40rem) {
 		.filters {
 			display: grid;
-			grid-template-columns: 1fr 1fr;
+			grid-template-columns: 1fr auto;
 			gap: 0.75rem;
-			padding: 0.75rem;
+			padding-block: 0.75rem;
 		}
 
-		.filters .grow,
-		.filters fieldset,
-		.filters > .toggle {
-			grid-column: 1 / -1;
-		}
-
-		.filters > .toggle {
+		.toggle {
 			text-align: center;
-		}
-
-		.filters select {
-			width: 100%;
 		}
 
 		.segmented label {
