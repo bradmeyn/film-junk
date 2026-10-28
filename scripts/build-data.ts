@@ -1198,7 +1198,13 @@ const schedule: ScheduleMonth[] = Object.entries(scheduleData)
 
 // The other Junk shows: name, artwork and latest episodes from each one's Apple lookup.
 type AppleLookup = { results: ({ wrapperType: 'track'; collectionName: string; collectionViewUrl: string; artworkUrl600: string } | (AppleEpisode & { wrapperType: 'podcastEpisode' }))[] };
-const universe: UniverseShow[] = ['game-junk', 'ball-junk', 'tv-junk'].flatMap((key) => {
+// Spotify show ids, found once with Spotify's search API.
+const UNIVERSE_SPOTIFY: Record<string, string> = {
+	'game-junk': '78QyrLbDBY1oNiQzceAIwP',
+	'ball-junk': '1oeuu9Naaubbag6HgbDtTH',
+	'tv-junk': '36W1ez6bX3ZsUJF9yH5k14',
+};
+const universe: UniverseShow[] = Object.keys(UNIVERSE_SPOTIFY).flatMap((key) => {
 	const results = readJson<AppleLookup>(`${RAW}/universe/${key}.json`)?.results ?? [];
 	const show = results.find((r) => r.wrapperType === 'track');
 	if (!show || show.wrapperType !== 'track') return [];
@@ -1216,7 +1222,15 @@ const universe: UniverseShow[] = ['game-junk', 'ball-junk', 'tv-junk'].flatMap((
 		})
 		.sort((a, b) => b.date.localeCompare(a.date))
 		.slice(0, 3);
-	return [{ name: show.collectionName, url: show.collectionViewUrl.split('?')[0], art: show.artworkUrl600, episodes }];
+	return [
+		{
+			name: show.collectionName,
+			url: show.collectionViewUrl.split('?')[0],
+			spotify: `https://open.spotify.com/show/${UNIVERSE_SPOTIFY[key]}`,
+			art: show.artworkUrl600,
+			episodes,
+		},
+	];
 });
 
 // Hand-entered lists and awards, keyed by year (see data/year-end.json).

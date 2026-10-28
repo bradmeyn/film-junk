@@ -82,9 +82,8 @@ const blurb = latest.description.length > 420 ? latest.description.slice(0, 420)
 		<article class:list={[{ 'has-art': latestArt }]}>
 			{latestArt && <img class="latest-art" src={latestArt.src} alt="" width="500" height="750" />}
 			<div class="latest-body">
-			<span class="sticker">{episodeLabel(latest)}</span>
+			<p class="label muted">{episodeLabel(latest)} · <time datetime={latest.date}>{formatDate(latest.date)}</time></p>
 			<h3><a href={episodeHref(latest)}>{latest.title}</a></h3>
-			<p class="muted"><time datetime={latest.date}>{formatDate(latest.date)}</time></p>
 			{blurb && <p class="blurb">{blurb}</p>}
 			{
 				latest.reviews?.some((r) => r.ratings.length) && (
@@ -232,10 +231,18 @@ const blurb = latest.description.length > 420 ? latest.description.slice(0, 420)
 				<ul>
 					{meta.universe.map((show) => (
 						<li>
-							<a class="show" href={show.url}>
+							<div class="show">
 								<img src={show.art} alt="" width="600" height="600" loading="lazy" />
-								<span>{show.name}</span>
-							</a>
+								<h3>{show.name}</h3>
+								<span class="apps">
+									<a href={show.spotify} aria-label={`${show.name} on Spotify`} title="Spotify">
+										<Icon name="spotify" />
+									</a>
+									<a href={show.url} aria-label={`${show.name} on Apple Podcasts`} title="Apple Podcasts">
+										<Icon name="apple" />
+									</a>
+								</span>
+							</div>
 							<ol>
 								{show.episodes.map((ep) => (
 									<li>
@@ -654,15 +661,36 @@ const blurb = latest.description.length > 420 ? latest.description.slice(0, 420)
 		gap: 0.75rem;
 		padding-bottom: 0.75rem;
 		border-bottom: 1px solid var(--line);
-		font-family: var(--font-display);
-		font-size: var(--step-2);
-		color: var(--ink);
-		text-decoration: none;
 	}
 
-	.show:hover span {
-		text-decoration: underline;
-		text-decoration-color: var(--accent);
+	.show h3 {
+		flex: 1;
+		font-size: var(--step-1);
+	}
+
+	/* Spotify or Apple: icon buttons, so listeners pick their app. */
+	.apps {
+		display: flex;
+		gap: 0.35rem;
+	}
+
+	.apps a {
+		display: grid;
+		place-items: center;
+		width: 2.25rem;
+		height: 2.25rem;
+		border: 1px solid var(--line);
+		border-radius: 999px;
+		color: var(--muted);
+	}
+
+	.apps a:hover {
+		border-color: var(--ink);
+		color: var(--ink);
+	}
+
+	.apps a[href*='spotify'] :global(svg) {
+		color: #1db954;
 	}
 
 	.show img {

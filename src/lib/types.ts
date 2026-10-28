@@ -118,7 +118,8 @@ export type Meta = {
 // Another Junk show and its latest episodes, from Apple Podcasts.
 export type UniverseShow = {
 	name: string;
-	url: string;
+	url: string; // Apple Podcasts
+	spotify: string;
 	art: string;
 	episodes: { title: string; number?: number; date: string; url: string }[];
 };

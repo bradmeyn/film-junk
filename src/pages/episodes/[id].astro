@@ -55,7 +55,7 @@ const pageDescription = [
 		<header class:list={['head', { 'has-art': art }]}>
 			{art && <img class:list={[{ poster: !art.square }]} src={art.src} alt="" width={art.square ? 700 : 500} height={art.square ? 700 : 750} fetchpriority="high" />}
 			<div>
-				<span class="sticker" data-kind={e.kind}>{label}</span>
+				{e.kind === 'regular' ? <p class="label muted">{label}</p> : <span class="sticker" data-kind={e.kind}>{label}</span>}
 				<h1 class:list={[{ long: e.title.length > 45 }]}>{e.title}</h1>
 				<p class="muted meta">
 					<time datetime={e.date}>{formatDate(e.date, e.dateApprox)}</time>
@@ -291,9 +291,13 @@ const pageDescription = [
 		justify-items: start;
 	}
 
+	.label {
+		margin: 0 0 0.5rem;
+	}
+
 	h1 {
 		font-size: var(--step-4);
-		line-height: 0.92;
+		line-height: 1.1;
 		max-width: 18ch;
 		overflow-wrap: anywhere;
 	}

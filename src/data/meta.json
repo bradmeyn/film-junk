@@ -1,5 +1,5 @@
 {
-	"builtAt": "2026-10-28T07:01:51.379Z",
+	"builtAt": "2026-10-28T07:09:17.425Z",
 	"yearNotes": {
 		"2005": [
 			"Total episodes: 47",
@@ -1070,7 +1070,7 @@
 					"episode": "1068",
 					"film": "the-blair-witch-project",
 					"poster": "/9050VGrYjYrEjpOvDZVAngLbg1f.jpg",
-					"status": "out"
+					"status": "patreon"
 				}
 			]
 		},
@@ -1122,6 +1122,7 @@
 		{
 			"name": "Game Junk Podcast",
 			"url": "https://podcasts.apple.com/us/podcast/game-junk-podcast/id385273911",
+			"spotify": "https://open.spotify.com/show/78QyrLbDBY1oNiQzceAIwP",
 			"art": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/23/81/51/238151c4-8f05-71f8-ec23-fb7b02eb6acd/mza_6021458389695684246.jpg/600x600bb.jpg",
 			"episodes": [
 				{
@@ -1147,6 +1148,7 @@
 		{
 			"name": "Ball Junk Podcast",
 			"url": "https://podcasts.apple.com/us/podcast/ball-junk-podcast/id640537508",
+			"spotify": "https://open.spotify.com/show/1oeuu9Naaubbag6HgbDtTH",
 			"art": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts2/v4/74/c3/da/74c3da90-fc9f-ba92-dd9f-5173fafb7e27/mza_4499670288883459777.jpg/600x600bb.jpg",
 			"episodes": [
 				{
@@ -1172,6 +1174,7 @@
 		{
 			"name": "TV Junk Podcast",
 			"url": "https://podcasts.apple.com/us/podcast/tv-junk-podcast/id1611388164",
+			"spotify": "https://open.spotify.com/show/36W1ez6bX3ZsUJF9yH5k14",
 			"art": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/0d/5c/1f/0d5c1f87-7c05-6349-72c5-301d38a5a1ae/mza_5373297653113572594.jpg/600x600bb.jpg",
 			"episodes": [
 				{
