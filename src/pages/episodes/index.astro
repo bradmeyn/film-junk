@@ -1,7 +1,7 @@
 ---
 import Layout from '../../layouts/layout.astro';
 import EpisodeBrowser, { type Item } from '../../components/episode-browser.svelte';
-import { averageRating, episodes, filmBySlug, meta, years } from '../../lib/data';
+import { averageRating, episodes, filmBySlug, meta, posterUrl, years } from '../../lib/data';
 
 // Year-end shows: the hosts' top 10 lists and the Junkies awards.
 const yearEnd = new Set(Object.values(meta.yearEnd).flatMap((shows) => shows.map((s) => s.id)));
@@ -15,7 +15,8 @@ const items: Item[] = episodes.map((e) => ({
 	h: [...new Set((e.reviews ?? []).flatMap((r) => r.ratings.map((x) => x.host)))],
 	a: averageRating(e.reviews),
 	...(yearEnd.has(e.id) && { y: true }),
-	p: e.reviews?.map((r) => r.film && filmBySlug.get(r.film)?.poster).find(Boolean) || undefined,
+	// Artwork: the first reviewed film's poster, else a premium's Bandcamp cover (the 350px size).
+	p: posterUrl(e.reviews?.map((r) => r.film && filmBySlug.get(r.film)?.poster).find(Boolean), 'w154') ?? e.art?.replace('_16.jpg', '_2.jpg'),
 	// Each film's ratings; the title only when the episode reviews more than one.
 	r: (e.reviews ?? [])
 		.filter((r) => r.ratings.length)
@@ -39,6 +40,7 @@ const hosts = [...hostCounts].filter(([, n]) => n >= 5).sort((a, b) => b[1] - a[
 				All {items.length.toLocaleString()} episodes since 2005, with the films reviewed and each host's rating.
 			</p>
 		</div>
+		<h2 class="visually-hidden">All episodes</h2>
 		<EpisodeBrowser client:load {items} {years} {hosts} />
 	</div>
 </Layout>

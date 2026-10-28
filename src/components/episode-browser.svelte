@@ -11,7 +11,7 @@
 		h: string[]; // hosts who gave ratings
 		a: number | null; // average rating out of 5, for sorting
 		y?: true; // a year-end show: top 10 lists and the Junkies
-		p?: string; // TMDB poster path of the first film reviewed
+		p?: string; // artwork URL: the first reviewed film's poster, or a premium's cover
 		r: { t?: string; s: [host: string, score: number, outOf: number][] }[]; // ratings per film reviewed
 	};
 
@@ -172,32 +172,35 @@
 	<ol class="list">
 		{#each filtered.slice(0, shown) as e (e.id)}
 			<li>
-				<span class="sticker" data-kind={e.k}>{e.k === 'regular' && e.n ? e.n : { premium: 'Premium', patreon: 'Patreon', bonus: 'Bonus', regular: 'Episode' }[e.k]}</span>
-				{#if e.p}
-					<img class="poster" src={`https://image.tmdb.org/t/p/w92${e.p}`} alt="" width="92" height="138" loading="lazy" decoding="async" />
-				{:else}
-					<span class="poster"></span>
-				{/if}
-				<div>
-					<a class="title" href={`/episodes/${e.id}/`}>{e.t}</a>
-					<div class="meta">
-						<time datetime={e.d}>{fmt.format(new Date(e.d + 'T00:00:00Z'))}</time>
-					</div>
+				<div class="poster">
+					{#if e.p}<img src={e.p} alt="" width="154" height="231" loading="lazy" decoding="async" />{:else}<span aria-hidden="true">{e.t.slice(0, 1)}</span>{/if}
+				</div>
+				<div class="body">
+					<!-- Weekly shows: number and date as one label; other kinds get their badge. -->
+					<p class="kind">
+						{#if e.k === 'regular'}
+							<span class="label muted">{e.n ? `Episode ${e.n} · ` : ''}<time datetime={e.d}>{fmt.format(new Date(e.d + 'T00:00:00Z'))}</time></span>
+						{:else}
+							<span class="sticker" data-kind={e.k}>{{ premium: 'Premium', patreon: 'Patreon', bonus: 'Bonus' }[e.k]}</span>
+							<time class="label muted" datetime={e.d}>{fmt.format(new Date(e.d + 'T00:00:00Z'))}</time>
+						{/if}
+					</p>
+					<h3><a href={`/episodes/${e.id}/`}>{e.t}</a></h3>
 					{#each e.r as film}
-						<div class="ratings">
-							{#if film.t}<span class="film">{film.t}</span>{/if}
+						{#if film.t}<p class="film muted">{film.t}</p>{/if}
+						<ul class="ratings">
 							{#each film.s as [h, score, outOf]}
 								{@const st = stars(score, outOf)}
-								<span class="rating">
-									{h}
+								<li class:picked={h === host}>
+									<span>{h}</span>
 									<span class="stars" role="img" aria-label={`${score} out of ${outOf}`}
 										><span class="on">{'★'.repeat(st.full)}</span>{#if st.half}<span class="half">★</span>{/if}<span class="off"
 											>{'★'.repeat(st.empty)}</span
 										></span
 									>
-								</span>
+								</li>
 							{/each}
-						</div>
+						</ul>
 					{/each}
 				</div>
 			</li>
@@ -363,78 +366,110 @@
 		cursor: pointer;
 	}
 
+	/* The same cards as the films list: poster, then label, title and each host's stars. */
 	.list {
 		list-style: none;
 		padding: 0;
 		margin: 0;
-	}
-
-	.list li {
 		display: grid;
-		grid-template-columns: 5.5rem 2.75rem 1fr;
-		gap: 1rem;
+		grid-template-columns: repeat(auto-fill, minmax(min(100%, 20rem), 1fr));
+		gap: 0.75rem;
+	}
+
+	.list > li {
+		display: grid;
+		grid-template-columns: 5.5rem 1fr;
+		gap: 0.9rem;
 		align-items: start;
-		padding-block: 0.75rem;
-		border-bottom: 1px solid var(--line);
+		padding: 0.75rem 0;
+		border-top: 1px solid var(--line);
 	}
 
-	/* Decorative: the title next to it already names the film. A blank keeps titles aligned. */
+	/* Decorative: the title beside it names the episode. Without artwork, its first letter. */
 	.poster {
-		width: 100%;
-		height: auto;
 		aspect-ratio: 2 / 3;
-		object-fit: cover;
 		border-radius: var(--radius);
+		overflow: hidden;
 		background: var(--line);
+		display: grid;
+		place-items: center;
+		font-family: var(--font-display);
+		font-size: 2rem;
+		color: var(--muted);
 	}
 
-	span.poster {
-		opacity: 0.4;
+	.poster img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		display: block;
 	}
 
-	.list .sticker {
-		justify-self: start;
-		font-size: var(--step-1);
-		font-weight: 800;
+	.body {
+		min-width: 0;
 	}
 
-	.title {
-		font-weight: 700;
+	.kind {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		gap: 0.5rem;
+		margin: 0 0 0.3rem;
+	}
+
+	.kind .sticker {
+		font-size: var(--step--2);
+		letter-spacing: 0.06em;
+		text-transform: uppercase;
+	}
+
+	h3 {
+		font-size: var(--step-0);
+		line-height: 1.3;
+	}
+
+	h3 a {
 		text-decoration: none;
-		color: var(--ink);
 	}
 
-	.title:hover {
+	h3 a:hover {
 		text-decoration: underline;
 	}
 
-	.meta {
-		display: flex;
-		gap: 1rem;
+	.film {
+		margin: 0.5rem 0 0;
 		font-size: var(--step--1);
-		color: var(--muted);
 	}
 
 	.ratings {
-		display: flex;
-		flex-wrap: wrap;
-		gap: 0.15rem 1rem;
-		margin-top: 0.2rem;
+		list-style: none;
+		padding: 0;
+		margin: 0.4rem 0 0;
+		display: grid;
+		gap: 0.1rem;
 		font-size: var(--step--1);
 	}
 
-	.film {
-		color: var(--muted);
+	.film + .ratings {
+		margin-top: 0.15rem;
 	}
 
-	.rating {
-		font-weight: 600;
-		white-space: nowrap;
+	.ratings li {
+		display: flex;
+		justify-content: space-between;
+		gap: 0.5rem;
+		padding: 0.1rem 0.35rem;
+		border-radius: var(--radius);
+	}
+
+	.ratings li.picked {
+		background: color-mix(in srgb, var(--accent) 14%, transparent);
+		font-weight: 700;
 	}
 
 	.stars {
-		font-weight: 400;
 		letter-spacing: 0.05em;
+		white-space: nowrap;
 	}
 
 	.on {
@@ -450,17 +485,6 @@
 		background-clip: text;
 		-webkit-background-clip: text;
 		color: transparent;
-	}
-
-	@media (max-width: 30rem) {
-		.list li {
-			grid-template-columns: 4.25rem 2.25rem 1fr;
-			gap: 0.6rem;
-		}
-
-		.list .sticker {
-			font-size: var(--step-0);
-		}
 	}
 
 	.more {

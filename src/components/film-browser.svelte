@@ -243,7 +243,7 @@
 								{@const s = stars(r)}
 								<li class:picked={r.h === host}>
 									<span>{r.h}</span>
-									<span class="stars" role="img" aria-label={`${r.h}: ${r.q ? r.q + ' ' : ''}${r.s} out of ${r.o}`}
+									<span class="stars" role="img" aria-label={`${r.s} out of ${r.o}`}
 										><span class="on">{s.on}</span>{#if s.half}<span class="half">★</span>{/if}<span class="off">{s.off}</span></span
 									>
 								</li>
