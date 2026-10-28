@@ -5,19 +5,22 @@ import Stars from './stars.astro';
 interface Props {
 	episode: Episode;
 	note?: string;
+	// In a list that's all one kind (New on Patreon), the badge says nothing new.
+	hideKind?: boolean;
 }
-const { episode: e, note } = Astro.props;
+const { episode: e, note, hideKind } = Astro.props;
 const rated = (e.reviews ?? []).filter((r) => r.ratings.length);
 const label = e.kind === 'regular' && e.number ? String(e.number) : { premium: 'Premium', patreon: 'Patreon', bonus: 'Bonus', regular: 'Episode' }[e.kind];
 ---
 
-<li class="row">
-	<span class="sticker" data-kind={e.kind} title={episodeLabel(e)}>{label}</span>
+<li class:list={['row', { 'no-kind': hideKind }]}>
+	{!hideKind && <span class="sticker" data-kind={e.kind} title={episodeLabel(e)}>{label}</span>}
 	<div>
 		<a class="title" href={episodeHref(e)}>{e.title}</a>
 		<div class="meta muted">
 			<time datetime={e.date}>{formatDate(e.date, e.dateApprox)}</time>
 			{note && <span>{note}</span>}
+			{hideKind && e.links.patreon && <a href={e.links.patreon}>Listen on Patreon</a>}
 		</div>
 		{
 			rated.map((r) => (
@@ -42,6 +45,9 @@ const label = e.kind === 'regular' && e.number ? String(e.number) : { premium: '
 		align-items: start;
 		padding-block: 0.75rem;
 		border-bottom: 1px solid var(--line);
+	}
+	.row.no-kind {
+		grid-template-columns: 1fr;
 	}
 	.sticker {
 		justify-self: start;

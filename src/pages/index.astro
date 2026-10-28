@@ -48,7 +48,7 @@ const blurb = latest.description.length > 420 ? latest.description.slice(0, 420)
 			<h1>The Longest Running Movie Podcast</h1>
 			<p class="lede muted">An unofficial companion to the Film Junk Podcast, {latest.number!.toLocaleString()} episodes and counting.</p>
 			<div class="hosts">
-				<h2>Hosted by</h2>
+				<h2 class="label">Hosted by</h2>
 				<ul>
 					{
 						HOSTS.map((h) => (
@@ -56,9 +56,8 @@ const blurb = latest.description.length > 420 ? latest.description.slice(0, 420)
 								<a class="host-name" href={`/hosts/${h.slug}/`}>{h.name}</a>
 								<span class="host-links">
 									{h.links.map((l) => (
-										<a href={l.url} title={`${h.name.split(' ')[0]}'s ${l.label}`}>
+										<a href={l.url} title={`${h.name.split(' ')[0]}'s ${l.label}`} aria-label={`${h.name.split(' ')[0]}'s ${l.label}`}>
 											<Icon name={l.icon} />
-											<span>{l.label}</span>
 										</a>
 									))}
 								</span>
@@ -68,9 +67,9 @@ const blurb = latest.description.length > 420 ? latest.description.slice(0, 420)
 				</ul>
 			</div>
 			<p class="listen">
-				<a class="button big patreon" href={LINKS.patreon} aria-label="Support on Patreon"><Icon name="patreon" /> <span><span class="long">Support on </span>Patreon</span></a>
-				<a class="button big spotify" href={LINKS.spotify} aria-label="Listen on Spotify"><Icon name="spotify" /> <span><span class="long">Listen on </span>Spotify</span></a>
-				<a class="button big" href={LINKS.apple} aria-label="Listen on Apple Podcasts"><Icon name="apple" /> <span><span class="long">Listen on </span>Apple</span></a>
+				<a class="button big patreon" href={LINKS.patreon}><Icon name="patreon" /> Support on Patreon</a>
+				<a class="button big spotify" href={LINKS.spotify}><Icon name="spotify" /> Spotify</a>
+				<a class="button big" href={LINKS.apple}><Icon name="apple" /> Apple Podcasts</a>
 			</p>
 		</div>
 	</section>
@@ -185,7 +184,7 @@ const blurb = latest.description.length > 420 ? latest.description.slice(0, 420)
 			Junk Mail, Retro Reviews, Criterionitis and more, for patrons. <a href={LINKS.patreon}>Join on Patreon</a>
 		</p>
 		<ul class="rows">
-			{patreonLatest.slice(0, 6).map((e) => <EpisodeRow episode={e} />)}
+			{patreonLatest.slice(0, 6).map((e) => <EpisodeRow episode={e} hideKind />)}
 		</ul>
 	</section>
 
@@ -290,7 +289,7 @@ const blurb = latest.description.length > 420 ? latest.description.slice(0, 420)
 		height: auto;
 		aspect-ratio: 2 / 3;
 		object-fit: cover;
-		border-radius: 0.35rem;
+		border-radius: var(--radius);
 		background: var(--line);
 		display: block;
 	}
@@ -300,11 +299,12 @@ const blurb = latest.description.length > 420 ? latest.description.slice(0, 420)
 	}
 
 	.when {
-		font-family: var(--font-display);
-		font-weight: 800;
-		font-size: var(--step-0);
-		line-height: 1.1;
-		margin-top: 0.2rem;
+		font-size: var(--step--2);
+		font-weight: 600;
+		letter-spacing: 0.08em;
+		text-transform: uppercase;
+		color: var(--muted);
+		margin-top: 0.35rem;
 	}
 
 	.what {
@@ -338,9 +338,8 @@ const blurb = latest.description.length > 420 ? latest.description.slice(0, 420)
 
 
 	h1 {
-		font-size: clamp(2.25rem, 5.5vw, 4rem);
-		font-weight: 900;
-		line-height: 0.95;
+		font-size: clamp(2.25rem, 5vw, 3.5rem);
+		line-height: 1.05;
 		max-width: 20ch;
 	}
 
@@ -356,7 +355,7 @@ const blurb = latest.description.length > 420 ? latest.description.slice(0, 420)
 	}
 
 	.hosts h2 {
-		font-size: var(--step-1);
+		color: var(--muted);
 		margin-bottom: 0.5rem;
 	}
 
@@ -366,12 +365,14 @@ const blurb = latest.description.length > 420 ? latest.description.slice(0, 420)
 		margin: 0;
 		display: flex;
 		flex-wrap: wrap;
-		gap: 0.75rem 2rem;
+		gap: 0.5rem 1.75rem;
 	}
 
+	/* Name, then each link as an icon; the tooltip and label name it. */
 	.hosts li {
-		display: grid;
-		gap: 0.2rem;
+		display: flex;
+		align-items: center;
+		gap: 0.6rem;
 	}
 
 	.host-name {
@@ -381,22 +382,19 @@ const blurb = latest.description.length > 420 ? latest.description.slice(0, 420)
 
 	.host-links {
 		display: flex;
-		flex-wrap: wrap;
-		gap: 0.25rem 0.9rem;
-		font-size: var(--step--1);
+		gap: 0.15rem;
 	}
 
 	.host-links a {
-		display: inline-flex;
-		align-items: center;
-		gap: 0.3rem;
+		display: inline-grid;
+		place-items: center;
+		width: 1.75rem;
+		height: 1.75rem;
 		color: var(--muted);
-		text-decoration: none;
 	}
 
 	.host-links a:hover {
 		color: var(--ink);
-		text-decoration: underline;
 	}
 
 	.listen {
@@ -411,21 +409,21 @@ const blurb = latest.description.length > 420 ? latest.description.slice(0, 420)
 		padding: 0.7rem 1.15rem;
 	}
 
-	/* Phones: one row of three, the short label is enough next to each logo. */
+	/* Phones: Patreon across the top, the listening apps in a row underneath. */
 	@media (max-width: 30rem) {
 		.listen {
 			display: grid;
-			grid-template-columns: repeat(3, 1fr);
+			grid-template-columns: 1fr 1fr;
 			gap: 0.5rem;
+		}
+
+		.listen .patreon {
+			grid-column: 1 / -1;
 		}
 
 		.big {
 			justify-content: center;
 			padding-inline: 0.5rem;
-		}
-
-		.long {
-			display: none;
 		}
 	}
 
@@ -448,10 +446,8 @@ const blurb = latest.description.length > 420 ? latest.description.slice(0, 420)
 	}
 
 	.latest article {
-		padding: 1.5rem;
-		background: var(--surface);
-		border: 1px solid var(--line);
-		border-radius: 0.75rem;
+		padding: 1.5rem 0;
+		border-top: 1px solid var(--line);
 		display: grid;
 		gap: 1.25rem;
 	}
@@ -475,7 +471,7 @@ const blurb = latest.description.length > 420 ? latest.description.slice(0, 420)
 		height: auto;
 		aspect-ratio: 2 / 3;
 		object-fit: cover;
-		border-radius: 0.4rem;
+		border-radius: var(--radius);
 	}
 
 	.latest-body {
@@ -529,10 +525,11 @@ const blurb = latest.description.length > 420 ? latest.description.slice(0, 420)
 	}
 
 	dt {
-		font-family: var(--font-display);
-		font-weight: 800;
-		font-size: var(--step-2);
-		line-height: 1;
+		font-size: var(--step--1);
+		font-weight: 600;
+		letter-spacing: 0.08em;
+		line-height: 1.6;
+		font-variant-numeric: tabular-nums;
 	}
 
 	dt a {
@@ -597,7 +594,7 @@ const blurb = latest.description.length > 420 ? latest.description.slice(0, 420)
 	.premiums img {
 		width: 100%;
 		height: auto;
-		border-radius: 0.4rem;
+		border-radius: var(--radius);
 		aspect-ratio: 1;
 		object-fit: cover;
 		background: var(--line);

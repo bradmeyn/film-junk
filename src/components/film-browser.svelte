@@ -248,10 +248,8 @@
 		flex-wrap: wrap;
 		gap: 0.75rem 1rem;
 		align-items: end;
-		padding: 1rem;
-		background: var(--surface);
-		border: 1px solid var(--line);
-		border-radius: 0.6rem;
+		padding: 1rem 0;
+		border-top: 1px solid var(--line);
 	}
 
 	.filters > label {
@@ -274,7 +272,7 @@
 		font: inherit;
 		padding: 0.5rem 0.6rem;
 		border: 1px solid var(--line);
-		border-radius: 0.4rem;
+		border-radius: var(--radius);
 		background: var(--bg);
 		color: var(--ink);
 		min-height: 2.5rem;
@@ -299,7 +297,7 @@
 		gap: 1px;
 		background: var(--line);
 		border: 1px solid var(--line);
-		border-radius: 0.4rem;
+		border-radius: var(--radius);
 		overflow: hidden;
 	}
 
@@ -381,15 +379,13 @@
 		display: grid;
 		grid-template-columns: 5.5rem 1fr;
 		gap: 0.9rem;
-		padding: 0.75rem;
-		background: var(--surface);
-		border: 1px solid var(--line);
-		border-radius: 0.6rem;
+		padding: 0.75rem 0;
+		border-top: 1px solid var(--line);
 	}
 
 	.poster {
 		aspect-ratio: 2 / 3;
-		border-radius: 0.3rem;
+		border-radius: var(--radius);
 		overflow: hidden;
 		background: var(--line);
 		display: grid;
@@ -449,7 +445,7 @@
 		justify-content: space-between;
 		gap: 0.5rem;
 		padding: 0.1rem 0.35rem;
-		border-radius: 0.25rem;
+		border-radius: var(--radius);
 	}
 
 	.ratings li.picked {

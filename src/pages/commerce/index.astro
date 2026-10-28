@@ -153,7 +153,7 @@ const premiums = episodes.filter((e) => e.kind === 'premium');
 		width: 100%;
 		height: auto;
 		aspect-ratio: 1;
-		border-radius: 0.4rem;
+		border-radius: var(--radius);
 		object-fit: cover;
 		background: var(--line);
 	}
@@ -164,7 +164,7 @@ const premiums = episodes.filter((e) => e.kind === 'premium');
 		background: var(--slime);
 		color: var(--slime-ink);
 		font-family: var(--font-display);
-		font-weight: 900;
+		font-weight: 400;
 		font-size: var(--step-3);
 	}
 

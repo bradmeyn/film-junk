@@ -195,10 +195,8 @@
 		flex-wrap: wrap;
 		gap: 0.75rem 1rem;
 		align-items: end;
-		padding: 1rem;
-		background: var(--surface);
-		border: 1px solid var(--line);
-		border-radius: 0.6rem;
+		padding: 1rem 0;
+		border-top: 1px solid var(--line);
 	}
 
 	.filters > label {
@@ -221,7 +219,7 @@
 		font: inherit;
 		padding: 0.5rem 0.6rem;
 		border: 1px solid var(--line);
-		border-radius: 0.4rem;
+		border-radius: var(--radius);
 		background: var(--bg);
 		color: var(--ink);
 		min-height: 2.5rem;
@@ -245,7 +243,7 @@
 		gap: 1px;
 		background: var(--line);
 		border: 1px solid var(--line);
-		border-radius: 0.4rem;
+		border-radius: var(--radius);
 		overflow: hidden;
 	}
 
@@ -272,7 +270,7 @@
 		display: block;
 		padding: 0.5rem 0.75rem;
 		border: 1px solid var(--line);
-		border-radius: 0.4rem;
+		border-radius: var(--radius);
 		background: var(--bg);
 		cursor: pointer;
 		font-size: var(--step--1);
@@ -364,7 +362,7 @@
 		height: auto;
 		aspect-ratio: 2 / 3;
 		object-fit: cover;
-		border-radius: 0.25rem;
+		border-radius: var(--radius);
 		background: var(--line);
 	}
 
@@ -374,17 +372,8 @@
 
 	.list .sticker {
 		justify-self: start;
-		color: var(--brand-ink);
 		font-size: var(--step-1);
 		font-weight: 800;
-	}
-
-	.list .sticker[data-kind='bonus'] {
-		color: var(--bg);
-	}
-
-	.list .sticker[data-kind='patreon'] {
-		color: var(--accent);
 	}
 
 	.title {

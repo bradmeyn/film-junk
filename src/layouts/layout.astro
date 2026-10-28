@@ -1,9 +1,9 @@
 ---
-import '@fontsource-variable/big-shoulders-display';
+import '@fontsource-variable/fraunces';
 import '@fontsource-variable/public-sans';
 import '@fontsource-variable/public-sans/wght-italic.css';
 import '../styles/global.css';
-import displayFont from '@fontsource-variable/big-shoulders-display/files/big-shoulders-display-latin-wght-normal.woff2?url';
+import displayFont from '@fontsource-variable/fraunces/files/fraunces-latin-wght-normal.woff2?url';
 import bodyFont from '@fontsource-variable/public-sans/files/public-sans-latin-wght-normal.woff2?url';
 import Icon from '../components/icon.astro';
 import FilmSearch from '../components/film-search.svelte';
@@ -208,7 +208,7 @@ const current = (href: string) => path.startsWith(href) || (href === '/episodes/
 	.brand {
 		color: var(--ink);
 		font-family: var(--font-display);
-		font-weight: 900;
+		font-weight: var(--display-weight);
 		font-size: 1.75rem;
 		text-decoration: none;
 		line-height: 1;
@@ -221,7 +221,7 @@ const current = (href: string) => path.startsWith(href) || (href === '/episodes/
 	}
 
 	.brand img {
-		border-radius: 0.4rem;
+		border-radius: var(--radius);
 	}
 
 	.brand .guide {
@@ -232,7 +232,7 @@ const current = (href: string) => path.startsWith(href) || (href === '/episodes/
 		display: flex;
 		flex-wrap: wrap;
 		gap: 0.25rem 1rem;
-		font-weight: 600;
+		font-weight: 500;
 		color: var(--ink);
 	}
 

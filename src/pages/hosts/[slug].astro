@@ -209,10 +209,8 @@ const fmt = (n: number) => n.toFixed(1);
 	}
 
 	.tiles div {
-		padding: 1rem 1.25rem;
-		background: var(--surface);
-		border: 1px solid var(--line);
-		border-radius: 0.6rem;
+		padding: 1rem 0;
+		border-top: 1px solid var(--line);
 	}
 
 	.tiles dt {
@@ -223,7 +221,7 @@ const fmt = (n: number) => n.toFixed(1);
 	.tiles dd {
 		margin: 0.2rem 0 0;
 		font-family: var(--font-display);
-		font-weight: 900;
+		font-weight: 400;
 		font-size: var(--step-3);
 		line-height: 1;
 	}
@@ -299,7 +297,7 @@ const fmt = (n: number) => n.toFixed(1);
 		height: auto;
 		aspect-ratio: 2 / 3;
 		object-fit: cover;
-		border-radius: 0.35rem;
+		border-radius: var(--radius);
 		background: var(--line);
 		display: block;
 	}

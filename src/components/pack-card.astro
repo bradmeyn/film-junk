@@ -28,7 +28,7 @@ const { pack: p } = Astro.props;
 	.cover {
 		position: relative;
 		display: block;
-		border-radius: 0.6rem;
+		border-radius: var(--radius);
 		overflow: hidden;
 		box-shadow: 0 0 0 1px var(--line);
 		transition:
@@ -90,7 +90,7 @@ const { pack: p } = Astro.props;
 		right: 0.75rem;
 		bottom: 0.6rem;
 		font-family: var(--font-display);
-		font-weight: 900;
+		font-weight: 400;
 		font-size: var(--step-3);
 		line-height: 0.95;
 		color: #fff;
