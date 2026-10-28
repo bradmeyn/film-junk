@@ -17,6 +17,7 @@ const FEATURED_PREMIUMS = [
 	'premium-the-halloween-franchise',
 	'premium-the-purge-trilogy',
 	'premium-marvel-phase-one',
+	'premium-paul-thomas-anderson',
 ];
 const allPremiums = episodes.filter((e) => e.kind === 'premium' && e.art);
 const featured = FEATURED_PREMIUMS.flatMap((id) => allPremiums.filter((e) => e.id === id));
