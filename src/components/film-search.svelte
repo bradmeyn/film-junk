@@ -38,6 +38,7 @@
 
 	function open() {
 		load();
+		pick = Math.random();
 		dialog?.showModal();
 		input?.select();
 	}
@@ -73,8 +74,8 @@
 	let results = $derived.by(() => {
 		const q = normalize(query);
 		if (!index) return [];
-		// Before typing, the dialog suggests the most-discussed films (the index is sorted that way).
-		if (q.length < 2) return compact ? index.filter((r) => !isDirector(r)).slice(0, 6) : [];
+		// Before typing, the dialog suggests six films a host rated 6 out of 5, a different six each time.
+		if (q.length < 2) return compact ? shuffle(index.filter((r) => r[7]), pick).slice(0, 6) : [];
 		const scored: { row: Row; score: number }[] = [];
 		for (let i = 0; i < index.length; i++) {
 			const k = keys[i];
@@ -90,6 +91,12 @@
 	});
 
 	let typed = $derived(normalize(query).length >= 2);
+	let pick = $state(0);
+	// A shuffle that stays put until the dialog reopens with a new seed.
+	function shuffle(rows: Row[], seed: number) {
+		const rank = (i: number) => Math.sin((i + 1) * 12.9898 + seed * 78.233) * 43758.5453 % 1;
+		return rows.map((row, i) => ({ row, r: rank(i) })).sort((a, b) => a.r - b.r).map((x) => x.row);
+	}
 	let showResults = $derived(compact || typed);
 
 	// Keep the highlight on the first result whenever the list changes.
@@ -100,8 +107,9 @@
 
 	const isDirector = (row: Row) => row[0].startsWith('@');
 
-	function describe([slug, , , reviews, mentions, , directors]: Row) {
+	function describe([slug, , , reviews, mentions, , directors, sixes]: Row) {
 		if (slug.startsWith('@')) return `Director · ${reviews + mentions} films on the show`;
+		if (sixes && !typed) return sixes;
 		const parts = [];
 		if (directors) parts.push(directors);
 		if (reviews) parts.push(`reviewed ${reviews === 1 ? 'once' : `${reviews} times`}`);
@@ -180,7 +188,7 @@
 			{:else if typed && results.length === 0}
 				<p class="msg">No episode mentions "{query}". Try fewer words, or check the spelling.</p>
 			{:else}
-				{#if !typed}<p class="hint">Most discussed</p>{/if}
+				{#if !typed}<p class="hint">Rated 6 out of 5</p>{/if}
 				<ul id={`${id}-results`} role="listbox" aria-label="Results">
 					{#each results as row, i (row[0])}
 						<li role="none" class:active={i === active}>

@@ -124,6 +124,7 @@ export type UniverseShow = {
 	episodes: { title: string; number?: number; date: string; url: string }[];
 };
 
-// Search index row: [slug, title, year, reviews, mentions, poster, directors] (poster: TMDB file id, or '').
+// Search index row: [slug, title, year, reviews, mentions, poster, directors, sixes] (poster: TMDB file id, or '').
 // A director's row has slug "@<director slug>", their name as title, year 0 and their film count as reviews.
-export type SearchRow = [slug: string, title: string, year: number, reviews: number, mentions: number, poster: string, directors?: string];
+// sixes: who rated it over the top, "Sean 6/5, Jay 6/5" (the search box suggests these before you type).
+export type SearchRow = [slug: string, title: string, year: number, reviews: number, mentions: number, poster: string, directors?: string, sixes?: string];
