@@ -18,6 +18,7 @@ interface Props {
 	noindex?: boolean;
 }
 
+// Site-wide share card (public/og.jpg, 1200×630) for pages without a poster or cover of their own.
 const DEFAULT_IMAGE = 'https://assets.libsyn.com/images/filmjunk/FJ_PodcastArt_3000.jpg';
 const {
 	title,
@@ -31,7 +32,8 @@ const fullTitle = title ? `${title} | Film Junk Podcast` : 'Film Junk Podcast';
 const path = Astro.url.pathname;
 // Absolute URLs need the site address (SITE_URL); without it they're left out rather than guessed.
 const canonical = Astro.site ? new URL(path, Astro.site).href : null;
-const shareImage = image ?? DEFAULT_IMAGE;
+const siteCard = Astro.site ? new URL('/og.jpg', Astro.site).href : null;
+const shareImage = image ?? siteCard ?? DEFAULT_IMAGE;
 // JSON-LD sits in a <script>, so escape "<" to keep a title like "</script>" from ending it.
 const jsonLd = schema && JSON.stringify(schema).replace(/</g, '\\u003c');
 const nav = [
@@ -113,8 +115,10 @@ const current = (href: string) => path.startsWith(href) || (href === '/episodes/
 		<meta property="og:title" content={title ?? 'Film Junk Podcast'} />
 		<meta property="og:description" content={description} />
 		<meta property="og:image" content={shareImage} />
+		{!image && siteCard && <meta property="og:image:width" content="1200" />}
+		{!image && siteCard && <meta property="og:image:height" content="630" />}
 		{canonical && <meta property="og:url" content={canonical} />}
-		<meta name="twitter:card" content={image ? 'summary_large_image' : 'summary'} />
+		<meta name="twitter:card" content={image || siteCard ? 'summary_large_image' : 'summary'} />
 		<meta name="twitter:title" content={fullTitle} />
 		<meta name="twitter:description" content={description} />
 		<meta name="twitter:image" content={shareImage} />
