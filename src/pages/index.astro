@@ -10,7 +10,17 @@ import { episodeArt, episodes, episodeHref, episodeLabel, formatDate, films, hos
 
 const latest = episodes.find((e) => e.kind === 'regular')!;
 const latestArt = episodeArt(latest);
-const premiums = episodes.filter((e) => e.kind === 'premium' && e.art).slice(0, 6);
+// Premiums picked for the home page, then the newest one to fill the row. Ids are /episodes/<id>/.
+const FEATURED_PREMIUMS = [
+	'premium-star-wars-the-prequels-bonus-podcast',
+	'premium-christopher-nolan',
+	'premium-the-halloween-franchise',
+	'premium-the-purge-trilogy',
+	'premium-marvel-phase-one',
+];
+const allPremiums = episodes.filter((e) => e.kind === 'premium' && e.art);
+const featured = FEATURED_PREMIUMS.flatMap((id) => allPremiums.filter((e) => e.id === id));
+const premiums = [...featured, ...allPremiums.filter((e) => !featured.includes(e))].slice(0, 6);
 
 // This month's schedule, or the latest one posted.
 const thisMonth = new Date().toISOString().slice(0, 7);
