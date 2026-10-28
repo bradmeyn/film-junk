@@ -80,6 +80,24 @@
 		return list;
 	});
 
+	// A mocked-up poster for episodes without artwork, by series: [icon, name].
+	const TILE_ICONS = {
+		mail: 'M4 6h16a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1zM3.5 7l8.5 6 8.5-6',
+		popcorn: 'M5 9h14l-1.6 12H6.6zM9.7 9l.4 12M14.3 9l-.4 12M6 9a2.5 2.5 0 0 1 2.8-3.6 3.3 3.3 0 0 1 6.4 0A2.5 2.5 0 0 1 18 9',
+		trophy: 'M8 4h8v5a4 4 0 0 1-8 0zM8 6H5a3 3 0 0 0 3 4M16 6h3a3 3 0 0 1-3 4M12 13v4M8 20h8M10 17h4',
+		delta: 'M12 3l6.5 18L12 16l-6.5 5z',
+		calendar: 'M4 6h16a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1zM3 11h18M8 3.5v4M16 3.5v4',
+		mic: 'M12 3a3 3 0 0 1 3 3v5a3 3 0 0 1-6 0V6a3 3 0 0 1 3-3zM5.5 11a6.5 6.5 0 0 0 13 0M12 17.5V21M9 21h6',
+	};
+	function tile(e: Item): [keyof typeof TILE_ICONS, string] {
+		if (/junk mail/i.test(e.t)) return ['mail', 'Junk Mail'];
+		if (/what we watched/i.test(e.t)) return ['popcorn', 'What We Watched'];
+		if (/treknobabble/i.test(e.t)) return ['delta', 'Star Trek'];
+		if (/calendar reveal/i.test(e.t)) return ['calendar', 'Calendar'];
+		if (/\btop \d+|tier ranking|junkies/i.test(e.t)) return ['trophy', 'Lists'];
+		return ['mic', { premium: 'Premium', patreon: 'Patreon', bonus: 'Bonus', regular: 'Film Junk' }[e.k]];
+	}
+
 	const fmt = new Intl.DateTimeFormat('en-US', { month: 'short', day: 'numeric', year: 'numeric', timeZone: 'UTC' });
 	// Full, half and empty stars on the host's scale, as in stars.astro; "6 out of 5" shows a sixth.
 	const stars = (score: number, outOf: number) => {
@@ -173,7 +191,15 @@
 		{#each filtered.slice(0, shown) as e (e.id)}
 			<li>
 				<div class="poster">
-					{#if e.p}<img src={e.p} alt="" width="154" height="231" loading="lazy" decoding="async" />{:else}<span aria-hidden="true">{e.t.slice(0, 1)}</span>{/if}
+					{#if e.p}
+						<img src={e.p} alt="" width="154" height="231" loading="lazy" decoding="async" />
+					{:else}
+						{@const [icon, name] = tile(e)}
+						<span class="tile" data-kind={e.k} aria-hidden="true">
+							<svg viewBox="0 0 24 24"><path d={TILE_ICONS[icon]} /></svg>
+							<span>{name}</span>
+						</span>
+					{/if}
 				</div>
 				<div class="body">
 					<!-- Weekly shows: number and date as one label; other kinds get their badge. -->
@@ -403,6 +429,46 @@
 		height: 100%;
 		object-fit: cover;
 		display: block;
+	}
+
+	/* No artwork: a little poster of its own, the series' icon and name on a tinted card. */
+	.tile {
+		width: 100%;
+		height: 100%;
+		display: grid;
+		grid-template-rows: 1fr auto;
+		justify-items: center;
+		align-items: center;
+		padding: 0.5rem 0.35rem 0.6rem;
+		background: linear-gradient(160deg, color-mix(in srgb, var(--accent) 22%, var(--surface)), var(--surface));
+		color: var(--accent);
+	}
+
+	.tile[data-kind='bonus'],
+	.tile[data-kind='regular'] {
+		background: linear-gradient(160deg, color-mix(in srgb, var(--star) 20%, var(--surface)), var(--surface));
+		color: var(--star);
+	}
+
+	.tile svg {
+		width: 2.4rem;
+		height: 2.4rem;
+		fill: none;
+		stroke: currentColor;
+		stroke-width: 1.4;
+		stroke-linecap: round;
+		stroke-linejoin: round;
+	}
+
+	.tile span {
+		font-family: var(--font-body);
+		font-size: 0.6rem;
+		font-weight: 700;
+		letter-spacing: 0.08em;
+		text-transform: uppercase;
+		text-align: center;
+		line-height: 1.2;
+		color: var(--ink);
 	}
 
 	.body {
