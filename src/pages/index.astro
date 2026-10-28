@@ -75,36 +75,80 @@ const blurb = latest.description.length > 420 ? latest.description.slice(0, 420)
 		</div>
 	</section>
 
-	<div class="wrap split">
-		<section class="latest" aria-labelledby="latest-h">
-			<div class="section-head">
-				<h2 id="latest-h">Latest episode</h2>
-				<a href="/episodes/">More episodes</a>
+	<section class="wrap latest" aria-labelledby="latest-h">
+		<div class="section-head">
+			<h2 id="latest-h">Latest episode</h2>
+			<a href="/episodes/">More episodes</a>
+		</div>
+		<article class:list={[{ 'has-art': latestArt }]}>
+			{latestArt && <img class="latest-art" src={latestArt.src} alt="" width="500" height="750" />}
+			<div class="latest-body">
+			<span class="sticker">{episodeLabel(latest)}</span>
+			<h3><a href={episodeHref(latest)}>{latest.title}</a></h3>
+			<p class="muted"><time datetime={latest.date}>{formatDate(latest.date)}</time></p>
+			{blurb && <p class="blurb">{blurb}</p>}
+			{
+				latest.reviews?.some((r) => r.ratings.length) && (
+					<ul class="ratings">
+						{latest.reviews.flatMap((r) =>
+							r.ratings.map((x) => (
+								<li>
+									<span>{hostHref(x.host) ? <a href={hostHref(x.host)}>{x.host}</a> : x.host}</span> <Stars score={x.score} outOf={x.outOf} />
+								</li>
+							))
+						)}
+					</ul>
+				)
+			}
+			<ListenLinks episode={latest} />
 			</div>
-			<article class:list={[{ 'has-art': latestArt }]}>
-				{latestArt && <img class="latest-art" src={latestArt.src} alt="" width="500" height="750" />}
-				<div class="latest-body">
-				<span class="sticker">{episodeLabel(latest)}</span>
-				<h3><a href={episodeHref(latest)}>{latest.title}</a></h3>
-				<p class="muted"><time datetime={latest.date}>{formatDate(latest.date)}</time></p>
-				{blurb && <p class="blurb">{blurb}</p>}
-				{
-					latest.reviews?.some((r) => r.ratings.length) && (
-						<ul class="ratings">
-							{latest.reviews.flatMap((r) =>
-								r.ratings.map((x) => (
-									<li>
-										<span>{hostHref(x.host) ? <a href={hostHref(x.host)}>{x.host}</a> : x.host}</span> <Stars score={x.score} outOf={x.outOf} />
-									</li>
-								))
-							)}
-						</ul>
-					)
-				}
-				<ListenLinks episode={latest} />
-				</div>
-			</article>
-		</section>
+		</article>
+	</section>
+
+	<div class="wrap split">
+		{
+			schedule && (
+				<section class="schedule" aria-labelledby="schedule-h">
+					<div class="section-head">
+						<h2 id="schedule-h">
+							{scheduleName === 'October' && <span aria-hidden="true">🎃 </span>}
+							{scheduleHeading}
+						</h2>
+						{schedule.source && (
+							<a href={schedule.source}>
+								<Icon name="instagram" /> Calendar on Instagram
+							</a>
+						)}
+					</div>
+					{schedule.note && <p class="muted packs-intro">{schedule.note}</p>}
+					<ol>
+						{schedule.items.map((item) => {
+							const href = item.episode ? `/episodes/${item.episode}/` : item.film ? `/films/${item.film}/` : null;
+							const Tag = href ? 'a' : 'div';
+							return (
+								<li>
+									<Tag class="slot" href={href ?? undefined} data-status={item.status}>
+										{item.poster ? (
+											<img src={posterUrl(item.poster, 'w342')} alt="" width="342" height="513" loading="lazy" />
+										) : (
+											<span class="no-poster" aria-hidden="true" />
+										)}
+										<span class="when">{day(item.date)}</span>
+										<span class="what">
+											{item.title}
+											{item.year && <span class="muted"> ({item.year})</span>}
+										</span>
+										<span class="status">
+											{item.status === 'out' ? 'Out now' : item.status === 'patreon' ? 'On Patreon now' : 'Coming up'}
+										</span>
+									</Tag>
+								</li>
+							);
+						})}
+					</ol>
+				</section>
+			)
+		}
 
 		<section class="history" aria-labelledby="history-h">
 			<h2 id="history-h">{monthName} in Film Junk history</h2>
@@ -131,50 +175,6 @@ const blurb = latest.description.length > 420 ? latest.description.slice(0, 420)
 			</dl>
 		</section>
 	</div>
-
-	{
-		schedule && (
-			<section class="wrap schedule" aria-labelledby="schedule-h">
-				<div class="section-head">
-					<h2 id="schedule-h">
-						{scheduleName === 'October' && <span aria-hidden="true">🎃 </span>}
-						{scheduleHeading}
-					</h2>
-					{schedule.source && (
-						<a href={schedule.source}>
-							<Icon name="instagram" /> Calendar on Instagram
-						</a>
-					)}
-				</div>
-				{schedule.note && <p class="muted packs-intro">{schedule.note}</p>}
-				<ol>
-					{schedule.items.map((item) => {
-						const href = item.episode ? `/episodes/${item.episode}/` : item.film ? `/films/${item.film}/` : null;
-						const Tag = href ? 'a' : 'div';
-						return (
-							<li>
-								<Tag class="slot" href={href ?? undefined} data-status={item.status}>
-									{item.poster ? (
-										<img src={posterUrl(item.poster, 'w342')} alt="" width="342" height="513" loading="lazy" />
-									) : (
-										<span class="no-poster" aria-hidden="true" />
-									)}
-									<span class="when">{day(item.date)}</span>
-									<span class="what">
-										{item.title}
-										{item.year && <span class="muted"> ({item.year})</span>}
-									</span>
-									<span class="status">
-										{item.status === 'out' ? 'Out now' : item.status === 'patreon' ? 'On Patreon now' : 'Coming up'}
-									</span>
-								</Tag>
-							</li>
-						);
-					})}
-				</ol>
-			</section>
-		)
-	}
 
 	<section class="wrap patreon-latest" aria-labelledby="patreon-h">
 		<div class="section-head">
@@ -265,8 +265,8 @@ const blurb = latest.description.length > 420 ? latest.description.slice(0, 420)
 		}
 	}
 
-	.schedule {
-		margin-block: 3.5rem;
+	.latest {
+		margin-bottom: 3.5rem;
 	}
 
 	.schedule ol {
