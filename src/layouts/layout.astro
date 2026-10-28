@@ -274,9 +274,26 @@ const current = (href: string) => path.startsWith(href) || (href === '/episodes/
 	}
 
 	/* Phones: keep the brand and listen icons on one row, and the nav on one scrollable row. */
-	@media (max-width: 30rem) {
+	/* Phones: search is an icon (see film-search.svelte), so it joins the brand row instead of taking its own. */
+	@media (max-width: 40rem) {
 		.site-header {
-			column-gap: 0.75rem;
+			column-gap: 0.5rem;
+		}
+		.header-search {
+			order: 1;
+			flex: 0 0 auto;
+			margin-left: auto;
+		}
+		.header-links {
+			order: 2;
+			margin-left: 0;
+		}
+	}
+
+	@media (max-width: 30rem) {
+		/* "Film Junk" is enough beside the logo; it makes room for the icons. */
+		.brand .guide {
+			display: none;
 		}
 		.brand {
 			font-size: var(--step-1);

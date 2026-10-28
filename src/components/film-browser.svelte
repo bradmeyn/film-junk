@@ -352,6 +352,16 @@
 			padding-block: 0.75rem;
 		}
 
+		/* The placeholder explains the search box; its label stays for screen readers. */
+		.grow > span {
+			position: absolute;
+			width: 1px;
+			height: 1px;
+			overflow: hidden;
+			clip: rect(0 0 0 0);
+			white-space: nowrap;
+		}
+
 		.segmented label {
 			flex: 1 1 auto;
 			text-align: center;

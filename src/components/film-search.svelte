@@ -407,6 +407,27 @@
 		}
 	}
 
+	/* Phones: the header shows search as an icon button beside the listen links. */
+	@media (max-width: 40rem) {
+		.trigger {
+			width: 2.25rem;
+			height: 2.25rem;
+			padding: 0;
+		}
+		.trigger .icon {
+			left: 50%;
+			transform: translate(-50%, -50%);
+			color: var(--ink);
+		}
+		.trigger span {
+			position: absolute;
+			width: 1px;
+			height: 1px;
+			overflow: hidden;
+			clip: rect(0 0 0 0);
+		}
+	}
+
 	/* ---------- results */
 
 	.inline .results {
