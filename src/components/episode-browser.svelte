@@ -87,7 +87,8 @@
 		trophy: 'M8 4h8v5a4 4 0 0 1-8 0zM8 6H5a3 3 0 0 0 3 4M16 6h3a3 3 0 0 1-3 4M12 13v4M8 20h8M10 17h4',
 		delta: 'M12 3l6.5 18L12 16l-6.5 5z',
 		calendar: 'M4 6h16a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1zM3 11h18M8 3.5v4M16 3.5v4',
-		mic: 'M12 3a3 3 0 0 1 3 3v5a3 3 0 0 1-6 0V6a3 3 0 0 1 3-3zM5.5 11a6.5 6.5 0 0 0 13 0M12 17.5V21M9 21h6',
+		// Film Junk's own: a popcorn bucket with "FJ" on it (the letters are added in the markup).
+		fj: 'M5 9h14l-1.6 12H6.6zM6 9a2.5 2.5 0 0 1 2.8-3.6 3.3 3.3 0 0 1 6.4 0A2.5 2.5 0 0 1 18 9',
 	};
 	function tile(e: Item): [keyof typeof TILE_ICONS, string] {
 		if (/junk mail/i.test(e.t)) return ['mail', 'Junk Mail'];
@@ -95,7 +96,7 @@
 		if (/treknobabble/i.test(e.t)) return ['delta', 'Star Trek'];
 		if (/calendar reveal/i.test(e.t)) return ['calendar', 'Calendar'];
 		if (/\btop \d+|tier ranking|junkies/i.test(e.t)) return ['trophy', 'Lists'];
-		return ['mic', { premium: 'Premium', patreon: 'Patreon', bonus: 'Bonus', regular: 'Film Junk' }[e.k]];
+		return ['fj', { premium: 'Premium', patreon: 'Patreon', bonus: 'Bonus', regular: 'Film Junk' }[e.k]];
 	}
 
 	const fmt = new Intl.DateTimeFormat('en-US', { month: 'short', day: 'numeric', year: 'numeric', timeZone: 'UTC' });
@@ -196,7 +197,9 @@
 					{:else}
 						{@const [icon, name] = tile(e)}
 						<span class="tile" data-kind={e.k} aria-hidden="true">
-							<svg viewBox="0 0 24 24"><path d={TILE_ICONS[icon]} /></svg>
+							<svg viewBox="0 0 24 24"
+								><path d={TILE_ICONS[icon]} />{#if icon === 'fj'}<text x="12" y="17.6" text-anchor="middle">FJ</text>{/if}</svg
+							>
 							<span>{name}</span>
 						</span>
 					{/if}
@@ -458,6 +461,15 @@
 		stroke-width: 1.4;
 		stroke-linecap: round;
 		stroke-linejoin: round;
+	}
+
+	.tile text {
+		fill: currentColor;
+		stroke: none;
+		font-family: var(--font-body);
+		font-size: 5.5px;
+		font-weight: 800;
+		letter-spacing: 0.02em;
 	}
 
 	.tile span {

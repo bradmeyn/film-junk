@@ -16,7 +16,12 @@ const items: Item[] = episodes.map((e) => ({
 	a: averageRating(e.reviews),
 	...(yearEnd.has(e.id) && { y: true }),
 	// Artwork: the first reviewed film's poster, else a premium's Bandcamp cover (the 350px size).
-	p: posterUrl(e.reviews?.map((r) => r.film && filmBySlug.get(r.film)?.poster).find(Boolean), 'w154') ?? e.art?.replace('_16.jpg', '_2.jpg'),
+	// What We Watched has no review, so it takes the first film it names that has a poster.
+	p:
+		posterUrl(e.reviews?.map((r) => r.film && filmBySlug.get(r.film)?.poster).find(Boolean), 'w154') ??
+		e.art?.replace('_16.jpg', '_2.jpg') ??
+		(/what we watched/i.test(e.title) ? posterUrl(e.watched?.map((w) => w.film && filmBySlug.get(w.film)?.poster).find(Boolean), 'w154') : null) ??
+		undefined,
 	// Each film's ratings; the title only when the episode reviews more than one.
 	r: (e.reviews ?? [])
 		.filter((r) => r.ratings.length)
