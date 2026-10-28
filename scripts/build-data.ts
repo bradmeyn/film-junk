@@ -15,6 +15,7 @@ import type {
 	TmdbCache,
 	TmdbDetailsCache,
 	TmdbMatch,
+	UniverseShow,
 	YearEndLists,
 } from '../src/lib/types.ts';
 
@@ -1195,6 +1196,29 @@ const schedule: ScheduleMonth[] = Object.entries(scheduleData)
 	}))
 	.sort((a, b) => b.month.localeCompare(a.month));
 
+// The other Junk shows: name, artwork and latest episodes from each one's Apple lookup.
+type AppleLookup = { results: ({ wrapperType: 'track'; collectionName: string; collectionViewUrl: string; artworkUrl600: string } | (AppleEpisode & { wrapperType: 'podcastEpisode' }))[] };
+const universe: UniverseShow[] = ['game-junk', 'ball-junk', 'tv-junk'].flatMap((key) => {
+	const results = readJson<AppleLookup>(`${RAW}/universe/${key}.json`)?.results ?? [];
+	const show = results.find((r) => r.wrapperType === 'track');
+	if (!show || show.wrapperType !== 'track') return [];
+	const episodes = results
+		.filter((r) => r.wrapperType === 'podcastEpisode')
+		.map((r) => {
+			// "Game Junk Episode #285: Is Valor Mortis…" → number 285, title "Is Valor Mortis…".
+			const m = r.trackName.match(/^(?:.*?junk\s+)?episode\s+#?(\d+):\s*(.+)$/i);
+			return {
+				title: m ? m[2] : r.trackName,
+				...(m && { number: +m[1] }),
+				date: r.releaseDate.slice(0, 10),
+				url: r.trackViewUrl.split('?')[0] + `?i=${r.trackId}`,
+			};
+		})
+		.sort((a, b) => b.date.localeCompare(a.date))
+		.slice(0, 3);
+	return [{ name: show.collectionName, url: show.collectionViewUrl.split('?')[0], art: show.artworkUrl600, episodes }];
+});
+
 // Hand-entered lists and awards, keyed by year (see data/year-end.json).
 const yearEndLists = readJson<Record<string, YearEndLists>>('data/year-end.json') ?? {};
 
@@ -1210,7 +1234,7 @@ writeFileSync('public/_redirects', redirectsFile(redirects));
 mkdirSync(OUT, { recursive: true });
 writeFileSync(`${OUT}/episodes.json`, JSON.stringify(all, null, '\t'));
 writeFileSync(`${OUT}/films.json`, JSON.stringify([...films.values()] satisfies Film[], null, '\t'));
-const meta: Meta = { builtAt: new Date().toISOString(), yearNotes, gumroad, yearEnd, yearEndLists, packs, schedule };
+const meta: Meta = { builtAt: new Date().toISOString(), yearNotes, gumroad, yearEnd, yearEndLists, packs, schedule, universe };
 writeFileSync(`${OUT}/meta.json`, JSON.stringify(meta, null, '\t'));
 
 const count = (k: Episode['kind']) => all.filter((e) => e.kind === k).length;

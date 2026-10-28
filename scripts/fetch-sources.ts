@@ -10,6 +10,8 @@ const refetchAll = process.argv.includes('--all');
 const currentYear = new Date().getFullYear();
 
 const SPOTIFY_SHOW_ID = '7gC4H6NxbAnQLB7ahS5u2P';
+// Apple Podcasts ids of the other Junk shows (the "Junk Universe").
+const UNIVERSE = { 'game-junk': 385273911, 'ball-junk': 640537508, 'tv-junk': 1611388164 };
 const WIKI_PAGES = ['2005', '2006 (SJ)', 'Episodes', ...range(2007, 2020).map(String), 'Premiums'];
 
 function range(a: number, b: number): number[] {
@@ -39,7 +41,7 @@ function guideUrl(year: number): string {
 		: `https://filmjunk.libsyn.com/film-junk-podcast-${year}-episode-guide`;
 }
 
-await Promise.all(['guides', 'wiki', 'bandcamp'].map((d) => mkdir(join(RAW, d), { recursive: true })));
+await Promise.all(['guides', 'wiki', 'bandcamp', 'universe'].map((d) => mkdir(join(RAW, d), { recursive: true })));
 
 for (const year of range(2005, currentYear)) {
 	if (await save(`guides/${year}.html`, guideUrl(year), { force: year === currentYear }))
@@ -58,6 +60,11 @@ await save('apple.json', 'https://itunes.apple.com/lookup?id=74257105&entity=pod
 // Spotify links are a nice-to-have: if it fails, keep the last fetched data rather than stopping the refresh.
 await fetchSpotify().catch((err: unknown) => console.warn(`spotify: failed, keeping previous data (${err instanceof Error ? err.message : err})`));
 await fetchPatreonFeed();
+// The other Junk shows' latest episodes, for the home page. A nice-to-have, so a failure keeps the last copy.
+for (const [key, id] of Object.entries(UNIVERSE))
+	await save(`universe/${key}.json`, `https://itunes.apple.com/lookup?id=${id}&entity=podcastEpisode&limit=3`, { force: true }).catch(
+		(err: unknown) => console.warn(`universe ${key}: failed, keeping previous data (${err instanceof Error ? err.message : err})`)
+	);
 await save('gumroad.html', 'https://filmjunk.gumroad.com/', { force: true });
 await fetchGumroadProducts();
 await save('bandcamp/index.html', 'https://filmjunk.bandcamp.com/music', { force: true });

@@ -1,5 +1,5 @@
 {
-	"builtAt": "2026-10-28T06:59:22.626Z",
+	"builtAt": "2026-10-28T07:01:07.557Z",
 	"yearNotes": {
 		"2005": [
 			"Total episodes: 47",
@@ -1070,7 +1070,7 @@
 					"episode": "1068",
 					"film": "the-blair-witch-project",
 					"poster": "/9050VGrYjYrEjpOvDZVAngLbg1f.jpg",
-					"status": "out"
+					"status": "patreon"
 				}
 			]
 		},
@@ -1114,6 +1114,83 @@
 					"film": "shermans-march",
 					"poster": "/55YscDYNXdffYwDGMrpveqnsa9d.jpg",
 					"status": "out"
+				}
+			]
+		}
+	],
+	"universe": [
+		{
+			"name": "Game Junk Podcast",
+			"url": "https://podcasts.apple.com/us/podcast/game-junk-podcast/id385273911",
+			"art": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/23/81/51/238151c4-8f05-71f8-ec23-fb7b02eb6acd/mza_6021458389695684246.jpg/600x600bb.jpg",
+			"episodes": [
+				{
+					"title": "Is Valor Mortis the Biggest Surprise of the Year?",
+					"number": 285,
+					"date": "2026-10-21",
+					"url": "https://podcasts.apple.com/us/podcast/game-junk-episode-285-is-valor-mortis-the-biggest/id385273911?i=1000797472510"
+				},
+				{
+					"title": "Is Order of the Sinking Star Another Mind-Melting Masterpiece?",
+					"number": 284,
+					"date": "2026-10-14",
+					"url": "https://podcasts.apple.com/us/podcast/game-junk-episode-284-is-order-of-the-sinking/id385273911?i=1000796357099"
+				},
+				{
+					"title": "Gears of War: E-Day + Star Wars: Galactic Racer Impressions",
+					"number": 283,
+					"date": "2026-10-08",
+					"url": "https://podcasts.apple.com/us/podcast/game-junk-episode-283-gears-of-war-e-day-star-wars/id385273911?i=1000793904701"
+				}
+			]
+		},
+		{
+			"name": "Ball Junk Podcast",
+			"url": "https://podcasts.apple.com/us/podcast/ball-junk-podcast/id640537508",
+			"art": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts2/v4/74/c3/da/74c3da90-fc9f-ba92-dd9f-5173fafb7e27/mza_4499670288883459777.jpg/600x600bb.jpg",
+			"episodes": [
+				{
+					"title": "NFL Season Preview 2026",
+					"number": 70,
+					"date": "2026-09-12",
+					"url": "https://podcasts.apple.com/us/podcast/episode-70-nfl-season-preview-2026/id640537508?i=1000789116669"
+				},
+				{
+					"title": "Balls Up Review",
+					"number": 69,
+					"date": "2026-05-31",
+					"url": "https://podcasts.apple.com/us/podcast/episode-69-balls-up-review/id640537508?i=1000770428140"
+				},
+				{
+					"title": "Greatest Athlete Musician Bracket",
+					"number": 68,
+					"date": "2026-03-27",
+					"url": "https://podcasts.apple.com/us/podcast/episode-68-greatest-athlete-musician-bracket/id640537508?i=1000757766948"
+				}
+			]
+		},
+		{
+			"name": "TV Junk Podcast",
+			"url": "https://podcasts.apple.com/us/podcast/tv-junk-podcast/id1611388164",
+			"art": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/0d/5c/1f/0d5c1f87-7c05-6349-72c5-301d38a5a1ae/mza_5373297653113572594.jpg/600x600bb.jpg",
+			"episodes": [
+				{
+					"title": "Lanterns",
+					"number": 60,
+					"date": "2026-10-16",
+					"url": "https://podcasts.apple.com/us/podcast/episode-60-lanterns/id1611388164?i=1000796704513"
+				},
+				{
+					"title": "Widow's Bay",
+					"number": 59,
+					"date": "2026-09-09",
+					"url": "https://podcasts.apple.com/us/podcast/episode-59-widows-bay/id1611388164?i=1000788562491"
+				},
+				{
+					"title": "Spider-Noir",
+					"number": 58,
+					"date": "2026-08-26",
+					"url": "https://podcasts.apple.com/us/podcast/episode-58-spider-noir/id1611388164?i=1000785902797"
 				}
 			]
 		}

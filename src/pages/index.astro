@@ -224,6 +224,35 @@ const blurb = latest.description.length > 420 ? latest.description.slice(0, 420)
 			}
 		</ul>
 	</section>
+	{
+		meta.universe.length > 0 && (
+			<section class="wrap universe" aria-labelledby="universe-h">
+				<h2 id="universe-h">Junk Universe</h2>
+				<p class="muted packs-intro">The other Film Junk shows, about games, sports and TV.</p>
+				<ul>
+					{meta.universe.map((show) => (
+						<li>
+							<a class="show" href={show.url}>
+								<img src={show.art} alt="" width="600" height="600" loading="lazy" />
+								<span>{show.name}</span>
+							</a>
+							<ol>
+								{show.episodes.map((ep) => (
+									<li>
+										<span class="label muted">
+											{ep.number && <>Ep. {ep.number} · </>}
+											{formatDate(ep.date)}
+										</span>
+										<a href={ep.url}>{ep.title}</a>
+									</li>
+								))}
+							</ol>
+						</li>
+					))}
+				</ul>
+			</section>
+		)
+	}
 </Layout>
 
 <style>
@@ -605,8 +634,60 @@ const blurb = latest.description.length > 420 ? latest.description.slice(0, 420)
 	}
 
 	.packs,
+	.universe,
 	.patreon-latest {
 		margin-top: 4rem;
+	}
+
+	.universe > ul {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+		gap: 2rem;
+	}
+
+	.show {
+		display: flex;
+		align-items: center;
+		gap: 0.75rem;
+		padding-bottom: 0.75rem;
+		border-bottom: 1px solid var(--line);
+		font-family: var(--font-display);
+		font-size: var(--step-2);
+		color: var(--ink);
+		text-decoration: none;
+	}
+
+	.show:hover span {
+		text-decoration: underline;
+		text-decoration-color: var(--accent);
+	}
+
+	.show img {
+		width: 3.5rem;
+		height: 3.5rem;
+		border-radius: var(--radius);
+	}
+
+	.universe ol {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+	}
+
+	.universe ol li {
+		display: grid;
+		gap: 0.15rem;
+		padding-block: 0.6rem;
+		border-bottom: 1px solid var(--line);
+	}
+
+	.universe ol a {
+		color: var(--ink);
+		font-weight: 600;
+		line-height: 1.35;
 	}
 
 	.rows {

@@ -112,6 +112,15 @@ export type Meta = {
 	yearEndLists: Record<string, YearEndLists>;
 	packs: Pack[];
 	schedule: ScheduleMonth[];
+	universe: UniverseShow[];
+};
+
+// Another Junk show and its latest episodes, from Apple Podcasts.
+export type UniverseShow = {
+	name: string;
+	url: string;
+	art: string;
+	episodes: { title: string; number?: number; date: string; url: string }[];
 };
 
 // Search index row: [slug, title, year, reviews, mentions, poster, directors] (poster: TMDB file id, or '').
