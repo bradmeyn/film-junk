@@ -1,59 +1,5 @@
 [
 	{
-		"id": "1068",
-		"kind": "regular",
-		"show": "Film Junk",
-		"number": 1068,
-		"part": null,
-		"date": "2026-10-26",
-		"dateApprox": false,
-		"title": "The Blair Witch Project",
-		"reviews": [
-			{
-				"title": "The Blair Witch Project",
-				"year": 1999,
-				"ratings": [
-					{
-						"host": "Frank",
-						"score": 4.5,
-						"outOf": 5
-					},
-					{
-						"host": "Jay",
-						"score": 4.5,
-						"outOf": 5
-					},
-					{
-						"host": "Sean",
-						"score": 4.5,
-						"outOf": 5
-					}
-				],
-				"film": "the-blair-witch-project"
-			}
-		],
-		"watched": [],
-		"segments": [],
-		"music": {},
-		"notes": "",
-		"description": "Okay, here's your motivation. You're lost, you're angry in the woods and no one is here to help you. The Blair Witch Project was a pretty big deal when it arrived in theatres back in 1999 but it was (and still is) a somewhat divisive film. There is no debating the influence it had in terms of found footage horror but somehow the scares remain very subjective. Is this movie still an intense and immersive experience or is it just boring? Are the performances realistic and convincing or is there a little too much riffing going on? Was the marketing for the movie way ahead of its time? What is the deal with that blue slime? Pop a tent and order some Mary Brown's Chicken while listening to the latest episode of Film Junk.",
-		"pack": null,
-		"links": {
-			"libsyn": "https://directory.libsyn.com/episode/index/id/43295509",
-			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-1068-172366711",
-			"apple": "https://podcasts.apple.com/us/podcast/the-blair-witch-project-1999/id74257105?i=1000798207688",
-			"spotify": "https://open.spotify.com/episode/3iKdi5NyDtciHAa7grPMn4"
-		},
-		"mentioned": [
-			{
-				"title": "Blair Witch",
-				"year": null,
-				"film": "blair-witch"
-			}
-		],
-		"hero": "Luke Hoctor"
-	},
-	{
 		"notes": "",
 		"description": "00:00 - Intro\n01:45 - Microwave Massacre\n20:30 - Digger\n28:00 - Evil Dead Burn\n36:50 - The Social Network, The Social Reckoning\n43:00 - Onslaught\n46:58 - Norm: The Tale of Norm MacDonald\n50:40 - Animals\n59:57 - Sleepaway Camp\n1:02:30 - The Entity",
 		"mentioned": [
@@ -120,8 +66,7 @@
 		"title": "What We Watched: Microwave Massacre, Digger, Evil Dead Burn, and more!",
 		"duration": 3979,
 		"links": {
-			"patreon": "https://www.patreon.com/filmjunk/posts/what-we-watched-173464008",
-			"spotify": "https://open.spotify.com/episode/2eqp2fS3tLiC51Qp2tH04M"
+			"patreon": "https://www.patreon.com/filmjunk/posts/what-we-watched-173464008"
 		}
 	},
 	{
@@ -194,6 +139,58 @@
 			"apple": "https://podcasts.apple.com/us/podcast/film-junk-calendar-reveal-nov-2026/id74257105?i=1000797679321",
 			"spotify": "https://open.spotify.com/episode/7FO8zpeZaBWfZBf2lF8puu"
 		}
+	},
+	{
+		"notes": "",
+		"description": "Okay, here's your motivation. You're lost, you're angry in the woods and no one is here to help you. The Blair Witch Project was a pretty big deal when it arrived in theatres back in 1999 but it was (and still is) a somewhat divisive film. There is no debating the influence it had in terms of found footage horror but somehow the scares remain very subjective. Is this movie still an intense and immersive experience or is it just boring? Are the performances realistic and convincing or is there a little too much riffing going on? Was the marketing for the movie way ahead of its time? What is the deal with that blue slime? Pop a tent and order some Mary Brown's Chicken while listening to the latest episode of Film Junk.",
+		"mentioned": [
+			{
+				"title": "Blair Witch",
+				"year": null,
+				"film": "blair-witch"
+			}
+		],
+		"segments": [],
+		"watched": [],
+		"reviews": [
+			{
+				"title": "The Blair Witch Project",
+				"year": 1999,
+				"ratings": [
+					{
+						"host": "Frank",
+						"score": 4.5,
+						"outOf": 5
+					},
+					{
+						"host": "Jay",
+						"score": 4.5,
+						"outOf": 5
+					},
+					{
+						"host": "Sean",
+						"score": 4.5,
+						"outOf": 5
+					}
+				],
+				"film": "the-blair-witch-project"
+			}
+		],
+		"music": {},
+		"show": "Film Junk",
+		"part": null,
+		"dateApprox": false,
+		"pack": null,
+		"id": "1068",
+		"kind": "regular",
+		"number": 1068,
+		"date": "2026-10-19",
+		"title": "The Blair Witch Project",
+		"links": {
+			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-1068-172366711",
+			"spotify": "https://open.spotify.com/episode/0Yd2DzMQBEcHuDhdKzb5kP"
+		},
+		"hero": "Luke Hoctor"
 	},
 	{
 		"id": "1067",
