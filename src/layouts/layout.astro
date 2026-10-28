@@ -34,7 +34,8 @@ const path = Astro.url.pathname;
 const canonical = Astro.site ? new URL(path, Astro.site).href : null;
 const siteCard = Astro.site ? new URL('/og.jpg', Astro.site).href : null;
 const shareImage = image ?? siteCard ?? DEFAULT_IMAGE;
-// JSON-LD sits in a <script>, so escape "<" to keep a title like "</script>" from ending it.
+// JSON-LD sits in a script tag, so escape "<" so a title containing a closing script tag can't end it early.
+// (Spelled out in words: a literal tag here confuses the dev server's dependency scan.)
 const jsonLd = schema && JSON.stringify(schema).replace(/</g, '\\u003c');
 const nav = [
 	['/episodes/', 'Episodes'],

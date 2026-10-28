@@ -23,6 +23,13 @@ export function fitFilterSheet(sheet: HTMLDialogElement) {
 	};
 }
 
+// Opens the sheet with focus on the sheet itself, not its first control: showModal() alone would
+// focus (and on some phones open) the first dropdown.
+export function openFilterSheet(sheet: HTMLDialogElement) {
+	sheet.showModal();
+	sheet.focus();
+}
+
 // Tapping the backdrop (the dialog element itself, outside its content) closes the sheet.
 export function closeOnBackdrop(event: MouseEvent) {
 	const sheet = event.currentTarget as HTMLDialogElement;

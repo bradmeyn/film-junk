@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
-	import { closeOnBackdrop, fitFilterSheet } from '../lib/filter-sheet';
+	import { closeOnBackdrop, fitFilterSheet, openFilterSheet } from '../lib/filter-sheet';
 
 	export type Item = {
 		id: string;
@@ -101,13 +101,16 @@
 		<span>Title or number</span>
 		<input type="search" bind:value={q} oninput={syncUrl} placeholder="e.g. Dune or 500" />
 	</label>
-	<button type="button" class="button sheet-open" aria-haspopup="dialog" onclick={() => sheet.showModal()}>
+	<button type="button" class="button sheet-open" aria-haspopup="dialog" onclick={() => openFilterSheet(sheet)}>
 		Filters{#if active}<span class="sheet-count" aria-label={`${active} on`}>{active}</span>{/if}
 	</button>
-	<dialog class="sheet" bind:this={sheet} onclick={closeOnBackdrop} aria-labelledby="episode-filters-h">
+	<dialog class="sheet" tabindex="-1" bind:this={sheet} onclick={closeOnBackdrop} aria-labelledby="episode-filters-h">
 	<div class="sheet-head">
 		<h2 id="episode-filters-h">Filters</h2>
 		{#if active}<button type="button" class="link" onclick={reset}>Clear all</button>{/if}
+		<button type="button" class="sheet-close" aria-label="Close filters" onclick={() => sheet.close()}>
+			<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round" /></svg>
+		</button>
 	</div>
 	<label>
 		<span>Year</span>

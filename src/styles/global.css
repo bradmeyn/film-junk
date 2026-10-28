@@ -339,6 +339,10 @@ select:hover {
 	align-items: end;
 }
 
+.sheet:focus {
+	outline: none;
+}
+
 .sheet:modal::backdrop {
 	background: rgb(0 0 0 / 0.55);
 }
@@ -353,8 +357,35 @@ select:hover {
 
 .sheet:modal .sheet-head {
 	display: flex;
-	justify-content: space-between;
-	align-items: baseline;
+	align-items: center;
+	gap: 1rem;
+}
+
+.sheet-head h2 {
+	margin-right: auto;
+}
+
+.sheet-close {
+	display: grid;
+	place-items: center;
+	width: 2.5rem;
+	height: 2.5rem;
+	margin-right: -0.5rem;
+	padding: 0;
+	border: 0;
+	border-radius: 999px;
+	background: none;
+	color: var(--ink);
+	cursor: pointer;
+}
+
+.sheet-close:hover {
+	background: var(--surface);
+}
+
+.sheet-close svg {
+	width: 1.25rem;
+	height: 1.25rem;
 }
 
 .sheet-head h2 {
