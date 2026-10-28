@@ -284,10 +284,6 @@ select:hover {
 	border-color: var(--ink);
 }
 
-.button.spotify svg {
-	color: #1db954;
-}
-
 .button.patreon {
 	background: var(--accent);
 	border-color: var(--accent);
