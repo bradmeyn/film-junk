@@ -1,0 +1,9 @@
+# Cloudflare static-asset headers. Everything else keeps the default (revalidate every visit).
+
+# Astro's build output: the content hash is in the file name, so a changed file gets a new URL.
+/_astro/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# The hero's poster wall: the page asks for it with ?v=<hash of its posters>, so a new wall is a new URL.
+/hero-wall*
+  Cache-Control: public, max-age=31536000, immutable
