@@ -6,9 +6,11 @@ import EpisodeRow from '../components/episode-row.astro';
 import Stars from '../components/stars.astro';
 import Icon from '../components/icon.astro';
 import PackCard from '../components/pack-card.astro';
-import { episodeArt, episodes, episodeHref, episodeLabel, formatDate, films, hostHref, HOSTS, LINKS, meta, posterUrl } from '../lib/data';
+import { byDiscussion, episodeArt, episodes, episodeHref, episodeLabel, formatDate, films, hostHref, HOSTS, LINKS, meta, posterUrl, reviewCount } from '../lib/data';
 
 const latest = episodes.find((e) => e.kind === 'regular')!;
+// The poster wall behind the hero: the show's most-discussed reviewed films.
+const wall = films.filter((f) => f.poster && reviewCount(f) > 0).toSorted(byDiscussion).slice(0, 64);
 const latestArt = episodeArt(latest);
 // Premiums picked for the home page, then the newest one to fill the row. Ids are /episodes/<id>/.
 const FEATURED_PREMIUMS = [
@@ -56,8 +58,11 @@ const blurb = latest.description.length > 420 ? latest.description.slice(0, 420)
 	description={`Movie reviews, TV talk and film news since 2005. Search ${films.length.toLocaleString()} films across every Film Junk Podcast episode, premium and Patreon exclusive.`}
 	schema={homeSchema(Astro.site)}
 >
-	<section class="hero wrap">
-		<img class="hero-logo" src="/logo-512.jpg" alt="Film Junk logo" width="512" height="512" />
+	<section class="hero-band">
+		<div class="wall" aria-hidden="true">
+			{wall.map((f) => <img src={posterUrl(f.poster, 'w154')} alt="" width="154" height="231" />)}
+		</div>
+		<div class="hero wrap">
 		<div class="about">
 			<h1>The Longest Running <span class="line">Movie Podcast</span></h1>
 			<p class="lede muted">An unofficial companion to the Film Junk Podcast, {latest.number!.toLocaleString()} episodes and counting.</p>
@@ -85,6 +90,7 @@ const blurb = latest.description.length > 420 ? latest.description.slice(0, 420)
 				<a class="button big spotify" href={LINKS.spotify}><Icon name="spotify" /> Spotify</a>
 				<a class="button big" href={LINKS.apple}><Icon name="apple" /> Apple Podcasts</a>
 			</p>
+		</div>
 		</div>
 	</section>
 
@@ -280,42 +286,69 @@ const blurb = latest.description.length > 420 ? latest.description.slice(0, 420)
 </Layout>
 
 <style>
-	.hero {
-		padding-block: clamp(2rem, 7vw, 5rem) clamp(2rem, 5vw, 3.5rem);
-		display: grid;
-		grid-template-columns: 1fr minmax(12rem, 20rem);
-		gap: 2rem 3rem;
-		align-items: center;
+	/* A tilted wall of posters behind the whole hero. */
+	.hero-band {
+		position: relative;
+		overflow: hidden;
+		isolation: isolate;
+		margin-bottom: 1rem;
 	}
 
-	.hero-logo {
-		grid-column: 2;
-		grid-row: 1;
+	.wall {
+		position: absolute;
+		inset: -12% -8%;
+		z-index: -2;
+		display: grid;
+		grid-template-columns: repeat(auto-fill, minmax(7rem, 1fr));
+		align-content: start;
+		gap: 0.6rem;
+		transform: rotate(-5deg);
+		opacity: 0.6;
+	}
+
+	.wall img {
 		width: 100%;
 		height: auto;
-		border-radius: 1rem;
-		transform: rotate(2deg);
+		aspect-ratio: 2 / 3;
+		object-fit: cover;
+		border-radius: var(--radius);
+	}
+
+	.hero-band::after {
+		content: '';
+		position: absolute;
+		inset: 0;
+		z-index: -1;
+		/* The whole wall dimmed, a little more behind the text, and faded out at the top and bottom. */
+		background:
+			linear-gradient(180deg, var(--bg) 0%, transparent 18%),
+			linear-gradient(0deg, var(--bg) 0%, transparent 35%),
+			linear-gradient(90deg, color-mix(in srgb, var(--bg) 75%, transparent) 20%, transparent 65%),
+			color-mix(in srgb, var(--bg) 60%, transparent);
+	}
+
+	.hero {
+		padding-block: clamp(3rem, 9vw, 6.5rem) clamp(2.5rem, 6vw, 4.5rem);
 	}
 
 	.about {
-		grid-column: 1;
-		grid-row: 1;
+		max-width: 40rem;
 	}
 
-	/* Narrow: a smaller logo beside the heading instead of a block above it. */
-	@media (max-width: 52rem) {
-		.hero {
-			display: block;
+	/* Phones: the text runs full width, so the wall is dimmed a little more. */
+	@media (max-width: 40rem) {
+		.hero-band::after {
+			background:
+				linear-gradient(180deg, var(--bg) 0%, transparent 15%),
+				linear-gradient(0deg, var(--bg) 0%, transparent 40%),
+				color-mix(in srgb, var(--bg) 78%, transparent);
 		}
-		.hero-logo {
-			float: left;
-			width: clamp(5rem, 22vw, 8rem);
-			margin: 0.15rem 1rem 0.5rem 0;
-		}
-		.lede {
-			clear: left;
+
+		.wall {
+			grid-template-columns: repeat(auto-fill, minmax(5rem, 1fr));
 		}
 	}
+
 
 	.latest {
 		margin-bottom: 3.5rem;
