@@ -6,11 +6,9 @@ import EpisodeRow from '../components/episode-row.astro';
 import Stars from '../components/stars.astro';
 import Icon from '../components/icon.astro';
 import PackCard from '../components/pack-card.astro';
-import { byDiscussion, episodeArt, episodes, episodeHref, episodeLabel, formatDate, films, hostHref, HOSTS, LINKS, meta, posterUrl, reviewCount } from '../lib/data';
+import { episodeArt, episodes, episodeHref, episodeLabel, formatDate, films, hostHref, HOSTS, LINKS, meta, posterUrl } from '../lib/data';
 
 const latest = episodes.find((e) => e.kind === 'regular')!;
-// The poster wall behind the hero: the show's most-discussed reviewed films.
-const wall = films.filter((f) => f.poster && reviewCount(f) > 0).toSorted(byDiscussion).slice(0, 64);
 const latestArt = episodeArt(latest);
 // Premiums picked for the home page, then the newest one to fill the row. Ids are /episodes/<id>/.
 const FEATURED_PREMIUMS = [
@@ -59,9 +57,11 @@ const blurb = latest.description.length > 420 ? latest.description.slice(0, 420)
 	schema={homeSchema(Astro.site)}
 >
 	<section class="hero-band">
-		<div class="wall" aria-hidden="true">
-			{wall.map((f) => <img src={posterUrl(f.poster, 'w154')} alt="" width="154" height="231" />)}
-		</div>
+		<!-- One pre-rendered image of the show's most-discussed films (scripts/build-hero.ts). -->
+		<picture class="wall" aria-hidden="true">
+			<source media="(max-width: 40rem)" srcset="/hero-wall-small.webp" />
+			<img src="/hero-wall.webp" alt="" width="2400" height="764" fetchpriority="high" />
+		</picture>
 		<div class="hero wrap">
 		<div class="about">
 			<h1>The Longest Running <span class="line">Movie Podcast</span></h1>
@@ -296,22 +296,16 @@ const blurb = latest.description.length > 420 ? latest.description.slice(0, 420)
 
 	.wall {
 		position: absolute;
-		inset: -12% -8%;
+		inset: 0;
 		z-index: -2;
-		display: grid;
-		grid-template-columns: repeat(auto-fill, minmax(7rem, 1fr));
-		align-content: start;
-		gap: 0.6rem;
-		transform: rotate(-5deg);
 		opacity: 0.6;
 	}
 
 	.wall img {
 		width: 100%;
-		height: auto;
-		aspect-ratio: 2 / 3;
+		height: 100%;
 		object-fit: cover;
-		border-radius: var(--radius);
+		display: block;
 	}
 
 	.hero-band::after {
@@ -344,9 +338,6 @@ const blurb = latest.description.length > 420 ? latest.description.slice(0, 420)
 				color-mix(in srgb, var(--bg) 78%, transparent);
 		}
 
-		.wall {
-			grid-template-columns: repeat(auto-fill, minmax(5rem, 1fr));
-		}
 	}
 
 
