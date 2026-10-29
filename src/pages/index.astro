@@ -59,7 +59,7 @@ const blurb = latest.description.length > 420 ? latest.description.slice(0, 420)
 	<section class="hero wrap">
 		<img class="hero-logo" src="/logo-512.jpg" alt="Film Junk logo" width="512" height="512" />
 		<div class="about">
-			<h1>The Longest Running Movie Podcast</h1>
+			<h1>The Longest Running <span class="line">Movie Podcast</span></h1>
 			<p class="lede muted">An unofficial companion to the Film Junk Podcast, {latest.number!.toLocaleString()} episodes and counting.</p>
 			<div class="hosts">
 				<h2 class="label">Hosted by</h2>
@@ -402,10 +402,14 @@ const blurb = latest.description.length > 420 ? latest.description.slice(0, 420)
 
 
 
+	/* "Movie Podcast" always gets a line of its own, so the title breaks the same way at every width. */
+	h1 .line {
+		display: block;
+	}
+
 	h1 {
 		font-size: clamp(2.25rem, 5vw, 3.5rem);
 		line-height: 1.05;
-		max-width: 20ch;
 	}
 
 	.lede {
