@@ -1,57 +1,51 @@
 [
 	{
-		"id": "1068",
+		"id": "1069",
 		"kind": "regular",
 		"show": "Film Junk",
-		"number": 1068,
+		"number": 1069,
 		"part": null,
-		"date": "2026-10-26",
+		"date": "2026-10-22",
 		"dateApprox": false,
-		"title": "The Blair Witch Project",
+		"title": "You Can See Everything",
 		"reviews": [
 			{
-				"title": "The Blair Witch Project",
-				"year": 1999,
+				"title": "You Can See Everything",
+				"year": 2026,
 				"ratings": [
 					{
 						"host": "Frank",
-						"score": 4.5,
+						"score": 5,
 						"outOf": 5
 					},
 					{
 						"host": "Jay",
-						"score": 4.5,
+						"score": 5,
 						"outOf": 5
 					},
 					{
 						"host": "Sean",
-						"score": 4.5,
+						"score": 5,
 						"outOf": 5
 					}
 				],
-				"film": "the-blair-witch-project"
+				"film": "you-can-see-everything"
 			}
 		],
 		"watched": [],
 		"segments": [],
 		"music": {},
 		"notes": "",
-		"description": "Okay, here's your motivation. You're lost, you're angry in the woods and no one is here to help you. The Blair Witch Project was a pretty big deal when it arrived in theatres back in 1999 but it was (and still is) a somewhat divisive film. There is no debating the influence it had in terms of found footage horror but somehow the scares remain very subjective. Is this movie still an intense and immersive experience or is it just boring? Are the performances realistic and convincing or is there a little too much riffing going on? Was the marketing for the movie way ahead of its time? What is the deal with that blue slime? Pop a tent and order some Mary Brown's Chicken while listening to the latest episode of Film Junk.",
+		"description": "Note: You Can See Everything was intended to be part of our November line-up but we decided to release the episode early due to all of the discussion surrounding the film.\r\n\"Why would I deceive you? There's no reason for me to do that.\" This week we get caught in the Elizabeth Holmes distortion field as we review You Can See Everything, the new documentary by Nathan Fielder and Lance Oppenheim. It's a movie with so many different layers that it almost seems to be about the nature of reality itself. Was Elizabeth Holmes knowingly defrauding investors or was she just being exploited by other people? Should documentary subjects have a say in or make a profit from movies that are about them? Can psychopaths be good people? Is there such a thing as objective truth in this world? Clearly it's very complicated... scam the scammers with the latest episode of Film Junk.",
 		"pack": null,
 		"links": {
-			"libsyn": "https://directory.libsyn.com/episode/index/id/43295509",
-			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-1068-172366711",
-			"apple": "https://podcasts.apple.com/us/podcast/the-blair-witch-project-1999/id74257105?i=1000798207688",
-			"spotify": "https://open.spotify.com/episode/3iKdi5NyDtciHAa7grPMn4"
+			"libsyn": "https://directory.libsyn.com/episode/index/id/43395879",
+			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-1069-173038735",
+			"apple": "https://podcasts.apple.com/us/podcast/you-can-see-everything-2026/id74257105?i=1000797678418",
+			"spotify": "https://open.spotify.com/episode/4GR0p7hNvtMeb4mR8ADxw1"
 		},
-		"mentioned": [
-			{
-				"title": "Blair Witch",
-				"year": null,
-				"film": "blair-witch"
-			}
-		],
-		"hero": "Luke Hoctor"
+		"mentioned": [],
+		"hero": "James Mills"
 	},
 	{
 		"notes": "",
@@ -125,52 +119,58 @@
 		}
 	},
 	{
-		"id": "1069",
+		"id": "1068",
 		"kind": "regular",
 		"show": "Film Junk",
-		"number": 1069,
+		"number": 1068,
 		"part": null,
-		"date": "2026-10-22",
+		"date": "2026-10-26",
 		"dateApprox": false,
-		"title": "You Can See Everything",
+		"title": "The Blair Witch Project",
 		"reviews": [
 			{
-				"title": "You Can See Everything",
-				"year": 2026,
+				"title": "The Blair Witch Project",
+				"year": 1999,
 				"ratings": [
 					{
 						"host": "Frank",
-						"score": 5,
+						"score": 4.5,
 						"outOf": 5
 					},
 					{
 						"host": "Jay",
-						"score": 5,
+						"score": 4.5,
 						"outOf": 5
 					},
 					{
 						"host": "Sean",
-						"score": 5,
+						"score": 4.5,
 						"outOf": 5
 					}
 				],
-				"film": "you-can-see-everything"
+				"film": "the-blair-witch-project"
 			}
 		],
 		"watched": [],
 		"segments": [],
 		"music": {},
 		"notes": "",
-		"description": "Note: You Can See Everything was intended to be part of our November line-up but we decided to release the episode early due to all of the discussion surrounding the film.\r\n\"Why would I deceive you? There's no reason for me to do that.\" This week we get caught in the Elizabeth Holmes distortion field as we review You Can See Everything, the new documentary by Nathan Fielder and Lance Oppenheim. It's a movie with so many different layers that it almost seems to be about the nature of reality itself. Was Elizabeth Holmes knowingly defrauding investors or was she just being exploited by other people? Should documentary subjects have a say in or make a profit from movies that are about them? Can psychopaths be good people? Is there such a thing as objective truth in this world? Clearly it's very complicated... scam the scammers with the latest episode of Film Junk.",
+		"description": "Okay, here's your motivation. You're lost, you're angry in the woods and no one is here to help you. The Blair Witch Project was a pretty big deal when it arrived in theatres back in 1999 but it was (and still is) a somewhat divisive film. There is no debating the influence it had in terms of found footage horror but somehow the scares remain very subjective. Is this movie still an intense and immersive experience or is it just boring? Are the performances realistic and convincing or is there a little too much riffing going on? Was the marketing for the movie way ahead of its time? What is the deal with that blue slime? Pop a tent and order some Mary Brown's Chicken while listening to the latest episode of Film Junk.",
 		"pack": null,
 		"links": {
-			"libsyn": "https://directory.libsyn.com/episode/index/id/43395879",
-			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-1069-173038735",
-			"apple": "https://podcasts.apple.com/us/podcast/you-can-see-everything-2026/id74257105?i=1000797678418",
-			"spotify": "https://open.spotify.com/episode/4GR0p7hNvtMeb4mR8ADxw1"
+			"libsyn": "https://directory.libsyn.com/episode/index/id/43295509",
+			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-1068-172366711",
+			"apple": "https://podcasts.apple.com/us/podcast/the-blair-witch-project-1999/id74257105?i=1000798207688",
+			"spotify": "https://open.spotify.com/episode/3iKdi5NyDtciHAa7grPMn4"
 		},
-		"mentioned": [],
-		"hero": "James Mills"
+		"mentioned": [
+			{
+				"title": "Blair Witch",
+				"year": null,
+				"film": "blair-witch"
+			}
+		],
+		"hero": "Luke Hoctor"
 	},
 	{
 		"id": "2026-10-22-film-junk-calendar-reveal-nov-2026",
@@ -594,54 +594,6 @@
 		}
 	},
 	{
-		"id": "1062",
-		"kind": "regular",
-		"show": "Film Junk",
-		"number": 1062,
-		"part": null,
-		"date": "2026-09-21",
-		"dateApprox": false,
-		"title": "Reign of Fire",
-		"reviews": [
-			{
-				"title": "Reign of Fire",
-				"year": 2002,
-				"ratings": [
-					{
-						"host": "Jay",
-						"score": 3.5,
-						"outOf": 5
-					},
-					{
-						"host": "Frank",
-						"score": 3.5,
-						"outOf": 5
-					},
-					{
-						"host": "Sean",
-						"score": 4,
-						"outOf": 5
-					}
-				],
-				"film": "reign-of-fire"
-			}
-		],
-		"watched": [],
-		"segments": [],
-		"music": {},
-		"notes": "",
-		"description": "Look out that window... Eden isn't burning, it's burnt. This week on the Film Junk Podcast we are jumping out of planes during magic hour as we dig hard, dig deep and look back on another post-apocalyptic world. This time Christian Bale and Matthew McConaughey are leading humans in a last stand against dragons in the 2002 cult classic Reign of Fire. Should this movie have been a bigger hit than it was? How do the special effects hold up over 20 years later? Does the fictional biology of dragons make any scientific sense? Can we improvise a better screenplay for this movie during the course of this podcast? Keep two eyes on the sky and download this week's episode of Film Junk below.",
-		"pack": null,
-		"links": {
-			"libsyn": "https://directory.libsyn.com/episode/index/id/42803255",
-			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-1062-168816107",
-			"apple": "https://podcasts.apple.com/us/podcast/reign-of-fire-2002/id74257105?i=1000790969887",
-			"spotify": "https://open.spotify.com/episode/1j6Bqk7l0GUyJjyDLzFUfi"
-		},
-		"mentioned": [],
-		"hero": "Josh Frank"
-	},
-	{
 		"id": "1063",
 		"kind": "regular",
 		"show": "Film Junk",
@@ -716,6 +668,54 @@
 			}
 		],
 		"hero": "Gavin Roberts"
+	},
+	{
+		"id": "1062",
+		"kind": "regular",
+		"show": "Film Junk",
+		"number": 1062,
+		"part": null,
+		"date": "2026-09-21",
+		"dateApprox": false,
+		"title": "Reign of Fire",
+		"reviews": [
+			{
+				"title": "Reign of Fire",
+				"year": 2002,
+				"ratings": [
+					{
+						"host": "Jay",
+						"score": 3.5,
+						"outOf": 5
+					},
+					{
+						"host": "Frank",
+						"score": 3.5,
+						"outOf": 5
+					},
+					{
+						"host": "Sean",
+						"score": 4,
+						"outOf": 5
+					}
+				],
+				"film": "reign-of-fire"
+			}
+		],
+		"watched": [],
+		"segments": [],
+		"music": {},
+		"notes": "",
+		"description": "Look out that window... Eden isn't burning, it's burnt. This week on the Film Junk Podcast we are jumping out of planes during magic hour as we dig hard, dig deep and look back on another post-apocalyptic world. This time Christian Bale and Matthew McConaughey are leading humans in a last stand against dragons in the 2002 cult classic Reign of Fire. Should this movie have been a bigger hit than it was? How do the special effects hold up over 20 years later? Does the fictional biology of dragons make any scientific sense? Can we improvise a better screenplay for this movie during the course of this podcast? Keep two eyes on the sky and download this week's episode of Film Junk below.",
+		"pack": null,
+		"links": {
+			"libsyn": "https://directory.libsyn.com/episode/index/id/42803255",
+			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-1062-168816107",
+			"apple": "https://podcasts.apple.com/us/podcast/reign-of-fire-2002/id74257105?i=1000790969887",
+			"spotify": "https://open.spotify.com/episode/1j6Bqk7l0GUyJjyDLzFUfi"
+		},
+		"mentioned": [],
+		"hero": "Josh Frank"
 	},
 	{
 		"id": "1061",
@@ -1530,54 +1530,6 @@
 		}
 	},
 	{
-		"id": "1052",
-		"kind": "regular",
-		"show": "Film Junk",
-		"number": 1052,
-		"part": null,
-		"date": "2026-07-20",
-		"dateApprox": false,
-		"title": "Rain Man",
-		"reviews": [
-			{
-				"title": "Rain Man",
-				"year": 1988,
-				"ratings": [
-					{
-						"host": "Frank",
-						"score": 6,
-						"outOf": 5
-					},
-					{
-						"host": "Jay",
-						"score": 3.5,
-						"outOf": 5
-					},
-					{
-						"host": "Sean",
-						"score": 4,
-						"outOf": 5
-					}
-				],
-				"film": "rain-man"
-			}
-		],
-		"watched": [],
-		"segments": [],
-		"music": {},
-		"notes": "",
-		"description": "\"What you have to understand is, four days ago he was only my brother in name and this morning we had pancakes.\" It's time for another Frankie favourite here on Film Junk: the 1988 road trip dramedy Rain Man! This one was a huge blockbuster at the time and went on to win four Oscars including Best Picture. But has it been forgotten and a little underappreciated over the years? Was Dustin Hoffman right to question his own performance? Was Tom Cruise snubbed by the Academy that year? Did Hans Zimmer's score break new ground or was it just following '80s trends? Would Raymond really say \"Kmart sucks\"? Definitely three minutes to Wapner... hurry up and listen to this week's episode of the Film Junk Podcast.",
-		"pack": null,
-		"links": {
-			"libsyn": "https://directory.libsyn.com/episode/index/id/41971210",
-			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-1052-163016585",
-			"apple": "https://podcasts.apple.com/us/podcast/rain-man-1988/id74257105?i=1000777588622",
-			"spotify": "https://open.spotify.com/episode/4mYlzhUHHNOLAdPzQJzMkB"
-		},
-		"mentioned": [],
-		"hero": "Other Josh"
-	},
-	{
 		"id": "1053",
 		"kind": "regular",
 		"show": "Film Junk",
@@ -1624,6 +1576,54 @@
 		},
 		"mentioned": [],
 		"hero": "Dominic Amos"
+	},
+	{
+		"id": "1052",
+		"kind": "regular",
+		"show": "Film Junk",
+		"number": 1052,
+		"part": null,
+		"date": "2026-07-20",
+		"dateApprox": false,
+		"title": "Rain Man",
+		"reviews": [
+			{
+				"title": "Rain Man",
+				"year": 1988,
+				"ratings": [
+					{
+						"host": "Frank",
+						"score": 6,
+						"outOf": 5
+					},
+					{
+						"host": "Jay",
+						"score": 3.5,
+						"outOf": 5
+					},
+					{
+						"host": "Sean",
+						"score": 4,
+						"outOf": 5
+					}
+				],
+				"film": "rain-man"
+			}
+		],
+		"watched": [],
+		"segments": [],
+		"music": {},
+		"notes": "",
+		"description": "\"What you have to understand is, four days ago he was only my brother in name and this morning we had pancakes.\" It's time for another Frankie favourite here on Film Junk: the 1988 road trip dramedy Rain Man! This one was a huge blockbuster at the time and went on to win four Oscars including Best Picture. But has it been forgotten and a little underappreciated over the years? Was Dustin Hoffman right to question his own performance? Was Tom Cruise snubbed by the Academy that year? Did Hans Zimmer's score break new ground or was it just following '80s trends? Would Raymond really say \"Kmart sucks\"? Definitely three minutes to Wapner... hurry up and listen to this week's episode of the Film Junk Podcast.",
+		"pack": null,
+		"links": {
+			"libsyn": "https://directory.libsyn.com/episode/index/id/41971210",
+			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-1052-163016585",
+			"apple": "https://podcasts.apple.com/us/podcast/rain-man-1988/id74257105?i=1000777588622",
+			"spotify": "https://open.spotify.com/episode/4mYlzhUHHNOLAdPzQJzMkB"
+		},
+		"mentioned": [],
+		"hero": "Other Josh"
 	},
 	{
 		"id": "1051",
@@ -1967,6 +1967,78 @@
 		}
 	},
 	{
+		"id": "1048",
+		"kind": "regular",
+		"show": "Film Junk",
+		"number": 1048,
+		"part": null,
+		"date": "2026-06-17",
+		"dateApprox": false,
+		"title": "Disclosure Day",
+		"reviews": [
+			{
+				"title": "Disclosure Day",
+				"year": 2026,
+				"ratings": [
+					{
+						"host": "Frank",
+						"score": 3,
+						"outOf": 5
+					},
+					{
+						"host": "Jay",
+						"score": 2,
+						"outOf": 5
+					},
+					{
+						"host": "Sean",
+						"score": 3,
+						"outOf": 5
+					}
+				],
+				"film": "disclosure-day"
+			}
+		],
+		"watched": [],
+		"segments": [],
+		"music": {},
+		"notes": "",
+		"description": "Are you an experiencer? With Disclosure Day, Steven Spielberg returns to the idea of extra-terrestrials and brings with him a bold message for humanity. But is this a triumphant return to form for the Scarf or a major disappointment? Are we true believers or whistleblowers? Let's dive into the mystery and suspense, not to mention the convenient plot points and questionable CG animals. People have a right to know the truth. Listen... to the latest episode of the Film Junk Podcast.",
+		"pack": null,
+		"links": {
+			"libsyn": "https://directory.libsyn.com/episode/index/id/41673245",
+			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-1048-161295930",
+			"apple": "https://podcasts.apple.com/us/podcast/disclosure-day-2026/id74257105?i=1000773197111",
+			"spotify": "https://open.spotify.com/episode/2W1VCYBRK6gaCnqwZS1Dwa"
+		},
+		"mentioned": [],
+		"hero": "Jimmy Cerda"
+	},
+	{
+		"notes": "",
+		"description": "It's that time of month! Our Junk Mail P.O. box is STUFFED, so we sent Reed down to the retirement home to \"borrow\" the mailbox key from Elouise, who we've put in charge of all things related to postal services and website maintenance. Unfortunately, Elouise passed away two weeks ago under mysterious circumstances that authorities have deemed \"Ungodly.\" \nReed has offered to take her spot at the retirement home and will now be managing all business affairs in exchange for access to the facility's dumpster at the end of each day.",
+		"mentioned": [],
+		"segments": [],
+		"watched": [],
+		"reviews": [],
+		"music": {},
+		"show": "Film Junk",
+		"part": null,
+		"dateApprox": false,
+		"pack": null,
+		"id": "2026-06-19-junk-mail-june-2026",
+		"kind": "patreon",
+		"number": null,
+		"series": "Junk Mail",
+		"date": "2026-06-19",
+		"title": "Junk Mail: June 2026",
+		"duration": 3663,
+		"links": {
+			"patreon": "https://www.patreon.com/filmjunk/posts/junk-mail-june-161530049",
+			"spotify": "https://open.spotify.com/episode/2PY6Sy1UGiF63CGH4cStNB"
+		}
+	},
+	{
 		"id": "1047",
 		"kind": "regular",
 		"show": "Film Junk",
@@ -2019,78 +2091,6 @@
 			}
 		],
 		"hero": "Danny Schluck"
-	},
-	{
-		"notes": "",
-		"description": "It's that time of month! Our Junk Mail P.O. box is STUFFED, so we sent Reed down to the retirement home to \"borrow\" the mailbox key from Elouise, who we've put in charge of all things related to postal services and website maintenance. Unfortunately, Elouise passed away two weeks ago under mysterious circumstances that authorities have deemed \"Ungodly.\" \nReed has offered to take her spot at the retirement home and will now be managing all business affairs in exchange for access to the facility's dumpster at the end of each day.",
-		"mentioned": [],
-		"segments": [],
-		"watched": [],
-		"reviews": [],
-		"music": {},
-		"show": "Film Junk",
-		"part": null,
-		"dateApprox": false,
-		"pack": null,
-		"id": "2026-06-19-junk-mail-june-2026",
-		"kind": "patreon",
-		"number": null,
-		"series": "Junk Mail",
-		"date": "2026-06-19",
-		"title": "Junk Mail: June 2026",
-		"duration": 3663,
-		"links": {
-			"patreon": "https://www.patreon.com/filmjunk/posts/junk-mail-june-161530049",
-			"spotify": "https://open.spotify.com/episode/2PY6Sy1UGiF63CGH4cStNB"
-		}
-	},
-	{
-		"id": "1048",
-		"kind": "regular",
-		"show": "Film Junk",
-		"number": 1048,
-		"part": null,
-		"date": "2026-06-17",
-		"dateApprox": false,
-		"title": "Disclosure Day",
-		"reviews": [
-			{
-				"title": "Disclosure Day",
-				"year": 2026,
-				"ratings": [
-					{
-						"host": "Frank",
-						"score": 3,
-						"outOf": 5
-					},
-					{
-						"host": "Jay",
-						"score": 2,
-						"outOf": 5
-					},
-					{
-						"host": "Sean",
-						"score": 3,
-						"outOf": 5
-					}
-				],
-				"film": "disclosure-day"
-			}
-		],
-		"watched": [],
-		"segments": [],
-		"music": {},
-		"notes": "",
-		"description": "Are you an experiencer? With Disclosure Day, Steven Spielberg returns to the idea of extra-terrestrials and brings with him a bold message for humanity. But is this a triumphant return to form for the Scarf or a major disappointment? Are we true believers or whistleblowers? Let's dive into the mystery and suspense, not to mention the convenient plot points and questionable CG animals. People have a right to know the truth. Listen... to the latest episode of the Film Junk Podcast.",
-		"pack": null,
-		"links": {
-			"libsyn": "https://directory.libsyn.com/episode/index/id/41673245",
-			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-1048-161295930",
-			"apple": "https://podcasts.apple.com/us/podcast/disclosure-day-2026/id74257105?i=1000773197111",
-			"spotify": "https://open.spotify.com/episode/2W1VCYBRK6gaCnqwZS1Dwa"
-		},
-		"mentioned": [],
-		"hero": "Jimmy Cerda"
 	},
 	{
 		"id": "1046",
@@ -2295,83 +2295,6 @@
 		}
 	},
 	{
-		"id": "1043",
-		"kind": "regular",
-		"show": "Film Junk",
-		"number": 1043,
-		"part": null,
-		"date": "2026-06-01",
-		"dateApprox": false,
-		"title": "Spawn",
-		"reviews": [
-			{
-				"title": "Spawn",
-				"year": 1997,
-				"ratings": [
-					{
-						"host": "Frank",
-						"score": 2,
-						"outOf": 5
-					},
-					{
-						"host": "Jay",
-						"score": 1,
-						"outOf": 5
-					},
-					{
-						"host": "Sean",
-						"score": 1.5,
-						"outOf": 5
-					}
-				],
-				"film": "spawn"
-			}
-		],
-		"watched": [],
-		"segments": [],
-		"music": {},
-		"notes": "",
-		"description": "Every time someone farts, a demon gets his wings, and this week there are a lot of flying demons after we revisited the notorious 1997 stinker Spawn. At least one member of the Film Junk crew was very excited to see this movie on initial release. Was the force feed successful back then and does it hold up any better now? Listen as we reminisce about the Toddfather's comics and toy empire, the electronica / nu-metal soundtrack, vomit-inducing early CG, PG-13 movies for edgelords and the state of comic book movies back in the '90s. You have been violated little girly man. For a limited time only, you too can have this week's podcast for the eensy price of your soul and a buttload of pain.",
-		"pack": null,
-		"links": {
-			"libsyn": "https://directory.libsyn.com/episode/index/id/41421135",
-			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-1043-159249357",
-			"apple": "https://podcasts.apple.com/us/podcast/spawn-1997/id74257105?i=1000770621214",
-			"spotify": "https://open.spotify.com/episode/22LUDQZom4R2fskSVA3Z4V"
-		},
-		"hero": "James Waters"
-	},
-	{
-		"notes": "",
-		"description": "Holy shitolies, guys. We've been pumping out content like a guy taking a shit next to a showering Sydney Sweeney. \nSean was \"doing the dishes.\" Frank was playing Teenage Mutant Ninja Turtles Splintered Fate. I was reading The Art of War. \nSuddenly, the JUNK SIGNAL lit up the sky, and like the good little content creators we are, we unsheathed the mics, flipped the ON AIR SWITCH to RECORDING, and an hour later, another JUNK MAIL was born. Suck it down.",
-		"mentioned": [
-			{
-				"title": "Teenage Mutant Ninja Turtles",
-				"year": null,
-				"film": "teenage-mutant-ninja-turtles"
-			}
-		],
-		"segments": [],
-		"watched": [],
-		"reviews": [],
-		"music": {},
-		"show": "Film Junk",
-		"part": null,
-		"dateApprox": false,
-		"pack": null,
-		"id": "2026-05-28-junk-mail-may-2026",
-		"kind": "patreon",
-		"number": null,
-		"series": "Junk Mail",
-		"date": "2026-05-28",
-		"title": "Junk Mail: May 2026",
-		"duration": 3716,
-		"links": {
-			"patreon": "https://www.patreon.com/filmjunk/posts/junk-mail-may-159435357",
-			"spotify": "https://open.spotify.com/episode/2BwcslYHAxRQcdB7CI6x7m"
-		}
-	},
-	{
 		"id": "1044",
 		"kind": "regular",
 		"show": "Film Junk",
@@ -2429,6 +2352,83 @@
 			}
 		],
 		"hero": "Loggins"
+	},
+	{
+		"notes": "",
+		"description": "Holy shitolies, guys. We've been pumping out content like a guy taking a shit next to a showering Sydney Sweeney. \nSean was \"doing the dishes.\" Frank was playing Teenage Mutant Ninja Turtles Splintered Fate. I was reading The Art of War. \nSuddenly, the JUNK SIGNAL lit up the sky, and like the good little content creators we are, we unsheathed the mics, flipped the ON AIR SWITCH to RECORDING, and an hour later, another JUNK MAIL was born. Suck it down.",
+		"mentioned": [
+			{
+				"title": "Teenage Mutant Ninja Turtles",
+				"year": null,
+				"film": "teenage-mutant-ninja-turtles"
+			}
+		],
+		"segments": [],
+		"watched": [],
+		"reviews": [],
+		"music": {},
+		"show": "Film Junk",
+		"part": null,
+		"dateApprox": false,
+		"pack": null,
+		"id": "2026-05-28-junk-mail-may-2026",
+		"kind": "patreon",
+		"number": null,
+		"series": "Junk Mail",
+		"date": "2026-05-28",
+		"title": "Junk Mail: May 2026",
+		"duration": 3716,
+		"links": {
+			"patreon": "https://www.patreon.com/filmjunk/posts/junk-mail-may-159435357",
+			"spotify": "https://open.spotify.com/episode/2BwcslYHAxRQcdB7CI6x7m"
+		}
+	},
+	{
+		"id": "1043",
+		"kind": "regular",
+		"show": "Film Junk",
+		"number": 1043,
+		"part": null,
+		"date": "2026-06-01",
+		"dateApprox": false,
+		"title": "Spawn",
+		"reviews": [
+			{
+				"title": "Spawn",
+				"year": 1997,
+				"ratings": [
+					{
+						"host": "Frank",
+						"score": 2,
+						"outOf": 5
+					},
+					{
+						"host": "Jay",
+						"score": 1,
+						"outOf": 5
+					},
+					{
+						"host": "Sean",
+						"score": 1.5,
+						"outOf": 5
+					}
+				],
+				"film": "spawn"
+			}
+		],
+		"watched": [],
+		"segments": [],
+		"music": {},
+		"notes": "",
+		"description": "Every time someone farts, a demon gets his wings, and this week there are a lot of flying demons after we revisited the notorious 1997 stinker Spawn. At least one member of the Film Junk crew was very excited to see this movie on initial release. Was the force feed successful back then and does it hold up any better now? Listen as we reminisce about the Toddfather's comics and toy empire, the electronica / nu-metal soundtrack, vomit-inducing early CG, PG-13 movies for edgelords and the state of comic book movies back in the '90s. You have been violated little girly man. For a limited time only, you too can have this week's podcast for the eensy price of your soul and a buttload of pain.",
+		"pack": null,
+		"links": {
+			"libsyn": "https://directory.libsyn.com/episode/index/id/41421135",
+			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-1043-159249357",
+			"apple": "https://podcasts.apple.com/us/podcast/spawn-1997/id74257105?i=1000770621214",
+			"spotify": "https://open.spotify.com/episode/22LUDQZom4R2fskSVA3Z4V"
+		},
+		"hero": "James Waters"
 	},
 	{
 		"id": "1042",
@@ -3092,22 +3092,22 @@
 		"hero": "Ethan"
 	},
 	{
-		"id": "1033",
+		"id": "1034",
 		"kind": "regular",
 		"show": "Film Junk",
-		"number": 1033,
+		"number": 1034,
 		"part": null,
-		"date": "2026-03-30",
+		"date": "2026-03-23",
 		"dateApprox": false,
-		"title": "Highlander",
+		"title": "Project Hail Mary",
 		"reviews": [
 			{
-				"title": "Highlander",
-				"year": 1986,
+				"title": "Project Hail Mary",
+				"year": 2026,
 				"ratings": [
 					{
-						"host": "Frank",
-						"score": 3.5,
+						"host": "Sean",
+						"score": 4,
 						"outOf": 5
 					},
 					{
@@ -3116,27 +3116,32 @@
 						"outOf": 5
 					},
 					{
-						"host": "Sean",
-						"score": 4,
+						"host": "Frank",
+						"score": 3.5,
+						"outOf": 5
+					},
+					{
+						"host": "Reed",
+						"score": 3,
 						"outOf": 5
 					}
 				],
-				"film": "highlander"
+				"film": "project-hail-mary"
 			}
 		],
 		"watched": [],
 		"segments": [],
 		"music": {},
 		"notes": "",
-		"description": "There can only be one, or in this case, one plus several sequels, two TV shows and an upcoming modern reboot. Highlander remains a beloved and iconic 80s action movie, and it’s about time Film Junk explored what it means to live forever. Is immortality a gift or a curse? Is The Prize a gift or a curse? What is The Quickening? Do the rules of this world make any sense? Would every movie be better with a soundtrack by Queen? Don't lose your head... Film Junk faces such savage questions with heart, faith and steel on this week's podcast.",
+		"description": "The sun is dying and Ryan Gosling is the only one who can save us. After a few close calls and a close encounter, he’s going to science the shit out of the situation. But is this hero’s journey a new masterpiece or is it just space junk? Why is Reed Farrington using a translator app to watch this movie? Does humanity have a future beyond the stars? Fist my bump and prepare to be amaze on the latest episode of Film Junk.",
 		"pack": null,
 		"links": {
-			"libsyn": "https://directory.libsyn.com/episode/index/id/40540185",
-			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-1033-153411478",
-			"apple": "https://podcasts.apple.com/us/podcast/highlander-1986/id74257105?i=1000758251762",
-			"spotify": "https://open.spotify.com/episode/45BAVpfwmUA2ei4BfNjnCU"
+			"libsyn": "https://directory.libsyn.com/episode/index/id/40616420",
+			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-1034-153898691",
+			"apple": "https://podcasts.apple.com/us/podcast/project-hail-mary-2026/id74257105?i=1000757534761",
+			"spotify": "https://open.spotify.com/episode/1PWbHJcJxtwwUHpkO3HQmR"
 		},
-		"hero": "Trebor Treebeard"
+		"mentioned": []
 	},
 	{
 		"notes": "",
@@ -3210,22 +3215,22 @@
 		}
 	},
 	{
-		"id": "1034",
+		"id": "1033",
 		"kind": "regular",
 		"show": "Film Junk",
-		"number": 1034,
+		"number": 1033,
 		"part": null,
-		"date": "2026-03-23",
+		"date": "2026-03-30",
 		"dateApprox": false,
-		"title": "Project Hail Mary",
+		"title": "Highlander",
 		"reviews": [
 			{
-				"title": "Project Hail Mary",
-				"year": 2026,
+				"title": "Highlander",
+				"year": 1986,
 				"ratings": [
 					{
-						"host": "Sean",
-						"score": 4,
+						"host": "Frank",
+						"score": 3.5,
 						"outOf": 5
 					},
 					{
@@ -3234,32 +3239,27 @@
 						"outOf": 5
 					},
 					{
-						"host": "Frank",
-						"score": 3.5,
-						"outOf": 5
-					},
-					{
-						"host": "Reed",
-						"score": 3,
+						"host": "Sean",
+						"score": 4,
 						"outOf": 5
 					}
 				],
-				"film": "project-hail-mary"
+				"film": "highlander"
 			}
 		],
 		"watched": [],
 		"segments": [],
 		"music": {},
 		"notes": "",
-		"description": "The sun is dying and Ryan Gosling is the only one who can save us. After a few close calls and a close encounter, he’s going to science the shit out of the situation. But is this hero’s journey a new masterpiece or is it just space junk? Why is Reed Farrington using a translator app to watch this movie? Does humanity have a future beyond the stars? Fist my bump and prepare to be amaze on the latest episode of Film Junk.",
+		"description": "There can only be one, or in this case, one plus several sequels, two TV shows and an upcoming modern reboot. Highlander remains a beloved and iconic 80s action movie, and it’s about time Film Junk explored what it means to live forever. Is immortality a gift or a curse? Is The Prize a gift or a curse? What is The Quickening? Do the rules of this world make any sense? Would every movie be better with a soundtrack by Queen? Don't lose your head... Film Junk faces such savage questions with heart, faith and steel on this week's podcast.",
 		"pack": null,
 		"links": {
-			"libsyn": "https://directory.libsyn.com/episode/index/id/40616420",
-			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-1034-153898691",
-			"apple": "https://podcasts.apple.com/us/podcast/project-hail-mary-2026/id74257105?i=1000757534761",
-			"spotify": "https://open.spotify.com/episode/1PWbHJcJxtwwUHpkO3HQmR"
+			"libsyn": "https://directory.libsyn.com/episode/index/id/40540185",
+			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-1033-153411478",
+			"apple": "https://podcasts.apple.com/us/podcast/highlander-1986/id74257105?i=1000758251762",
+			"spotify": "https://open.spotify.com/episode/45BAVpfwmUA2ei4BfNjnCU"
 		},
-		"mentioned": []
+		"hero": "Trebor Treebeard"
 	},
 	{
 		"id": "1032",
@@ -75654,6 +75654,36 @@
 		}
 	},
 	{
+		"id": "400",
+		"kind": "regular",
+		"show": "Film Junk",
+		"number": 400,
+		"part": null,
+		"date": "2012-01-06",
+		"dateApprox": false,
+		"title": "Our Top 100 Movies of All Time",
+		"reviews": [],
+		"watched": [],
+		"segments": [
+			{
+				"label": "Feature",
+				"items": [
+					"Our Top 100 Movies of All Time"
+				]
+			}
+		],
+		"music": {
+			"intro": "Frank Stallone - Far From Over",
+			"outro": "Bachman-Turner Overdrive - You Ain't Seen Nothing Yet"
+		},
+		"notes": "",
+		"description": "",
+		"pack": "2013",
+		"links": {
+			"gumroad": "https://filmjunk.gumroad.com/l/BQoOz"
+		}
+	},
+	{
 		"id": "399",
 		"kind": "regular",
 		"show": "Film Junk",
@@ -75932,6 +75962,33 @@
 		}
 	},
 	{
+		"id": "premium-the-lord-of-the-rings-trilogy",
+		"kind": "premium",
+		"number": 13,
+		"date": "2012-12-12",
+		"title": "The Lord of the Rings Trilogy",
+		"description": "On this episode we discuss the extended editions of Peter Jackson's The Lord of the Rings trilogy.",
+		"covers": [
+			{
+				"title": "The Lord of the Rings: The Fellowship of the Ring",
+				"film": "the-lord-of-the-rings-the-fellowship-of-the-ring"
+			},
+			{
+				"title": "The Lord of the Rings: The Two Towers",
+				"film": "the-lord-of-the-rings-the-two-towers"
+			},
+			{
+				"title": "The Lord of the Rings: The Return of the King",
+				"film": "the-lord-of-the-rings-the-return-of-the-king"
+			}
+		],
+		"notes": "",
+		"art": "https://f4.bcbits.com/img/a1434390505_16.jpg",
+		"links": {
+			"bandcamp": "https://filmjunk.bandcamp.com/album/the-lord-of-the-rings-trilogy"
+		}
+	},
+	{
 		"id": "397",
 		"kind": "regular",
 		"show": "Film Junk",
@@ -76068,30 +76125,30 @@
 		}
 	},
 	{
-		"id": "premium-the-lord-of-the-rings-trilogy",
-		"kind": "premium",
-		"number": 13,
-		"date": "2012-12-12",
-		"title": "The Lord of the Rings Trilogy",
-		"description": "On this episode we discuss the extended editions of Peter Jackson's The Lord of the Rings trilogy.",
-		"covers": [
+		"id": "2012-12-02-movie-organization-manifesto-part-3",
+		"kind": "bonus",
+		"show": "Film Junk",
+		"number": null,
+		"part": null,
+		"date": "2012-12-02",
+		"dateApprox": true,
+		"title": "Movie Organization Manifesto, Part 3",
+		"reviews": [],
+		"watched": [],
+		"segments": [
 			{
-				"title": "The Lord of the Rings: The Fellowship of the Ring",
-				"film": "the-lord-of-the-rings-the-fellowship-of-the-ring"
-			},
-			{
-				"title": "The Lord of the Rings: The Two Towers",
-				"film": "the-lord-of-the-rings-the-two-towers"
-			},
-			{
-				"title": "The Lord of the Rings: The Return of the King",
-				"film": "the-lord-of-the-rings-the-return-of-the-king"
+				"label": "Feature",
+				"items": [
+					"Jay and Frank revisit the manifesto, answer more questions and share stories about bargain hunting."
+				]
 			}
 		],
+		"music": {},
 		"notes": "",
-		"art": "https://f4.bcbits.com/img/a1434390505_16.jpg",
+		"description": "",
+		"pack": "bonus",
 		"links": {
-			"bandcamp": "https://filmjunk.bandcamp.com/album/the-lord-of-the-rings-trilogy"
+			"gumroad": "https://filmjunk.gumroad.com/l/DygSp"
 		}
 	},
 	{
@@ -76292,30 +76349,46 @@
 		}
 	},
 	{
-		"id": "2012-12-02-movie-organization-manifesto-part-3",
-		"kind": "bonus",
-		"show": "Film Junk",
-		"number": null,
-		"part": null,
-		"date": "2012-12-02",
-		"dateApprox": true,
-		"title": "Movie Organization Manifesto, Part 3",
-		"reviews": [],
-		"watched": [],
-		"segments": [
+		"id": "premium-james-bond",
+		"kind": "premium",
+		"number": 12,
+		"date": "2012-11-21",
+		"title": "James Bond",
+		"description": "In this episode of the Film Junk Premium Podcast we talk about some of the best and worst in the James Bond series. The discussion includes Goldfinger, On Her Majesty's Secret Service, Live and Let Die, Moonraker, The Living Daylights, and Casino Royale.",
+		"covers": [
 			{
-				"label": "Feature",
-				"items": [
-					"Jay and Frank revisit the manifesto, answer more questions and share stories about bargain hunting."
-				]
+				"title": "Goldfinger",
+				"film": "goldfinger"
+			},
+			{
+				"title": "On Her Majesty's Secret Service",
+				"film": "on-her-majestys-secret-service"
+			},
+			{
+				"title": "Live and Let Die",
+				"film": "live-and-let-die"
+			},
+			{
+				"title": "Moonraker",
+				"film": "moonraker"
+			},
+			{
+				"title": "The Living Daylights",
+				"film": "the-living-daylights"
+			},
+			{
+				"title": "GoldenEye",
+				"film": "goldeneye"
+			},
+			{
+				"title": "Casino Royale",
+				"film": "casino-royale"
 			}
 		],
-		"music": {},
 		"notes": "",
-		"description": "",
-		"pack": "bonus",
+		"art": "https://f4.bcbits.com/img/a2608274134_16.jpg",
 		"links": {
-			"gumroad": "https://filmjunk.gumroad.com/l/DygSp"
+			"bandcamp": "https://filmjunk.bandcamp.com/album/james-bond"
 		}
 	},
 	{
@@ -76460,49 +76533,6 @@
 		"pack": "2012",
 		"links": {
 			"gumroad": "https://filmjunk.gumroad.com/l/njGM"
-		}
-	},
-	{
-		"id": "premium-james-bond",
-		"kind": "premium",
-		"number": 12,
-		"date": "2012-11-21",
-		"title": "James Bond",
-		"description": "In this episode of the Film Junk Premium Podcast we talk about some of the best and worst in the James Bond series. The discussion includes Goldfinger, On Her Majesty's Secret Service, Live and Let Die, Moonraker, The Living Daylights, and Casino Royale.",
-		"covers": [
-			{
-				"title": "Goldfinger",
-				"film": "goldfinger"
-			},
-			{
-				"title": "On Her Majesty's Secret Service",
-				"film": "on-her-majestys-secret-service"
-			},
-			{
-				"title": "Live and Let Die",
-				"film": "live-and-let-die"
-			},
-			{
-				"title": "Moonraker",
-				"film": "moonraker"
-			},
-			{
-				"title": "The Living Daylights",
-				"film": "the-living-daylights"
-			},
-			{
-				"title": "GoldenEye",
-				"film": "goldeneye"
-			},
-			{
-				"title": "Casino Royale",
-				"film": "casino-royale"
-			}
-		],
-		"notes": "",
-		"art": "https://f4.bcbits.com/img/a2608274134_16.jpg",
-		"links": {
-			"bandcamp": "https://filmjunk.bandcamp.com/album/james-bond"
 		}
 	},
 	{
@@ -76831,6 +76861,37 @@
 		}
 	},
 	{
+		"id": "premium-trilogy-of-the-dead",
+		"kind": "premium",
+		"number": 11,
+		"date": "2012-10-23",
+		"title": "Trilogy of the Dead",
+		"description": "In this episode of the Film Junk Premium Podcasts we talked about George A. Romero's original Trilogy of the Dead: Night of the Living Dead, Dawn of the Dead, and Day of the Dead. As a bonus, we also discuss Dan O'Bannon's Return of the Living Dead.",
+		"covers": [
+			{
+				"title": "Night Of The Living Dead",
+				"film": "night-of-the-living-dead"
+			},
+			{
+				"title": "Dawn Of The Dead",
+				"film": "dawn-of-the-dead"
+			},
+			{
+				"title": "Day Of The Dead",
+				"film": "day-of-the-dead"
+			},
+			{
+				"title": "The Return of the Living Dead",
+				"film": "the-return-of-the-living-dead"
+			}
+		],
+		"notes": "",
+		"art": "https://f4.bcbits.com/img/a1314718423_16.jpg",
+		"links": {
+			"bandcamp": "https://filmjunk.bandcamp.com/album/trilogy-of-the-dead"
+		}
+	},
+	{
 		"id": "391",
 		"kind": "regular",
 		"show": "Film Junk",
@@ -77014,37 +77075,6 @@
 		}
 	},
 	{
-		"id": "premium-trilogy-of-the-dead",
-		"kind": "premium",
-		"number": 11,
-		"date": "2012-10-23",
-		"title": "Trilogy of the Dead",
-		"description": "In this episode of the Film Junk Premium Podcasts we talked about George A. Romero's original Trilogy of the Dead: Night of the Living Dead, Dawn of the Dead, and Day of the Dead. As a bonus, we also discuss Dan O'Bannon's Return of the Living Dead.",
-		"covers": [
-			{
-				"title": "Night Of The Living Dead",
-				"film": "night-of-the-living-dead"
-			},
-			{
-				"title": "Dawn Of The Dead",
-				"film": "dawn-of-the-dead"
-			},
-			{
-				"title": "Day Of The Dead",
-				"film": "day-of-the-dead"
-			},
-			{
-				"title": "The Return of the Living Dead",
-				"film": "the-return-of-the-living-dead"
-			}
-		],
-		"notes": "",
-		"art": "https://f4.bcbits.com/img/a1314718423_16.jpg",
-		"links": {
-			"bandcamp": "https://filmjunk.bandcamp.com/album/trilogy-of-the-dead"
-		}
-	},
-	{
 		"id": "390",
 		"kind": "regular",
 		"show": "Film Junk",
@@ -77208,6 +77238,37 @@
 		"pack": "2012",
 		"links": {
 			"gumroad": "https://filmjunk.gumroad.com/l/njGM"
+		}
+	},
+	{
+		"id": "premium-the-indiana-jones-series",
+		"kind": "premium",
+		"number": 10,
+		"date": "2012-10-04",
+		"title": "The Indiana Jones Series",
+		"description": "In this episode we discuss George Lucas and Steven Spielberg's Indiana Jones series from Raiders of the Lost Ark through to Kingdom of the Crystal Skull.",
+		"covers": [
+			{
+				"title": "Raiders Of The Lost Ark",
+				"film": "raiders-of-the-lost-ark"
+			},
+			{
+				"title": "Indiana Jones and the Temple of Doom",
+				"film": "indiana-jones-and-the-temple-of-doom"
+			},
+			{
+				"title": "Indiana Jones and the Last Crusade",
+				"film": "indiana-jones-and-the-last-crusade"
+			},
+			{
+				"title": "Indiana Jones and the Kingdom of the Crystal Skull",
+				"film": "indiana-jones-and-the-kingdom-of-the-crystal-skull"
+			}
+		],
+		"notes": "",
+		"art": "https://f4.bcbits.com/img/a1947948595_16.jpg",
+		"links": {
+			"bandcamp": "https://filmjunk.bandcamp.com/album/the-indiana-jones-series"
 		}
 	},
 	{
@@ -77387,37 +77448,6 @@
 		"pack": "2012",
 		"links": {
 			"gumroad": "https://filmjunk.gumroad.com/l/njGM"
-		}
-	},
-	{
-		"id": "premium-the-indiana-jones-series",
-		"kind": "premium",
-		"number": 10,
-		"date": "2012-10-04",
-		"title": "The Indiana Jones Series",
-		"description": "In this episode we discuss George Lucas and Steven Spielberg's Indiana Jones series from Raiders of the Lost Ark through to Kingdom of the Crystal Skull.",
-		"covers": [
-			{
-				"title": "Raiders Of The Lost Ark",
-				"film": "raiders-of-the-lost-ark"
-			},
-			{
-				"title": "Indiana Jones and the Temple of Doom",
-				"film": "indiana-jones-and-the-temple-of-doom"
-			},
-			{
-				"title": "Indiana Jones and the Last Crusade",
-				"film": "indiana-jones-and-the-last-crusade"
-			},
-			{
-				"title": "Indiana Jones and the Kingdom of the Crystal Skull",
-				"film": "indiana-jones-and-the-kingdom-of-the-crystal-skull"
-			}
-		],
-		"notes": "",
-		"art": "https://f4.bcbits.com/img/a1947948595_16.jpg",
-		"links": {
-			"bandcamp": "https://filmjunk.bandcamp.com/album/the-indiana-jones-series"
 		}
 	},
 	{
@@ -78083,36 +78113,6 @@
 		}
 	},
 	{
-		"id": "383",
-		"kind": "regular",
-		"show": "Film Junk",
-		"number": 383,
-		"part": null,
-		"date": "2012-08-26",
-		"dateApprox": false,
-		"title": "The Films of Tony Scott",
-		"reviews": [],
-		"watched": [],
-		"segments": [
-			{
-				"label": "Feature",
-				"items": [
-					"The Films of Tony Scott"
-				]
-			}
-		],
-		"music": {
-			"intro": "Hans Zimmer - Roll Tide / Hymn",
-			"outro": "Kenny Loggins - Playing with the Boys"
-		},
-		"notes": "\"A very special episode of Film Junk\", The Tony Scott Retrospective. Sean is away.",
-		"description": "",
-		"pack": "2012",
-		"links": {
-			"gumroad": "https://filmjunk.gumroad.com/l/njGM"
-		}
-	},
-	{
 		"id": "premium-the-rocky-saga",
 		"kind": "premium",
 		"number": 9,
@@ -78149,6 +78149,36 @@
 		"art": "https://f4.bcbits.com/img/a0521820102_16.jpg",
 		"links": {
 			"bandcamp": "https://filmjunk.bandcamp.com/album/the-rocky-saga"
+		}
+	},
+	{
+		"id": "383",
+		"kind": "regular",
+		"show": "Film Junk",
+		"number": 383,
+		"part": null,
+		"date": "2012-08-26",
+		"dateApprox": false,
+		"title": "The Films of Tony Scott",
+		"reviews": [],
+		"watched": [],
+		"segments": [
+			{
+				"label": "Feature",
+				"items": [
+					"The Films of Tony Scott"
+				]
+			}
+		],
+		"music": {
+			"intro": "Hans Zimmer - Roll Tide / Hymn",
+			"outro": "Kenny Loggins - Playing with the Boys"
+		},
+		"notes": "\"A very special episode of Film Junk\", The Tony Scott Retrospective. Sean is away.",
+		"description": "",
+		"pack": "2012",
+		"links": {
+			"gumroad": "https://filmjunk.gumroad.com/l/njGM"
 		}
 	},
 	{
@@ -78675,6 +78705,80 @@
 		}
 	},
 	{
+		"id": "premium-the-batman-saga",
+		"kind": "premium",
+		"number": 8,
+		"date": "2012-07-18",
+		"title": "The Batman Saga",
+		"description": "In this episode we discuss the Batman Saga, starting with the original 1966 movie followed by the Tim Burton, Joel Schumacher and Christopher Nolan films (Batman Begins and The Dark Knight). Stay tuned to the Film Junk Podcast for our thoughts on The Dark Knight Rises.",
+		"covers": [
+			{
+				"title": "Batman (1966)",
+				"film": "batman-1966"
+			},
+			{
+				"title": "Batman (1989)",
+				"film": "batman"
+			},
+			{
+				"title": "Batman Returns",
+				"film": "batman-returns"
+			},
+			{
+				"title": "Batman Forever",
+				"film": "batman-forever"
+			},
+			{
+				"title": "Batman & Robin",
+				"film": "batman-and-robin"
+			},
+			{
+				"title": "Batman Begins",
+				"film": "batman-begins"
+			},
+			{
+				"title": "The Dark Knight",
+				"film": "the-dark-knight"
+			}
+		],
+		"notes": "",
+		"art": "https://f4.bcbits.com/img/a2310092337_16.jpg",
+		"links": {
+			"bandcamp": "https://filmjunk.bandcamp.com/album/the-batman-saga"
+		}
+	},
+	{
+		"id": "premium-the-spider-man-trilogy",
+		"kind": "premium",
+		"number": 7,
+		"date": "2012-07-16",
+		"title": "The Spider-Man Trilogy",
+		"description": "In this episode we discuss Sam Raimi's Spider-Man trilogy plus his 1990 film Darkman.",
+		"covers": [
+			{
+				"title": "Spider-Man (2002)",
+				"film": "spider-man"
+			},
+			{
+				"title": "Spider-Man 2",
+				"film": "spider-man-2"
+			},
+			{
+				"title": "Spider-Man 3",
+				"film": "spider-man-3"
+			},
+			{
+				"title": "Darkman",
+				"film": "darkman"
+			}
+		],
+		"notes": "",
+		"art": "https://f4.bcbits.com/img/a1423671897_16.jpg",
+		"links": {
+			"bandcamp": "https://filmjunk.bandcamp.com/album/the-spider-man-trilogy"
+		}
+	},
+	{
 		"id": "378",
 		"kind": "regular",
 		"show": "Film Junk",
@@ -78799,80 +78903,6 @@
 		"pack": "2012",
 		"links": {
 			"gumroad": "https://filmjunk.gumroad.com/l/njGM"
-		}
-	},
-	{
-		"id": "premium-the-batman-saga",
-		"kind": "premium",
-		"number": 8,
-		"date": "2012-07-18",
-		"title": "The Batman Saga",
-		"description": "In this episode we discuss the Batman Saga, starting with the original 1966 movie followed by the Tim Burton, Joel Schumacher and Christopher Nolan films (Batman Begins and The Dark Knight). Stay tuned to the Film Junk Podcast for our thoughts on The Dark Knight Rises.",
-		"covers": [
-			{
-				"title": "Batman (1966)",
-				"film": "batman-1966"
-			},
-			{
-				"title": "Batman (1989)",
-				"film": "batman"
-			},
-			{
-				"title": "Batman Returns",
-				"film": "batman-returns"
-			},
-			{
-				"title": "Batman Forever",
-				"film": "batman-forever"
-			},
-			{
-				"title": "Batman & Robin",
-				"film": "batman-and-robin"
-			},
-			{
-				"title": "Batman Begins",
-				"film": "batman-begins"
-			},
-			{
-				"title": "The Dark Knight",
-				"film": "the-dark-knight"
-			}
-		],
-		"notes": "",
-		"art": "https://f4.bcbits.com/img/a2310092337_16.jpg",
-		"links": {
-			"bandcamp": "https://filmjunk.bandcamp.com/album/the-batman-saga"
-		}
-	},
-	{
-		"id": "premium-the-spider-man-trilogy",
-		"kind": "premium",
-		"number": 7,
-		"date": "2012-07-16",
-		"title": "The Spider-Man Trilogy",
-		"description": "In this episode we discuss Sam Raimi's Spider-Man trilogy plus his 1990 film Darkman.",
-		"covers": [
-			{
-				"title": "Spider-Man (2002)",
-				"film": "spider-man"
-			},
-			{
-				"title": "Spider-Man 2",
-				"film": "spider-man-2"
-			},
-			{
-				"title": "Spider-Man 3",
-				"film": "spider-man-3"
-			},
-			{
-				"title": "Darkman",
-				"film": "darkman"
-			}
-		],
-		"notes": "",
-		"art": "https://f4.bcbits.com/img/a1423671897_16.jpg",
-		"links": {
-			"bandcamp": "https://filmjunk.bandcamp.com/album/the-spider-man-trilogy"
 		}
 	},
 	{
@@ -79723,6 +79753,41 @@
 		}
 	},
 	{
+		"id": "premium-the-terminator-legacy",
+		"kind": "premium",
+		"number": 6,
+		"date": "2012-05-29",
+		"title": "The Terminator Legacy",
+		"description": "In this episode we discuss The Terminator and its three sequels plus Paul Verhoeven's 1990 film Total Recall.",
+		"covers": [
+			{
+				"title": "The Terminator",
+				"film": "the-terminator"
+			},
+			{
+				"title": "Terminator 2: Judgment Day",
+				"film": "terminator-2-judgment-day"
+			},
+			{
+				"title": "Terminator 3: Rise of the Machines",
+				"film": "terminator-3-rise-of-the-machines"
+			},
+			{
+				"title": "Terminator Salvation",
+				"film": "terminator-salvation"
+			},
+			{
+				"title": "Total Recall",
+				"film": "total-recall"
+			}
+		],
+		"notes": "",
+		"art": "https://f4.bcbits.com/img/a3427504391_16.jpg",
+		"links": {
+			"bandcamp": "https://filmjunk.bandcamp.com/album/the-terminator-legacy"
+		}
+	},
+	{
 		"id": "371",
 		"kind": "regular",
 		"show": "Film Junk",
@@ -79853,41 +79918,6 @@
 		"pack": "2012",
 		"links": {
 			"gumroad": "https://filmjunk.gumroad.com/l/njGM"
-		}
-	},
-	{
-		"id": "premium-the-terminator-legacy",
-		"kind": "premium",
-		"number": 6,
-		"date": "2012-05-29",
-		"title": "The Terminator Legacy",
-		"description": "In this episode we discuss The Terminator and its three sequels plus Paul Verhoeven's 1990 film Total Recall.",
-		"covers": [
-			{
-				"title": "The Terminator",
-				"film": "the-terminator"
-			},
-			{
-				"title": "Terminator 2: Judgment Day",
-				"film": "terminator-2-judgment-day"
-			},
-			{
-				"title": "Terminator 3: Rise of the Machines",
-				"film": "terminator-3-rise-of-the-machines"
-			},
-			{
-				"title": "Terminator Salvation",
-				"film": "terminator-salvation"
-			},
-			{
-				"title": "Total Recall",
-				"film": "total-recall"
-			}
-		],
-		"notes": "",
-		"art": "https://f4.bcbits.com/img/a3427504391_16.jpg",
-		"links": {
-			"bandcamp": "https://filmjunk.bandcamp.com/album/the-terminator-legacy"
 		}
 	},
 	{
@@ -80836,6 +80866,37 @@
 		}
 	},
 	{
+		"id": "premium-the-matrix-trilogy",
+		"kind": "premium",
+		"number": 5,
+		"date": "2012-03-23",
+		"title": "The Matrix Trilogy",
+		"description": "In this episode we discuss The Matrix trilogy and The Wachowski Siblings' 2008 big screen adaptation of Speed Racer.",
+		"covers": [
+			{
+				"title": "Matrix",
+				"film": "matrix"
+			},
+			{
+				"title": "The Matrix Reloaded",
+				"film": "the-matrix-reloaded"
+			},
+			{
+				"title": "The Matrix Revolutions",
+				"film": "the-matrix-revolutions"
+			},
+			{
+				"title": "Speed Racer",
+				"film": "speed-racer"
+			}
+		],
+		"notes": "",
+		"art": "https://f4.bcbits.com/img/a2310802054_16.jpg",
+		"links": {
+			"bandcamp": "https://filmjunk.bandcamp.com/album/the-matrix-trilogy"
+		}
+	},
+	{
 		"id": "363",
 		"kind": "regular",
 		"show": "Film Junk",
@@ -80978,37 +81039,6 @@
 		"pack": "2012",
 		"links": {
 			"gumroad": "https://filmjunk.gumroad.com/l/njGM"
-		}
-	},
-	{
-		"id": "premium-the-matrix-trilogy",
-		"kind": "premium",
-		"number": 5,
-		"date": "2012-03-23",
-		"title": "The Matrix Trilogy",
-		"description": "In this episode we discuss The Matrix trilogy and The Wachowski Siblings' 2008 big screen adaptation of Speed Racer.",
-		"covers": [
-			{
-				"title": "Matrix",
-				"film": "matrix"
-			},
-			{
-				"title": "The Matrix Reloaded",
-				"film": "the-matrix-reloaded"
-			},
-			{
-				"title": "The Matrix Revolutions",
-				"film": "the-matrix-revolutions"
-			},
-			{
-				"title": "Speed Racer",
-				"film": "speed-racer"
-			}
-		],
-		"notes": "",
-		"art": "https://f4.bcbits.com/img/a2310802054_16.jpg",
-		"links": {
-			"bandcamp": "https://filmjunk.bandcamp.com/album/the-matrix-trilogy"
 		}
 	},
 	{
@@ -81888,6 +81918,33 @@
 		}
 	},
 	{
+		"id": "premium-back-to-the-future-trilogy",
+		"kind": "premium",
+		"number": 4,
+		"date": "2012-02-02",
+		"title": "Back to the Future Trilogy",
+		"description": "Note: This is the only premium podcast where we did not do our usual countdown of Top 5 and Bottom 5 moments at the end.",
+		"covers": [
+			{
+				"title": "Back to the Future",
+				"film": "back-to-the-future"
+			},
+			{
+				"title": "Back to the Future Part II",
+				"film": "back-to-the-future-part-ii"
+			},
+			{
+				"title": "Back to the Future Part III",
+				"film": "back-to-the-future-part-iii"
+			}
+		],
+		"notes": "The only premium episode not to feature a Top 5 and Bottom 5.",
+		"art": "https://f4.bcbits.com/img/a1159773455_16.jpg",
+		"links": {
+			"bandcamp": "https://filmjunk.bandcamp.com/album/back-to-the-future-trilogy"
+		}
+	},
+	{
 		"id": "356",
 		"kind": "regular",
 		"show": "Film Junk",
@@ -82078,33 +82135,6 @@
 		"pack": "2012",
 		"links": {
 			"gumroad": "https://filmjunk.gumroad.com/l/njGM"
-		}
-	},
-	{
-		"id": "premium-back-to-the-future-trilogy",
-		"kind": "premium",
-		"number": 4,
-		"date": "2012-02-02",
-		"title": "Back to the Future Trilogy",
-		"description": "Note: This is the only premium podcast where we did not do our usual countdown of Top 5 and Bottom 5 moments at the end.",
-		"covers": [
-			{
-				"title": "Back to the Future",
-				"film": "back-to-the-future"
-			},
-			{
-				"title": "Back to the Future Part II",
-				"film": "back-to-the-future-part-ii"
-			},
-			{
-				"title": "Back to the Future Part III",
-				"film": "back-to-the-future-part-iii"
-			}
-		],
-		"notes": "The only premium episode not to feature a Top 5 and Bottom 5.",
-		"art": "https://f4.bcbits.com/img/a1159773455_16.jpg",
-		"links": {
-			"bandcamp": "https://filmjunk.bandcamp.com/album/back-to-the-future-trilogy"
 		}
 	},
 	{
@@ -82695,36 +82725,6 @@
 		"pack": "2012",
 		"links": {
 			"gumroad": "https://filmjunk.gumroad.com/l/njGM"
-		}
-	},
-	{
-		"id": "400",
-		"kind": "regular",
-		"show": "Film Junk",
-		"number": 400,
-		"part": null,
-		"date": "2012-01-06",
-		"dateApprox": false,
-		"title": "Our Top 100 Movies of All Time",
-		"reviews": [],
-		"watched": [],
-		"segments": [
-			{
-				"label": "Feature",
-				"items": [
-					"Our Top 100 Movies of All Time"
-				]
-			}
-		],
-		"music": {
-			"intro": "Frank Stallone - Far From Over",
-			"outro": "Bachman-Turner Overdrive - You Ain't Seen Nothing Yet"
-		},
-		"notes": "",
-		"description": "",
-		"pack": "2013",
-		"links": {
-			"gumroad": "https://filmjunk.gumroad.com/l/BQoOz"
 		}
 	},
 	{

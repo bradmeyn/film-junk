@@ -551,7 +551,17 @@ const episodes = guideEpisodes.map((e): Episode => {
 });
 
 const premiums = parsePremiums();
-const all = [...episodes, ...premiums].sort((a, b) => b.date.localeCompare(a.date) || (b.number ?? 0) - (a.number ?? 0));
+// Newest first by date, except numbered episodes always run in number order: one released early
+// (1069 went out before 1068's free release) would otherwise sit below the one it followed.
+function newestFirst(list: Episode[]) {
+	list.sort((a, b) => b.date.localeCompare(a.date) || (b.number ?? 0) - (a.number ?? 0));
+	const numbered = list.flatMap((e, i) => (e.kind === 'regular' && e.number ? [i] : []));
+	const inOrder = numbered.map((i) => list[i]).sort((a, b) => b.number! - a.number!);
+	numbered.forEach((i, n) => (list[i] = inOrder[n]));
+}
+
+const all = [...episodes, ...premiums];
+newestFirst(all);
 
 // The guides sometimes paste a neighbour's link; when two episodes share one we
 // can't tell which is right, so drop it from both.
@@ -817,7 +827,7 @@ for (const post of patreonPosts) {
 	});
 }
 if (patreonPosts.length) {
-	all.sort((a, b) => b.date.localeCompare(a.date) || (b.number ?? 0) - (a.number ?? 0));
+	newestFirst(all);
 	console.log(`patreon: linked ${patreonLinked}, added ${patreonAdded} of ${patreonPosts.length} posts`);
 }
 
