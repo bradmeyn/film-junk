@@ -1,5 +1,5 @@
 {
-	"builtAt": "2026-10-31T18:02:05.868Z",
+	"builtAt": "2026-11-01T18:39:58.859Z",
 	"yearNotes": {
 		"2005": [
 			"Total episodes: 47",
@@ -1178,6 +1178,12 @@
 			"art": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/0d/5c/1f/0d5c1f87-7c05-6349-72c5-301d38a5a1ae/mza_5373297653113572594.jpg/600x600bb.jpg",
 			"episodes": [
 				{
+					"title": "Carrie",
+					"number": 61,
+					"date": "2026-10-31",
+					"url": "https://podcasts.apple.com/us/podcast/episode-61-carrie/id1611388164?i=1000798997614"
+				},
+				{
 					"title": "Lanterns",
 					"number": 60,
 					"date": "2026-10-16",
@@ -1188,12 +1194,6 @@
 					"number": 59,
 					"date": "2026-09-09",
 					"url": "https://podcasts.apple.com/us/podcast/episode-59-widows-bay/id1611388164?i=1000788562491"
-				},
-				{
-					"title": "Spider-Noir",
-					"number": 58,
-					"date": "2026-08-26",
-					"url": "https://podcasts.apple.com/us/podcast/episode-58-spider-noir/id1611388164?i=1000785902797"
 				}
 			]
 		}
