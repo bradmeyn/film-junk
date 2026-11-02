@@ -68140,5 +68140,41 @@
 		"poster": "/i7UyjfPio0VFHB9rBUZSFyhOoM8.jpg",
 		"votes": 1085,
 		"imdb": "tt35538033"
+	},
+	"election|1999|": {
+		"type": "movie",
+		"id": 9451,
+		"title": "Election",
+		"year": 1999,
+		"poster": "/fbo0IYzBc32dD5SjFzKIgfp4O4F.jpg",
+		"votes": 1254,
+		"imdb": "tt0126886"
+	},
+	"altered states|1980|": {
+		"type": "movie",
+		"id": 11542,
+		"title": "Altered States",
+		"year": 1980,
+		"poster": "/fsoaPN5SWYgZ4B7GG9nRNj33so.jpg",
+		"votes": 821,
+		"imdb": "tt0080360"
+	},
+	"the color of money|1986|": {
+		"type": "movie",
+		"id": 11873,
+		"title": "The Color of Money",
+		"year": 1986,
+		"poster": "/dVdnHmdQu3JtLAAksjTmTEF76gD.jpg",
+		"votes": 1607,
+		"imdb": "tt0090863"
+	},
+	"wag the dog|1997|": {
+		"type": "movie",
+		"id": 586,
+		"title": "Wag the Dog",
+		"year": 1997,
+		"poster": "/kAwOj7t8ZeaniTFtLWVSKO79JxX.jpg",
+		"votes": 1108,
+		"imdb": "tt0120885"
 	}
 }

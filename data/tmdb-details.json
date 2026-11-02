@@ -100210,5 +100210,34 @@
 			"Adventure"
 		],
 		"overview": "Medical courier Bryan unwittingly finds himself fighting for survival as one fateful, horrifying night collapses around him in chaos."
+	},
+	"movie:11542": {
+		"directors": [
+			{
+				"id": 32327,
+				"name": "Ken Russell"
+			}
+		],
+		"runtime": 103,
+		"genres": [
+			"Horror",
+			"Science Fiction",
+			"Thriller"
+		],
+		"overview": "A research scientist explores the boundaries and frontiers of human consciousness. Using sensory deprivation and hallucinogenic mixtures from Native American shamans, he explores these altered states of cognizance and finds that memory, time, and reality itself are states of mind."
+	},
+	"movie:586": {
+		"directors": [
+			{
+				"id": 8246,
+				"name": "Barry Levinson"
+			}
+		],
+		"runtime": 97,
+		"genres": [
+			"Comedy",
+			"Drama"
+		],
+		"overview": "During the final weeks of a presidential race, the President is accused of sexual misconduct. To distract the public until the election, the President's adviser hires a Hollywood producer to help him stage a fake war."
 	}
 }

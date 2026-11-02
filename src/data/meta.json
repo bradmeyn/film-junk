@@ -1,5 +1,5 @@
 {
-	"builtAt": "2026-11-01T18:39:58.859Z",
+	"builtAt": "2026-11-02T00:02:30.621Z",
 	"yearNotes": {
 		"2005": [
 			"Total episodes: 47",
@@ -1031,6 +1031,58 @@
 		}
 	],
 	"schedule": [
+		{
+			"month": "2026-11",
+			"source": "https://www.instagram.com/p/DfIKcSDgppm/",
+			"note": "You Can See Everything released early; available now.",
+			"items": [
+				{
+					"date": "2026-11-02",
+					"title": "You Can See Everything",
+					"year": 2026,
+					"episode": "1069",
+					"film": "you-can-see-everything",
+					"poster": "/Ap8QwmKfSjYbWC4XIP8w9pdn72O.jpg",
+					"status": "out"
+				},
+				{
+					"date": "2026-11-09",
+					"title": "Wag the Dog",
+					"year": 1997,
+					"episode": null,
+					"film": null,
+					"poster": "/kAwOj7t8ZeaniTFtLWVSKO79JxX.jpg",
+					"status": "upcoming"
+				},
+				{
+					"date": "2026-11-16",
+					"title": "Election",
+					"year": 1999,
+					"episode": null,
+					"film": null,
+					"poster": "/fbo0IYzBc32dD5SjFzKIgfp4O4F.jpg",
+					"status": "upcoming"
+				},
+				{
+					"date": "2026-11-23",
+					"title": "Altered States",
+					"year": 1980,
+					"episode": null,
+					"film": null,
+					"poster": "/fsoaPN5SWYgZ4B7GG9nRNj33so.jpg",
+					"status": "upcoming"
+				},
+				{
+					"date": "2026-11-30",
+					"title": "The Color of Money",
+					"year": 1986,
+					"episode": null,
+					"film": null,
+					"poster": "/dVdnHmdQu3JtLAAksjTmTEF76gD.jpg",
+					"status": "upcoming"
+				}
+			]
+		},
 		{
 			"month": "2026-10",
 			"source": "https://www.instagram.com/p/Dd80SyngWwo/",
