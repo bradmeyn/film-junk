@@ -162,9 +162,7 @@ const blurb = latest.description.length > 420 ? latest.description.slice(0, 420)
 											{item.title}
 											{item.year && <span class="muted"> ({item.year})</span>}
 										</span>
-										<span class="status">
-											{item.status === 'out' ? 'Out now' : item.status === 'patreon' ? 'On Patreon now' : 'Coming up'}
-										</span>
+										{item.status !== 'upcoming' && <span class="status">{item.status === 'out' ? 'Out now' : 'On Patreon now'}</span>}
 									</Tag>
 								</li>
 							);

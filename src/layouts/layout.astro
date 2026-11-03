@@ -202,9 +202,10 @@ const current = (href: string) => path.startsWith(href) || (href === '/episodes/
 </html>
 
 <style>
+	/* One row on wider screens: search shrinks rather than pushing the icons onto a new line. */
 	.site-header {
 		display: flex;
-		flex-wrap: wrap;
+		flex-wrap: nowrap;
 		align-items: center;
 		gap: 0.75rem 1.5rem;
 		padding-block: 1.25rem;
@@ -241,9 +242,18 @@ const current = (href: string) => path.startsWith(href) || (href === '/episodes/
 		color: var(--ink);
 	}
 
+	/* Search is the only part of the row that gives: the brand, nav and icons keep their size. */
 	.header-search {
-		flex: 1 1 14rem;
+		flex: 1 1 10rem;
+		min-width: 0;
 		max-width: 26rem;
+	}
+
+	.brand,
+	.site-header nav,
+	.header-links {
+		flex-shrink: 0;
+		white-space: nowrap;
 	}
 
 	.site-header nav {
@@ -256,8 +266,9 @@ const current = (href: string) => path.startsWith(href) || (href === '/episodes/
 	}
 
 	/* Narrow: brand and listen buttons, then search, then nav. */
-	@media (max-width: 70rem) {
+	@media (max-width: 64rem) {
 		.site-header {
+			flex-wrap: wrap;
 			padding-block: 1rem 0.5rem;
 		}
 		.header-links {
