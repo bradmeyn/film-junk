@@ -1,5 +1,50 @@
 [
 	{
+		"slug": "wag-the-dog",
+		"title": "Wag the Dog",
+		"year": 1997,
+		"poster": "/kAwOj7t8ZeaniTFtLWVSKO79JxX.jpg",
+		"votes": 1108,
+		"tmdb": {
+			"type": "movie",
+			"id": 586
+		},
+		"imdb": "tt0120885",
+		"appearances": [
+			{
+				"id": "1070",
+				"role": "review"
+			}
+		],
+		"directors": [
+			{
+				"name": "Barry Levinson",
+				"slug": "barry-levinson"
+			}
+		],
+		"runtime": 97,
+		"genres": [
+			"Comedy",
+			"Drama"
+		],
+		"overview": "During the final weeks of a presidential race, the President is accused of sexual misconduct. To distract the public until the election, the President's adviser hires a Hollywood producer to help him stage a fake war."
+	},
+	{
+		"slug": "junk-mail-september-2026",
+		"title": "Junk Mail: September 2026",
+		"year": null,
+		"poster": null,
+		"votes": 0,
+		"tmdb": null,
+		"imdb": null,
+		"appearances": [
+			{
+				"id": "2026-11-02-junk-mail-september-2026",
+				"role": "review"
+			}
+		]
+	},
+	{
 		"slug": "you-can-see-everything",
 		"title": "You Can See Everything",
 		"year": 2026,
