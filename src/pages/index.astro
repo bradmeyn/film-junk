@@ -162,7 +162,15 @@ const blurb = latest.description.length > 420 ? latest.description.slice(0, 420)
 											{item.title}
 											{item.year && <span class="muted"> ({item.year})</span>}
 										</span>
-										{item.status !== 'upcoming' && <span class="status">{item.status === 'out' ? 'Out now' : 'On Patreon now'}</span>}
+										{item.status !== 'upcoming' && (
+											<span class="status label">
+												{item.status === 'out' ? (
+													<>Out<span class="long"> now</span></>
+												) : (
+													<><span class="long">On </span>Patreon</>
+												)}
+											</span>
+										)}
 									</Tag>
 								</li>
 							);
@@ -367,8 +375,10 @@ const blurb = latest.description.length > 420 ? latest.description.slice(0, 420)
 		}
 	}
 
+	/* Held to its column: a long word ("Everything") would otherwise widen it, poster and all. */
 	.slot {
 		display: grid;
+		grid-template-columns: minmax(0, 1fr);
 		gap: 0.3rem;
 		text-decoration: none;
 	}
@@ -404,27 +414,44 @@ const blurb = latest.description.length > 420 ? latest.description.slice(0, 420)
 		color: var(--ink);
 	}
 
+	/* A label, not a pill: the columns get too narrow on phones for anything boxed. */
 	.status {
-		justify-self: start;
-		font-size: 0.75rem;
-		font-weight: 700;
-		padding: 0.1rem 0.5rem;
-		border-radius: 999px;
-		border: 1px solid var(--line);
-		color: var(--muted);
-	}
-
-	.slot[data-status='out'] .status {
-		border-color: var(--accent);
 		color: var(--accent);
+		white-space: nowrap;
 	}
 
-	.slot[data-status='patreon'] .status {
-		background: var(--accent);
-		border-color: var(--accent);
-		color: var(--accent-ink);
+	.status::before {
+		content: '';
+		display: inline-block;
+		width: 0.45em;
+		height: 0.45em;
+		margin-right: 0.35em;
+		border-radius: 50%;
+		background: currentColor;
+		vertical-align: 0.1em;
 	}
 
+	/* Phones: five columns are too narrow for titles, and the poster already names the film, so
+	   the title is left to screen readers. "Out now" / "On Patreon" become "Out" / "Patreon". */
+	@media (max-width: 40rem) {
+		.slot:has(img) .what {
+			position: absolute;
+			width: 1px;
+			height: 1px;
+			overflow: hidden;
+			clip: rect(0 0 0 0);
+			white-space: nowrap;
+		}
+
+		.when {
+			white-space: nowrap;
+			letter-spacing: 0.03em;
+		}
+
+		.status .long {
+			display: none;
+		}
+	}
 
 
 	/* "Movie Podcast" always gets a line of its own, so the title breaks the same way at every width. */
