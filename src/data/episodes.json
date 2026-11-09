@@ -46,9 +46,39 @@
 		"date": "2026-11-03",
 		"title": "Wag the Dog",
 		"links": {
-			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-1070-173619456"
+			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-1070-173619456",
+			"spotify": "https://open.spotify.com/episode/1rB0TWLuJue2R3VWBlGlD0"
 		},
 		"hero": "Sir Thomas Thipple"
+	},
+	{
+		"id": "2026-11-02-junk-mail-september-2026",
+		"kind": "regular",
+		"show": "Film Junk",
+		"number": null,
+		"part": null,
+		"date": "2026-11-02",
+		"dateApprox": false,
+		"title": "Junk Mail: September 2026",
+		"reviews": [
+			{
+				"title": "Junk Mail: September 2026",
+				"year": null,
+				"ratings": [],
+				"film": "junk-mail-september-2026"
+			}
+		],
+		"watched": [],
+		"segments": [],
+		"music": {},
+		"notes": "",
+		"description": "Since we already dropped our review of You Can See Everything a bit early, this week we decided to pull a junk mail episode from the Patreon vault for listeners on the public feed. Frank says this is one of the best. Do you agree?",
+		"pack": null,
+		"links": {
+			"libsyn": "https://directory.libsyn.com/episode/index/id/43593589",
+			"apple": "https://podcasts.apple.com/us/podcast/junk-mail-september-2026/id74257105?i=1000799447552",
+			"spotify": "https://open.spotify.com/episode/25I1ZJSW9G0DkG1PyNkuny"
+		}
 	},
 	{
 		"id": "1069",
@@ -835,8 +865,7 @@
 		"title": "Junk Mail: September 2026",
 		"duration": 3580,
 		"links": {
-			"patreon": "https://www.patreon.com/filmjunk/posts/junk-mail-2026-169071441",
-			"spotify": "https://open.spotify.com/episode/20DyMfLMyxWFoJXePSOxMt"
+			"patreon": "https://www.patreon.com/filmjunk/posts/junk-mail-2026-169071441"
 		}
 	},
 	{
