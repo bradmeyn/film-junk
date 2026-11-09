@@ -1,5 +1,5 @@
 {
-	"builtAt": "2026-11-09T03:33:24.657Z",
+	"builtAt": "2026-11-09T03:34:20.926Z",
 	"yearNotes": {
 		"2005": [
 			"Total episodes: 47",
@@ -1178,6 +1178,12 @@
 			"art": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/23/81/51/238151c4-8f05-71f8-ec23-fb7b02eb6acd/mza_6021458389695684246.jpg/600x600bb.jpg",
 			"episodes": [
 				{
+					"title": "Early Predictions for The Game Awards 2026",
+					"number": 287,
+					"date": "2026-11-04",
+					"url": "https://podcasts.apple.com/us/podcast/game-junk-episode-287-early-predictions-for-the-game/id385273911?i=1000799845006"
+				},
+				{
 					"title": "Bye Bye BioWare",
 					"number": 286,
 					"date": "2026-10-28",
@@ -1188,12 +1194,6 @@
 					"number": 285,
 					"date": "2026-10-21",
 					"url": "https://podcasts.apple.com/us/podcast/game-junk-episode-285-is-valor-mortis-the-biggest/id385273911?i=1000797472510"
-				},
-				{
-					"title": "Is Order of the Sinking Star Another Mind-Melting Masterpiece?",
-					"number": 284,
-					"date": "2026-10-14",
-					"url": "https://podcasts.apple.com/us/podcast/game-junk-episode-284-is-order-of-the-sinking/id385273911?i=1000796357099"
 				}
 			]
 		},
