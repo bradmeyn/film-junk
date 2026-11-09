@@ -894,9 +894,14 @@ for (const e of all) {
 }
 
 // Details noted by hand from the audio, for things the guides don't have (data/hand-notes.json):
-// { "<episode id>": { hero?, notes?, reviews?: [{ title, year?, ratings: { Host: "3.5/4" } }] } }. Ratings
-// cover premiums and weekly episodes the guides don't rate yet.
-type HandNotes = { hero?: string; notes?: string; reviews?: { title: string; year?: number; ratings: Record<string, string> }[] };
+// { "<episode id>": { hero?, notes?, reviews?: [{ title, year?, ratings: { Host: "3.5/4" } }], mentioned?: ["Title (Year)"] } }.
+// Ratings cover premiums and weekly episodes the guides don't rate yet; mentioned adds to "other films discussed".
+type HandNotes = {
+	hero?: string;
+	notes?: string;
+	reviews?: { title: string; year?: number; ratings: Record<string, string> }[];
+	mentioned?: string[];
+};
 const handNotes = readJson<Record<string, HandNotes | string>>('data/hand-notes.json') ?? {};
 for (const [id, notes] of Object.entries(handNotes)) {
 	if (id.startsWith('_') || typeof notes === 'string') continue;
@@ -904,6 +909,10 @@ for (const [id, notes] of Object.entries(handNotes)) {
 	if (!e) throw new Error(`hand-notes.json: no episode "${id}"`);
 	if (notes.hero) e.hero = notes.hero;
 	if (notes.notes) e.notes = [e.notes, notes.notes].filter(Boolean).join(' ');
+	for (const said of notes.mentioned ?? []) {
+		const m = splitYear(said);
+		if (!(e.mentioned ??= []).some((x) => slugify(x.title) === slugify(m.title))) e.mentioned.push({ ...m, film: null });
+	}
 	for (const r of notes.reviews ?? []) {
 		const scales = Object.values(r.ratings).map((x) => x.match(/\/\s*(\d+)/)?.[1]).filter(Boolean);
 		const ratings: Rating[] = Object.entries(r.ratings).map(([host, said]) => {

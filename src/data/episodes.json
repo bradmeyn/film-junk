@@ -2,7 +2,13 @@
 	{
 		"notes": "",
 		"description": "\"That is a complete fucking fraud and it looks 100% real. It's the best work I've ever done in my life because it's so honest.\" This week on Film Junk, we revisit one of the great political satires on screen, Barry Levinson's Wag the Dog. It captured the zeitgeist and arguably predicted the future back in the late '90s but it's time to find out how it holds up in our current political climate. Is Wag the Dog more relevant now than ever? Does Frank consider it to be more \"clever\" than funny? Could Jay pull off the Conrad Brean look in his day to day life? What is the best 54-40 song? Don't change horses midstream... check out the latest episode of Film Junk below.",
-		"mentioned": [],
+		"mentioned": [
+			{
+				"title": "The Ides of March",
+				"year": 2011,
+				"film": "the-ides-of-march"
+			}
+		],
 		"segments": [],
 		"watched": [],
 		"reviews": [
@@ -40,39 +46,9 @@
 		"date": "2026-11-03",
 		"title": "Wag the Dog",
 		"links": {
-			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-1070-173619456",
-			"spotify": "https://open.spotify.com/episode/1rB0TWLuJue2R3VWBlGlD0"
+			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-1070-173619456"
 		},
 		"hero": "Sir Thomas Thipple"
-	},
-	{
-		"id": "2026-11-02-junk-mail-september-2026",
-		"kind": "regular",
-		"show": "Film Junk",
-		"number": null,
-		"part": null,
-		"date": "2026-11-02",
-		"dateApprox": false,
-		"title": "Junk Mail: September 2026",
-		"reviews": [
-			{
-				"title": "Junk Mail: September 2026",
-				"year": null,
-				"ratings": [],
-				"film": "junk-mail-september-2026"
-			}
-		],
-		"watched": [],
-		"segments": [],
-		"music": {},
-		"notes": "",
-		"description": "Since we already dropped our review of You Can See Everything a bit early, this week we decided to pull a junk mail episode from the Patreon vault for listeners on the public feed. Frank says this is one of the best. Do you agree?",
-		"pack": null,
-		"links": {
-			"libsyn": "https://directory.libsyn.com/episode/index/id/43593589",
-			"apple": "https://podcasts.apple.com/us/podcast/junk-mail-september-2026/id74257105?i=1000799447552",
-			"spotify": "https://open.spotify.com/episode/25I1ZJSW9G0DkG1PyNkuny"
-		}
 	},
 	{
 		"id": "1069",
@@ -859,7 +835,8 @@
 		"title": "Junk Mail: September 2026",
 		"duration": 3580,
 		"links": {
-			"patreon": "https://www.patreon.com/filmjunk/posts/junk-mail-2026-169071441"
+			"patreon": "https://www.patreon.com/filmjunk/posts/junk-mail-2026-169071441",
+			"spotify": "https://open.spotify.com/episode/20DyMfLMyxWFoJXePSOxMt"
 		}
 	},
 	{

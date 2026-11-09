@@ -1,11 +1,12 @@
 {
-	"_readme": "Episode details noted by hand from the audio, for things the official guides don't have. Key: the episode id (from its URL, /episodes/<id>/). Fields, all optional: \"hero\", the listener given the hero shout-out; \"reviews\", each a film's full title (and release year for premiums, as on TMDB) with each host's score written as said: \"3.5/4\", \"6/5\". A bare number is out of 5 unless another host's rating names the scale. build-data adds the reviews, or fills in the ratings of a review the guides already list.",
+	"_readme": "Episode details noted by hand from the audio, for things the official guides don't have. Key: the episode id (from its URL, /episodes/<id>/). Fields, all optional: \"hero\", the listener given the hero shout-out; \"reviews\", each a film's full title (and release year for premiums, as on TMDB) with each host's score written as said: \"3.5/4\", \"6/5\"; \"mentioned\", other films discussed, as \"Title (Year)\". A bare number is out of 5 unless another host's rating names the scale. build-data adds the reviews, or fills in the ratings of a review the guides already list.",
 
 	"1070": {
 		"hero": "Sir Thomas Thipple",
 		"reviews": [
 			{"title": "Wag the Dog", "ratings": {"Frank": "3.5", "Jay": "4", "Sean": "4"}}
-		]
+		],
+		"mentioned": ["The Ides of March (2011)"]
 	},
 
 	"1069": {
