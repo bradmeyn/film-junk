@@ -1,5 +1,5 @@
 {
-	"builtAt": "2026-11-09T03:53:53.198Z",
+	"builtAt": "2026-11-09T23:13:48.063Z",
 	"yearNotes": {
 		"2005": [
 			"Total episodes: 47",
@@ -1052,16 +1052,16 @@
 					"episode": "1070",
 					"film": "wag-the-dog",
 					"poster": "/kAwOj7t8ZeaniTFtLWVSKO79JxX.jpg",
-					"status": "patreon"
+					"status": "out"
 				},
 				{
 					"date": "2026-11-16",
 					"title": "Election",
 					"year": 1999,
-					"episode": null,
-					"film": null,
+					"episode": "1071",
+					"film": "election",
 					"poster": "/fbo0IYzBc32dD5SjFzKIgfp4O4F.jpg",
-					"status": "upcoming"
+					"status": "patreon"
 				},
 				{
 					"date": "2026-11-23",

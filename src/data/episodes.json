@@ -1,16 +1,42 @@
 [
 	{
 		"notes": "",
-		"description": "\"That is a complete fucking fraud and it looks 100% real. It's the best work I've ever done in my life because it's so honest.\" This week on Film Junk, we revisit one of the great political satires on screen, Barry Levinson's Wag the Dog. It captured the zeitgeist and arguably predicted the future back in the late '90s but it's time to find out how it holds up in our current political climate. Is Wag the Dog more relevant now than ever? Does Frank consider it to be more \"clever\" than funny? Could Jay pull off the Conrad Brean look in his day to day life? What is the best 54-40 song? Don't change horses midstream... check out the latest episode of Film Junk below.",
-		"mentioned": [
-			{
-				"title": "The Ides of March",
-				"year": 2011,
-				"film": "the-ides-of-march"
-			}
-		],
+		"description": "\"Larry we're not electing the fucking Pope here. Just tell me who won.\" This week on Film Junk, we are revisiting another political comedy from the late '90s... this one just happens to be set at a high school. Alexander Payne's Election feels darker and more subversive than most movies released today and in many ways predicted the current state of U.S. politics. Was this movie a formative one for the Film Junk crew? Who identifies the most with Tracy Flick? How much significance should we place in the choice of Diet Mug Root Beer? How do we feel about the prospect of a sequel? Don't interfere with destiny... just download the latest episode of Film Junk now.",
+		"mentioned": [],
 		"segments": [],
 		"watched": [],
+		"reviews": [
+			{
+				"title": "Election",
+				"year": 1999,
+				"ratings": [],
+				"film": "election"
+			}
+		],
+		"music": {},
+		"show": "Film Junk",
+		"part": null,
+		"dateApprox": false,
+		"pack": null,
+		"id": "1071",
+		"kind": "regular",
+		"number": 1071,
+		"date": "2026-11-09",
+		"title": "Election",
+		"links": {
+			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-1071-174793146",
+			"spotify": "https://open.spotify.com/episode/5YwfwyhLdUWJFv70ZidqqM"
+		}
+	},
+	{
+		"id": "1070",
+		"kind": "regular",
+		"show": "Film Junk",
+		"number": 1070,
+		"part": null,
+		"date": "2026-11-09",
+		"dateApprox": false,
+		"title": "Wag the Dog",
 		"reviews": [
 			{
 				"title": "Wag the Dog",
@@ -35,20 +61,25 @@
 				"film": "wag-the-dog"
 			}
 		],
+		"watched": [],
+		"segments": [],
 		"music": {},
-		"show": "Film Junk",
-		"part": null,
-		"dateApprox": false,
+		"notes": "",
+		"description": "\"That is a complete fucking fraud and it looks 100% real. It's the best work I've ever done in my life because it's so honest.\" This week on Film Junk, we revisit one of the great political satires on screen, Barry Levinson's Wag the Dog. It captured the zeitgeist and arguably predicted the future back in the late '90s but it's time to find out how it holds up in our current political climate. Is Wag the Dog more relevant now than ever? Does Frank consider it to be more \"clever\" than funny? Could Jay pull off the Conrad Brean look in his day to day life? What is the best 54-40 song? Don't change horses midstream... check out the latest episode of Film Junk below.",
 		"pack": null,
-		"id": "1070",
-		"kind": "regular",
-		"number": 1070,
-		"date": "2026-11-03",
-		"title": "Wag the Dog",
 		"links": {
+			"libsyn": "https://directory.libsyn.com/episode/index/id/43482909",
 			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-1070-173619456",
-			"spotify": "https://open.spotify.com/episode/1rB0TWLuJue2R3VWBlGlD0"
+			"apple": "https://podcasts.apple.com/us/podcast/wag-the-dog-1997/id74257105?i=1000800819629",
+			"spotify": "https://open.spotify.com/episode/18rEUstYkJsEe3ZJcJL81q"
 		},
+		"mentioned": [
+			{
+				"title": "The Ides of March",
+				"year": 2011,
+				"film": "the-ides-of-march"
+			}
+		],
 		"hero": "Sir Thomas Thipple"
 	},
 	{
