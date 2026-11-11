@@ -1,5 +1,5 @@
 {
-	"builtAt": "2026-11-10T20:39:15.025Z",
+	"builtAt": "2026-11-11T20:57:48.676Z",
 	"yearNotes": {
 		"2005": [
 			"Total episodes: 47",
@@ -1178,6 +1178,11 @@
 			"art": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/23/81/51/238151c4-8f05-71f8-ec23-fb7b02eb6acd/mza_6021458389695684246.jpg/600x600bb.jpg",
 			"episodes": [
 				{
+					"title": "Game Junk 288: The Legend of Zelda: Ocarina of Time Remake Initial Impressions",
+					"date": "2026-11-11",
+					"url": "https://podcasts.apple.com/us/podcast/game-junk-288-the-legend-of-zelda-ocarina-of/id385273911?i=1000801264855"
+				},
+				{
 					"title": "Early Predictions for The Game Awards 2026",
 					"number": 287,
 					"date": "2026-11-04",
@@ -1188,12 +1193,6 @@
 					"number": 286,
 					"date": "2026-10-28",
 					"url": "https://podcasts.apple.com/us/podcast/game-junk-episode-286-bye-bye-bioware/id385273911?i=1000798560842"
-				},
-				{
-					"title": "Is Valor Mortis the Biggest Surprise of the Year?",
-					"number": 285,
-					"date": "2026-10-21",
-					"url": "https://podcasts.apple.com/us/podcast/game-junk-episode-285-is-valor-mortis-the-biggest/id385273911?i=1000797472510"
 				}
 			]
 		},
