@@ -246,8 +246,10 @@ main:focus {
 	text-decoration: none;
 }
 
-.chips a:hover {
+.chips > li > a:hover {
 	border-color: var(--accent);
+	/* The border already marks the hover; beats the list-link underline above. */
+	text-decoration: none;
 }
 
 /* One select style everywhere: our own arrow, with room between it and the text. */

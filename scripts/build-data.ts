@@ -1061,6 +1061,15 @@ for (const e of all) {
 		w.film = resolveMention(w.title, w.year, e);
 		appear(w.film, e, 'watched');
 	}
+	// A What We Watched title only names a few of the films its chapters list, so the two become
+	// one list in chapter order rather than being split across "watched" and "mentioned".
+	if (/^what we watched/i.test(e.title) && e.mentioned?.length) {
+		const description = (e.description ?? '').toLowerCase();
+		const at = (t: string) => description.indexOf(t.toLowerCase()) >>> 0;
+		const merged = [...(e.watched ?? []), ...e.mentioned].sort((a, b) => at(a.title) - at(b.title));
+		e.mentioned = merged.filter((m, i) => merged.findIndex((x) => slugify(x.title) === slugify(m.title)) === i);
+		e.watched = [];
+	}
 	// A premium's Patreon chapter list names the films it covers, so it joins the wiki's list.
 	if (e.kind === 'premium' && e.mentioned) {
 		e.covers = [...(e.covers ?? []), ...e.mentioned.map((m) => ({ title: m.year ? `${m.title} (${m.year})` : m.title, film: null }))];

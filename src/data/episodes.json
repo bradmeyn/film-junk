@@ -205,6 +205,21 @@
 		"description": "00:00 - Intro\n01:45 - Microwave Massacre\n20:30 - Digger\n28:00 - Evil Dead Burn\n36:50 - The Social Network, The Social Reckoning\n43:00 - Onslaught\n46:58 - Norm: The Tale of Norm MacDonald\n50:40 - Animals\n59:57 - Sleepaway Camp\n1:02:30 - The Entity",
 		"mentioned": [
 			{
+				"title": "Microwave Massacre",
+				"year": null,
+				"film": "microwave-massacre"
+			},
+			{
+				"title": "Digger",
+				"year": null,
+				"film": "digger"
+			},
+			{
+				"title": "Evil Dead Burn",
+				"year": null,
+				"film": "evil-dead-burn"
+			},
+			{
 				"title": "The Social Network, The Social Reckoning",
 				"year": null,
 				"film": "the-social-network-the-social-reckoning"
@@ -236,23 +251,7 @@
 			}
 		],
 		"segments": [],
-		"watched": [
-			{
-				"title": "Microwave Massacre",
-				"year": null,
-				"film": "microwave-massacre"
-			},
-			{
-				"title": "Digger",
-				"year": null,
-				"film": "digger"
-			},
-			{
-				"title": "Evil Dead Burn",
-				"year": null,
-				"film": "evil-dead-burn"
-			}
-		],
+		"watched": [],
 		"reviews": [],
 		"music": {},
 		"show": "Film Junk",
@@ -525,6 +524,11 @@
 		"description": "00:00 - Intro\n01:35 - Resident Evil \n37:00 - Primetime\n1:03:55 - Ren Faire, Spermworld, Some Kind of Heaven\n1:11:06 - Death of Cheerleader\n1:14:44 - Everest: The Other Side\n1:16:05 - Rogue Trooper\n1:18:40 - The Weight\n1:26:30 - Of Unknown Origin\n1:29:03 - Life Hack\n1:31:40 - The Python Hunt\n1:42:15 - Teenage Wasteland\n1:46:05 - The Inventor: Out for Blood in Silicon Valley\n1:51:30 - Tony\n1:53:00 - Jackie Brown, Little Nicky\n1:57:47 - Supergirl\n2:00:05 - Executive Decision\n2:02:30 - Back to School, Easy Money",
 		"mentioned": [
 			{
+				"title": "Primetime",
+				"year": null,
+				"film": "primetime"
+			},
+			{
 				"title": "Ren Faire",
 				"year": null,
 				"film": "ren-faire"
@@ -568,6 +572,11 @@
 				"title": "Life Hack",
 				"year": null,
 				"film": "life-hack"
+			},
+			{
+				"title": "The Python Hunt",
+				"year": null,
+				"film": "the-python-hunt"
 			},
 			{
 				"title": "Teenage Wasteland",
@@ -616,23 +625,7 @@
 			}
 		],
 		"segments": [],
-		"watched": [
-			{
-				"title": "Resident Evil",
-				"year": 2026,
-				"film": "resident-evil"
-			},
-			{
-				"title": "Primetime",
-				"year": null,
-				"film": "primetime"
-			},
-			{
-				"title": "The Python Hunt",
-				"year": null,
-				"film": "the-python-hunt"
-			}
-		],
+		"watched": [],
 		"reviews": [
 			{
 				"title": "Resident Evil",
@@ -1040,9 +1033,19 @@
 		"description": "00:00 - Intro\n07:20 - Bebe's Kids\n14:50 - Tony\n23:47 - Teenage Sex and Death at Camp Miasma\n38:45 - Perfect Blue\n42:08 - Coyote vs Acme\n50:30 - Is God Is\n52:12 - Frankenhooker\n53:43 - The Dog Stars\n59:30 - It Ends\n1:05:00 - Suddenly Susan\n1:07:10 - 2 Big To Rig\n1:15:55 - Gold & Greed: The Hunt for Fenn's Treasure",
 		"mentioned": [
 			{
+				"title": "Bebe's Kids",
+				"year": null,
+				"film": "bebes-kids"
+			},
+			{
 				"title": "Tony",
 				"year": null,
 				"film": "tony"
+			},
+			{
+				"title": "Teenage Sex and Death at Camp Miasma",
+				"year": null,
+				"film": "teenage-sex-and-death-at-camp-miasma"
 			},
 			{
 				"title": "Perfect Blue",
@@ -1075,6 +1078,11 @@
 				"film": "it-ends"
 			},
 			{
+				"title": "Suddenly Susan",
+				"year": null,
+				"film": "suddenly-susan"
+			},
+			{
 				"title": "2 Big To Rig",
 				"year": null,
 				"film": "2-big-to-rig"
@@ -1086,23 +1094,7 @@
 			}
 		],
 		"segments": [],
-		"watched": [
-			{
-				"title": "Bebe's Kids",
-				"year": null,
-				"film": "bebes-kids"
-			},
-			{
-				"title": "Teenage Sex and Death at Camp Miasma",
-				"year": null,
-				"film": "teenage-sex-and-death-at-camp-miasma"
-			},
-			{
-				"title": "Suddenly Susan",
-				"year": null,
-				"film": "suddenly-susan"
-			}
-		],
+		"watched": [],
 		"reviews": [],
 		"music": {},
 		"show": "Film Junk",
@@ -1245,6 +1237,16 @@
 		"description": "00:00 - Intro\n07:00 - Spider-Man: Brand New Day\n16:28 - Chairman of the Board\n24:32 - The Wrong Girls\n29:50 - The End of Oak Street\n34:05 - The Invite\n39:00 - The Last House\n43:51 - One Night Only\n47:45 - Last Summer\n55:02 - Cookie Queens\n56:54 - Super Troopers 1, 2, and 3\n1:02:33 - Hunter's Blood\n1:06:35 - Resident Evil and Resident Evil: Apocalypse\n1:09:10 - Neighbors",
 		"mentioned": [
 			{
+				"title": "Spider-Man: Brand New Day",
+				"year": null,
+				"film": "spider-man-brand-new-day"
+			},
+			{
+				"title": "Chairman of the Board",
+				"year": null,
+				"film": "chairman-of-the-board"
+			},
+			{
 				"title": "The Wrong Girls",
 				"year": null,
 				"film": "the-wrong-girls"
@@ -1253,6 +1255,11 @@
 				"title": "The End of Oak Street",
 				"year": null,
 				"film": "the-end-of-oak-street"
+			},
+			{
+				"title": "The Invite",
+				"year": null,
+				"film": "the-invite"
 			},
 			{
 				"title": "The Last House",
@@ -1280,11 +1287,6 @@
 				"film": "super-troopers"
 			},
 			{
-				"title": "Super Troopers 2",
-				"year": null,
-				"film": "super-troopers-2"
-			},
-			{
 				"title": "Hunter's Blood",
 				"year": null,
 				"film": "hunters-blood"
@@ -1303,26 +1305,15 @@
 				"title": "Neighbors",
 				"year": null,
 				"film": "neighbors"
+			},
+			{
+				"title": "Super Troopers 2",
+				"year": null,
+				"film": "super-troopers-2"
 			}
 		],
 		"segments": [],
-		"watched": [
-			{
-				"title": "Spider-Man: Brand New Day",
-				"year": null,
-				"film": "spider-man-brand-new-day"
-			},
-			{
-				"title": "The Invite",
-				"year": null,
-				"film": "the-invite"
-			},
-			{
-				"title": "Chairman of the Board",
-				"year": null,
-				"film": "chairman-of-the-board"
-			}
-		],
+		"watched": [],
 		"reviews": [],
 		"music": {},
 		"show": "Film Junk",
@@ -1465,6 +1456,21 @@
 		"description": "0:00 - Intro\n01:15 - The Invite\n05:40 - Iceman\n15:10 - Her Private Hell\n21:18 - The Dink\n26:12 - Backrooms\n31:35 - Tuner\n40:13 - The Breadwinner\n45:20 - The Christophers\n48:25 - Masters of the Universe\n58:46 - Dead Man’s Wire\n1:00:59 - Lee\n1:03:53 - Sorry, Baby\n1:05:28 - The Hawk\n1:08:55 - Widow’s Bay",
 		"mentioned": [
 			{
+				"title": "The Invite",
+				"year": null,
+				"film": "the-invite"
+			},
+			{
+				"title": "Iceman",
+				"year": null,
+				"film": "iceman"
+			},
+			{
+				"title": "Her Private Hell",
+				"year": null,
+				"film": "her-private-hell"
+			},
+			{
 				"title": "The Dink",
 				"year": null,
 				"film": "the-dink"
@@ -1473,6 +1479,11 @@
 				"title": "Backrooms",
 				"year": null,
 				"film": "backrooms"
+			},
+			{
+				"title": "Tuner",
+				"year": null,
+				"film": "tuner"
 			},
 			{
 				"title": "The Breadwinner",
@@ -1516,28 +1527,7 @@
 			}
 		],
 		"segments": [],
-		"watched": [
-			{
-				"title": "The Invite",
-				"year": null,
-				"film": "the-invite"
-			},
-			{
-				"title": "Iceman",
-				"year": null,
-				"film": "iceman"
-			},
-			{
-				"title": "Her Private Hell",
-				"year": null,
-				"film": "her-private-hell"
-			},
-			{
-				"title": "Tuner",
-				"year": null,
-				"film": "tuner"
-			}
-		],
+		"watched": [],
 		"reviews": [],
 		"music": {},
 		"show": "Film Junk",
@@ -1854,6 +1844,16 @@
 		"description": "0:00 - Intro/Tea Time\n02:11 - Obsession\n30:35 - The Drama\n50:20 - Jackass Best and Last\n1:00:15 - Rumble in the Bronx (Hong Kong Cut)\n1:06:58 - Toy Story 5\n1:16:00 - Hoppers\n1:17:30 - Supergirl\n1:22:00 - I Love Boosters\n1:23:25 - Driver's Ed\n1:27:05 - Over Your Dead Body\n1:29:55 - Little Brother",
 		"mentioned": [
 			{
+				"title": "Obsession",
+				"year": null,
+				"film": "obsession"
+			},
+			{
+				"title": "The Drama",
+				"year": null,
+				"film": "the-drama"
+			},
+			{
 				"title": "Jackass Best and Last",
 				"year": null,
 				"film": "jackass-best-and-last"
@@ -1862,6 +1862,11 @@
 				"title": "Rumble in the Bronx",
 				"year": null,
 				"film": "rumble-in-the-bronx"
+			},
+			{
+				"title": "Toy Story 5",
+				"year": null,
+				"film": "toy-story-5"
 			},
 			{
 				"title": "Hoppers",
@@ -1895,23 +1900,7 @@
 			}
 		],
 		"segments": [],
-		"watched": [
-			{
-				"title": "Obsession",
-				"year": null,
-				"film": "obsession"
-			},
-			{
-				"title": "The Drama",
-				"year": null,
-				"film": "the-drama"
-			},
-			{
-				"title": "Toy Story 5",
-				"year": null,
-				"film": "toy-story-5"
-			}
-		],
+		"watched": [],
 		"reviews": [],
 		"music": {},
 		"show": "Film Junk",
@@ -2030,9 +2019,29 @@
 		"description": "0:00 - Intro\n4:55 - Hokum\n22:22 - Widow's Bay\n32:36 - Hairspray\n37:52 - Masters of the Universe\n47:25 - Leviticus\n54:01 - Sirat\n58:09 - Age of Disclosure\n1:06:02 - Something Evil",
 		"mentioned": [
 			{
+				"title": "Hokum",
+				"year": null,
+				"film": "hokum"
+			},
+			{
 				"title": "Widow's Bay",
 				"year": null,
 				"film": "widows-bay"
+			},
+			{
+				"title": "Hairspray",
+				"year": null,
+				"film": "hairspray"
+			},
+			{
+				"title": "Masters of the Universe",
+				"year": null,
+				"film": "masters-of-the-universe"
+			},
+			{
+				"title": "Leviticus",
+				"year": null,
+				"film": "leviticus"
 			},
 			{
 				"title": "Sirat",
@@ -2051,28 +2060,7 @@
 			}
 		],
 		"segments": [],
-		"watched": [
-			{
-				"title": "Hokum",
-				"year": null,
-				"film": "hokum"
-			},
-			{
-				"title": "Leviticus",
-				"year": null,
-				"film": "leviticus"
-			},
-			{
-				"title": "Hairspray",
-				"year": null,
-				"film": "hairspray"
-			},
-			{
-				"title": "Masters of the Universe",
-				"year": null,
-				"film": "masters-of-the-universe"
-			}
-		],
+		"watched": [],
 		"reviews": [],
 		"music": {},
 		"show": "Film Junk",
@@ -2363,6 +2351,16 @@
 		"description": "0:00 - Intro\n6:02 - Backrooms\n30:00 - Flowers in the Attic\n34:35 - Euphoria Season 3\n48:28 - The AI Doc: Or How I Became an Apocaloptimist\n53:32 - La Bamba\n57:39 - The Sheep Detective\n1:01:55 - Super Mario Galaxy Movie\n1:09:44 - Singles\n1:12:35 - The Crash\n1:19:40 - Anaconda\n1:22:43 - Domestic Disturbance\n1:25:33 - Narc\n1:27:15 - Widow's Bay\n1:29:28 - Blue Thunder\n1:30:51 - The Mangler",
 		"mentioned": [
 			{
+				"title": "Backrooms",
+				"year": null,
+				"film": "backrooms"
+			},
+			{
+				"title": "Flowers in the Attic",
+				"year": null,
+				"film": "flowers-in-the-attic"
+			},
+			{
 				"title": "Euphoria Season 3",
 				"year": null,
 				"film": "euphoria"
@@ -2371,6 +2369,11 @@
 				"title": "The AI Doc: Or How I Became an Apocaloptimist",
 				"year": null,
 				"film": "the-ai-doc-or-how-i-became-an-apocaloptimist"
+			},
+			{
+				"title": "La Bamba",
+				"year": null,
+				"film": "la-bamba"
 			},
 			{
 				"title": "The Sheep Detective",
@@ -2421,31 +2424,15 @@
 				"title": "The Mangler",
 				"year": null,
 				"film": "the-mangler"
-			}
-		],
-		"segments": [],
-		"watched": [
-			{
-				"title": "Backrooms",
-				"year": null,
-				"film": "backrooms"
-			},
-			{
-				"title": "La Bamba",
-				"year": null,
-				"film": "la-bamba"
 			},
 			{
 				"title": "Mario Galaxy or Whatever It's Called",
 				"year": null,
 				"film": "mario-galaxy-or-whatever-its-called"
-			},
-			{
-				"title": "Flowers in the Attic",
-				"year": null,
-				"film": "flowers-in-the-attic"
 			}
 		],
+		"segments": [],
+		"watched": [],
 		"reviews": [],
 		"music": {},
 		"show": "Film Junk",
@@ -2772,14 +2759,6 @@
 		"description": "0:00 - Intro\n18:35 - Scream 7\nBusboys - 48:00\nInnerspace - 52:55\nApex - 54:40\nThe Devil Wears Prada - 59:06\nMel Brooks: The 99 Year Old Man - 1:07:50\nLove on the Spectrum Season 4 - 1:11:23\nBullet Train Explosion - 1:13:10\nThe Pitt Season 2 - 1:17:35\nBeef Season 2 - 1:25:22",
 		"mentioned": [
 			{
-				"title": "Bullet Train",
-				"year": null,
-				"film": "bullet-train"
-			}
-		],
-		"segments": [],
-		"watched": [
-			{
 				"title": "Scream 7",
 				"year": null,
 				"film": "scream-7"
@@ -2798,8 +2777,15 @@
 				"title": "Apex",
 				"year": null,
 				"film": "apex"
+			},
+			{
+				"title": "Bullet Train",
+				"year": null,
+				"film": "bullet-train"
 			}
 		],
+		"segments": [],
+		"watched": [],
 		"reviews": [],
 		"music": {},
 		"show": "Film Junk",
@@ -2874,6 +2860,16 @@
 				"film": "balls-up"
 			},
 			{
+				"title": "Throw Momma from the Train",
+				"year": null,
+				"film": "throw-momma-from-the-train"
+			},
+			{
+				"title": "Thrash",
+				"year": null,
+				"film": "thrash"
+			},
+			{
 				"title": "Roommates",
 				"year": null,
 				"film": "roommates"
@@ -2909,6 +2905,11 @@
 				"film": "becky-shaw"
 			},
 			{
+				"title": "Crime 101",
+				"year": null,
+				"film": "crime-101"
+			},
+			{
 				"title": "Ella McCay",
 				"year": null,
 				"film": "ella-mccay"
@@ -2920,23 +2921,7 @@
 			}
 		],
 		"segments": [],
-		"watched": [
-			{
-				"title": "Thrash",
-				"year": null,
-				"film": "thrash"
-			},
-			{
-				"title": "Crime 101",
-				"year": null,
-				"film": "crime-101"
-			},
-			{
-				"title": "Throw Momma from the Train",
-				"year": null,
-				"film": "throw-momma-from-the-train"
-			}
-		],
+		"watched": [],
 		"reviews": [],
 		"music": {},
 		"show": "Film Junk",
@@ -3128,6 +3113,16 @@
 		"description": "0:00 - Intro\n17:30 - Exit 8\n37:00 - Mercy\n50:10 - Blue City\n57:23 - Videoheaven\n1:03:40 - Mike & Nick & Nick & Alice\n1:15:00 - Office Killer\n1:17:48 - Remote Control\n1:22:20 - The Super Mario Bros. Movie\n1:24:05 - Coach\n1:34:00 - The Chronology of 9/11\n1:36:30 - A Knight of the Seven Kingdoms\n1:38:35 - Brody Stevens: Enjoy It!\n1:40:00 - On Cinema at the Cinema Live",
 		"mentioned": [
 			{
+				"title": "Exit 8",
+				"year": null,
+				"film": "exit-8"
+			},
+			{
+				"title": "Mercy",
+				"year": null,
+				"film": "mercy"
+			},
+			{
 				"title": "Blue City",
 				"year": null,
 				"film": "blue-city"
@@ -3136,6 +3131,11 @@
 				"title": "Videoheaven",
 				"year": null,
 				"film": "videoheaven"
+			},
+			{
+				"title": "Mike & Nick & Nick & Alice",
+				"year": null,
+				"film": "mike-and-nick-and-nick-and-alice"
 			},
 			{
 				"title": "Office Killer",
@@ -3179,23 +3179,7 @@
 			}
 		],
 		"segments": [],
-		"watched": [
-			{
-				"title": "Exit 8",
-				"year": null,
-				"film": "exit-8"
-			},
-			{
-				"title": "Mercy",
-				"year": null,
-				"film": "mercy"
-			},
-			{
-				"title": "Mike & Nick & Nick & Alice",
-				"year": null,
-				"film": "mike-and-nick-and-nick-and-alice"
-			}
-		],
+		"watched": [],
 		"reviews": [],
 		"music": {},
 		"show": "Film Junk",
@@ -3318,6 +3302,11 @@
 		"description": "0:00 - Intro\n1:20 - Oscars Discussion\n8:51 - Louis Theroux: Inside the Manosphere\n31:45 - Starfleet Academy\n43:42 - Train Dreams\n46:05 - A Night in the Life of Jimmy Reardon\n54:05 - Hoppers\n1:04:10 - Send Help\n1:07:20 - Hamnet\n1:11:20 - The Secret Agent\n1:16:30 - Dust Bunny",
 		"mentioned": [
 			{
+				"title": "Louis Theroux: Inside the Manosphere",
+				"year": null,
+				"film": "louis-theroux-inside-the-manosphere"
+			},
+			{
 				"title": "Starfleet Academy",
 				"year": null,
 				"film": "starfleet-academy"
@@ -3333,6 +3322,11 @@
 				"film": "a-night-in-the-life-of-jimmy-reardon"
 			},
 			{
+				"title": "Hoppers",
+				"year": null,
+				"film": "hoppers"
+			},
+			{
 				"title": "Send Help",
 				"year": null,
 				"film": "send-help"
@@ -3343,29 +3337,18 @@
 				"film": "hamnet"
 			},
 			{
+				"title": "The Secret Agent",
+				"year": null,
+				"film": "the-secret-agent"
+			},
+			{
 				"title": "Dust Bunny",
 				"year": null,
 				"film": "dust-bunny"
 			}
 		],
 		"segments": [],
-		"watched": [
-			{
-				"title": "Louis Theroux: Inside the Manosphere",
-				"year": null,
-				"film": "louis-theroux-inside-the-manosphere"
-			},
-			{
-				"title": "Hoppers",
-				"year": null,
-				"film": "hoppers"
-			},
-			{
-				"title": "The Secret Agent",
-				"year": null,
-				"film": "the-secret-agent"
-			}
-		],
+		"watched": [],
 		"reviews": [],
 		"music": {},
 		"show": "Film Junk",
@@ -3555,6 +3538,16 @@
 		"description": "0:00 - Intro\n18:00 - Primate\n47:15 - The Bride!\n1:00:53 - House Party\n1:04:36 - In the Blink of an Eye\n1:11:25 - Wuthering Heights\n1:16:10 - Tau Zero (book)\n1:18:05 - So Unreal\n1:20:18 - Limitless\n1:23:50 - Shelby Oaks\n1:29:20 - Love is Blind",
 		"mentioned": [
 			{
+				"title": "Primate",
+				"year": null,
+				"film": "primate"
+			},
+			{
+				"title": "The Bride!",
+				"year": null,
+				"film": "the-bride"
+			},
+			{
 				"title": "House Party",
 				"year": null,
 				"film": "house-party"
@@ -3563,6 +3556,11 @@
 				"title": "In the Blink of an Eye",
 				"year": null,
 				"film": "in-the-blink-of-an-eye"
+			},
+			{
+				"title": "Wuthering Heights",
+				"year": null,
+				"film": "wuthering-heights"
 			},
 			{
 				"title": "So Unreal",
@@ -3586,23 +3584,7 @@
 			}
 		],
 		"segments": [],
-		"watched": [
-			{
-				"title": "Primate",
-				"year": null,
-				"film": "primate"
-			},
-			{
-				"title": "The Bride!",
-				"year": null,
-				"film": "the-bride"
-			},
-			{
-				"title": "Wuthering Heights",
-				"year": null,
-				"film": "wuthering-heights"
-			}
-		],
+		"watched": [],
 		"reviews": [],
 		"music": {},
 		"show": "Film Junk",

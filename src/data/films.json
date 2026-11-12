@@ -51759,37 +51759,6 @@
 		"overview": "Five bored, occasionally high and always ineffective Vermont state troopers must prove their worth to the governor or lose their jobs. After stumbling on a drug ring, they plan to make a bust, but a rival police force is out to steal the glory."
 	},
 	{
-		"slug": "super-troopers-2",
-		"title": "Super Troopers 2",
-		"year": 2018,
-		"poster": "/57SZgdugVClIy22rfnANeBJ5KsN.jpg",
-		"votes": 551,
-		"tmdb": {
-			"type": "movie",
-			"id": 50022
-		},
-		"imdb": "tt0859635",
-		"appearances": [
-			{
-				"id": "2026-08-19-what-we-watched-spider-man-brand-new-day-the-invite-chairman",
-				"role": "watched"
-			}
-		],
-		"directors": [
-			{
-				"name": "Jay Chandrasekhar",
-				"slug": "jay-chandrasekhar"
-			}
-		],
-		"runtime": 99,
-		"genres": [
-			"Comedy",
-			"Crime",
-			"Mystery"
-		],
-		"overview": "When an international border dispute arises between the U.S. and Canada, the Super Troopers- Mac, Thorny, Foster, Rabbit and Farva, are called in to set up a new Highway Patrol station in the disputed area."
-	},
-	{
 		"slug": "hunters-blood",
 		"title": "Hunter's Blood",
 		"year": 1986,
@@ -51881,6 +51850,37 @@
 			"Science Fiction"
 		],
 		"overview": "As the city is locked down under quarantine, Alice finds out that the people that died from the previous incident at the Umbrella Corporation have turned into zombies. She then joins a small band of elite soldiers, who are enlisted to rescue the missing daughter of the creator of the mutating T-virus.  Once lack of luck and resources happen, they begin to wage an exhilarating battle to survive and escape before the Umbrella Corporation erases its experiment from the face of the earth."
+	},
+	{
+		"slug": "super-troopers-2",
+		"title": "Super Troopers 2",
+		"year": 2018,
+		"poster": "/57SZgdugVClIy22rfnANeBJ5KsN.jpg",
+		"votes": 551,
+		"tmdb": {
+			"type": "movie",
+			"id": 50022
+		},
+		"imdb": "tt0859635",
+		"appearances": [
+			{
+				"id": "2026-08-19-what-we-watched-spider-man-brand-new-day-the-invite-chairman",
+				"role": "watched"
+			}
+		],
+		"directors": [
+			{
+				"name": "Jay Chandrasekhar",
+				"slug": "jay-chandrasekhar"
+			}
+		],
+		"runtime": 99,
+		"genres": [
+			"Comedy",
+			"Crime",
+			"Mystery"
+		],
+		"overview": "When an international border dispute arises between the U.S. and Canada, the Super Troopers- Mac, Thorny, Foster, Rabbit and Farva, are called in to set up a new Highway Patrol station in the disputed area."
 	},
 	{
 		"slug": "iceman",
