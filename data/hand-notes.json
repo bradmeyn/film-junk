@@ -25,6 +25,13 @@
 		]
 	},
 
+	"2026-10-01-what-we-watched-resident-evil-primetime-the-python-hunt-and-": {
+		"notes": "Frank bumps Resident Evil from 4.5 to 5 during the episode.",
+		"reviews": [
+			{"title": "Resident Evil", "year": 2026, "ratings": {"Frank": "5", "Jay": "5"}}
+		]
+	},
+
 	"1061": {
 		"hero": "Matt Lentner",
 		"reviews": [

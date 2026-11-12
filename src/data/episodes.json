@@ -504,7 +504,7 @@
 		"hero": "Naz Red"
 	},
 	{
-		"notes": "",
+		"notes": "Frank bumps Resident Evil from 4.5 to 5 during the episode.",
 		"description": "00:00 - Intro\n01:35 - Resident Evil \n37:00 - Primetime\n1:03:55 - Ren Faire, Spermworld, Some Kind of Heaven\n1:11:06 - Death of Cheerleader\n1:14:44 - Everest: The Other Side\n1:16:05 - Rogue Trooper\n1:18:40 - The Weight\n1:26:30 - Of Unknown Origin\n1:29:03 - Life Hack\n1:31:40 - The Python Hunt\n1:42:15 - Teenage Wasteland\n1:46:05 - The Inventor: Out for Blood in Silicon Valley\n1:51:30 - Tony\n1:53:00 - Jackie Brown, Little Nicky\n1:57:47 - Supergirl\n2:00:05 - Executive Decision\n2:02:30 - Back to School, Easy Money",
 		"mentioned": [
 			{
@@ -616,7 +616,25 @@
 				"film": "the-python-hunt"
 			}
 		],
-		"reviews": [],
+		"reviews": [
+			{
+				"title": "Resident Evil",
+				"year": 2026,
+				"ratings": [
+					{
+						"host": "Frank",
+						"score": 5,
+						"outOf": 5
+					},
+					{
+						"host": "Jay",
+						"score": 5,
+						"outOf": 5
+					}
+				],
+				"film": "resident-evil"
+			}
+		],
 		"music": {},
 		"show": "Film Junk",
 		"part": null,

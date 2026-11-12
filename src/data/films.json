@@ -270,6 +270,41 @@
 		"overview": "After getting a flat tire in the middle of nowhere, newly engaged couple Brad and Janet encounter the eerie mansion of the flamboyant, seductive Dr Frank-N-Furter and a variety of eccentric characters. Through elaborate dance and rock music, the mad scientist unveils his latest creation: a perfect, muscular man."
 	},
 	{
+		"slug": "resident-evil",
+		"title": "Resident Evil",
+		"year": 2026,
+		"poster": "/gAgWJhUSQWCgtKR8170nMkYlBda.jpg",
+		"votes": 2041,
+		"tmdb": {
+			"type": "movie",
+			"id": 1423191
+		},
+		"imdb": "tt35538033",
+		"appearances": [
+			{
+				"id": "2026-10-01-what-we-watched-resident-evil-primetime-the-python-hunt-and-",
+				"role": "review"
+			},
+			{
+				"id": "2026-10-01-what-we-watched-resident-evil-primetime-the-python-hunt-and-",
+				"role": "watched"
+			}
+		],
+		"directors": [
+			{
+				"name": "Zach Cregger",
+				"slug": "zach-cregger"
+			}
+		],
+		"runtime": 95,
+		"genres": [
+			"Horror",
+			"Science Fiction",
+			"Adventure"
+		],
+		"overview": "Medical courier Bryan unwittingly finds himself fighting for survival as one fateful, horrifying night collapses around him in chaos."
+	},
+	{
 		"slug": "shermans-march",
 		"title": "Sherman's March",
 		"year": 1986,
@@ -50440,37 +50475,6 @@
 			"Thriller"
 		],
 		"overview": "A single mom is raped by an invisible force. Her psychiatrist believes the experience stems from childhood trauma, while she knows something supernatural is at play."
-	},
-	{
-		"slug": "resident-evil",
-		"title": "Resident Evil",
-		"year": 2026,
-		"poster": "/i7UyjfPio0VFHB9rBUZSFyhOoM8.jpg",
-		"votes": 1085,
-		"tmdb": {
-			"type": "movie",
-			"id": 1423191
-		},
-		"imdb": "tt35538033",
-		"appearances": [
-			{
-				"id": "2026-10-01-what-we-watched-resident-evil-primetime-the-python-hunt-and-",
-				"role": "watched"
-			}
-		],
-		"directors": [
-			{
-				"name": "Zach Cregger",
-				"slug": "zach-cregger"
-			}
-		],
-		"runtime": 95,
-		"genres": [
-			"Horror",
-			"Science Fiction",
-			"Adventure"
-		],
-		"overview": "Medical courier Bryan unwittingly finds himself fighting for survival as one fateful, horrifying night collapses around him in chaos."
 	},
 	{
 		"slug": "primetime",
