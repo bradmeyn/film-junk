@@ -10,7 +10,8 @@ interface Props {
 	hideKind?: boolean;
 }
 const { episode: e, note, hideKind } = Astro.props;
-const rated = (e.reviews ?? []).filter((r) => r.ratings.length);
+// What We Watched rates the odd film in passing; its stars stay on the episode page, not the row.
+const rated = /^what we watched/i.test(e.title) ? [] : (e.reviews ?? []).filter((r) => r.ratings.length);
 const label = e.kind === 'regular' && e.number ? String(e.number) : { premium: 'Premium', patreon: 'Patreon', bonus: 'Bonus', regular: 'Episode' }[e.kind];
 // Without the kind badge, the lead film's poster takes its place (What We Watched), else the series icon.
 const poster = hideKind ? posterUrl(leadPoster(e), 'w154') : null;

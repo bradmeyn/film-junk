@@ -18,7 +18,8 @@ const items: Item[] = episodes.map((e) => ({
 	// Artwork: the episode's lead film poster, else a premium's Bandcamp cover (the 350px size).
 	p: posterUrl(leadPoster(e), 'w154') ?? e.art?.replace('_16.jpg', '_2.jpg'),
 	// Each film's ratings; the title only when the stars could be mistaken for the whole episode's.
-	r: (e.reviews ?? [])
+	// What We Watched rates the odd film in passing, so its row leaves the stars to the episode page.
+	r: (/^what we watched/i.test(e.title) ? [] : (e.reviews ?? []))
 		.filter((r) => r.ratings.length)
 		.map((r, _, all) => ({
 			...(ratingNamesFilm(e, r, all.length) && { t: r.title }),
