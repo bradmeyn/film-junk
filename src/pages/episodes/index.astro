@@ -1,7 +1,7 @@
 ---
 import Layout from '../../layouts/layout.astro';
 import EpisodeBrowser, { type Item } from '../../components/episode-browser.svelte';
-import { averageRating, episodes, leadPoster, meta, posterUrl, years } from '../../lib/data';
+import { averageRating, episodes, leadPoster, meta, ratingNamesFilm, posterUrl, years } from '../../lib/data';
 
 // Year-end shows: the hosts' top 10 lists and the Junkies awards.
 const yearEnd = new Set(Object.values(meta.yearEnd).flatMap((shows) => shows.map((s) => s.id)));
@@ -17,11 +17,11 @@ const items: Item[] = episodes.map((e) => ({
 	...(yearEnd.has(e.id) && { y: true }),
 	// Artwork: the episode's lead film poster, else a premium's Bandcamp cover (the 350px size).
 	p: posterUrl(leadPoster(e), 'w154') ?? e.art?.replace('_16.jpg', '_2.jpg'),
-	// Each film's ratings; the title only when the episode reviews more than one.
+	// Each film's ratings; the title only when the stars could be mistaken for the whole episode's.
 	r: (e.reviews ?? [])
 		.filter((r) => r.ratings.length)
 		.map((r, _, all) => ({
-			...(all.length > 1 && { t: r.title }),
+			...(ratingNamesFilm(e, r, all.length) && { t: r.title }),
 			s: r.ratings.map((x) => [x.host, x.score, x.outOf] as [string, number, number]),
 		})),
 }));

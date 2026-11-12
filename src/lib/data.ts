@@ -104,11 +104,17 @@ export function posterUrl(path: string | null | undefined, size: 'w154' | 'w342'
 	return path ? `https://image.tmdb.org/t/p/${size}${path}` : null;
 }
 
-// The poster that stands for an episode: its first reviewed film's. What We Watched has no review,
-// so it takes the first film it names that has a poster.
+// The poster that stands for an episode: its first reviewed film's. What We Watched usually has no
+// review, so it takes the first film it names that has a poster (build-data lists them as mentioned).
 export function leadPoster(e: Episode) {
 	const first = (list: { film?: string | null }[] | undefined) => list?.map((x) => x.film && filmBySlug.get(x.film)?.poster).find(Boolean);
-	return first(e.reviews) ?? (/what we watched/i.test(e.title) ? first(e.watched) : undefined) ?? null;
+	return first(e.reviews) ?? (/what we watched/i.test(e.title) ? (first(e.watched) ?? first(e.mentioned)) : undefined) ?? null;
+}
+
+// A rating row names its film when the episode rates several, or when the episode's title isn't
+// that film's (What We Watched, double bills), so the stars aren't read as the whole episode's.
+export function ratingNamesFilm(e: Episode, review: Review, ratedCount: number) {
+	return ratedCount > 1 || slugify(review.title) !== slugify(e.title);
 }
 
 // Artwork for an episode: the premium's Bandcamp cover, else the first reviewed film's poster.
