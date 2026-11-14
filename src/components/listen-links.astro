@@ -24,13 +24,6 @@ const gumroadOnly = l.gumroad && !hasFree;
 		)
 	}
 	{
-		e.kind === 'premium' && !l.patreon && (
-			<a class="button patreon" href={LINKS.patreon}>
-				<Icon name="patreon" /> Get every premium on Patreon
-			</a>
-		)
-	}
-	{
 		// Episodes Spotify doesn't list (or before the refresh finds them) link the show instead.
 		(hasFree || (paid && l.spotify)) && (
 			<a class="button spotify" href={l.spotify ?? LINKS.spotify}>
@@ -47,8 +40,9 @@ const gumroadOnly = l.gumroad && !hasFree;
 	}
 	{e.kind === 'patreon' && <span class="muted note">For Film Junk patrons.</span>}
 	{
+		// Patreon only has the newer premiums; the rest are sold on Bandcamp, so that's their main link.
 		l.bandcamp && (
-			<a class="button" href={l.bandcamp}>
+			<a class:list={['button', { primary: !l.patreon }]} href={l.bandcamp}>
 				<Icon name="bandcamp" /> Buy on Bandcamp
 			</a>
 		)
