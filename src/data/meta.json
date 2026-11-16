@@ -1,5 +1,5 @@
 {
-	"builtAt": "2026-11-15T19:29:54.174Z",
+	"builtAt": "2026-11-16T23:06:19.806Z",
 	"yearNotes": {
 		"2005": [
 			"Total episodes: 47",
@@ -1061,16 +1061,16 @@
 					"episode": "1071",
 					"film": "election",
 					"poster": "/fbo0IYzBc32dD5SjFzKIgfp4O4F.jpg",
-					"status": "patreon"
+					"status": "out"
 				},
 				{
 					"date": "2026-11-23",
 					"title": "Altered States",
 					"year": 1980,
-					"episode": null,
-					"film": null,
+					"episode": "1072",
+					"film": "altered-states",
 					"poster": "/fsoaPN5SWYgZ4B7GG9nRNj33so.jpg",
-					"status": "upcoming"
+					"status": "patreon"
 				},
 				{
 					"date": "2026-11-30",

@@ -1,5 +1,36 @@
 [
 	{
+		"slug": "altered-states",
+		"title": "Altered States",
+		"year": 1980,
+		"poster": "/fsoaPN5SWYgZ4B7GG9nRNj33so.jpg",
+		"votes": 821,
+		"tmdb": {
+			"type": "movie",
+			"id": 11542
+		},
+		"imdb": "tt0080360",
+		"appearances": [
+			{
+				"id": "1072",
+				"role": "review"
+			}
+		],
+		"directors": [
+			{
+				"name": "Ken Russell",
+				"slug": "ken-russell"
+			}
+		],
+		"runtime": 103,
+		"genres": [
+			"Horror",
+			"Science Fiction",
+			"Thriller"
+		],
+		"overview": "A research scientist explores the boundaries and frontiers of human consciousness. Using sensory deprivation and hallucinogenic mixtures from Native American shamans, he explores these altered states of cognizance and finds that memory, time, and reality itself are states of mind."
+	},
+	{
 		"slug": "election",
 		"title": "Election",
 		"year": 1999,
