@@ -1,5 +1,5 @@
 {
-	"builtAt": "2026-11-17T21:58:03.497Z",
+	"builtAt": "2026-11-18T21:39:43.415Z",
 	"yearNotes": {
 		"2005": [
 			"Total episodes: 47",
@@ -1229,6 +1229,12 @@
 			"art": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/0d/5c/1f/0d5c1f87-7c05-6349-72c5-301d38a5a1ae/mza_5373297653113572594.jpg/600x600bb.jpg",
 			"episodes": [
 				{
+					"title": "VisionQuest",
+					"number": 62,
+					"date": "2026-11-18",
+					"url": "https://podcasts.apple.com/us/podcast/episode-62-visionquest/id1611388164?i=1000802750143"
+				},
+				{
 					"title": "Carrie",
 					"number": 61,
 					"date": "2026-10-31",
@@ -1239,12 +1245,6 @@
 					"number": 60,
 					"date": "2026-10-16",
 					"url": "https://podcasts.apple.com/us/podcast/episode-60-lanterns/id1611388164?i=1000796704513"
-				},
-				{
-					"title": "Widow's Bay",
-					"number": 59,
-					"date": "2026-09-09",
-					"url": "https://podcasts.apple.com/us/podcast/episode-59-widows-bay/id1611388164?i=1000788562491"
 				}
 			]
 		}
