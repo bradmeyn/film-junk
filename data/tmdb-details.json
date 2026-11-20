@@ -100239,5 +100239,160 @@
 			"Drama"
 		],
 		"overview": "During the final weeks of a presidential race, the President is accused of sexual misconduct. To distract the public until the election, the President's adviser hires a Hollywood producer to help him stage a fake war."
+	},
+	"movie:1727734": {
+		"directors": [
+			{
+				"id": 6730,
+				"name": "Sacha Baron Cohen"
+			}
+		],
+		"runtime": 89,
+		"genres": [
+			"Comedy"
+		],
+		"overview": "After twenty years spent \"chillin', tokin' and bonin'\", Ali G is shocked to discover that his long-term girlfriend, Julie, is 8 months pregnant. Faced with an extra mouth to feed, he gets off his batty and heads to America to reclaim his former glory… but soon encounters adversaries who will ultimately threaten his and his child's very existence."
+	},
+	"movie:1381071": {
+		"directors": [
+			{
+				"id": 43652,
+				"name": "Takashi Yamazaki"
+			}
+		],
+		"runtime": 135,
+		"genres": [
+			"Science Fiction",
+			"Horror",
+			"Action"
+		],
+		"overview": "War reduced Japan to zero, and Godzilla plunged it into minus. Two years have passed since then, and the country has faced agonizing struggles to achieve recovery and finally reclaim its daily life. Just as humanity managed to cling to a hard-won peace, a new threat strikes, crushing hope in an instant. There is no third time. Everything ends here."
+	},
+	"movie:14254": {
+		"directors": [
+			{
+				"id": 81201,
+				"name": "Charles Guard"
+			},
+			{
+				"id": 223886,
+				"name": "Thomas Guard"
+			}
+		],
+		"runtime": 87,
+		"genres": [
+			"Horror"
+		],
+		"overview": "Anna returns home after spending time in a psychiatric facility following her mother's tragic death and discovers that her mother's former nurse, Rachel, has moved into their house and become engaged to her father. Soon after she learns this shocking news, Anna is visited by her mother's ghost, who warns her that Rachel has evil intentions."
+	},
+	"movie:891621": {
+		"directors": [
+			{
+				"id": 54472,
+				"name": "Martin McDonagh"
+			}
+		],
+		"runtime": 117,
+		"genres": [
+			"Comedy",
+			"Crime",
+			"Thriller"
+		],
+		"overview": "Shortly before the 1973 Chilean coup, CIA agents Chris and Lee are dispatched from Santiago to Easter Island by their bureau chief, MJ. Amongst the Island's iconic statues, and as the longtime partners wrestle with their dark pasts and present conspiracies, Chris's newfound bond with a pair of rebellious students threatens to send everyone’s trip to this remote paradise sideways."
+	},
+	"movie:1567605": {
+		"directors": [
+			{
+				"id": 101542,
+				"name": "Ti West"
+			}
+		],
+		"runtime": 115,
+		"genres": [
+			"Fantasy",
+			"Comedy"
+		],
+		"overview": "An elderly miser embarks on a supernatural journey after visits from the ghost of his former business partner and the Spirits of Christmas Past, Present, and Yet to Come force him to confront his past and fight for a second chance at happiness."
+	},
+	"movie:33172": {
+		"directors": [
+			{
+				"id": 82033,
+				"name": "Jon Hess"
+			}
+		],
+		"runtime": 91,
+		"genres": [
+			"Horror",
+			"Science Fiction",
+			"Thriller"
+		],
+		"overview": "A boy takes in a stray dog, later finding out that it's an ultra-intelligent runaway from a genetic research lab. Unbeknownst to him, the dog is being stalked by another escaped creature that's not quite so friendly."
+	},
+	"movie:1096228": {
+		"directors": [
+			{
+				"id": 71797,
+				"name": "Alex Gibney"
+			}
+		],
+		"runtime": 238,
+		"genres": [
+			"Documentary"
+		],
+		"overview": "An incisive look behind the legend of Elon Musk, the world's most heralded \"inventor-entrepreneur\" who has enormous influence on the world in which we all live."
+	},
+	"movie:1756307": {
+		"directors": [
+			{
+				"id": 1051351,
+				"name": "Jason Hehir"
+			}
+		],
+		"runtime": 88,
+		"genres": [
+			"Documentary"
+		],
+		"overview": "Second City Television cast members reunite in this documentary for a funny and heartfelt celebration of how a scrappy Canadian sketch show made comedy history."
+	},
+	"tv:4238": {
+		"directors": [
+			{
+				"id": 167889,
+				"name": "Michael J. Weithorn"
+			},
+			{
+				"id": 1236113,
+				"name": "David Litt"
+			}
+		],
+		"runtime": 25,
+		"genres": [
+			"Comedy"
+		],
+		"overview": "Life’s good for deliveryman Doug Heffernan, until his newly widowed father-in-law, Arthur, moves in with him and his wife Carrie. Doug is no longer the king of his domain, and instead of having a big screen television in his recently renovated basement, he now has a crazy old man."
+	},
+	"movie:1381221": {
+		"directors": [
+			{
+				"id": 2632,
+				"name": "Chris Rock"
+			}
+		],
+		"runtime": 103,
+		"genres": [
+			"Drama",
+			"Comedy"
+		],
+		"overview": "Years after her Hollywood breakthrough, a talented actress whose career has stalled fights for her second act."
+	},
+	"tv:4453": {
+		"directors": [],
+		"runtime": 30,
+		"genres": [
+			"Comedy",
+			"Family"
+		],
+		"overview": "The Hogan Family is an American television situation comedy that aired on NBC from March 1, 1986 to May 7, 1990, and on CBS from September 15, 1990 until July 20, 1991. It was produced by Miller-Boyett Productions, along with Tal Productions, Inc., and in association with Lorimar Productions, Lorimar-Telepictures and Lorimar Television.\n\nThe show was originally titled Valerie and starred Valerie Harper as a mother trying to juggle her career with raising her three sons by her often-absent airline-pilot husband. Harper was written out of the series after the second season because of a dispute with the show's producers. Sandy Duncan joined the cast as the boys' aunt, who moved in and became their surrogate mom. During the show's third season, the series was known as Valerie's Family: The Hogans, then simply as The Hogan Family."
 	}
 }

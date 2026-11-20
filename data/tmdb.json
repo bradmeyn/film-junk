@@ -68195,5 +68195,114 @@
 		"poster": "/gAgWJhUSQWCgtKR8170nMkYlBda.jpg",
 		"votes": 2041,
 		"imdb": "tt35538033"
+	},
+	"m|wild horse nine|": {
+		"type": "movie",
+		"id": 891621,
+		"title": "Wild Horse Nine",
+		"year": 2026,
+		"poster": "/dNJFRtVg3xLQ7dbNIQ55cmmIniD.jpg",
+		"votes": 265,
+		"imdb": "tt15799564"
+	},
+	"m|ali g: who iz i?|": {
+		"type": "movie",
+		"id": 1727734,
+		"title": "Ali G: Who Iz I?",
+		"year": 2026,
+		"poster": "/uTyVxPeWX8Ai30IQoyDDQONNcq.jpg",
+		"votes": 206,
+		"imdb": "tt43655467"
+	},
+	"m|the uninvited|": {
+		"type": "movie",
+		"id": 14254,
+		"title": "The Uninvited",
+		"year": 2009,
+		"poster": "/n2LbppkswgMEaSRbbWaOTScNU1R.jpg",
+		"votes": 1712,
+		"imdb": "tt0815245"
+	},
+	"m|ebenezer|": {
+		"type": "movie",
+		"id": 1567605,
+		"title": "Ebenezer",
+		"year": 2026,
+		"poster": "/6H2N59jJW1hZEzn2ZdrMvJw5vNI.jpg",
+		"votes": 120,
+		"imdb": "tt38773219"
+	},
+	"m|godzilla minus zero|": {
+		"type": "movie",
+		"id": 1381071,
+		"title": "Godzilla Minus Zero",
+		"year": 2026,
+		"poster": "/hSmIJluOJmTWvJs4d7kHRxjc8s8.jpg",
+		"votes": 267,
+		"imdb": "tt34384661"
+	},
+	"m|watchers|": {
+		"type": "movie",
+		"id": 33172,
+		"title": "Watchers",
+		"year": 1988,
+		"poster": "/fOOsMzORvtoQbFzKEXcPWpJsUm7.jpg",
+		"votes": 113,
+		"imdb": "tt0096425"
+	},
+	"m|jackass: best and last|": {
+		"type": "movie",
+		"id": 1612018,
+		"title": "Jackass: Best and Last",
+		"year": 2026,
+		"poster": "/tfgccePxnswMqhmtxafliLlcCVR.jpg",
+		"votes": 302,
+		"imdb": "tt39316472"
+	},
+	"m|the end of oak st|": null,
+	"m|musk|": {
+		"type": "movie",
+		"id": 1096228,
+		"title": "Musk",
+		"year": 2026,
+		"poster": "/kTOeFV92c3QHJ3bEkT660P7BcWN.jpg",
+		"votes": 42,
+		"imdb": "tt27041231"
+	},
+	"m|sctv: the greatest show you’ve never heard of|": {
+		"type": "movie",
+		"id": 1756307,
+		"title": "SCTV: The Greatest Show You've Never Heard Of",
+		"year": 2026,
+		"poster": "/vBqVyTpzv5RzHSsQdu8ECxAqSvd.jpg",
+		"votes": 7,
+		"imdb": "tt44825373"
+	},
+	"m|the hogan family|": {
+		"type": "tv",
+		"id": 4453,
+		"title": "The Hogan Family",
+		"year": 1986,
+		"poster": "/2deFhQTN01DGG2ys9tNmRRB4SsY.jpg",
+		"votes": 24,
+		"imdb": "tt0090540"
+	},
+	"m|the king of queens|": {
+		"type": "tv",
+		"id": 4238,
+		"title": "The King of Queens",
+		"year": 1998,
+		"poster": "/vXs300Yvjy4Kr0iHgBtajHkYbAt.jpg",
+		"votes": 792,
+		"imdb": "tt0165581"
+	},
+	"m|misty green|": {
+		"type": "movie",
+		"id": 1381221,
+		"title": "Misty Green",
+		"year": 2026,
+		"poster": "/j8NF67FguTCH8tGu7Du6n8DMcSt.jpg",
+		"votes": 10,
+		"imdb": "tt34385184"
 	}
 }

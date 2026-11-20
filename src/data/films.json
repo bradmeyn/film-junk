@@ -50244,6 +50244,442 @@
 		"overview": "While Ron Burgundy's rivalry with Veronica Corningstone escalates quickly, a group of unprofessional thieves better known as 'The Alarm Clock' try to make the truth known, whatever that may mean..."
 	},
 	{
+		"slug": "ebenezer",
+		"title": "Ebenezer",
+		"year": 2026,
+		"poster": "/6H2N59jJW1hZEzn2ZdrMvJw5vNI.jpg",
+		"votes": 120,
+		"tmdb": {
+			"type": "movie",
+			"id": 1567605
+		},
+		"imdb": "tt38773219",
+		"appearances": [
+			{
+				"id": "2026-11-19-what-we-watched-ebenezer-godzilla-minus-zero-ali-g-who-iz-i-",
+				"role": "watched"
+			}
+		],
+		"directors": [
+			{
+				"name": "Ti West",
+				"slug": "ti-west"
+			}
+		],
+		"runtime": 115,
+		"genres": [
+			"Fantasy",
+			"Comedy"
+		],
+		"overview": "An elderly miser embarks on a supernatural journey after visits from the ghost of his former business partner and the Spirits of Christmas Past, Present, and Yet to Come force him to confront his past and fight for a second chance at happiness."
+	},
+	{
+		"slug": "godzilla-minus-zero",
+		"title": "Godzilla Minus Zero",
+		"year": 2026,
+		"poster": "/hSmIJluOJmTWvJs4d7kHRxjc8s8.jpg",
+		"votes": 267,
+		"tmdb": {
+			"type": "movie",
+			"id": 1381071
+		},
+		"imdb": "tt34384661",
+		"appearances": [
+			{
+				"id": "2026-11-19-what-we-watched-ebenezer-godzilla-minus-zero-ali-g-who-iz-i-",
+				"role": "watched"
+			}
+		],
+		"directors": [
+			{
+				"name": "Takashi Yamazaki",
+				"slug": "takashi-yamazaki"
+			}
+		],
+		"runtime": 135,
+		"genres": [
+			"Science Fiction",
+			"Horror",
+			"Action"
+		],
+		"overview": "War reduced Japan to zero, and Godzilla plunged it into minus. Two years have passed since then, and the country has faced agonizing struggles to achieve recovery and finally reclaim its daily life. Just as humanity managed to cling to a hard-won peace, a new threat strikes, crushing hope in an instant. There is no third time. Everything ends here."
+	},
+	{
+		"slug": "ali-g-who-iz-i",
+		"title": "Ali G: Who Iz I?",
+		"year": 2026,
+		"poster": "/uTyVxPeWX8Ai30IQoyDDQONNcq.jpg",
+		"votes": 206,
+		"tmdb": {
+			"type": "movie",
+			"id": 1727734
+		},
+		"imdb": "tt43655467",
+		"appearances": [
+			{
+				"id": "2026-11-19-what-we-watched-ebenezer-godzilla-minus-zero-ali-g-who-iz-i-",
+				"role": "watched"
+			}
+		],
+		"directors": [
+			{
+				"name": "Sacha Baron Cohen",
+				"slug": "sacha-baron-cohen"
+			}
+		],
+		"runtime": 89,
+		"genres": [
+			"Comedy"
+		],
+		"overview": "After twenty years spent \"chillin', tokin' and bonin'\", Ali G is shocked to discover that his long-term girlfriend, Julie, is 8 months pregnant. Faced with an extra mouth to feed, he gets off his batty and heads to America to reclaim his former glory… but soon encounters adversaries who will ultimately threaten his and his child's very existence."
+	},
+	{
+		"slug": "the-hogan-family",
+		"title": "The Hogan Family",
+		"year": 1986,
+		"poster": "/2deFhQTN01DGG2ys9tNmRRB4SsY.jpg",
+		"votes": 24,
+		"tmdb": {
+			"type": "tv",
+			"id": 4453
+		},
+		"imdb": "tt0090540",
+		"appearances": [
+			{
+				"id": "2026-11-19-what-we-watched-ebenezer-godzilla-minus-zero-ali-g-who-iz-i-",
+				"role": "watched"
+			}
+		],
+		"runtime": 30,
+		"genres": [
+			"Comedy",
+			"Family"
+		],
+		"overview": "The Hogan Family is an American television situation comedy that aired on NBC from March 1, 1986 to May 7, 1990, and on CBS from September 15, 1990 until July 20, 1991. It was produced by Miller-Boyett Productions, along with Tal Productions, Inc., and in association with Lorimar Productions, Lorimar-Telepictures and Lorimar Television.\n\nThe show was originally titled Valerie and starred Valerie Harper as a mother trying to juggle her career with raising her three sons by her often-absent airline-pilot husband. Harper was written out of the series after the second season because of a dispute with the show's producers. Sandy Duncan joined the cast as the boys' aunt, who moved in and became their surrogate mom. During the show's third season, the series was known as Valerie's Family: The Hogans, then simply as The Hogan Family."
+	},
+	{
+		"slug": "watchers",
+		"title": "Watchers",
+		"year": 1988,
+		"poster": "/fOOsMzORvtoQbFzKEXcPWpJsUm7.jpg",
+		"votes": 113,
+		"tmdb": {
+			"type": "movie",
+			"id": 33172
+		},
+		"imdb": "tt0096425",
+		"appearances": [
+			{
+				"id": "2026-11-19-what-we-watched-ebenezer-godzilla-minus-zero-ali-g-who-iz-i-",
+				"role": "watched"
+			}
+		],
+		"directors": [
+			{
+				"name": "Jon Hess",
+				"slug": "jon-hess"
+			}
+		],
+		"runtime": 91,
+		"genres": [
+			"Horror",
+			"Science Fiction",
+			"Thriller"
+		],
+		"overview": "A boy takes in a stray dog, later finding out that it's an ultra-intelligent runaway from a genetic research lab. Unbeknownst to him, the dog is being stalked by another escaped creature that's not quite so friendly."
+	},
+	{
+		"slug": "wild-horse-nine",
+		"title": "Wild Horse Nine",
+		"year": 2026,
+		"poster": "/dNJFRtVg3xLQ7dbNIQ55cmmIniD.jpg",
+		"votes": 265,
+		"tmdb": {
+			"type": "movie",
+			"id": 891621
+		},
+		"imdb": "tt15799564",
+		"appearances": [
+			{
+				"id": "2026-11-19-what-we-watched-ebenezer-godzilla-minus-zero-ali-g-who-iz-i-",
+				"role": "watched"
+			}
+		],
+		"directors": [
+			{
+				"name": "Martin McDonagh",
+				"slug": "martin-mcdonagh"
+			}
+		],
+		"runtime": 117,
+		"genres": [
+			"Comedy",
+			"Crime",
+			"Thriller"
+		],
+		"overview": "Shortly before the 1973 Chilean coup, CIA agents Chris and Lee are dispatched from Santiago to Easter Island by their bureau chief, MJ. Amongst the Island's iconic statues, and as the longtime partners wrestle with their dark pasts and present conspiracies, Chris's newfound bond with a pair of rebellious students threatens to send everyone’s trip to this remote paradise sideways."
+	},
+	{
+		"slug": "the-uninvited",
+		"title": "The Uninvited",
+		"year": 2009,
+		"poster": "/n2LbppkswgMEaSRbbWaOTScNU1R.jpg",
+		"votes": 1712,
+		"tmdb": {
+			"type": "movie",
+			"id": 14254
+		},
+		"imdb": "tt0815245",
+		"appearances": [
+			{
+				"id": "2026-11-19-what-we-watched-ebenezer-godzilla-minus-zero-ali-g-who-iz-i-",
+				"role": "watched"
+			}
+		],
+		"directors": [
+			{
+				"name": "Charles Guard",
+				"slug": "charles-guard"
+			},
+			{
+				"name": "Thomas Guard",
+				"slug": "thomas-guard"
+			}
+		],
+		"runtime": 87,
+		"genres": [
+			"Horror"
+		],
+		"overview": "Anna returns home after spending time in a psychiatric facility following her mother's tragic death and discovers that her mother's former nurse, Rachel, has moved into their house and become engaged to her father. Soon after she learns this shocking news, Anna is visited by her mother's ghost, who warns her that Rachel has evil intentions."
+	},
+	{
+		"slug": "sctv-the-greatest-show-youve-never-heard-of",
+		"title": "SCTV: The Greatest Show You’ve Never Heard Of",
+		"year": 2026,
+		"poster": "/vBqVyTpzv5RzHSsQdu8ECxAqSvd.jpg",
+		"votes": 7,
+		"tmdb": {
+			"type": "movie",
+			"id": 1756307
+		},
+		"imdb": "tt44825373",
+		"appearances": [
+			{
+				"id": "2026-11-19-what-we-watched-ebenezer-godzilla-minus-zero-ali-g-who-iz-i-",
+				"role": "watched"
+			}
+		],
+		"directors": [
+			{
+				"name": "Jason Hehir",
+				"slug": "jason-hehir"
+			}
+		],
+		"runtime": 88,
+		"genres": [
+			"Documentary"
+		],
+		"overview": "Second City Television cast members reunite in this documentary for a funny and heartfelt celebration of how a scrappy Canadian sketch show made comedy history."
+	},
+	{
+		"slug": "jackass-best-and-last",
+		"title": "Jackass: Best and Last",
+		"year": 2026,
+		"poster": "/tfgccePxnswMqhmtxafliLlcCVR.jpg",
+		"votes": 302,
+		"tmdb": {
+			"type": "movie",
+			"id": 1612018
+		},
+		"imdb": "tt39316472",
+		"appearances": [
+			{
+				"id": "2026-11-19-what-we-watched-ebenezer-godzilla-minus-zero-ali-g-who-iz-i-",
+				"role": "watched"
+			},
+			{
+				"id": "2026-07-11-what-we-watched-obsession-the-drama-toy-story-5-and-more",
+				"role": "watched"
+			}
+		],
+		"directors": [
+			{
+				"name": "Jeff Tremaine",
+				"slug": "jeff-tremaine"
+			}
+		],
+		"runtime": 92,
+		"genres": [
+			"Action",
+			"Comedy",
+			"Documentary"
+		],
+		"overview": "The fifth and final installment to Jackass franchise where the crew go on one last insane crusade."
+	},
+	{
+		"slug": "the-end-of-oak-st",
+		"title": "The End of Oak St",
+		"year": null,
+		"poster": null,
+		"votes": 0,
+		"tmdb": null,
+		"imdb": null,
+		"appearances": [
+			{
+				"id": "2026-11-19-what-we-watched-ebenezer-godzilla-minus-zero-ali-g-who-iz-i-",
+				"role": "watched"
+			}
+		]
+	},
+	{
+		"slug": "love-is-blind",
+		"title": "Love is Blind",
+		"year": 2020,
+		"poster": "/8XhV6ke8ltRYoG4SYmibF2bGwrC.jpg",
+		"votes": 115,
+		"tmdb": {
+			"type": "tv",
+			"id": 99353
+		},
+		"imdb": "tt11704040",
+		"appearances": [
+			{
+				"id": "2026-11-19-what-we-watched-ebenezer-godzilla-minus-zero-ali-g-who-iz-i-",
+				"role": "watched"
+			},
+			{
+				"id": "2026-03-12-what-we-watched-primate-the-bride-wuthering-heights-and-more",
+				"role": "watched"
+			},
+			{
+				"id": "1012",
+				"role": "watched"
+			},
+			{
+				"id": "969",
+				"role": "watched"
+			},
+			{
+				"id": "906",
+				"role": "watched"
+			},
+			{
+				"id": "905",
+				"role": "watched"
+			},
+			{
+				"id": "836",
+				"role": "watched"
+			},
+			{
+				"id": "744",
+				"role": "watched"
+			}
+		],
+		"directors": [
+			{
+				"name": "Chris Coelen",
+				"slug": "chris-coelen"
+			}
+		],
+		"genres": [
+			"Reality"
+		],
+		"overview": "Nick and Vanessa Lachey host this social experiment where single men and women look for love and get engaged, all before meeting in person."
+	},
+	{
+		"slug": "musk",
+		"title": "Musk",
+		"year": 2026,
+		"poster": "/kTOeFV92c3QHJ3bEkT660P7BcWN.jpg",
+		"votes": 42,
+		"tmdb": {
+			"type": "movie",
+			"id": 1096228
+		},
+		"imdb": "tt27041231",
+		"appearances": [
+			{
+				"id": "2026-11-19-what-we-watched-ebenezer-godzilla-minus-zero-ali-g-who-iz-i-",
+				"role": "watched"
+			}
+		],
+		"directors": [
+			{
+				"name": "Alex Gibney",
+				"slug": "alex-gibney"
+			}
+		],
+		"runtime": 238,
+		"genres": [
+			"Documentary"
+		],
+		"overview": "An incisive look behind the legend of Elon Musk, the world's most heralded \"inventor-entrepreneur\" who has enormous influence on the world in which we all live."
+	},
+	{
+		"slug": "the-king-of-queens",
+		"title": "The King of Queens",
+		"year": 1998,
+		"poster": "/vXs300Yvjy4Kr0iHgBtajHkYbAt.jpg",
+		"votes": 792,
+		"tmdb": {
+			"type": "tv",
+			"id": 4238
+		},
+		"imdb": "tt0165581",
+		"appearances": [
+			{
+				"id": "2026-11-19-what-we-watched-ebenezer-godzilla-minus-zero-ali-g-who-iz-i-",
+				"role": "watched"
+			}
+		],
+		"directors": [
+			{
+				"name": "Michael J. Weithorn",
+				"slug": "michael-j-weithorn"
+			},
+			{
+				"name": "David Litt",
+				"slug": "david-litt"
+			}
+		],
+		"runtime": 25,
+		"genres": [
+			"Comedy"
+		],
+		"overview": "Life’s good for deliveryman Doug Heffernan, until his newly widowed father-in-law, Arthur, moves in with him and his wife Carrie. Doug is no longer the king of his domain, and instead of having a big screen television in his recently renovated basement, he now has a crazy old man."
+	},
+	{
+		"slug": "misty-green",
+		"title": "Misty Green",
+		"year": 2026,
+		"poster": "/j8NF67FguTCH8tGu7Du6n8DMcSt.jpg",
+		"votes": 10,
+		"tmdb": {
+			"type": "movie",
+			"id": 1381221
+		},
+		"imdb": "tt34385184",
+		"appearances": [
+			{
+				"id": "2026-11-19-what-we-watched-ebenezer-godzilla-minus-zero-ali-g-who-iz-i-",
+				"role": "watched"
+			}
+		],
+		"directors": [
+			{
+				"name": "Chris Rock",
+				"slug": "chris-rock"
+			}
+		],
+		"runtime": 103,
+		"genres": [
+			"Drama",
+			"Comedy"
+		],
+		"overview": "Years after her Hollywood breakthrough, a talented actress whose career has stalled fights for her second act."
+	},
+	{
 		"slug": "microwave-massacre",
 		"title": "Microwave Massacre",
 		"year": 1983,
@@ -52444,37 +52880,6 @@
 		"overview": "When Bonnie receives a Lilypad tablet as a gift and becomes obsessed, Buzz, Woody, Jessie and the rest of the gang's jobs become exponentially harder when they have to go head to head with the all-new threat to playtime."
 	},
 	{
-		"slug": "jackass-best-and-last",
-		"title": "Jackass Best and Last",
-		"year": 2026,
-		"poster": "/tfgccePxnswMqhmtxafliLlcCVR.jpg",
-		"votes": 257,
-		"tmdb": {
-			"type": "movie",
-			"id": 1612018
-		},
-		"imdb": "tt39316472",
-		"appearances": [
-			{
-				"id": "2026-07-11-what-we-watched-obsession-the-drama-toy-story-5-and-more",
-				"role": "watched"
-			}
-		],
-		"directors": [
-			{
-				"name": "Jeff Tremaine",
-				"slug": "jeff-tremaine"
-			}
-		],
-		"runtime": 92,
-		"genres": [
-			"Action",
-			"Comedy",
-			"Documentary"
-		],
-		"overview": "The fifth and final installment to Jackass franchise where the crew go on one last insane crusade."
-	},
-	{
 		"slug": "rumble-in-the-bronx",
 		"title": "Rumble in the Bronx",
 		"year": 1995,
@@ -54562,58 +54967,6 @@
 			"Mystery"
 		],
 		"overview": "A woman's obsessive search for her missing sister leads her into a terrifying mystery at the hands of an unknown evil."
-	},
-	{
-		"slug": "love-is-blind",
-		"title": "Love is Blind",
-		"year": 2020,
-		"poster": "/8XhV6ke8ltRYoG4SYmibF2bGwrC.jpg",
-		"votes": 115,
-		"tmdb": {
-			"type": "tv",
-			"id": 99353
-		},
-		"imdb": "tt11704040",
-		"appearances": [
-			{
-				"id": "2026-03-12-what-we-watched-primate-the-bride-wuthering-heights-and-more",
-				"role": "watched"
-			},
-			{
-				"id": "1012",
-				"role": "watched"
-			},
-			{
-				"id": "969",
-				"role": "watched"
-			},
-			{
-				"id": "906",
-				"role": "watched"
-			},
-			{
-				"id": "905",
-				"role": "watched"
-			},
-			{
-				"id": "836",
-				"role": "watched"
-			},
-			{
-				"id": "744",
-				"role": "watched"
-			}
-		],
-		"directors": [
-			{
-				"name": "Chris Coelen",
-				"slug": "chris-coelen"
-			}
-		],
-		"genres": [
-			"Reality"
-		],
-		"overview": "Nick and Vanessa Lachey host this social experiment where single men and women look for love and get engaged, all before meeting in person."
 	},
 	{
 		"slug": "zodiac-killer-project",
