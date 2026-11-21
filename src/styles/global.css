@@ -90,13 +90,18 @@ h3 {
 	margin: 0;
 }
 
-/* Section headings take the wordmark's caps; page titles and film titles stay in the serif. */
-h2 {
+/* The wordmark's caps: section headings, plus the big titles that opt in with .caps
+   (the hero, the latest episode, a film's page). Other titles stay in the serif. */
+h2,
+.caps {
 	font-family: var(--font-brand);
 	font-weight: 700;
-	font-size: var(--step-2);
 	text-transform: uppercase;
 	letter-spacing: 0.02em;
+}
+
+h2 {
+	font-size: var(--step-2);
 }
 
 h3 {

@@ -87,7 +87,7 @@ const pageDescription = reviewed.length
 		<header class:list={[{ 'has-poster': poster }]}>
 			{poster && <img src={poster} alt={`Poster for ${heading}`} width="342" height="513" />}
 			<div>
-				<h1>{heading}</h1>
+				<h1 class="caps">{heading}</h1>
 				{
 					(film.directors?.length || facts.length > 0) && (
 						<p class="credits">
@@ -235,7 +235,7 @@ const pageDescription = reviewed.length
 	h1 {
 		font-size: var(--step-4);
 		line-height: 1.1;
-		max-width: 20ch;
+		max-width: 26ch;
 		overflow-wrap: break-word;
 	}
 

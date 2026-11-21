@@ -72,7 +72,7 @@ const blurb = latest.description.length > 420 ? latest.description.slice(0, 420)
 		</picture>
 		<div class="hero wrap">
 		<div class="about">
-			<h1>The Longest Running <span class="line">Movie Podcast</span></h1>
+			<h1 class="caps">The Longest Running <span class="line">Movie Podcast</span></h1>
 			<p class="lede muted">An unofficial companion to the Film Junk Podcast, {latest.number!.toLocaleString()} episodes and counting.</p>
 			<div class="hosts">
 				<h2 class="label">Hosted by</h2>
@@ -111,7 +111,7 @@ const blurb = latest.description.length > 420 ? latest.description.slice(0, 420)
 			{latestArt && <img class="latest-art" src={latestArt.src} alt="" width="500" height="750" />}
 			<div class="latest-body">
 			<p class="label muted">{episodeLabel(latest)} · <time datetime={latest.date}>{formatDate(latest.date)}</time></p>
-			<h3><a href={episodeHref(latest)}>{latest.title}</a></h3>
+			<h3 class="caps"><a href={episodeHref(latest)}>{latest.title}</a></h3>
 			{blurb && <p class="blurb">{blurb}</p>}
 			{
 				latest.reviews?.some((r) => r.ratings.length) && (
@@ -464,12 +464,8 @@ const blurb = latest.description.length > 420 ? latest.description.slice(0, 420)
 		display: block;
 	}
 
-	/* The hero title takes the wordmark's caps too; caps run wider, so it's a touch smaller than a serif title. */
+	/* Caps run wider, so the hero title is a touch smaller than a serif one would be. */
 	h1 {
-		font-family: var(--font-brand);
-		font-weight: 700;
-		text-transform: uppercase;
-		letter-spacing: 0.01em;
 		font-size: clamp(2rem, 4.6vw, 3.1rem);
 		line-height: 1.05;
 	}
@@ -613,6 +609,7 @@ const blurb = latest.description.length > 420 ? latest.description.slice(0, 420)
 
 	.latest h3 {
 		font-size: var(--step-3);
+		line-height: 1.15;
 	}
 
 	.latest h3 a {
