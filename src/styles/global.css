@@ -19,12 +19,11 @@
 	--focus: #8fb0ff;
 	--chart: #b060e8;
 
-	--font-display: 'Fraunces Variable', Georgia, serif;
-	/* The wordmark: Century Gothic Bold caps, like the original Film Junk logo. Century Gothic can't be
-	   served freely, so this is TeX Gyre Adventor (free, from the same Avant Garde lineage). */
-	--font-brand: 'TeX Gyre Adventor', 'Century Gothic', 'Avant Garde', sans-serif;
+	/* Headings and the wordmark: Century Gothic Bold caps, like the original Film Junk logo. Century
+	   Gothic can't be served freely, so this is TeX Gyre Adventor (free, from the same Avant Garde lineage). */
+	--font-display: 'TeX Gyre Adventor', 'Century Gothic', 'Avant Garde', sans-serif;
 	--font-body: 'Public Sans Variable', system-ui, sans-serif;
-	--display-weight: 300;
+	--display-weight: 700;
 
 	--step--2: 0.75rem;
 	--step--1: 0.875rem;
@@ -86,18 +85,9 @@ h3 {
 	font-family: var(--font-display);
 	font-weight: var(--display-weight);
 	line-height: 1.1;
-	letter-spacing: -0.015em;
-	margin: 0;
-}
-
-/* The wordmark's caps: section headings, plus the big titles that opt in with .caps
-   (the hero, the latest episode, a film's page). Other titles stay in the serif. */
-h2,
-.caps {
-	font-family: var(--font-brand);
-	font-weight: 700;
-	text-transform: uppercase;
 	letter-spacing: 0.02em;
+	text-transform: uppercase;
+	margin: 0;
 }
 
 h2 {
@@ -105,7 +95,7 @@ h2 {
 }
 
 h3 {
-	font-size: var(--step-2);
+	font-size: var(--step-1);
 }
 
 a {
