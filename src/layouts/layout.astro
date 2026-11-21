@@ -30,7 +30,8 @@ const fullTitle = title ? `${title} | Film Junk Podcast` : 'Film Junk Podcast';
 const path = Astro.url.pathname;
 // Absolute URLs need the site address (SITE_URL); without it they're left out rather than guessed.
 const canonical = Astro.site ? new URL(path, Astro.site).href : null;
-const siteCard = Astro.site ? new URL('/og.jpg', Astro.site).href : null;
+// Bump ?v= when the card changes; Discord and the like cache previews by URL.
+const siteCard = Astro.site ? new URL('/og.jpg?v=2', Astro.site).href : null;
 const shareImage = image ?? siteCard ?? DEFAULT_IMAGE;
 // JSON-LD sits in a script tag, so escape "<" so a title containing a closing script tag can't end it early.
 // (Spelled out in words: a literal tag here confuses the dev server's dependency scan.)
