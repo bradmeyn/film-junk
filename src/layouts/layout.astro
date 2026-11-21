@@ -109,8 +109,7 @@ const current = (href: string) => path.startsWith(href) || (href === '/episodes/
 		{canonical && <link rel="canonical" href={canonical} />}
 		{Astro.site && <link rel="sitemap" href="/sitemap-index.xml" />}
 		<link rel="alternate" type="application/rss+xml" title="Film Junk Podcast" href={LINKS.rss} />
-		<meta name="theme-color" content="#f3ecdf" media="(prefers-color-scheme: light)" />
-		<meta name="theme-color" content="#14110e" media="(prefers-color-scheme: dark)" />
+		<meta name="theme-color" content="#14110e" />
 		<meta property="og:site_name" content="Film Junk Podcast" />
 		<meta property="og:type" content={type} />
 		<meta property="og:title" content={title ?? 'Film Junk Podcast'} />
@@ -129,6 +128,7 @@ const current = (href: string) => path.startsWith(href) || (href === '/episodes/
 		<!-- Fonts are self-hosted (Fontsource) so text paints without waiting on another domain. -->
 		<link rel="preload" href={displayFont} as="font" type="font/woff2" crossorigin />
 		<link rel="preload" href={bodyFont} as="font" type="font/woff2" crossorigin />
+		<link rel="preload" href="/fonts/adventor-bold.woff2" as="font" type="font/woff2" crossorigin />
 	</head>
 	<body>
 		<a class="skip" href="#main">Skip to content</a>
@@ -213,9 +213,11 @@ const current = (href: string) => path.startsWith(href) || (href === '/episodes/
 
 	.brand {
 		color: var(--ink);
-		font-family: var(--font-display);
-		font-weight: var(--display-weight);
-		font-size: 1.75rem;
+		font-family: var(--font-brand);
+		font-weight: 700;
+		font-size: 1.45rem;
+		text-transform: uppercase;
+		letter-spacing: 0.02em;
 		text-decoration: none;
 		line-height: 1;
 	}
@@ -381,6 +383,7 @@ const current = (href: string) => path.startsWith(href) || (href === '/episodes/
 		font-size: var(--step--1);
 		font-weight: 700;
 		letter-spacing: 0;
+		text-transform: none;
 		margin-bottom: 0.5rem;
 	}
 
