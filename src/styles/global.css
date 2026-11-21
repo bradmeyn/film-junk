@@ -1,25 +1,28 @@
 :root {
-	/* Warm paper and ink, like a printed cinema programme. */
-	--bg: #f3ecdf;
-	--surface: #faf6ee;
+	/* Soft lavender and ink, from the logo's purple. */
+	--bg: #efe5fb;
+	--surface: #f8f3fe;
 	/* Text, brightest to quietest: --ink for headings and titles, --text for body copy, --muted for meta. */
-	--ink: #1d1813;
-	--text: #40382e;
-	--muted: #6a5f50;
-	--chevron: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 8'%3E%3Cpath d='M1 1.5l5 5 5-5' fill='none' stroke='%236a5f50' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E"); /* select arrow, in --muted */
-	--line: #d9cdb8;
-	--accent: #8a2fc4; /* logo purple, deepened for text contrast on light */
+	--ink: #1c1326;
+	--text: #3c3049;
+	--muted: #62557a;
+	--chevron: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 8'%3E%3Cpath d='M1 1.5l5 5 5-5' fill='none' stroke='%2362557a' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E"); /* select arrow, in --muted */
+	--line: #dacbef;
+	--accent: #7a24b8; /* logo purple, deepened for text contrast on lavender */
 	--accent-ink: #ffffff;
 	--brand: #d07cfa; /* logo background purple */
 	--brand-ink: #1a0f24;
 	--slime: #b4ca36; /* logo lettering green */
 	--slime-ink: #1a0f24;
-	--star: #9c6a00; /* 3:1 or more against --bg and --surface, so the stars read as more than decoration */
-	--premium: #4f6b00; /* slime green, deepened for text */
+	--star: #8f5f00; /* 4.5:1 or more against --bg and --surface, so the stars read as more than decoration */
+	--premium: #4a6400; /* slime green, deepened for text */
 	--focus: #2f5fd0;
 	--chart: #8a2fc4; /* validated: dataviz validate_palette.js vs #fff */
 
 	--font-display: 'Fraunces Variable', Georgia, serif;
+	/* The wordmark: Century Gothic Bold caps, like the original Film Junk logo. Century Gothic can't be
+	   served freely, so this is TeX Gyre Adventor (free, from the same Avant Garde lineage). */
+	--font-brand: 'TeX Gyre Adventor', 'Century Gothic', 'Avant Garde', sans-serif;
 	--font-body: 'Public Sans Variable', system-ui, sans-serif;
 	--display-weight: 300;
 
@@ -61,6 +64,13 @@
 		--chart: #b060e8;
 		color-scheme: dark;
 	}
+}
+
+@font-face {
+	font-family: 'TeX Gyre Adventor';
+	src: url('/fonts/adventor-bold.woff2') format('woff2');
+	font-weight: 700;
+	font-display: swap;
 }
 
 *,
