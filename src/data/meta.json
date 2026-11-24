@@ -1,5 +1,5 @@
 {
-	"builtAt": "2026-11-22T20:30:38.332Z",
+	"builtAt": "2026-11-24T01:21:35.845Z",
 	"yearNotes": {
 		"2005": [
 			"Total episodes: 47",
@@ -1070,16 +1070,16 @@
 					"episode": "1072",
 					"film": "altered-states",
 					"poster": "/fsoaPN5SWYgZ4B7GG9nRNj33so.jpg",
-					"status": "patreon"
+					"status": "out"
 				},
 				{
 					"date": "2026-11-30",
 					"title": "The Color of Money",
 					"year": 1986,
-					"episode": null,
-					"film": null,
+					"episode": "1073",
+					"film": "the-color-of-money",
 					"poster": "/dVdnHmdQu3JtLAAksjTmTEF76gD.jpg",
-					"status": "upcoming"
+					"status": "patreon"
 				}
 			]
 		},

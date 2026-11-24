@@ -1,6 +1,83 @@
 [
 	{
 		"notes": "",
+		"description": "It's just a game, man. Some balls and a stick. This week on Film Junk we're hitting the road with Paul Newman and Tom Cruise for The Color of Money, another arguably underrated Martin Scorsese picture. It's time to find out whether it deserves more respect. Is The Color of Money actually a good road trip movie? What is Eddie's motivation for taking Vincent under his wing? Do any of these hustles actually work in the real world? Should The Color of Money be considered the very first legacyquel? Money won is twice as sweet as money earned... rack 'em up and download this week's episode below.",
+		"mentioned": [],
+		"segments": [],
+		"watched": [],
+		"reviews": [
+			{
+				"title": "The Color of Money",
+				"year": 1986,
+				"ratings": [],
+				"film": "the-color-of-money"
+			}
+		],
+		"music": {},
+		"show": "Film Junk",
+		"part": null,
+		"dateApprox": false,
+		"pack": null,
+		"id": "1073",
+		"kind": "regular",
+		"number": 1073,
+		"date": "2026-11-23",
+		"title": "The Color of Money",
+		"links": {
+			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-1073-176099730",
+			"spotify": "https://open.spotify.com/episode/3wJq0o6D1xXVyfLD0joLh6"
+		}
+	},
+	{
+		"id": "1072",
+		"kind": "regular",
+		"show": "Film Junk",
+		"number": 1072,
+		"part": null,
+		"date": "2026-11-23",
+		"dateApprox": false,
+		"title": "Altered States",
+		"reviews": [
+			{
+				"title": "Altered States",
+				"year": 1980,
+				"ratings": [
+					{
+						"host": "Frank",
+						"score": 5,
+						"outOf": 5
+					},
+					{
+						"host": "Jay",
+						"score": 5,
+						"outOf": 5
+					},
+					{
+						"host": "Sean",
+						"score": 4.5,
+						"outOf": 5
+					}
+				],
+				"film": "altered-states"
+			}
+		],
+		"watched": [],
+		"segments": [],
+		"music": {},
+		"notes": "",
+		"description": "\"I'm not gonna listen to anymore of your cabalistic, quantum, frigging dumb limbo mumbo jumbo!\" This week on Film Junk, we are diving deep into the mysteries of human consciousness with Ken Russell's Altered States. Much like The Devils, this is another radical film from the visionary filmmaker that struggled to find an audience at the time. Is human spirituality just a state of mind? Would any of us try a sensory deprivation chamber? Does this movie go off the rails at some point or was it ever even on them? More importantly, did it blow our freakin' minds, dude? Embrace Eddie's idea of love and get it off with God on the latest episode of Film Junk.",
+		"pack": null,
+		"links": {
+			"libsyn": "https://directory.libsyn.com/episode/index/id/43721814",
+			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-1072-174999675",
+			"apple": "https://podcasts.apple.com/us/podcast/altered-states-1980/id74257105?i=1000803635791",
+			"spotify": "https://open.spotify.com/episode/3K4ESpU3trSSaLiLkeSYml"
+		},
+		"mentioned": [],
+		"hero": "Trice"
+	},
+	{
+		"notes": "",
 		"description": "00:00 - Intro\n01:05 - Ebenezer\n09:30 - Watchers\n14:44 - Godzilla Minus Zero\n18:31 - Wild Horse Nine\n22:42 - The Uninvited\n26:11 - Ali G: Who Iz I?\n33:54 - SCTV: The Greatest Show You’ve Never Heard Of\n41:55 - Jackass: Best and Last \n51:49 - The End of Oak St. \n54:22 - Love is Blind\n56:06 - The Hogan Family \n1:07:28 - Musk\n1:18:57 - The King of Queens\n1:20:36 - Misty Green",
 		"mentioned": [
 			{
@@ -93,52 +170,6 @@
 			"patreon": "https://www.patreon.com/filmjunk/posts/what-we-watched-175661150",
 			"spotify": "https://open.spotify.com/episode/0i79lhGvh2u7mFLnToRAwT"
 		}
-	},
-	{
-		"notes": "",
-		"description": "\"I'm not gonna listen to anymore of your cabalistic, quantum, frigging dumb limbo mumbo jumbo!\" This week on Film Junk, we are diving deep into the mysteries of human consciousness with Ken Russell's Altered States. Much like The Devils, this is another radical film from the visionary filmmaker that struggled to find an audience at the time. Is human spirituality just a state of mind? Would any of us try a sensory deprivation chamber? Does this movie go off the rails at some point or was it ever even on them? More importantly, did it blow our freakin' minds, dude? Embrace Eddie's idea of love and get it off with God on the latest episode of Film Junk",
-		"mentioned": [],
-		"segments": [],
-		"watched": [],
-		"reviews": [
-			{
-				"title": "Altered States",
-				"year": 1980,
-				"ratings": [
-					{
-						"host": "Frank",
-						"score": 5,
-						"outOf": 5
-					},
-					{
-						"host": "Jay",
-						"score": 5,
-						"outOf": 5
-					},
-					{
-						"host": "Sean",
-						"score": 4.5,
-						"outOf": 5
-					}
-				],
-				"film": "altered-states"
-			}
-		],
-		"music": {},
-		"show": "Film Junk",
-		"part": null,
-		"dateApprox": false,
-		"pack": null,
-		"id": "1072",
-		"kind": "regular",
-		"number": 1072,
-		"date": "2026-11-16",
-		"title": "Altered States",
-		"links": {
-			"patreon": "https://www.patreon.com/filmjunk/posts/film-junk-1072-174999675",
-			"spotify": "https://open.spotify.com/episode/306FZ1qSrKVagercn42MVD"
-		},
-		"hero": "Trice"
 	},
 	{
 		"id": "1071",

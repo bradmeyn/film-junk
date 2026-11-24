@@ -1,5 +1,42 @@
 [
 	{
+		"slug": "the-color-of-money",
+		"title": "The Color of Money",
+		"year": 1986,
+		"poster": "/dVdnHmdQu3JtLAAksjTmTEF76gD.jpg",
+		"votes": 1607,
+		"tmdb": {
+			"type": "movie",
+			"id": 11873
+		},
+		"imdb": "tt0090863",
+		"appearances": [
+			{
+				"id": "1073",
+				"role": "review"
+			},
+			{
+				"id": "862",
+				"role": "watched"
+			},
+			{
+				"id": "360",
+				"role": "watched"
+			}
+		],
+		"directors": [
+			{
+				"name": "Martin Scorsese",
+				"slug": "martin-scorsese"
+			}
+		],
+		"runtime": 119,
+		"genres": [
+			"Drama"
+		],
+		"overview": "Former pool hustler \"Fast Eddie\" Felson decides he wants to return to the game by taking a pupil. He meets talented but green Vincent Lauria and proposes a partnership. As they tour pool halls, Eddie teaches Vincent the tricks of scamming, but he eventually grows frustrated with Vincent's showboat antics, leading to an argument and a falling-out. Eddie takes up playing again and soon crosses paths with Vincent as an opponent."
+	},
+	{
 		"slug": "altered-states",
 		"title": "Altered States",
 		"year": 1980,
@@ -88216,39 +88253,6 @@
 			"Sci-Fi & Fantasy"
 		],
 		"overview": "Beginning in a time of relative peace, we follow an ensemble cast of characters as they confront the re-emergence of evil to Middle-earth. From the darkest depths of the Misty Mountains, to the majestic forests of Lindon, to the breathtaking island kingdom of Númenor, to the furthest reaches of the map, these kingdoms and characters will carve out legacies that live on long after they are gone."
-	},
-	{
-		"slug": "the-color-of-money",
-		"title": "The Color of Money",
-		"year": 1986,
-		"poster": "/dVdnHmdQu3JtLAAksjTmTEF76gD.jpg",
-		"votes": 1587,
-		"tmdb": {
-			"type": "movie",
-			"id": 11873
-		},
-		"imdb": "tt0090863",
-		"appearances": [
-			{
-				"id": "862",
-				"role": "watched"
-			},
-			{
-				"id": "360",
-				"role": "watched"
-			}
-		],
-		"directors": [
-			{
-				"name": "Martin Scorsese",
-				"slug": "martin-scorsese"
-			}
-		],
-		"runtime": 119,
-		"genres": [
-			"Drama"
-		],
-		"overview": "Former pool hustler \"Fast Eddie\" Felson decides he wants to return to the game by taking a pupil. He meets talented but green Vincent Lauria and proposes a partnership. As they tour pool halls, Eddie teaches Vincent the tricks of scamming, but he eventually grows frustrated with Vincent's showboat antics, leading to an argument and a falling-out. Eddie takes up playing again and soon crosses paths with Vincent as an opponent."
 	},
 	{
 		"slug": "untold-the-girlfriend-who-didnt-exist",
