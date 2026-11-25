@@ -1,5 +1,5 @@
 {
-	"builtAt": "2026-11-24T23:19:18.331Z",
+	"builtAt": "2026-11-25T22:52:00.453Z",
 	"yearNotes": {
 		"2005": [
 			"Total episodes: 47",
@@ -1178,6 +1178,11 @@
 			"art": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/23/81/51/238151c4-8f05-71f8-ec23-fb7b02eb6acd/mza_6021458389695684246.jpg/600x600bb.jpg",
 			"episodes": [
 				{
+					"title": "Game Junk 290: Is Grand Theft Auto VI a Game Changer?",
+					"date": "2026-11-25",
+					"url": "https://podcasts.apple.com/us/podcast/game-junk-290-is-grand-theft-auto-vi-a-game-changer/id385273911?i=1000804037452"
+				},
+				{
 					"title": "Game Junk 289: Breaking Down The Game Awards 2026 Nominations + Junk Mail",
 					"date": "2026-11-18",
 					"url": "https://podcasts.apple.com/us/podcast/game-junk-289-breaking-down-the-game-awards-2026/id385273911?i=1000802763604"
@@ -1186,12 +1191,6 @@
 					"title": "Game Junk 288: The Legend of Zelda: Ocarina of Time Remake Initial Impressions",
 					"date": "2026-11-11",
 					"url": "https://podcasts.apple.com/us/podcast/game-junk-288-the-legend-of-zelda-ocarina-of/id385273911?i=1000801264855"
-				},
-				{
-					"title": "Early Predictions for The Game Awards 2026",
-					"number": 287,
-					"date": "2026-11-04",
-					"url": "https://podcasts.apple.com/us/podcast/game-junk-episode-287-early-predictions-for-the-game/id385273911?i=1000799845006"
 				}
 			]
 		},
